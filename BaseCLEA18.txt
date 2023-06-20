@@ -26,6 +26,8 @@ $ $ $ Marr 2023 = Marr, Clayton. 2023. The Angevin–Albanian element in the Alb
 $ $ $ Orel 1998 = Orel, Vladimir. 1998. Albanian etymological dictionary. Brill.
 $ $ $ Orel 2000  = Orel, Vladimir. 2000. A concise historical grammar of the Albanian language: reconstruction of Proto-Albanian. Brill. 
 
+$ "DV-NOTATION" for indexing De Vaan 2018 rules -- DV####.ɑβɣ##. -- DV for De Vaan, ### is page number, ɑβɣ is an alphabetic index in (A, B, C...) for each transformation on thepage (starting wiht A, etc...), and   the number is the line of that transformation on that page. 
+
 $ circa 300 BCE, rather approximately
 ~Pre-Proto-Albanian
 
@@ -43,12 +45,12 @@ $ Deaspiration: this may or (more probably) may not have been contemporaneous wi
 $	simple voiced stops, but clearly Greek loanwords with aspirate voiceless stops became simple voiceless in/by the 2nd cent CE
 $		cf. Pope 1934 p226 s629
 $	however inclusion in the Albanian cascade is specifically justified by the treatment of OGr loans into Albanian by De Vaan 2018
-$		e.g. De Vaan 2018 p1739 ~ mokër "millstone" Doric *mākhānā
+$		e.g. De Vaan 2018 p1739 ~ DV1739.A4 -- mokër "millstone" Doric *mākhānā
 [+sg,-cont] > [-sg]
 
 $ Latin(-internal?) NASAL FRICATIVE PHENOMENON : Latin nasals lost before fricatives, making a prior vowel long if there was a prior 
 V. 
-	$ an input assumption for De Vaan 2018(:1735) wrt krushk "in-law" < CONSOCER 
+	$ an input assumption for DV1735.D4. wrt krushk "in-law" < CONSOCER 
 	$ some assert these long V-s would have gone through a stage of nasality for the vowels, but De Vaan does not consider this 
 		$ relevant for Albanian outcomes
 		$ inquiry into whether occasional Gheg nasality in these places (there are some 20-30 relevant words, at least can 
@@ -56,7 +58,7 @@ V.
 	$ cf Pope 1934 s359 (as a "very early" phenomenon in Latin), also p73 s156ii; also Allen 1978(:27-31, 55-6). 
 [+syl] n > [+long] ∅ / __[[-son,+cont]
 
-$$ De Vaan does not explicitly handle the change in Latin vowel length to vowel quality so this cascade won't either. 
+$$ De Vaan 2018 does not explicitly handle the change in Latin vowel length to vowel quality so this cascade won't either as of now.
 
 $ gliding of unstressed /i/ and /e/ in hiatus with a following vowel to [j] -- cf. Pope 1934 s220. This is attested early but not 
 $ trivially early -- it is in the Appendix Probi, as Pope 1934(:s220) notes. De Vaan 2018(:1744) seems to implicate this had occurred 
@@ -67,13 +69,13 @@ $ accuracy. Likewise these must also come before De Vaan 2018(: 1740)'s rules fo
 $ of PAlb *ʎ and *ɲ, and bleed the formation of *l:.  
 $ for convenience, and given Pope 1934(:s220), and given that forming a broad rule is trivial here, the same is done for /u/ and /o/. 
 	$ inasmuch as Latin orthographic V was used for both, there is perhaps mild support for De Vaan 2018 also having this here, 
-		$ as informed by the handling of betacism of V (De Vaan 2018: 1744). 
-[-lo,+syl] > [-syl,+hi] / __ [+syl]
+		$ as informed by the handling of betacism of V (De Vaan 2018: 1744 -- DV1744.C1) 
+[-lo,+syl,-prim] > [-syl,+hi] / __ [+syl]
 
 $ effacements of intervocalic stops and /w/ follow (I'd note they were perhaps all phonetically fricatives at the time 
 they were effaced, cf Pope 1934 on Latin /w/ as [ɣʷ], as noted in BaseCLEF) 
 
-$ effacement of intervocalic /d/, per De Vaan 2018(: 1745). 
+$ effacement of intervocalic /d/, per De Vaan 2018(: 1745 -- DV1745.A4) 
 $	$ He asserts that native Proto-Albanian */d/ had a different fate in the same environment, 
 	$	becoming /ð/ only after /d/ in Latin words was effaced, 
 	$	with the same also occuring for both native and Latin /d/ in V__r (see De Vaan 2018: 1744)
@@ -86,21 +88,31 @@ $ $ The etyma cited by De Vaan 2018 as evidence for this are counterexplained
 		$ cf. Bonnet 1998(:166) 
 	$ and for fe and pre being counterexplained as possible later Angevin loans (Marr 2023) 
 	$ counterexamples noted by Orel 2000 and Marr 2023 include modh < MODVS, prodhoj < PRŌDĀRE, predhë < PRAEDA, adhuroj/adhëroj < ADŌRĀRE
-d > ∅ / V __V
+d > ∅ / V __ V
 
-$ De Vaan 2018 (: 1745) -- Latin /b/ is deleted both (a) intervocalically and (b) in V __ r [he doesn't say so but all cases he lists 
+$ DV1744.E4 -- Latin d becomes edh after r (as with PPAlb d -- DV1744.E2) 
+d > ð / r __
+
+$ De Vaan 2018 (: 1745.A4) -- Latin /b/ is deleted both (DV1745.A2) intervocalically and (DV1745.A3) in V __ r 
+	$ he explicate the prior vowel in DV1745.A3 (i'ts just " __ r") but all cases he lists 
 	$ are actually V __ r V, and I don't think Latin has any C b r C strings, let alone those that would have made it into Proto-Albanian 
 	$ for (b) he lists farkë "smithy" < FABRICA, OGeg fëruor "february" < FEBRUĀRIVS, kushëri "cousin" < CŌNSOBRĪNVS, harr-o- "to  forgot < ABERRĀRE
 	$ for (a): buall "buffalo" < BUBALVS, djall "devil" < DIABOLVS, i/e lirë "free" < LIBER, kut "elbow" < CUBITVS) 
 b > ∅/ V __ (r) V
 
-$ De Vaan 2018 (: 1745) -- loss of Latin /w/ intervocalically: cf. qytet 'city' < CĪVITĀTEM, njerkë "stepmother" < NOVERCA
-w > ∅/ V __ V
+$ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: cf. qytet 'city' < CĪVITĀTEM, njerkë "stepmother" < NOVERCA
+w > ∅ / V __ V
 
 $ p1743 -- w > b after r and l. But at this point, these are the only coronals w can come after.
 w > b / [+cor] __
 
-$ k becoming yod if next to front vowel -- De Vaan 2018(:1744) 
+$ De Vaan p1743-4 -- w dropped between k (DV1743.G2) or g (DV1744.A2), and vowels. This will eventually feed the palatalization of these velars before i/e/y (p1743) but this feeding does not have to be explicitly coded in. 
+w > ∅ / [-cont,+back] __ [-cons] 
+
+
+$TODO unstress vowel drops in here. 
+
+$ k becoming yod before /t/ if next to front vowel -- De Vaan 2018(:1744) 
 		$ ~ "originally perhaps conditioned by preceding or following front vowels and a" 
 	$ potentially IMPORTANT: what frontness should we treat /a/ as having at this point? For the inputs to Gallo-Romance, Pope 1934 treats Latin /a/ and /aː/ as originally backed, but becoming fronted... what should they be here?  
 	$ given that he lists SANCTVS > shenjtë "holy, saint", this...
@@ -115,6 +127,19 @@ $ second part -- prior conditioning
 k > j / [-stres,-round] __ t
 
 $ may want to rework the above to occur only after (or just at the point when...?) that unstressed internal vowel drops...?
+
+$ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV1744.F1, .F2, .G1, .G3) 
+[+ant,+cor,-cont] j > [-ant,+distr,+delrel] ∅
+
+$ s becomes ʃ -- for s in reflexes of Old Greek (presh < prason), Latin, and the earliest Slavic loans (grusht, shkrap) becomes ʃ (1744.H) -- but this is not fed by tʃ becoming s (DV1744.F and 1744.G) 
+s > ʃ
+
+$ dʒ and tʃ pass to z and s -- whether from PPAlb dʒ/tʃ or from reflexes of Latin loans in dj-, tj (DV1744.F1, .F2, .G1, .G3)
+[-ant,+distr,+delrel] > [+ant,-distr,-cont]
+
+
+
+
 
 
 

@@ -1,0 +1,29 @@
+$ This cascade is primarily based off of CLEA18, and is a precursor to the proper debugging. Changes here are mostly for parsimony as of June 20 2023. 
+
+$ On periodization, see comments at top of BaseCLEA18
+
+
+$ "DV-NOTATION" for indexing De Vaan 2018 rules -- DV####.ɑβɣ##. -- DV for De Vaan, ### is page number, ɑβɣ is an alphabetic index in (A, B, C...) for each transformation on thepage (starting wiht A, etc...), and   the number is the line of that transformation on that page. 
+
+$ circa 400 BCE, rather approximately
+~Antique Proto-Albanian
+
+
+$$|| Input handling|| 
+$  rules following here are not core aspects of De Vaan 2018's proposed rules, 
+$	but they are necessary to get the right outcomes,
+$	i.e. to prevent errors that are "uninteresting"
+$	some are drawn from our knowledge of what was going on within Latin
+$	they are certainly subject to inspection and possible critique
+$	many are nonetheless clearly assumed by De Vaan 2018 in terms of how he treats the nature of the input to rules he does explicate
+$	or OGr (as in deaspiration) 
+
+$ general rule for De Vaan(:1747) is no change in stress placement: by default, Latin loans have the same stress placement as in Classical Latin, "and the same goes for loanwords from later layers... Slavic, Italian... Greek... Turkish". Exceptions seem to be largely morphologically motivated (see bottom of p1747); De Vaan (1747) agrees with Matzinger 2006 that things are too complicated for Jokl 1923's treatment of PPAlb as having general penultimate accent. 
+
+$ Deaspiration: this may or (more probably) may not have been contemporaneous with the merger of PIE aspirate voiced stops into 
+$	simple voiced stops, but clearly Greek loanwords with aspirate voiceless stops became simple voiceless in/by the 2nd cent CE
+$		cf. Pope 1934 p226 s629
+$	however inclusion in the Albanian cascade is specifically justified by the treatment of OGr loans into Albanian by De Vaan 2018
+$		e.g. De Vaan 2018 p1739 ~ DV1739.A4 -- mokër "millstone" Doric *mākhānā
+$ corresponds to Orel 1.4.7.1 
+[+sg,-cont] > [-sg]

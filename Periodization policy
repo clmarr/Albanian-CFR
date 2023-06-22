@@ -14,11 +14,20 @@ De Vaan does not have Early and Late Proto-Albainan, but rather Pre-Proto-Albani
 internally breaking PPAlb on teh basis of when Greek loans occurred, and breaking PAlb on the timing of contact with Proto-Romanian. 
 Another view does have "Late Proto-Albanian" continuing long after teh dialect split happened, until the onset of Turkish laons -- which for most other accounts is effectively Early Old Albanian (Gheg, Tosk...). 
 Some accounts, especially Orel's, also distinguish different waves of Latin loans (and different waves of Slavic loans).
-At least three Latin waves not attributed to specific later Romance languages appear to be there.
+At least three Latin waves not attributed to specific later Romance languages appear to be in Orel. 
 
-The goal here is to make a periodization that is consistent and can fit different views. 
-There are to be no gold stages before attested Old Albanian in the 15th/16th/17th centuries.
+The goal here is to make a periodization that is consistent and can fit different views.
+We want to handle existing treatments in the way most likely to lead to new insights. 
+Ultimately lexical items will be divided in terms of when they will "enter the lexicon" that the cascade operates upon. 
+There might have to be a different treatment so that we can allow Orel to be tested on his own terms -- in terms of his early Latin loans, later Latin loans etc... 
+Some of the  difference is Latin internal though, and that is to be handled in terms of the form of the item entered into the cascade-operated lexicon. 
+Cases where De Vaan has competing rules for Latin etyma that overlap in scope will have to be handled in terms of a difference in entry timeas well - there does not seem to be another option (or form at entry with Latin internal rules applied? -- but just as done with Orel either way). 
+The same order as Orel will be assumed if it works for De Vaan's cascade, otherwise an order that seems consistent with the forms he applies will be applied, with notes in comments for justification as deemed necessary. 
+Where there is uncertainty, the option deemed least likely to lead to downstream errors will be chosen -- with notes in comments on the uncertainty.
+There are to be no gold stages before attested Old Albanian in the 15th/16th/17th centuries -- as there is no observed corpus. 
 The main purpose of different stages is to have consistent times to compare, and times to place the entry of different items into the lexicon operated upon. 
+Having the stages is not making any claims -- a stage can simply be left without any lexemes entering at that point. 
+But they do allow testing hypotheses about the origins of words, and allow a mapping between the works of different authors. 
 Thus the following policies apply.
 
 Proto-Albanian refers to stages that are before the split of Gheg and Tosk. 
@@ -27,10 +36,60 @@ The few rhotacised Slavic words in Tosk can be placed before this (if there is n
 
 Since all Proto-Albanian changes common to Gheg and Tosk happen before then, the stage LATE PROTO-ALBANIAN refer to the accumulation of all of these changes before the split. 
 
-Thus, the stages: 
+Thus, the stages. Each is recorded at its end point-- the culmination of the changes occurring within it. So they are effectively POSTDATED.
 
-1. Proto-Indo-European
-2. Pre-Proto-Albanian -- PPA -- before earliest Greek loans.
-3. Early Proto-Albanian -- EPA -- postdated 250 BCE, after earliest Greek loans, before earliest Latin loans (and next wave of Greek loans per Huld 1986?) 
-4. Middle Proto-Albanian -- MPA -- postdated 150 CE, after earliest Latin loans (and next wave of Greek), before wave of Latin loans that have seen quantity-quality changes in vowels etc, before the few early Slavic loans
-5. Late Proto-Albanian -- LPA -- postdated 650 CE, after later Latin loans, and the first few early Slavic loans with Tosk rhotacism
+0. Proto-Indo-European
+		-- agnostic for now if treating greater Proto-Indo-European, before the split of Anatolian (and Tocharian), or the smaller one here. 
+	layers added at this point: native vocab
+
+I. Pre-Proto-Albanian -- PPA -- before earliest Greek loans (and possible other very early loans?? This allows us to test for this.). 
+	Exact date unknown but must be before 350 BCE. Probably ends long before that in fact.
+	falls before the end of Early Proto-Albanian for Orel and Pre-Proto-Albanian for De Vaan
+	layers added at this point: Greek Wave 1 (Doric and/or "Macedonian" -- cf Huld 1986); other proposed early loans; proposed neologisms at this point? (these won't be mentioned but are implicit for stages below.  
+		
+		
+II. Antique Proto-Albanian -- APA -- changes in this period affect earliest Greek loans, but not earliest wave of Latin loans 
+	Postdated to c. 150 BCE
+	the end is equivalent to De Vaan 2018's PPAlb, and in terms of relative phonological chronology to Orel 2000's EPA
+
+	PIE & Gk a: > ɒː in this period (later > ɔː) 
+			Orel claims that a one Latin loan is affected, but there's a better explanation 
+		Alb mollë "apple, apple tree" does not need to be Lat. mālvm id. (Orel 2000: 31), but could instead be from Doric mālā (Schumacher & Matzinger 2013). 
+		(subsequent Greek possible waves at every later stage)
+
+III. Classical Proto-Albanian -- CPA
+	
+	Postdated to c. 200 CE
+	Waves affected by changes in this period but not earlier ones: first Latin wave ("Classical Latin" ?)
+
+		wrt. De Vaan 2018(:1732); divergence of Albanian etyma in Romanian around the end of this or between that and the end of the next period.
+	
+	Waves first affected by changes in this period:
+		second Latin wave
+
+IV* -- Middle Proto-Albanian -- MPA (tentatively)
+	tentative stage
+	to handle various to be entered here: 
+		putative Gothic loans should enter here if they are to be tested
+		"late wave" Latin loans if necessary to test views, probably those of Orel
+		divergence of Albanian etyma in Romanian after this (cf De Vaan 2018 : 1732) 
+		also the few pre-rhotacism Slavic loans 
+	very tentatively 450 CE
+
+V. Late Proto-Albanian -- LPA 
+	Postdated to c. 700 CE 
+	equivalent to end of LPA for Orel, and PAlb for De Vaan 
+	after this Gheg and Tosk split
+
+	Waves first affected changes in this period: 
+		Proto-Slavic (main wave)
+		local Romance substrate? 
+	after this, Gheg and Tosk split. 
+
+
+For now, only doing CFR for the Tosk underlying Standard Albanian, i.e. a southern Northern Tosk variety (i.e. like the speech around Kelcyra etc)
+Tosk splits in middle ages most likely
+	Southern Tosk may have different outcomes for nasal outcomes which argues for an early split
+	Southern Tosk itself differentiates probably in or by the 13th century, even it subgroups are diverse (moreso than Northern Tosk) 
+Gheg must have broken up before the Ottoman era, but unclear how long before that at present. 
+		

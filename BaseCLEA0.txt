@@ -3,20 +3,8 @@ $ $ Orel 2000  = Orel, Vladimir. 2000. A concise historical grammar of the Alban
 $ Some liberties were taken in order to make sure rules apply as Vladimir Orel seems to have intended; explanations will be given as deemed 
 $ necessary. 
 
-$ STAGES: 
-$ De Vaan 2018's "Pre-Proto-Albanian" is roughly equivalent to Orel 
-$ 2000's "Early Proto-Albanian", and effectively a ~"Pre-Contact Proto-Albanian"
-$ for our purposes. De Vaan 2018's "Proto-Albanian", and Orel 
-$ 2000's "Later Proto-Albanian", are roughly equivalent to a ~"Post-Contact 
-$ Proto-Albanian". 
-$ For De Vaan, development of the oldest layer of Greek words (cf. Huld 1986) are also incorporated into this stage framework. 
-$ Orel 2000 does treat Latin and Greek loans separately, but doesn't handle the difference in terms of chronology (unlike
-$ his treatment of Slavic loans". Thus this first layer will be the pre-Greek and pre-Latin layer for now. 
-$ and will be Antique Proto-Albanian -- as the "Makedonian" or oldest Greek layer in Albanian seems to date to the 5th cent BCE (Huld 1986: 248).
+$ STAGES: see Periodization policy. 
 
-$ This cascade will not explicitly encode De Vaan 2018's proposals (new, 
-$ and retentions from older work, alike) for Proto-Albanian developments 
-$ from Proto-Indo-European, yet at least (as of March 14, 2023). 
 $ Other cites referenced are as follows -- 
 $ $ $ Allen 1978 = Allen, William Sidney. 1978. "Vox Latina--a Guide to the Pronunciation of Classical Latin" (2nd ed.). Cambridge 
 University 
@@ -34,8 +22,27 @@ $ $ $ Marr 2023 = Marr, Clayton. 2023. The Angevin–Albanian element in the Alb
 $ $ $ Orel 1998 = Orel, Vladimir. 1998. Albanian etymological dictionary. Brill.
 
 
-$ circa 400 BCE, rather approximately
-~Antique Proto-Albanian
+~Proto-Indo-European
+
+=Pre-Proto-Albanian
+
+$aː > ɒː 1.2.1.0 & 1.1.2.1 -- Orel's EPA ā changes to "å". Happens by LPA, but happens to Greek loans (1.2.1.0) but not Latin (except he asserts for the case of mollë < mālvm -- which Schumacher & Matzinger attribute to Doric mālā). 
+[+low,+long] > [+back,+round]
+
+$ Deaspiration -- Orel 1.4.7.1 
+$ this may or (more probably) may not have been contemporaneous with the merger of PIE aspirate voiced stops into 
+$	simple voiced stops, but clearly Greek loanwords with aspirate voiceless stops became simple voiceless in/by the 2nd cent CE in Latin/Romance, cf. Pope 1934 p226 s629
+$ corresponds to DV1739.A4
+[+sg,-cont] > [-sg]
+ 
+=Antique Proto-Albanian
+
+
+
+
+
+
+=Classical Proto-Albanian
 
 $ TODO review Orel on Proto-Albanian stress placement. 
 
@@ -47,14 +54,7 @@ $	some are drawn from our knowledge of what was going on within Latin
 
 $ end of Latin input handling bandaids.
 
-$ Deaspiration -- Orel 1.4.7.1 
-$ this may or (more probably) may not have been contemporaneous with the merger of PIE aspirate voiced stops into 
-$	simple voiced stops, but clearly Greek loanwords with aspirate voiceless stops became simple voiceless in/by the 2nd cent CE in Latin/Romance, cf. Pope 1934 p226 s629
-$ corresponds to DV1739.A4
-[+sg,-cont] > [-sg]
-
-
-
+=Middle Proto-Albanian
 $Orel 1.4.7.13 on p115 -- ns > ʃ
 	$ handled in other cascade as part of Latin input handling due to Latin nasal fricative law -- which was in the 2nd century in Latin -- cf Pope 1934 s359 (as a "very early" phenomenon in Latin), also p73 s156ii; also Allen 1978(:27-31, 55-6). 
 	$ unlike what happened in Latin, Orel does not give attribute a lengthening effect on prior vowels to this. 
@@ -62,9 +62,6 @@ $Orel 1.4.7.13 on p115 -- ns > ʃ
 n s > ʃ
 
 
-
-$stage, circa 500 CE, after first waves of Latin and Greek loans, but before the earliest Slavic loans (and the next waves of the former). Putative Gothic and Iranian loans should probably be entered around here too. 
-=Later Proto-Albanian
 
 $ intervocalically and after r, Latin d becomes ð (Orel p105), and this also happens for early Slavic loans (1.4.7.16 on p120), and also to Proto-Albanian *d in these positions (Orel 1.4.2.7); in the latter (Orel p65), Orel attributes this spirantization a date in the 10th to 12th century, and relates it to Greek influence -- so it is a much later phenomenon for him. 
 $ this corresponds to a quite different treatment in DV1744.A and .E 
@@ -76,6 +73,8 @@ $ for impact on native vocab -- Orel 1.4.4.4 & 1.4.4.5 (p74-5)
 $ impact on Latin and relation to same rule for native vocab -- Orel 1.4.4.7 @ pp107-8
 	$ corresponds to DV1744.F1, .F2, .G1, .G3 
 [+ant,+cor,-cont] j > [-ant,+distr,+delrel] ∅
+
+=Late Proto-Albanian
 
 $ s becomes ʃ -- for s in reflexes of Old Greek in presh < praso (Orel p102), Latin (Orel p102-3), and the earliest Slavic loans (shark, trishe etc...) becomes ʃ (Orel p121) -- but this is not fed by tʃ becoming s 
 	$ corresponds to DV1744.F and 1744.G 

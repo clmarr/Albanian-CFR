@@ -4,16 +4,7 @@ $ Some liberties were taken in order to make sure rules apply as Michiel
 $ de Vaan seems to have intended; explanations will be given as deemed 
 $ necessary. 
 
-$ STAGES: 
-$ De Vaan 2018's "Pre-Proto-Albanian" is roughly equivalent to Orel 
-$ 2000's "Early Proto-Albanian", and effectively a ~"Pre-Contact Proto-Albanian"
-$ for our purposes. De Vaan 2018's "Proto-Albanian", and Orel 
-$ 2000's "Later Proto-Albanian", are roughly equivalent to a ~"Post-Contact 
-$ Proto-Albanian". 
-$ For De Vaan, development of the oldest layer of Greek words (cf. Huld 1986) are also incorporated into this stage framework. 
-$ Orel 2000 does treat Latin and Greek loans separately, but doesn't handle the difference in terms of chronology (unlike
-$ his treatment of Slavic loans". Thus this first layer will be the pre-Greek and pre-Latin layer for now. 
-$ and will be Antique Proto-Albanian -- as the "Makedonian" or oldest Greek layer in Albanian seems to date to the 5th cent BCE (Huld 1986: 248).
+$ STAGES: see periodization policy. 
 
 $ This cascade will not explicitly encode De Vaan 2018's proposals (new, 
 $ and retentions from older work, alike) for Proto-Albanian developments 
@@ -36,13 +27,15 @@ $ $ $ Orel 2000  = Orel, Vladimir. 2000. A concise historical grammar of the Alb
 
 $ "DV-NOTATION" for indexing De Vaan 2018 rules -- DV####.ɑβɣ##. -- DV for De Vaan, ### is page number, ɑβɣ is an alphabetic index in (A, B, C...) for each transformation on thepage (starting wiht A, etc...), and   the number is the line of that transformation on that page. 
 
-$ circa 500 BCE, rather approximately
-~Pre-Greek Proto-Albanian
+~Proto-Indo-European
 
-$ rule to capture movement of native and Greek aː to ɔː -- for benefit of the doubt, borrowing Orel's usage of ɒː to allow this to not to pattern with Latin aː while respecting the chronology of vocalic developments on De Vaan p1736. 
+$ pre-Greek proto-Albanian. 
+=Pre Proto-Albanian
+
+$ rule to capture movement of native and Greek aː to ɔː -- for benefit of the doubt, borrowing Orel's usage of ɒː to allow this to not to pattern with Latin aː while respecting the chronology of vocalic developments on De Vaan p1736. So here we have aː > ɒː 
 [+long,+low] > [+back,+round]
 
-~Pre-Roman Proto-Albanian
+=Antique Proto-Albanian
 
 $ general rule for De Vaan(:1747) is no change in stress placement: by default, Latin loans have the same stress placement as in Classical Latin, "and the same goes for loanwords from later layers... Slavic, Italian... Greek... Turkish". Exceptions seem to be largely morphologically motivated (see bottom of p1747); De Vaan (1747) agrees with Matzinger 2006 that things are too complicated for Jokl 1923's treatment of PPAlb as having general penultimate accent. 
 
@@ -157,8 +150,10 @@ $ De Vaan does not include ps > fs(h) -- data seems inconsistent as there is gri
 p > k / __ t
 k > f / __ {t;s}
 
-$stage, circa 500 CE, after first waves of Latin and Greek loans, but before the earliest Slavic loans (and the next waves of the former). Putative Gothic and Iranian loans should probably be entered around here too. 
-=Later Proto-Albanian
+=Middle Proto-Albanian
+
+
+=Late Proto-Albanian
 
 $ post-nasal stop voicing. De Vaan attributes this to Proto-Albanian, for Latin and native words alike for -p- (DV1743.B2, .B4) and -t- (.D2), while treating Latin loans alone for k > g / n __ (DV1744.A1, .A3)
 	$ De Vaan's handling of /p/ is given the same time betweeen native and Latin strata, but not the
@@ -181,6 +176,11 @@ s > ʃ
 $ dʒ and tʃ pass to z and s -- whether from PPAlb dʒ/tʃ or from reflexes of Latin loans in dj-, tj (DV1744.F1, .F2, .G1, .G3)
 [-ant,+distr,+delrel] > [+ant,-distr,-cont]
 
+= Proto-Tosk
+
+= Old Northern Tosk
+
+~ Modern Albanian Standard
 
 
 

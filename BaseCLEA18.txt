@@ -29,13 +29,56 @@ $ "DV-NOTATION" for indexing De Vaan 2018 rules -- DV####.ɑβɣ##. -- DV for De
 
 ~Proto-Indo-European
 
+$from De Vaan 1738-9, mostly not yet ordered -- TODO
+$for now, coding laryngeals as specific sounds since we can't handle h1 h2 h3 etc. 
+$choose features closest to their coloring vowel . 
+$ h for h1 -- no coloring effect negative for all feats (except cont.)	(or use ʔ ?) 
+$ ħ for h2 -- -front +back -round -hi +lo --like a  
+$ χʷ for h3 -- -front +back +round -hi -lo -- like o 
+$ h2 and h3 can be minimally captured as +back,+cont
+$ the three together can be captured as -cor,-son,+cont (unless we make h1 ʔ -- this is an argument not to)
+$ (x for Hamp's h4 if we need it? ) (or use h and make h1 ʔ ?) 	(or could use ? or h4) 
+$ using j for i̯ and w for u̯
+
+$DV1738~2.3A1 
+r̩ > r i 
+
+$DV1738~2.3C1 part 1, e > a after h2. Nothing listed for h3 here. 
+[-hi,-round] > [+lo] / ħ __
+
+$DV1738~2.3C4 -- h2 and h3 before a become syllabic resonants. Reformulated here so that stress is preserved and the resonants lose resonance in a single rule. 
+$this may actually be multiple phenomena, with a later *o created by this rule or other phenommena involving h3 later merging to *a, but it's handled as one phenomenon by De Vaan it seems.
+[+back,+cont] [+syl,+cons,βstres,ɣprim] > [+syl,+lo,-round,βstres,ɣprim] [-syl]
+
+$DV1738~2.3D2 -- wL̥T > uLT
+$formulated somewhat verbosely here to preserve any stress. 
+w [+cons,+syl,βstres,ɣprim] > u [-syl] / __ [-son]
+
+$DV1738~2.3.C7&C8 -- resonant nasals become a. Formulated more verbosely with feature matrices here so as to preserve existing stress. TODO check formulation for errors.
+[+nas,+syl] > [+back,-lab,-cor,+lo]
+
+$DV1738~2.3C5&C6 -- any H becomes *a in C__C (C4) and CR__C (C5) 
+$ of course syllabic resonants are +cons anyways, so the context can be +cons __ -son
+$TODO there may be stress issues with this to resolve. 
+[-cor,-son,+cont] > a / [+cons] __ [-son]
+
+$DV1738~2.3C3 -- "*a < RHV" -- not sure I interpreted this right, he gives pare "first" as example
+$ TODO there may be stressing issues. Leaving this unstressed for now. 
+[+cons,+son] [+cont,-son,-syl] [+syl,βstres,ɣprim] > a
+
+$TODO incorporate insertion of PPAlb a in between two consonants. -- DV1738~2.3C9 
+
+$TODO incorporate loss of syllabicity for remaining syllabic resonants after adjacent to syllabic elements
+$DV1738~2.3B1 -- h1 deleted with no trace before e -- incorporate... 	
+	$ incorp deletion of h2 before e > a (2.3C1) 
+
+
+
 $ pre-Greek proto-Albanian. 
 =Pre Proto-Albanian
 
-$ rule to capture movement of native and Greek aː to ɔː -- for benefit of the doubt, borrowing Orel's usage of ɒː to allow this to not to pattern with Latin aː while respecting the chronology of vocalic developments on De Vaan p1736. So here we have aː > ɒː 
+$ rule to capture movement of native and Greek aː to ɔː -- for benefit of the doubt, borrowing Orel's usage of ɒː to allow this to not to pattern with Latin aː while respecting the chronology of vocalic developments on De Vaan p1736. So here we have aː > ɒː. Note also DV1739.A4 where Doric mākhānā is listed here. 
 [+long,+low] > [+back,+round]
-
-=Antique Proto-Albanian
 
 $ general rule for De Vaan(:1747) is no change in stress placement: by default, Latin loans have the same stress placement as in Classical Latin, "and the same goes for loanwords from later layers... Slavic, Italian... Greek... Turkish". Exceptions seem to be largely morphologically motivated (see bottom of p1747); De Vaan (1747) agrees with Matzinger 2006 that things are too complicated for Jokl 1923's treatment of PPAlb as having general penultimate accent. 
 
@@ -46,6 +89,10 @@ $	however inclusion in the Albanian cascade is specifically justified by the tre
 $		e.g. De Vaan 2018 p1739 ~ DV1739.A4 -- mokër "millstone" Doric *mākhānā
 $ corresponds to Orel 1.4.7.1 
 [+sg,-cont] > [-sg]
+
+
+=Antique Proto-Albanian
+
 
 $$|| Latin Input handling|| 
 $  rules following here are not core aspects of De Vaan 2018's proposed rules, 

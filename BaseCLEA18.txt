@@ -10,9 +10,7 @@ $ This cascade will not explicitly encode De Vaan 2018's proposals (new,
 $ and retentions from older work, alike) for Proto-Albanian developments 
 $ from Proto-Indo-European, yet at least (as of March 14, 2023). 
 $ Other cites referenced are as follows -- 
-$ $ $ Allen 1978 = Allen, William Sidney. 1978. "Vox Latina--a Guide to the Pronunciation of Classical Latin" (2nd ed.). Cambridge 
-University 
-Press. 
+$ $ $ Allen 1978 = Allen, William Sidney. 1978. "Vox Latina--a Guide to the Pronunciation of Classical Latin" (2nd ed.). Cambridge University Press. 
 $ $ $ Bonnet 1998 = Bonnet, Guillaume. 1998. "Les mots latins de l'albanais". L'Harmattan. 
 $ $ $ Çabej 1962 = Çabej, Eqrem. 1962. Zur Charakteristik der lateinischen Lehnworter im Albanischen. Revue de Linguistique (Bucureşti),  7:161–199.
 $ $ $ Çabej 1986 = Çabej, Eqrem. 1986. Studime gjuhësore, volume I-VIII. Prishtinë: Rilindja. 
@@ -30,7 +28,8 @@ $ "DV-NOTATION" for indexing De Vaan 2018 rules -- DV####.ɑβɣ##. -- DV for De
 ~Proto-Indo-European
 
 $from De Vaan 1738-9, mostly not yet ordered -- TODO
-$for now, coding laryngeals as specific sounds since we can't handle h1 h2 h3 etc. 
+$for now, (somewhat arbitrarily) coding laryngeals as specific sounds 
+	$ since we can't handle h1 h2 h3 etc. -- or otherwise we'd have to define these in SymbolDefs
 $choose features closest to their coloring vowel . 
 $ h for h1 -- no coloring effect negative for all feats (except cont.)	(or use ʔ ?) 
 $ ħ for h2 -- -front +back -round -hi +lo --like a  
@@ -43,15 +42,15 @@ $ using j for i̯ and w for u̯
 $DV1738~2.3A1 
 r̩ > r i 
 
-$DV1738~2.3C1 part 1, e > a after h2. Nothing listed for h3 here. 
+$DV1738~2.3C1 part 1, *e > *a after *h2. Nothing listed for *h3 here. 
 [-hi,-round] > [+lo] / ħ __
 
-$DV1738~2.3C4 -- h2 and h3 before a become syllabic resonants. Reformulated here so that stress is preserved and the resonants lose resonance in a single rule. 
+$DV1738~2.3C4 -- *h2 and *h3 become *a before syllabic resonants. Reformulated here so that stress is preserved and the resonants lose resonance in a single rule. 
 $this may actually be multiple phenomena, with a later *o created by this rule or other phenommena involving h3 later merging to *a, but it's handled as one phenomenon by De Vaan it seems.
 [+back,+cont] [+syl,+cons,βstres,ɣprim] > [+syl,+lo,-round,βstres,ɣprim] [-syl]
 
 $DV1738~2.3D2 -- wL̥T > uLT
-$formulated somewhat verbosely here to preserve any stress. 
+$the rule formalism is expressed somewhat verbosely here to preserve any stress. 
 w [+cons,+syl,βstres,ɣprim] > u [-syl] / __ [-son]
 
 $DV1738~2.3.C7&C8 -- resonant nasals become a. Formulated more verbosely with feature matrices here so as to preserve existing stress. TODO check formulation for errors.
@@ -68,14 +67,18 @@ $ TODO there may be stressing issues. Leaving this unstressed for now.
 
 $TODO incorporate insertion of PPAlb a in between two consonants. -- DV1738~2.3C9 
 
+$DV1738~2.3C1 : PIE *(H)o > *a	
+	$ unspecified for any differene in the stress of the *o, but clearly it's the short one. 
+([-cor,-son,+cont]) [+back,-hi,αstres,βprim] > [-back,+front,-round,αstres,βprim]
+
 $TODO incorporate loss of syllabicity for remaining syllabic resonants after adjacent to syllabic elements
-$DV1738~2.3B1 -- h1 deleted with no trace before e -- incorporate... 	
-	$ incorp deletion of h2 before e > a (2.3C1) 
+	$DV1738~2.3B1 -- h1 deleted with no trace before e -- incorporate... 
+	$ incorp deletion of h2 placed before an e (now > a) (2.3C2) 
 
 
 
 $ pre-Greek proto-Albanian. 
-=Pre Proto-Albanian
+=Pre-Proto-Albanian
 
 $ rule to capture movement of native and Greek aː to ɔː -- for benefit of the doubt, borrowing Orel's usage of ɒː to allow this to not to pattern with Latin aː while respecting the chronology of vocalic developments on De Vaan p1736. So here we have aː > ɒː. Note also DV1739.A4 where Doric mākhānā is listed here. 
 [+long,+low] > [+back,+round]
@@ -113,7 +116,7 @@ $ Latin(-internal?) NASAL FRICATIVE PHENOMENON : Latin nasals lost before fricat
 	$ different handling in correesponding Orel 1.4.7.13 on p115 in ns > ʃ
 [+syl] n > [+long] ∅ / __ [-son,+cont]
 
-$$ De Vaan 2018 has the change in vowel length only come after major PPAlb to PAlb developments -- see p1736 -- namely long round vowel fronting, ai > ē, and aː > ɔː. -- will be handled in next stage
+$$ De Vaan 2018 has the change in vowel length to quality only come after major PPAlb to PAlb developments -- see p1736 -- namely long round vowel fronting, ai > ē, and aː > ɔː. -- will be handled in next stage
 
 $ gliding of unstressed /i/ and /e/ in hiatus with a following vowel to [j] -- cf. Pope 1934 s220. This is attested early but not 
 $ trivially early -- it is in the Appendix Probi, as Pope 1934(:s220) notes. De Vaan 2018(:1744) seems to implicate this had occurred 
@@ -180,7 +183,20 @@ k > j / __ [-stres,-round] t
 $ second part -- prior conditioning
 k > j / [-stres,-round] ([+nas]) __ t
 
-$TODO unstress vowel drops somewhere around here. 
+$ De Vaan 1736 "1." + DV1736~A1&A3 (on Lat & PPAlb ū) + DV1735~A7&A8 (on Lat & PPAlb ō) - long back vowels fronted -- listing only the round ones and not including ɒː (incl. from PIE & AGk aː)-- in effect, he seems to mean the non-low long back vowels ones. 
+[+back,+long,+syl,-low] > [+front,-back]
+
+$ De Vaan p1736 "2." +DV1735~A1&A2: PPAlb & Lat ai (incl ae) > ē
+[+low,+syl,αstres,βprim] [+front,-cons,-syl] > [-low,+front,+long,αstres,βprim]
+
+$ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër) -- completion of ā > o phenomenon, via raising of ɒː. 
+[+round,+syl,+long] > [-low] 
+
+$TODO fill in "system" in chart at bottom of 1736 
+
+$ Vowel coloring phenomena must be completed before wave of unstressed vowel drops below.. 
+
+$TODO the various unstressed vowel drops occur somewhere around here. 
 
 $ end of this wave of vowel drops
 

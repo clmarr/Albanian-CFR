@@ -151,11 +151,11 @@ $ DV1744.E4 -- Latin d becomes edh after r (as with PPAlb d -- DV1744.E2)
 d > ð / r __
 
 $ De Vaan 2018 (: 1745.A4) -- Latin /b/ is deleted both (DV1745.A2) intervocalically and (DV1745.A3) in V __ r 
-	$ he explicate the prior vowel in DV1745.A3 (i'ts just " __ r") but all cases he lists 
+	$ he explicate the prior vowel in DV1745.A3 (it's just " __ r") but all cases he lists 
 	$ are actually V __ r V, and I don't think Latin has any C b r C strings, let alone those that would have made it into Proto-Albanian 
 	$ for (b) he lists farkë "smithy" < FABRICA, OGeg fëruor "february" < FEBRUĀRIVS, kushëri "cousin" < CŌNSOBRĪNVS, harr-o- "to  forgot < ABERRĀRE
 	$ for (a): buall "buffalo" < BUBALVS, djall "devil" < DIABOLVS, i/e lirë "free" < LIBER, kut "elbow" < CUBITVS) 
-b > ∅/ V __ (r) V
+b > ∅ / V __ (r) V
 
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: cf. qytet 'city' < CĪVITĀTEM, njerkë "stepmother" < NOVERCA
 w > ∅ / V __ V
@@ -176,12 +176,31 @@ $ k becoming yod before /t/ if next to front vowel -- De Vaan 2018(:1744)  -- DV
 		$ (b) see through prior /n/, 
 		$ or (c) that n must have become /ɲ/ ...?
 	$ given the treatment of PAlb /ɲ/ on p1740, we can exclude (c), as it is not predicted to have emerged for this word in the post-Latin Proto-Albanian stage
-	$ we'll formulate the rule to simultaneously entertain (a) and (b) by using an optional nasal placed intermediately for hte prior conditionign
+	$ we'll formulate the rule to simultaneously entertain (a) and (b) by using an optional nasal placed intermediately for hte prior conditioning
 		$ as it is not among the listed sources of this. 
 $ first part -- conditioning on front vowel or /a/, then /t/; using [-stres,-round] ([-stres] implies [+syl]), as it can be assumed there was no front round vowels yet.  
 k > j / __ [-stres,-round] t
 $ second part -- prior conditioning
 k > j / [-stres,-round] ([+nas]) __ t
+
+$DV1736~G1 has PPAlb ō and Lat ō, as well as Lat o, ultimately becoming *uo before word-final {ɫ,n,r,j}. For this to happen, they cannot be fronted to ø -- as is about to happen to long oː. At the same time, De Vaan does not list a *ɫ in Proto-Albanian or Proto-Albanian, though its sources are clear, coming from a PAlb *lː (DV1739~3.1), itself with identifiable Pre-Proto-Albanian and Latin sources (DV1740~3.2F, cf. also -E). Makes sense to gather these as /lː/ for now, for the baseline cascade, before this rule. The *Rl aspect of it seems to come after consonantal reductionsː see De Vaan's listing of Latin PARABOLA > përrallë for DV1740~3.2F2. 
+$TODO make sure the relevant rules concerning laterals are all placed before this! 
+$What we need to do here: ensure that the relevant words can pass to *uo, and won't be bled by fronting to *uo. Use *ll for ɫ for now. Allow presence of unstressed vowel, and a possible nasal following it, to express what will become final position, as they might not have fallen yet by this stage. 
+
+[+round,+syl,-hi,+long] > [+lo] / __ {lː;n;r;j} ([+syl,-stres] ([+nas])) 
+
+
+$ TODO for reconsideration of the above... The listed words are: 
+	$ /o/: solum > shuall "sole" 
+	$ /oː/: cotōneus > ftua "quince", dracō (likely the accusative dracōnem) > drangue, duar (< ghesr- ...), and muaj. 
+$ Albanian duar rather seems to reflect a *ɔː (> o) from *aː, that is not at risk of merging; muaj is unclear, but Latin oː clearly needs to be handled here
+$ other relevant cases: 
+	$ in oːn- : Latin capōnem > kapua "rooster", lacōnem > lëkue "water lily", leōnem > luan "lion" (corōnam > kurorë "crown, garland; wealth" is a later loan per Orel 2000(:33)), Antōnius > Ndue "Anthony", falcōnem > fajkua.
+		$ cases where fronting does appear to occur: ratiōnem > arsye "reason" 
+	$ in practice it doesn't seem this happens much before -ll and -r at this stage for hte long oː but were going with this for now out of faithfulness .
+		$TODO: remove this commentary from baseline 18 cascade once decisions are made for DiaCLEA, move it there. 
+
+
 
 $ De Vaan 1736 "1." + DV1736~A1&A3 (on Lat & PPAlb ū) + DV1735~A7&A8 (on Lat & PPAlb ō) - long back vowels fronted -- listing only the round ones and not including ɒː (incl. from PIE & AGk aː)-- in effect, he seems to mean the non-low long back vowels ones. 
 [+back,+long,+syl,-low] > [+front,-back]
@@ -189,16 +208,69 @@ $ De Vaan 1736 "1." + DV1736~A1&A3 (on Lat & PPAlb ū) + DV1735~A7&A8 (on Lat &
 $ De Vaan p1736 "2." +DV1735~A1&A2: PPAlb & Lat ai (incl ae) > ē
 [+low,+syl,αstres,βprim] [+front,-cons,-syl] > [-low,+front,+long,αstres,βprim]
 
-$ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër) -- completion of ā > o phenomenon, via raising of ɒː. 
-[+round,+syl,+long] > [-low] 
+$ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. 
+[+round,+syl,+long] > [-low,-tense]
 
-$TODO fill in "system" in chart at bottom of 1736 
+$ 4 NEW VOWEL SYSTEM. loss of distinctive vowel length leading to "system"
+$the following system will emerge per chart at bottom of 1736 -- filling changes not already handled before this point.
+	$ (*ī>) /i/ 		(*ū >) (/u/ > /y/)
+	$ (*i>) /ɪ/		(*u>) /ʊ/
+	$ (*ai, *ē) > /e/  	(PPAlb *ō, Lat. o & ō >) o > ø	
+	$ (*e) > /ɛ/ 		(PPAlb *ā, Lat. o & ō >) ɔ > o  
+	$ (*a) > /a/ 
+
+	$ he lists "Lat. o & ō" for both but this will be handled per the more indepth descriptions as supplied in the listed changes further above as appropriate. Ie DV1735A has really mainly Lat. ō going to ø > e... 
+
+$handling the posited emergence of high lax vowels from older short high vowels as part of p1736's new vowel system.. Include also his e > ɛ shift here (listed above), and this will give us also o > ɔ too (not ʏ or œ since short versions of y and ø have no way to emerge at this stage.); the outcome of PPAlb/Greek ā (> ɒː) is already ɔː here but he mentions some Latin o & oː passing through "ɔ > o"; unclear when it raises again. 
+[+hi,+syl,-long] > [-tense]
+
+
+$then distinctive length is lost. 
+[+syl] > [-long]
+
+
+$ DV1736's 5a.1 : *ɛ > jɛ ietation
+∅ > j / __ [-hi,+front,-tense]
+
+$TODO, EPSILON NOTE: from this point onward, De Vaan uses *e, but the difference between *e and *ɛ is not meaningful (any longer), and the gold outcomes in ALLex feature /ɛ/, so we will have to at some point move (or merge) these to/as ɛ -- probably at the end. 
+
+$ a-mutation -- DV1736's 5a.2, also DV1735~ 2.2C2 + de Vaan 2004: 78--83. 
+$ e (and ɛ it seems?) instances lower to a under the influence of /a/ in next syllable it seems. 
+$ TODO check this against De Vaan 2004: 78-83. 
+[-hi,-round,+syl] > [+lo,-tense] / __ ([-syl])* [+lo,+syl]
+
+
+$TODO finish 5a ietation (e > je, ja stuff)
+
+
+$ raising of ɔ to o seems implicit here as a PAlb *ɔ is not handled for following rules concerning words were it is supposed to have arisen... -- i.e. > ø under i-mutation (5a.iii on p1736; 1735DV.A6 on this for reflex of PPAlb aː), seen also in the formulation of o-breaking rules (DV1736~G1 & G2)... 
+$ This can be handled in tandem with the raising of /ʊ/ back to /u/, which occurs for the reflexes of both Latin U and PPAlb *u (DV1735~2.2E1, -E2)[+back,+syl] > [+tense]
+
+
+$ It seems there is a difference between native nad Latin *i outcomes --  DV1734~2.2A1: the former all end up as PAlb *i, but DV1735~2.2A5 Latin /i/ only becomes PAlb *i with i-mutation, otherwise becoming *e (DV1735~2.2B11) 
+$ inasmuch as this is mainly a Latin to Albanian cascade endeavor at present, and no specific examples were given for native PPAlb *i having a different outcome from Latin I, precedence is given to the developments described for the latter.
+$ This differs from the outcome for /ʊ/ from Latin or PPAlb *u, which both raise back to /u/ (DV1735~2.2E1, -E2), as seen with /ɔ/ to /o/, handled above. 
+[+syl,-tense] > [-hi,+tense]
+
+
+
+$TODO i-mutation
+
+
+
+
+$5b mutations on 1737 -- note the way these are formulated imply that final unstressed vowels have already fallen! (and so have final nasals, and -s...)
+$ 6. ø > e 
+$ 7. Unstressed word-interna lvowels to shcwa, unstressed initial to zero-- include in _- VOWEL DROP WAVE -_
+$ 8. "Rise of phonemic nasalization" 
+
+$ per 1737: reductions of unstressed vowels resolves "in the last phase of hte PAlb period" (i.e. being lost together) though there are "reductions in distinctiveness" before this -- consider putting some here. 
 
 $ Vowel coloring phenomena must be completed before wave of unstressed vowel drops below.. 
 
 $TODO the various unstressed vowel drops occur somewhere around here. 
 
-$ end of this wave of vowel drops
+$ end of this wave of vowel drops _- VOWEL DROP WAVE -_
 
 $ regressive obstruent devoicing assimilation v (< De Vaan's PAlb β < w- DV1744.B6), but simpler to handle this way without an unnecessary β step). Cna be broadneed for others taht this is implied for (praebyter > prift, etc)
 $ will be reversed by post-nasal stop voicing below. 

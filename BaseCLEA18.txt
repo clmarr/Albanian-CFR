@@ -199,9 +199,18 @@ d > ð / [+syl] __ [+syl]
 $DV4.2B2 -- m to b before l -- DV'18 lists bluan "to grind" < mleh1-, bletë "bee" < *m[e]lit? (question mark in the original) -- given the second example, there may have been some vowel effacement before this point? But DV'18 does not attribute this outcome for Latin loans into Proto-Albanian, and indeed they don't seem to show it exactly (e.g. simulatūra > shëmbëlltyrë etc.) 
 m > b / __ l
 
+$DV1740C5 : PPAlb *-nt- > PAlb -n:- (ultimately) in apparently uncertain conditions: "-nt- (3pl., acc.sg.) in posttoni syllable (?) or retention of the cluster (Janson 1986: 96,154)" -- implementing the posttonic part here since it was listed, TODO reexamine (TODO or confer?). 
+$ This is not intended to affect Latin loans.
+$ nn > n: later. 
+t > n / [+prim] ([-syl])* n __
+
+$DV1740C4 : PPAlb -nd- > -nn- ; implemented like above. 
+$This is not intended to affect Latin loans
+d > n / n __
+
+
 
 =Antique Proto-Albanian
-
 
 $$|| Latin Input handling|| 
 $  rules following here are not core aspects of De Vaan 2018's proposed rules, 
@@ -265,6 +274,12 @@ $ Combined with DV1740F1 ~ PPAlb *l, *sl > l: / V __ V[-front]
 
 $TODO -- incorporate DV1740F2 in such a way that it operates after the reflex of intervocalic /b/ has become a resonant -- given the example parabola -> përrallë
 
+$merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; .D2 PPalb and Lat *gn- and -gn- > ɲ; .D3 -- (glided) Latin nj > n (from n (i,e) V) 
+{ɡ n (j);n j} > {ɲ;ɲ}
+
+$DV1740.D4 Lat -ng(u-)>ɲ / __ V[+front]
+[+nas] [-cont,+back,+voi] ([+hi,+round,-cons]) / __ [+front,-cons,+hi]
+
 $ effacements of intervocalic stops and /w/ follow (I'd note they were perhaps all phonetically fricatives at the time they were effaced, cf Pope 1934 on Latin /w/ as [ɣʷ], as noted in BaseCLEF) 
 
 $ TODO handle DV1740H2 -- how to deal with rC, Cr phenomena in a way consistent with what he intended? 
@@ -306,6 +321,12 @@ w > ∅ / [-cont,+back] __ [-cons]
 $ DV1744.C4 -- emergence of PAlb β before Latin long ō and the reflex of Alb long-ā, but PAlb ō is not listed. PAlb β itself is the reflex of initial Latin w- and PPAlb β, itself from a PIE u̯. Treat as w for now, betacize later, as then merge them here, with a single rule. This does have to be before the effective mergers of (the reflexes of) PPAlb ō and ā, but Latin ō cannot be the same entity as the reflex of PPAlb ō either. 
 $ TODO this rule
 
+
+$ DV1740.C1 & C3 (merged) -- -Tn- and -sn- > n:. Listed only for PPAlb not Latin; since no Latin etyma loaned to Albanian have these clusters before the vowel falls start, it is placed before them. 
+$ The -nn- clusters from loans and also earlier assimilations are also swept up in this on purpose. 
+$ DV1740.C2 merged in too -- -Kn- affected as well. But this should be interpreted as just targeting -kn- and not -gn-, becuase in DV1740D2 De Vaan notes that PPAlb and Lat gn- and -gn- clusters instead go to ɲ. Latinate loans into PPAlb have no -kn- clusters before the vowel drops, so it makes sense to implement this here. 
+{[+cor,+ant,-son];n;k} n > nː
+
 $ k becoming yod before /t/ if next to front vowel -- De Vaan 2018(:1744)  -- DV1744.J3
 	$ potentially IMPORTANT: what frontness should we treat /a/ as having at this point? For the inputs to Gallo-Romance, Pope 1934 treats Latin /a/ and /aː/ as originally backed, but becoming fronted... what should they be here?  
 	$ given that he lists SANCTVS > shenjtë "holy, saint", this either ...
@@ -337,8 +358,6 @@ $ other relevant cases:
 	$ in practice it doesn't seem this happens much before -ll and -r at this stage for hte long oː but were going with this for now out of faithfulness .
 		$TODO: remove this commentary from baseline 18 cascade once decisions are made for DiaCLEA, move it there. 
 
-
-
 $ De Vaan 1736 "1." + DV1736~A1&A3 (on Lat & PPAlb ū) + DV1735~A7&A8 (on Lat & PPAlb ō) - long back vowels fronted -- listing only the round ones and not including ɒː (incl. from PIE & AGk aː)-- in effect, he seems to mean the non-low long back vowels ones. 
 [+back,+long,+syl,-low] > [+front,-back]
 
@@ -362,7 +381,7 @@ $handling the posited emergence of high lax vowels from older short high vowels 
 [+hi,+syl,-long] > [-tense]
 
 
-$then distinctive length is lost. 
+$then distinctive length is lost in vowels
 [+syl] > [-long]
 
 
@@ -409,7 +428,7 @@ $TODO the various unstressed vowel drops occur somewhere around here.
 
 $ end of this wave of vowel drops _- VOWEL DROP WAVE -_
 
-$ regressive obstruent devoicing assimilation v (< De Vaan's PAlb β < w- DV1744.B6), but simpler to handle this way without an unnecessary β step). Cna be broadneed for others taht this is implied for (praebyter > prift, etc)
+$ regressive obstruent devoicing assimilation on v (< De Vaan's PAlb β < w- DV1744.B6), but simpler to handle this way without an unnecessary β step). Can be broadneed for others that this is implied for (praebyter > prift, etc)
 $ will be reversed by post-nasal stop voicing below. 
 [-son] > [-voi] / __ [-voi] 
 
@@ -462,8 +481,6 @@ $ DV4.1B2 : b inserted between m and the word bound.-- cf. also Bonnet 1998: 195
 $ dʒ and tʃ pass to z and s -- whether from PPAlb dʒ/tʃ or from reflexes of Latin loans in dj-, tj (DV1744.F1, .F2, .G1, .G3)
 $ This effects also the earliest Slavic loanwords : e.g. poroçit > porosit "to request", sul "small boat" , etc. 
 [-ant,+distr,+delrel] > [+ant,-distr,-cont]
-
-
 
 $ DV4.2P *x to *h -- this is listed as a PPAlb to PAlb change, but it is placed here as it also seems to effect Slavic loans as well, and has somewhat different outcomes in (some) Gheg where Tosk -h ends up corresponding to Gheg -f  
 x > h 

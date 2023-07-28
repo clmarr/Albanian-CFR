@@ -505,6 +505,29 @@ x > h
 $ DV4.1B3 & Bonnet 1998:193 -- *Tosk* insertion of b between m and unstressed vowels
 ∅ > b / m __ [-stres]
 
+$DV3.1G1 : Tosk rhotacism -- "dated 800-1000 CE, Janson 1986: 190-211". 
+$ TODO NOTE FOR DIA : this may not be happening after [i]
+n > r / [+syl] __ [+syl]
+
+$DV3.1H2 : -rn- > -rr- / V __ V . This happens in Gheg and Tosk, but De Vaan 2018, citing Janson 1986(:97f), argues it is post-Slavic. Inasmuch as it happens in Gheg, it is also independent of Tosk rhotacism, and should thus be handled separately.
+rn > rː / @ __ @
+
+$DV3.1A2 -- beta to m before "VN$". 
+$TODO Might be issues with the dating of this, as it assumes beta has emerged but has not yet passed to /v/ (all the cases listed are where beta reflects Latin /w/), but it also assumes the /n/ is still present in this ve:nsi:ca despite nasal-spirant stuff... unless this word was loaned in another wave? Some examination may be necessary. Ambiguity between beta and /v/ and even /w/ intentionally allowed in the formalism here. May need to be placed much much earlier into Antique Proto-Albanian. $ TODO Syllable break handled with a consonant for now. This may need to be examined. 
+[+lab,+cont,-syl] > m / __ [+syl] n [+cons]
+
+$DV3.2E -- l: passes to dark l.
+$ This is actually pan-Albanian but it is placed as a PAlb to Modern Alb change DV'18. 
+$ TODO consider moving it earlier, or doing away with l: entirely and instead work with dark l
+lː > lˠ
+
+$DV3.2B2 n: to n
+nː > n
+
+$BANDAID fix-- since the notation of the data uses ɾ and r not r and rː, this is implemented here, even though DV2018 has a modern Alb r and rː 
+r > ɾ 
+rː > r
+
 = Proto-Tosk
 
 $DV4.2R2 -- final devoicing of -z
@@ -551,4 +574,5 @@ $ TODO -- confer with De Vaan over email about this!
 $ increasingly in the 21st century spreading into Tosk; also DV4.2K3
 c > t͡ʃ
 
-
+$ DV3.2B2 nd > n is listed for PALb to MAlb, but this is really mostly(? only?) Gheg so it is placed here for now
+d > ∅ / n __

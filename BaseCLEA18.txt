@@ -268,21 +268,34 @@ l > ʎ / [+syl] __ [+syl,+front]
 $ DV1740G2 : l j > ʎ in PPAlb and Lat. Seems intended to be fed by hiatus vowel gliding. 
 l j > ʎ
 
-$DV1740F3 -- Lat *l > l: / V __ V (effetively when [-front], which seems to be what was intended, given that the the l > ʎ above doesn't (?) seem intended to compete (??))
+$DV1740F3 -- Lat *l > l: / V __ V[-front]
+$ as long as the lambda forming rule DV1740G1 is placed before this, [-front] does not need to be explicated, which is useful because [a] may technically be treated as front depending on the current convention for Latin on the input side, but this does appear to occur before [a] ? (or not?) 
 $ Combined with DV1740F1 ~ PPAlb *l, *sl > l: / V __ V[-front] 
-(s) l > [+long] / [+syl] __ [+syl,-front]
+(s) l > [+long] / [+syl] __ [+syl]
 
-$TODO -- incorporate DV1740F2 in such a way that it operates after the reflex of intervocalic /b/ has become a resonant -- given the example parabola -> përrallë
+$DV1740E3 -- Lat ll > PAlb l. As [l] is a resonant, this will be totally bled by DV1740F2 if not placed before it.
+$merge with DV1740E1: PPAlb ln > PAlb l; placement for the same counterbleeding reasons.  
+l {l;n} > l
 
-$merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; .D2 PPalb and Lat *gn- and -gn- > ɲ; .D3 -- (glided) Latin nj > n (from n (i,e) V) 
+$DV1740F2 -- l and a nearby resonant (Rl, lR) merge to become *l:. De Vaan lists parabola -> përrallë as his third example wihch would imply a treatment of /β/ (perhaps? if not /b/?) as a resonant, which could cause problems, but actually parabola > përrallë can be perfectly handled if it is placed before the fall of unstressed vowels.
+$ but this must be placed after DV1740E3 and DV1740E1 as otherwise it would completely bleed them.
+{[+cons,+son] l;l [+cons,+son]} > {lː;lː}
+
+$merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) 
 {ɡ n (j);n j} > {ɲ;ɲ}
 
 $DV1740.D4 Lat -ng(u-)>ɲ / __ V[+front]
 [+nas] [-cont,+back,+voi] ([+hi,+round,-cons]) / __ [+front,-cons,+hi]
 
+$DV1740H2 -- rC, Cr > r. 
+$ This one is likely very bugged and needs either suppression or massive fixes. TODO confer with De Vaan on this? 
+$ TODO suppressed for now. This is not an "interesting" error as I seriously doubt De Vaan intended the massive issues this would cause
+$ r [+cons] > r 
+$ [+cons] r > r 
+
 $ effacements of intervocalic stops and /w/ follow (I'd note they were perhaps all phonetically fricatives at the time they were effaced, cf Pope 1934 on Latin /w/ as [ɣʷ], as noted in BaseCLEF) 
 
-$ TODO handle DV1740H2 -- how to deal with rC, Cr phenomena in a way consistent with what he intended? 
+
 
 $ effacement of intervocalic /d/, per De Vaan 2018(: 1745 -- DV1745.A4) 
 $	$ He asserts that native Proto-Albanian */d/ had a different fate in the same environment, 
@@ -324,7 +337,7 @@ $ TODO this rule
 
 $ DV1740.C1 & C3 (merged) -- -Tn- and -sn- > n:. Listed only for PPAlb not Latin; since no Latin etyma loaned to Albanian have these clusters before the vowel falls start, it is placed before them. 
 $ The -nn- clusters from loans and also earlier assimilations are also swept up in this on purpose. 
-$ DV1740.C2 merged in too -- -Kn- affected as well. But this should be interpreted as just targeting -kn- and not -gn-, becuase in DV1740D2 De Vaan notes that PPAlb and Lat gn- and -gn- clusters instead go to ɲ. Latinate loans into PPAlb have no -kn- clusters before the vowel drops, so it makes sense to implement this here. 
+$ DV1740.C2 merged in too -- -Kn- affected as well. But this should be interpreted as just targeting -kn- and not -gn-, because in DV1740D2 De Vaan notes that PPAlb and Lat gn- and -gn- clusters instead go to ɲ. Latinate loans into PPAlb have no -kn- clusters before the vowel drops, so it makes sense to implement this here. 
 {[+cor,+ant,-son];n;k} n > nː
 
 $ k becoming yod before /t/ if next to front vowel -- De Vaan 2018(:1744)  -- DV1744.J3
@@ -469,9 +482,13 @@ $DV4.2U2 -- voicing assimilation of ʃ -- has to be before end of the fall of le
 $ TODO need to move this upward?
 ʃ > ʒ / __ [+cons,+voi]
 
-$DV4.2V3 -- lk > jk -- some variation (bujk/ bulk for "peasant") but seems (??) pan-Albanian in nature? 
-$$ TODO check htis -- for bujk, ujk, fajkua (< Lat. falcōnem) -- cf. Huld etc. 
-l > j / __ k
+$DV4.2V3 -- lk > jk -- some variation (bujk/ bulk for "peasant", OAlb attests ulk) but seems (??) pan-Albanian in nature? 
+$$ dialectal evidence suggests that this originally first passed to ʎ: Huld 1976 p 197 for ujk shows that uʎk- forms in Arvanitika and Arbereshe (Sal, Vacc, Falc), and Huld reasonably asserts proto-Albanian had either or uʎk- or ulk- when it split. This is perfectly compatible with hte rest of De Vaan 2018 (which has ʎ go to j later), and is not a new conclusion, so the version supported by Huld is implemented here for now.
+$MOST FAITHFUL VERSION: l > j / __ k
+l > ʎ / __ k
+
+$DV4.2E2 & DV4.2F2 -- iotation of l after velar stops. This does not occur in some southern varieties, such as Cham and some Arbereshe dialects, so it could be that it occurred after Proto-Tosk split (in the broad sense, i.e. Proto-Southern-Albanian), or that Proto-Southern-Tosk retracted *ʎ to *l after velar stops. The outcome in Arvanitika is ʎ; in Arvanitika (and the other varieties where ʎ occurs after velars?), ʎ elsewhere appears to be preserved -- cf. Arvanitika biʎë "daughter" noted in De Vaan 2018 (:1740).
+l > ʎ / [-cont,+hi] __
 
 $ DV4.1B2 : b inserted between m and the word bound.-- cf. also Bonnet 1998: 195 
 ∅ > b / m __ #
@@ -493,10 +510,7 @@ $ DV4.1B3 & Bonnet 1998:193 -- *Tosk* insertion of b between m and unstressed vo
 $DV4.2R2 -- final devoicing of -z
 z > s / __ # 
 
-$DV4.2E2 & DV4.2F2 -- iotation of l after velar stops. This does not occur in some southern varieties, such as Cham and some Arbereshe dialects, so it has to be after Proto-Tosk (in the broad sense, i.e. Proto-Southern-Albanian). The outcome in Arvanitika (and some Arbereshe?) is ʎ; in Arvanitika (and the other varieties where ʎ occurs after velars?), ʎ elsewhere appears to be preserved -- cf. Arvanitika biʎë "daughter" noted in De Vaan 2018 (:1740), so the first step here is going to ʎ. 
-l > ʎ / [-cont,+hi] __
-
-$DV4.2V2 -- ʎ passes to j. This happens across Northern Tosk and most Lab (?) but not in some other isolated southern varieties like Arbereshe. 
+$DV4.2V2 -- ʎ passes to j. This happens across Northern Tosk and most Lab (?) but not in some other isolated southern varieties like Arbereshe. It also seems to have affected all of Gheg but the distribution in Tosk suggests it happened in parallel later, rather than being a true shared development. 
 ʎ > j
 
 $DV4.2E / -F -- beginnings late medieval central Albanian  palatalization. This effects the reflexes of cl,gl- for all Tosk. Before front vowels, it also affects all of Northern Tosk, as well as Southern Gheg and much of Northern Gheg (more northeastern) but also effects the earlier waves of Turkish loanwords, so this part of it is placed later.

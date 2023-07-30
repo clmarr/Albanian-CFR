@@ -212,12 +212,12 @@ $TODO reexamine this considering the above. Also perhaps confer with De Vaan on 
 $DV4.1B2 -- m to b before l -- DV'18 lists bluan "to grind" < mleh1-, bletë "bee" < *m[e]lit? (question mark in the original) -- given the second example, there may have been some vowel effacement before this point? But DV'18 does not attribute this outcome for Latin loans into Proto-Albanian, and indeed they don't seem to show it exactly (e.g. simulatūra > shëmbëlltyrë etc.) 
 m > b / __ l
 
-$DV1740C5 : PPAlb *-nt- > PAlb -n:- (ultimately) in apparently uncertain conditions: "-nt- (3pl., acc.sg.) in posttoni syllable (?) or retention of the cluster (Janson 1986: 96,154)" -- implementing the posttonic part here since it was listed, TODO reexamine (TODO or confer?). 
+$DV1740.C5 = DV3.2C5 : PPAlb *-nt- > PAlb -n:- (ultimately) in apparently uncertain conditions: "-nt- (3pl., acc.sg.) in posttoni syllable (?) or retention of the cluster (Janson 1986: 96,154)" -- implementing the posttonic part here since it was listed, TODO reexamine (TODO or confer?). 
 $ This is not intended to affect Latin loans.
 $ nn > n: later. 
 t > n / [+prim] ([-syl])* n __
 
-$DV1740C4 : PPAlb -nd- > -nn- ; implemented like above. 
+$DV1740C4 = DV3.2C4 : PPAlb -nd- > -nn- ; implemented like above. 
 $This is not intended to affect Latin loans, clearly.
 d > n / n __
 
@@ -288,6 +288,7 @@ l j > ʎ
 $DV1740F3 -- Lat *l > l: / V __ V[-front]
 $ as long as the lambda forming rule DV1740G1 is placed before this, [-front] does not need to be explicated, which is useful because [a] may technically be treated as front depending on the current convention for Latin on the input side, but this does appear to occur before [a] ? (or not?) 
 $ Combined with DV1740F1 ~ PPAlb *l, *sl > l: / V __ V[-front] 
+$ TODO FOR DIA : consider just having this go straight to dark L 
 (s) l > [+long] / [+syl] __ [+syl]
 
 $DV1740E3 -- Lat ll > PAlb l. As [l] is a resonant, this will be totally bled by DV1740F2 if not placed before it.

@@ -209,7 +209,7 @@ $DV1744J2 (=4.2Q2) -- some PAlb *ð < PIE d / V __ V becomes *j. But this does n
 $TODO reexamine this considering the above. Also perhaps confer with De Vaan on what was intended here.
 ð > j / [syl] __ [+syl] 
 
-$DV4.2B2 -- m to b before l -- DV'18 lists bluan "to grind" < mleh1-, bletë "bee" < *m[e]lit? (question mark in the original) -- given the second example, there may have been some vowel effacement before this point? But DV'18 does not attribute this outcome for Latin loans into Proto-Albanian, and indeed they don't seem to show it exactly (e.g. simulatūra > shëmbëlltyrë etc.) 
+$DV4.1B2 -- m to b before l -- DV'18 lists bluan "to grind" < mleh1-, bletë "bee" < *m[e]lit? (question mark in the original) -- given the second example, there may have been some vowel effacement before this point? But DV'18 does not attribute this outcome for Latin loans into Proto-Albanian, and indeed they don't seem to show it exactly (e.g. simulatūra > shëmbëlltyrë etc.) 
 m > b / __ l
 
 $DV1740C5 : PPAlb *-nt- > PAlb -n:- (ultimately) in apparently uncertain conditions: "-nt- (3pl., acc.sg.) in posttoni syllable (?) or retention of the cluster (Janson 1986: 96,154)" -- implementing the posttonic part here since it was listed, TODO reexamine (TODO or confer?). 
@@ -467,7 +467,7 @@ $TODO the various unstressed vowel drops occur somewhere around here.
 
 $ end of this wave of vowel drops _- VOWEL DROP WAVE -_
 
-$ regressive obstruent devoicing assimilation on v (< De Vaan's PAlb β < w- DV1744.B6 = DV4.2I6) but simpler to handle this way without an unnecessary β step). Can be broadened for others that this is implied for (praebyter > prift, etc)
+$ regressive obstruent devoicing assimilation on v (< De Vaan's PAlb β < w- DV1744.B6 = DV4.2I6 -- vicinus > fqinj) but simpler to handle this way without an unnecessary β step). Can be broadened for others that this is implied for (praebyter > prift, etc)
 $ will be reversed by post-nasal stop voicing below. 
 [-son] > [-voi] / __ [-voi] 
 
@@ -505,11 +505,7 @@ $ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV174
 $ DV1744.H ~ s becomes ʃ -- for s in reflexes of Old Greek (presh < prason), Latin, and the earliest Slavic loans (grusht, shkrap) becomes ʃ (1744.H) -- but this is not fed by tʃ becoming s (DV1744.F and 1744.G) 
 s > ʃ
 
-$DV4.2U2 -- voicing assimilation of ʃ -- has to be before end of the fall of lenited stops (in this case β) 
-$ TODO need to move this upward?
-ʃ > ʒ / __ [+cons,+voi]
-
-$DV4.2V3 -- lk > jk -- some variation (bujk/ bulk for "peasant", OAlb attests ulk) but seems (??) pan-Albanian in nature? 
+$DV4.1V3 -- lk > jk -- some variation (bujk/ bulk for "peasant", OAlb attests ulk) but seems (??) pan-Albanian in nature? 
 $$ dialectal evidence suggests that this originally first passed to ʎ: Huld 1976 p 197 for ujk shows that uʎk- forms in Arvanitika and Arbereshe (Sal, Vacc, Falc), and Huld reasonably asserts proto-Albanian had either or uʎk- or ulk- when it split. This is perfectly compatible with hte rest of De Vaan 2018 (which has ʎ go to j later), and is not a new conclusion, so the version supported by Huld is implemented here for now.
 $MOST FAITHFUL VERSION: l > j / __ k
 l > ʎ / __ k
@@ -522,6 +518,17 @@ $ DV4.1B2 : b inserted between m and the word bound.-- cf. also Bonnet 1998: 195
 ∅ > b / m __ #
 
 =Late Proto-Albanian
+
+
+$ DV4.1W2 = DV1742R2 -- h prosthesis from PAlb into modern Alb. 
+$ TODO consider surpressing this, unclear it's intended to be deterministic? (and probably wasn't)
+$ TODO confer with De Vaan on this point? 
+$ TODO note for DIA -- all examples actually have an /r/ after the vowel... (hark, harmëshor, harron...) 
+$ Placed pretty early as affected words seem to be pretty widely so
+∅ > h / # __ [+syl]
+
+$DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced consonants to modern ʒ -- has to be before end of the fall of lenited stops (in this case β) 
+ʃ > [+voi] / __ [+cons,+voi]
 
 $ dʒ and tʃ pass to z and s -- whether from PPAlb dʒ/tʃ or from reflexes of Latin loans in dj-, tj (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3)
 $ This effects also the earliest Slavic loanwords : e.g. poroçit > porosit "to request", sul "small boat" , etc. 
@@ -559,48 +566,48 @@ rː > r
 
 = Proto-Tosk
 
-$DV4.2R2 -- final devoicing of -z
+$DV4.1R2 -- final devoicing of -z
 z > s / __ # 
 
-$DV4.2V2 -- ʎ passes to j. This happens across Northern Tosk and most Lab (?) but not in some other isolated southern varieties like Arbereshe. It also seems to have affected all of Gheg but the distribution in Tosk suggests it happened in parallel later, rather than being a true shared development. 
+$DV4.1V2 -- ʎ passes to j. This happens across Northern Tosk and most Lab (?) but not in some other isolated southern varieties like Arbereshe. It also seems to have affected all of Gheg but the distribution in Tosk suggests it happened in parallel later, rather than being a true shared development. 
 ʎ > j
 
-$DV4.2E / -F -- beginnings late medieval central Albanian  palatalization. This effects the reflexes of cl,gl- for all Tosk. Before front vowels, it also affects all of Northern Tosk, as well as Southern Gheg and much of Northern Gheg (more northeastern) but also effects the earlier waves of Turkish loanwords, so this part of it is placed later.
+$DV4.1E / -F -- beginnings late medieval central Albanian  palatalization. This effects the reflexes of cl,gl- for all Tosk. Before front vowels, it also affects all of Northern Tosk, as well as Southern Gheg and much of Northern Gheg (more northeastern) but also effects the earlier waves of Turkish loanwords, so this part of it is placed later.
 [+back,-cont] j > [-back,+front] ∅
 
 $DV4.1J : z > dz after n 
 z > d͡z / n __
 
-$DV4.2V6 -- *c *ɟ ɲ to j before a consonant ; cf. Schumacher 2013ː 275-6. This is more characteristic of Gheg however it seems so it is suppressed for now; in any case it is not really characteristic of the Tosk-based standard. 
+$DV4.1V6 -- *c *ɟ ɲ to j before a consonant ; cf. Schumacher 2013ː 275-6. This is more characteristic of Gheg however it seems so it is suppressed for now; in any case it is not really characteristic of the Tosk-based standard. 
 $ [+hi,+front,-cor,+cons] > j / __ [+cons]
 
-$DV4.2G2 -- c retracted back to k before __ V ʃ
+$DV4.1G2 -- c retracted back to k before __ V ʃ
 $TODO consider motivating factors here... 
 c > k / __ [+syl] ʃ 
 
 = Old Northern Tosk
 
-$DV4.2E / F -- further palatalization, this time occuring before front vowels -- and affecting Turkish loans as well. This happens in all northern Tosk but that it affected Turkish loans implies a later placement in the relative chronology (in Gheg it dodges some parts of the northwest zone) 
+$DV4.1E / F -- further palatalization, this time occuring before front vowels -- and affecting Turkish loans as well. This happens in all northern Tosk but that it affected Turkish loans implies a later placement in the relative chronology (in Gheg it dodges some parts of the northwest zone) 
 [+back,-cont] > [-back,+front] / __ [+front,-low,-cons]
 
-$DV4.2I : Old Albanian d + s & d + th > ts 
-$merge also DV4.2K2 : OAlb d + sh > ç
+$DV4.1I : Old Albanian d + s & d + th > ts 
+$merge also DV4.1K2 : OAlb d + sh > ç
 d [+cont,+cor,βant] > ∅ [+delrel,-βdistr,+strid]
 
-$DV4.2K1 -- Old Alb ʃ > tʃ before a consonant 
-$DV4.2K3 partially implemented here -- Tosk standard does not have c > t͡ʃ everywhere, but does seem to have it when praeconsonantal (çfarë, etc.) 
+$DV4.1K1 -- Old Alb ʃ > tʃ before a consonant 
+$DV4.1K3 partially implemented here -- Tosk standard does not have c > t͡ʃ everywhere, but does seem to have it when praeconsonantal (çfarë, etc.) 
 {ʃ;c} > t͡ʃ / __ [+cons]
 
 
 ~ Modern Albanian Standard
 
-$DV4.2V5 -- ɲ to n "often between vowels and in final position". This is a pretty modern development within northern Tosk, and the variety underlying the standard (as are many Lab dialects? But may need to check that) but in many regional northern Tosk dialects it hasn't happened. Has happened in parts of Gheg? Anyhow it is unclear if De Vaan intends to treat this as a regular sound change. In ALLex there are a number of cases where ɲ survives intervocalically (Danjell, kunjoj, shenjë, gështenjë, linjë, mënjollë, mënjë, mushkonjë, mërqinjë, panjë, rozhponjë, shushunjë, tenjë) and a few it doesn't (incuneāre > ngujoj -- but this might be from ngul instead) 
+$DV4.1V5 -- ɲ to j "often between vowels and in final position". This is a pretty modern development within northern Tosk, and the variety underlying the standard (as are many Lab dialects? But may need to check that) but in many regional northern Tosk dialects it hasn't happened. Has happened in parts of Gheg? Anyhow it is unclear if De Vaan intends to treat this as a regular sound change. In ALLex there are a number of cases where ɲ survives intervocalically (Danjell, kunjoj, shenjë, gështenjë, linjë, mënjollë, mënjë, mushkonjë, mërqinjë, panjë, rozhponjë, shushunjë, tenjë) and a few it doesn't (incuneāre > ngujoj -- but this might be from ngul instead) 
 $ in final position there are two cases where it survives in ALLex : CVNEVM > kunj "spike", VĪCĪNVM > fqinj "neighbor" -- these are both after high vowels, but leave that for the Dia- cascade (NOTE TODO) 
 $ the only major place the standard seems to do this is in the 3sg present forms, so this is ignored before the placement of MSAlb but placed as an ongoing change afterward
 $ TODO -- confer with De Vaan over email about this! 
 
 
-$ increasingly in the 21st century spreading into Tosk; also DV4.2K3
+$ increasingly in the 21st century spreading into Tosk; also DV4.1K3
 c > t͡ʃ
 
 $ DV3.1B2 nd > n is listed for PALb to MAlb, but this is really mostly(? only?) Gheg so it is placed here for now

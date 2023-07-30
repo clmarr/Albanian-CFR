@@ -481,7 +481,7 @@ $ De Vaan does not include ps > fs(h) -- data seems inconsistent as there is gri
 p > k / __ t
 k > f / __ {t;s}
 
-$ post-nasal stop voicing. De Vaan attributes this to Proto-Albanian, for Latin and native words alike for -p- (DV1743.B2, .B4) and -t- (.D2), while treating Latin loans alone for k > g / n __ (DV1744.A1, .A3)
+$ post-nasal stop voicing. De Vaan attributes this to Proto-Albanian, for Latin and native words alike for -p- (DV1743.B2, .B4) and -t- (1743.D2 = 4.2D2), while treating Latin loans alone for k > g / n __ (DV1744.A1, .A3)
 	$ De Vaan's handling of /p/ is given the same time betweeen native and Latin strata, but not the
 		$ same conditioning environment. 
 	$ TODO need step to preserve Latin/non-Latin differences if this if expanded for PIE > Alb run.
@@ -496,7 +496,7 @@ $ mp > mb and nk > ng everywhere they occur.
 
 =Middle Proto-Albanian
 
-$DV4.1N OAlb f < PAlb θ / C __, including OAlb ënfle -- cf Matzinger 2006: 71 -- Matzinger, Joachim. 2006.  anische Text Mbsuame e Kreshterë (Dottrina cristiana) des Lekë Matrënga von 1592. Eine Einführing in die albanische Sprachwissenschaft. Seems to be in all dialects? 
+$DV4.1N (=DV1742I) OAlb f < PAlb θ / C __, including OAlb ënfle -- cf Matzinger 2006: 71 -- Matzinger, Joachim. 2006.  anische Text Mbsuame e Kreshterë (Dottrina cristiana) des Lekë Matrënga von 1592. Eine Einführing in die albanische Sprachwissenschaft. Seems to be in all dialects? 
 θ > f / [+cons] __
 
 $ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3) 
@@ -510,7 +510,7 @@ $$ dialectal evidence suggests that this originally first passed to ʎ: Huld 197
 $MOST FAITHFUL VERSION: l > j / __ k
 l > ʎ / __ k
 
-$DV4.2E2 & DV4.2F2 -- iotation of l after velar stops. This does not occur in some southern varieties, such as Cham and some Arbereshe dialects, so it could be that it occurred after Proto-Tosk split (in the broad sense, i.e. Proto-Southern-Albanian), or that Proto-Southern-Tosk retracted *ʎ to *l after velar stops. The outcome in Arvanitika is ʎ; in Arvanitika (and the other varieties where ʎ occurs after velars?), ʎ elsewhere appears to be preserved -- cf. Arvanitika biʎë "daughter" noted in De Vaan 2018 (:1740).
+$DV4.1E2 & DV4.1F2 -- iotation of l after velar stops. This does not occur in some southern varieties, such as Cham and some Arbereshe dialects, so it could be that it occurred after Proto-Tosk split (in the broad sense, i.e. Proto-Southern-Albanian), or that Proto-Southern-Tosk retracted *ʎ to *l after velar stops. The outcome in Arvanitika is ʎ; in Arvanitika (and the other varieties where ʎ occurs after velars?), ʎ elsewhere appears to be preserved -- cf. Arvanitika biʎë "daughter" noted in De Vaan 2018 (:1740).
 $ DV1743.F5 -- -c(u)l- > c > ɟ if after nasals in ungj < avunculus -- effectively handled here and with the earlier voicing of k > g in the earlier Middle Proto-Albanian post-nasal voicing shift.
 l > ʎ / [-cont,+hi] __
 
@@ -526,6 +526,11 @@ $ TODO confer with De Vaan on this point?
 $ TODO note for DIA -- all examples actually have an /r/ after the vowel... (hark, harmëshor, harron...) 
 $ Placed pretty early as affected words seem to be pretty widely so
 ∅ > h / # __ [+syl]
+
+$ DV4.2T = DV1742O -- labiodentalization of β
+$ incorporating ɸ here too. 
+$ placed between PAlb and modern Alb by DV´18 but could probably be placed earlier as this does seem to be pan-Albanian? 
+[+lab,+cons,+cont] > [+strid]
 
 $DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced consonants to modern ʒ -- has to be before end of the fall of lenited stops (in this case β) 
 ʃ > [+voi] / __ [+cons,+voi]
@@ -612,3 +617,6 @@ c > t͡ʃ
 
 $ DV3.1B2 nd > n is listed for PALb to MAlb, but this is really mostly(? only?) Gheg so it is placed here for now
 d > ∅ / n __
+
+$DV1742.M1 h > f is more of a Gheg change (and probably needs to be more finely specified) thus this cascade does not implement it
+$DV1742.M2 θ > f with listed Gheg ufull for Tosk uthull (and thjeshtër/fjeshtër < FILIASTER, whatever is made of that) seems transparently more Gheg, and is perhaps not intended to be deterministic and/or needs more fine specification, so currently left unimplemented. 

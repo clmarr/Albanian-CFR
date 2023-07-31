@@ -40,8 +40,9 @@ $ the three together can be captured for now as -cor,-son,+cont (unless we make 
 $ (x for Hamp's h4 if we need it? ) (or use h and make h1 ʔ ?) 	(or could use ? or h4) 
 $ using j for i̯ and w for u̯
 $ for the palatovelars : c ɟ ɟʰ
+$ *a as it emerges is [ɑ], as this is ħ is closest to.
 
-$DV1738~2.3C1 part 1, *e > *a after *h2. Nothing listed for *h3 here. 
+$DV1738~2.3C1 part 1, *e > *a ( really ɑ ) after *h2. Nothing listed for *h3 here. 
 $ so most faithful formulation would be : [-hi,-round] > [+lo] / ħ __
 $ but inasmuch as laryngeal vowel coloring is a widely accepted broad phenomenon of laryngeal-coloring within PIE, it is formulated explicitly in the way it is thought to work across branches; likewise it is expanded to include coloring by posterior laryngeals as well 
 $ ultimately this is part of the implementation of the following: 
@@ -54,10 +55,10 @@ $DV1738~2.3C3 -- "*a < RHV" -- not sure I interpreted this right, he gives pare 
 $ this needs to be before A2 in order to get this effect for parë "first", so that is implemented. (also likely necessary to come before  the H-loss aspect of 2.3B1, 2.3C1, 2.3C2, 2.3E2 and 2.3F1, but this aspect of each will probably instead be handled by 1746.K4) 
 $ Formulated so as to preserve maximal stress
 $ TODO confer with De Vaan about this? 
-{[+cons,+prim];[+cons,+stres,-prim];[+cons,+syl,-stres]} > {ˈa;ˌa;a} / __ [-cor,-son,+cont] [+syl]
+{[+cons,+prim];[+cons,+stres,-prim];[+cons,+syl,-stres]} > {ˈɑ;ˌɑ;ɑ} / __ [-cor,-son,+cont] [+syl]
 
 $Per general understanding of laryngeal behavior, laryngeals efface and lengthen prior vowels (after coloring them) when before consonants or the word boundary. This is touched upon in various DV'18 rules as an aspect, with each rule effectively handling the effacement of hte laryngeal and the ensuing prior vowel lengthening separately in parallel: 2.3E, 2.3G1, 2.3G2, 2.3H1, 2.3I1 -- but inspection of all the examples given show that while this is not explicated, all these VH cases are VHC or VH#, which is in line with the broad understanding of how this phenomenon occured across most core IE branches. 
-$rules that are essentially accomplished here: the *iH > *i: aspect of 2.3E, 2.3F2 (fed by laryngeal vowel coloring), 2.3G1's oH and eh3 aspects (the latter fed by laryngeal vowel coloring), 2.3H1
+$rules that are essentially accomplished here: the *iH > *i: aspect of 2.3E, 2.3F2 (fed by laryngeal vowel coloring), 2.3G1's eh1 > ē aspecet, 2.3H1's oH and eh3 aspects (the latter fed by laryngeal vowel coloring)
 [+syl] [-cor,-son,+cont] > [+long] ∅ / __ {[+cons];#}
 
 $DV1738~2.3C4 -- *h2 and *h3 become *a before syllabic resonants. Reformulated here so that stress is preserved and the resonants lose resonance in a single rule. 
@@ -66,32 +67,58 @@ $maximally faithful form without doing this would be: [+back,+cont] [+syl,+cons,
 $based on the case of arë "field" given as an example, it seems this is not intended to be bled by DV2.3A1, so it is placed before it. 
 [+back,+cont,+cons] [+syl,+cons,βstres,ɣprim] > [βstres,ɣprim,+tense,+voi,-strid] [-syl]
 
+$PREVOCALIC LARYNGEAL EFFACEMENT: per general understanding of laryngeal behavior in late PIE as it differentiated (but which is generally understood to be all IE except Anatolian?), prevocalic laryngeals are now effaced.
+$This is implicit in (and thus implements aspects of) the rules DV2.3B1 (actually in this case it's the whole rule), DV2.3C1, DV2.3C2 (the other aspect being the abovehandled laryngeal vowel-coloring), 2.3E2, 2.3F1, 2.3J2 (the rest handled by laryngeal vowel-coloring), 2.3K2 (as above) 
+[-cor,-son,+cont] > ∅ / __ [+syl]
+
 $DV1738~2.3A1 
+$seems intended to counterbleed DV1738~2.3C4 as formulated above (?)
 r̩ > r i 
 
 $DV1738~2.3D2 -- wL̥T > uLT
 $the rule formalism is expressed somewhat verbosely here to preserve any stress. 
 w [+cons,+syl,βstres,ɣprim] > u [-syl] / __ [-son]
 
-$DV1738~2.3.C7&C8 -- resonant nasals become a. Formulated more verbosely with feature matrices here so as to preserve existing stress. TODO check formulation for errors.
+$DV1738~2.3.C7&C8 -- resonant nasals become a (really ɑ). Formulated more verbosely with feature matrices here so as to preserve existing stress. TODO check formulation for errors.
 [+nas,+syl] > [+back,-lab,-cor,+lo]
 
-$DV1738~2.3C5 -- any H becomes *a in C__C (C5). Incorporate part of C6, that which acts on *non-*syllabic resonants
-[-cor,-son,+cont] > a / [+cons,-syl] __ [-son] 
+$DV1738~2.3C5 -- any H becomes *a (ɑ) in C__C (C5). Incorporate part of C6, that which acts on *non-*syllabic resonants
+[-cor,-son,+cont] > ɑ / [+cons,-syl] __ [-son] 
 
-$DV1738~2.3C6: H becomes *a in CR__C 
-$formulated here so as to preserve any stress that was on the R, for the subset of cases where the resonant is syllabic (other part of this rule is handled above with 2.3C5) 
-[+cons,+syl,βstres,ɣprim] [-cor,-son,+cont] > [-syl] [+syl,+lo,-hi,-round,βstres,ɣprim] / [-son] __ [-son]
+$DV1738~2.3C6: H becomes *a (really ɑ) in CR__C 
+$formulated here so as to preserve any stress that was on the R, for the subset of cases where the resonant is syllabic (other part of this rule is handled above with 2.3C5)
+$currently sequenced and formulated as if it counterbleeds DV2.3C4 as formulated above
+[+cons,+syl,βstres,ɣprim] [-cor,-son,+cont] > [-syl] [+syl,+lo,-hi,-round,+back,βstres,ɣprim] / [-son] __ [-son]
 
-$DV1738~2.3C9 calls for insertion of PPAlb a in between two consonants, but if interpreted to be deterministic this would cause massive errors. The given example is madh "big" < *m̥ĝ, but De Vaan 2018 hedges here, noting that Schumacher 2013(: 238) instead explains this item via analogy. Thus this is not implemented for now. 
+$DV1738~2.3C9 calls for insertion of PPAlb a (really ɑ) in between two consonants, but if interpreted to be deterministic this would cause massive errors. The given example is madh "big" < *m̥ĝ, but De Vaan 2018 hedges here, noting that Schumacher 2013(: 238) instead explains this item via analogy. Thus this is not implemented for now. 
 
-$DV1738~2.3C1 : PIE *(H)o > *a	
+$DV1738~2.3C1 : PIE *(H)o > *a	(really ɑ) 
 $ unspecified for any differene in the stress of the *o, but clearly it's the short one. 
-([-cor,-son,+cont]) [+back,-hi,αstres,βprim] > [-back,+front,-round,αstres,βprim]
+$ the H deletion aspect is already handled above (cf. PREVOCALIC LARYNGEAL EFFACEMENT) 
+$ this effectively also implements DV2.3J1 and DV2.3K1, and effectively the merged behavior of h2 and h3 in DV2.3J2 and DV2.3K2 (these now go from *oi and *ou to *ai and *au)
+[+back,-hi,αstres,βprim] > [+front,-round,αstres,βprim]
 
-$TODO incorporate loss of syllabicity for remaining syllabic resonants after adjacent to syllabic elements
-	$DV1738~2.3B1 -- h1 deleted with no trace before e -- incorporate... 
-	$ incorp deletion of h2 placed before an e (now > a) (2.3C2) 
+$Bandaid: loss of syllabicity for remaining syllabic resonants after adjacent to syllabic elements
+$This also forms the diphthongs from V {i,u} sequences that might have arisen, thus implementing the final parts of 2.3J2 and 2.3K2 and medial parts of 2.3E2 and 2.3F1
+{[+cons];[+hi]} > {[-syl];[-syl]} / [+syl] __
+
+$DV4.3I3 -- *Tt > *tʃ too. The single example pot-to is a dental stop; to resolve conflict between this rule and DV4.3Q3, I refer to the examples given by De Vaan 2018 in the latter, and these include -pt-, -ct-, and -kʷt- but on dentals. Given the past literature on the "thorn cluster", it makes sense to assume that this one targets a dental cluster, and effacement rule in DV4.3Q3 which would naturally compete with this, is place-independent and comes later -- in effect targeting non-dental stop
+$TODO confer with De Vaan over this by email? 
+[+ant,-cont] t > t͡ʃ
+
+$DV2.3G3.I -as- and -es- ultimately to -ā- (really ɑː) before l, n, or r. 
+$This can be handled as s-effacement with compensatory vowel lengthening here, as there is a later ē > ā shift (DV2.3G3.II) 
+$merged in: 2.3I2 ~ PIE *-us- > ū / __ {l,r} 
+$going to boldly assume this happened to all vowels since there are no counterexamples for -is- and -os- 
+$TODO modify this if it doesn't work so as not to misrepresent. 
+[+syl,-cons] s > [+long] ∅ / __ [+cor,+son]
+
+$DV4.3Q5 -- s effaced before l,m,n,r -- so, sonorant consonants. 
+$this also handles DV3.3A3 = DV1741A3 
+$but this must come after DV2.3G3 and DV2.3I3 so as not to bleed their vowel-lengthening aspects. (if this is all more broadly conceived as vowel lengthening this could be of interest as it is also attested for Doric, Ionic and Attic)
+$grouping this also with effective loss before "medial" d and dʰ implicated in Kortlandt 1987 -- 
+$per Kortlandt 1987 p220 s5iii -- medial PIE *-sd(h)- (he seems to mean intervocalic for "medial") yielded the same reflex of *-d(h)- in -dh- (=/ð/) -- but the *s needs to be gone to feed this! 
+s > ∅ / __ {[+son,+cons];d;dʰ}
 
 $$ consonantal stuff from PIE to (PG) PPAlb follow -- De Vaan 4.3, pp1745-6
 $ treatment : palatovelars are handled as c, ɟ, ɟʰ respectively 
@@ -123,6 +150,20 @@ $DV4.3H2 -- intervocalic *ɟʰ is affricated
 $DV4.3H3 -- *dʰɟʰ results in a palatal affricate
 dʰ ɟʰ > ∅ [+delrel]
 
+$DV2.3G1 ē > ā (really ɑː)
+$must precede 2.3H1 which doesnt feed it
+$note that Orel has a different view, wherein the merger of ē and ā is only completed much later, but De Vaan 2018 reasonably notes AGrk spēlaion > shpellë which could imply it at least must precede the Ancient Greek later. 
+$this also accomplishes the last aspect DV2.3G3
+[+long,+front,-hi] > [-front,+back,+lo]
+
+$DV2.3F1 eu (really ew as handled here) to ē 
+$ for mechanical reasons must come before DV4.3Q2 which effaces w potentially, not to mention DV4.3L1 which fricates it.
+[+front,-hi,+syl] w > [+long] ∅
+
+$DV2.3E2 ei (really j now due to handling of hiatus high vowels above; from various sources) to ī. 
+$for mechanical reasons should come before DV4.3Q1 which effaces j
+[+front,-hi,+syl] j > [+hi,+long] ∅
+
 $DV1745~4.3E3 & DV(1746)~4.3F4, the delabialization of labiovelars before what amounts to an elsewhere condition (a, back/round vowels, and the word boundary), will be similarly handled after the primary palatalization of them before front (tense/non-low) vowels -- i.e. DV4.3I2 & DV4.3J2
 
 $DV4.3I2 & J2 -- fronting of pre-palatal-vowel labiovelars into what are (ultimately) affricates, done (for each voicing status) in one step in DV'2018 (this is merged into a single step here). In this one, the aspiration of the voiced stop in PIE makes no difference. Furthermore, he puts the superscript "w" in parentheses but the meaning of this is unclear is it does not seem that he intends for the PIE plain velar series to be impacted by this. TODO disambiguate this point in email? 
@@ -130,10 +171,6 @@ $TODO -- point to consider for view that PPAlb reflexes of PIE plain velars were
 $TODO note -- this has to be before any changes that make the reflexes of PIE *j,i,ī,e,ē something other than front and non-low. 
 $TODO considerations here on roundness annotation/specification for postalveolar fricatives? 
 [-cont,+round] > [+delrel,+strid,+distr,-hi,-back,+front,-round] / __ [-cons,+front]
-
-$DV4.3I3 -- *Tt > *tʃ too. The single example pot-to is a dental stop; to resolve conflict between this rule and DV4.3Q3, I refer to the examples given by De Vaan 2018 in the latter, and these include -pt-, -ct-, and -kʷt- but on dentals. Given the past literature on the "thorn cluster", it makes sense to assume that this one targets a dental cluster, and effacement rule in DV4.3Q3 which would naturally compete with this, is place-independent and comes later -- in effect targeting non-dental stop
-$TODO confer with De Vaan over this by email? 
-[+ant,-cont] t > t͡ʃ
 
 $DV3.3A4 = DV1741A4: n > m / P __ 
 n > m / [+lab,+cons] __
@@ -168,12 +205,6 @@ $ TODO DIA NOTE -- for own uses, explore using instead a stage of sw>ɣʷ (requi
 s [-son,-cor,-front] > ∅ [+cont]
 $ originally "> ∅ [+cons,+cons]" 
 
-$DV4.3Q5 -- s effaced before l,m,n,r -- so, sonorant consonants. 
-$this also handles DV3.3A3 = DV1741A3 
-$grouping this also with effective loss before "medial" d and dʰ implicated in Kortlandt 1987 -- 
-$per Kortlandt 1987 p220 s5iii -- medial PIE *-sd(h)- (he seems to mean intervocalic for "medial") yielded the same reflex of *-d(h)- in -dh- (=/ð/) -- but the *s needs to be gone to feed this! 
-s > ∅ / __ {[+son,+cons];d;dʰ}
-
 $DV4.3G2 (and Kortlandt 1987 p219 s2) -- s "dissimilates" before Vs; in Kortlandt 1987 p219 this goes straight to θ but Kortlandt'87 generally works in terms of ultimate reflexes without excluding intermediate forms; De Vaan'18 has it go to the intermediate *tɕ (which for reasons discussed above is cç in this cascade). Inasmuch as this has to happen before that following s is about to be mutated, we're working with what De Vaan asserts the ancestor of θ to be at this time -- namely, the aforementioned affricate. Phonetically of course this compromise is suspect (the segment asserted by De Vaan, unlike the one being used as a proxy here, actually is a sibilant and a strident...) but that the details here can be worked on later. 
 s > c͡ç / __ [+syl] s
 
@@ -197,6 +228,7 @@ $DV4.3K2 *tp- > ft- (perhaps after some schwa losses?)
 $using φ  for reasons explained in formalization for DV4.3K1 
 $TODO ɸ -- need to incorporate ɸ > f into any β > v shift. Can remove this note only when that is done. 
 t p > ɸ t 
+
 
 $ ----------- Pre-Proto-Albanian = pre-Greek proto-Albanian. --------------
 =Pre-Proto-Albanian

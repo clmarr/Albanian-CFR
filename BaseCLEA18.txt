@@ -41,15 +41,33 @@ $ (x for Hamp's h4 if we need it? ) (or use h and make h1 ʔ ?) 	(or could use ?
 $ using j for i̯ and w for u̯
 $ for the palatovelars : c ɟ ɟʰ
 
-$DV1738~2.3A1 
-r̩ > r i 
-
 $DV1738~2.3C1 part 1, *e > *a after *h2. Nothing listed for *h3 here. 
-[-hi,-round] > [+lo] / ħ __
+$ so most faithful formulation would be : [-hi,-round] > [+lo] / ħ __
+$ but inasmuch as laryngeal vowel coloring is a widely accepted broad phenomenon of laryngeal-coloring within PIE, it is formulated explicitly in the way it is thought to work across branches; likewise it is expanded to include coloring by posterior laryngeals as well 
+$ ultimately this is part of the implementation of the following: 
+$   in the progressive coloring aspect: DV2.3C2, 2.3E2, 2.3F1, 2.3J2, 2.3K2
+$   in the regressive coloring aspect: DV2.3E2, 2.3F1, 2.3G2, 2.3H1, 2.3J2, 2.3K2
+[-hi,-lo,-round] > [βlo,ɣround,ðback,ɛfront] / [-cor,-son,+cont,βlo,ɣround,ðback,ɛfront] __
+[-hi,-lo,-round] > [βlo,ɣround,ðback,ɛfront] / __ [-cor,-son,+cont,βlo,ɣround,ðback,ɛfront]
+
+$DV1738~2.3C3 -- "*a < RHV" -- not sure I interpreted this right, he gives pare "first" as example; given the etymology in pr̩-h2-e/o I think he rather is intending for the R to pass to aR (...?), rather than it all to be absorbed into an *a which would be the literal interpretation of "RHV > a" by the system. 
+$ this needs to be before A2 in order to get this effect for parë "first", so that is implemented. (also likely necessary to come before  the H-loss aspect of 2.3B1, 2.3C1, 2.3C2, 2.3E2 and 2.3F1, but this aspect of each will probably instead be handled by 1746.K4) 
+$ Formulated so as to preserve maximal stress
+$ TODO confer with De Vaan about this? 
+{[+cons,+prim];[+cons,+stres,-prim];[+cons,+syl,-stres]} > {ˈa;ˌa;a} / __ [-cor,-son,+cont] [+syl]
+
+$Per general understanding of laryngeal behavior, laryngeals efface and lengthen prior vowels (after coloring them) when before consonants or the word boundary. This is touched upon in various DV'18 rules as an aspect, with each rule effectively handling the effacement of hte laryngeal and the ensuing prior vowel lengthening separately in parallel: 2.3E, 2.3G1, 2.3G2, 2.3H1, 2.3I1 -- but inspection of all the examples given show that while this is not explicated, all these VH cases are VHC or VH#, which is in line with the broad understanding of how this phenomenon occured across most core IE branches. 
+$rules that are essentially accomplished here: the *iH > *i: aspect of 2.3E, 2.3F2 (fed by laryngeal vowel coloring), 2.3G1's oH and eh3 aspects (the latter fed by laryngeal vowel coloring), 2.3H1
+[+syl] [-cor,-son,+cont] > [+long] ∅ / __ {[+cons];#}
 
 $DV1738~2.3C4 -- *h2 and *h3 become *a before syllabic resonants. Reformulated here so that stress is preserved and the resonants lose resonance in a single rule. 
-$this may actually be multiple phenomena, with a later *o created by this rule or other phenommena involving h3 later merging to *a, but it's handled as one phenomenon by De Vaan 2018 it seems.
-[+back,+cont] [+syl,+cons,βstres,ɣprim] > [+syl,+lo,-hi,-round,βstres,ɣprim] [-syl]
+$this may actually be multiple phenomena, with a later *o created by this rule or other phenommena involving h3 later merging to *a, but it's handled as one phenomenon by De Vaan 2018 it seems. It is actually simpler to let h3 pass to *o here and then become *a via 2.3C1 here though, so that's what this cascade does. 
+$maximally faithful form without doing this would be: [+back,+cont] [+syl,+cons,βstres,ɣprim] > [+lo,-hi,-round,+tense,+voi,-strid,βstres,ɣprim] [-syl]
+$based on the case of arë "field" given as an example, it seems this is not intended to be bled by DV2.3A1, so it is placed before it. 
+[+back,+cont,+cons] [+syl,+cons,βstres,ɣprim] > [βstres,ɣprim,+tense,+voi,-strid] [-syl]
+
+$DV1738~2.3A1 
+r̩ > r i 
 
 $DV1738~2.3D2 -- wL̥T > uLT
 $the rule formalism is expressed somewhat verbosely here to preserve any stress. 
@@ -64,12 +82,6 @@ $DV1738~2.3C5 -- any H becomes *a in C__C (C5). Incorporate part of C6, that whi
 $DV1738~2.3C6: H becomes *a in CR__C 
 $formulated here so as to preserve any stress that was on the R, for the subset of cases where the resonant is syllabic (other part of this rule is handled above with 2.3C5) 
 [+cons,+syl,βstres,ɣprim] [-cor,-son,+cont] > [-syl] [+syl,+lo,-hi,-round,βstres,ɣprim] / [-son] __ [-son]
-
-$DV1738~2.3C3 -- "*a < RHV" -- not sure I interpreted this right, he gives pare "first" as example; given the etymology in pr̩-h2-e/o I think he rather is intending for the R to pass to aR (...?), rather than it all to be absorbed into an *a which would be the literal interpretation of "RHV > a" by the system. 
-$ Formulated so as to preserve maximal stress
-$ TODO confer with De Vaan about this. 
-{[+cons,+prim];[+cons,+stres,-prim];[+cons,+syl,-stres]} > {ˈa;ˌa;a} / __ [-cor,-son,+cont] [+syl]
-
 
 $DV1738~2.3C9 calls for insertion of PPAlb a in between two consonants, but if interpreted to be deterministic this would cause massive errors. The given example is madh "big" < *m̥ĝ, but De Vaan 2018 hedges here, noting that Schumacher 2013(: 238) instead explains this item via analogy. Thus this is not implemented for now. 
 
@@ -381,7 +393,7 @@ k > j / __ [-stres,-round] t
 $ second part -- prior conditioning
 k > j / [-stres,-round] ([+nas]) __ t
 
-$DV1736~G1 has PPAlb ō and Lat ō, as well as Lat o, ultimately becoming *uo before word-final {ɫ,n,r,j}. For this to happen, they cannot be fronted to ø -- as is about to happen to long oː. At the same time, De Vaan does not list a *ɫ in Proto-Albanian or Proto-Albanian, though its sources are clear, coming from a PAlb *lː (DV1739~3.1), itself with identifiable Pre-Proto-Albanian and Latin sources (DV1740~3.2F, cf. also -E). Makes sense to gather these as /lː/ for now, for the baseline cascade, before this rule. The *Rl aspect of it seems to come after consonantal reductionsː see De Vaan's listing of Latin PARABOLA > përrallë for DV1740~3.2F2. 
+$DV1736~G1 has PPAlb ō and Lat ō, as well as Lat o, ultimately becoming *uo before word-final {ɫ,n,r,j}. For this to happen, they cannot be fronted to ø -- as is about to happen to long oː. At the same time, De Vaan does not list a *ɫ in Proto-Albanian or Proto-Albanian, though its sources are clear, coming from a PAlb *lː (DV1739~3.1E), itself with identifiable Pre-Proto-Albanian and Latin sources (DV1740~3.2F, cf. also -E). Makes sense to gather these as /lː/ for now, for the baseline cascade, before this rule. The *Rl aspect of it seems to come after consonantal reductionsː see De Vaan's listing of Latin PARABOLA > përrallë for DV1740~3.2F2. 
 $note htat htis is not listed for the reflex of PPAlb *ā, which is currently *ɒː. 
 $TODO make sure the relevant rules concerning laterals are all placed before this! -- can remove when that is done. 
 $What we need to do here: ensure that the relevant words can pass to *uo, and won't be bled by fronting to *uo. Use *ll for ɫ for now. Allow presence of unstressed vowel, and a possible nasal following it, to express what will become final position, as they might not have fallen yet by this stage. 
@@ -404,7 +416,7 @@ $ De Vaan 1736 "1." + DV1736~A1&A3 (on Lat & PPAlb ū) + DV1735~A7&A8 (on Lat &
 $ De Vaan p1736 "2." +DV1735~A1&A2: PPAlb & Lat ai (incl ae) > ē
 [+low,+syl,αstres,βprim] [+front,-cons,-syl] > [-low,+front,+long,αstres,βprim]
 
-$ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. 
+$ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër, but via PPAlb *ā) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. 
 [+round,+syl,+long] > [-low,-tense]
 
 $ 4 NEW VOWEL SYSTEM. loss of distinctive vowel length leading to "system"

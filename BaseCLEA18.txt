@@ -339,8 +339,7 @@ r j > ʎ / @ __ @
 
 $$ De Vaan 2018 has the change in vowel length to quality only come after major PPAlb to PAlb developments -- see p1736 -- namely long round vowel fronting, ai > ē, and aː > ɔː. -- will be handled in next stage
 
-$ GLIDING -- gliding of unstressed /i/ and /e/ in hiatus with a following vowel to [j] -- cf. Pope 1934 s220. This is attested early but not 
-$ trivially early -- it is in the Appendix Probi, as Pope 1934(:s220) notes. De Vaan 2018(:1744) seems to implicate this had occurred 
+$ GLIDING -- gliding of unstressed /i/ and /e/ in hiatus with a following vowel to [j] -- cf. Pope 1934 s220. This is attested early but not trivially early -- it is in the Appendix Probi, as Pope 1934(:s220) notes. De Vaan 2018(:1744) seems to implicate this had occurred 
 $ by listing DIĀNA and GAVDIVM as having Latin -dj- and likewise -tj- for PUTEVS, VITIVM, PATIOR, and MARTIVS. However, this needs to 
 $ be placed before the fates of intervocalic obstruents are handled, as De Vaan does not seem to treat words like GAVDIVM as having 
 $ intervocalic -d-, for example, and this does clearly bleed his proposed rules for intervocalic /d/ in particular, if we assume its 
@@ -386,9 +385,8 @@ $ TODO suppressed for now. This is not an "interesting" error as I seriously dou
 $ r [+cons] > r 
 $ [+cons] r > r 
 
+$   ------------- INTERVOCALIC STOP EFFACEMENT -----------
 $ effacements of intervocalic stops and /w/ follow (I'd note they were perhaps all phonetically fricatives at the time they were effaced, cf Pope 1934 on Latin /w/ as [ɣʷ], as noted in BaseCLEF) 
-
-
 
 $ effacement of intervocalic /d/, per De Vaan 2018(: 1745 -- DV1745.A4) 
 $	$ He asserts that native Proto-Albanian */d/ had a different fate in the same environment, 
@@ -517,12 +515,11 @@ $ this thus implements DV2.2.1B11
 $I-MUTATION HERE, since it can feed ietation/diphthongizations (in case of PPAlb a: > ɒː > ... > ye) and also bleed them. 
 $this implements DV2.2.1A3,  DV2.2.1B4, DV2.2.1F2, 
 $this is also part of the implementation of DV2.2.1A5,DV2.2.1B6, DV2.2.1L1, and DV1737's 5b.II 
-$the contextual trigger for this is left somewhat vague, but examples given include __ n t ī, __ C j, __ C ɛ, __ C {ɪ/e}...
+$the contextual trigger for this is left somewhat vague, but examples given include __ n t ī, __ C j, __ C ɛ, __ C {ɪ/e}... so the context can be what is C j, ʎ/ɲ, i e ɛ ɪ here.  (ʎ and ɲ arenot listed, but the way this is currently ordered, they have already emerged -- TODO might want to interrogate that; but it actually makes the rule simpler to include them as the contextual trigger need not be +syl or even -cons) 
 $it can be assumed this is intended as a law targeting stressed vowels, because it is placed in 2.2.1 "The stressed vowels of PAlb".
 $TODO IMPLEMENT FOR DIA : prior labial consonants seem to block i-mutation ! 
 $TODO IMPLEMENT FOR DIA : ē s (i,e,j) also is an i-mutation targetǃ
-{ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ([-syl])* {j;[+syl,+front,-round]}
-
+{ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ([-syl])* {j;[+front,-round]}
 
 $TODO NOTE FOR DIA: although phonemic nasalization is assigned a later point in the relative chronology (DV1737, number 8), it may be necessary here at least for /e/ and/or /ɛ/, to block ietation and allow the merger of DV2.2.1K with DV2.2.1L1 & DV2.2.1M (aka the merger of 5b.1 with 5b.2 and 5b.3)
 
@@ -536,8 +533,10 @@ $ DV1737's 5b.2 & 5b.3 : ø > ye and o > uo before word final -ɫ, -n, -r
 $ these are also part II of DV2.2.1L1, L2 and 2.2.1M ... but the conditioning appears slightly different for those? 2.2.1M, generating PAlb *ye, is attriubted for "PPAlb. ō + i-mutation, Lat. jō" whereas the table earlier on 1737 treats all Lat & PPAlb ō as becoming ø̄ 
 $ the blocking of fronting of PPAlb and Lat ō is currently implemented in "part I" of DV2.2.1L1 & DV2.2.1M, above, via merger into ɒː (which before long raises)
 $ TODO check this ^
+$ per DV2.2.1M, glided j gets absorbed into ø here. 
+$ TODO check this^ IMPLEMENT FOR DIA -- remove the (j), because this is better handled via tj > tʃ > s. 
 $ regarding the word-finality, same factors apply as above in DV1737~5b.1
-{ˈo;ˈø} > {ˈu o̯;ˈy e̯} / __ {lː;n;r} ([-lo,-stres] (m)) # 
+{ˈo;(j) ˈø} > {ˈu o̯;ˈy e̯} / __ {lː;n;r} ([-lo,-stres] (m)) # 
 
 $ DV1736's 5a.1 : *ɛ > jɛ ietation (my word)
 $ = DV2.2.1B2 
@@ -546,23 +545,22 @@ $ = DV2.2.1B2
 $ DV2.2.1B1 : but no ietation in the context CL __ 
 j > ∅ / [-cont] [+cor,+son,-nas] __ ˈɛ
 
+$DV1737's 5b.iv: *o > *uo/# __ {r,lj},
+$this is also DV2.2.1L2 as concerns Latin o
+ˈo > ˈu o̯ / # __ {r 
+
+$DV1737's 5b.v: *ø > *ye / __ (w) V
+$ formatted to allow /w/ to have become [β]
+ *ø > *ye / __ ([+lab,-syl,+cont,+voi]) V
+
+
 $TODO, EPSILON NOTE: from this point onward, De Vaan uses *e, but the difference between *e and *ɛ is not meaningful (any longer), and the gold outcomes in ALLex feature /ɛ/, so we will have to at some point move (or merge) these to/as ɛ -- probably at the end. 
 
 $ a-mutation -- DV1736's 5a.2, also DV1735~ 2.2C2 + de Vaan 2004: 78--83. --  e (or ɛ it seems?) instances lower to a under the influence of /a/ in next syllable it seems. -- but per De Vaan 2004(78-83) this doesn't happen to Latin (and indeed the data largely matches this), and this is handled above in DV2.2.1C2. 
 $[-hi,-round,+syl] > [+lo,-tense] / __ ([-syl])* [+lo,+syl]
 
 
-$TODO finish 5a ietation (e > je, ja stuff)
 
-
-
-
-$TODO i-mutation
-
-
-
-
-$5b mutations on 1737 -- note the way these are formulated imply that final unstressed vowels have already fallen! (and so have final nasals, and -s...)
 $ 6. ø > e 
 $ 7. Unstressed word-internal vowels to shcwa, unstressed initial to zero-- include in _- VOWEL DROP WAVE -_
 $ 8. "Rise of phonemic nasalization" 

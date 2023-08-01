@@ -503,6 +503,27 @@ $DV2.2.1A4.II -- resolving raising before "sh" (which might still be [s] in this
 $TODO FOR DIA: note above that this may be more accurately captured as __ ʃj than simply __ ʃ , given eshkë, kreshmë, rrjesht and veshk. 
 [+stres,+tense,+front,-lab] > [+hi] / __ [+cont,-lab,+strid]
 
+$ raising of ɔ to o seems implicit here as a PAlb *ɔ is not handled for following rules concerning words were it is supposed to have arisen... -- i.e. > ø under i-mutation (5a.iii on p1736; 1735DV.A6 on this for reflex of PPAlb aː), seen also in the formulation of o-breaking rules (DV1736~G1 & G2)... 
+$ This can be handled in tandem with the raising of /ʊ/ back to /u/, which occurs for the reflexes of both Latin U and PPAlb *u (DV1735~2.2E1, -E2)
+[+back,+syl] > [+tense]
+
+$ It seems there is a difference between native and Latin *i outcomes --  DV1734~2.2A1: the former all end up as PAlb *i, but in DV1735~2.2A5 Latin /i/ only becomes PAlb *i with i-mutation, otherwise becoming *e (DV1735~2.2B11) 
+$ TODO FOR DIA -- note that the data suggests it might be more complicated here... 
+$ inasmuch as this is mainly a Latin to Albanian cascade endeavor at present, and no specific examples were given for native PPAlb *i having a different outcome from Latin I, precedence is given to the developments described for the latter.
+$ This differs from the outcome for /ʊ/ from Latin or PPAlb *u, which both raise back to /u/ (DV1735~2.2E1, -E2), as seen with /ɔ/ to /o/, handled above. 
+$ this thus implements DV2.2.1B11
+[+syl,+hi,-tense] > [-hi,+tense]
+
+$I-MUTATION HERE, since it can feed ietation/diphthongizations (in case of PPAlb a: > ɒː > ... > ye) and also bleed them. 
+$this implements DV2.2.1A3,  DV2.2.1B4, DV2.2.1F2, 
+$this is also part of the implementation of DV2.2.1A5,DV2.2.1B6, DV2.2.1L1, and DV1737's 5b.II 
+$the contextual trigger for this is left somewhat vague, but examples given include __ n t ī, __ C j, __ C ɛ, __ C {ɪ/e}...
+$it can be assumed this is intended as a law targeting stressed vowels, because it is placed in 2.2.1 "The stressed vowels of PAlb".
+$TODO IMPLEMENT FOR DIA : prior labial consonants seem to block i-mutation ! 
+$TODO IMPLEMENT FOR DIA : ē s (i,e,j) also is an i-mutation targetǃ
+{ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ([-syl])* {j;[+syl,+front,-round]}
+
+
 $TODO NOTE FOR DIA: although phonemic nasalization is assigned a later point in the relative chronology (DV1737, number 8), it may be necessary here at least for /e/ and/or /ɛ/, to block ietation and allow the merger of DV2.2.1K with DV2.2.1L1 & DV2.2.1M (aka the merger of 5b.1 with 5b.2 and 5b.3)
 
 $IETATION and DIPHTHONGIZATION follows. 
@@ -522,7 +543,7 @@ $ DV1736's 5a.1 : *ɛ > jɛ ietation (my word)
 $ = DV2.2.1B2 
 ∅ > j / __ ˈɛ
 
-$ DV2.2.1B1 : no ietation in CL __ 
+$ DV2.2.1B1 : but no ietation in the context CL __ 
 j > ∅ / [-cont] [+cor,+son,-nas] __ ˈɛ
 
 $TODO, EPSILON NOTE: from this point onward, De Vaan uses *e, but the difference between *e and *ɛ is not meaningful (any longer), and the gold outcomes in ALLex feature /ɛ/, so we will have to at some point move (or merge) these to/as ɛ -- probably at the end. 
@@ -533,15 +554,6 @@ $[-hi,-round,+syl] > [+lo,-tense] / __ ([-syl])* [+lo,+syl]
 
 $TODO finish 5a ietation (e > je, ja stuff)
 
-
-$ raising of ɔ to o seems implicit here as a PAlb *ɔ is not handled for following rules concerning words were it is supposed to have arisen... -- i.e. > ø under i-mutation (5a.iii on p1736; 1735DV.A6 on this for reflex of PPAlb aː), seen also in the formulation of o-breaking rules (DV1736~G1 & G2)... 
-$ This can be handled in tandem with the raising of /ʊ/ back to /u/, which occurs for the reflexes of both Latin U and PPAlb *u (DV1735~2.2E1, -E2)[+back,+syl] > [+tense]
-
-
-$ It seems there is a difference between native and Latin *i outcomes --  DV1734~2.2A1: the former all end up as PAlb *i, but DV1735~2.2A5 Latin /i/ only becomes PAlb *i with i-mutation, otherwise becoming *e (DV1735~2.2B11) 
-$ inasmuch as this is mainly a Latin to Albanian cascade endeavor at present, and no specific examples were given for native PPAlb *i having a different outcome from Latin I, precedence is given to the developments described for the latter.
-$ This differs from the outcome for /ʊ/ from Latin or PPAlb *u, which both raise back to /u/ (DV1735~2.2E1, -E2), as seen with /ɔ/ to /o/, handled above. 
-[+syl,-tense] > [-hi,+tense]
 
 
 

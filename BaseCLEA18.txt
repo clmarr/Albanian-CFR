@@ -268,10 +268,18 @@ d > n / n __
 $DV1743.F2 : PPAlb *j before a stressed vowel -- but not the *j that is a glided Latin initial i,e
 j > ɟ / __ [+stres]
 
-$DV2.2.1A4.I: PPAlb *e and Latin *ē raise to ultimately *i "sometimes" when before sh -- Latin short e not listed, even though PPAlb *e patterns with Latin short e elsewhere (general outcome: 2.2.1B2; i-mutation outcomes: 2.2.1A3; in CL_ : 2.2.1B1).
+$DV2.2.1A4.I: PPAlb *e and Latin ē raise to ultimately *i "sometimes" when before sh -- Latin short e not listed, even though PPAlb *e patterns with Latin short e elsewhere (general outcome: 2.2.1B2; i-mutation outcomes: 2.2.1A3; in CL_ : 2.2.1B1).
 $ Way to handle this might be to lengthen PPAlb *e in this context here so that it will merge with Latin ē, and then have a second part of this rule (2.2.1A4.II) later  
 $ NOTE FOR DIA : The example given for Latin ē could instead be handled as triggered by the following glide actually, as it works for ecclesia > kishë and bestia > bish(t)ë, but not vēscus > veshk, rēstem > rrjesht, ēsca > eshkë or quadrēsima > kreshmë. 
 ˈe > ˈeː / __ [+cor,+cont,+strid]
+
+$ DV4.2Q4 : j inserted before word initial *e- 
+$ use of the * in the original suggests this is not Latin words targeted, and the example of jashtë suggests it precedes a-mutation (below). 
+∅ > j / __ [-hi,-lo,+front,+syl]
+
+$DV2.2.1C2: PPAlb *e (but not Latin short E?) undergoes a-mutation, cf. De Vaan 2004: 78-83. Placed here as it apparently doesn't happen to Latin.
+$ per De Vaan 2004(:78-83), this is actually going to ja, not simply ɑ, so that is reflected in tihs rule (this also supports the apparent limitation of this development to the pre-Latin stratum) 
+ˈe > j ˈɑ / __ ([-syl])*  
 
 $DV2.2.1A1: PPAlb *i, unlike Latin I, reflects as PAlb *i without qualifications, as do PPAlb *ī and Latin ī (2.2.1A2,A6), but not Latin I, which reflects as PAlb *e generally (2.2.1B11) except when under i-mutation (2.2.1A5), wherein it behaves quite similarly to Latin E and PPAlb *e (2.2.1A3)
 $The best way to handle this for now, without changing all the Latin inputs (but: note that based on Classical Latin and Romance phonology, these short I-s plausibly *could* be either [ɪ] or [e])... is to lengthen all PPAlb *i just before Latin. This is no issue because there does not seem to be any difference in the behavior of PPAlb *ī and *i anyways
@@ -290,6 +298,9 @@ $	some are drawn from our knowledge of what was going on within Latin
 $	they are certainly subject to inspection and possible critique
 $	many are nonetheless clearly assumed by De Vaan 2018 in terms of how he treats the nature of the input to rules he does explicate
 
+$ 'y' becomes i, likewise for the long-variant (praebyter > prift, etc.) 
+[+front,+syl] > [-round]
+
 $ Latin(-internal?) NASAL FRICATIVE PHENOMENON : Latin nasals lost before fricatives, making a prior vowel long if there was a prior V. 
 	$ an input assumption for DV1735.D4. wrt krushk "in-law" < CONSOCER 
 	$ some assert these long V-s would have gone through a stage of nasality for the vowels, but De Vaan does not consider this 
@@ -302,6 +313,11 @@ $ Latin(-internal?) NASAL FRICATIVE PHENOMENON : Latin nasals lost before fricat
 [+syl] n > [+long] ∅ / __ [-son,+cont]
 
 $ -- end of Latin input handling --- 
+
+$Latin ae basically always falls in with Latin short e so that is handled early on here -- thus implementing parts of the following: 2.2.1B1, 2.2.1B2  
+$ this is not outright stated for 2.2.1A3 (i-mutation on Latin e) but there are no counterexamples, while praebyter > prift may actually be an example. 
+$ however this could possibl counterfeed 2.2.1C5 (caelvm > qiell), depending on how it is construed -- however currently it will be bled for that word by the development of L (probably correctly) 
+[+lo,βstres,ɣprim] e̯ > ∅ [-tense,βstres,ɣprim]
 
 $per Kortlandt 1987 p220 s4 -- final s is deleted. This has to be after the dissimilations (thi for PIE ancestor of Lat. sūs) but before delabialization ū, Kortlandt argues. De Vaan 2018 doesn't list this rule and asserts that nouns tend to reflect the accusative (which Bonnet 1998 seems to agree with), but this is included at this place (after the first Latin wave) to enable nominative forms in the lexicon as well as other words ending in -s, from Latin, Ancient Greek, and PIE alike. Note that Kortlandt 1987 opposes the view that *s went to *h or to ∅ (via /h/ or otherwise) in any other position (contra Jokl 1937, Meyer 1891, Pedersen 1900 , probably also Orel 2000), which includes retracting his earlier 1986 published view on intervocalic *s reflecting as nothing (but cf. nosom > nahe > na?). Given De Vaan 2018's reference to Kortlandt 1987 as its main source of *s developments (TODO check this in correspondence with De Vaan?), this view is adopted within this cascade, for now at least. (Kortlandt's lexical-etymological views are not adopted unless explicitly endorsed by De Vaan 2017, as with deriving the modern Albanian proximals ky,kjo,këta,këto from Latin ECCVM, also the source of these velar proximal elements across Romance) 
 $ ʃ and s both included to allow flexibility in placem
@@ -353,6 +369,10 @@ l {l;n} > l
 $DV1740F2 -- l and a nearby resonant (Rl, lR) merge to become *l:. De Vaan lists parabola -> përrallë as his third example wihch would imply a treatment of /β/ (perhaps? if not /b/?) as a resonant, which could cause problems, but actually parabola > përrallë can be perfectly handled if it is placed before the fall of unstressed vowels.
 $ but this must be placed after DV1740E3 and DV1740E1 as otherwise it would completely bleed them.
 {[+cons,+son] l;l [+cons,+son]} > {lː;lː}
+
+$DV2.2.1C5: Latin short e > a in "q, sh" __ "rr, l". No explicit word on the dating of this except that it is between post-Latin PPAlb, and PAlb; the forms used (q, sh,... rr, l) suggest a later date but at first inspection it seems to precede the merger of ae to short e (caelum > qiell) which certainly must have been before k > q (=[c]). So it is placed right after "rr, l" emerged (with what would become dark l now being long l, and rr being long r)
+$no clear way to block this for PPAlb *e, so this will need to be fixed if errors arise (TODO) 
+ˈe > ˈɑ / {k;[+cor,-lab,+cont]} __ {l;rː}
 
 $merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) 
 {ɡ n (j);n j} > {ɲ;ɲ}
@@ -436,10 +456,10 @@ k > j / __ [-stres,-round] t
 $ second part -- prior conditioning
 k > j / [-stres,-round] ([+nas]) __ t
 
-$DV1736~G1 has PPAlb ō and Lat ō, as well as Lat o, ultimately becoming *uo before word-final {ɫ,n,r,j}. For this to happen, they cannot be fronted to ø -- as is about to happen to long oː. At the same time, De Vaan does not list a *ɫ in Proto-Albanian or Proto-Albanian, though its sources are clear, coming from a PAlb *lː (DV1739~3.1E), itself with identifiable Pre-Proto-Albanian and Latin sources (DV1740~3.2F, cf. also -E). Makes sense to gather these as /lː/ for now, for the baseline cascade, before this rule. The *Rl aspect of it seems to come after consonantal reductionsː see De Vaan's listing of Latin PARABOLA > përrallë for DV1740~3.2F2. 
-$note htat htis is not listed for the reflex of PPAlb *ā, which is currently *ɒː. 
+$part I of DV1736.G1 / DV2.2.1L1 has PPAlb ō and Lat ō, as well as Lat o, ultimately becoming *uo before word-final {ɫ,n,r,j}. For this to happen, they cannot be fronted to ø -- as is about to happen to long oː. At the same time, De Vaan does not list a *ɫ in Proto-Albanian or Proto-Albanian, though its sources are clear, coming from a PAlb *lː (DV1739~3.1E), itself with identifiable Pre-Proto-Albanian and Latin sources (DV1740~3.2F, cf. also -E). Makes sense to gather these as /lː/ for now, for the baseline cascade, before this rule. The *Rl aspect of it seems to come after consonantal reductionsː see De Vaan's listing of Latin PARABOLA > përrallë for DV1740~3.2F2. 
+$note that this is not listed for the reflex of PPAlb *ā, which is currently *ɒː, but alas this item *does* get fronted to ø under i-mutation in DV2.2.1B7.
 $TODO make sure the relevant rules concerning laterals are all placed before this! -- can remove when that is done. 
-$What we need to do here: ensure that the relevant words can pass to *uo, and won't be bled by fronting to *uo. Use *ll for ɫ for now. Allow presence of unstressed vowel, and a possible nasal following it, to express what will become final position, as they might not have fallen yet by this stage. 
+$What we need to do here: ensure that the relevant words can pass to *uo, and won't be bled by fronting to *ø, and we do this by effectively merging them into *ɒː, the reflex of PPAlb *ā. Use *lː for ɫ for now. Allow presence of unstressed non-low vowel (which will fall before long), and a possible nasal following it, to express what will become final position, as they might not have fallen yet by this stage. 
 [+round,+syl,-hi,-lo,+long] > [+lo] / __ {lː;n;r;j} ([+syl,-stres] ([+nas])) 
 
 
@@ -475,20 +495,40 @@ $the following system will emerge per chart at bottom of 1736 -- filling changes
 $handling the posited emergence of high lax vowels from older short high vowels as part of p1736's new vowel system.. Include also his e > ɛ shift here (listed above), and this will give us also o > ɔ too (not ʏ or œ since short versions of y and ø have no way to emerge at this stage.); the outcome of PPAlb/Greek ā (> ɒː) is already ɔː here but he mentions some Latin o & oː passing through "ɔ > o"; unclear when it raises again. 
 [+hi,+syl,-long] > [-tense]
 
-
 $then distinctive length is lost in vowels
+$this effectively implements: DV2.2.1A2, part of DV2.2.1A4, DV2.2.1A6, DV2.2.1B3, part of DV2.2.1B4-8, DV2.2.1B10, part of DV2.2.1C4, part of DV2.2.1E1, DV2.2.1E3, part of DV2.2.1F1 & F3. 
 [+syl] > [-long]
 
+$DV2.2.1A4.II -- resolving raising before "sh" (which might still be [s] in this cascade) for Latin ē and PPAlb *e in this position (earlier lengthened to feed this, now both to [e] as the short variants are now [ɛ]) 
+$TODO FOR DIA: note above that this may be more accurately captured as __ ʃj than simply __ ʃ , given eshkë, kreshmë, rrjesht and veshk. 
+[+stres,+tense,+front,-lab] > [+hi] / __ [+cont,-lab,+strid]
+
+$TODO NOTE FOR DIA: although phonemic nasalization is assigned a later point in the relative chronology (DV1737, number 8), it may be necessary here at least for /e/ and/or /ɛ/, to block ietation and allow the merger of DV2.2.1K with DV2.2.1L1 & DV2.2.1M (aka the merger of 5b.1 with 5b.2 and 5b.3)
+
+$IETATION and DIPHTHONGIZATION follows. 
+$DV2.2.1K and 1737's 5b -- diphthongized ietation -- ɛ (< PPAlb e, Lat e & ae) > ie before "word-final ɫ, r" ; he also attributes this to *e
+$his ɫ is "lː" here though and his r is simply a short r so it is a diagonal grouping in terms of length, hard to capture in a feature matrix. 
+$it says word-final but the falls of unstresesd vowels are actually assigned later (to word-internal and initial cases that is; the dating of the fall of final unstressed vowels isn't quite given in 1737-8 but one can assume this will happen to low vowels so this is added in : ([-lo,-stres] (m) ), the [m] being there to deal with the accusative (cf DV1737~2.2.2d) 
+[+front,-hi,-lo,-round,+prim] > ˈi e̯ / __ {lː;r} ([-lo,-stres] (m)) #
+
+$ DV1737's 5b.2 & 5b.3 : ø > ye and o > uo before word final -ɫ, -n, -r
+$ these are also part II of DV2.2.1L1, L2 and 2.2.1M ... but the conditioning appears slightly different for those? 2.2.1M, generating PAlb *ye, is attriubted for "PPAlb. ō + i-mutation, Lat. jō" whereas the table earlier on 1737 treats all Lat & PPAlb ō as becoming ø̄ 
+$ the blocking of fronting of PPAlb and Lat ō is currently implemented in "part I" of DV2.2.1L1 & DV2.2.1M, above, via merger into ɒː (which before long raises)
+$ TODO check this ^
+$ regarding the word-finality, same factors apply as above in DV1737~5b.1
+{ˈo;ˈø} > {ˈu o̯;ˈy e̯} / __ {lː;n;r} ([-lo,-stres] (m)) # 
+
 $ DV1736's 5a.1 : *ɛ > jɛ ietation (my word)
-$ merged in effectively (redundant to write separately) DV1745 top of the page (DV4.2Q4) : j inserted before word initial e- 
-∅ > j / __ [-hi,+front,-tense]
+$ = DV2.2.1B2 
+∅ > j / __ ˈɛ
+
+$ DV2.2.1B1 : no ietation in CL __ 
+j > ∅ / [-cont] [+cor,+son,-nas] __ ˈɛ
 
 $TODO, EPSILON NOTE: from this point onward, De Vaan uses *e, but the difference between *e and *ɛ is not meaningful (any longer), and the gold outcomes in ALLex feature /ɛ/, so we will have to at some point move (or merge) these to/as ɛ -- probably at the end. 
 
-$ a-mutation -- DV1736's 5a.2, also DV1735~ 2.2C2 + de Vaan 2004: 78--83. 
-$ e (and ɛ it seems?) instances lower to a under the influence of /a/ in next syllable it seems. 
-$ TODO check this against De Vaan 2004: 78-83. 
-[-hi,-round,+syl] > [+lo,-tense] / __ ([-syl])* [+lo,+syl]
+$ a-mutation -- DV1736's 5a.2, also DV1735~ 2.2C2 + de Vaan 2004: 78--83. --  e (or ɛ it seems?) instances lower to a under the influence of /a/ in next syllable it seems. -- but per De Vaan 2004(78-83) this doesn't happen to Latin (and indeed the data largely matches this), and this is handled above in DV2.2.1C2. 
+$[-hi,-round,+syl] > [+lo,-tense] / __ ([-syl])* [+lo,+syl]
 
 
 $TODO finish 5a ietation (e > je, ja stuff)

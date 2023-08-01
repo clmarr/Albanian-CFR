@@ -325,8 +325,9 @@ $ ʃ and s both included to allow flexibility in placem
 
 $DV1744.D & DV1744.E1  --*tɕ *dʝ > *θ *ð -- for De Vaan, these happen in one step, without intermediate stages in alveolar or dental affricates. 
 $ symbol defs and the IPA don't (most typically) use *tɕ *dʝ, these are expressed with c͡ç and ɟ͡ʝ for reasons discussed above in the formulation for DV4.3G1 & H1 
-$ needs to come after the nasal-spirant law above in Latin input handling though so as not to feed it. 
-{c͡ç;ɟ͡ʝ} > {θ;ð}
+$ needs to come after the nasal-spirant law above in Latin input handling so as not to feed it. 
+$ However, in light of the fact that Proto-Albanian loans reflecting PIE palatovelars reflect as ts dz in Aromanian and various ts s z in Romanian (unlike PAlb ð < PPAlb *d, which reflects with d in Romanian and Aromanian), this is indeed split in two, with the affricate stage first, and the spirantization only after Middle Proto-Albanian (when De Vaan assigns the contact between Proto-Albanian and Proto-Vlach)
+{c͡ç;ɟ͡ʝ} > {t͡s;d͡z}
 
 $DV1740I1 -- initial PPAlb and Lat. r- becomes "*r:"; merges with the reflex of PPAlb initial *wr- (DV1740I2)
 (w) r > [+long] / # __
@@ -474,7 +475,8 @@ $ other relevant cases:
 $ De Vaan 1736 "1." + DV1736~A1&A3 (on Lat & PPAlb ū) + DV1735~A7&A8 (on Lat & PPAlb ō) - long back vowels fronted -- listing only the round ones and not including ɒː (incl. from PIE & AGk aː)-- in effect, he seems to mean the non-low long back vowels ones. 
 [+back,+long,+syl,-low] > [+front,-back]
 
-$ De Vaan p1736 "2." +DV1735~A1&A2: PPAlb & Lat ai (incl ae) > ē
+$ De Vaan p1736 "2." +DV1735~A1&A2: PPAlb & Lat ai (incl ae?) > ē
+$ based on treatment of Lat. ae elsewhere, where it falls in with Latin *short* e, it seems not, but this is bled already anyways so no need to change this rule at the moment (as of Aug. 1 2023) 
 [+low,+syl,αstres,βprim] [+front,-cons,-syl] > [-low,+front,+long,αstres,βprim]
 
 $ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër, but via PPAlb *ā) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. 
@@ -551,7 +553,7 @@ $this is also DV2.2.1L2 as concerns Latin o
 
 $DV1737's 5b.v: *ø > *ye / __ (w) V
 $ formatted to allow /w/ to have become [β]
- *ø > *ye / __ ([+lab,-syl,+cont,+voi]) V
+ˈø > ˈy e̯ / __ ([+lab,-syl,+cont,+voi]) V
 
 
 $TODO, EPSILON NOTE: from this point onward, De Vaan uses *e, but the difference between *e and *ɛ is not meaningful (any longer), and the gold outcomes in ALLex feature /ɛ/, so we will have to at some point move (or merge) these to/as ɛ -- probably at the end. 
@@ -559,13 +561,18 @@ $TODO, EPSILON NOTE: from this point onward, De Vaan uses *e, but the difference
 $ a-mutation -- DV1736's 5a.2, also DV1735~ 2.2C2 + de Vaan 2004: 78--83. --  e (or ɛ it seems?) instances lower to a under the influence of /a/ in next syllable it seems. -- but per De Vaan 2004(78-83) this doesn't happen to Latin (and indeed the data largely matches this), and this is handled above in DV2.2.1C2. 
 $[-hi,-round,+syl] > [+lo,-tense] / __ ([-syl])* [+lo,+syl]
 
+$--------------------Middle Proto-Albanian-------------------
+=Middle Proto-Albanian
+$ main wave of contact with Proto-Romanian (temporarily?) complete now
 
+$ resolution of DV1744.D & DV1744.E1 -- see notes on this above, this is motivated by the outcomes in Aromanian and Romanian of PPAlb ɟ͡ʝ vs. PPAlb d in cases where they both ended up as ð in Alb. 
+{t͡s;d͡z} > {θ;ð}
 
-$ 6. ø > e 
-$ 7. Unstressed word-internal vowels to shcwa, unstressed initial to zero-- include in _- VOWEL DROP WAVE -_
-$ 8. "Rise of phonemic nasalization" 
+$ DV 1737's 6. ø > e 
+$ DV 1737's 7. Unstressed word-internal vowels to schwa, unstressed initial to zero-- include in _- VOWEL DROP WAVE -_
+$ DV 1737's 8. "Rise of phonemic nasalization" 
 
-$ per 1737: reductions of unstressed vowels resolves "in the last phase of hte PAlb period" (i.e. being lost together) though there are "reductions in distinctiveness" before this -- consider putting some here. 
+$ per 1737: reductions of unstressed vowels resolves "in the last phase of the PAlb period" (i.e. being lost together) though there are "reductions in distinctiveness" before this -- consider putting some here. 
 
 $ Vowel coloring phenomena must be completed before wave of unstressed vowel drops below.. 
 
@@ -587,6 +594,8 @@ $ De Vaan does not include ps > fs(h) -- data seems inconsistent as there is gri
 p > k / __ t
 k > f / __ {t;s}
 
+
+
 $ post-nasal stop voicing. De Vaan attributes this to Proto-Albanian, for Latin and native words alike for -p- (DV1743.B2, .B4) and -t- (1743.D2 = 4.2D2), while treating Latin loans alone for k > g / n __ (DV1744.A1, .A3)
 	$ De Vaan's handling of /p/ is given the same time betweeen native and Latin strata, but not the
 		$ same conditioning environment. 
@@ -600,7 +609,6 @@ $ mp > mb and nk > ng everywhere they occur.
 [-cont,-cor] > [+voi] / [+nas] __ 
 
 
-=Middle Proto-Albanian
 
 $DV4.1N (=DV1742I) OAlb f < PAlb θ / C __, including OAlb ënfle -- cf Matzinger 2006: 71 -- Matzinger, Joachim. 2006.  anische Text Mbsuame e Kreshterë (Dottrina cristiana) des Lekë Matrënga von 1592. Eine Einführing in die albanische Sprachwissenschaft. Seems to be in all dialects? 
 θ > f / [+cons] __

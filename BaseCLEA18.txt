@@ -268,6 +268,17 @@ d > n / n __
 $DV1743.F2 : PPAlb *j before a stressed vowel -- but not the *j that is a glided Latin initial i,e
 j > ɟ / __ [+stres]
 
+$DV2.2.1A4.I: PPAlb *e and Latin *ē raise to ultimately *i "sometimes" when before sh -- Latin short e not listed, even though PPAlb *e patterns with Latin short e elsewhere (general outcome: 2.2.1B2; i-mutation outcomes: 2.2.1A3; in CL_ : 2.2.1B1).
+$ Way to handle this might be to lengthen PPAlb *e in this context here so that it will merge with Latin ē, and then have a second part of this rule (2.2.1A4.II) later  
+$ NOTE FOR DIA : The example given for Latin ē could instead be handled as triggered by the following glide actually, as it works for ecclesia > kishë and bestia > bish(t)ë, but not vēscus > veshk, rēstem > rrjesht, ēsca > eshkë or quadrēsima > kreshmë. 
+ˈe > ˈeː / __ [+cor,+cont,+strid]
+
+$DV2.2.1A1: PPAlb *i, unlike Latin I, reflects as PAlb *i without qualifications, as do PPAlb *ī and Latin ī (2.2.1A2,A6), but not Latin I, which reflects as PAlb *e generally (2.2.1B11) except when under i-mutation (2.2.1A5), wherein it behaves quite similarly to Latin E and PPAlb *e (2.2.1A3)
+$The best way to handle this for now, without changing all the Latin inputs (but: note that based on Classical Latin and Romance phonology, these short I-s plausibly *could* be either [ɪ] or [e])... is to lengthen all PPAlb *i just before Latin. This is no issue because there does not seem to be any difference in the behavior of PPAlb *ī and *i anyways
+*note that for this to work, the *i present as the second element of diphthongs must already be [j] by now. 
+$note that this is NOT a proposed sound change, but a temporary solution to the issue. (and even replacing the Latin short I instances with [ɪ] or [e] might not work to fix it, because even though it does have a basis in both Classical Latin and Romance phonology, it still might cause issues regarding this short I's role as a trigger of i-mutation -- TODO consider that and make remarks here) 
+[+hi,+front,+syl] > [+long]
+
 $--------------------Antique Proto-Albanian----------------------
 =Antique Proto-Albanian
 

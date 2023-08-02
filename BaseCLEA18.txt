@@ -192,7 +192,7 @@ $DV1745~4.3~D3 -- *d from *sw- before a stressed vowel...  DV'18 asserts this fo
 s w > d / __ [+stres]
 
 $DV2.2.1E3 stressed vo- > u, but based on the example this seems to be vō- too. 
-$TODO IMPLEMENT OR DIA: probably delete this. 
+$TODO IMPLEMENT OR DIA: probably delete this, or merge it with DV2.1F2.
 w [+prim,-hi,+round] > ˈu / # __
 
 $DV4.3L1 frication and develarization of w to De Vaan 2018's PPAlb *β
@@ -262,7 +262,7 @@ $TODO reexamine this considering the above. Also perhaps confer with De Vaan on 
 $DV4.1B2 -- m to b before l -- DV'18 lists bluan "to grind" < mleh1-, bletë "bee" < *m[e]lit? (question mark in the original) -- given the second example, there may have been some vowel effacement before this point? But DV'18 does not attribute this outcome for Latin loans into Proto-Albanian, and indeed they don't seem to show it exactly (e.g. simulatūra > shëmbëlltyrë etc.) 
 m > b / __ l
 
-$DV1740.C5 = DV3.2C5 : PPAlb *-nt- > PAlb -n:- (ultimately) in apparently uncertain conditions: "-nt- (3pl., acc.sg.) in posttoni syllable (?) or retention of the cluster (Janson 1986: 96,154)" -- implementing the posttonic part here since it was listed, TODO reexamine (TODO or confer?). 
+$DV1740.C5 = DV3.2C5 : PPAlb *-nt- > PAlb -n:- (ultimately) in apparently uncertain conditions: "-nt- (3pl., acc.sg.) in post-tonic syllable (?) or retention of the cluster (Janson 1986: 96,154)" -- implementing the post-tonic part here since it was listed, TODO reexamine (TODO or confer?). 
 $ This is not intended to affect Latin loans.
 $ nn > n: later. 
 t > n / [+prim] ([-syl])* n __
@@ -418,10 +418,10 @@ $ De Vaan 2018 (: 1745.A4) -- Latin /b/ is deleted both (DV1745.A2) intervocalic
 	$ are actually V __ r V, and I don't think Latin has any C b r C strings, let alone those that would have made it into Proto-Albanian 
 	$ for (b) he lists farkë "smithy" < FABRICA, OGeg fëruor "february" < FEBRUĀRIVS, kushëri "cousin" < CŌNSOBRĪNVS, harr-o- "to  forgot < ABERRĀRE
 	$ for (a): buall "buffalo" < BUBALVS, djall "devil" < DIABOLVS, i/e lirë "free" < LIBER, kut "elbow" < CUBITVS) 
-b > ∅ / V __ (r) V
+b > ∅ / [+syl] __ (r) [+syl]
 
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: cf. qytet 'city' < CĪVITĀTEM, njerkë "stepmother" < NOVERCA
-w > ∅ / V __ V
+w > ∅ / [+syl] __ [+syl]
 
 $ p1743 -- w > b after r and l. But at this point, these are the only coronals w can come after.
 w > b / [+cor] __
@@ -579,8 +579,6 @@ $DV1737's 5b.v: *ø > *ye / __ (w) V
 $ formatted to allow /w/ to have become [β]
 ˈø > ˈy e̯ / __ ([+lab,-syl,+cont,+voi]) V
 
-$TODO, EPSILON NOTE: from this point onward, De Vaan uses *e, but the difference between *e and *ɛ is not meaningful (any longer), and the gold outcomes in ALLex feature /ɛ/, so we will have to at some point move (or merge) these to/as ɛ -- probably at the end.
-
 $ a-mutation -- DV1736's 5a.2, also DV1735~ 2.2C2 + de Vaan 2004: 78--83. --  e (or ɛ it seems?) instances lower to a under the influence of /a/ in next syllable it seems. -- but per De Vaan 2004(78-83) this doesn't happen to Latin (and indeed the data largely matches this), and this is handled above in DV2.2.1C2. 
 $[-hi,-round,+syl] > [+lo,-tense] / __ ([-syl])* [+lo,+syl]
 
@@ -589,6 +587,11 @@ $ DV2.2.1C3 -- Lat AU and PPAlb *au (falling diphthong of either w or ʊ̯ , the
 
 $ DV 1737's 6. ø > e; implements final parts of DV2.2.1B6-8.
 [+front,-cons,-hi] > [-round]
+
+$TODO, EPSILON NOTE: from this point onward, De Vaan uses *e, but the difference between *e and *ɛ is not meaningful (any longer), and the gold outcomes in ALLex feature /ɛ/, so we will have to at some point move (or merge) these to/as ɛ -- probably at the end.
+$ likewise, for o and ɔ
+$bandaid here thus inserted
+[+syl,-lo,-hi] > [-tense]
 
 $ DV 1737's 7. Unstressed word-internal vowels to schwa, unstressed initial to zero-- include in _- VOWEL DROP WAVE -_
 
@@ -672,7 +675,31 @@ $DV1738, top, part 5 -- final countertonic -is, -ei (def rt msg) to >i, but it a
 $DV1738, top, part 6: final -i without primary stress > -u after velars. (but in practice this will be mainly be the (secondarily stressed?) -u of the definite masculine nominative?) 
 [+hi,+front,-prim] > [-front,-back,+round] 
 
+$ -------- rise of long vowels -------
+$ De Vaan places this between Proto-Albanian and modern PAlb but it seems clear that it is intended to represent a pan-Albanian development
+
+$ DV1734.1.I -- long vowels that arise through "internal contraction" 
+$TODO confer with De Vaan about the meaning of this -- assuming it means with schwa and/or homoorganic vowels for now. 
+{ə;ˌə;[-prim,αhi,βlo,ɣround,ðfront]} [+syl] > ∅ [+long] / @ __ @
+[+syl] {ə;ˌə;[-prim,αhi,βlo,ɣround,ðfront]} > [+long] ∅ / @ __ @
+
+$DV1734.1.III compensatory lengthening
+$ based on examples in DV2.2.2b and 2.2.2c, posttonic vowels seem to be lost at this point in the context R __ T, with lengthening of a prior vowel if it is stressed. (amita > emtë, manica > mëngë, veritātem > vërtet , spīritus > shpirt; vs. orphanus > varfër, epíscopus > peshkëp, contrā > kundër, tjetër < -étero-, sherbëtuor, ;
+$ --not near -ll- it seems so -long,-back to be safe :  maledicere > mallëkoj but also mallkoj?; likewise voluntātem > vull(ë)n(d)et ;; note also Buzuku's sonëte -- but there might be analogical-lexical reasons for that?) 
+$TODO reexamine this? 
+[+prim] > [+long] / __ [+cons,+son,-long,-back] ə [-cont]
+ə > ∅ / [+cons,+son,-long,-back] __ [-cont]
+
+$DV1734.1.IV -- 'lengthening before nasals liquids sibilants'
+[+prim] > [+long] / __ {[+cons,+son];[+strid]}
+
 =Late Proto-Albanian
+
+$------- continued rise of long vowels -------------
+$DV1734.1.II -- long vowels that arise through contraction in final position with *-ë and -i, the latter with apparent fronting but while illustrated in provided examples this apparent fronting is not stated as part of the development by De Vaan 2018, perhaps because it can be handled anyways by i-mutation. Gheg preserves -aë# and -oë# longer and makes them into vowels in some dialects ([æ], [ø]), so this is placed after the split of Proto-Albanian 
+$ this rule is formulated to capture not only non-primary stressed i and ə but also e -- this is simpler and has no issues as far as I'm aware -- TODO examine this for errors if necessary though. 
+[+syl] [-prim,-round,-lo] > [+long] ∅ / __ #
+
 
 $DV4.1V3 -- lk > jk -- some variation (bujk/ bulk for "peasant", OAlb attests ulk) but seems (??) pan-Albanian in nature? 
 $$ dialectal evidence suggests that this originally first passed to ʎ: Huld 1976 p 197 for ujk shows that uʎk- forms in Arvanitika and Arbereshe (Sal, Vacc, Falc), and Huld reasonably asserts proto-Albanian had either or uʎk- or ulk- when it split. This is perfectly compatible with hte rest of De Vaan 2018 (which has ʎ go to j later), and is not a new conclusion, so the version supported by Huld is implemented here for now.
@@ -740,9 +767,22 @@ $BANDAID fix-- since the notation of the data uses ɾ and r not r and rː, this 
 r > ɾ 
 rː > r
 
-$TODO implement phenomena at top of 1738 as concerns Italian and Slavic loans. 
+$ ã raises to ə in Tosk (ultimately denasalizing to ë outside of some Lab subdialects which may (or may not) have preserved nasality, maybe for this item) 
+[+lo,+nas,+syl] > [-lo,-back,-front,0tense]
+
+$DV2.1D2 -- uo > ua 
+{ɔ;ɔ̯} > {a;a̯} / [-cons,+round,+hi] __
+
+$DV2.1F2: və > u- 
+$ this might be yet earlier considering that it also happens in Gheg? Or not. 
+{v ə;v ˌə} > {u;ˈu} / # __
 
 = Proto-Tosk
+
+$loss of vocalic nasalization: DV2.1A2, C2, completing E1, F3
+[-cons,+nas] > [-nas]
+
+$TODO FOR LAB,CHAM,ARB-,ARV- : y > i here -- DV2.1A3 
 
 $DV4.1R2 -- final devoicing of -z
 z > s / __ # 
@@ -772,6 +812,9 @@ $ TODO FOR DIA : consider retracting this just to -o, and have the passage of un
 [-stres,-hi,+back] > a / __ #
 [-stres,-lo] > ∅ / __ #
 [-stres] > ə / __ # 
+
+$DV1734.3 -- loss of length in Northern Tosk (and much elsewhere except much of Lab) 
+[+long] > [-long]
 
 = Old Northern Tosk Albanian
 $ circa 1250-- layers added after this point incl. Old Italian II, Old Venetian, Old Angevin, Byzantine II, Ottoman I, Old Serbian. 

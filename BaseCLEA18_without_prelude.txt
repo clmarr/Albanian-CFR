@@ -329,11 +329,11 @@ j > ∅ / [-cont] [+cor,+son,-nas] __ ˈɛ
 
 $DV1737's 5b.iv: *o > *uo/# __ {r,lj},
 $this is also DV2.2.1L2 as concerns Latin o
-ˈo > ˈu o̯ / # __ {r;l j;ʎ
+ˈo > ˈu o̯ / # __ {r;l j;ʎ}
 
 $DV1737's 5b.v: *ø > *ye / __ (w) V
 $ formatted to allow /w/ to have become [β]
-ˈø > ˈy e̯ / __ ([+lab,-syl,+cont,+voi]) V
+ˈø > ˈy e̯ / __ ([+lab,-syl,+cont,+voi]) [+syl]
 
 $ a-mutation -- DV1736's 5a.2, also DV1735~ 2.2C2 + de Vaan 2004: 78--83. --  e (or ɛ it seems?) instances lower to a under the influence of /a/ in next syllable it seems. -- but per De Vaan 2004(78-83) this doesn't happen to Latin (and indeed the data largely matches this), and this is handled above in DV2.2.1C2. 
 $[-hi,-round,+syl] > [+lo,-tense] / __ ([-syl])* [+lo,+syl]
@@ -383,7 +383,7 @@ $ k > f aspect is bled before front vowels by k > j phenomena it seems (DV1744J3
 $ De Vaan does not include ps > fs(h) -- data seems inconsistent as there is gripsa > grifshë but psh- outcomes in supsīritāre > psherëtij and supsīrium > pshirë. 
 $ handling DV2.2.2b.iii (kˌət  >ft ) here too. 
 p > k / __ t
-{k ə;k} > f / __ {t;s}
+{k ə;k} > {f;f} / __ {t;s}
 
 $ post-nasal stop voicing. De Vaan attributes this to Proto-Albanian, for Latin and native words alike for -p- (DV1743.B2, .B4) and -t- (1743.D2 = 4.2D2), while treating Latin loans alone for k > g / n __ (DV1744.A1, .A3)
 	$ De Vaan's handling of /p/ is given the same time betweeen native and Latin strata, but not the
@@ -416,20 +416,20 @@ $TODO can remove when have handled post-Slavic (and indeed Italian) vowel phenom
 $DV1738, top, part 3: final -ja(s) to e, clearly bleeding part 2 below. 
 $form prior to 8/5/23 was: j a (s) > e / __ #
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
-{j a s;j a} > e / __ #
+{j a s;j a} > {e;e} / __ #
 
 $DV1738, top, part 1: final -V(s) and -oi (> ī ?) without stress fall 
 $in effect, this is non-low-vowel unstressed final syllables closed by inflectional endings. 
 $form prior to 8/5/23 was: [-stres] {m;s} > ∅ / __ #
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
 $ note that -stres implies a vowel if we are using the default feature definitions and implications (as is intended for this cascade), as the feature [stres] is unspecified unless it is [+syl] 
-{m;s} > ∅ / [-stres] __ #
+{m;s} > {∅;∅} / [-stres] __ #
 [-stres] > ∅ / __ #
 
 $DV1738, top, part 2: final -a(m/n)(s) to ë 
 $form prior to 8/5/23 was: a ([+nas,+cons]) (s) > ə / __ #
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
-{a m s;a n s;a s;a} > ə / __ # 
+{a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ # 
 
 $DV1738, top, part 4: final -a + jˌa (def FSG) > a 
 a j > ∅ / __ ˌa #
@@ -444,11 +444,13 @@ $ De Vaan places this between Proto-Albanian and modern PAlb but it seems clear 
 
 $ DV1734.1.I -- long vowels that arise through "internal contraction" 
 $TODO confer with De Vaan about the meaning of this -- assuming it means with schwa and/or homoorganic vowels for now. 
-$ DV1734.1.I -- long vowels that arise through "internal contraction" 
-$TODO confer with De Vaan about the meaning of this -- assuming it means with schwa and/or homoorganic vowels for now. 
-{ə;ˌə} [+syl] > ∅ [+long] / @ __ @
+$ version before 8/5/23: 
+	$ {ə;ˌə;[-prim,αhi,βlo,ɣround,ðfront]} [+syl] > ∅ [+long] / @ __ @
+	$ [+syl] {ə;ˌə;[-prim,αhi,βlo,ɣround,ðfront]} > [+long] ∅ / @ __ @
+$ had to change to sidestep input-side issues then-current in DiaSim. TODO consider restoring. 
+[-prim,-lo,-front,-back] [+syl] > ∅ [+long] / @ __ @
 [-prim,αhi,βlo,ɣround,ðfront] [+prim,αhi,βlo,ɣround,ðfront] > ∅ [+long] / @ __ @
-[+syl] {ə;ˌə} [+syl] > [+long] ∅ / @ __ @
+[+syl] [-prim,-lo,-front,-back] > [+long] ∅ / @ __ @
 [+prim,αhi,βlo,ɣround,ðfront] [-prim,αhi,βlo,ɣround,ðfront] > [+long] ∅ / @ __ @
 
 $DV1734.1.III compensatory lengthening
@@ -592,11 +594,14 @@ $DV4.1E / F -- further palatalization, this time occuring before front vowels --
 
 $DV4.1I : Old Albanian d + s & d + th > ts 
 $merge also DV4.1K2 : OAlb d + sh > ç
-d [+cont,+cor,βant] > ∅ [+delrel,-βdistr,+strid]
+$ version before 8/5/23 was : d [+cont,+cor,βant] > ∅ [+delrel,-βdistr,+strid]
+$ had to change because negative alpha values are not currently supported. 
+$ TODO consider restoring old version when possible. 
+{d ʃ;d s;d θ} > {t͡ʃ;t͡s;t͡s}
 
 $DV4.1K1 -- Old Alb ʃ > tʃ before a consonant 
 $DV4.1K3 partially implemented here -- Tosk standard does not have c > t͡ʃ everywhere, but does seem to have it when praeconsonantal (çfarë, etc.) 
-{ʃ;c} > t͡ʃ / __ [+cons]
+{ʃ;c} > {t͡ʃ;t͡ʃ} / __ [+cons]
 
 ~ Standard Albanian
 

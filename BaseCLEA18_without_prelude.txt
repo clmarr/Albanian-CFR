@@ -181,7 +181,7 @@ $ form prior to 8/5/23 was: {[-cont,+back] w;[-cont,+back,+round]} > {[-round] �
 $ was formulated so as to handle if these are treated instead as labialized consonants (alas in practice the format in ALLex currently is always "k w" and "ɡ w", not "kʷ", "ɡʷ".) 
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
 $ in practice qu- and gu- never occur without following vowels, so it can be expressed without the following vowel. 
-w > ∅ / [-cont,+back] 
+w > ∅ / [-cont,+back] __
 
 $ DV1744.C4 -- emergence of PAlb β before Latin long ō and the reflex of Alb long-ā, but PPAlb ō is not listed. PAlb β itself is the reflex of initial Latin w- and PPAlb β, itself from a PIE u̯. Treat as w for now, betacize later, as then merge them here, with a single rule. In order to impact PPAlb ā and Latin ō but not PPAlb ō, PPAlb ō must have a different reflex at this stage. But De Vaan 2018 does not seem to PPAlb ō and Latin  differently otherwise, in fact they are typically handled together (cf. DV1736G1, DV2.2.1B7 & DV2.2.1B8) except when i-mutation is concerned (DV1736H1, which can simply be handled by placing it in the post-Greek but pre-Latin area of PAlb). So unless there are issues that emerge upon later examination, we will be treating PPAlb ō as potentially a trigger as well.
 ∅ > w / __ [-hi,+round,+long]

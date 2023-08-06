@@ -476,7 +476,7 @@ $ DV1740.C2 merged in too -- -Kn- affected as well. But this should be interpret
 $ form prior to 8/5/23 was: {[+cor,+ant,-son];n;k} n > nː
 $ was formulated so as to handle if these are treated instead as labialized consonants (alas in practice the format in ALLex currently is always "k w" and "ɡ w", not "kʷ", "ɡʷ".) 
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
-{s;t;d;n;k} n > nː
+{s n;t n;d n;n n;k n} > {nː;nː;nː;nː;nː}
 
 $ k becoming yod before /t/ if next to front vowel -- De Vaan 2018(:1744)  -- DV1744J3
 	$ potentially IMPORTANT: what frontness should we treat /a/ as having at this point? For the inputs to Gallo-Romance, Pope 1934 treats Latin /a/ and /aː/ as originally backed, but becoming fronted... what should they be here?  
@@ -510,11 +510,11 @@ $ other relevant cases:
 		$TODO: remove this commentary from baseline 18 cascade once decisions are made for DiaCLEA, move it there. 
 
 $ De Vaan 1736 "1." + DV1736~A1&A3 (on Lat & PPAlb ū) + DV1735~A7&A8 (on Lat & PPAlb ō) - long back vowels fronted -- listing only the round ones and not including ɒː (incl. from PIE & AGk aː)-- in effect, he seems to mean the non-low long back vowels ones. 
-[+back,+long,+syl,-low] > [+front,-back]
+[+back,+long,+syl,-lo] > [+front,-back]
 
 $ De Vaan p1736 "2." +DV1735~A1&A2: PPAlb & Lat ai (incl ae?) > ē
 $ based on treatment of Lat. ae elsewhere, where it falls in with Latin *short* e, it seems not, but this is bled already anyways so no need to change this rule at the moment (as of Aug. 1 2023) 
-[+low,+syl,αstres,βprim] [+front,-cons,-syl] > [-low,+front,+long,αstres,βprim] ∅
+[+lo,+syl,αstres,βprim] [+front,-cons,-syl] > [-lo,+front,+long,αstres,βprim] ∅
 
 $----- early aspects of vowel reduction and falls ----- 
 $bandaid implied elsehwere -- strip final s in inflectional endings, and then nasals, in that order
@@ -535,7 +535,7 @@ $ resolution of DV1744.D & DV1744.E1 -- see notes on this above, this is motivat
 {t͡s;d͡z} > {θ;ð}
 
 $ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër, but via PPAlb *ā) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. 
-[+round,+syl,+long] > [-low,-tense]
+[+round,+syl,+long] > [-lo,-tense]
 
 $ 4 NEW VOWEL SYSTEM. loss of distinctive vowel length leading to "system"
 $the following system will emerge per chart at bottom of 1736 -- filling changes not already handled before this point.
@@ -865,7 +865,7 @@ $DV1734.3 -- loss of length in Northern Tosk (and much elsewhere except much of 
 $ circa 1250-- layers added after this point incl. Old Italian II, Old Venetian, Old Angevin, Byzantine II, Ottoman I, Old Serbian. 
 
 $DV4.1E / F -- further palatalization, this time occuring before front vowels -- and affecting Turkish loans as well. This happens in all northern Tosk but that it affected Turkish loans implies a later placement in the relative chronology (in Gheg it dodges some parts of the northwest zone) 
-[+back,-cont] > [-back,+front] / __ [+front,-low,-cons]
+[+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
 
 $DV4.1I : Old Albanian d + s & d + th > ts 
 $merge also DV4.1K2 : OAlb d + sh > ç

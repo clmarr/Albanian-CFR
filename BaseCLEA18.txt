@@ -145,7 +145,9 @@ $merge with DV4.3J1 -- this happening to dj and dʰj-
 $and merge w. DV4.3I1 -- this happening to tj 
 $but note that DV4.3J1 and DV4.3I1, if they don't happen here, will be covered later when the same change impacts Latin loans -- TODO consider using hte MINIMAL VERSION here instead (which implements only DV4.3J3) to test if this is a better way to do things... 
 $ ɟʰ [-cons,+round,-syl] > d͡ʒ $-- MINIMAL VERSION
-{ɟʰ w; [+cor,-cont] j} > [+delrel,+strid,-ant,+distr,-hi,+front] ∅
+$ formation prior to 8/5/2023 was: {ɟʰ w; [+cor,-cont] j} > [+delrel,+strid,-ant,+distr,-hi,+front] ∅
+$ however this had to be changed to sidestep then-current issue in DiaSim. TODO consider restoring when this is resolved. 
+{ɟʰ w; t j;d j;dʰ j} > [+delrel,+strid,-ant,+distr,-hi,+front] ∅
 
 $DV4.3G1 & H1 -- unless in aforementioned bleeding conditions, the (non-aspirated) c and ɟ affricate to what De Vaan 2018 notates as *t͡ɕ and *d͡ʑ; *c͡ɕ and ɟ͡ʑ are more conventional from a phonetic perspective; this cascade uses *c͡ç and *ɟ͡ʝ as this assumes a change in one less feature (strid)
 $ De Vaan 2018 treats *c and *ɟ differently here from *ɟʰ, which is handled below. 
@@ -234,6 +236,8 @@ $ anyhow, for now, it seems this can be handled in much fewer than five rules --
 $This seems supported by the view in Kortlandt 1987 (p.221) that more explicitly treats ʃ as the "elsewhere" outcome -- "it seems that PIE. *s yielded sh in all other positions..." 
 $ -- that is Kortlandt, Frederik. 1987. PIE *s in Albanian. Studies in Slavic and General Linguistics. 10: 219-226. 
 $ perhaps check also Schumacher 2013 = Schumacher, Stefan. 2013. Historische Phonologie. In Stefan Schumacher and Joachim Matzinger (eds.). Die Verben des Altabanischen. Belegwörterbuch, Vorgeschichte und Etymologie. Unter Mitarbeit von Anna-Maria Adaktylos. Wiesbaden: Harassowitz, 205-276. 
+$ first part was originally (before 8/5/23): (k) s > ʃ 
+$ this had to be changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when this is resolved. 
 {k s;s} > ʃ
 ʃ > ʒ / __ [+stres]
 

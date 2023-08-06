@@ -75,7 +75,7 @@ $ However, in light of the fact that Proto-Albanian loans reflecting PIE palatov
 {c͡ç;ɟ͡ʝ} > {t͡s;d͡z}
 
 $DV1740I1 -- initial PPAlb and Lat. r- becomes "*r:"; merges with the reflex of PPAlb initial *wr- (DV1740I2)
-(w) r > [+long] / # __
+{w r;r} > rː / # __
 $DV1740I3 -- internal Lat. -rr- becomes PAlb *r: as well. 
 r r > rː 
 
@@ -105,25 +105,26 @@ $DV1740F3 -- Lat *l > l: / V __ V[-front]
 $ as long as the lambda forming rule DV1740G1 is placed before this, [-front] does not need to be explicated, which is useful because [a] may technically be treated as front depending on the current convention for Latin on the input side, but this does appear to occur before [a] ? (or not?) 
 $ Combined with DV1740F1 ~ PPAlb *l, *sl > l: / V __ V[-front] 
 $ TODO FOR DIA : consider just having this go straight to dark L 
-(s) l > [+long] / [+syl] __ [+syl]
+{s l;l} > lː / [+syl] __ [+syl]
 
 $DV1740E3 -- Lat ll > PAlb l. As [l] is a resonant, this will be totally bled by DV1740F2 if not placed before it.
 $merge with DV1740E1: PPAlb ln > PAlb l; placement for the same counterbleeding reasons.  
-l {l;n} > l
+{l;n} > ∅ / l __ 
 
 $DV1740F2 -- l and a nearby resonant (Rl, lR) merge to become *l:. De Vaan lists parabola -> përrallë as his third example wihch would imply a treatment of /β/ (perhaps? if not /b/?) as a resonant, which could cause problems, but actually parabola > përrallë can be perfectly handled if it is placed before the fall of unstressed vowels.
 $ but this must be placed after DV1740E3 and DV1740E1 as otherwise it would completely bleed them.
-{[+cons,+son] l;l [+cons,+son]} > {lː;lː}
+[+cons,+son] l > lː
+l [+cons,+son] > lː
 
 $DV2.2.1C5: Latin short e > a in "q, sh" __ "rr, l". No explicit word on the dating of this except that it is between post-Latin PPAlb, and PAlb; the forms used (q, sh,... rr, l) suggest a later date but at first inspection it seems to precede the merger of ae to short e (caelum > qiell) which certainly must have been before k > q (=[c]). So it is placed right after "rr, l" emerged (with what would become dark l now being long l, and rr being long r)
 $no clear way to block this for PPAlb *e, so this will need to be fixed if errors arise (TODO) 
 ˈe > ˈɑ / {k;[+cor,-lab,+cont]} __ {l;rː}
 
 $merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) 
-{ɡ n (j);n j} > {ɲ;ɲ}
+{ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ}
 
 $DV1740.D4 Lat -ng(u-)>ɲ / __ V[+front]
-[+nas] [-cont,+back,+voi] ([+hi,+round,-cons]) / __ [+front,-cons,+hi]
+[+nas] [-cont,+back,+voi] > ɲ / __ [+front,-cons,+hi]
 
 $DV1740H2 -- rC, Cr > r. 
 $ This one is likely very bugged and needs either suppression or massive fixes. TODO confer with De Vaan on this? 

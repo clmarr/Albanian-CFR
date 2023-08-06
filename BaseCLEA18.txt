@@ -150,7 +150,7 @@ $but note that DV4.3J1 and DV4.3I1, if they don't happen here, will be covered l
 $ ɟʰ [-cons,+round,-syl] > d͡ʒ $-- MINIMAL VERSION
 $ formation prior to 8/5/2023 was: {ɟʰ w; [+cor,-cont] j} > [+delrel,+strid,-ant,+distr,-hi,+front] ∅
 $ however this had to be changed to sidestep then-current issue in DiaSim. TODO consider restoring when this is resolved. 
-{ɟʰ w; t j;d j;dʰ j} > [+delrel,+strid,-ant,+distr,-hi,+front] ∅
+{ɟʰ w;t j;d j;dʰ j} > {d͡ʒ;t͡ʃ;d͡ʒ;d͡ʒ}
 
 $DV4.3G1 & H1 -- unless in aforementioned bleeding conditions, the (non-aspirated) c and ɟ affricate to what De Vaan 2018 notates as *t͡ɕ and *d͡ʑ; *c͡ɕ and ɟ͡ʑ are more conventional from a phonetic perspective; this cascade uses *c͡ç and *ɟ͡ʝ as this assumes a change in one less feature (strid)
 $ De Vaan 2018 treats *c and *ɟ differently here from *ɟʰ, which is handled below. 
@@ -241,7 +241,7 @@ $ -- that is Kortlandt, Frederik. 1987. PIE *s in Albanian. Studies in Slavic an
 $ perhaps check also Schumacher 2013 = Schumacher, Stefan. 2013. Historische Phonologie. In Stefan Schumacher and Joachim Matzinger (eds.). Die Verben des Altabanischen. Belegwörterbuch, Vorgeschichte und Etymologie. Unter Mitarbeit von Anna-Maria Adaktylos. Wiesbaden: Harassowitz, 205-276. 
 $ first part was originally (before 8/5/23): (k) s > ʃ 
 $ this had to be changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when this is resolved. 
-{k s;s} > ʃ
+{k s;s} > {ʃ;ʃ}
 ʃ > ʒ / __ [+stres]
 
 $DV4.3K2 *tp- > ft- (perhaps after some schwa losses?) 
@@ -254,7 +254,7 @@ $ ----------- Pre-Proto-Albanian = pre-Greek proto-Albanian. --------------
 =Pre-Proto-Albanian
 
 $ rule to capture movement of native and Greek aː to ɔː -- for benefit of the doubt, borrowing Orel's usage of ɒː to allow this to not to pattern with Latin aː while respecting the chronology of vocalic developments on De Vaan p1736. So here we have aː > ɒː. Note also DV1739.A4 where Doric mākhānā is listed here. 
-[+long,+low] > [+back,+round]
+[+long,+lo] > [+back,+round]
 
 $ general rule for De Vaan(:1747) is no change in stress placement: by default, Latin loans have the same stress placement as in Classical Latin, "and the same goes for loanwords from later layers... Slavic, Italian... Greek... Turkish". Exceptions seem to be largely morphologically motivated (see bottom of p1747); De Vaan (1747) agrees with Matzinger 2006 that things are too complicated for Jokl 1923's treatment of PPAlb as having general penultimate accent. 
 
@@ -271,7 +271,7 @@ d > ð / [+syl] __ [+syl]
 
 $DV1744J2 (=4.2Q2) -- some PAlb *ð < PIE d / V __ V becomes *j. But this does not seem intended to be deterministic(?) as while ujë "water" and the aorist -jt- are cited, DV1744E2 also has (-)dha "gave" and lodhet "to tire" cited. Some other sources do not have ujë "water" coming from something with an intervocalic *d though: Orel 1998 (:483) assets a PAlb *udrjā akin to Greek hydría "water bucket", in line with Camarda, Gil'ferding and Hamp 1965(:138); Huld 1976(:197) seems largely favorable to this and puts *udr-iom as his own form. Meyer 1891(:456) had *udni̯ā; Pedersen 1897(:286) and Tagliavini (1937:237) accept this but Huld 1976(:196) does not on the basis of the lack of any nasal traces in Arvanitika, a similar criticism to that voiced by Orel 1998. La Piana has ujë < ulë < ud-l-o. Demiraj 1997 (:401-2) asserts a PAlb *urjā citing Skt. vār- "water". Çabej 1967(:70-2) seems to say what De Vaan 2018 is saying here, except in that the -j- arises later in hiatus after the fall of intervocalic -d- in native words, which apparently Çabej 1967 considers more widespread than does De Vaan 2018 (?). 
 $TODO reexamine this considering the above. Also perhaps confer with De Vaan on what was intended here.
-ð > j / [syl] __ [+syl] 
+ð > j / [+syl] __ [+syl] 
 
 $DV4.1B2 -- m to b before l -- DV'18 lists bluan "to grind" < mleh1-, bletë "bee" < *m[e]lit? (question mark in the original) -- given the second example, there may have been some vowel effacement before this point? But DV'18 does not attribute this outcome for Latin loans into Proto-Albanian, and indeed they don't seem to show it exactly (e.g. simulatūra > shëmbëlltyrë etc.) 
 m > b / __ l
@@ -303,7 +303,7 @@ $ per De Vaan 2004(:78-83), this is actually going to ja, not simply ɑ, so that
 
 $DV2.2.1A1: PPAlb *i, unlike Latin I, reflects as PAlb *i without qualifications, as do PPAlb *ī and Latin ī (2.2.1A2,A6), but not Latin I, which reflects as PAlb *e generally (2.2.1B11) except when under i-mutation (2.2.1A5), wherein it behaves quite similarly to Latin E and PPAlb *e (2.2.1A3)
 $The best way to handle this for now, without changing all the Latin inputs (but: note that based on Classical Latin and Romance phonology, these short I-s plausibly *could* be either [ɪ] or [e])... is to lengthen all PPAlb *i just before Latin. This is no issue because there does not seem to be any difference in the behavior of PPAlb *ī and *i anyways
-*note that for this to work, the *i present as the second element of diphthongs must already be [j] by now. 
+$note that for this to work, the *i present as the second element of diphthongs must already be [j] by now. 
 $note that this is NOT a proposed sound change, but a temporary solution to the issue. (and even replacing the Latin short I instances with [ɪ] or [e] might not work to fix it, because even though it does have a basis in both Classical Latin and Romance phonology, it still might cause issues regarding this short I's role as a trigger of i-mutation -- TODO consider that and make remarks here) 
 [+hi,+front,+syl] > [+long]
 
@@ -352,7 +352,7 @@ $ However, in light of the fact that Proto-Albanian loans reflecting PIE palatov
 $DV1740I1 -- initial PPAlb and Lat. r- becomes "*r:"; merges with the reflex of PPAlb initial *wr- (DV1740I2)
 $form prior to 8/5/23 was: (w) r > rː / # __ 
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
-{w r;r} > rː / # __
+{w r;r} > {rː;rː} / # __
 
 $DV1740I3 -- internal Lat. -rr- becomes PAlb *r: as well. 
 r r > rː 
@@ -385,11 +385,11 @@ $ Combined with DV1740F1 ~ PPAlb *l, *sl > l: / V __ V[-front]
 $ form prior to 8/5/23 was: (s) > lː / [+syl] __ [+syl]
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
 $ TODO FOR DIA : consider just having this go straight to dark L 
-{s l;l} > lː / [+syl] __ [+syl]
+{s l;l} > {lː;lː} / [+syl] __ [+syl]
 
 $DV1740E3 -- Lat ll > PAlb l. As [l] is a resonant, this will be totally bled by DV1740F2 if not placed before it.
 $merge with DV1740E1: PPAlb ln > PAlb l; placement for the same counterbleeding reasons.  
-{l;n} > ∅ / l __ 
+{l;n} > {∅;∅} / l __ 
 
 $DV1740F2 -- l and a nearby resonant (Rl, lR) merge to become *l:. De Vaan lists parabola -> përrallë as his third example wihch would imply a treatment of /β/ (perhaps? if not /b/?) as a resonant, which could cause problems, but actually parabola > përrallë can be perfectly handled if it is placed before the fall of unstressed vowels.
 $ but this must be placed after DV1740E3 and DV1740E1 as otherwise it would completely bleed them.

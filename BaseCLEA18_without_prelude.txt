@@ -77,7 +77,7 @@ $ However, in light of the fact that Proto-Albanian loans reflecting PIE palatov
 $DV1740I1 -- initial PPAlb and Lat. r- becomes "*r:"; merges with the reflex of PPAlb initial *wr- (DV1740I2)
 $form prior to 8/5/23 was: (w) r > rː / # __ 
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
-{w r;r} > rː / # __
+{w r;r} > {rː;rː} / # __
 
 $DV1740I3 -- internal Lat. -rr- becomes PAlb *r: as well. 
 r r > rː 
@@ -110,11 +110,11 @@ $ Combined with DV1740F1 ~ PPAlb *l, *sl > l: / V __ V[-front]
 $ form prior to 8/5/23 was: (s) > lː / [+syl] __ [+syl]
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
 $ TODO FOR DIA : consider just having this go straight to dark L 
-{s l;l} > lː / [+syl] __ [+syl]
+{s l;l} > {lː;lː} / [+syl] __ [+syl]
 
 $DV1740E3 -- Lat ll > PAlb l. As [l] is a resonant, this will be totally bled by DV1740F2 if not placed before it.
 $merge with DV1740E1: PPAlb ln > PAlb l; placement for the same counterbleeding reasons.  
-{l;n} > ∅ / l __ 
+{l;n} > {∅;∅} / l __ 
 
 $DV1740F2 -- l and a nearby resonant (Rl, lR) merge to become *l:. De Vaan lists parabola -> përrallë as his third example wihch would imply a treatment of /β/ (perhaps? if not /b/?) as a resonant, which could cause problems, but actually parabola > përrallë can be perfectly handled if it is placed before the fall of unstressed vowels.
 $ but this must be placed after DV1740E3 and DV1740E1 as otherwise it would completely bleed them.

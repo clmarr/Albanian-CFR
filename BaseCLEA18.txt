@@ -107,7 +107,10 @@ $ this effectively also implements DV2.3J1 and DV2.3K1, and effectively the merg
 
 $Bandaid: loss of syllabicity for remaining syllabic resonants after adjacent to syllabic elements
 $This also forms the diphthongs from V {i,u} sequences that might have arisen, thus implementing the final parts of 2.3J2 and 2.3K2 and medial parts of 2.3E2 and 2.3F1
-{[+cons];[+hi]} > {[-syl];[-syl]} / [+syl] __
+$ formation prior to 8/5/2023 was: {[+cons];[+hi]} > {[-syl];[-syl]} / [+syl] __
+$ however this had to be changed to sidestep then-current issue in DiaSim. TODO consider restoring when this is resolved. 
+[+cons] > [-syl] / [+syl] __
+[+hi] > [-syl] / [+syl] __
 
 $DV4.3I3 -- *Tt > *tʃ too. The single example pot-to is a dental stop; to resolve conflict between this rule and DV4.3Q3, I refer to the examples given by De Vaan 2018 in the latter, and these include -pt-, -ct-, and -kʷt- but on dentals. Given the past literature on the "thorn cluster", it makes sense to assume that this one targets a dental cluster, and effacement rule in DV4.3Q3 which would naturally compete with this, is place-independent and comes later -- in effect targeting non-dental stop
 $TODO confer with De Vaan over this by email? 

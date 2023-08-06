@@ -318,7 +318,7 @@ $ TODO check this ^
 $ per DV2.2.1M, glided j gets absorbed into ø here. 
 $ TODO check this^ IMPLEMENT FOR DIA -- remove the (j), because this is better handled via tj > tʃ > s. 
 $ regarding the word-finality, same factors apply as above in DV1737~5b.1
-{ˈo;(j) ˈø} > {ˈu o̯;ˈy e̯} / __ {lː;n;r} ([-lo,-stres] (m)) # 
+{ˈo;j ˈø;ˈø} > {ˈu o̯;ˈy e̯;ˈy e̯} / __ {lː;n;r} ([-lo,-stres] (m)) # 
 
 $ DV1736's 5a.1 : *ɛ > jɛ ietation (my word)
 $ = DV2.2.1B2 
@@ -383,7 +383,7 @@ $ k > f aspect is bled before front vowels by k > j phenomena it seems (DV1744J3
 $ De Vaan does not include ps > fs(h) -- data seems inconsistent as there is gripsa > grifshë but psh- outcomes in supsīritāre > psherëtij and supsīrium > pshirë. 
 $ handling DV2.2.2b.iii (kˌət  >ft ) here too. 
 p > k / __ t
-k (ə) > f / __ {t;s}
+{k ə;k} > f / __ {t;s}
 
 $ post-nasal stop voicing. De Vaan attributes this to Proto-Albanian, for Latin and native words alike for -p- (DV1743.B2, .B4) and -t- (1743.D2 = 4.2D2), while treating Latin loans alone for k > g / n __ (DV1744.A1, .A3)
 	$ De Vaan's handling of /p/ is given the same time betweeen native and Latin strata, but not the
@@ -413,15 +413,23 @@ $ ---------- Pre-Slavic final vowel phenomena --
 
 $TODO can remove when have handled post-Slavic (and indeed Italian) vowel phenomena... 
 
+$DV1738, top, part 3: final -ja(s) to e, clearly bleeding part 2 below. 
+$form prior to 8/5/23 was: j a (s) > e / __ #
+$changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
+{j a s;j a} > e / __ #
+
 $DV1738, top, part 1: final -V(s) and -oi (> ī ?) without stress fall 
 $in effect, this is non-low-vowel unstressed final syllables closed by inflectional endings. 
-[-stres] {m;s} > ∅ / __ #
-
-$DV1738, top, part 3: final -ja(s) to e, clearly bleeding part 2 below. 
-j a (s) > e / __ #
+$form prior to 8/5/23 was: [-stres] {m;s} > ∅ / __ #
+$changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
+$ note that -stres implies a vowel if we are using the default feature definitions and implications (as is intended for this cascade), as the feature [stres] is unspecified unless it is [+syl] 
+{m;s} > ∅ / [-stres] __ #
+[-stres] > ∅ / __ #
 
 $DV1738, top, part 2: final -a(m/n)(s) to ë 
-a ([+nas,+cons]) (s) > ∅ / __ #
+$form prior to 8/5/23 was: a ([+nas,+cons]) (s) > ə / __ #
+$changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
+{a m s;a n s;a s;a} > ə / __ # 
 
 $DV1738, top, part 4: final -a + jˌa (def FSG) > a 
 a j > ∅ / __ ˌa #
@@ -436,8 +444,12 @@ $ De Vaan places this between Proto-Albanian and modern PAlb but it seems clear 
 
 $ DV1734.1.I -- long vowels that arise through "internal contraction" 
 $TODO confer with De Vaan about the meaning of this -- assuming it means with schwa and/or homoorganic vowels for now. 
-{ə;ˌə;[-prim,αhi,βlo,ɣround,ðfront]} [+syl] > ∅ [+long] / @ __ @
-[+syl] {ə;ˌə;[-prim,αhi,βlo,ɣround,ðfront]} > [+long] ∅ / @ __ @
+$ DV1734.1.I -- long vowels that arise through "internal contraction" 
+$TODO confer with De Vaan about the meaning of this -- assuming it means with schwa and/or homoorganic vowels for now. 
+{ə;ˌə} [+syl] > ∅ [+long] / @ __ @
+[-prim,αhi,βlo,ɣround,ðfront] [+prim,αhi,βlo,ɣround,ðfront] > ∅ [+long] / @ __ @
+[+syl] {ə;ˌə} [+syl] > [+long] ∅ / @ __ @
+[+prim,αhi,βlo,ɣround,ðfront] [-prim,αhi,βlo,ɣround,ðfront] > [+long] ∅ / @ __ @
 
 $DV1734.1.III compensatory lengthening
 $ based on examples in DV2.2.2b and 2.2.2c, posttonic vowels seem to be lost at this point in the context R __ T, with lengthening of a prior vowel if it is stressed. (amita > emtë, manica > mëngë, veritātem > vërtet , spīritus > shpirt; vs. orphanus > varfër, epíscopus > peshkëp, contrā > kundër, tjetër < -étero-, sherbëtuor, ;
@@ -505,7 +517,7 @@ $ TODO NOTE FOR DIA : note that this may have to precede some vowel drops though
 n > r / [+syl] __ [+syl]
 
 $DV3.1H2 : -rn- > -rr- / V __ V . This happens in Gheg and Tosk, but De Vaan 2018, citing Janson 1986(:97f), argues it is post-Slavic. Inasmuch as it happens in Gheg, it is also independent of Tosk rhotacism, and should thus be handled separately.
-rn > rː / @ __ @
+r n > rː / @ __ @
 
 $DV3.1A2 -- beta to m before "VN$". 
 $TODO Might be issues with the dating of this, as it assumes beta has emerged but has not yet passed to /v/ (all the cases listed are where beta reflects Latin /w/), but it also assumes the /n/ is still present in this ve:nsi:ca despite nasal-spirant stuff... unless this word was loaned in another wave? Some examination may be necessary. Ambiguity between beta and /v/ and even /w/ intentionally allowed in the formalism here. May need to be placed much much earlier into Antique Proto-Albanian. $ TODO Syllable break handled with a consonant for now. This may need to be examined. 

@@ -137,8 +137,8 @@ $changed to sidestep then-current input-side issues in DiaSim. TODO consider res
 [+nas] [-cont,+back,+voi] > ɲ / __ [+front,-cons,+hi]
 
 $DV1740H2 -- rC, Cr > r. 
-$ This one is likely very bugged and needs either suppression or massive fixes. TODO confer with De Vaan on this? 
-$ TODO suppressed for now. This is not an "interesting" error as I seriously doubt De Vaan intended the massive issues this would cause
+$ This one is likely very bugged and needs either suppression or massive fixes-- suppressed, in conference with De Vaan 8/9/23
+$ TODO long term - -consider only applying it for -rs- and -sr- for pre-Latin etyma 
 $ r [+cons] > r 
 $ [+cons] r > r 
 
@@ -247,8 +247,8 @@ s > ∅ / [-stres] ([+nas,+cons]) __ #
 [+nas,+cons] > ∅ / [-stres] __ #
 
 $ DV2.2.2c "at an early stage" internal unstressed post-tonic vowels go to schwa, some soon to be lost. 
-$ originally formulated here so as to not count items with inflectional ending consonants (e.g. accusative -m) as "internal" : [-stres] > ə / [+prim] ([-syl])* __ ([-syl])* [+syl] -- but now this is no longer necessary(?)
-[-stres] > ə / [+prim] ([-syl])* __ @ 
+$ originally formulated here so as to not count items with inflectional ending consonants (e.g. accusative -m) as "internal" : [-stres] > ə / [+prim] (@)* __ ([-syl])* [+syl] -- but now this is no longer necessary(?)
+[-stres] > ə / [+prim] (@)* __ @ 
 
 
 $--------------------Middle Proto-Albanian-------------------
@@ -359,7 +359,7 @@ $ TODO FOR DIA consider suppressing the Buzuku rule here.
 ∅ > ə / # __ [+son,+cons] [+cons]
 
 $ DV2.2.2b -- internal pretonic vowels "including *au" (now > *a per DV2.2.1C3) to schwa, some of these to fall soon. "These reductions also affected the oldest layers of loanwords from Middle Greek, Italian, and Slavic" -- so will be repeated later just after the point for Old Northern Tosk Albanian. 
-[-prim] > ə / @ __ ([-syl])* [+prim]
+[-prim] > ə / @ __ (@)* [+prim]
 
 $TODO the various unstressed vowel drops occur somewhere around here. -- this is 1737 "7.", and covered extensively in 2.2.2 
 
@@ -411,8 +411,6 @@ $bandaid -- fronting of remaining low vowels at this point, because the lexicon 
 
 $ ---------- Pre-Slavic final vowel phenomena -- 
 
-$TODO can remove when have handled post-Slavic (and indeed Italian) vowel phenomena... 
-
 $DV1738, top, part 3: final -ja(s) to e, clearly bleeding part 2 below. 
 $form prior to 8/5/23 was: j a (s) > e / __ #
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
@@ -423,7 +421,7 @@ $in effect, this is non-low-vowel unstressed final syllables closed by inflectio
 $form prior to 8/5/23 was: [-stres] {m;s} > ∅ / __ #
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
 $ note that -stres implies a vowel if we are using the default feature definitions and implications (as is intended for this cascade), as the feature [stres] is unspecified unless it is [+syl] 
-{m;s} > {∅;∅} / [-stres] __ #
+{m;s} > {∅;∅} / __ #
 [-stres] > ∅ / __ #
 
 $DV1738, top, part 2: final -a(m/n)(s) to ë 
@@ -443,19 +441,22 @@ $ -------- rise of long vowels -------
 $ De Vaan places this between Proto-Albanian and modern PAlb but it seems clear that it is intended to represent a pan-Albanian development
 
 $ DV1734.1.I -- long vowels that arise through "internal contraction" 
-$TODO confer with De Vaan about the meaning of this -- assuming it means with schwa and/or homoorganic vowels for now. 
+$previously assumed this meant with schwa and/or homoorganic vowels for now, put per conference with De Vaan 8/9/23 -- to be on the safe side do it for all vowels; 
 $ version before 8/5/23: 
 	$ {ə;ˌə;[-prim,αhi,βlo,ɣround,ðfront]} [+syl] > ∅ [+long] / @ __ @
 	$ [+syl] {ə;ˌə;[-prim,αhi,βlo,ɣround,ðfront]} > [+long] ∅ / @ __ @
 $ had to change to sidestep input-side issues then-current in DiaSim. TODO consider restoring. 
-[-prim,-lo,-front,-back] [+syl] > ∅ [+long] / @ __ @
-[-prim,αhi,βlo,ɣround,ðfront] [+prim,αhi,βlo,ɣround,ðfront] > ∅ [+long] / @ __ @
-[+syl] [-prim,-lo,-front,-back] > [+long] ∅ / @ __ @
-[+prim,αhi,βlo,ɣround,ðfront] [-prim,αhi,βlo,ɣround,ðfront] > [+long] ∅ / @ __ @
+$ version before 8/9/23 was these four rules, before changing implementation to cover all vowels that have come into contact
+$	[-prim,-lo,-front,-back] [+syl] > ∅ [+long] / @ __ @
+$	[-prim,αhi,βlo,ɣround,ðfront] [+prim,αhi,βlo,ɣround,ðfront] > ∅ [+long] / @ __ @
+$	[+syl] [-prim,-lo,-front,-back] > [+long] ∅ / @ __ @
+$	[+prim,αhi,βlo,ɣround,ðfront] [-prim,αhi,βlo,ɣround,ðfront] > [+long] ∅ / @ __ @
+[-prim] [+prim] > ∅ [+long] / @ __ @
+[+prim] [-prim] > [+long] ∅ / @ __ @
 
 $DV1734.1.III compensatory lengthening
 $ based on examples in DV2.2.2b and 2.2.2c, posttonic vowels seem to be lost at this point in the context R __ T, with lengthening of a prior vowel if it is stressed. (amita > emtë, manica > mëngë, veritātem > vërtet , spīritus > shpirt; vs. orphanus > varfër, epíscopus > peshkëp, contrā > kundër, tjetër < -étero-, sherbëtuor, ;
-$ --not near -ll- it seems so -long,-back to be safe :  maledicere > mallëkoj but also mallkoj?; likewise voluntātem > vull(ë)n(d)et ;; note also Buzuku's sonëte -- but there might be analogical-lexical reasons for that?) 
+$ --not near -ll- it seems so -long,-back to be safe :  maledicere > mallëkoj but also mallkoj?; likewise voluntātem > vull(ë)n(d)et ; note also Buzuku's sonëte -- but there might be analogical-lexical reasons for that as it is so - nate?) 
 $TODO reexamine this? 
 [+prim] > [+long] / __ [+cons,+son,-long,-back] ə [-cont]
 ə > ∅ / [+cons,+son,-long,-back] __ [-cont]
@@ -489,9 +490,8 @@ $ although nasalizations of ỹ, õ are not explicit, they are not explicitly e
 [+syl] > [+nas] / __ [+nas,+cons]
 
 $ DV4.1W2 = DV1742R2 -- h prosthesis from PAlb into modern Alb. 
-$ TODO consider surpressing this, unclear it's intended to be deterministic? (and probably wasn't)
-$ TODO confer with De Vaan on this point? 
-$ TODO note for DIA -- all examples actually have an /r/ after the vowel... (hark, harmëshor, harron...) 
+$ may not be deterministic (may have originated in hypercorrection), but per conference with De Vaan- - inclusion so as to test it (8/9)
+$ TODO note for DIA -- many examples actually have an /r/ after the vowel... (hark, harmëshor, harron...) 
 $ Placed pretty early as affected words seem to be pretty widely so
 ∅ > h / # __ [+syl]
 
@@ -605,11 +605,11 @@ $DV4.1K3 partially implemented here -- Tosk standard does not have c > t͡ʃ eve
 
 ~ Standard Albanian
 
-$DV4.1V5 -- ɲ to j "often between vowels and in final position". This is a pretty modern development within northern Tosk, and the variety underlying the standard (as are many Lab dialects? But may need to check that) but in many regional northern Tosk dialects it hasn't happened. Has happened in parts of Gheg? Anyhow it is unclear if De Vaan intends to treat this as a regular sound change. In ALLex there are a number of cases where ɲ survives intervocalically (Danjell, kunjoj, shenjë, gështenjë, linjë, mënjollë, mënjë, mushkonjë, mërqinjë, panjë, rozhponjë, shushunjë, tenjë) and a few it doesn't (incuneāre > ngujoj -- but this might be from ngul instead) 
-$ in final position there are two cases where it survives in ALLex : CVNEVM > kunj "spike", VĪCĪNVM > fqinj "neighbor" -- these are both after high vowels, but leave that for the Dia- cascade (NOTE TODO) 
-$ the only major place the standard seems to do this is in the 3sg present forms, so this is ignored before the placement of MSAlb but placed as an ongoing change afterward
-$ TODO -- confer with De Vaan over email about this! 
+$following changes only for future dialect handling. -- DV8/9 -- "except for the nj > j in verb forms, none are in the *written standard*", many widely accepted in spoken standard Albanian  
 
+$DV4.1V5 -- ɲ to j "often between vowels and in final position". This is a pretty modern development within northern Tosk, and the variety underlying the standard (as are many Lab dialects? But may need to check that) but in many regional northern Tosk dialects it hasn't happened. Has happened in parts of Gheg? Anyhow it is unclear if De Vaan intends to treat this as a regular sound change. In ALLex there are a number of cases where ɲ survives intervocalically (Danjell, kunjoj, shenjë, gështenjë, linjë, mënjollë, mënjë, mushkonjë, mërqinjë, panjë, rozhponjë, shushunjë, tenjë) and a few it doesn't (incuneāre > ngujoj -- but this might be from ngul instead) 
+$ in final position there are two cases where it survives in ALLex : CVNEVM > kunj "spike", VĪCĪNVM > fqinj "neighbor" -- these are both after high vowels, but leave that for the Dia- cascade 
+$ the only major place the standard seems to do this is in the 3sg present forms, so this is ignored before the placement of MSAlb but placed as an ongoing change afterward
 
 $ increasingly in the 21st century spreading into Tosk; also DV4.1K3
 c > t͡ʃ

@@ -31,7 +31,7 @@ $ Despite this, it currently includes changes from Proto-Indo-European to Pre-Pr
 $ These are essentially here for place keeping, in anticipation of work that incorporates multiple layers of the lexicon. 
 $ These are to be ignored when simulating for ALLex because of newly programmed behavior triggered by having the start stage specified in the lexicon header. 
 
-~Proto-Indo-European
+=Proto-Indo-European
 $---------------------------Proto-Indo-European------------------------
 
 $from De Vaan 1738-9, order may need to be revised. 
@@ -84,7 +84,7 @@ r̩ > r i
 
 $DV1738~2.3D2 -- wL̥T > uLT
 $the rule formalism is expressed somewhat verbosely here to preserve any stress. 
-w [+cons,+syl,βstres,ɣprim] > u [-syl] / __ [-son]
+w [+cons,+syl,βstres,ɣprim] > [+syl,βstres,ɣprim] [-syl] / __ [-son]
 
 $DV1738~2.3.C7&C8 -- resonant nasals become a (really ɑ). Formulated more verbosely with feature matrices here so as to preserve existing stress. TODO check formulation for errors.
 [+nas,+syl] > [+back,+lo,-cons,-nas,-ant,-lab,-cor,+lo]
@@ -879,7 +879,7 @@ $DV4.1K1 -- Old Alb ʃ > tʃ before a consonant
 $DV4.1K3 partially implemented here -- Tosk standard does not have c > t͡ʃ everywhere, but does seem to have it when praeconsonantal (çfarë, etc.) 
 {ʃ;c} > {t͡ʃ;t͡ʃ} / __ [+cons]
 
-~ Standard Albanian
+~Standard Albanian
 
 $following changes only for future dialect handling. -- DV8/9 -- "except for the nj > j in verb forms, none are in the *written standard*", many widely accepted in spoken standard Albanian  
 

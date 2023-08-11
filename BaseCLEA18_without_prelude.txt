@@ -30,7 +30,8 @@ $ BaseCLEA18 is intended to simulate the development of Classical Latin loans in
 $ Despite this, BaseCLEA18 currently includes changes from Proto-Indo-European to Pre-Proto-Albanian (the form before the first wave of Greek), and then the pre-Greek to pre-Latin changes as well. 
 $ These are essentially here for place keeping, in anticipation of work that incorporates multiple layers of the lexicon. 
 $ These are ideally to be ignored when simulating for ALLex because of newly programmed behavior triggered by having the start stage specified in the lexicon header. 
-$ BaseCLEA18_without_prelude, however, is made with all pre-Latin changes suppressed, to simplify matters while I have Covid to not have to deal with programming in the header behavior -- a temporary fix to make my headaches less while still having to get this done. 
+$ BaseCLEA18_compact, however, is made with all pre-Latin changes suppressed, to simplify matters while I have Covid to not have to deal with programming in the header behavior -- a temporary fix to make my headaches less while still having to get this done. 
+$ furthermore the changes placed after Standard Albanian are suppressed. 
 
 $--------------------Antique Proto-Albanian----------------------
 =Antique Proto-Albanian
@@ -612,10 +613,10 @@ $ in final position there are two cases where it survives in ALLex : CVNEVM > ku
 $ the only major place the standard seems to do this is in the 3sg present forms, so this is ignored before the placement of MSAlb but placed as an ongoing change afterward
 
 $ increasingly in the 21st century spreading into Tosk; also DV4.1K3
-c > t͡ʃ
+$c > t͡ʃ
 
 $ DV3.1B3 nd > n is listed for PALb to MAlb, but this is really mostly(? only?) Gheg so it is placed here for now
-d > ∅ / n __
+$d > ∅ / n __
 
 $DV1742.M1 h > f is more of a Gheg change (and probably needs to be more finely specified) thus this cascade does not implement it
 $DV1742.M2 θ > f with listed Gheg ufull for Tosk uthull (and thjeshtër/fjeshtër < FILIASTER, whatever is made of that) seems transparently more Gheg, and is perhaps not intended to be deterministic and/or needs more fine specification, so currently left unimplemented. 

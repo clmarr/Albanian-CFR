@@ -1,17 +1,16 @@
-$ This cascade is primarily based off of CLEA18, and is a precursor to the proper debugging. Changes here are mostly for parsimony as of June 20 2023. 
+$ This cascade is primarily based off of CLEA18, debugging it using DiaSim and its diagnostics. 
 
-$ On periodization, see comments at top of BaseCLEA18
-
+$ On periodization, see file "Periodization policy"
 
 $ "DV-NOTATION" for indexing De Vaan 2018 rules -- DV####.ɑβɣ##. -- DV for De Vaan, ### is page number, ɑβɣ is an alphabetic index in (A, B, C...) for each transformation on thepage (starting wiht A, etc...), and   the number is the line of that transformation on that page. 
 
 $TODO incorporate relevant TODOs (TODO FOR DIA, IMPLEMENT FOR DIA etc...) 
 
-$ circa 400 BCE, rather approximately
-~Antique Proto-Albanian
 
+$--------------------Antique Proto-Albanian----------------------
+=Antique Proto-Albanian
 
-$$|| Input handling|| 
+$$|| Latin Input handling|| 
 $  rules following here are not core aspects of De Vaan 2018's proposed rules, 
 $	but they are necessary to get the right outcomes,
 $	i.e. to prevent errors that are "uninteresting"

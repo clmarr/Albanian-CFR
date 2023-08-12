@@ -1,37 +1,11 @@
-$This one is cascade is based on the following: 
-$ $ De Vaan, Michiel. 2018. "95. The phonology of Albanian". In Joseph, Klein and Fritz (eds), "Handbook of Comparative and Historical Indo-European Linguistics". 
-$ Some liberties were taken in order to make sure rules apply as Michiel de Vaan seems to have intended; explanations will be given as deemed necessary. 
-$ Kortlandt 1987 also implemented where aspects of it are not explicated by De Vaan 2018. 
+$ This cascade is primarily based off of BaseCLEA18, debugging it using DiaSim and its diagnostics. 
 
-$ STAGES: see periodization policy. 
+$ On stages/periodization, see file "Periodization policy"
 
-$ This cascade will not explicitly encode De Vaan 2018's proposals (new, 
-$ and retentions from older work, alike) for Proto-Albanian developments 
-$ from Proto-Indo-European, yet at least (as of March 14, 2023). 
-$ Other cites referenced are as follows -- 
-$ $ $ Allen 1978 = Allen, William Sidney. 1978. "Vox Latina--a Guide to the Pronunciation of Classical Latin" (2nd ed.). Cambridge University Press. 
-$ $ $ Bonnet 1998 = Bonnet, Guillaume. 1998. "Les mots latins de l'albanais". L'Harmattan. 
-$ $ $ Çabej 1962 = Çabej, Eqrem. 1962. Zur Charakteristik der lateinischen Lehnworter im Albanischen. Revue de Linguistique (Bucureşti),  7:161–199.
-$ $ $ Çabej 1986 = Çabej, Eqrem. 1986. Studime gjuhësore, volume I-VIII. Prishtinë: Rilindja. 
-$ $ $ De Vaan 2004 = De Vaan, Michiel. 2004. PIE *e in Albanian. Die Sprache. Zeitschrift für Sprachwissenschaft, 44(1): 70–85.
-$ $ $ Huld 1986 = Huld, Martin E. 1986. "Accentual Sttratification of Ancient Greek Loanwords in Albanian". Zeitschrift für vergleichende Sprachforschung, 99 Bd. 2 ː 245-253. 
-$ $ $ Huld 1979 = Huld, Martin. 1979. An etymological glossary of selected Albanian items. University  of California, Los Angeles.
-$ $ $ Lafe 2000 = Lafe, G. 2000. Der italienische Einfluss auf das Albanische. Zweiter Teil. Wörterbuch der Italianismen im Albanischen, in Ponto-Baltica, 10:31–120.
-$ $ $ Landi 1989 = Landi, A. 1989. Gli elementi latini nella lingua albanese. Napoli: Edizioni Scientifiche Italiane. 
-$ $ $ Marr 2023 = Marr, Clayton. 2023. The Angevin–Albanian element in the Albanian lexicon. To appear in Zeitschrift fur Balkanologie. 
-$ $ $ Orel 1998 = Orel, Vladimir. 1998. Albanian etymological dictionary. Brill.
-$ $ $ Orel 2000  = Orel, Vladimir. 2000. A concise historical grammar of the Albanian language: reconstruction of Proto-Albanian. Brill. 
 
 $ "DV-NOTATION" for indexing De Vaan 2018 rules -- DV####.ɑβɣ##. -- DV for De Vaan, ### is page number, ɑβɣ is an alphabetic index in (A, B, C...) for each transformation on thepage (starting wiht A, etc...), and   the number is the line of that transformation on that page. 
-	$ alternatively subsection title maybe used, with the alphanumeric iteration occuring within the section and not based on page breaks -- e.g. DV4.3F4 -- which is after a page break form DV4.3F3. 
 
-
-$ BaseCLEA18 is intended to simulate the development of Classical Latin loans into Albanian into the modern forms in Standard Albanian (a southern variant of Northern Tosk).
-$ Despite this, BaseCLEA18 currently includes changes from Proto-Indo-European to Pre-Proto-Albanian (the form before the first wave of Greek), and then the pre-Greek to pre-Latin changes as well. 
-$ These are essentially here for place keeping, in anticipation of work that incorporates multiple layers of the lexicon. 
-$ These are ideally to be ignored when simulating for ALLex because of newly programmed behavior triggered by having the start stage specified in the lexicon header. 
-$ BaseCLEA18_compact, however, is made with all pre-Latin changes suppressed, to simplify matters while I have Covid to not have to deal with programming in the header behavior -- a temporary fix to make my headaches less while still having to get this done. 
-$ furthermore the changes placed after Standard Albanian are suppressed. 
+$TODO incorporate relevant TODOs (TODO FOR DIA, IMPLEMENT FOR DIA etc...) 
 
 $--------------------Antique Proto-Albanian----------------------
 =Antique Proto-Albanian
@@ -101,19 +75,33 @@ $$ De Vaan 2018 has the change in vowel length to quality only come after major 
 
 $ GLIDING -- gliding of unstressed /i/ and /e/ in hiatus with a following vowel to [j] -- cf. Pope 1934 s220. This is attested early but not trivially early -- it is in the Appendix Probi, as Pope 1934(:s220) notes. De Vaan 2018(:1744) seems to implicate this had occurred 
 $ by listing DIĀNA and GAVDIVM as having Latin -dj- and likewise -tj- for PUTEVS, VITIVM, PATIOR, and MARTIVS. However, this needs to 
-$ be placed before the fates of intervocalic obstruents are handled, as De Vaan does not seem to treat words like GAVDIVM as having 
+$ be placed before the fates of intervocalic obstruents are handled, as De Vaan does not seem to treat words    like GAVDIVM as having 
 $ intervocalic -d-, for example, and this does clearly bleed his proposed rules for intervocalic /d/ in particular, if we assume its 
 $ accuracy. Likewise these must also come before De Vaan 2018(: 1740)'s rules for Latin intervocalic /l/, as they feed the formation 
 $ of PAlb *ʎ and *ɲ, and bleed the formation of *l:.  
 $ for convenience, and given Pope 1934(:s220), and given that forming a broad rule is trivial here, the same is done for /u/ and /o/. 
 	$ inasmuch as Latin orthographic V was used for both, there is perhaps mild support for De Vaan 2018 also having this here, 
 		$ as informed by the handling of betacism of V (De Vaan 2018: 1744 -- DV1744.C1) 
-$TODO for DIA: consider changing the -prim to -stress here as this doesn't seem to apply to countertonics as the diagnostics reveal a 0% accuracy over this subset -- especially looking at the cases of gruilla, coopertūra, creāre... etc. 
-[-lo,+syl,-prim] > [-syl,+hi] / __ [+syl]
+$DIACLEA18 change: consider changing the -prim to -stress here as this doesn't seem to apply to countertonics as the diagnostics reveal a 0% accuracy over this subset -- especially looking at the cases of gruilla, coopertūra, creāre... etc. 
+[-lo,+syl,-stres] > [-syl,+hi] / __ [+syl]
 
-$TODO FOR DIA -- many errors on this rule -- heck, TODO split the DIA file around here. 
+$TODO FOR DIA -- many errors on this rule where there wasn't iotation --
+	$ -- rule 10 filtered results, l > j errantly
+		$ ultimately to lˠ
+			$ 41 ˌɑprˈiːli | 108 dˌolˈeːre | 320 kˌɑlendˈɑːrjum | 385 kˌiːkˈaːla | 433 koːsulem | 467 krˌistinaːtˈaːlam 
+			$ 551 mˌɑlediːkˈere | 622 mˌolˈiːnum | 663 ˌolˈiːwu | 676 pˌɑdˈuːlem | 751 pˌolˈentɑ | 849 sˌɑlˈiːnɑ | 850 sˌɑlˈiːre 
+		$ ultimately to ɾ 
+			$ 88 dˌeːleːɡˈɑːre 
+		$ ultimately to l 
+			$ 260 ˈiːlikem | 261 ˌiːlikˈeːtum | 320 kˈɑlikem | 555 mˌɑlitjˈɑːre | 569 mˌɑntˈiːle | mˌelˈettɑm | mˌolˈere
+			$ 846 sˈɑlikɑ | 847 sˈɑlikem | 848 sˌɑlikˈeːtum 
+	$ -- rule 11 filtered... as relatively 
+		$ to ʎ but should have been lˠ 
+			$ ˌeːwɑnɡˈeʎum 
 $ DV1740G1 : intervocalic l becomes ʎ before front vowel.
 l > ʎ / [+syl] __ [+syl,+front]
+
+
 $ DV1740G2 : l j > ʎ in PPAlb and Lat. Seems intended to be fed by hiatus vowel gliding. 
 l j > ʎ
 
@@ -122,8 +110,8 @@ $ as long as the lambda forming rule DV1740G1 is placed before this, [-front] do
 $ Combined with DV1740F1 ~ PPAlb *l, *sl > l: / V __ V[-front] 
 $ form prior to 8/5/23 was: (s) > lː / [+syl] __ [+syl]
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
-$ TODO FOR DIA : consider just having this go straight to dark L 
-{s l;l} > {lː;lː} / [+syl] __ [+syl]
+$ DIACLEF change : consider just having this go straight to dark L 
+{s l;l} > {lˠ;lˠ} / [+syl] __ [+syl]
 
 $DV1740E3 -- Lat ll > PAlb l. As [l] is a resonant, this will be totally bled by DV1740F2 if not placed before it.
 $merge with DV1740E1: PPAlb ln > PAlb l; placement for the same counterbleeding reasons.  

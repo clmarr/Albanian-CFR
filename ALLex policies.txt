@@ -1,0 +1,28 @@
+Policies to enforce:
+
+-- all items are commented. First item in comments i s definition. Then citation for the etymology, with any relevant discussions summarized. Include also dialectal and Old Albanian forms especially when relevant for diachronic phonology.
+
+--all verbs have their comment headed by "verb:" to facilitate later morphological tagging of this dataset. 
+
+--Latin forms for nouns are placed in the accusative singular unless otherwise specified in the attributed sources. 
+
+--nouns that are held to have analogical singulars based on plurals are listed in their Latin nominative plural forms for now. This may be changed once protodelta morphological features are implemented and added to this dataset. 
+
+--adjectives are placed in the neuter singular accusative, although currently many are in feminine or wiht -tā to account for analogical -ë and -të in adjectives in Albanian. This should be removed as this dataset is reformed to mark morphological paradigm features. 
+
+--modern Albanian forms as listed in Newmark are given precedence. Otherwise the phonology of the basis of standard Albanian is considered, and the form favored by most major sources (Bonnet 1998, Orel 1998, Vatasescu 1997, Cabej 1982, Topalli 2017, Demiraj 1997, Huld 1984...). 
+
+--listing is alphabetic in terms of Latin words (with C- and QU- listed under K-), except in the case of rival etymologies (see below). 
+
+--rival etymologies for individual words may both be tested.  Many rival etymologies are currently being included alongside each other. Prefer to list them next to each other. This means it will not be possible to reach 100% accuracy. 
+
+--words likely to be later loans are excluded unless included for testing purposes.
+
+--words with rival native etymologies that are identical or nearly identical (and identical in all ways that matter) to Latin forms at the time of contact can be included (but this should be stated explicitly in comments). 
+
+--before August 12 2023, verbs were listed under their Latin infinitives, but this is obviously not ideal as the Albanian citation forms use the 1st sg present (or in some works the 3rd sg present or 2nd sg infinitive). As of August 12, new treatment: 
+	-- keep Albanian 1sg as citation form for now. In order to make this tractable... 
+	-- for -oj, -ej, -aj, -ij verbs attributed to Latin, Latin form will be as follows: stem - Latin theme vowel - niō 
+	-- for consonant final forms, use Latin 1sg forms. 
+
+-- currently in process of imposing this policy. 

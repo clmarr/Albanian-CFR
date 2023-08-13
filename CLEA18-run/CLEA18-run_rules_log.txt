@@ -11,13 +11,7 @@ r j > ʎ / @ __ @
 {s l;l} > {lˠ;lˠ} / [+syl] __ [+syl,-front]
 {l;n} > {∅;∅} / l __ 
 l j > ʎ 
-[+cons,+son] l > lˠ
-l [+cons,+son] > lˠ
 ʎ > l / [+hi] __ [+hi]
-ˈe > ˈɑ / k __ l
-ˈe > ˈɑ / k __ rː
-ˈe > ˈɑ / [+cor,-lab,+cont] __ l
-ˈe > ˈɑ / [+cor,-lab,+cont] __ rː
 {ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ} 
 [+hi,+round,-cons] > ∅ / [+nas] [-cont,+back,-voi] __ [+front,-cons,+hi]
 [+nas] [-cont,+back,+voi] > ɲ/ __ [+front,-cons,+hi]
@@ -78,8 +72,14 @@ t > d / n __ ( [-syl] )* [+stres]
 t > d / [+stres] ( [-syl] )* n __ 
 [-cont,-cor] > [+voi] / [+nas] __ 
 θ > f / [+cons] __ 
-[+ant,+cor,-cont] j > [-ant,+distr,+delrel,+cor,-son,-cont,+cons,0tense] ∅
+w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
+[+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
 s > ʃ 
+ˈe > ˈɑ / k __ l
+ˈe > ˈɑ / k __ rː
+ˈe > ˈɑ / [+cor,-lab,+cont] __ l
+ˈe > ˈɑ / [+cor,-lab,+cont] __ rː
+[+ant,+cor,-cont] j > [-ant,+distr,+delrel,+cor,-son,-cont,+cons,0tense] ∅
 [+lo] > [+front,-back] 
 {j a s;j a} > {e;e} / __ #
 {m;s} > {∅;∅} / __ #

@@ -3,17 +3,17 @@ Derivation file for run '../Albanian-diachrony/Albanian-CFR/CLEA18-run'; etymon 
 r ˌe n iː d ˈeː n i oː 
 #rːˌeniːdˈeːnioː# | 6 : {w r;r} > {rː;rː} / # __ 
 #rːˌeniːdˈeːnjoː# | 9 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-#rːˌeniːdˈeːɲoː# | 20 : {ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ} 
-#rːˌeniːˈeːɲoː# | 23 : d > ∅ / [+syl] __ [+syl]
-#rːˌeniːˈeːɲwoː# | 29 : ∅ > w / __ [-hi,+round,+long]
-#rːˌeniːˈeːɲwøː# | 40 : [+back,+long,+syl,-lo] > [+front,-back] 
+#rːˌeniːdˈeːɲoː# | 14 : {ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ} 
+#rːˌeniːˈeːɲoː# | 17 : d > ∅ / [+syl] __ [+syl]
+#rːˌeniːˈeːɲwoː# | 23 : ∅ > w / __ [-hi,+round,+long]
+#rːˌeniːˈeːɲwøː# | 34 : [+back,+long,+syl,-lo] > [+front,-back] 
 Middle Proto-Albanian stage form : #rːˌeniːˈeːɲwøː#
-#rːˌeniːˈeːɲwœː# | 46 : [+round,+syl,+long] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
-#rːˌeniˈeɲwœ# | 48 : [+syl] > [-long,-splng] 
-#rːˌeniˈiɲwœ# | 53 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round]
-#rːˌeniˈiɲw?# | 66 : [+front,-cons,-hi] > [-round] 
-#rːˌɛniˈiɲw?# | 67 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-#rːənəˈiɲw?# | 70 : [-prim] > ə / @ __ ( @ )* [+prim]
+#rːˌeniːˈeːɲwœː# | 40 : [+round,+syl,+long] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
+#rːˌeniˈeɲwœ# | 42 : [+syl] > [-long,-splng] 
+#rːˌeniˈiɲwœ# | 47 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round]
+#rːˌeniˈiɲw?# | 60 : [+front,-cons,-hi] > [-round] 
+#rːˌɛniˈiɲw?# | 61 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+#rːənəˈiɲw?# | 64 : [-prim] > ə / @ __ ( @ )* [+prim]
 #rːənəˈiɲw# | 85 : [-stres] > ∅ / __ #
 #rːənˈiːɲw# | 89 : [-prim] [+prim] > ∅ [+long]/ @ __ @
 Late Proto-Albanian stage form : #rːənˈiːɲw#

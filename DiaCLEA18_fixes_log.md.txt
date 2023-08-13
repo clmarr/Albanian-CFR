@@ -24,6 +24,8 @@ Rule input, output, or context conditioning changed. These are done to improve a
 
 ## C1 -- changes in input 
 
+- Gliding rule (R9 in baseline): [-prim] --> [-stres], countertonic vowels are excempted from gliding at this time. 
+
 ## C2 -- changes in output 
 
 ## C3 -- changes in context conditioning 
@@ -43,8 +45,16 @@ Rules that were deleted, or rather suppressed technically (they were commented o
 
 ##D1 -- rules deleted to improve accuracy
 
+- DV1740G2: intervocalic lambdacism before front vowels
+	  it behaved correctly in two cases, and erros in 28
+	- of the one it behaved correctly in, it was unnecessary to get the result. 
+	- and the remaining correct case, vjej "I need", could have been actually from some sort of *valiere or *valiare rather than the attested valēre for all we know. 
+
 ##D2 -- rules deleted as they were redundant
 
 ##D3 -- consolidation of multiple rules into single rule. 
+
+
+# E in progress....
 
 

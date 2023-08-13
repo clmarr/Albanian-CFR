@@ -86,16 +86,16 @@ $ for convenience, and given Pope 1934(:s220), and given that forming a broad ru
 $DIACLEA18 change: changed the -prim to -stress here as this doesn't seem to apply to countertonics as the diagnostics reveal a 0% accuracy over this subset -- especially looking at the cases of gruilla, coopertūra, creāre... etc. 
 [-lo,+syl,-stres] > [-syl,+hi,-long] / __ [+syl]
 
-$TODO FOR DIA -- this rule is only right 1/28 of the time.
-$  -- maybe it should be moved later as the fall of unstressed vowels seems to be bleeding this in some cases. But it's more complicated... with filter of /l/ before rlue 10, -prim for prior phone has 77.48% rate of error. 
+$TODO FOR DIA -- there are clearly problems here as [+syl] l [+syl] subset has only a 0.6% accuracy. 
+$  -- maybe it should be moved later as the fall of unstressed vowels seems to be bleeding this in some cases. But it's more complicated... with filter of /l/ before rlue 10, -prim for prior phone has 77.48% rate of error in autopsy, and looking at the words in question supports this (below) 
 	$ -- DV1740G1 filtered results, l > j errantly
 		$ ultimately to lˠ
 			$ GROUP A1 in {ˌɑ, ˌo} __ { ˈiː ; ˈe ; ˈeː }  
-				$ 41 ˌɑprˈiːli | 622 mˌolˈiːnum | 663 ˌolˈiːwu | 849 sˌɑlˈiːnɑ | 850 sˌɑlˈiːnjoː
+				$  622 mˌolˈiːnum | 663 ˌolˈiːwu | 849 sˌɑlˈiːnɑ | 850 sˌɑlˈiːnjoː
 				$ 108 dˌolˈeːre | 751 pˌolˈentɑ
-			$ GROUP A2 cases in __ e 	(unstressed e!) 
+			$ GROUP A2 cases in __ e or __ i	(unstressed e!) 
 				$ 320 kˌɑlendˈɑːrjum | 433 kˈoːsulem
-				$ 551 mˌɑlediːkˈere  | 676 pˌɑdˈuːlem |  
+				$ 551 mˌɑlediːkˈere  | 676 pˌɑdˈuːlem | 41 ˌɑprˈiːli | 
 		$ ultimately to ɾ 
 			$ 88 dˌeːleːɡˈɑːnjoː -- fits in group A2? 
 		$ ultimately to l  (some may be from ʎ earlier)
@@ -106,10 +106,16 @@ $  -- maybe it should be moved later as the fall of unstressed vowels seems to b
 			$ group B1 -- after falling countertonic e 
 				$ 115 ˌelˈeɡjɑ | 660  mˌelˈettɑm |
 		$ l > ʎ correctly here. 
-			$ 1120 wˌɑlˈeːnjoː
-$ DV1740G1 : intervocalic l becomes ʎ before front vowel.
-l > ʎ / [+syl] __ [+syl,+front]
+			$ 1120 wˌɑlˈeːnjoː 
+			$ maybe 119 fˌiriɡilˈiːnum  --- but maybe should be later anyways as g(i)l contracts? 
 
+		$ l > ʎ should have happened but didn't
+			$ 261 ɡˈulɑm 
+			$ ... and no others. 
+$ DV1740G1 : intervocalic l becomes ʎ before front vowel.
+$ DIA -- SUPPRESSED. 
+	$ see notes above, the one case where this works (vjej "I need") is in the same ˌɑ __ [+prim,+front] context that so many of the errors are, best move for now is just to suppress this. 
+$l > ʎ / [+syl] __ [+syl,+front]
 
 
 	$ -- rule 11 filtered... as relatively 

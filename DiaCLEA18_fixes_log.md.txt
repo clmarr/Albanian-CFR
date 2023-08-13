@@ -1,0 +1,50 @@
+Not counting "uninteresting" formatting related changes that were also done to fix the baselines. 
+
+# A. Rule insertion
+
+Rules that were inserted because of missed phenomena or to make other phenomena work. These are effectively proposals. 
+
+## A1 Insertion of phenomena that are quite reminiscent of other phenomena in the baseline cascade. 
+
+## A2 Insertion of phenomena that are something new under the sun from the perspective of the baseline. 
+
+
+# B Rule relocdation
+
+Rules that were moved to different points in the cascade. 
+
+## B1 -- rule moved to a later time
+
+## B2 -- rule moved to an earlier time 
+
+
+# C Changes in conditioning to improve accuracy
+
+Rule input, output, or context conditioning changed. These are done to improve accurcay 
+
+## C1 -- changes in input 
+
+## C2 -- changes in output 
+
+## C3 -- changes in context conditioning 
+
+## C4 -- changes in both input and output
+
+## C5 -- changes in both input and context conditioning
+
+## C6 -- changes in both output and context conditioning
+
+## C7 -- all three changed. 
+
+
+# D Rule deletion and cascade simplification
+
+Rules that were deleted, or rather suppressed technically (they were commented out) because there was not much to be gained by keeping them, and/or there was much to be lost. This will also include rule consolidation. 
+
+##D1 -- rules deleted to improve accuracy
+
+##D2 -- rules deleted as they were redundant
+
+##D3 -- consolidation of multiple rules into single rule. 
+
+

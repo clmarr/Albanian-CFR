@@ -107,11 +107,10 @@ $ accuracy. Likewise these must also come before De Vaan 2018(: 1740)'s rules fo
 $ of PAlb *ʎ and *ɲ, and bleed the formation of *l:.  
 $ for convenience, and given Pope 1934(:s220), and given that forming a broad rule is trivial here, the same is done for /u/ and /o/. 
 	$ inasmuch as Latin orthographic V was used for both, there is perhaps mild support for De Vaan 2018 also having this here, 
-		$ as informed by the handling of betacism of V (De Vaan 2018: 1744 -- DV1744.C1) 
+		$ as informed by the handling of betacism of V (De Vaan 2018: 1744 -- DV1744.C1)   
 $TODO for DIA: consider changing the -prim to -stress here as this doesn't seem to apply to countertonics as the diagnostics reveal a 0% accuracy over this subset -- especially looking at the cases of gruilla, coopertūra, creāre... etc. 
 [-lo,+syl,-prim] > [-syl,+hi] / __ [+syl]
 
-$TODO FOR DIA -- many errors on this rule -- heck, TODO split the DIA file around here. 
 $ DV1740G1 : intervocalic l becomes ʎ before front vowel.
 l > ʎ / [+syl] __ [+syl,+front]
 $ DV1740G2 : l j > ʎ in PPAlb and Lat. Seems intended to be fed by hiatus vowel gliding. 

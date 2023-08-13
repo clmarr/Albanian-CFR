@@ -458,11 +458,6 @@ $bandaid -- fronting of remaining low vowels at this point, because the lexicon 
 
 $ ---------- Pre-Slavic final vowel phenomena -- 
 
-$DV1738, top, part 3: final -ja(s) to e, clearly bleeding part 2 below. 
-$form prior to 8/5/23 was: j a (s) > e / __ #
-$changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
-{j a s;j a} > {e;e} / __ #
-
 $DV1738, top, part 1: final -V(s) and -oi (> ī ?) without stress fall 
 $in effect, this is non-low-vowel unstressed final syllables closed by inflectional endings. 
 $form prior to 8/5/23 was: [-stres] {m;s} > ∅ / __ #
@@ -470,6 +465,11 @@ $changed to sidestep then-current input-side issues in DiaSim. TODO consider res
 $ note that -stres implies a vowel if we are using the default feature definitions and implications (as is intended for this cascade), as the feature [stres] is unspecified unless it is [+syl] 
 {m;s} > {∅;∅} / __ #
 [-stres,-lo] > ∅ / __ #
+
+$DV1738, top, part 3: final -ja(s) to e, clearly bleeding part 2 below. 
+$form prior to 8/5/23 was: j a (s) > e / __ #
+$changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
+{j a s;j a} > {e;e} / __ #
 
 $DV1738, top, part 2: final -a(m/n)(s) to ë 
 $form prior to 8/5/23 was: a ([+nas,+cons]) (s) > ə / __ #

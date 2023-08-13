@@ -135,10 +135,6 @@ $changed to sidestep then-current input-side issues in DiaSim. TODO consider res
 [+cons,+son] l > lː
 l [+cons,+son] > lː
 
-$DV2.2.1C5: Latin short e > a in "q, sh" __ "rr, l". No explicit word on the dating of this except that it is between post-Latin PPAlb, and PAlb; the forms used (q, sh,... rr, l) suggest a later date but at first inspection it seems to precede the merger of ae to short e (caelum > qiell) which certainly must have been before k > q (=[c]). So it is placed right after "rr, l" emerged (with what would become dark l now being long l, and rr being long r)
-$no clear way to block this for PPAlb *e, so this will need to be fixed if errors arise (TODO) 
-ˈe > ˈɑ / {k;[+cor,-lab,+cont]} __ {l;rː}
-
 $merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) 
 {ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ}
 
@@ -412,11 +408,19 @@ $ mp > mb and nk > ng everywhere they occur.
 $DV4.1N (=DV1742I) OAlb f < PAlb θ / C __, including OAlb ënfle -- cf Matzinger 2006: 71 -- Matzinger, Joachim. 2006.  anische Text Mbsuame e Kreshterë (Dottrina cristiana) des Lekë Matrënga von 1592. Eine Einführing in die albanische Sprachwissenschaft. Seems to be in all dialects? 
 θ > f / [+cons] __
 
-$ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3) 
-[+ant,+cor,-cont] j > [-ant,+distr,+delrel] ∅
+$DV4.2E & DV4.2F3 -- wave of palatalization, occuring before front vowels, including fronted former long round vowels (y, ø) but not including reduced vowels.  Absorbs /w/. 
+w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
+[+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
 
 $ DV1744.H ~ s becomes ʃ -- for s in reflexes of Old Greek (presh < prason), Latin, and the earliest Slavic loans (grusht, shkrap) becomes ʃ (1744.H) -- but this is not fed by tʃ becoming s (DV1744.F and 1744.G) 
 s > ʃ
+
+$DV2.2.1C5: Latin short e > a in "q, sh" __ "rr, l". No explicit word on the dating of this except that it is between post-Latin PPAlb, and PAlb; the forms used (q, sh,... rr, l) suggest a later date but at first inspection it seems to precede the merger of ae to short e (caelum > qiell) which certainly must have been before k > q (=[c]). So it is placed right after "rr, l" emerged (with what would become dark l now being long l, and rr being long r)
+$no clear way to block this for PPAlb *e, so this will need to be fixed if errors arise (TODO) 
+ˈe > ˈɑ / {k;[+cor,-lab,+cont]} __ {l;rː}
+
+$ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3) 
+[+ant,+cor,-cont] j > [-ant,+distr,+delrel] ∅
 
 $bandaid -- fronting of remaining low vowels at this point, because the lexicon has modern Albanian low vowels as front. 
 [+lo] > [+front,-back]

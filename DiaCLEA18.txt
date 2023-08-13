@@ -46,7 +46,7 @@ $ -- end of Latin input handling ---
 
 $Latin ae basically always falls in with Latin short e so that is handled early on here -- thus implementing parts of the following: 2.2.1B1, 2.2.1B2  
 $ this is not outright stated for 2.2.1A3 (i-mutation on Latin e) but there are no counterexamples, while praebyter > prift may actually be an example. 
-$ however this could possibl counterfeed 2.2.1C5 (caelvm > qiell), depending on how it is construed -- however currently it will be bled for that word by the development of L (probably correctly) 
+$ however this could possibly counterfeed 2.2.1C5 (caelvm > qiell), depending on how it is construed -- however currently it will be bled for that word by the development of L (probably correctly) 
 [+lo,βstres,ɣprim] e̯ > ∅ [-tense,βstres,ɣprim]
 
 $per Kortlandt 1987 p220 s4 -- final s is deleted. This has to be after the dissimilations (thi for PIE ancestor of Lat. sūs) but before delabialization ū, Kortlandt argues. De Vaan 2018 doesn't list this rule and asserts that nouns tend to reflect the accusative (which Bonnet 1998 seems to agree with), but this is included at this place (after the first Latin wave) to enable nominative forms in the lexicon as well as other words ending in -s, from Latin, Ancient Greek, and PIE alike. Note that Kortlandt 1987 opposes the view that *s went to *h or to ∅ (via /h/ or otherwise) in any other position (contra Jokl 1937, Meyer 1891, Pedersen 1900 , probably also Orel 2000), which includes retracting his earlier 1986 published view on intervocalic *s reflecting as nothing (but cf. nosom > nahe > na?). Given De Vaan 2018's reference to Kortlandt 1987 as its main source of *s developments (TODO check this in correspondence with De Vaan?), this view is adopted within this cascade, for now at least. (Kortlandt's lexical-etymological views are not adopted unless explicitly endorsed by De Vaan 2017, as with deriving the modern Albanian proximals ky,kjo,këta,këto from Latin ECCVM, also the source of these velar proximal elements across Romance) 
@@ -158,16 +158,13 @@ $DV1740F2 -- l and a nearby resonant (Rl, lR) merge to become *l:. De Vaan lists
 $ but this must be placed after DV1740E3 and DV1740E1 as otherwise it would completely bleed them.
 $ form prior to 8/5/23 was: {[+cons,+son] l;l [+cons,+son]} > lː
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
-$ DIASIM CHANGE: these go straight to lˠ, not lː
-[+cons,+son] l > lˠ
-l [+cons,+son] > lˠ
+$ DIA CHANGE: these go straight to lˠ, not lː
+$ DIA CHANGE: these are suppressed as they were correct for only one item, consider relocdating forward or backward 
+$ [+cons,+son] l > lˠ
+$ l [+cons,+son] > lˠ
 
 $DIACLEA rule insertion: ʎ depalatalizes to l between high vowels
 ʎ > l / [+hi] __ [+hi]
-
-$DV2.2.1C5: Latin short e > a in "q, sh" __ "rr, l". No explicit word on the dating of this except that it is between post-Latin PPAlb, and PAlb; the forms used (q, sh,... rr, l) suggest a later date but at first inspection it seems to precede the merger of ae to short e (caelum > qiell) which certainly must have been before k > q (=[c]). So it is placed right after "rr, l" emerged (with what would become dark l now being long l, and rr being long r)
-$no clear way to block this for PPAlb *e, so this will need to be fixed if errors arise (TODO) 
-ˈe > ˈɑ / {k;[+cor,-lab,+cont]} __ {l;rː}
 
 $merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) 
 {ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ}
@@ -442,11 +439,19 @@ $ mp > mb and nk > ng everywhere they occur.
 $DV4.1N (=DV1742I) OAlb f < PAlb θ / C __, including OAlb ënfle -- cf Matzinger 2006: 71 -- Matzinger, Joachim. 2006.  anische Text Mbsuame e Kreshterë (Dottrina cristiana) des Lekë Matrënga von 1592. Eine Einführing in die albanische Sprachwissenschaft. Seems to be in all dialects? 
 θ > f / [+cons] __
 
-$ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3) 
-[+ant,+cor,-cont] j > [-ant,+distr,+delrel] ∅
+$DV4.2E & DV4.2F3 -- wave of palatalization, occuring before front vowels, including fronted former long round vowels (y, ø) but not including reduced vowels.  Absorbs /w/. 
+w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
+[+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
 
 $ DV1744.H ~ s becomes ʃ -- for s in reflexes of Old Greek (presh < prason), Latin, and the earliest Slavic loans (grusht, shkrap) becomes ʃ (1744.H) -- but this is not fed by tʃ becoming s (DV1744.F and 1744.G) 
 s > ʃ
+
+$DV2.2.1C5: Latin short e > a in "q, sh" __ "rr, l". No explicit word on the dating of this except that it is between post-Latin PPAlb, and PAlb; the forms used (q, sh,... rr, l) suggest a later date but at first inspection it seems to precede the merger of ae to short e (caelum > qiell) which certainly must have been before k > q (=[c]). So it is placed right after "rr, l" emerged (with what would become dark l now being long l, and rr being long r)
+$no clear way to block this for PPAlb *e, so this will need to be fixed if errors arise (TODO) 
+ˈe > ˈɑ / {k;[+cor,-lab,+cont]} __ {l;rː}
+
+$ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3) 
+[+ant,+cor,-cont] j > [-ant,+distr,+delrel] ∅
 
 $bandaid -- fronting of remaining low vowels at this point, because the lexicon has modern Albanian low vowels as front. 
 [+lo] > [+front,-back]
@@ -602,7 +607,7 @@ z > s / __ #
 $DV4.1V2 -- ʎ passes to j. This happens across Northern Tosk and most Lab (?) but not in some other isolated southern varieties like Arbereshe. It also seems to have affected all of Gheg but the distribution in Tosk suggests it happened in parallel later, rather than being a true shared development. 
 ʎ > j
 
-$DV4.1E / -F -- beginnings late medieval central Albanian  palatalization. This effects the reflexes of cl,gl- for all Tosk. Before front vowels, it also affects all of Northern Tosk, as well as Southern Gheg and much of Northern Gheg (more northeastern) but also effects the earlier waves of Turkish loanwords, so this part of it is placed later.
+$DV4.1E / -F -- beginnings late medieval central Albanian palatalization. This effects the reflexes of cl,gl- for all Tosk. Before front vowels, it also affects all of Northern Tosk, as well as Southern Gheg and much of Northern Gheg (more northeastern) but also effects the earlier waves of Turkish loanwords, so this part of it is placed later.
 [+back,-cont] j > [-back,+front] ∅
 
 $DV4.1J : z > dz after n 

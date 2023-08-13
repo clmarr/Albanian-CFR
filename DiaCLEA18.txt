@@ -86,6 +86,20 @@ $ for convenience, and given Pope 1934(:s220), and given that forming a broad ru
 $DIACLEA18 change: changed the -prim to -stress here as this doesn't seem to apply to countertonics as the diagnostics reveal a 0% accuracy over this subset -- especially looking at the cases of gruilla, coopertūra, creāre... etc. 
 [-lo,+syl,-stres] > [-syl,+hi,-long] / __ [+syl]
 
+$DV1740F3 -- Lat *l > l: / V __ V[-front]
+$ as long as the lambda forming rule DV1740G1 is placed before this, [-front] does not need to be explicated, which is useful because [a] may technically be treated as front depending on the current convention for Latin on the input side, but this does appear to occur before [a] ? (or not?) 
+$ Combined with DV1740F1 ~ PPAlb *l, *sl > l: / V __ V[-front] 
+$ form prior to 8/5/23 was: (s) > lː / [+syl] __ [+syl]
+$changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
+$ DIACLEF change : just having this go straight to dark L /lˠ/
+$ DIACLEF change : placing this before {nl,ll} > l, which counterfeeds it, and thus also before lambadacism -- in order to do so, the posterior context is now also *explicitly* [-front] 
+{s l;l} > {lˠ;lˠ} / [+syl] __ [+syl,-front] 
+
+$DV1740E3 -- Lat ll > PAlb l. As [l] is a resonant, this will be totally bled by DV1740F2 if not placed before it.
+$merge with DV1740E1: PPAlb ln > PAlb l; placement for the same counterbleeding reasons.  
+$DIA RELOCDATION: but this does seem to feed lambdacism -- placed before lambdacism as otherwise lambdacism for -llj- segments will be lost due to hte current formulation of rule 14 (l [+cons,+son] > lː); could specify that rule for [-lat] for the second input segment, but it is simpler to just place this rule earlier. 
+{l;n} > {∅;∅} / l __ 
+
 $TODO FOR DIA -- there are clearly problems here as [+syl] l [+syl] subset has only a 0.6% accuracy. 
 $  -- maybe it should be moved later as the fall of unstressed vowels seems to be bleeding this in some cases. But it's more complicated... with filter of /l/ before rlue 10, -prim for prior phone has 77.48% rate of error in autopsy, and looking at the words in question supports this (below) 
 	$ -- DV1740G1 filtered results, l > j errantly
@@ -118,30 +132,38 @@ $ DIA -- SUPPRESSED.
 $l > ʎ / [+syl] __ [+syl,+front]
 
 
-	$ -- rule 11 filtered... as relatively 
+	$ -- DV1740G2 effects filtered... 
 		$ to ʎ but should have been lˠ 
-			$ ˌeːwɑnɡˈeʎum 
+			$ A1 in  [+lo,+stres] (l) __ [+lo]
+				$ 188 fˌɑwˈɑljɑm -- does show i-mutation though. (absent in Newmark 1998... and Bonnet 1998)
+				$ 235 ɡˌɑlljˈɑːtja
+				$ 1047 tˈɑːljɑ 
+			 $ -- counterexamples -- battualiam (but this is also attested as bëtalë...), invernālia, pistālia, rosālia (alas this is likely later), tālea 
+			$ A2 in # l __ 
+				$ 579 ljˈoːnem 
+			$ A3 in {i(ː),e(ː)} (l) __ u 
+				$ 170 eːwɑŋɡˈeljum -- but may be a slightly later entry, placed instead in Middle Proto-Albanian. Also does show i-mutaiton.
+				$ 472 kˌoːsˈiljum -- but the singular may be analogical. Also, does show i-mutation. Enter instead in Middle Proto-Albanian? 
+				$ 586 liːljum 
+				$ 673 mˈiljum -- but this does not show i-mutation.. 
+				$ 805 pˈillju , but it's a dubious etymon. If it exists, it shows i-mutation -- enter in Middle Albanian instead? 
+			$ A4 in u (l) __ ɑ
+				$ 784 pˌekˈuljum -- lack i-mutation too; a difficult word. 
+				$ countercases: 
+	$ for now, keeping this, and testing Cabej's theory that ungjill from (irregularly stressted?) evangelum (perhaps with, I wonder, a later coloring of the vowel by the prior palatal or postalveolar element to /i/? Also effecting consilium? ). 
 $ DV1740G2 : l j > ʎ in PPAlb and Lat. Seems intended to be fed by hiatus vowel gliding. 
 l j > ʎ
-
-$DV1740F3 -- Lat *l > l: / V __ V[-front]
-$ as long as the lambda forming rule DV1740G1 is placed before this, [-front] does not need to be explicated, which is useful because [a] may technically be treated as front depending on the current convention for Latin on the input side, but this does appear to occur before [a] ? (or not?) 
-$ Combined with DV1740F1 ~ PPAlb *l, *sl > l: / V __ V[-front] 
-$ form prior to 8/5/23 was: (s) > lː / [+syl] __ [+syl]
-$changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
-$ DIACLEF change : consider just having this go straight to dark L 
-{s l;l} > {lˠ;lˠ} / [+syl] __ [+syl]
-
-$DV1740E3 -- Lat ll > PAlb l. As [l] is a resonant, this will be totally bled by DV1740F2 if not placed before it.
-$merge with DV1740E1: PPAlb ln > PAlb l; placement for the same counterbleeding reasons.  
-{l;n} > {∅;∅} / l __ 
 
 $DV1740F2 -- l and a nearby resonant (Rl, lR) merge to become *l:. De Vaan lists parabola -> përrallë as his third example wihch would imply a treatment of /β/ (perhaps? if not /b/?) as a resonant, which could cause problems, but actually parabola > përrallë can be perfectly handled if it is placed before the fall of unstressed vowels.
 $ but this must be placed after DV1740E3 and DV1740E1 as otherwise it would completely bleed them.
 $ form prior to 8/5/23 was: {[+cons,+son] l;l [+cons,+son]} > lː
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
-[+cons,+son] l > lː
-l [+cons,+son] > lː
+$ DIASIM CHANGE: these go straight to lˠ, not lː
+[+cons,+son] l > lˠ
+l [+cons,+son] > lˠ
+
+$DIACLEA rule insertion: ʎ depalatalizes to l between high vowels
+ʎ > l / [+hi] __ [+hi]
 
 $DV2.2.1C5: Latin short e > a in "q, sh" __ "rr, l". No explicit word on the dating of this except that it is between post-Latin PPAlb, and PAlb; the forms used (q, sh,... rr, l) suggest a later date but at first inspection it seems to precede the merger of ae to short e (caelum > qiell) which certainly must have been before k > q (=[c]). So it is placed right after "rr, l" emerged (with what would become dark l now being long l, and rr being long r)
 $no clear way to block this for PPAlb *e, so this will need to be fixed if errors arise (TODO) 

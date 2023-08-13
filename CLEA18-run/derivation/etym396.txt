@@ -2,24 +2,23 @@ Derivation file for run '../Albanian-diachrony/Albanian-CFR/CLEA18-run'; etymon 
 #kˌɑrrˈiːkulˈɑːnioː# >>> #kərˈikəlˠˈɛɲw# ( GOLD : #kriklˠˈɔj#) :
 k ˌɑ r r ˈiː k u l ˈɑː n i oː 
 #kˌɑrːˈiːkulˈɑːnioː# | 7 : r r > rː 
-#kˌɑrːˈiːkulˈɑːnjoː# | 9 : [-lo,+syl,-prim] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-#kˌɑrːˈiːkulːˈɑːnjoː# | 12 : {s l;l} > {lː;lː} / [+syl] __ [+syl]
-#kˌɑrːˈiːkulːˈɑːɲoː# | 20 : {ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ} 
-#kˌɑrːˈiːkulːˈɑːɲwoː# | 29 : ∅ > w / __ [-hi,+round,+long]
-#kˌɑrːˈiːkulːˈɑːɲwøː# | 40 : [+back,+long,+syl,-lo] > [+front,-back] 
-#kˌɑrːˈiːkəlːˈɑːɲwøː# | 44 : [-stres] > ə / [+prim] ( @ )* __ @
-Middle Proto-Albanian stage form : #kˌɑrːˈiːkəlːˈɑːɲwøː#
-#kˌɑrːˈiːkəlːˈɑːɲwœː# | 46 : [+round,+syl,+long] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
-#kˌɑrːˈikəlːˈɑɲwœ# | 48 : [+syl] > [-long,-splng] 
-#kˌɑrːˈikəlːˈeɲwœ# | 53 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round]
-#kˌɑrːˈikəlːˈeɲw?# | 66 : [+front,-cons,-hi] > [-round] 
-#kˌɑrːˈikɜlːˈɛɲw?# | 67 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-#kərːˈikəlːˈɛɲw?# | 70 : [-prim] > ə / @ __ ( @ )* [+prim]
-#kərːˈikəlːˈɛɲw# | 85 : [-stres] > ∅ / __ #
-#kərːˈikəlːˈɛːɲw# | 93 : [+prim] > [+long] / __ [+cons,+son]
-Late Proto-Albanian stage form : #kərːˈikəlːˈɛːɲw#
-#kərːˈikəlːˈɛ̃ːɲw# | 99 : [+syl] > [+nas,+son,0delrel] / __ [+nas,+cons]
-#kərːˈikəlˠˈɛ̃ːɲw# | 109 : lː > lˠ 
+#kˌɑrːˈiːkulˈɑːnjoː# | 9 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+#kˌɑrːˈiːkulˠˈɑːnjoː# | 10 : {s l;l} > {lˠ;lˠ} / [+syl] __ [+syl,-front]
+#kˌɑrːˈiːkulˠˈɑːɲoː# | 20 : {ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ} 
+#kˌɑrːˈiːkulˠˈɑːɲwoː# | 29 : ∅ > w / __ [-hi,+round,+long]
+#kˌɑrːˈiːkulˠˈɑːɲwøː# | 40 : [+back,+long,+syl,-lo] > [+front,-back] 
+#kˌɑrːˈiːkəlˠˈɑːɲwøː# | 44 : [-stres] > ə / [+prim] ( @ )* __ @
+Middle Proto-Albanian stage form : #kˌɑrːˈiːkəlˠˈɑːɲwøː#
+#kˌɑrːˈiːkəlˠˈɑːɲwœː# | 46 : [+round,+syl,+long] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
+#kˌɑrːˈikəlˠˈɑɲwœ# | 48 : [+syl] > [-long,-splng] 
+#kˌɑrːˈikəlˠˈeɲwœ# | 53 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round]
+#kˌɑrːˈikəlˠˈeɲw?# | 66 : [+front,-cons,-hi] > [-round] 
+#kˌɑrːˈikɜlˠˈɛɲw?# | 67 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+#kərːˈikəlˠˈɛɲw?# | 70 : [-prim] > ə / @ __ ( @ )* [+prim]
+#kərːˈikəlˠˈɛɲw# | 85 : [-stres] > ∅ / __ #
+#kərːˈikəlˠˈɛːɲw# | 93 : [+prim] > [+long] / __ [+cons,+son]
+Late Proto-Albanian stage form : #kərːˈikəlˠˈɛːɲw#
+#kərːˈikəlˠˈɛ̃ːɲw# | 99 : [+syl] > [+nas,+son,0delrel] / __ [+nas,+cons]
 #kərˈikəlˠˈɛ̃ːɲw# | 112 : rː > r 
  Proto-Tosk stage form : #kərˈikəlˠˈɛ̃ːɲw#
 #kərˈikəlˠˈɛːɲw# | 116 : [-cons,+nas] > [-nas] 

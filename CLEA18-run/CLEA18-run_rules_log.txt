@@ -7,13 +7,13 @@
 {w r;r} > {rː;rː} / # __ 
 r r > rː 
 r j > ʎ / @ __ @
-[-lo,+syl,-prim] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-l > ʎ / [+syl] __ [+syl,+front]
-l j > ʎ 
-{s l;l} > {lː;lː} / [+syl] __ [+syl]
+[-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+{s l;l} > {lˠ;lˠ} / [+syl] __ [+syl,-front]
 {l;n} > {∅;∅} / l __ 
-[+cons,+son] l > lː
-l [+cons,+son] > lː
+l j > ʎ 
+[+cons,+son] l > lˠ
+l [+cons,+son] > lˠ
+ʎ > l / [+hi] __ [+hi]
 ˈe > ˈɑ / k __ l
 ˈe > ˈɑ / k __ rː
 ˈe > ˈɑ / [+cor,-lab,+cont] __ l

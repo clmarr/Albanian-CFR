@@ -50,7 +50,8 @@ $ however this could possibl counterfeed 2.2.1C5 (caelvm > qiell), depending on 
 [+lo,βstres,ɣprim] e̯ > ∅ [-tense,βstres,ɣprim]
 
 $per Kortlandt 1987 p220 s4 -- final s is deleted. This has to be after the dissimilations (thi for PIE ancestor of Lat. sūs) but before delabialization ū, Kortlandt argues. De Vaan 2018 doesn't list this rule and asserts that nouns tend to reflect the accusative (which Bonnet 1998 seems to agree with), but this is included at this place (after the first Latin wave) to enable nominative forms in the lexicon as well as other words ending in -s, from Latin, Ancient Greek, and PIE alike. Note that Kortlandt 1987 opposes the view that *s went to *h or to ∅ (via /h/ or otherwise) in any other position (contra Jokl 1937, Meyer 1891, Pedersen 1900 , probably also Orel 2000), which includes retracting his earlier 1986 published view on intervocalic *s reflecting as nothing (but cf. nosom > nahe > na?). Given De Vaan 2018's reference to Kortlandt 1987 as its main source of *s developments (TODO check this in correspondence with De Vaan?), this view is adopted within this cascade, for now at least. (Kortlandt's lexical-etymological views are not adopted unless explicitly endorsed by De Vaan 2017, as with deriving the modern Albanian proximals ky,kjo,këta,këto from Latin ECCVM, also the source of these velar proximal elements across Romance) 
-$ ʃ and s both included to allow flexibility in placem
+$ ʃ and s both included to allow flexibility in place
+$ TODO FOR DIA : consider combining this with later rules. 
 [+strid,+cor,+cont] > ∅ / __ #
 
 $DV1744.D & DV1744.E1  --*tɕ *dʝ > *θ *ð -- for De Vaan, these happen in one step, without intermediate stages in alveolar or dental affricates. 
@@ -82,26 +83,38 @@ $ of PAlb *ʎ and *ɲ, and bleed the formation of *l:.
 $ for convenience, and given Pope 1934(:s220), and given that forming a broad rule is trivial here, the same is done for /u/ and /o/. 
 	$ inasmuch as Latin orthographic V was used for both, there is perhaps mild support for De Vaan 2018 also having this here, 
 		$ as informed by the handling of betacism of V (De Vaan 2018: 1744 -- DV1744.C1) 
-$DIACLEA18 change: consider changing the -prim to -stress here as this doesn't seem to apply to countertonics as the diagnostics reveal a 0% accuracy over this subset -- especially looking at the cases of gruilla, coopertūra, creāre... etc. 
-[-lo,+syl,-stres] > [-syl,+hi] / __ [+syl]
+$DIACLEA18 change: changed the -prim to -stress here as this doesn't seem to apply to countertonics as the diagnostics reveal a 0% accuracy over this subset -- especially looking at the cases of gruilla, coopertūra, creāre... etc. 
+[-lo,+syl,-stres] > [-syl,+hi,-long] / __ [+syl]
 
-$TODO FOR DIA -- many errors on this rule where there wasn't iotation --
-	$ -- rule 10 filtered results, l > j errantly
+$TODO FOR DIA -- this rule is only right 1/28 of the time.
+$  -- maybe it should be moved later as the fall of unstressed vowels seems to be bleeding this in some cases. But it's more complicated... with filter of /l/ before rlue 10, -prim for prior phone has 77.48% rate of error. 
+	$ -- DV1740G1 filtered results, l > j errantly
 		$ ultimately to lˠ
-			$ 41 ˌɑprˈiːli | 108 dˌolˈeːre | 320 kˌɑlendˈɑːrjum | 385 kˌiːkˈaːla | 433 koːsulem | 467 krˌistinaːtˈaːlam 
-			$ 551 mˌɑlediːkˈere | 622 mˌolˈiːnum | 663 ˌolˈiːwu | 676 pˌɑdˈuːlem | 751 pˌolˈentɑ | 849 sˌɑlˈiːnɑ | 850 sˌɑlˈiːre 
+			$ GROUP A1 in {ˌɑ, ˌo} __ { ˈiː ; ˈe ; ˈeː }  
+				$ 41 ˌɑprˈiːli | 622 mˌolˈiːnum | 663 ˌolˈiːwu | 849 sˌɑlˈiːnɑ | 850 sˌɑlˈiːnjoː
+				$ 108 dˌolˈeːre | 751 pˌolˈentɑ
+			$ GROUP A2 cases in __ e 	(unstressed e!) 
+				$ 320 kˌɑlendˈɑːrjum | 433 kˈoːsulem
+				$ 551 mˌɑlediːkˈere  | 676 pˌɑdˈuːlem |  
 		$ ultimately to ɾ 
-			$ 88 dˌeːleːɡˈɑːre 
-		$ ultimately to l 
-			$ 260 ˈiːlikem | 261 ˌiːlikˈeːtum | 320 kˈɑlikem | 555 mˌɑlitjˈɑːre | 569 mˌɑntˈiːle | mˌelˈettɑm | mˌolˈere
-			$ 846 sˈɑlikɑ | 847 sˈɑlikem | 848 sˌɑlikˈeːtum 
-	$ -- rule 11 filtered... as relatively 
-		$ to ʎ but should have been lˠ 
-			$ ˌeːwɑnɡˈeʎum 
+			$ 88 dˌeːleːɡˈɑːnjoː -- fits in group A2? 
+		$ ultimately to l  (some may be from ʎ earlier)
+
+			$fits best in group A2 
+				$ 555 mˌɑlitjˈɑːre | 569 mˌɑntˈiːle 
+				$ |260 ˈiːlikem | 261 ˌiːlikˈeːtum | 320 kˈɑlikem | 846 sˈɑlikɑ | 847 sˈɑlikem | 848 sˌɑlikˈeːtum 
+			$ group B1 -- after falling countertonic e 
+				$ 115 ˌelˈeɡjɑ | 660  mˌelˈettɑm |
+		$ l > ʎ correctly here. 
+			$ 1120 wˌɑlˈeːnjoː
 $ DV1740G1 : intervocalic l becomes ʎ before front vowel.
 l > ʎ / [+syl] __ [+syl,+front]
 
 
+
+	$ -- rule 11 filtered... as relatively 
+		$ to ʎ but should have been lˠ 
+			$ ˌeːwɑnɡˈeʎum 
 $ DV1740G2 : l j > ʎ in PPAlb and Lat. Seems intended to be fed by hiatus vowel gliding. 
 l j > ʎ
 

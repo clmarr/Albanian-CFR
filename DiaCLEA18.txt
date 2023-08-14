@@ -51,8 +51,9 @@ $ however this could possibly counterfeed 2.2.1C5 (caelvm > qiell), depending on
 
 $per Kortlandt 1987 p220 s4 -- final s is deleted. This has to be after the dissimilations (thi for PIE ancestor of Lat. sūs) but before delabialization ū, Kortlandt argues. De Vaan 2018 doesn't list this rule and asserts that nouns tend to reflect the accusative (which Bonnet 1998 seems to agree with), but this is included at this place (after the first Latin wave) to enable nominative forms in the lexicon as well as other words ending in -s, from Latin, Ancient Greek, and PIE alike. Note that Kortlandt 1987 opposes the view that *s went to *h or to ∅ (via /h/ or otherwise) in any other position (contra Jokl 1937, Meyer 1891, Pedersen 1900 , probably also Orel 2000), which includes retracting his earlier 1986 published view on intervocalic *s reflecting as nothing (but cf. nosom > nahe > na?). Given De Vaan 2018's reference to Kortlandt 1987 as its main source of *s developments (TODO check this in correspondence with De Vaan?), this view is adopted within this cascade, for now at least. (Kortlandt's lexical-etymological views are not adopted unless explicitly endorsed by De Vaan 2017, as with deriving the modern Albanian proximals ky,kjo,këta,këto from Latin ECCVM, also the source of these velar proximal elements across Romance) 
 $ ʃ and s both included to allow flexibility in place
-$ TODO FOR DIA : consider combining this with later rules. 
-[+strid,+cor,+cont] > ∅ / __ #
+$ FOR DIA: combined with final consonant deletions originally at the end of Antique Proto-Albanian to Middle Proto-Albanian changes ("$bandaid implied elsehwere -- strip final s in inflectional endings, and then nasals, in that order
+[+strid,+cor,+cont] > ∅ / [-stres] ([+nas,+cons]) __ # 
+[+nas,+cons] > ∅ / [-stres] __ #
 
 $DV1744.D & DV1744.E1  --*tɕ *dʝ > *θ *ð -- for De Vaan, these happen in one step, without intermediate stages in alveolar or dental affricates. 
 $ symbol defs and the IPA don't (most typically) use *tɕ *dʝ, these are expressed with c͡ç and ɟ͡ʝ for reasons discussed above in the formulation for DV4.3G1 & H1 
@@ -196,7 +197,11 @@ $ $ The etyma cited by De Vaan 2018 as evidence for this are counterexplained
 	$ for gjyq, bekoj and jek -- by the view that voiced stops were effaced in secondary clusters caused by the internal vowel loss  
 		$ cf. Bonnet 1998(:166) 
 	$ and for fe and pre being counterexplained as possible later Angevin loans (Marr 2023) 
-	$ counterexamples noted by Orel 2000 and Marr 2023 include modh < MODVS, prodhoj < PRŌDĀRE, predhë < PRAEDA, adhuroj/adhëroj < ADŌRĀRE
+	$ counterexamples noted by Orel 2000, Bonnet 1998 and Marr 2023 include modh < MODVS, prodhoj < PRŌDĀRE, predhë < PRAEDA, adhuroj/adhëroj < ADŌRĀRE
+$ possible other exceptions in the data: 
+	$ ohter cases in the data : kudh (<(IN)CUDEM), kudhër (< INCUDINEM), perhaps predhë, also edh (<HAEDVS) perhaps; perhaps also medicastrum > mëgashtër may have had the -d- survive to motivate the voicing via progressive voicing assimilation . 
+	$ there are cases where on the surface these appear to be properly effaced -- though it seems many are where vowel drops should be, in line with the views of Orel 2000 and Bonnet 1998 that the drop of /d/ (as well as /ɡ/ and /b/) is due to the clusters formed with fall of unstressed vowels 
+	$ However in any case this clealry should be later if it happens at all, because (a) it is not seen in shared vocab with Romanian (padure, etc.), and more importantly (b) it is clear that cases that De Vaan doesn't seem to consider intervocalic -- laridum and viridim -- and which are unaffected (becoming lardh and verdh, respectively) -- thus, intervocalic stop effacement is moved to after vowel this based on DIA evidence, to allow DV1744.E4 to be fed first by internal vowel drops, and to allow them to bleed the -d- effacement after /r/ (and potentially feed it in other cases, if we go with the views of Orel 2000)
 d > ∅ / [+syl] __ [+syl]
 
 $ DV1744.E4 -- Latin d becomes edh after r (as with PPAlb d -- DV1744.E2) 
@@ -281,9 +286,6 @@ $ based on treatment of Lat. ae elsewhere, where it falls in with Latin *short* 
 [+lo,+syl,αstres,βprim] [+front,-cons,-syl] > [-lo,+front,+long,αstres,βprim] ∅
 
 $----- early aspects of vowel reduction and falls ----- 
-$bandaid implied elsehwere -- strip final s in inflectional endings, and then nasals, in that order
-s > ∅ / [-stres] ([+nas,+cons]) __ # 
-[+nas,+cons] > ∅ / [-stres] __ #
 
 $ DV2.2.2c "at an early stage" internal unstressed post-tonic vowels go to schwa, some soon to be lost. 
 $ originally formulated here so as to not count items with inflectional ending consonants (e.g. accusative -m) as "internal" : [-stres] > ə / [+prim] (@)* __ ([-syl])* [+syl] -- but now this is no longer necessary(?)

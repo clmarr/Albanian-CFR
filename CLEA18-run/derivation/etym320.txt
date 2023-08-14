@@ -3,22 +3,22 @@ Derivation file for run '../Albanian-diachrony/Albanian-CFR/CLEA18-run'; etymon 
 ˌi n k ˌu n e ˈɑː n i oː 
 #ˌinkˌunjˈɑːnjoː# | 10 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
 #ˌinkˌuɲˈɑːɲoː# | 15 : {ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ} 
-#ˌinkˌuɲˈɑːɲwoː# | 24 : ∅ > w / __ [-hi,+round,+long]
-#ˌinkˌuɲˈɑːɲwøː# | 35 : [+back,+long,+syl,-lo] > [+front,-back] 
+#ˌinkˌuɲˈɑːɲwoː# | 21 : ∅ > w / __ [-hi,+round,+long]
+#ˌinkˌuɲˈɑːɲwøː# | 32 : [+back,+long,+syl,-lo] > [+front,-back] 
 Middle Proto-Albanian stage form : #ˌinkˌuɲˈɑːɲwøː#
-#ˌɪnkˌʊɲˈɑːɲwøː# | 40 : [+hi,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-#ˌɪnkˌʊɲˈɑɲwø# | 41 : [+syl] > [-long,-splng] 
-#ˌɪnkˌuɲˈɑɲwø# | 43 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-#ˌenkˌuɲˈɑɲwø# | 44 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
-#ˌenkˌuɲˈeɲwø# | 46 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round]
-#ˌenkˌuɲˈeɲw?# | 59 : [+front,-cons,-hi] > [-round] 
-#ˌɛnkˌuɲˈɛɲw?# | 60 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-#nkˌuɲˈɛɲw?# | 61 : [-prim] > ∅ / # __ 
-#ənkˌuɲˈɛɲw?# | 62 : ∅ > ə / # __ [+son,+cons] [+cons]
-#ənkəɲˈɛɲw?# | 63 : [-prim] > ə / @ __ ( @ )* [+prim]
-#ənɡəɲˈɛɲw?# | 71 : [-cont,-cor] > [+voi] / [+nas] __ 
-#ənɡəɲˈɛɲw# | 83 : [-stres,-lo] > ∅ / __ #
-#ənɡəɲˈɛːɲw# | 92 : [+prim] > [+long] / __ [+cons,+son]
+#ˌɪnkˌʊɲˈɑːɲwøː# | 37 : [+hi,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+#ˌɪnkˌʊɲˈɑɲwø# | 38 : [+syl] > [-long,-splng] 
+#ˌɪnkˌuɲˈɑɲwø# | 40 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+#ˌenkˌuɲˈɑɲwø# | 41 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
+#ˌenkˌuɲˈeɲwø# | 43 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round]
+#ˌenkˌuɲˈeɲw?# | 56 : [+front,-cons,-hi] > [-round] 
+#ˌɛnkˌuɲˈɛɲw?# | 57 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+#nkˌuɲˈɛɲw?# | 58 : [-prim] > ∅ / # __ 
+#ənkˌuɲˈɛɲw?# | 59 : ∅ > ə / # __ [+son,+cons] [+cons]
+#ənkəɲˈɛɲw?# | 60 : [-prim] > ə / @ __ ( @ )* [+prim]
+#ənɡəɲˈɛɲw?# | 68 : [-cont,-cor] > [+voi] / [+nas] __ 
+#ənɡəɲˈɛːɲw?# | 83 : [+prim] > [+long] / __ [+cons,+son]
+#ənɡəɲˈɛːɲw# | 89 : [-stres,-lo] > ∅ / __ #
 Late Proto-Albanian stage form : #ənɡəɲˈɛːɲw#
 #ə̃nɡə̃ɲˈɛ̃ːɲw# | 98 : [+syl] > [+nas,+son,0delrel] / __ [+nas,+cons]
 #hə̃nɡə̃ɲˈɛ̃ːɲw# | 99 : ∅ > h / # __ [+syl]

@@ -182,38 +182,6 @@ $ TODO long term - -consider only applying it for -rs- and -sr- for pre-Latin et
 $ r [+cons] > r 
 $ [+cons] r > r 
 
-$   ------------- INTERVOCALIC STOP EFFACEMENT -----------
-$ effacements of intervocalic stops and /w/ follow (I'd note they were perhaps all phonetically fricatives at the time they were effaced, cf Pope 1934 on Latin /w/ as [ɣʷ], as noted in BaseCLEF) 
-
-$ effacement of intervocalic /d/, per De Vaan 2018(: 1745 -- DV1745.A4) 
-$	$ He asserts that native Proto-Albanian */d/ had a different fate in the same environment, 
-	$	becoming /ð/ only after /d/ in Latin words was effaced, 
-	$	with the same also occuring for both native and Latin /d/ in V__r (see De Vaan 2018: 1744)
-	$ per p1745, he does explicitly propose that Latin intervocalic /d/ also became [ð] before disappearing, 
-	$	but before this happened to native intervocalic /d/, and both in V __ r. 
-	$ De Vaan 2018(: 1743) also explicitly asserts these passed trough a stage of *ð. 
-$ $ note that this account is rival to Orel 2000(:105)'s view that Latin D shared the fate of Proto-Albanian *d in both V __ V and r __ Vs
-$ $ The etyma cited by De Vaan 2018 as evidence for this are counterexplained 
-	$ for gjyq, bekoj and jek -- by the view that voiced stops were effaced in secondary clusters caused by the internal vowel loss  
-		$ cf. Bonnet 1998(:166) 
-	$ and for fe and pre being counterexplained as possible later Angevin loans (Marr 2023) 
-	$ counterexamples noted by Orel 2000, Bonnet 1998 and Marr 2023 include modh < MODVS, prodhoj < PRŌDĀRE, predhë < PRAEDA, adhuroj/adhëroj < ADŌRĀRE
-$ possible other exceptions in the data: 
-	$ ohter cases in the data : kudh (<(IN)CUDEM), kudhër (< INCUDINEM), perhaps predhë, also edh (<HAEDVS) perhaps; perhaps also medicastrum > mëgashtër may have had the -d- survive to motivate the voicing via progressive voicing assimilation . 
-	$ there are cases where on the surface these appear to be properly effaced -- though it seems many are where vowel drops should be, in line with the views of Orel 2000 and Bonnet 1998 that the drop of /d/ (as well as /ɡ/ and /b/) is due to the clusters formed with fall of unstressed vowels 
-	$ However in any case this clealry should be later if it happens at all, because (a) it is not seen in shared vocab with Romanian (padure, etc.), and more importantly (b) it is clear that cases that De Vaan doesn't seem to consider intervocalic -- laridum and viridim -- and which are unaffected (becoming lardh and verdh, respectively) -- thus, intervocalic stop effacement is moved to after vowel this based on DIA evidence, to allow DV1744.E4 to be fed first by internal vowel drops, and to allow them to bleed the -d- effacement after /r/ (and potentially feed it in other cases, if we go with the views of Orel 2000)
-d > ∅ / [+syl] __ [+syl]
-
-$ DV1744.E4 -- Latin d becomes edh after r (as with PPAlb d -- DV1744.E2) 
-d > ð / r __
-
-$ De Vaan 2018 (: 1745.A4) -- Latin /b/ is deleted both (DV1745.A2) intervocalically and (DV1745.A3) in V __ r 
-	$ he explicate the prior vowel in DV1745.A3 (it's just " __ r") but all cases he lists 
-	$ are actually V __ r V, and I don't think Latin has any C b r C strings, let alone those that would have made it into Proto-Albanian 
-	$ for (b) he lists farkë "smithy" < FABRICA, OGeg fëruor "february" < FEBRUĀRIVS, kushëri "cousin" < CŌNSOBRĪNVS, harr-o- "to  forgot < ABERRĀRE
-	$ for (a): buall "buffalo" < BUBALVS, djall "devil" < DIABOLVS, i/e lirë "free" < LIBER, kut "elbow" < CUBITVS) 
-b > ∅ / [+syl] __ (r) [+syl]
-
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: cf. qytet 'city' < CĪVITĀTEM, njerkë "stepmother" < NOVERCA
 w > ∅ / [+syl] __ [+syl]
 
@@ -231,7 +199,8 @@ $ DV1744.C4 -- emergence of PAlb β before Latin long ō and the reflex of Alb 
 ∅ > w / __ [-hi,+round,+long]
 
 $ DV1744.C1 : Lat. w- > β. 
-$ TODO NOTE FOR DIA: this is redundant with the earlier rule doing the exact same thing to PIE u̯ > PPAlb β (DV1746.F1 = DV4.3L1) 
+$ TODO NOTE FOR DIA: this is redundant with the earlier rule doing the exact same thing to PIE u̯ > PPAlb β (DV1746.F1 = DV4.3L1), TODO remove this 
+$ note that the dating of this shift in Latin is quite antique -- 1st century, case of <nerβa> in a Latin inscription (otherwise from β?) 
 w > β / # __
 
 $ DV4.2F4: Lat. i- merges with PPAlb *ʒ as PAlb *ɟ; PPAlb *ʒ as PAlb *ɟ as implementing DV4.2F1
@@ -458,7 +427,78 @@ $ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV174
 $bandaid -- fronting of remaining low vowels at this point, because the lexicon has modern Albanian low vowels as front. 
 [+lo] > [+front,-back]
 
-$ ---------- Pre-Slavic final vowel phenomena -- 
+$ -------- rise of long vowels -------
+$ De Vaan places this between Proto-Albanian and modern PAlb but it seems clear that it is intended to represent a pan-Albanian development
+$ moved to before vowel drops tentatively for DIA as of 8/14/23 because this includes the loss of vowels in R __ T that seem necessary to block effacement of d and rather its passage to /ð/ in cases like laridum and viridem (> lardh, verdh) 
+
+$ DV1734.1.I -- long vowels that arise through "internal contraction" 
+$previously assumed this meant with schwa and/or homoorganic vowels for now, put per conference with De Vaan 8/9/23 -- to be on the safe side do it for all vowels; 
+$ version before 8/5/23: 
+	$ {ə;ˌə;[-prim,αhi,βlo,ɣround,ðfront]} [+syl] > ∅ [+long] / @ __ @
+	$ [+syl] {ə;ˌə;[-prim,αhi,βlo,ɣround,ðfront]} > [+long] ∅ / @ __ @
+$ had to change to sidestep input-side issues then-current in DiaSim. TODO consider restoring. 
+$ version before 8/9/23 was these four rules, before changing implementation to cover all vowels that have come into contact
+$	[-prim,-lo,-front,-back] [+syl] > ∅ [+long] / @ __ @
+$	[-prim,αhi,βlo,ɣround,ðfront] [+prim,αhi,βlo,ɣround,ðfront] > ∅ [+long] / @ __ @
+$	[+syl] [-prim,-lo,-front,-back] > [+long] ∅ / @ __ @
+$	[+prim,αhi,βlo,ɣround,ðfront] [-prim,αhi,βlo,ɣround,ðfront] > [+long] ∅ / @ __ @
+[-prim] [+prim] > ∅ [+long] / @ __ @
+[+prim] [-prim] > [+long] ∅ / @ __ @
+
+$DV1734.1.III compensatory lengthening
+$ based on examples in DV2.2.2b and 2.2.2c, posttonic vowels seem to be lost at this point in the context R __ T, with lengthening of a prior vowel if it is stressed. (amita > emtë, manica > mëngë, veritātem > vërtet , spīritus > shpirt; vs. orphanus > varfër, epíscopus > peshkëp, contrā > kundër, tjetër < -étero-, sherbëtuor, ;
+$ --not near -ll- it seems so -long,-back to be safe :  maledicere > mallëkoj but also mallkoj?; likewise voluntātem > vull(ë)n(d)et ; note also Buzuku's sonëte -- but there might be analogical-lexical reasons for that as it is so - nate?) 
+$TODO reexamine this? 
+[+prim] > [+long] / __ [+cons,+son,-long,-back] ə [-cont]
+ə > ∅ / [+cons,+son,-long,-back] __ [-cont]
+
+$DV1734.1.IV -- 'lengthening before nasals, liquids, sibilants'
+[+prim] > [+long] / __ {[+cons,+son];[+strid]}
+
+$   ------------- INTERVOCALIC STOP EFFACEMENT AND CLUSTER SIMPLIFICATION -----------
+$ TODO figure out how to handle this in the base cascade? -- probably have it here after the fall of schwa in R __ T, with a (more concise) explanation
+$ TODO try out the cluster simplificaiton aspects, and see then if they match what Orel said. 
+
+$ effacements of intervocalic stops and /w/ follow (I'd note they were perhaps all phonetically fricatives at the time they were effaced, cf Pope 1934 on Latin /w/ as [ɣʷ], as noted in BaseCLEF) 
+
+$ effacement of intervocalic /d/, per De Vaan 2018(: 1745 -- DV1745.A4) 
+$	$ He asserts that native Proto-Albanian */d/ had a different fate in the same environment, 
+	$	becoming /ð/ only after /d/ in Latin words was effaced, 
+	$	with the same also occuring for both native and Latin /d/ in V__r (see De Vaan 2018: 1744)
+	$ per p1745, he does explicitly propose that Latin intervocalic /d/ also became [ð] before disappearing, 
+	$	but before this happened to native intervocalic /d/, and both in V __ r. 
+	$ De Vaan 2018(: 1743) also explicitly asserts these passed trough a stage of *ð. 
+$ $ note that this account is rival to Orel 2000(:105)'s view that Latin D shared the fate of Proto-Albanian *d in both V __ V and r __ Vs
+$ $ The etyma cited by De Vaan 2018 as evidence for this are counterexplained 
+	$ for gjyq, bekoj and jek -- by the view that voiced stops were effaced in secondary clusters caused by the internal vowel loss  
+		$ cf. Bonnet 1998(:166) 
+	$ and for fe and pre being counterexplained as possible later Angevin loans (Marr 2023) 
+	$ counterexamples noted by Orel 2000, Bonnet 1998 and Marr 2023 include modh < MODVS, prodhoj < PRŌDĀRE, predhë < PRAEDA, adhuroj/adhëroj < ADŌRĀRE
+$ possible other exceptions in the data: 
+	$ ohter cases in the data : kudh (<(IN)CUDEM), kudhër (< INCUDINEM), perhaps predhë, also edh (<HAEDVS) perhaps; perhaps also medicastrum > mëgashtër may have had the -d- survive to motivate the voicing via progressive voicing assimilation . 
+	$ there are cases where on the surface these appear to be properly effaced -- though it seems many are where vowel drops should be, in line with the views of Orel 2000 and Bonnet 1998 that the drop of /d/ (as well as /ɡ/ and /b/) is due to the clusters formed with fall of unstressed vowels 
+	$ However in any case this clealry should be later if it happens at all, because (a) it is not seen in shared vocab with Romanian (padure, etc.), and more importantly (b) it is clear that cases that De Vaan doesn't seem to consider intervocalic -- laridum and viridim -- and which are unaffected (becoming lardh and verdh, respectively) -- thus, intervocalic stop effacement is moved to after vowel this based on DIA evidence, to allow DV1744.E4 to be fed first by internal vowel drops, and to allow them to bleed the -d- effacement after /r/ (and potentially feed it in other cases, if we go with the views of Orel 2000)
+d > ∅ / [+syl] __ [+syl]
+
+$ DV1744.E4 -- Latin d becomes edh after r (as with PPAlb d -- DV1744.E2) 
+d > ð / r __
+
+$ De Vaan 2018 (: 1745.A4) -- Latin /b/ is deleted both (DV1745.A2) intervocalically and (DV1745.A3) in V __ r 
+	$ he explicate the prior vowel in DV1745.A3 (it's just " __ r") but all cases he lists 
+	$ are actually V __ r V, and I don't think Latin has any C b r C strings, let alone those that would have made it into Proto-Albanian 
+	$ for (b) he lists farkë "smithy" < FABRICA, OGeg fëruor "february" < FEBRUĀRIVS, kushëri "cousin" < CŌNSOBRĪNVS, harr-o- "to  forgot < ABERRĀRE
+	$ for (a): buall "buffalo" < BUBALVS, djall "devil" < DIABOLVS, i/e lirë "free" < LIBER, kut "elbow" < CUBITVS) 
+b > ∅ / [+syl] __ (r) [+syl]
+
+
+$ --- end of intervocalic drop block ----
+$ TODO -- can remove this TODO when handled other experimenting with other cluster simplifications and then checking if they match those of Orel 
+$ TODO -- need to shift this again so that it comes before the INITIAL vowel drops! edictare > hetoj etc. 
+$ TODO make note in DiaSim fixes file. Need to be clear but concise. 
+$ TODO currently placed this before the drop of final vowels, since those seem to be counted as intervocalic for De Vaan -- TODO decide on where to put this in the baseline files, and explain it concisely but clearly.
+
+
+$ ---------- Pre-Slavic final vowel effacement phenomena -- 
 
 $DV1738, top, part 1: final -V(s) and -oi (> ī ?) without stress fall 
 $in effect, this is non-low-vowel unstressed final syllables closed by inflectional endings. 
@@ -486,32 +526,6 @@ $DV1738, top, part 5 -- final countertonic -is, -ei (def rt msg) to >i, but it a
 $DV1738, top, part 6: final -i without primary stress > -u after velars. (but in practice this will be mainly be the (secondarily stressed?) -u of the definite masculine nominative?) 
 [+hi,+front,-prim] > [-front,-back,+round] 
 
-$ -------- rise of long vowels -------
-$ De Vaan places this between Proto-Albanian and modern PAlb but it seems clear that it is intended to represent a pan-Albanian development
-
-$ DV1734.1.I -- long vowels that arise through "internal contraction" 
-$previously assumed this meant with schwa and/or homoorganic vowels for now, put per conference with De Vaan 8/9/23 -- to be on the safe side do it for all vowels; 
-$ version before 8/5/23: 
-	$ {ə;ˌə;[-prim,αhi,βlo,ɣround,ðfront]} [+syl] > ∅ [+long] / @ __ @
-	$ [+syl] {ə;ˌə;[-prim,αhi,βlo,ɣround,ðfront]} > [+long] ∅ / @ __ @
-$ had to change to sidestep input-side issues then-current in DiaSim. TODO consider restoring. 
-$ version before 8/9/23 was these four rules, before changing implementation to cover all vowels that have come into contact
-$	[-prim,-lo,-front,-back] [+syl] > ∅ [+long] / @ __ @
-$	[-prim,αhi,βlo,ɣround,ðfront] [+prim,αhi,βlo,ɣround,ðfront] > ∅ [+long] / @ __ @
-$	[+syl] [-prim,-lo,-front,-back] > [+long] ∅ / @ __ @
-$	[+prim,αhi,βlo,ɣround,ðfront] [-prim,αhi,βlo,ɣround,ðfront] > [+long] ∅ / @ __ @
-[-prim] [+prim] > ∅ [+long] / @ __ @
-[+prim] [-prim] > [+long] ∅ / @ __ @
-
-$DV1734.1.III compensatory lengthening
-$ based on examples in DV2.2.2b and 2.2.2c, posttonic vowels seem to be lost at this point in the context R __ T, with lengthening of a prior vowel if it is stressed. (amita > emtë, manica > mëngë, veritātem > vërtet , spīritus > shpirt; vs. orphanus > varfër, epíscopus > peshkëp, contrā > kundër, tjetër < -étero-, sherbëtuor, ;
-$ --not near -ll- it seems so -long,-back to be safe :  maledicere > mallëkoj but also mallkoj?; likewise voluntātem > vull(ë)n(d)et ; note also Buzuku's sonëte -- but there might be analogical-lexical reasons for that as it is so - nate?) 
-$TODO reexamine this? 
-[+prim] > [+long] / __ [+cons,+son,-long,-back] ə [-cont]
-ə > ∅ / [+cons,+son,-long,-back] __ [-cont]
-
-$DV1734.1.IV -- 'lengthening before nasals liquids sibilants'
-[+prim] > [+long] / __ {[+cons,+son];[+strid]}
 
 =Late Proto-Albanian
 

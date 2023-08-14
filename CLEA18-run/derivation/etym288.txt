@@ -2,23 +2,23 @@ Derivation file for run '../Albanian-diachrony/Albanian-CFR/CLEA18-run'; etymon 
 #ˌimpˌerˌɑːtˈoːrem# >>> #həmbəɾtwˈye̯ɾ# ( GOLD : #pɛrəndˈuaɾ#) :
 ˌi m p ˌe r ˌɑː t ˈoː r e m 
 #ˌimpˌerˌɑːtˈoːre# | 5 : [+nas,+cons] > ∅ / [-stres] __ #
-#ˌimpˌerˌɑːtwˈoːre# | 24 : ∅ > w / __ [-hi,+round,+long]
-#ˌimpˌerˌɑːtwˈɒːre# | 33 : [+round,+syl,-hi,-lo,+long] > [+lo] / __ r ( [+syl,-stres] ( [+nas] ) )
+#ˌimpˌerˌɑːtwˈoːre# | 21 : ∅ > w / __ [-hi,+round,+long]
+#ˌimpˌerˌɑːtwˈɒːre# | 30 : [+round,+syl,-hi,-lo,+long] > [+lo] / __ r ( [+syl,-stres] ( [+nas] ) )
 Middle Proto-Albanian stage form : #ˌimpˌerˌɑːtwˈɒːre#
-#ˌimpˌerˌɑːtwˈɔːre# | 39 : [+round,+lo,+long] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
-#ˌɪmpˌerˌɑːtwˈɔːre# | 40 : [+hi,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-#ˌɪmpˌerˌɑtwˈɔre# | 41 : [+syl] > [-long,-splng] 
-#ˌɪmpˌerˌɑtwˈore# | 43 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-#ˌempˌerˌɑtwˈore# | 44 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
-#ˌempˌerˌɑtwˈøre# | 46 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round]
-#ˌempˌerˌɑtwˈye̯re# | 51 : {ˈo;j ˈø;ˈø} > {ˈu o̯;ˈy e̯;ˈy e̯} / __ r ( [-lo,-stres] ( m ) ) #
-#ˌɛmpˌɛrˌɑtwˈye̯rɛ# | 60 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-#mpˌɛrˌɑtwˈye̯rɛ# | 61 : [-prim] > ∅ / # __ 
-#əmpˌɛrˌɑtwˈye̯rɛ# | 62 : ∅ > ə / # __ [+son,+cons] [+cons]
-#əmpərətwˈye̯rɛ# | 63 : [-prim] > ə / @ __ ( @ )* [+prim]
-#əmbərətwˈye̯rɛ# | 71 : [-cont,-cor] > [+voi] / [+nas] __ 
-#əmbərətwˈye̯r# | 83 : [-stres,-lo] > ∅ / __ #
-#əmbərtwˈye̯r# | 91 : ə > ∅ / [+cons,+son,-long,-back] __ [-cont]
+#ˌimpˌerˌɑːtwˈɔːre# | 36 : [+round,+lo,+long] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
+#ˌɪmpˌerˌɑːtwˈɔːre# | 37 : [+hi,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+#ˌɪmpˌerˌɑtwˈɔre# | 38 : [+syl] > [-long,-splng] 
+#ˌɪmpˌerˌɑtwˈore# | 40 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+#ˌempˌerˌɑtwˈore# | 41 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
+#ˌempˌerˌɑtwˈøre# | 43 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round]
+#ˌempˌerˌɑtwˈye̯re# | 48 : {ˈo;j ˈø;ˈø} > {ˈu o̯;ˈy e̯;ˈy e̯} / __ r ( [-lo,-stres] ( m ) ) #
+#ˌɛmpˌɛrˌɑtwˈye̯rɛ# | 57 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+#mpˌɛrˌɑtwˈye̯rɛ# | 58 : [-prim] > ∅ / # __ 
+#əmpˌɛrˌɑtwˈye̯rɛ# | 59 : ∅ > ə / # __ [+son,+cons] [+cons]
+#əmpərətwˈye̯rɛ# | 60 : [-prim] > ə / @ __ ( @ )* [+prim]
+#əmbərətwˈye̯rɛ# | 68 : [-cont,-cor] > [+voi] / [+nas] __ 
+#əmbərtwˈye̯rɛ# | 82 : ə > ∅ / [+cons,+son,-long,-back] __ [-cont]
+#əmbərtwˈye̯r# | 89 : [-stres,-lo] > ∅ / __ #
 Late Proto-Albanian stage form : #əmbərtwˈye̯r#
 #ə̃mbərtwˈye̯r# | 98 : [+syl] > [+nas,+son,0delrel] / __ [+nas,+cons]
 #hə̃mbərtwˈye̯r# | 99 : ∅ > h / # __ [+syl]

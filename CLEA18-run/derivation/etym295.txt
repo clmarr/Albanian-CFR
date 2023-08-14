@@ -3,20 +3,20 @@ Derivation file for run '../Albanian-diachrony/Albanian-CFR/CLEA18-run'; etymon 
 ˌi n ˌɑ l t i ˈɑː n i oː 
 #ˌinˌɑltjˈɑːnjoː# | 10 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
 #ˌinˌɑltjˈɑːɲoː# | 15 : {ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ} 
-#ˌinˌɑltjˈɑːɲwoː# | 24 : ∅ > w / __ [-hi,+round,+long]
-#ˌinˌɑltjˈɑːɲwøː# | 35 : [+back,+long,+syl,-lo] > [+front,-back] 
+#ˌinˌɑltjˈɑːɲwoː# | 21 : ∅ > w / __ [-hi,+round,+long]
+#ˌinˌɑltjˈɑːɲwøː# | 32 : [+back,+long,+syl,-lo] > [+front,-back] 
 Middle Proto-Albanian stage form : #ˌinˌɑltjˈɑːɲwøː#
-#ˌɪnˌɑltjˈɑːɲwøː# | 40 : [+hi,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-#ˌɪnˌɑltjˈɑɲwø# | 41 : [+syl] > [-long,-splng] 
-#ˌenˌɑltjˈɑɲwø# | 44 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
-#ˌenˌɑltjˈeɲwø# | 46 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round]
-#ˌenˌɑltjˈeɲw?# | 59 : [+front,-cons,-hi] > [-round] 
-#ˌɛnˌɑltjˈɛɲw?# | 60 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-#nˌɑltjˈɛɲw?# | 61 : [-prim] > ∅ / # __ 
-#nəltjˈɛɲw?# | 63 : [-prim] > ə / @ __ ( @ )* [+prim]
-#nəl?ˈɛɲw?# | 80 : [+ant,+cor,-cont] j > [-ant,+distr,+delrel,+cor,-son,-cont,+cons,0tense] ∅
-#nəl?ˈɛɲw# | 83 : [-stres,-lo] > ∅ / __ #
-#nəl?ˈɛːɲw# | 92 : [+prim] > [+long] / __ [+cons,+son]
+#ˌɪnˌɑltjˈɑːɲwøː# | 37 : [+hi,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+#ˌɪnˌɑltjˈɑɲwø# | 38 : [+syl] > [-long,-splng] 
+#ˌenˌɑltjˈɑɲwø# | 41 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
+#ˌenˌɑltjˈeɲwø# | 43 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round]
+#ˌenˌɑltjˈeɲw?# | 56 : [+front,-cons,-hi] > [-round] 
+#ˌɛnˌɑltjˈɛɲw?# | 57 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+#nˌɑltjˈɛɲw?# | 58 : [-prim] > ∅ / # __ 
+#nəltjˈɛɲw?# | 60 : [-prim] > ə / @ __ ( @ )* [+prim]
+#nəl?ˈɛɲw?# | 77 : [+ant,+cor,-cont] j > [-ant,+distr,+delrel,+cor,-son,-cont,+cons,0tense] ∅
+#nəl?ˈɛːɲw?# | 83 : [+prim] > [+long] / __ [+cons,+son]
+#nəl?ˈɛːɲw# | 89 : [-stres,-lo] > ∅ / __ #
 Late Proto-Albanian stage form : #nəl?ˈɛːɲw#
 #nəl?ˈɛ̃ːɲw# | 98 : [+syl] > [+nas,+son,0delrel] / __ [+nas,+cons]
 #nəl?ˈɛ̃ːɲw# | 102 : [-ant,+distr,+delrel] > [+ant,-distr,-cont,+cor,+cons,0tense] 

@@ -160,8 +160,9 @@ $ but this must be placed after DV1740E3 and DV1740E1 as otherwise it would comp
 $ form prior to 8/5/23 was: {[+cons,+son] l;l [+cons,+son]} > lː
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
 $ DIA CHANGE: these go straight to lˠ, not lː
-$ DIA CHANGE: these are suppressed as they were correct for only one item, consider relocdating forward or backward 
+$ DIA CHANGE: these are suppressed as they were correct for only items in r l, leaving only those. 
 $ [+cons,+son] l > lˠ
+r l > lˠ
 $ l [+cons,+son] > lˠ
 
 $DIACLEA rule insertion: ʎ depalatalizes to l between high vowels

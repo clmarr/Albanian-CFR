@@ -431,7 +431,7 @@ $no clear way to block this for PPAlb *e, so this will need to be fixed if error
 ˈe > ˈɑ / {k;[+cor,-lab,+cont]} __ {l;rː}
 
 $ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3) 
-[+ant,+cor,-cont] j > [-ant,+distr,+delrel] ∅
+{d j;t j} > {d͡ʒ;t͡ʃ}
 
 $bandaid -- fronting of remaining low vowels at this point, because the lexicon has modern Albanian low vowels as front. 
 [+lo] > [+front,-back]
@@ -578,7 +578,7 @@ $DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced consonants to mo
 
 $ dʒ and tʃ pass to z and s -- whether from PPAlb dʒ/tʃ or from reflexes of Latin loans in dj-, tj (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3)
 $ This effects also the earliest Slavic loanwords : e.g. poroçit > porosit "to request", sul "small boat" , etc. 
-[-ant,+distr,+delrel] > [+ant,-distr,-cont]
+[-ant,+distr,+delrel] > [+ant,-distr,+cont,-front]
 
 $ DV4.2P *x to *h -- this is listed as a PPAlb to PAlb change, but it is placed here as it also seems to effect Slavic loans as well, and has somewhat different outcomes in (some) Gheg where Tosk -h ends up corresponding to Gheg -f  
 x > h 

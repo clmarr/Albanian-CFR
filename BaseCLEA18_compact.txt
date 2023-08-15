@@ -350,7 +350,7 @@ $ DV2.2.1C3 -- Lat AU and PPAlb *au (falling diphthong of either w or ʊ̯ , the
 [-syl,-cons,+round] > ∅ / [+lo,+syl] __
 
 $ DV 1737's 6. ø > e; implements final parts of DV2.2.1B6-8.
-[+front,-cons,-hi] > [-round]
+[+front,-cons,-hi] > [-round,-lab]
 
 $TODO, EPSILON NOTE: from this point onward, De Vaan uses *e, but the difference between *e and *ɛ is not meaningful (any longer), and the gold outcomes in ALLex feature /ɛ/, so we will have to at some point move (or merge) these to/as ɛ -- probably at the end.
 $ likewise, for o and ɔ
@@ -556,8 +556,8 @@ rː > r
 $ ã raises to ə in Tosk (ultimately denasalizing to ë outside of some Lab subdialects which may (or may not) have preserved nasality, maybe for this item) 
 [+lo,+nas,+syl] > [-lo,-back,-front,0tense]
 
-$DV2.1D2 -- uo > ua 
-{ɔ;ɔ̯} > {a;a̯} / [-cons,+round,+hi] __
+$DV2.1D2 -- Tosk uo > ua ; written agnostically as to the syllabic status of the a. 
+[+back,-cons,-hi] > [-back,+front,+lo,-round,-lab,+tense] / [-cons,+round,+hi,+back] __
 
 $DV2.1F2: və > u- 
 $ this might be yet earlier considering that it also happens in Gheg? Or not. 

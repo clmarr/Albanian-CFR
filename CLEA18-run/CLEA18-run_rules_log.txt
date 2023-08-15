@@ -56,7 +56,7 @@ j > ∅ / [-cont] [+cor,+son,-nas] __ ˈɛ
 ˈo > ˈu o̯ / # __ ʎ
 ˈø > ˈy e̯ / __ ( [+lab,-syl,+cont,+voi] ) [+syl]
 [-syl,-cons,+round] > ∅ / [+lo,+syl] __ 
-[+front,-cons,-hi] > [-round] 
+[+front,-cons,-hi] > [-round,-lab] 
 [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
 [-prim] > ∅ / # __ 
 ∅ > ə / # __ [+son,+cons] [+cons]
@@ -112,7 +112,7 @@ nː > n
 r > ɾ 
 rː > r 
 [+lo,+nas,+syl] > [-lo,-back,-front,0tense] 
-{ɔ;ɔ̯} > {a;a̯} / [-cons,+round,+hi] __ 
+[+back,-cons,-hi] > [-back,+front,+lo,-round,-lab,+tense,-cons,-lat,+cont,0delrel] / [-cons,+round,+hi,+back] __ 
 {v ə;v ˌə} > {u;ˈu} / # __ 
 [-cons,+nas] > [-nas] 
 z > s / __ #

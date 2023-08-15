@@ -183,12 +183,14 @@ $ TODO long term - -consider only applying it for -rs- and -sr- for pre-Latin et
 $ r [+cons] > r 
 $ [+cons] r > r 
 
+$ DIACLEA CORRECTION (insertion) -- disappearance of j after w -- 561 laqueum > lak, 551 quiētus > qetë, 932 salviella > shëbelë ; perhaps also broaden to cover alveolu > nullë "gum" if we believe in that etymology. 
+j > ∅ / w __ 
+
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM, njerkë "stepmother" < NOVERCA
 w > ∅ / [+syl] __ [+syl]
 
 $TODO before this operates, there are some things that need to be fixed... 
 	$ TODO 1 disappearance of w into vowel coloring in: 167 eruilla > rrylë, 189 februarius > f(ë)ruor (via ɒː ?), potentially others -- though not servitium > shërbes) 
-	$ TODO 2 disappearance of j after w -- 561 laqueum > lak, 551 quiētus > qetë, 932 salviella > shëbelë 
 $ p1743 -- w > b after r and l. I.e. the (non-nasal) (sonorant) coronals. 
 w > b / [+cor,-nas,+son] __
 
@@ -668,9 +670,15 @@ $ had to change because negative alpha values are not currently supported.
 $ TODO consider restoring old version when possible. 
 {d ʃ;d s;d θ} > {t͡ʃ;t͡s;t͡s}
 
-$DV4.1K1 -- Old Alb ʃ > tʃ before a consonant 
+$DV4.1K1 -- Old Alb ʃ >  before a consonant 
+$DIACLEF ANALYSIS: for Latin loans at present, c [+cons] clusters are barely present (at the pivot point at this rule, only one was detected -- and it was an error), while "ʃ [+cons]" sequences... overwhelmingly don't go to "t͡ʃ ..." 
+	$ in fact, as of Aug 15, tʃ for ʃ was the most common confusion, with 88% of errant words having it, and the error was particularly common after the word bound (43.6%), before /t/ (36.8%) and before /k/ (30%) 
+	$ DIACLEF correction -- posterior context changed from [+cons] to [+cons,+nas]
+ʃ > t͡ʃ / __ [+cons,+nas]
+
+
 $DV4.1K3 partially implemented here -- Tosk standard does not have c > t͡ʃ everywhere, but does seem to have it when praeconsonantal (çfarë, etc.) 
-{ʃ;c} > {t͡ʃ;t͡ʃ} / __ [+cons]
+c > t͡ʃ / __ [+cons] 
 
 $~ Standard Albanian
 
@@ -680,7 +688,7 @@ $DV4.1V5 -- ɲ to j "often between vowels and in final position". This is a pret
 $ in final position there are two cases where it survives in ALLex : CVNEVM > kunj "spike", VĪCĪNVM > fqinj "neighbor" -- these are both after high vowels, but leave that for the Dia- cascade 
 $ the only major place the standard seems to do this is in the 3sg present forms, so this is ignored before the placement of MSAlb but placed as an ongoing change afterward
 
-$ increasingly in the 21st century spreading into Tosk; also DV4.1K3
+$ increasingly in the 21st century spreading into Tosk; this is also DV4.1K3
 $c > t͡ʃ
 
 $ DV3.1B3 nd > n is listed for PALb to MAlb, but this is really mostly(? only?) Gheg so it is placed here for now

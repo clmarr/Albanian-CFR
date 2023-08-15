@@ -668,6 +668,7 @@ $merge also DV4.1K2 : OAlb d + sh > ç
 $ version before 8/5/23 was : d [+cont,+cor,βant] > ∅ [+delrel,-βdistr,+strid]
 $ had to change because negative alpha values are not currently supported. 
 $ TODO consider restoring old version when possible. 
+	$ TODO DIA ANALYSIS : at present... no words are effected. 
 {d ʃ;d s;d θ} > {t͡ʃ;t͡s;t͡s}
 
 $DV4.1K1 -- Old Alb ʃ >  before a consonant 
@@ -675,7 +676,6 @@ $DIACLEF ANALYSIS: for Latin loans at present, c [+cons] clusters are barely pre
 	$ in fact, as of Aug 15, tʃ for ʃ was the most common confusion, with 88% of errant words having it, and the error was particularly common after the word bound (43.6%), before /t/ (36.8%) and before /k/ (30%) 
 	$ DIACLEF correction -- posterior context changed from [+cons] to [+cons,+nas]
 ʃ > t͡ʃ / __ [+cons,+nas]
-
 
 $DV4.1K3 partially implemented here -- Tosk standard does not have c > t͡ʃ everywhere, but does seem to have it when praeconsonantal (çfarë, etc.) 
 c > t͡ʃ / __ [+cons] 

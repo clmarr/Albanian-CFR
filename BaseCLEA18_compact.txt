@@ -247,7 +247,7 @@ $ De Vaan 1736 "1." + DV1736~A1&A3 (on Lat & PPAlb ū) + DV1735~A7&A8 (on Lat &
 
 $ De Vaan p1736 "2." +DV1735~A1&A2: PPAlb & Lat ai (incl ae?) > ē
 $ based on treatment of Lat. ae elsewhere, where it falls in with Latin *short* e, it seems not, but this is bled already anyways so no need to change this rule at the moment (as of Aug. 1 2023) 
-[+lo,+syl,αstres,βprim] [+front,-cons,-syl] > [-lo,+front,+long,αstres,βprim] ∅
+[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅
 
 $----- early aspects of vowel reduction and falls ----- 
 $bandaid implied elsehwere -- strip final s in inflectional endings, and then nasals, in that order

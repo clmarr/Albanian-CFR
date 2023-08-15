@@ -33,7 +33,8 @@ k > j / [-stres,-round] ( [+nas] ) __ t
 [+round,+syl,-hi,-lo,+long] > [+lo] / __ r ( [+syl,-stres] ( [+nas] ) )
 [+round,+syl,-hi,-lo,+long] > [+lo] / __ j ( [+syl,-stres] ( [+nas] ) )
 [+back,+long,+syl,-lo] > [+front,-back] 
-[+lo,+syl,αstres,βprim] [+front,-cons,-syl] > [-lo,+front,+long,αstres,βprim] ∅
+[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅/ __ [-syl]
+[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅/ __ #
 [-stres] > ə / [+prim] ( @ )* __ @
 {t͡s;d͡z} > {θ;ð} 
 [+round,+lo,+long] > [-lo,-tense,-cons,-lat,+cont,0delrel] 

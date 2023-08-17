@@ -64,6 +64,11 @@ C3B.I -- "preconsonantal" ʃ to t͡ʃ in most recent modern Albanian is now only
 
 C3B.II -- ai > ē blocked prevocalically. 
 
+C3B.III -- i-mutation blocked by prior labial elements
+		-- this change alone, not made finer, led to a 1.3% increase in accuracy, at an early stage
+		and many of the words it did not fix, it set on the right track. 
+			-- though further changes are needed to both the specification and the timing of i-mutation it seems... 
+
 ## C4 -- changes in both input and output
 
 ## C5 -- changes in both input and context conditioning

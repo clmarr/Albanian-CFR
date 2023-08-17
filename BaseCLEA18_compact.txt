@@ -150,32 +150,12 @@ $ TODO long term - -consider only applying it for -rs- and -sr- for pre-Latin et
 $ r [+cons] > r 
 $ [+cons] r > r 
 
-$   ------------- INTERVOCALIC STOP EFFACEMENT -----------
-$ effacements of intervocalic stops and /w/ follow (I'd note they were perhaps all phonetically fricatives at the time they were effaced, cf Pope 1934 on Latin /w/ as [ɣʷ], as noted in BaseCLEF) 
-
-$ effacement of intervocalic /d/, per De Vaan 2018(: 1745 -- DV1745.A4) 
-$	$ He asserts that native Proto-Albanian */d/ had a different fate in the same environment, 
-	$	becoming /ð/ only after /d/ in Latin words was effaced, 
-	$	with the same also occuring for both native and Latin /d/ in V__r (see De Vaan 2018: 1744)
-	$ per p1745, he does explicitly propose that Latin intervocalic /d/ also became [ð] before disappearing, 
-	$	but before this happened to native intervocalic /d/, and both in V __ r. 
-	$ De Vaan 2018(: 1743) also explicitly asserts these passed trough a stage of *ð. 
-$ $ note that this account is rival to Orel 2000(:105)'s view that Latin D shared the fate of Proto-Albanian *d in both V __ V and r __ Vs
-$ $ The etyma cited by De Vaan 2018 as evidence for this are counterexplained 
-	$ for gjyq, bekoj and jek -- by the view that voiced stops were effaced in secondary clusters caused by the internal vowel loss  
-		$ cf. Bonnet 1998(:166) 
-	$ and for fe and pre being counterexplained as possible later Angevin loans (Marr 2023) 
-	$ counterexamples noted by Orel 2000 and Marr 2023 include modh < MODVS, prodhoj < PRŌDĀRE, predhë < PRAEDA, adhuroj/adhëroj < ADŌRĀRE
-d > ∅ / [+syl] __ [+syl]
-
-$ DV1744.E4 -- Latin d becomes edh after r (as with PPAlb d -- DV1744.E2) 
-d > ð / r __
-
 $ De Vaan 2018 (: 1745.A4) -- Latin /b/ is deleted both (DV1745.A2) intervocalically and (DV1745.A3) in V __ r 
 	$ he explicate the prior vowel in DV1745.A3 (it's just " __ r") but all cases he lists 
 	$ are actually V __ r V, and I don't think Latin has any C b r C strings, let alone those that would have made it into Proto-Albanian 
 	$ for (b) he lists farkë "smithy" < FABRICA, OGeg fëruor "february" < FEBRUĀRIVS, kushëri "cousin" < CŌNSOBRĪNVS, harr-o- "to  forgot < ABERRĀRE
 	$ for (a): buall "buffalo" < BUBALVS, djall "devil" < DIABOLVS, i/e lirë "free" < LIBER, kut "elbow" < CUBITVS) 
+	$ the cases of bubalus > buall, diabolus > djall, liber > lirë and perhaps fabrica > farkë suggest that for De Vaan 2018, this should be placed before the loss of unstressed posttonic internal vowels -- unlike the case with /d/ (i.e. laridum > lardh)
 b > ∅ / [+syl] __ (r) [+syl]
 
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM, njerkë "stepmother" < NOVERCA
@@ -224,6 +204,20 @@ $ evidence from the loans indicates that around this time, the reflexes of hte P
 
 $ resolution of DV1744.D & DV1744.E1 -- see notes on this above, this is motivated by the outcomes in Aromanian and Romanian of PPAlb ɟ͡ʝ vs. PPAlb d in cases where they both ended up as ð in Alb. 
 {t͡s;d͡z} > {θ;ð}
+
+$ effacement of intervocalic /d/, per De Vaan 2018(: 1745 -- DV1745.A4) 
+$	$ He asserts that native Proto-Albanian */d/ had a different fate in the same environment, 
+	$	becoming /ð/ only after /d/ in Latin words was effaced, 
+	$	with the same also occuring for both native and Latin /d/ in V__r (see De Vaan 2018: 1744)
+	$ per p1745, he does explicitly propose that Latin intervocalic /d/ also became [ð] before disappearing, 
+	$	but before this happened to native intervocalic /d/, and both in V r __ . 
+	$ De Vaan 2018(: 1743) also explicitly asserts these passed trough a stage of *ð. 
+$ $ note that this account is rival to Orel 2000(:105)'s view that Latin D shared the fate of Proto-Albanian *d in both V __ V and r __ Vs
+$ $ given the cases of lardh and verdh, it appears the most faithful way to represent De Vaan 2018's chronlogy might be to place these after the first fall of unstressed posttonic internal vowels (it is dated much ltaer by Orel 2000, to the 8th to 10th centuries, but he and Bonnet 1998 do not actually assert that intervocalic -d- went to null, seeing its disappearance instead as motivated by cluster simplification -- see the rule in DiaCLEA for extensive further discussion )
+d > ∅ / [+syl] __ [+syl]
+
+$ DV1744.E4 -- Latin d becomes edh after r (as with PPAlb d -- DV1744.E2) 
+d > ð / r __
 
 $ k becoming yod before /t/ if next to front vowel -- De Vaan 2018(:1744)  -- DV1744J3
 	$ potentially IMPORTANT: what frontness should we treat /a/ as having at this point? For the inputs to Gallo-Romance, Pope 1934 treats Latin /a/ and /aː/ as originally backed, but becoming fronted... what should they be here?  

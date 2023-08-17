@@ -228,6 +228,21 @@ $ was formulated so as to handle if these are treated instead as labialized cons
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
 {s n;t n;d n;n n;k n} > {nː;nː;nː;nː;nː}
 
+$----- early aspects of vowel reduction and falls ----- 
+
+$ DV2.2.2c "at an early stage" internal unstressed post-tonic vowels go to schwa, some soon to be lost. 
+$ originally formulated here so as to not count items with inflectional ending consonants (e.g. accusative -m) as "internal" : [-stres] > ə / [+prim] (@)* __ ([-syl])* [+syl] -- but now this is no longer necessary(?)
+[-stres] > ə / [+prim] (@)* __ @ 
+
+
+$--------------------Middle Proto-Albanian-------------------
+=Middle Proto-Albanian
+$ main wave of contact with Proto-Romanian (temporarily?) complete now
+$ evidence from the loans indicates that around this time, the reflexes of hte PIE palatovelars in Alb should be around ts/dz (evidenced mainly by Aromanian as these deaffricate in Romanian), tentatively before the merger of PPAlb a: into o is complete (cf. mazăre for Alb modhull, rață for rosë "duck"), before the passage of PPAlb tʃ dʒ to s z (ciută -- sutë etc...), after the retraction of post-vocalic s (mosh "old") but before the same impact on cluster s including in Latin loans (strunga-shtrungë; Lat fossātum > ORom fsat, Alb fshat, Lat spodium > Alb shpuzë > Rom spuza), tentatively after the emergence of some schwa (Rom nǎpârcǎ -- Alb nëpërkë "adder"), after the emergence of Albanian suffix -zë, perhaps after the emergence of the Albanian postposed article in -të (Drobeta), at a point when initial PPAlb w is in the stage of [β] (Rom abur -- Alb avull "vapor", vatra-vatër) which closes to /b/ in Romanian just like PPAlb /ð/ (< intervocalic d) goes to PVlach /d/; before ALb long u: > y (ghiuj/gjysh, buc/byk...)
+
+$ resolution of DV1744.D & DV1744.E1 -- see notes on this above, this is motivated by the outcomes in Aromanian and Romanian of PPAlb ɟ͡ʝ vs. PPAlb d in cases where they both ended up as ð in Alb. 
+{t͡s;d͡z} > {θ;ð}
+
 $TODO move this to after start of Middle Proto-Albanian! 
 $ k becoming yod before /t/ if next to front vowel -- De Vaan 2018(:1744)  -- DV1744J3
 	$ potentially IMPORTANT: what frontness should we treat /a/ as having at this point? For the inputs to Gallo-Romance, Pope 1934 treats Latin /a/ and /aː/ as originally backed, but becoming fronted... what should they be here?  
@@ -268,21 +283,6 @@ $ De Vaan p1736 "2." +DV1735~A1&A2: PPAlb & Lat ai (incl ae?) > ē
 $ based on treatment of Lat. ae elsewhere, where it falls in with Latin *short* e, it seems not, but this is bled already anyways so no need to change this rule at the moment (as of Aug. 1 2023) 
 $ DIACLEA CORRECTION: this does not happen prevocalically (perhaps because the -j- is seen as an onset?) 
 [+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ {[-syl];#}
-
-$----- early aspects of vowel reduction and falls ----- 
-
-$ DV2.2.2c "at an early stage" internal unstressed post-tonic vowels go to schwa, some soon to be lost. 
-$ originally formulated here so as to not count items with inflectional ending consonants (e.g. accusative -m) as "internal" : [-stres] > ə / [+prim] (@)* __ ([-syl])* [+syl] -- but now this is no longer necessary(?)
-[-stres] > ə / [+prim] (@)* __ @ 
-
-
-$--------------------Middle Proto-Albanian-------------------
-=Middle Proto-Albanian
-$ main wave of contact with Proto-Romanian (temporarily?) complete now
-$ evidence from the loans indicates that around this time, the reflexes of hte PIE palatovelars in Alb should be around ts/dz (evidenced mainly by Aromanian as these deaffricate in Romanian), tentatively before the merger of PPAlb a: into o is complete (cf. mazăre for Alb modhull, rață for rosë "duck"), before the passage of PPAlb tʃ dʒ to s z (ciută -- sutë etc...), after the retraction of post-vocalic s (mosh "old") but before the same impact on cluster s inlcuidng in Latin loans (strunga-shtrungë; Lat fossātum > ORom fsat, Alb fshat, Lat spodium > Alb shpuzë > Rom spuza), tentatively after the emergence of some schwa (Rom nǎpârcǎ -- Alb nëpërkë "adder"), after the emergence of Albanian suffix -zë, perhaps after the emergence of the Albanian postposed article in -të (Drobeta), at a point when PPAlb w is in the stage of [β] (Rom abur -- Alb avull "vapor", vatra-vatër) which closes to /b/ in Romanian just like PPAlb /ð/ (< intervocalic d) goes to PVlach /d/
-
-$ resolution of DV1744.D & DV1744.E1 -- see notes on this above, this is motivated by the outcomes in Aromanian and Romanian of PPAlb ɟ͡ʝ vs. PPAlb d in cases where they both ended up as ð in Alb. 
-{t͡s;d͡z} > {θ;ð}
 
 $ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër, but via PPAlb *ā) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. 
 [+round,+lo,+long] > [-lo,-tense]

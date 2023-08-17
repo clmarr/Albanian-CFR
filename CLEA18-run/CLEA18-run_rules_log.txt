@@ -26,6 +26,8 @@ w > β / # __
 j > ɟ / # __ 
 ʒ > ɟ 
 {s n;t n;d n;n n;k n} > {nː;nː;nː;nː;nː} 
+[-stres] > ə / [+prim] ( @ )* __ @
+{t͡s;d͡z} > {θ;ð} 
 k > j / __ [-stres,-round] t
 k > j / [+front] ( [+nas] ) __ t
 [+round,+syl,-hi,-lo,+long] > [+lo] / __ lˠ ( [+syl,-stres] ( [+nas] ) )
@@ -35,8 +37,6 @@ k > j / [+front] ( [+nas] ) __ t
 [+back,+long,+syl,-lo] > [+front,-back] 
 [+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅/ __ [-syl]
 [+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅/ __ #
-[-stres] > ə / [+prim] ( @ )* __ @
-{t͡s;d͡z} > {θ;ð} 
 [+round,+lo,+long] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
 [+hi,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
 [+syl] > [-long,-splng] 

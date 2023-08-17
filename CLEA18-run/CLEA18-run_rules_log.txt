@@ -1,6 +1,7 @@
 [+sg,-cont] > [-sg] 
 [+front,+syl] > [-round,-lab] 
 [+syl] n > [+long] ∅/ __ [-son,+cont]
+[+prim] o > [-stres,-prim,+syl,+son,0delrel] [+prim,+stres,+syl,+son,0delrel]/ __ l [-stres] ( [+cons] ) #
 [+lo,βstres,ɣprim] e̯ > ∅ [-tense,βstres,ɣprim,-cons,-lat,+cont,0delrel]
 [+strid,+cor,+cont] > ∅ / [-stres] ( [+nas,+cons] ) __ #
 [+nas,+cons] > ∅ / [-stres] __ #

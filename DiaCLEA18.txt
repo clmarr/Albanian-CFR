@@ -61,6 +61,14 @@ $ needs to come after the nasal-spirant law above in Latin input handling so as 
 $ However, in light of the fact that Proto-Albanian loans reflecting PIE palatovelars reflect as ts dz in Aromanian and various ts s z in Romanian (unlike PAlb ð < PPAlb *d, which reflects with d in Romanian and Aromanian), this is indeed split in two, with the affricate stage first, and the spirantization only after Middle Proto-Albanian (when De Vaan assigns the contact between Proto-Albanian and Proto-Vlach)
 {c͡ç;ɟ͡ʝ} > {t͡s;d͡z}
 
+$ DIACLEA insertion : in-metathesis or i-insertion in -- -Cina-/-Cinia rule (or -ina- metathesis? 
+	$ the "maybe-metathesis" rule? (see below), occurring after back elements or strings of non-front elements that include at least one voiced labial element not separated by an obstruent from the target 
+$ TODO does seem to happen after aw > a, so consider either relocdating that earlier into the end of Antique Proto-Albanian, or moving this -- and the relevant vowel drops -- later...
+$ results when the /i/ is stressed are unclear -- which is why this is a "maybe metathesis" rule
+	$ if it is really metathesis, we should see -ní(jë), with the n possibly going to -r- in Tosk when conditioned. This is possible what we see in porrˈīna > *porrinˈiːa > purri(-a) and maybe its possible variant prijë. But prijë could also be explained as coming from a prinjë, which matches the non-metathesis scenario that seems evident in marruːcˈiːna > mërqinjë, where it seems the original i maintains its stress, rather than switching with the n (along with the insertion of an i before the n). On the other hand columbīna > kullumbrí is a clear case of what looks more like metathesis. Seeing as -injë is a rather common suffix, it's possible merqinjë was analogized, so we are going with the -metathesis scenario for now -- that is (ˈ)ina > in(ˈ)ia, not (ˈ)ina > (ˈ)inia
+$TODO ... is this rule *really* worth its cost in complication? Consider removing it. 
+{i n;ˈiː n} > {i n i;i n ˈiː} / {# ([-front])* [+lab,+voi] ([+son])*;[+back]}  __ [+lo]
+
 $DV1740I1 -- initial PPAlb and Lat. r- becomes "*r:"; merges with the reflex of PPAlb initial *wr- (DV1740I2)
 $form prior to 8/5/23 was: (w) r > rː / # __ 
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 

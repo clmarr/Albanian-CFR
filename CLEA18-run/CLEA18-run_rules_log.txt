@@ -43,8 +43,10 @@ k > j / [+front] ( [+nas] ) __ t
 [+stres,+tense,+front,-lab] > [+hi] / __ [+cont,-lab,+strid]
 [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
 [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
-{ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* j
-{ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round]
+{ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / # __ ( [-syl] )* j
+{ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / # __ ( [-syl] )* [+front,-round]
+{ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / [-lab] __ ( [-syl] )* j
+{ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / [-lab] __ ( [-syl] )* [+front,-round]
 [+front,-hi,-lo,-round,+prim] > ˈi e̯/ __ lˠ ( [-lo,-stres] ( m ) ) #
 [+front,-hi,-lo,-round,+prim] > ˈi e̯/ __ r ( [-lo,-stres] ( m ) ) #
 {ˈo;j ˈø;ˈø} > {ˈu o̯;ˈy e̯;ˈy e̯} / __ lˠ ( [-lo,-stres] ( m ) ) #

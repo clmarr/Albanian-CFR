@@ -169,7 +169,10 @@ $DIACLEA rule insertion: ʎ depalatalizes to l between high vowels
 ʎ > l / [+hi] __ [+hi]
 
 $merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) 
+$ DIACLEA CHANGE: decoupled these. Handling gn phenomena elsewhere, on the basis of cognatus > kunat, fuskina > fuzhnjë, etc. kn and gn phenomena are now to be handled either in tandem with k/g(V-stres)t phenomena, or before APA. -- TODO(ǃǃ) that .
+$ TODO can remove this TODO when that is implemented^^ 
 {ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ}
+$n j > ɲ 
 
 $DV1740.D4 Lat -ng(u-)>ɲ / __ V[+front]
 $ form prior to 8/5/23 was: [+nas] [-cont,+back,+voi] ([+hi,+round,-cons]) / __ [+front,-cons,+hi]
@@ -183,7 +186,8 @@ $ TODO long term - -consider only applying it for -rs- and -sr- for pre-Latin et
 $ r [+cons] > r 
 $ [+cons] r > r 
 
-$ DIACLEA CORRECTION (insertion) -- disappearance of j after w -- 561 laqueum > lak, 551 quiētus > qetë, 932 salviella > shëbelë ; perhaps also broaden to cover alveolu > nullë "gum" if we believe in that etymology. 
+$ DIACLEA CORRECTION (insertion) -- disappearance of j after w -- 561 laqueum > lak, 551 quiētus > qetë, 932 salviella > shërbelë ; perhaps also broaden to cover alveolu > nullë "gum" if we believe in that etymology. 
+$ TODO find place for this. 
 j > ∅ / w __ 
 
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM, njerkë "stepmother" < NOVERCA
@@ -220,7 +224,7 @@ $ TODO FOR DIA ? : consider merging this with the j- > ɟ for PPAlb j-, and expl
 j > ɟ / # __
 ʒ > ɟ
 
-$ DV1740.C1 & C3 (merged) -- -Tn- and -sn- > n:. Listed only for PPAlb not Latin; since no Latin etyma loaned to Albanian have these clusters before the vowel falls start, it is placed before them. 
+$ DV1740.C1 & C3 (merged) -- -Tn- and -sn- > n:. Listed only for PPAlb not Latin; since no Latin etyma loaned to Albanian have these clusters before the vowel falls start, it is placed before them. It doesn't seem toeffect
 $ The -nn- clusters from loans and also earlier assimilations are also swept up in this on purpose. 
 $ DV1740.C2 merged in too -- -Kn- affected as well. But this should be interpreted as just targeting -kn- and not -gn-, because in DV1740D2 De Vaan notes that PPAlb and Lat gn- and -gn- clusters instead go to ɲ. Latinate loans into PPAlb have no -kn- clusters before the vowel drops, so it makes sense to implement this here. 
 $ form prior to 8/5/23 was: {[+cor,+ant,-son];n;k} n > nː
@@ -238,12 +242,12 @@ $ originally formulated here so as to not count items with inflectional ending c
 $--------------------Middle Proto-Albanian-------------------
 =Middle Proto-Albanian
 $ main wave of contact with Proto-Romanian (temporarily?) complete now
-$ evidence from the loans indicates that around this time, the reflexes of hte PIE palatovelars in Alb should be around ts/dz (evidenced mainly by Aromanian as these deaffricate in Romanian), tentatively before the merger of PPAlb a: into o is complete (cf. mazăre for Alb modhull, rață for rosë "duck"), before the passage of PPAlb tʃ dʒ to s z (ciută -- sutë etc...), after the retraction of post-vocalic s (mosh "old") but before the same impact on cluster s including in Latin loans (strunga-shtrungë; Lat fossātum > ORom fsat, Alb fshat, Lat spodium > Alb shpuzë > Rom spuza), tentatively after the emergence of some schwa (Rom nǎpârcǎ -- Alb nëpërkë "adder"), after the emergence of Albanian suffix -zë, perhaps after the emergence of the Albanian postposed article in -të (Drobeta), at a point when initial PPAlb w is in the stage of [β] (Rom abur -- Alb avull "vapor", vatra-vatër) which closes to /b/ in Romanian just like PPAlb /ð/ (< intervocalic d) goes to PVlach /d/; before ALb long u: > y (ghiuj/gjysh, buc/byk...)
+$ evidence from the loans indicates that around this time, the reflexes of hte PIE palatovelars in Alb should be around ts/dz (evidenced mainly by Aromanian as these deaffricate in Romanian), tentatively before the merger of PPAlb a: into o is complete (cf. mazăre for Alb modhull, rață for rosë "duck"), before the passage of PPAlb tʃ dʒ to s z (ciută -- sutë etc...), after the retraction of post-vocalic s (mosh "old") but before the same impact on cluster s including in Latin loans (strunga-shtrungë; Lat fossātum > ORom fsat, Alb fshat, Lat spodium > Alb shpuzë > Rom spuza), tentatively after the emergence of some schwa (Rom nǎpârcǎ -- Alb nëpërkë "adder"), after the emergence of Albanian suffix -zë, perhaps after the emergence of the Albanian postposed article in -të (Drobeta), at a point when initial PPAlb w is in the stage of [β] (Rom abur -- Alb avull "vapor", vatra-vatër) which closes to /b/ in Romanian just like PPAlb /ð/ (< intervocalic d) goes to PVlach /d/; before ALb long u: > y (ghiuj/gjysh, buc/byk... , the -i- in ghiuj probably for ohter reasons though that is certainly interesting...) 
 
 $ resolution of DV1744.D & DV1744.E1 -- see notes on this above, this is motivated by the outcomes in Aromanian and Romanian of PPAlb ɟ͡ʝ vs. PPAlb d in cases where they both ended up as ð in Alb. 
 {t͡s;d͡z} > {θ;ð}
 
-$TODO move this to after start of Middle Proto-Albanian! 
+$ TODO need to work on this rule -- see "kt outcomes" file. 
 $ k becoming yod before /t/ if next to front vowel -- De Vaan 2018(:1744)  -- DV1744J3
 	$ potentially IMPORTANT: what frontness should we treat /a/ as having at this point? For the inputs to Gallo-Romance, Pope 1934 treats Latin /a/ and /aː/ as originally backed, but becoming fronted... what should they be here?  
 	$ given that he lists SANCTVS > shenjtë "holy, saint", this either ...

@@ -187,6 +187,7 @@ $ DIACLEA CORRECTION (insertion) -- disappearance of j after w -- 561 laqueum > 
 j > ∅ / w __ 
 
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM, njerkë "stepmother" < NOVERCA
+$ TODO RELOCDATE THIS LATER -- W phenomena including coloring stuff where this matters happen much later
 w > ∅ / [+syl] __ [+syl]
 
 $TODO before this operates, there are some things that need to be fixed... 
@@ -199,16 +200,19 @@ $ form prior to 8/5/23 was: {[-cont,+back] w;[-cont,+back,+round]} > {[-round] �
 $ was formulated so as to handle if these are treated instead as labialized consonants (alas in practice the format in ALLex currently is always "k w" and "ɡ w", not "kʷ", "ɡʷ".) 
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
 $ in practice qu- and gu- never occur without following vowels, so it can be expressed without the following vowel. 
+$ TODO consider moving this later, or having relevant coloring phenomena operate beforehand (quīs > qysh, quadrum > kodër, quartus > kort, etc...)
 w > ∅ / [-cont,+back] __
 
 $ DV1744.C4 -- emergence of PAlb β before Latin long ō and the reflex of Alb long-ā, but PPAlb ō is not listed. PAlb β itself is the reflex of initial Latin w- and PPAlb β, itself from a PIE u̯. Treat as w for now, betacize later, as then merge them here, with a single rule. In order to impact PPAlb ā and Latin ō but not PPAlb ō, PPAlb ō must have a different reflex at this stage. But De Vaan 2018 does not seem to PPAlb ō and Latin  differently otherwise, in fact they are typically handled together (cf. DV1736G1, DV2.2.1B7 & DV2.2.1B8) except when i-mutation is concerned (DV1736H1, which can simply be handled by placing it in the post-Greek but pre-Latin area of PAlb). So unless there are issues that emerge upon later examination, we will be treating PPAlb ō as potentially a trigger as well.
 $ although is not explicitly stated, the examples all concern initial vowels. 
-$ DIACLEA CORRECTION: also occurs before initial short /o/ too it seems. 
+$ DIACLEA CORRECTION: also occurs before initial short /o/ too it seems.
+$ TODO move this later . 
 ∅ > w / # __ [-hi,+round]
 
 $ DV1744.C1 : Lat. w- > β. 
 $ TODO NOTE FOR DIA: this is redundant with the earlier rule doing the exact same thing to PIE u̯ > PPAlb β (DV1746.F1 = DV4.3L1), TODO consider merging these. 
 $ note that the dating of this shift in Latin is quite antique -- 1st century, case of <nerβa> in a Latin inscription (otherwise from β?) -- though that is in the West. 
+$ TODO actually, consider moving this later. 
 w > β / # __
 
 $ DV4.2F4: Lat. i- merges with PPAlb *ʒ as PAlb *ɟ; PPAlb *ʒ as PAlb *ɟ as implementing DV4.2F1
@@ -224,6 +228,7 @@ $ was formulated so as to handle if these are treated instead as labialized cons
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
 {s n;t n;d n;n n;k n} > {nː;nː;nː;nː;nː}
 
+$TODO move this to after start of Middle Proto-Albanian! 
 $ k becoming yod before /t/ if next to front vowel -- De Vaan 2018(:1744)  -- DV1744J3
 	$ potentially IMPORTANT: what frontness should we treat /a/ as having at this point? For the inputs to Gallo-Romance, Pope 1934 treats Latin /a/ and /aː/ as originally backed, but becoming fronted... what should they be here?  
 	$ given that he lists SANCTVS > shenjtë "holy, saint", this either ...

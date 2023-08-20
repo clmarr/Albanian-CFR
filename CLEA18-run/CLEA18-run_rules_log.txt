@@ -34,10 +34,10 @@ j > ɟ / # __
 ə > ∅ 
 [+back,+cons] > j / __ [-stres,+front] t
 [+back,+cons] > j / [+front] ( [+nas] ) __ t
-[+round,+syl,-hi,-lo,+long] > [+lo] / __ lˠ ( [+syl,-stres] ( [+nas] ) )
-[+round,+syl,-hi,-lo,+long] > [+lo] / __ n ( [+syl,-stres] ( [+nas] ) )
-[+round,+syl,-hi,-lo,+long] > [+lo] / __ r ( [+syl,-stres] ( [+nas] ) )
-[+round,+syl,-hi,-lo,+long] > [+lo] / __ j ( [+syl,-stres] ( [+nas] ) )
+[+round,+syl,-hi,-lo,+long] > [+lo] / __ lˠ ( [+syl,-stres] ( [+nas] ) ) #
+[+round,+syl,-hi,-lo,+long] > [+lo] / __ n ( [+syl,-stres] ( [+nas] ) ) #
+[+round,+syl,-hi,-lo,+long] > [+lo] / __ r ( [+syl,-stres] ( [+nas] ) ) #
+[+round,+syl,-hi,-lo,+long] > [+lo] / __ j ( [+syl,-stres] ( [+nas] ) ) #
 [+back,+long,+syl,-lo] > [+front,-back] 
 [+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅/ __ [-syl]
 [+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅/ __ #

@@ -3,29 +3,30 @@ Derivation file for run '../Albanian-diachrony/Albanian-CFR/CLEA18-run'; etymon 
 k ˌo m m u n i k ˈɑː n i oː 
 #kˌommunikˈɑːnjoː# | 14 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
 #kˌommunikˈɑːɲoː# | 20 : n j > ɲ 
-Middle Proto-Albanian stage form : #kˌommunikˈɑːɲoː#
-#kˌommunikˈɑːɲøː# | 41 : [+back,+long,+syl,-lo] > [+front,-back] 
-#kˌommʊnɪkˈɑːɲøː# | 45 : [+hi,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-#kˌommʊnɪkˈɑɲø# | 46 : [+syl] > [-long,-splng] 
-#kˌommunɪkˈɑɲø# | 48 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-#kˌommunekˈɑɲø# | 49 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
-#kˌommunekˈeɲø# | 53 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / [-lab] __ ( [-syl] )* [+front,-round]
-#kˌommunekˈeɲe# | 66 : [+front,-cons,-hi] > [-round,-lab] 
-#kˌɔmmunɛkˈɛɲɛ# | 67 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-#kəmmənəkˈɛɲɛ# | 70 : [-prim] > ə / @ __ ( @ )* [+prim]
-#kəmmənkˈɛɲɛ# | 71 : ə > ∅ / n __ [-cont]
-#kəmmnkˈɛɲɛ# | 72 : ə > ∅ / [+son,+cons] m __ [+nas,+cons]
-#kəmmnɡˈɛɲɛ# | 79 : [-cont,-cor] > [+voi] / [+nas] __ 
-#kəmmnɟˈɛɲɛ# | 82 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
-#kəmmnɟˈɛːɲɛ# | 94 : [+prim] > [+long] / __ [+cons,+son]
-#kəmmnɟˈɛːɲ# | 100 : [-stres,-lo] > ∅ / __ #
-#kəmːnɟˈɛːɲ# | 106 : [+nas,+cons] [+nas,+cons] > ∅ [+long]
-#kənːɟˈɛːɲ# | 107 : [+nas,+cons] [+nas,+cons] > ∅ [+long]
+#kˌummunikˈɑːɲoː# | 24 : [+round,-long,-lo] > [+hi] / @ __ m ( [-syl] )* [+syl] ( [-syl] )* [+syl]
+Middle Proto-Albanian stage form : #kˌummunikˈɑːɲoː#
+#kˌummunikˈɑːɲøː# | 46 : [+back,+long,+syl,-lo] > [+front,-back] 
+#kˌʊmmʊnɪkˈɑːɲøː# | 50 : [+hi,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+#kˌʊmmʊnɪkˈɑɲø# | 51 : [+syl] > [-long,-splng] 
+#kˌummunɪkˈɑɲø# | 53 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+#kˌummunekˈɑɲø# | 54 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
+#kˌummunekˈeɲø# | 58 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / [-lab] __ ( [-syl] )* [+front,-round]
+#kˌummunekˈeɲe# | 71 : [+front,-cons,-hi] > [-round,-lab] 
+#kˌummunɛkˈɛɲɛ# | 72 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+#kəmmənəkˈɛɲɛ# | 75 : [-prim] > ə / @ __ ( @ )* [+prim]
+#kəmmənkˈɛɲɛ# | 76 : ə > ∅ / n __ [-cont]
+#kəmmnkˈɛɲɛ# | 77 : ə > ∅ / [+son,+cons] m __ [+nas,+cons]
+#kəmmnɡˈɛɲɛ# | 84 : [-cont,-cor] > [+voi] / [+nas] __ 
+#kəmmnɟˈɛɲɛ# | 87 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
+#kəmmnɟˈɛːɲɛ# | 99 : [+prim] > [+long] / __ [+cons,+son]
+#kəmmnɟˈɛːɲ# | 105 : [-stres,-lo] > ∅ / __ #
+#kəmːnɟˈɛːɲ# | 111 : [+nas,+cons] [+nas,+cons] > ∅ [+long]
+#kənːɟˈɛːɲ# | 112 : [+nas,+cons] [+nas,+cons] > ∅ [+long]
 Late Proto-Albanian stage form : #kənːɟˈɛːɲ#
-#kə̃nːɟˈɛ̃ːɲ# | 113 : [+syl] > [+nas,+son,0delrel] / __ [+nas,+cons]
-#kə̃nɟˈɛ̃ːɲ# | 123 : [+nas,+cons] > [-long,-splng] 
+#kə̃nːɟˈɛ̃ːɲ# | 118 : [+syl] > [+nas,+son,0delrel] / __ [+nas,+cons]
+#kə̃nɟˈɛ̃ːɲ# | 128 : [+nas,+cons] > [-long,-splng] 
  Proto-Tosk stage form : #kə̃nɟˈɛ̃ːɲ#
-#kənɟˈɛːɲ# | 129 : [-cons,+nas] > [-nas] 
-#kənɟˈɛɲ# | 140 : [+long] > [-long,-splng] 
+#kənɟˈɛːɲ# | 134 : [-cons,+nas] > [-nas] 
+#kənɟˈɛɲ# | 145 : [+long] > [-long,-splng] 
  Old Northern Tosk Albanian stage form : #kənɟˈɛɲ#
 Final form : #kənɟˈɛɲ#

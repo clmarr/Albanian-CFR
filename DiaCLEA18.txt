@@ -31,6 +31,10 @@ $ corresponds to Orel 1.4.7.1
 $ 'y' becomes i, likewise for the long-variant (praebyter > prift, etc.) 
 [+front,+syl] > [-round,-lab]
 
+$ g before n is ŋ -- Pope 1934(: p75 s158, p133 s321); Allen 1978 p23; Lloyd 1987 p81)
+$ not made explicit by De Vaan -- henceforth Latin ɡn as discussed by him can be assumed to represent ŋn. In Romanian these clusters become mn or m- (agnellus > miel, signum > semn, cognatus > cumnat...), but for Albanian De Vaan later assigns these as going to /ɲ/. 
+ɡ > ŋ / __ n
+
 $ Latin(-internal?) NASAL FRICATIVE PHENOMENON : Latin nasals lost before fricatives, making a prior vowel long if there was a prior V. 
 	$ an input assumption for DV1735.D4. wrt krushk "in-law" < CONSOCER 
 	$ some assert these long V-s would have gone through a stage of nasality for the vowels, but De Vaan does not consider this 
@@ -179,10 +183,10 @@ $ l [+cons,+son] > lˠ
 $DIACLEA rule insertion: ʎ depalatalizes to l between high vowels
 ʎ > l / [+hi] __ [+hi]
 
-$merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) 
+$merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) ; expanded to cover ŋ n too. 
 $ DIACLEA CHANGE: decoupled these. Handling gn phenomena elsewhere, on the basis of cognatus > kunat, fuskina > fuzhnjë, etc. kn and gn phenomena are now to be handled either in tandem with k/g(V-stres)t phenomena, or before APA. -- TODO(ǃǃ) that .
 $ TODO can remove this TODO when that is actually implemented^^ 
-{ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ}
+{ŋ n j;ŋ n;ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ;ɲ;ɲ}
 $n j > ɲ 
 
 $DV1740.D4 Lat -ng(u-)>ɲ / __ V[+front]

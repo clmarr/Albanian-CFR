@@ -322,6 +322,10 @@ $ corresponds to Orel 1.4.7.1
 $ 'y' becomes i, likewise for the long-variant (praebyter > prift, etc.) 
 [+front,+syl] > [-round,-lab]
 
+$ g before n is ŋ -- Pope 1934(: p75 s158, p133 s321); Allen 1978 p23; Lloyd 1987 p81)
+$ not made explicit by De Vaan -- henceforth Latin ɡn as discussed by him can be assumed to represent ŋn. In Romanian these clusters become mn or m- (agnellus > miel, signum > semn, cognatus > cumnat...), but for Albanian De Vaan later assigns these as going to /ɲ/. 
+ɡ > ŋ / __ n
+
 $ Latin(-internal?) NASAL FRICATIVE PHENOMENON : Latin nasals lost before fricatives, making a prior vowel long if there was a prior V. 
 	$ an input assumption for DV1735.D4. wrt krushk "in-law" < CONSOCER 
 	$ some assert these long V-s would have gone through a stage of nasality for the vowels, but De Vaan does not consider this 
@@ -392,15 +396,15 @@ $DV1740E3 -- Lat ll > PAlb l. As [l] is a resonant, this will be totally bled by
 $merge with DV1740E1: PPAlb ln > PAlb l; placement for the same counterbleeding reasons.  
 {l;n} > {∅;∅} / l __ 
 
-$DV1740F2 -- l and a nearby resonant (Rl, lR) merge to become *l:. De Vaan lists parabola -> përrallë as his third example wihch would imply a treatment of /β/ (perhaps? if not /b/?) as a resonant, which could cause problems, but actually parabola > përrallë can be perfectly handled if it is placed before the fall of unstressed vowels.
+$DV1740F2 -- l and a nearby resonant (Rl, lR) merge to become *l:. De Vaan lists parabola -> përrallë as his third example which would imply a treatment of /β/ (perhaps? if not /b/?) as a resonant, which could cause problems, but actually parabola > përrallë can be perfectly handled if it is placed before the fall of unstressed vowels.
 $ but this must be placed after DV1740E3 and DV1740E1 as otherwise it would completely bleed them.
 $ form prior to 8/5/23 was: {[+cons,+son] l;l [+cons,+son]} > lː
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
 [+cons,+son] l > lː
 l [+cons,+son] > lː
 
-$merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) 
-{ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ}
+$merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) ; expanded to cover ŋ n too. 
+{ŋ n j;ŋ n;ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ;ɲ;ɲ}
 
 $DV1740.D4 Lat -ng(u-)>ɲ / __ V[+front]
 $ form prior to 8/5/23 was: [+nas] [-cont,+back,+voi] ([+hi,+round,-cons]) / __ [+front,-cons,+hi]

@@ -184,10 +184,11 @@ $DIACLEA rule insertion: ʎ depalatalizes to l between high vowels
 ʎ > l / [+hi] __ [+hi]
 
 $merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) ; expanded to cover ŋ n too. 
-$ DIACLEA CHANGE: decoupled these. Handling gn phenomena elsewhere, on the basis of cognatus > kunat, fuskina > fuzhnjë, etc. kn and gn phenomena are now to be handled either in tandem with k/g(V-stres)t phenomena, or before APA. -- TODO(ǃǃ) that .
+$ DIACLEA CHANGE: decoupled these. Handling gn phenomena elsewhere, on the basis of cognatus > kunat, fuskina > fuzhnjë, etc. Furthermore in Romanian words in original -ŋn- reflect in mn or even m- (agnellus > miel) 
+$kn and gn phenomena are now to be handled either in tandem with k/g(V-stres)t phenomena, or before APA. -- TODO(ǃǃ) that .
 $ TODO can remove this TODO when that is actually implemented^^ 
-{ŋ n j;ŋ n;ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ;ɲ;ɲ}
-$n j > ɲ 
+${ŋ n j;ŋ n;ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ;ɲ;ɲ}
+n j > ɲ 
 
 $DV1740.D4 Lat -ng(u-)>ɲ / __ V[+front]
 $ form prior to 8/5/23 was: [+nas] [-cont,+back,+voi] ([+hi,+round,-cons]) / __ [+front,-cons,+hi]
@@ -247,7 +248,7 @@ $ was formulated so as to handle if these are treated instead as labialized cons
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
 {s n;t n;d n;n n;k n} > {nː;nː;nː;nː;nː}
 
-$TODO there is probably some way that vowels in hiatus are handled, rahter htan simple reduction. Come back to this. 
+$TODO there is probably some way that vowels in hiatus are handled, rather than simple reduction. Come back to this. 
 
 $----- early aspects of vowel reduction and falls ----- 
 

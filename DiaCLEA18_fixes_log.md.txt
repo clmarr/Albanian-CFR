@@ -6,6 +6,10 @@ Rules that were inserted because of missed phenomena or to make other phenomena 
 
 ## A1 Insertion of phenomena that are quite reminiscent of other phenomena in the baseline cascade. 
 
+A1.I - later Middle Proto-Albanian deletion of schwa in R m __ N 
+
+A1.II -- final -n deleted in the latter part of Middle Proto-Albanian.
+
 ## A2 Insertion of phenomena that are something new under the sun from the perspective of the baseline. 
 
 A2.I - l > ʎ / [+hi] __ [+hi],  inserted after the emergence of dark L 
@@ -18,6 +22,11 @@ A2.III -- ina > inia rule inserted into Antique Proto-Albanian
 A2.IV -- -ˈV ol(-u(m/s),-a(m))  endings see stress shift onto the /o/; this is placed into Latin input handling as it is known to occur widely elsewhere in Romance.
 
 A2.V -- yod deleted after palatals and postalveolars in Late Proto-Albanian.
+
+
+A2.VI -- final nasal sequences resolve in favor of the first element: scamnum > ... >> shkëmb, stamnum > ... > (Gheg?) shtam, damnum > ... > dëm, pignus > ... > peng, terminum > *tjɛrəmənə > tjermn (cf. A1.I) > ... > qerm, signus (insignē?) > ... > sheng. There seems to be an alternate outcome for mn in -më, and for ŋn in -ɲə (një), but the conditions are unclear except that it only happens after vowels, and this is not implemented for now (exāmen > shemë, flāmen (or flāminem?) > flamë, dignus > denjë...) 
+
+A2.VII -- two rounds of pretonic nasal cluster simplification. Pretonically, nasal sequences resolve to the second element, and at least in the case of /n/, a long variant is what emerges -- sign-āre > shënoj, cognatus > kunat, damn-āre > dënoj, communic-āre > kungoj, carminare > karmini-ā- > kernjoj
 
 # B Rule relocdation
 
@@ -44,13 +53,15 @@ B4.I -- D1.II -- DV1740F2: l coalescence with nearby resonant to dark L, see als
 
 # C Changes in conditioning to improve accuracy
 
-Rule input, output, or context conditioning changed. These are done to improve accurcay 
+Rule input, output, or context conditioning changed. These are done to improve accuracy 
 
 ## C1 -- changes in input 
 
 ### C1A -- input made broader
 
 C1A.I -- prosthesis of w- before initial ō now broadened to also occur before initial short ǒ
+
+C1A.II -- DV3.1B2 degemination/shortening of nː (nn) to n is broadened to other long nasal consonants as may be necessary.
 
 ### C1B -- input made narrower
 
@@ -61,6 +72,7 @@ C1B.II -- DV1740F3 -- now only applies to r l
 C1B.III -- DV2.2.2c -- first reduction (and then loss) of internal posttonic vowels now does not occur for low vowels... yet. 
 
 C1B.IV -- DV1736.G1 / DV2.2.1L1 -- ō does actually go to ø, not *uo, before word-final r if it comes after a continuant (mësherë, herë, vlerë, tmerr...)
+
 
 ## C2 -- changes in output 
 
@@ -142,6 +154,7 @@ Other cluster simplifications
 
 vowel coloring by w and b at some point in proto-Albanian, probalby multiplke points -- wi >y phenomena, ibV > uo phenomena. V1wV2 > V1(ː,w) phenomena
 
+w to v before stressed e. 
 
 untangling the k(V)t phenomena...
 
@@ -162,3 +175,10 @@ some sort of nasal infix onto consonantal onset of penultimate syllable, origina
 	(im-?)pedica > pengë 
 	imperatōrem > perënduar
 	(in-?)dracōnem > drangue (albeit Tosk dragua) 
+
+nasal cluster simplifications.
+
+nasal place assimilation in Late Proto-Albanian
+
+Overall, just see the files in the "Albanian diachrony" folder.. 
+

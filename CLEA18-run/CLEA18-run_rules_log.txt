@@ -18,7 +18,7 @@ r j > ʎ / @ __ @
 l j > ʎ 
 r l > lˠ 
 ʎ > l / [+hi] __ [+hi]
-{ŋ n j;ŋ n;ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ;ɲ;ɲ} 
+n j > ɲ 
 [+hi,+round,-cons] > ∅ / [+nas] [-cont,+back,+voi] __ [+front,-cons,+hi]
 [+nas] [-cont,+back,+voi] > ɲ/ __ [+front,-cons,+hi]
 j > ∅ / w __ 
@@ -70,6 +70,7 @@ j > ∅ / [-cont] [+cor,+son,-nas] __ ˈɛ
 ∅ > ə / # __ [+son,+cons] [+cons]
 [-prim] > ə / @ __ ( @ )* [+prim]
 ə > ∅ / n __ [-cont]
+ə > ∅ / [+son,+cons] m __ [+nas,+cons]
 [-son] > [-voi] / __ [-voi]
 p > k / __ t
 {k ə;k} > {f;f} / __ t
@@ -96,12 +97,15 @@ s > ʃ
 d > ∅ / [+syl] __ [+syl]
 d > ð / r __ 
 b > ∅ / [+syl] __ ( r ) [+syl]
-{m;s} > {∅;∅} / __ #
+{m;n;s} > {∅;∅;∅} / __ #
 [-stres,-lo] > ∅ / __ #
 {j a s;j a} > {e;e} / __ #
 {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
 a j > ∅ / __ ˌa #
 [+hi,+front,-prim] > [-front,+back,+round,+lab] / [+back,-cont] __ #
+[+nas,+cons] > ∅ / [+nas,+cons] __ #
+[+nas,+cons] [+nas,+cons] > ∅ [+long]
+[+nas,+cons] [+nas,+cons] > ∅ [+long]
 j > ∅ / [+front,+cons] __ 
 [+syl] [-prim,-round,-lo] > [+long] ∅/ __ #
 l > ʎ / __ k
@@ -117,7 +121,7 @@ x > h
 n > r / [+syl] __ [+syl]
 r n > rː / @ __ @
 [+lab,+cont,-syl] > m / __ [+syl] n [+cons]
-nː > n 
+[+nas,+cons] > [-long,-splng] 
 r > ɾ 
 rː > r 
 [+lo,+nas,+syl] > [-lo,-back,-front,0tense] 

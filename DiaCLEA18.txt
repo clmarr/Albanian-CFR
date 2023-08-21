@@ -417,12 +417,27 @@ $ TODO FOR DIA consider suppressing the Buzuku rule here.
 $ DV2.2.2b -- internal pretonic vowels "including *au" (now > *a per DV2.2.1C3) to schwa, some of these to fall soon. "These reductions also affected the oldest layers of loanwords from Middle Greek, Italian, and Slavic" -- so will be repeated later just after the point for Old Northern Tosk Albanian. 
 [-prim] > ə / @ __ (@)* [+prim]
 
+
+
+$ ------- secondary cluster formation---------------
+
+
 $TODO the various unstressed vowel drops occur somewhere around here. -- this is 1737 "7.", and covered extensively in 2.2.2 
 
-$In 2.2.2b, it is unclear what determines the drop of pretonic schwa, but based on the given examples, conditions for drops at this stage include (i) n __ C with assimilation of the /n/ (mbesë < nepōtia; shëndet < sanitātem), (ii) k ə t > f t. -- This latter one will be handled in the later kt > ft shift as "2.2.2b.iii"
+
+$In 2.2.2b, it is unclear what determines the drop of pretonic schwa, but based on the given examples, conditions for drops at this stage include...
+	$ (i) n __ C with assimilation of the /n/ (mbesë < nepōtia; shëndet < sanitātem), 
+	$ (ii) k ə t > f t. -- This latter one will be handled in the later kt > ft shift as "2.2.2b.iii"
 $ note that some are dropped later -- note Early Modern Tosk vëllezër, vullëndet, mallëkon "to cures", arësye "reason" etc.
-$TODO FOR DIA -- want to handle place assimilation of the n here too -- like:  n (ə) > [αant,βcor,ɣlab,ðhi,ɛback,ɸfront] / __ [-cont,αant,βcor,ɣlab,ðhi,ɛback,ɸfront]
+$ part i, schwa deleted between n and stops.
 ə > ∅ / n __ [-cont]
+
+ 
+$TODO FOR DIA -- want to handle place assimilation of the n here too -- like: n (ə) > [αant,βcor,ɣlab,ðhi,ɛback,ɸfront] / __ [-cont,αant,βcor,ɣlab,ðhi,ɛback,ɸfront]
+	$ note that m does NOT assimilate in this way : emtë, kumt, kumtër... 
+
+$DIACLEA CORRECTION: schwa deleted in R/N m ə N (qerm, kungoj, kernjoj, kulm -- not elsewhere, see as seen in the flapping in femër, numëroj < nomin-ā-, djemër, timër) 
+ə > ∅ / [+son,+cons] m __ [+nas,+cons]
 
 $ end of this wave of vowel drops _- VOWEL DROP WAVE -_
 
@@ -501,7 +516,7 @@ $TODO reexamine this?
 $DV1734.1.IV -- 'lengthening before nasals, liquids, sibilants'
 [+prim] > [+long] / __ {[+cons,+son];[+strid]}
 
-$   ------------- INTERVOCALIC STOP EFFACEMENT AND CLUSTER SIMPLIFICATION -----------
+$   ------------- INTERVOCALIC STOP EFFACEMENT (AND CLUSTER SIMPLIFICATION?) -----------
 $ TODO figure out how to handle this in the base cascade? -- probably have it here after the fall of schwa in R __ T, with a (more concise) explanation
 $ TODO try out the cluster simplificaiton aspects, and see then if they match what Orel said. 
 
@@ -554,7 +569,8 @@ $in effect, this is non-low-vowel unstressed final syllables closed by inflectio
 $form prior to 8/5/23 was: [-stres] {m;s} > ∅ / __ #
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
 $ note that -stres implies a vowel if we are using the default feature definitions and implications (as is intended for this cascade), as the feature [stres] is unspecified unless it is [+syl] 
-{m;s} > {∅;∅} / __ #
+$DIACLEA CHANGEː -n also deleted. 
+{m;n;s} > {∅;∅;∅} / __ #
 [-stres,-lo] > ∅ / __ #
 
 $DV1738, top, part 3: final -ja(s) to e, clearly bleeding part 2 below. 
@@ -574,6 +590,19 @@ $DV1738, top, part 5 -- final countertonic -is, -ei (def rt msg) to >i, but it a
 
 $DV1738, top, part 6: final -i without primary stress (effectively countertonic) > -u after velars. (but in practice this will be mainly be the (secondarily stressed?) -u of the definite masculine nominative?) 
 [+hi,+front,-prim] > [-front,+back,+round,+lab] / [+back,-cont] __ #
+
+
+
+$ -----------cluster simplification----------
+$ ----------NASAL CLUSTER SIMPLIFICATION-----
+
+$DIACLEA INSERTION: A2.VI; final nasal clusters resolve in favor of the first element, with no particular evidence of lengthening (Unlike A2.VII). Cases: scamnum > ... >> shkëmb, stamnum > ... > (Gheg?) shtam, damnum > ... > dëm, pignus > ... > peng, terminum > *tjɛrəmənə > tjermn (cf. A1.I) > ... > qerm, signus (insignē?) > ... > sheng. There seems to be an alternate outcome for mn in -më, and for ŋn in -ɲə (një), but the conditions are unclear except that it only happens after vowels, and this is not implemented for now (exāmen > shemë, flāmen (or flāminem?) > flamë, dignus > denjë...). 
+[+nas,+cons] > ∅ / [+nas,+cons] __ #
+
+$DIACLEA INSERTION: A2.VII. pretonically primary and secondary sequences of nasals alike resolve to the second element; at least when it is /n/ the result is a long /nː/. It seems there are two rounds of this. Examples: carmināre (> karmini-ā- due to ina - inia phenomena) > kernjoj; (gn = ŋn remember) sign-āre > shënoj, cognatus > kunat, damn-āre > dënoj, communic-āre > kungoj. This will also potentially handle homorganic nasals, if they have emerged. 
+$ Since all other cases have been handled by the above rule concerning final nasal clusters, there is no need for a context, but if there was one it would be -- / __ ([-stres])* [+prim]
+[+nas,+cons] [+nas,+cons] > ∅ [+long] 
+[+nas,+cons] [+nas,+cons] > ∅ [+long] 
 
 $DIACLEA CORRECTION: postalveolars and palatals absorb following yod
 j > ∅ / [+front,+cons] __ 
@@ -645,7 +674,9 @@ $ DIACLEA CORRECTION: deleted. Consolidated as the /l:/ stage never happens now.
 $lː > lˠ
 
 $DV3.1B2 n: to n
-nː > n
+$DIACLEA CHANGE: expand this to the shortening of all long nasals. 
+$nː > n
+[+nas,+cons] > [-long]
 
 $BANDAID fix-- since the notation of the data uses ɾ and r not r and rː, this is implemented here, even though DV2018 has a modern Alb r and rː 
 r > ɾ 

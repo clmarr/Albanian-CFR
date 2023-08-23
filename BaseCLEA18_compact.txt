@@ -297,10 +297,8 @@ $ this thus implements DV2.2.1B11
 
 $I-MUTATION HERE, since it can feed ietation/diphthongizations (in case of PPAlb a: > ɒː > ... > ye) and also bleed them. 
 $this implements DV2.2.1A3,  DV2.2.1B4, DV2.2.1F2, 
-$this is also part of the implementation of DV2.2.1A5,DV2.2.1B6, DV2.2.1L1, and DV1737's 5b.II 
-$the contextual trigger for this is left somewhat vague, but examples given include __ n t ī, __ C j, __ C ɛ, __ C {ɪ/e}... so the context can be what is C j, ʎ/ɲ, i e ɛ ɪ here.  (ʎ and ɲ arenot listed, but the way this is currently ordered, they have already emerged -- TODO might want to interrogate that; but it actually makes the rule simpler to include them as the contextual trigger need not be +syl or even -cons) 
+$this is also part of the implementation of DV2.2.1A5,DV2.2.1B6, DV2.2.1L1, and DV1737's 5b.II $the contextual trigger for this is left somewhat vague, but examples given include __ n t ī, __ C j, __ C ɛ, __ C {ɪ/e}, and one case that will probably concern __ ʎ (DV2.2.1A5) .. so the context can be what is C j, ʎ/ɲ, i e ɛ ɪ here. 
 $it can be assumed this is intended as a law targeting stressed vowels, because it is placed in 2.2.1 "The stressed vowels of PAlb".
-$TODO IMPLEMENT FOR DIA : prior labial consonants seem to block i-mutation ! 
 $TODO IMPLEMENT FOR DIA : ē s (i,e,j) also is an i-mutation targetǃ
 {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ([-syl])* {j;[+front,-round]}
 

@@ -336,6 +336,13 @@ $ other relevant cases:
 	$ in practice it doesn't seem this happens much before -ll and -r at this stage for hte long oː but were going with this for now out of faithfulness .
 		$TODO: remove this commentary from baseline 18 cascade once decisions are made for DiaCLEA, move it there. 
 
+
+$DIACLEA INSERTION: aw-mutation? rounding and lowering of primary stressed non-hi non-front long/tense (a: and o:) vowels under the influence of a round vowel on the other side of an ɲ. Effectively blocks oː fronting too. 
+$TODO this may operate around rj too, with dleetion of the -j- element in some cases. That merits more inspection. Definitely want to reformulate this. 
+$[-hi,-front,+prim] > [+round,+lab,+tense] / __ {ɲ;r j} [+round]
+$j > ∅ / r __ [+round]
+{ˈɑː ɲ;ˈoː ɲ} > {ˈɒː ɲ;ˈɒː n} / __ [+round]
+
 $ De Vaan 1736 "1." + DV1736~A1&A3 (on Lat & PPAlb ū) + DV1735~A7&A8 (on Lat & PPAlb ō) - long back vowels fronted -- listing only the round ones and not including ɒː (incl. from PIE & AGk aː)-- in effect, he seems to mean the non-low long back vowels ones. 
 [+back,+long,+syl,-lo] > [+front,-back]
 
@@ -343,10 +350,6 @@ $ De Vaan p1736 "2." +DV1735~A1&A2: PPAlb & Lat ai (incl ae?) > ē
 $ based on treatment of Lat. ae elsewhere, where it falls in with Latin *short* e, it seems not, but this is bled already anyways so no need to change this rule at the moment (as of Aug. 1 2023) 
 $ DIACLEA CORRECTION: this does not happen prevocalically (perhaps because the -j- is seen as an onset?) 
 [+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ {[-syl];#}
-
-$DIACLEA INSERTION: o-mutation? rounding of low vowels under the influence of a round vowel on the other side of an ɲ or an r j 
-$TODO revise this, see if it can fit into any other rules. 
-[+lo] > [+round,+lab] / __ ɲ [+round]
 
 $ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër, but via PPAlb *ā) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. 
 [+round,+lo,+long] > [-lo,-tense]

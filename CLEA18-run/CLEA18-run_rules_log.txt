@@ -44,10 +44,10 @@ j > ɟ / # __
 [+round,+syl,-hi,-lo,+long] > [+lo] / __ n ( [+syl,-stres] ( [+nas] ) ) #
 [+round,+syl,-hi,-lo,+long] > [+lo] / __ j ( [+syl,-stres] ( [+nas] ) ) #
 [+round,+syl,-hi,-lo,+long] > [+lo] / [-cont] __ r ( [+syl,-stres] ( [+nas] ) ) #
+{ˈɑː ɲ;ˈoː ɲ} > {ˈɒː ɲ;ˈɒː n} / __ [+round]
 [+back,+long,+syl,-lo] > [+front,-back] 
 [+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅/ __ [-syl]
 [+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅/ __ #
-[+lo] > [+round,+lab] / __ ɲ [+round]
 [+round,+lo,+long] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
 [+hi,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
 [+syl] > [-long,-splng] 

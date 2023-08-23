@@ -388,9 +388,9 @@ $this implements DV2.2.1A3,  DV2.2.1B4, DV2.2.1F2,
 $this is also part of the implementation of DV2.2.1A5,DV2.2.1B6, DV2.2.1L1, and DV1737's 5b.II 
 $the contextual trigger for this is left somewhat vague, but examples given include __ n t ī, __ C j, __ C ɛ, __ C {ɪ/e}, and one case that will probably concern __ ʎ (DV2.2.1A5) .. so the context can be what is C j, ʎ, i e ɛ ɪ here. 
 $it can be assumed this is intended as a law targeting stressed vowels, because it is placed in 2.2.1 "The stressed vowels of PAlb". No direct statement of ɲ being implicated.
-$DIACLEA CHANGE: I-mutation is BLOCKED by preceding labials
-$TODO IMPLEMENT FOR DIA : ē s (i,e,j) also is an i-mutation targetǃ -- TOFO 
-{ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / {#;[-lab]} __ ([-syl])* [+front,-round,-cons]
+$DIACLEA CHANGE: I-mutation is BLOCKED by preceding labials, and also no evidence it occurs word-initially.
+$TODO IMPLEMENT FOR DIA : ē s (i,e,j) also is an i-mutation targetǃ -- perhaps ditch this as it is ... covered already?
+{ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / [-lab] __ ([-syl])* [+front,-round,-cons]
 
 $TODO NOTE FOR DIA: although phonemic nasalization is assigned a later point in the relative chronology (DV1737, number 8), it may be necessary here at least for /e/ and/or /ɛ/, to block ietation and allow the merger of DV2.2.1K with DV2.2.1L1 & DV2.2.1M (aka the merger of 5b.1 with 5b.2 and 5b.3)
 

@@ -344,6 +344,10 @@ $ based on treatment of Lat. ae elsewhere, where it falls in with Latin *short* 
 $ DIACLEA CORRECTION: this does not happen prevocalically (perhaps because the -j- is seen as an onset?) 
 [+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ {[-syl];#}
 
+$DIACLEA INSERTION: o-mutation? rounding of low vowels under the influence of a round vowel on the other side of an ɲ or an r j 
+$TODO revise this, see if it can fit into any other rules. 
+[+lo] > [+round,+lab] / __ ɲ [+round]
+
 $ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër, but via PPAlb *ā) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. 
 [+round,+lo,+long] > [-lo,-tense]
 
@@ -642,6 +646,10 @@ $ Since all other cases have been handled by the above rule concerning final nas
 $DIACLEA CORRECTION: postalveolars and palatals absorb following yod
 j > ∅ / [+front,+cons] __ 
 
+$DIACLEA CORRECTION: n (and perhaps long n) assimilates in place to following labial stops, palatal stops, and velar stops. Does not happen for affricates.
+$[+nas,+cor,+cons] > [-cor,βlab,ɣback,ðant,ɩfront,χhi] / __ [-delrel,βlab,ɣback,ðant,ɩfront,χhi]
+$ TODO unfortunately this rule is on hold because of a bug. 
+
 =Late Proto-Albanian
 
 $------- continued rise of long vowels -------------
@@ -757,11 +765,10 @@ $repeat of internal pretonic vowel reductions per DV2.2.2b (see above)
 [-prim] > ə / @ __ ([-syl])* [+prim]
 ə > ∅ / n __ [-cont]
 
-$gleaned from DV1738, unstressed final -o(n) and -a(s) in loans from early Slavic, Italian and Greek are reduced to -ë; rest seem to be effaced (?) 
+$gleaned from DV1738, unstressed final -o(n) and -a(s) in loans from early Slavic, Italian and Greek are reduced to -ë
 $ TODO FOR DIA : consider retracting this just to -o, and have the passage of unstreseed -a to -ë only here, as the -o > -ë phenomena in Byzantine/Bulgarian/Italian seem limited to feminines, in which it could be analogical.
-[-stres,-hi,+back] > a / __ #
-[-stres,-lo] > ∅ / __ #
-[-stres] > ə / __ # 
+$ DIACLEA CHANGE: move this just to o ɔ a becoming ə ə ə as this causes too many errors
+{o;ɔ;a} > {ə;ə;ə} / __ #
 
 $DV1734.3 -- loss of length in Northern Tosk (and much elsewhere except much of Lab) 
 [+long] > [-long]

@@ -1,5 +1,5 @@
 Derivation file for run '../Albanian-diachrony/Albanian-CFR/CLEA18-run'; etymon number :153:
-#ˌekspˌellɑwˈɑːnioː# >>> #fʃpəlˈəj# ( GOLD : #ʃpəlˈaj#) :
+#ˌekspˌellɑwˈɑːnioː# >>> #fʃpəlˈɔj# ( GOLD : #ʃpəlˈaj#) :
 ˌe k s p ˌe l l ɑ w ˈɑː n i oː 
 #ˌekspˌellɑwˈɑːnjoː# | 14 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
 #ˌekspˌelɑwˈɑːnjoː# | 16 : {l;n} > {∅;∅} / l __ 
@@ -7,22 +7,23 @@ Derivation file for run '../Albanian-diachrony/Albanian-CFR/CLEA18-run'; etymon 
 #ˌekspˌelɑˈɑːɲoː# | 29 : w > ∅ / [+syl] __ [+syl]
 Middle Proto-Albanian stage form : #ˌekspˌelɑˈɑːɲoː#
 #ˌekspˌelɑˈɑːɲøː# | 46 : [+back,+long,+syl,-lo] > [+front,-back] 
-#ˌekspˌelɑˈɑɲø# | 51 : [+syl] > [-long,-splng] 
-#ˌekspˌelɑˈɑɲe# | 70 : [+front,-cons,-hi] > [-round,-lab] 
-#ˌɛkspˌɛlɑˈɑɲɛ# | 71 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-#kspˌɛlɑˈɑɲɛ# | 72 : [-prim] > ∅ / # __ 
-#kspələˈɑɲɛ# | 74 : [-prim] > ə / @ __ ( @ )* [+prim]
-#fspələˈɑɲɛ# | 80 : {k ə;k} > {f;f} / __ s
-#fʃpələˈɑɲɛ# | 87 : s > ʃ 
-#fʃpələˈaɲɛ# | 93 : [+lo] > [+front,-back] 
-#fʃpəlˈaːɲɛ# | 94 : [-prim] [+prim] > ∅ [+long]/ @ __ @
-#fʃpəlˈaːɲ# | 104 : [-stres,-lo] > ∅ / __ #
-Late Proto-Albanian stage form : #fʃpəlˈaːɲ#
-#fʃpəlˈãːɲ# | 117 : [+syl] > [+nas,+son,0delrel] / __ [+nas,+cons]
-#fʃpəlˈəːɲ# | 130 : [+lo,+nas,+syl] > [-lo,-back,-front,0tense] 
- Proto-Tosk stage form : #fʃpəlˈəːɲ#
-#fʃpəl?ɲ# | 133 : [-cons,+nas] > [-nas] 
-#fʃpəlˈəɲ# | 144 : [+long] > [-long,-splng] 
- Old Northern Tosk Albanian stage form : #fʃpəlˈəɲ#
-#fʃpəlˈəj# | 149 : ɲ > j / [-hi] __ #
-Final form : #fʃpəlˈəj#
+#ˌekspˌelɑˈɒːɲøː# | 49 : [+lo] > [+round,+lab] / __ ɲ [+round]
+#ˌekspˌelɑˈɔːɲøː# | 50 : [+round,+lo,+long] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
+#ˌekspˌelɑˈɔɲø# | 52 : [+syl] > [-long,-splng] 
+#ˌekspˌelɑˈoɲø# | 54 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+#ˌekspˌelɑˈoɲe# | 71 : [+front,-cons,-hi] > [-round,-lab] 
+#ˌɛkspˌɛlɑˈɔɲɛ# | 72 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+#kspˌɛlɑˈɔɲɛ# | 73 : [-prim] > ∅ / # __ 
+#kspələˈɔɲɛ# | 75 : [-prim] > ə / @ __ ( @ )* [+prim]
+#fspələˈɔɲɛ# | 81 : {k ə;k} > {f;f} / __ s
+#fʃpələˈɔɲɛ# | 88 : s > ʃ 
+#fʃpəlˈɔːɲɛ# | 95 : [-prim] [+prim] > ∅ [+long]/ @ __ @
+#fʃpəlˈɔːɲ# | 105 : [-stres,-lo] > ∅ / __ #
+Late Proto-Albanian stage form : #fʃpəlˈɔːɲ#
+#fʃpəlˈɔ̃ːɲ# | 118 : [+syl] > [+nas,+son,0delrel] / __ [+nas,+cons]
+ Proto-Tosk stage form : #fʃpəlˈɔ̃ːɲ#
+#fʃpəlˈɔːɲ# | 134 : [-cons,+nas] > [-nas] 
+#fʃpəlˈɔɲ# | 143 : [+long] > [-long,-splng] 
+ Old Northern Tosk Albanian stage form : #fʃpəlˈɔɲ#
+#fʃpəlˈɔj# | 148 : ɲ > j / [-hi] __ #
+Final form : #fʃpəlˈɔj#

@@ -47,6 +47,7 @@ j > ɟ / # __
 [+back,+long,+syl,-lo] > [+front,-back] 
 [+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅/ __ [-syl]
 [+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅/ __ #
+[+lo] > [+round,+lab] / __ ɲ [+round]
 [+round,+lo,+long] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
 [+hi,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
 [+syl] > [-long,-splng] 
@@ -139,9 +140,7 @@ z > d͡z / n __
 c > k / __ [+syl] ʃ
 [-prim] > ə / @ __ ( [-syl] )* [+prim]
 ə > ∅ / n __ [-cont]
-[-stres,-hi,+back] > a / __ #
-[-stres,-lo] > ∅ / __ #
-[-stres] > ə / __ #
+{o;ɔ;a} > {ə;ə;ə} / __ #
 [+long] > [-long,-splng] 
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
 {d ʃ;d s;d θ} > {t͡ʃ;t͡s;t͡s} 

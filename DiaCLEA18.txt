@@ -289,6 +289,7 @@ $ the vowel reduction and falls as a whole are said to happen "in the last phase
 $ DIACLEA CHANGE: does not seem to affect low-vowels at this point -- yet. In most cases it will, though. 
 [-stres,-lo] > ə / [+prim] (@)* __ @ 
 
+
 $--------------------Middle Proto-Albanian-------------------
 =Middle Proto-Albanian
 $ main wave of contact with Proto-Romanian (temporarily?) complete now
@@ -448,6 +449,12 @@ $bandaid here thus inserted
 [+syl,-lo,-hi] > [-tense]
 
 $ DV 1737's 7. Unstressed word-internal vowels to schwa, unstressed initial to zero-- include in _- VOWEL DROP WAVE -_
+
+
+$DIACLEA INSERTION: h is deleted after vowels and before non-stressed vowels except before stressed vowels (later insertions hard to characterize; some role of r?) 
+h > ∅ / __ [-stres]
+h > ∅ / [+syl] __
+$∅ > h / # __ [+stres] r
 
 $ --- Second wave of early vowel reduction phenomena here --- 
 
@@ -681,7 +688,8 @@ $ DV4.1W2 = DV1742R2 -- h prosthesis from PAlb into modern Alb.
 $ may not be deterministic (may have originated in hypercorrection), but per conference with De Vaan- - inclusion so as to test it (8/9)
 $ TODO note for DIA -- many examples actually have an /r/ after the vowel... (hark, harmëshor, harron...) 
 $ Placed pretty early as affected words seem to be pretty widely so
-∅ > h / # __ [+syl]
+$ DIACLEA : suppressed
+$ ∅ > h / # __ [+syl]
 
 $ DV4.2T = DV1742O -- labiodentalization of β
 $ incorporating ɸ here too. 

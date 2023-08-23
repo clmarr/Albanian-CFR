@@ -71,6 +71,8 @@ j > ∅ / [-cont] [+cor,+son,-nas] __ ˈɛ
 [-syl,-cons,+round] > ∅ / [+lo,+syl] __ 
 [+front,-cons,-hi] > [-round,-lab] 
 [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+h > ∅ / __ [-stres]
+h > ∅ / [+syl] __ 
 [-prim] > ∅ / # __ 
 ∅ > ə / # __ [+son,+cons] [+cons]
 [-prim] > ə / @ __ ( @ )* [+prim]
@@ -117,7 +119,6 @@ l > ʎ / __ k
 l > ʎ / [-cont,+hi] __ 
 ∅ > b / m __ #
 [+syl] > [+nas,+son,0delrel] / __ [+nas,+cons]
-∅ > h / # __ [+syl]
 [+lab,-son,+cont] > [+strid] 
 ʃ > ʒ / __ [+cons,+voi]
 [-ant,+distr,+delrel] > [+ant,-distr,+cont,-front,+cor,0delrel] 

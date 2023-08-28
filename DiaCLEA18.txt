@@ -374,8 +374,8 @@ $this effectively implements: DV2.2.1A2, part of DV2.2.1A4, DV2.2.1A6, DV2.2.1B3
 
 $DV2.2.1A4.II -- resolving raising before "sh" (which might still be [s] in this cascade) for Latin ē and PPAlb *e in this position (earlier lengthened to feed this, now both to [e] as the short variants are now [ɛ]) 
 $TODO FOR DIA: note above that this may be more accurately captured as __ ʃj than simply __ ʃ , given eshkë, kreshmë, rrjesht and veshk. 
-$TODO this is clearly bugged in the case of dishk right now (et. 113). Check this. But this phenomenon does seem more complicated -- it is blocked for peshk, peshkëp, shpesh < spissus, këpresh, veshk < viscus, but does occur for grifshë < gripsa. Even fine grained istintionsː cripsa > kreshpë, crista > kreshtë, but christum > krisht. TODO figure this out. 9
-[+stres,+tense,+front,-lab] > [+hi] / __ [+cont,-lab,+strid]
+$DIACLEA FIX: this seems to actually just be i-mutation, as it only really seems to occur when there is a -j- in the next syllable. 
+$[+stres,+tense,+front,-lab] > [+hi] / __ [+cont,-lab,+strid] ([+cons]) j
 
 $ raising of ɔ to o seems implicit here as a PAlb *ɔ is not handled for following rules concerning words were it is supposed to have arisen... -- i.e. > ø under i-mutation (5a.iii on p1736; 1735DV.A6 on this for reflex of PPAlb aː), seen also in the formulation of o-breaking rules (DV1736~G1 & G2)... 
 $ This can be handled in tandem with the raising of /ʊ/ back to /u/, which occurs for the reflexes of both Latin U and PPAlb *u (DV1735~2.2E1, -E2)

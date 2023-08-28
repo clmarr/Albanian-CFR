@@ -124,7 +124,6 @@ $ as long as the lambda forming rule DV1740G1 is placed before this, [-front] do
 $ Combined with DV1740F1 ~ PPAlb *l, *sl > l: / V __ V[-front] 
 $ form prior to 8/5/23 was: (s) > lː / [+syl] __ [+syl]
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
-$ TODO FOR DIA : consider just having this go straight to dark L 
 {s l;l} > {lː;lː} / [+syl] __ [+syl]
 
 $DV1740E3 -- Lat ll > PAlb l. As [l] is a resonant, this will be totally bled by DV1740F2 if not placed before it.
@@ -280,7 +279,6 @@ $this effectively implements: DV2.2.1A2, part of DV2.2.1A4, DV2.2.1A6, DV2.2.1B3
 [+syl] > [-long]
 
 $DV2.2.1A4.II -- resolving raising before "sh" (which might still be [s] in this cascade) for Latin ē and PPAlb *e in this position (earlier lengthened to feed this, now both to [e] as the short variants are now [ɛ]) 
-$TODO FOR DIA: note above that this may be more accurately captured as __ ʃj than simply __ ʃ , given eshkë, kreshmë, rrjesht and veshk. 
 [+stres,+tense,+front,-lab] > [+hi] / __ [+cont,-lab,+strid]
 
 $ raising of ɔ to o seems implicit here as a PAlb *ɔ is not handled for following rules concerning words were it is supposed to have arisen... -- i.e. > ø under i-mutation (5a.iii on p1736; 1735DV.A6 on this for reflex of PPAlb aː), seen also in the formulation of o-breaking rules (DV1736~G1 & G2)... 

@@ -645,6 +645,11 @@ $ Placed pretty early as affected words seem to be pretty widely so
 $ DIACLEA : suppressed
 $ ∅ > h / # __ [+syl]
 
+$DV3.1A2 -- "PAlb. β" to m before "VN$". 
+$Some ambiguity of dating of this rule -- this is placed between Proto-Albanian and modern Albanina, but the wording of this rule assumes beta has emerged but has not yet passed to /v/ (all the cases listed are where beta reflects Latin /w/), and it also assumes the /n/ is still present in this ve:nsi:ca despite nasal-spirant stuff that happened quite early... unless this word was loaned in another wave? Some examination may be necessary.
+$Syllable break handled with a consonant for now. This may need to be examined but has no issues at present. 
+[+lab,+cont,-syl,+voi] > m / __ [+syl] n [+cons]
+
 $ DV4.2T = DV1742O -- labiodentalization of β
 $ incorporating ɸ here too. 
 $ placed between PAlb and modern Alb by DV´18 but could probably be placed earlier as this does seem to be pan-Albanian? 
@@ -670,10 +675,6 @@ n > r / [+syl] __ [+syl]
 
 $DV3.1H2 : -rn- > -rr- / V __ V . This happens in Gheg and Tosk, but De Vaan 2018, citing Janson 1986(:97f), argues it is post-Slavic. Inasmuch as it happens in Gheg, it is also independent of Tosk rhotacism, and should thus be handled separately.
 r n > rː / @ __ @
-
-$DV3.1A2 -- "PAlb. β" to m before "VN$". 
-$TODO Might be issues with the dating of this, as it assumes beta has emerged but has not yet passed to /v/ (all the cases listed are where beta reflects Latin /w/), but it also assumes the /n/ is still present in this ve:nsi:ca despite nasal-spirant stuff... unless this word was loaned in another wave? Some examination may be necessary. Ambiguity between beta and /v/ and even /w/ intentionally allowed in the formalism here. May need to be placed much much earlier into Antique Proto-Albanian. $ TODO Syllable break handled with a consonant for now. This may need to be examined. 
-[+lab,+cont,-syl,+voi] > m / __ [+syl] n [+cons]
 
 $DV3.1E -- l: passes to dark l.
 $ This is actually pan-Albanian but it is placed as a PAlb to Modern Alb change DV'18. 

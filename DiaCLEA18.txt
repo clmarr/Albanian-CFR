@@ -110,57 +110,10 @@ $merge with DV1740E1: PPAlb ln > PAlb l; placement for the same counterbleeding 
 $DIA RELOCDATION: but this does seem to feed lambdacism -- placed before lambdacism as otherwise lambdacism for -llj- segments will be lost due to hte current formulation of rule 14 (l [+cons,+son] > lː); could specify that rule for [-lat] for the second input segment, but it is simpler to just place this rule earlier. 
 {l;n} > {∅;∅} / l __ 
 
-$TODO FOR DIA -- there are clearly problems here as [+syl] l [+syl] subset has only a 0.6% accuracy. 
-$  -- maybe it should be moved later as the fall of unstressed vowels seems to be bleeding this in some cases. But it's more complicated... with filter of /l/ before rlue 10, -prim for prior phone has 77.48% rate of error in autopsy, and looking at the words in question supports this (below) 
-	$ -- DV1740G1 filtered results, l > j errantly
-		$ ultimately to lˠ
-			$ GROUP A1 in {ˌɑ, ˌo} __ { ˈiː ; ˈe ; ˈeː }  
-				$  622 mˌolˈiːnum | 663 ˌolˈiːwu | 849 sˌɑlˈiːnɑ | 850 sˌɑlˈiːnjoː
-				$ 108 dˌolˈeːre | 751 pˌolˈentɑ
-			$ GROUP A2 cases in __ e or __ i	(unstressed e!) 
-				$ 320 kˌɑlendˈɑːrjum | 433 kˈoːsulem
-				$ 551 mˌɑlediːkˈere  | 676 pˌɑdˈuːlem | 41 ˌɑprˈiːli | 
-		$ ultimately to ɾ 
-			$ 88 dˌeːleːɡˈɑːnjoː -- fits in group A2? 
-		$ ultimately to l  (some may be from ʎ earlier)
-
-			$fits best in group A2 
-				$ 555 mˌɑlitjˈɑːre | 569 mˌɑntˈiːle 
-				$ |260 ˈiːlikem | 261 ˌiːlikˈeːtum | 320 kˈɑlikem | 846 sˈɑlikɑ | 847 sˈɑlikem | 848 sˌɑlikˈeːtum 
-			$ group B1 -- after falling countertonic e 
-				$ 115 ˌelˈeɡjɑ | 660  mˌelˈettɑm |
-		$ l > ʎ correctly here. 
-			$ 1120 wˌɑlˈeːnjoː 
-			$ maybe 119 fˌiriɡilˈiːnum  --- but maybe should be later anyways as g(i)l contracts? 
-
-		$ l > ʎ should have happened but didn't
-			$ 261 ɡˈulɑm 
-			$ ... and no others. 
 $ DV1740G1 : intervocalic l becomes ʎ before front vowel.
-$ DIA -- SUPPRESSED. 
-	$ see notes above, the one case where this works (vjej "I need") is in the same ˌɑ __ [+prim,+front] context that so many of the errors are, best move for now is just to suppress this. 
+$ DIA -- SUPPRESSED, see "Old_DV1740G1_notes", the one case where this works (vjej "I need") is in the same ˌɑ __ [+prim,+front] context that so many of the errors are, best move for now is just to suppress this. 
 $l > ʎ / [+syl] __ [+syl,+front]
 
-
-	$ -- DV1740G2 effects filtered... 
-		$ to ʎ but should have been lˠ 
-			$ A1 in  [+lo,+stres] (l) __ [+lo]
-				$ 188 fˌɑwˈɑljɑm -- does show i-mutation though. (absent in Newmark 1998... and Bonnet 1998)
-				$ 235 ɡˌɑlljˈɑːtja
-				$ 1047 tˈɑːljɑ 
-			 $ -- counterexamples -- battualiam (but this is also attested as bëtalë...), invernālia, pistālia, rosālia (alas this is likely later), tālea 
-			$ A2 in # l __ 
-				$ 579 ljˈoːnem 
-			$ A3 in {i(ː),e(ː)} (l) __ u 
-				$ 170 eːwɑŋɡˈeljum -- but may be a slightly later entry, placed instead in Middle Proto-Albanian. Also does show i-mutaiton.
-				$ 472 kˌoːsˈiljum -- but the singular may be analogical. Also, does show i-mutation. Enter instead in Middle Proto-Albanian? 
-				$ 586 liːljum 
-				$ 673 mˈiljum -- but this does not show i-mutation.. 
-				$ 805 pˈillju , but it's a dubious etymon. If it exists, it shows i-mutation -- enter in Middle Albanian instead? 
-			$ A4 in u (l) __ ɑ
-				$ 784 pˌekˈuljum -- lack i-mutation too; a difficult word. 
-				$ countercases: 
-	$ for now, keeping this, and testing Cabej's theory that ungjill from (irregularly stressted?) evangelum (perhaps with, I wonder, a later coloring of the vowel by the prior palatal or postalveolar element to /i/? Also effecting consilium? ). 
 $ DV1740G2 : l j > ʎ in PPAlb and Lat. Seems intended to be fed by hiatus vowel gliding. 
 l j > ʎ
 
@@ -222,6 +175,7 @@ $ Latin(-internal?) NASAL FRICATIVE PHENOMENON : Latin nasals lost before fricat
 		$ inquiry into whether occasional Gheg nasality in these places (there are some 20-30 relevant words, at least can 
 		$ be systematically handled would be interesting
 	$ cf Pope 1934 s359 (as a "very early" phenomenon in Latin), also p73 s156ii; also Allen 1978(:27-31, 55-6). 
+		$ Shared with Romanian apparently. 
 	$ different handling in corresponding Orel 1.4.7.13 on p115 in ns > ʃ
 	$ this should not be formulated and sequenced so as to be fed by De Vaan 2018's one step passage of his PPAlb *tɕ *dʝ > *θ *ð (as this is not indicated), so that is placed afterward 
 $DIACLEA RELOCDATION: moved this to after the pre-penultimate o/o:>u phenomena. 

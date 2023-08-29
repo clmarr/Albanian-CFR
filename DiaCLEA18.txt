@@ -188,14 +188,13 @@ $ r [+cons] > r
 $ [+cons] r > r 
 
 $ DIACLEA CORRECTION (insertion) -- disappearance of j after w -- 561 laqueum > lak, 551 quiētus > qetë, 932 salviella > shërbelë ; perhaps also broaden to cover alveolu > nullë "gum" if we believe in that etymology. 
-$ TODO find place for this. 
 j > ∅ / w __ 
 
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM, njerkë "stepmother" < NOVERCA
 $ TODO RELOCDATE THIS LATER -- W phenomena including coloring stuff where this matters happen much later
 w > ∅ / [+syl] __ [+syl]
 
-$TODO before this operates, there are some things that need to be fixed... 
+$TODO before w deletion and modification phenomena operate, there are some things that need to be fixed... 
 	$ TODO 1 disappearance of w into vowel coloring in: 167 eruilla > rrylë, 189 februarius > f(ë)ruor (via ɒː ?), potentially others -- though not servitium > shërbes) 
 $ p1743 -- w > b after r and l. I.e. the (non-nasal) (sonorant) coronals. 
 w > b / [+cor,-nas,+son] __
@@ -320,7 +319,7 @@ $the following system will emerge per chart at bottom of 1736 -- filling changes
 	$ he lists "Lat. o & ō" for both but this will be handled per the more indepth descriptions as supplied in the listed changes further above as appropriate. Ie DV1735A has really mainly Lat. ō going to ø > e... 
 
 $handling the posited emergence of high lax vowels from older short high vowels as part of p1736's new vowel system.. Include also his e > ɛ shift here (listed above), and this will give us also o > ɔ too (not ʏ or œ since short versions of y and ø have no way to emerge at this stage.); the outcome of PPAlb/Greek ā (> ɒː) is already ɔː here but he mentions some Latin o & oː passing through "ɔ > o"; unclear when it raises again. 
-[+hi,+syl,-long] > [-tense]
+[-lo,+syl,-long] > [-tense]
 
 $then distinctive length is lost in vowels
 $this effectively implements: DV2.2.1A2, part of DV2.2.1A4, DV2.2.1A6, DV2.2.1B3, part of DV2.2.1B4-8, DV2.2.1B10, part of DV2.2.1C4, part of DV2.2.1E1, DV2.2.1E3, part of DV2.2.1F1 & F3. 

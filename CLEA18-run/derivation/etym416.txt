@@ -3,13 +3,14 @@ Derivation file for run '../Albanian-diachrony/Albanian-CFR/CLEA18-run'; etymon 
 k ˈe n t u m 
 #kˈentu# | 7 : [+nas,+cons] > ∅ / [-stres] __ #
 Middle Proto-Albanian stage form : #kˈentu#
-#kˈentʊ# | 51 : [+hi,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-#kˈentu# | 53 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-#kˈɛntu# | 71 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-#kˈɛndu# | 84 : t > d / [+stres] ( [-syl] )* n __ 
-#cˈɛndu# | 88 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
-#cˈɛːndu# | 100 : [+prim] > [+long] / __ [+cons,+son]
-#cˈɛːnd# | 106 : [-stres,-lo] > ∅ / __ #
+#kˈɛntʊ# | 51 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+#kˈɛntu# | 53 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+#kjˈɛntu# | 63 : ∅ > j / __ ˈɛ
+#kjˈɛndu# | 84 : t > d / [+stres] ( [-syl] )* n __ 
+#cjˈɛndu# | 88 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
+#cjˈɛːndu# | 100 : [+prim] > [+long] / __ [+cons,+son]
+#cjˈɛːnd# | 106 : [-stres,-lo] > ∅ / __ #
+#cˈɛːnd# | 114 : j > ∅ / [+front,+cons] __ 
 Late Proto-Albanian stage form : #cˈɛːnd#
 #cˈɛ̃ːnd# | 119 : [+syl] > [+nas,+son,0delrel] / __ [+nas,+cons]
  Proto-Tosk stage form : #cˈɛ̃ːnd#

@@ -49,7 +49,7 @@ j > ɟ / # __
 [+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅/ __ [-syl]
 [+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅/ __ #
 [+round,+lo,+long] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
-[+hi,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+[-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
 [+syl] > [-long,-splng] 
 [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
 ˈɪ > ˈi / __ ʎ

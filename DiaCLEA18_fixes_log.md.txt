@@ -27,7 +27,6 @@ A2.IV -- -ˈV ol(-u(m/s),-a(m))  endings see stress shift onto the /o/; this is 
 
 A2.V -- yod deleted after palatals and postalveolars in Late Proto-Albanian.
 
-
 A2.VI -- final nasal sequences resolve in favor of the first element: scamnum > ... >> shkëmb, stamnum > ... > (Gheg?) shtam, damnum > ... > dëm, pignus > ... > peng, terminum > *tjɛrəmənə > tjermn (cf. A1.I) > ... > qerm, signus (insignē?) > ... > sheng. There seems to be an alternate outcome for mn in -më, and for ŋn in -ɲə (një), but the conditions are unclear except that it only happens after vowels, and this is not implemented for now (exāmen > shemë, flāmen (or flāminem?) > flamë, dignus > denjë...) 
 
 A2.VII -- two rounds of pretonic nasal cluster simplification. Pretonically, nasal sequences resolve to the second element, and at least in the case of /n/, a long variant is what emerges -- sign-āre > shënoj, cognatus > kunat, damn-āre > dënoj, communic-āre > kungoj, carminare > karmini-ā- > kernjoj
@@ -38,9 +37,11 @@ A2.IX -- Latin pʰ > f inserted into Latin input handling, contrasting with hand
 
 A2.X -- Middle Proto-Albanian /ɪ/ becomes /i/ instead of /e/ when immediately before ʎ or labials (five cases at present for ˈɪʎ; and 4 for ˈɪp and ˈɪf together; ˈɪ followed by other labials unattested)
 
-A2.XI -- low vowels are rounded under in the influence of round vowels on the other side of ɲ. (Possibly also r j?) 
+A2.XI -- long/tense non-high vowels are rounded under in the influence of round vowels on the other side of ɲ. In the case of ē, this development is blocked by preceding coronals, but proceeds otherwise. (Possibly something similar for r j?) 
 
 A2.XII -- h deleted before non-stressed syllables and after any vowels. 
+
+A2.XIII -- y and ø retract to u and o before n and ɲ (though not m and ŋ) in Middle Proto-Albanian, before the diphthongization of ø and o. 
 
 # B Rule relocdation
 

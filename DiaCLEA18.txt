@@ -287,15 +287,20 @@ $ Albanian duar rather seems to reflect a *ɔː (> o) from *aː, that is not at 
 $ other relevant cases: 
 	$ in oːn- : Latin capōnem > kapua "rooster", lacōnem > lëkue "water lily", leōnem > luan "lion" (corōnam > kurorë "crown, garland; wealth" is a later loan per Orel 2000(:33)), Antōnius > Ndue "Anthony", falcōnem > fajkua.
 		$ cases where fronting does appear to occur: ratiōnem > arsye "reason" 
-	$ in practice it doesn't seem this happens much before -ll and -r at this stage for hte long oː but were going with this for now out of faithfulness .
+	$ in practice it doesn't seem this happens much before -ll and -r at this stage for the long oː but were going with this for now out of faithfulness .
 		$TODO: remove this commentary from baseline 18 cascade once decisions are made for DiaCLEA, move it there. 
 
+$DIACLEA INSERTION: aw-mutation? rounding and lowering of primary stressed unrounded long/tense (a:, o:, e:) vowels under the influence of a round vowel on the other side of an ɲ. 
+$ inclusion of ō is unclear -- evidence does not point strongly either way. Excluding it would mean more conditions though. 
+$ operation on ē does not happen after dentals and perhaps not after l-velar sequences (plac-ē- > pëlqej, indulg-ē- ndjej, perindulg- përdëllej; lk uncertain given plac-ē> pëlqej but mulc-ē > mëlkoj, mulkoj, but without pëlqej; one other issue is poenitere > pend-o- though this is only seen today in the reflexive pendohem and maybe it wouldn't apply given the different suffix in that case?). For now, for the sake of simplicity, just go with the coronal; for all we know, perhaps Alb. pëlqej is actually a cognate, not a reflex, of Latin placeo/placēre (the word apparently also exists in Tocharian)
+	$ these same post coronal environments do see some -ej outcomes for the -ā- class too (simul-ā- > shëmbëllej, incausin-ā- > ngashërej, sper-ā- > shpërej ...) but only in 7 out of 76 cases.
+$ During August 2023 it was thought that ɲ also depalatalized after original ō here but in further consideration, only two items are affected (antōnius, cotōneum) and these were able to be explained otherwise in a much more general rule conditioned by nasals, so this was removed on the 29th
+$TODO this may operate around rj too for ā and maybe ō, with deletion of the -j- element in some cases. That merits more inspection. Definitely consider possibilities to reformulate this. 
+[-hi,+long,+tense] > [+round,+lab,+lo] / __ ɲ [+round]
 
-$DIACLEA INSERTION: aw-mutation? rounding and lowering of primary stressed non-hi non-front long/tense (a: and o:) vowels under the influence of a round vowel on the other side of an ɲ. Effectively blocks oː fronting too. 
-$TODO this may operate around rj too, with dleetion of the -j- element in some cases. That merits more inspection. Definitely want to reformulate this. 
-$[-hi,-front,+prim] > [+round,+lab,+tense] / __ {ɲ;r j} [+round]
-$j > ∅ / r __ [+round]
-{ˈɑː ɲ;ˈoː ɲ} > {ˈɒː ɲ;ˈɒː n} / __ [+round]
+$ handling now the fork in the fate of ēɲ[round] -- alternatively, could do this by unrounding the unstressed final vowel trigger of this, and that is maybe more parsimonious (one less rule), but may not really be "kosher" so to speak as it is kind of hacky, perhaps. 
+[+front,+lo,+round] > [-round,-lab,-lo] / [+cor] __
+[+lo,+round] > [-front,+back]
 
 $ De Vaan 1736 "1." + DV1736~A1&A3 (on Lat & PPAlb ū) + DV1735~A7&A8 (on Lat & PPAlb ō) - long back vowels fronted -- listing only the round ones and not including ɒː (incl. from PIE & AGk aː)-- in effect, he seems to mean the non-low long back vowels ones. 
 [+back,+long,+syl,-lo] > [+front,-back]
@@ -357,6 +362,9 @@ $TODO IMPLEMENT FOR DIA : ē s (i,e,j) also is an i-mutation targetǃ -- perhap
 {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / [-lab] __ ([-syl])* [+front,-round,-cons]
 
 $TODO NOTE FOR DIA: although phonemic nasalization is assigned a later point in the relative chronology (DV1737, number 8), it may be necessary here at least for /e/ and/or /ɛ/, to block ietation and allow the merger of DV2.2.1K with DV2.2.1L1 & DV2.2.1M (aka the merger of 5b.1 with 5b.2 and 5b.3)
+
+$DIACLEA INSERTION: before diphthongization/ietation (of the round elements), front round y and ø seem to retract before n and ɲ (e.g. Latin words in -ōnem > PAlb *uo, axungia > MPA ˌɑksˈyɲjɑ > ashunjë not *ashynjë and likewise in sanguisungia, words in -onju > PAlb *uo as well; ikone > korë; immūne > mû; luntrem > lundër not lyndër (via i-mutation), etc... ) but not m or ŋ (iunctura > yndyrë, pōma > pemë, brūma > brymë, etc...), and also not when in jø (ratiōnem > arësye etc.) 
+[+front,+round] > [-front,+back] / [-front] __ [+nas,-lab,-back]
 
 $IETATION and DIPHTHONGIZATION follows. 
 $DV2.2.1K and 1737's 5b -- diphthongized ietation -- ɛ (< PPAlb e, Lat e & ae) > ie before "word-final ɫ, r" ; he also attributes this to *e

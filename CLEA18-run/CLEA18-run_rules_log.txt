@@ -44,7 +44,9 @@ j > ɟ / # __
 [+round,+syl,-hi,-lo,+long] > [+lo] / __ n ( [+syl,-stres] ( [+nas] ) ) #
 [+round,+syl,-hi,-lo,+long] > [+lo] / __ j ( [+syl,-stres] ( [+nas] ) ) #
 [+round,+syl,-hi,-lo,+long] > [+lo] / [-cont] __ r ( [+syl,-stres] ( [+nas] ) ) #
-{ˈɑː ɲ;ˈoː ɲ} > {ˈɒː ɲ;ˈɒː n} / __ [+round]
+[-hi,+long,+tense] > [+round,+lab,+lo] / __ ɲ [+round]
+[+front,+lo,+round] > [-round,-lab,-lo] / [+cor] __ 
+[+lo,+round] > [-front,+back] 
 [+back,+long,+syl,-lo] > [+front,-back] 
 [+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅/ __ [-syl]
 [+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅/ __ #
@@ -57,6 +59,7 @@ j > ɟ / # __
 [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
 n [+lab,-syl,+voi] > m/ __ [+front,-hi,+tense]
 {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / [-lab] __ ( [-syl] )* [+front,-round,-cons]
+[+front,+round] > [-front,+back] / [-front] __ [+nas,-lab,-back]
 [+front,-hi,-lo,-round,+prim] > ˈi e̯/ __ lˠ ( [-lo,-stres] ( m ) ) #
 [+front,-hi,-lo,-round,+prim] > ˈi e̯/ __ r ( [-lo,-stres] ( m ) ) #
 {ˈo;j ˈø;ˈø} > {ˈu o̯;ˈy e̯;ˈy e̯} / __ lˠ ( [-lo,-stres] ( m ) ) #

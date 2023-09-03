@@ -685,7 +685,10 @@ $ DV4.2P *x to *h -- this is listed as a PPAlb to PAlb change, but it is placed 
 x > h 
 
 $ DV4.1B3 & Bonnet 1998:193 -- *Tosk* insertion of b between m and unstressed vowels
-∅ > b / m __ [-stres]
+$ DIACLEA CORRECTION: the places this actually correctly happens seem to be before laterals -- grūmul-ā- > grumbulloj, meletta > (m)bletë (?), similatūra > shëmbëlltyrë
+	$ but not word initially: maledīc-œ > mallkoj, maliti-ā- > malcoj, molārem > mullar, molīnum > mullî, mulc-ē > mëlkoj  maluang-œ- > mallëngjej. 
+	$ accuracy gained with this fix: +0.8%
+∅ > b / @ m __ [-stres] [+lat]
 
 $DV3.1G1 : Tosk rhotacism -- "dated 800-1000 CE, Janson 1986: 190-211". 
 $ TODO NOTE FOR DIA : note that this may have to precede some vowel drops though -- note the example inimīcvs > armik (which is given by DV'18: 1739), though maybe ə was retained between n-m (note cited form anëmik) 

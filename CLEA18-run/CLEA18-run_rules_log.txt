@@ -121,7 +121,9 @@ j > ∅ / [+front,+cons] __
 l > ʎ / __ k
 l > ʎ / [-cont,+hi] __ 
 ∅ > b / m __ #
-[+syl] > [+nas,+son,0delrel] / __ [+nas,+cons]
+[-cons] > [+nas,+son,0delrel] / __ [+nas,+cons]
+n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ [+strid,+cons]
+n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ #
 [+lab,-son,+cont] > [+strid] 
 ʃ > ʒ / __ [+cons,+voi]
 [-ant,+distr,+delrel] > [+ant,-distr,+cont,-front,+cor,0delrel] 

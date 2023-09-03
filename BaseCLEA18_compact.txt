@@ -489,8 +489,11 @@ $ DV4.1B2 : b inserted between m and the word bound.-- cf. also Bonnet 1998: 195
 
 $ vowel nasalizations -- last of major vowel developments per DV1737 
 $ implementing: DV2.2.1G1-2, DV2.2.1H1-2, DV2.2.1I1-2, DV2.2.1J1 
-$ although nasalizations of ỹ, õ are not explicit, they are not explicitly excluded either, and it is simpler in terms of rule formation to include them. TODO reexamine this in case it may cause problems.
+$ although nasalizations of ỹ, õ are not explicit, they are not explicitly excluded either, and it is simpler in terms of rule formation to include them. 
 [+syl] > [+nas] / __ [+nas,+cons]
+
+$ Nasal vowel + nasal consonants become simple nasal vowels at some point. This does not seem to be explicated by De Vaan 2018, but it is implicit in some examples -- gju / Gheg gjû < glun-; Gheg lĩ < līnum, fqĩ < vicīnum, frẽ < frenum. Native vocab also show a pre-sibilant coalescence (mëz/mãz, pesë/pẽsë -- unclear if that z is still an affricate or not, so just do this in terms of stridents?). So we insert that here for now. These all concern only n, so only n is used in the formulation of this rule. Given the case of ftua < cotoneum one can generously allow this to happen not just for syllabics but also after nasalized glides, or glides after a nasal vowle (however uo's nasalized incarnation ends up being realized here, it is intended to be captured with this following rule formulation) 
+n > ∅ / [-cons,+nas] ([-cons,+nas]) __ {[+strid,+cons];#}
 
 $ DV4.1W2 = DV1742R2 -- h prosthesis from PAlb into modern Alb. 
 $ may not be deterministic (may have originated in hypercorrection), but per conference with De Vaan- - inclusion so as to test it (8/9)

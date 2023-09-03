@@ -640,8 +640,9 @@ $DV4.1E2 & DV4.1F2 -- iotation of l after velar stops. This does not occur in so
 $ DV1743.F5 -- -c(u)l- > c > ɟ if after nasals in ungj < avunculus -- effectively handled here and with the earlier voicing of k > g in the earlier Middle Proto-Albanian post-nasal voicing shift.
 l > ʎ / [-cont,+hi] __
 
-$ DV4.1B2 : b inserted between m and the word bound.-- cf. also Bonnet 1998: 195 
-∅ > b / m __ #
+$ DV4.1B2 : b inserted between m and the word bound.-- cf. also Bonnet 1998: 195
+$ DIACLEA: suppressed. Not worth the errors. TODO consider reinstating with finer grained conditioning.
+$ ∅ > b / m __ #
 
 $ vowel nasalizations -- last of major vowel developments per DV1737 
 $ implementing: DV2.2.1G1-2, DV2.2.1H1-2, DV2.2.1I1-2, DV2.2.1J1 
@@ -732,7 +733,8 @@ $loss of vocalic nasalization: DV2.1A2, C2, completing E1, F3
 $TODO FOR LAB,CHAM,ARB-,ARV- : y > i here -- DV2.1A3 
 
 $DV4.1R2 -- final devoicing of -z
-z > s / __ # 
+$ DIACLEA: suppressed. Correct only for medius > mes, which has a doublet medius>mjez ; mes may have evolved that way for syntactic reasons anyways. 
+$ z > s / __ # 
 
 $DV4.1V2 -- ʎ passes to j. This happens across Northern Tosk and most Lab (?) but not in some other isolated southern varieties like Arbereshe. It also seems to have affected all of Gheg but the distribution in Tosk suggests it happened in parallel later, rather than being a true shared development. 
 ʎ > j
@@ -773,7 +775,7 @@ $merge also DV4.1K2 : OAlb d + sh > ç
 $ version before 8/5/23 was : d [+cont,+cor,βant] > ∅ [+delrel,-βdistr,+strid]
 $ had to change because negative alpha values are not currently supported. 
 $ TODO consider restoring old version when possible. 
-	$ TODO DIA ANALYSIS : at present... no words are effected. 
+	$ TODO DIA ANALYSIS : at present... no words are effected. Consider removal.
 {d ʃ;d s;d θ} > {t͡ʃ;t͡s;t͡s}
 
 $DV4.1K1 -- Old Alb ʃ >  before a consonant 
@@ -787,7 +789,7 @@ c > t͡ʃ / __ [+cons]
 
 $DV4.1V5 -- ɲ to j "often between vowels and in final position". This is a pretty modern development within northern Tosk, and the variety underlying the standard (as are many Lab dialects? But may need to check that) but in many regional northern Tosk dialects it hasn't happened. Has happened in parts of Gheg? Anyhow it is unclear if De Vaan intends to treat this as a regular sound change. In ALLex there are a number of cases where ɲ survives intervocalically (Danjell, kunjoj, shenjë, gështenjë, linjë, mënjollë, mënjë, mushkonjë, mërqinjë, panjë, rozhponjë, shushunjë, tenjë) and a few it doesn't (incuneāre > ngujoj -- but this might be from ngul instead) 
 $ in final position there are two cases where it survives in ALLex : CVNEVM > kunj "spike", VĪCĪNVM > fqinj "neighbor" -- these are both after high vowels, but leave that for the Dia- cascade 
-$ DIACLEA insertion -- A1.III -- this DOES occur word finally after u (case of vicinum > fqinj could be analogical based on the plurals) 
+$ DIACLEA insertion -- A1.III -- this DOES occur word finally after i (case of vicinum > fqinj could be analogical based on the plurals) 
 ɲ > j / {[-hi];[+hi,+front]} __ #
 
 $~ Standard Albanian

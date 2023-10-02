@@ -358,7 +358,7 @@ $this is also part of the implementation of DV2.2.1A5,DV2.2.1B6, DV2.2.1L1, and 
 $the contextual trigger for this is left somewhat vague, but examples given include __ n t ī, __ C j, __ C ɛ, __ C {ɪ/e}, and one case that will probably concern __ ʎ (DV2.2.1A5) .. so the context can be what is C j, ʎ, i e ɛ ɪ here. 
 $it can be assumed this is intended as a law targeting stressed vowels, because it is placed in 2.2.1 "The stressed vowels of PAlb". No direct statement of ɲ being implicated.
 $DIACLEA CHANGE: I-mutation is BLOCKED by preceding labials, and also no evidence it occurs word-initially.
-$TODO IMPLEMENT FOR DIA : ē s (i,e,j) also is an i-mutation targetǃ -- perhaps ditch this as it is ... covered already?
+$TODO IMPLEMENT FOR DIA : ē s (i,e,j) also is an i-mutation targetǃ -- later note...: perhaps ditch this as it is ... covered already?
 {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / [-lab] __ ([-syl])* [+front,-round,-cons]
 
 $TODO NOTE FOR DIA: although phonemic nasalization is assigned a later point in the relative chronology (DV1737, number 8), it may be necessary here at least for /e/ and/or /ɛ/, to block ietation and allow the merger of DV2.2.1K with DV2.2.1L1 & DV2.2.1M (aka the merger of 5b.1 with 5b.2 and 5b.3)
@@ -798,13 +798,11 @@ $~ Standard Albanian
 $following changes only for future dialect handling. -- DV8/9 -- "except for the nj > j in verb forms, none are in the *written standard*", many widely accepted in spoken standard Albanian  
 
 
-
-
 $ increasingly in the 21st century spreading into Tosk; this is also DV4.1K3
 $c > t͡ʃ
 
 $ DV3.1B3 nd > n is listed for PALb to MAlb, but this is really mostly(? only?) Gheg so it is placed here for now
-$d > ∅ / n __
+$ d > ∅ / n __
 
 $DV1742.M1 h > f is more of a Gheg change (and probably needs to be more finely specified) thus this cascade does not implement it
 $DV1742.M2 θ > f with listed Gheg ufull for Tosk uthull (and thjeshtër/fjeshtër < FILIASTER, whatever is made of that) seems transparently more Gheg, and is perhaps not intended to be deterministic and/or needs more fine specification, so currently left unimplemented. 

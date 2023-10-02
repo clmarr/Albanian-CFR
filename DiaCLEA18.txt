@@ -130,19 +130,6 @@ $ l [+cons,+son] > lˠ
 $DIACLEA rule insertion: ʎ depalatalizes to l between high vowels
 ʎ > l / [+hi] __ [+hi]
 
-$merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) ; expanded to cover ŋ n too. 
-$ DIACLEA CHANGE: decoupled these. Handling gn phenomena elsewhere, on the basis of cognatus > kunat, fuskina > fuzhnjë, etc. Furthermore in Romanian words in original -ŋn- reflect in mn or even m- (agnellus > miel) 
-$kn and gn phenomena are now to be handled either in tandem with k/g(V-stres)t phenomena, or before APA. -- TODO(ǃǃ) that .
-$ TODO can remove this TODO when that is actually implemented^^ 
-${ŋ n j;ŋ n;ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ;ɲ;ɲ}
-n j > ɲ 
-
-$DV1740.D4 Lat -ng(u-)>ɲ / __ V[+front]
-$ form prior to 8/5/23 was: [+nas] [-cont,+back,+voi] ([+hi,+round,-cons]) / __ [+front,-cons,+hi]
-$changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
-[+hi,+round,-cons] > ∅ / [+nas] [-cont,+back,+voi] __ [+front,-cons,+hi]
-[+nas] [-cont,+back,+voi] > ɲ / __ [+front,-cons,+hi]
-
 $DIACLEA INSERTION: A2.VIII Latin o and oː alike are changed to short u before non-palatal sonorant consonants, in syllables that are antepenultimate or earlier (i.e. those that will not be final syllables in Late Proto-Albanian)
 	$ this is a very, very, major change  
 	$ this seems to be a change shared with Vlacho-Romance. 
@@ -206,6 +193,18 @@ $changed to sidestep then-current input-side issues in DiaSim. TODO consider res
 $ in practice qu- and gu- never occur without following vowels, so it can be expressed without the following vowel. 
 $ TODO consider moving this later, or having relevant coloring phenomena operate beforehand (quīs > qysh, quadrum > kodër, quartus > kort, etc...)
 w > ∅ / [-cont,+back] __
+
+$merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) ; expanded to cover ŋ n too. 
+$ DIACLEA CHANGE: decoupled these. Handling gn phenomena elsewhere, on the basis of cognatus > kunat, fuskina > fuzhnjë, etc. Furthermore in Romanian words in original -ŋn- reflect in mn or even m- (agnellus > miel) 
+$kn and gn phenomena are now to be handled either in tandem with k/g(V-stres)t phenomena, or before APA. --
+${ŋ n j;ŋ n;ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ;ɲ;ɲ}
+n j > ɲ 
+
+$DV1740.D4 Lat -ng(u-)>ɲ / __ V[+front]
+$ form prior to 8/5/23 was: [+nas] [-cont,+back,+voi] ([+hi,+round,-cons]) / __ [+front,-cons,+hi]
+$now only doing the ng > ɲ aspect, as the loss of w after g is handled by DV1744.A2 above. 
+$[+hi,+round,-cons] > ∅ / [+nas] [-cont,+back,+voi] __ [+front,-cons,+hi]
+[+nas] [-cont,+back,+voi] > ɲ / __ [+front,-cons,+hi]
 
 $ DV1744.C4 -- emergence of PAlb β before Latin long ō and the reflex of Alb long-ā, but PPAlb ō is not listed. PAlb β itself is the reflex of initial Latin w- and PPAlb β, itself from a PIE u̯. Treat as w for now, betacize later, as then merge them here, with a single rule. In order to impact PPAlb ā and Latin ō but not PPAlb ō, PPAlb ō must have a different reflex at this stage. But De Vaan 2018 does not seem to PPAlb ō and Latin  differently otherwise, in fact they are typically handled together (cf. DV1736G1, DV2.2.1B7 & DV2.2.1B8) except when i-mutation is concerned (DV1736H1, which can simply be handled by placing it in the post-Greek but pre-Latin area of PAlb). So unless there are issues that emerge upon later examination, we will be treating PPAlb ō as potentially a trigger as well.
 $ although is not explicitly stated, the examples all concern initial vowels. 

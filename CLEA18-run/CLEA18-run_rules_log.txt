@@ -18,9 +18,6 @@ r j > ʎ / @ __ @
 l j > ʎ 
 r l > lˠ 
 ʎ > l / [+hi] __ [+hi]
-n j > ɲ 
-[+hi,+round,-cons] > ∅ / [+nas] [-cont,+back,+voi] __ [+front,-cons,+hi]
-[+nas] [-cont,+back,+voi] > ɲ/ __ [+front,-cons,+hi]
 [+round,-lo,-hi] > [+hi,-long,-splng] / @ __ [+nas,+cons] [-cont]
 [+round,-long,-lo] > [+hi] / @ __ m ( [-syl] )* [+syl] ( [-syl] )* [+syl]
 [+round,-lo,-prim,-hi] > [+hi,-long,-splng] / @ __ [+lat,-front]
@@ -30,6 +27,8 @@ j > ∅ / w __
 w > ∅ / [+syl] __ [+syl]
 w > b / [+cor,-nas,+son] __ 
 w > ∅ / [-cont,+back] __ 
+n j > ɲ 
+[+nas] [-cont,+back,+voi] > ɲ/ __ [+front,-cons,+hi]
 ∅ > w / # __ [-hi,+round]
 w > β / # __ 
 j > ɟ / # __ 

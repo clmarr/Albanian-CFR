@@ -144,7 +144,7 @@ $DIACLEA INSERTION: A2.VIII Latin o and oː alike are changed to short u before 
 $part I: implementing the rule for __ NC
 [+round,-lo,-hi] > [+hi,-long] / @ __ [+nas,+cons] [-cont]
 
-$part II: implementing the rule for m elsewhere, for /o/, antepenultimate or earlier
+$part II: implementing the DiaCLEA-inserted rule A2.VIII for m elsewhere, for /o/, antepenultimate or earlier
 [+round,-long,-lo] > [+hi] / @ __ m ([-syl])* [+syl] ([-syl])* [+syl]
 
 $part III: non-primary-stressed o and o: are affected before ɫ and l 
@@ -173,17 +173,20 @@ $ TODO long term - -consider only applying it for -rs- and -sr- for pre-Latin et
 $ r [+cons] > r 
 $ [+cons] r > r 
 
-$ DIACLEA CORRECTION (insertion) -- disappearance of j after w -- 561 laqueum > lak, 551 quiētus > qetë, 932 salviella > shërbelë ; perhaps also broaden to cover alveolu > nullë "gum" if we believe in that etymology. 
+$ DIACLEA CORRECTION (insertion) -- disappearance of j after w -- 561 laqueum > lak, 551 quiētus > qetë, 932 salviella > shërbelë ; perhaps also broaden to cover alveolu > nullë "gum" if we believe in that etymology. Seems apparent in Romanian too : quiētus > (in-)cet. 
 j > ∅ / w __ 
+
+
+$TODO before w deletion and modification phenomena operate, there are some things that need to be fixed... 
+	$ TODO 1 disappearance of w into vowel coloring in: 167 eruilla > rrylë, 189 februarius > f(ë)ruor (via ɒː ?), potentially others -- though not servitium > shërbes) 
 
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM, njerkë "stepmother" < NOVERCA
 $ TODO RELOCDATE THIS LATER -- W phenomena including coloring stuff where this matters happen much later
 w > ∅ / [+syl] __ [+syl]
 
-$TODO before w deletion and modification phenomena operate, there are some things that need to be fixed... 
-	$ TODO 1 disappearance of w into vowel coloring in: 167 eruilla > rrylë, 189 februarius > f(ë)ruor (via ɒː ?), potentially others -- though not servitium > shërbes) 
-$ p1743 -- w > b after r and l. I.e. the (non-nasal) (sonorant) coronals. 
-w > b / [+cor,-nas,+son] __
+$ DV1743.B4 -- w > b after r and l. I.e. the (non-nasal) (sonorant) coronals. 
+$ DIACLEA fix: only after a non-initial vowel. (e.g. not februarius > fëruor, eruilla > rrylë, alveolus > unatt. llullë > nullë...) 
+w > b / @ [+syl] [+cor,-nas,+son] __
 
 $ De Vaan p1743-4 -- w dropped between k (DV1743.G2) or g (DV1744.A2), and vowels. This will eventually feed the palatalization of these velars before i/e/y (p1743) but this feeding does not have to be explicitly coded in. 
 $ form prior to 8/5/23 was: {[-cont,+back] w;[-cont,+back,+round]} > {[-round] ∅;[-round]} / __ [-cons] 

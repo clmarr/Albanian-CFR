@@ -241,6 +241,10 @@ $ DV2.2.2c "at an early stage" internal unstressed post-tonic vowels go to schwa
 $ originally formulated here so as to not count items with inflectional ending consonants (e.g. accusative -m) as "internal" : [-stres] > ə / [+prim] (@)* __ ([-syl])* [+syl] -- but now this is no longer necessary(?)
 $ the vowel reduction and falls as a whole are said to happen "in the last phase of the Proto-Albanian period... after i-mutation and a-mutation" but it seems this does not apply to these early internal post-tonic reductions given the cited cases of lardh and verdh, nor to the internal pretonic vowels that are reduced to ə and/or "lost at a stage preceding PAlb" (with Latin etyma cited -- cotoneus > ftua, nepōtia > mbesë, etc.); note that APA is not strictly within De Vaan's "PAlb here". 
 $ DIACLEA CHANGE: does not seem to affect low-vowels at this point -- yet. In most cases it will, though. 
+$ DIACLEA TODO: this may need to be moved later as some of these appear to still trigger i-mutation. Check: 12 ˌakkˈipitu > qift, 13 ˌakkˈipitre > qiftër, 33 ˈangelu > ëngjell or engjell...? , 199 fˌiʎˈaster > fjeshtër, 237 gˈalbinu > gjelbër, 273 hˈiniːkula > hingël , 362 kalike > qelq
+	$ also check ... 28 ˌamˈandulˠa > mendull , 404 casina > qeshër ... etc. 
+	$ also -- invalid feeding of i-mutation 
+		$ 89 dˈɛmone > djemër
 [-stres,-lo] > ə / [+prim] (@)* __ @ 
 
 
@@ -345,6 +349,7 @@ $ This can be handled in tandem with the raising of /ʊ/ back to /u/, which occu
 [+back,+syl] > [+tense]
 
 $DIACLEA INSERTION -- A2.X -- ɪ goes back up to i before ʎ (5 known cases for ˈɪʎ, e.g. familia > fëmijë, scantilia > shkëndijë) and before labials (4 cases for ˈɪp and ˈɪf, ex. gripsa > grifshë). This is better not handled as part of i-mutation as some of the pre-labial cases don't work that way (gripsa > grifshë) and it appears that ʎ only triggers what looks like i-mutation for /ɪ/.   
+$ TODO note that all cases except for grifshë can be counterexplained by i-mutation though. 
 ˈɪ > ˈi / __ {ʎ;[+lab]}
 
 $ It seems there is a difference between native and Latin *i outcomes --  DV1734~2.2A1: the former all end up as PAlb *i, but in DV1735~2.2A5 Latin /i/ only becomes PAlb *i with i-mutation, otherwise becoming *e (DV1735~2.2B11) 

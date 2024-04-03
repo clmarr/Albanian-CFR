@@ -176,7 +176,6 @@ $ [+cons] r > r
 $ DIACLEA CORRECTION (insertion) -- disappearance of j after w -- 561 laqueum > lak, 551 quiētus > qetë, 932 salviella > shërbelë ; perhaps also broaden to cover alveolu > nullë "gum" if we believe in that etymology. Seems apparent in Romanian too : quiētus > (in-)cet. 
 j > ∅ / w __ 
 
-
 $TODO before w deletion and modification phenomena operate, there are some things that need to be fixed... 
 	$ TODO 1 disappearance of w into vowel coloring in: 167 eruilla > rrylë, 189 februarius > f(ë)ruor (via ɒː ?), potentially others -- though not servitium > shërbes) 
 
@@ -211,7 +210,7 @@ $[+hi,+round,-cons] > ∅ / [+nas] [-cont,+back,+voi] __ [+front,-cons,+hi]
 $ DV1744.C4 -- emergence of PAlb β before Latin long ō and the reflex of Alb long-ā, but PPAlb ō is not listed. PAlb β itself is the reflex of initial Latin w- and PPAlb β, itself from a PIE u̯. Treat as w for now, betacize later, as then merge them here, with a single rule. In order to impact PPAlb ā and Latin ō but not PPAlb ō, PPAlb ō must have a different reflex at this stage. But De Vaan 2018 does not seem to PPAlb ō and Latin  differently otherwise, in fact they are typically handled together (cf. DV1736G1, DV2.2.1B7 & DV2.2.1B8) except when i-mutation is concerned (DV1736H1, which can simply be handled by placing it in the post-Greek but pre-Latin area of PAlb). So unless there are issues that emerge upon later examination, we will be treating PPAlb ō as potentially a trigger as well.
 $ although is not explicitly stated, the examples all concern initial vowels. 
 $ DIACLEA CORRECTION: also occurs before initial short /o/ too it seems.
-$ TODO move this later . 
+$ TODO move this to a later time . 
 ∅ > w / # __ [-hi,+round]
 
 $ DV1744.C1 : Lat. w- > β. 
@@ -241,7 +240,7 @@ $ DV2.2.2c "at an early stage" internal unstressed post-tonic vowels go to schwa
 $ originally formulated here so as to not count items with inflectional ending consonants (e.g. accusative -m) as "internal" : [-stres] > ə / [+prim] (@)* __ ([-syl])* [+syl] -- but now this is no longer necessary(?)
 $ the vowel reduction and falls as a whole are said to happen "in the last phase of the Proto-Albanian period... after i-mutation and a-mutation" but it seems this does not apply to these early internal post-tonic reductions given the cited cases of lardh and verdh, nor to the internal pretonic vowels that are reduced to ə and/or "lost at a stage preceding PAlb" (with Latin etyma cited -- cotoneus > ftua, nepōtia > mbesë, etc.); note that APA is not strictly within De Vaan's "PAlb here". 
 $ DIACLEA CHANGE: does not seem to affect low-vowels at this point -- yet. In most cases it will, though. 
-$ DIACLEA TODO: this may need to be moved later as some of these appear to still trigger i-mutation. See file "internal vowel reduction versus i-mut" 
+$ DIACLEA TODO CHANGE: possibly move to -("second") VOWEL DROP WAVE
 [-stres,-lo] > ə / [+prim] (@)* __ @ 
 
 
@@ -430,7 +429,9 @@ h > ∅ / __ [-stres]
 h > ∅ / [+syl] __
 $∅ > h / # __ [+stres] r
 
-$ --- Second wave of early vowel reduction phenomena here --- 
+$ --- Second wave (as originally written) of early vowel reduction phenomena here --- 
+$_- VOWEL DROP WAVE -_
+$ TODO: currently considering moving the initial syncope wave to this area (currently rule 35, resolving in rule 38); make a note if you do.  
 
 $ DV2.2.2a -- in absolute initial position, all vowels reduce to schwa, on their way to zero (except in __ RC in Buzuku) 
 $ TODO FOR DIA consider suppressing the Buzuku rule here. 

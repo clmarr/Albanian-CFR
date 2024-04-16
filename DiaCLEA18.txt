@@ -454,11 +454,14 @@ $In 2.2.2b, it is unclear what determines the drop of pretonic schwa, but based 
 	$ (ii) k ə t > f t. -- This latter one will be handled in the later kt > ft shift as "2.2.2b.iii"
 $ note that some are dropped later -- note Early Modern Tosk vëllezër, vullëndet, mallëkon "to cures", arësye "reason" etc.
 $ part i, schwa deleted between n and stops.
-ə > ∅ / n __ [-cont]
-
+$ DIACLEA CORRECTION: while preserving the deletion of ə between n and T, even word initially, it is extended to m, also even word initially
+ə > ∅ / [+nas,+cons] __ [-cont]
+$ DIACLEA CORRECTION: also, pretonic NəN to NN if there is a consonant beforehand (i.e. not inimicus > armik)
+ə > ∅ / [+cons] (@)* [+nas,+cons] __ [+nas,+cons] (@)* [+prim]
  
 $TODO FOR DIA -- want to handle place assimilation of the n here too -- like: n (ə) > [αant,βcor,ɣlab,ðhi,ɛback,ɸfront] / __ [-cont,αant,βcor,ɣlab,ðhi,ɛback,ɸfront]
 	$ note that m does NOT assimilate in this way : emtë, kumt, kumtër... 
+	$ however it does eject a place-assimilating -n- initially before t (metaxum > mëndafsh, matricula > (më-?)ndrikull) and maybe ɟ (magia > mëngji?) ... or just things that aren't ð which will soon disappear (perhaps generalize to β, maybe even ɣ...) 
 
 $DIACLEA CORRECTION: schwa deleted in R/N m ə N (qerm, kungoj, kernjoj, kulm -- not elsewhere, see as seen in the flapping in femër, numëroj < nomin-ā-, djemër, timër) 
 ə > ∅ / [+son,+cons] m __ [+nas,+cons]
@@ -532,10 +535,13 @@ $	[+prim,αhi,βlo,ɣround,ðfront] [-prim,αhi,βlo,ɣround,ðfront] > [+long] 
 [+prim] [-prim] > [+long] ∅ / @ __ @
 
 $DV1734.1.III compensatory lengthening
-$ based on examples in DV2.2.2b and 2.2.2c, posttonic vowels seem to be lost at this point in the context R __ T, with lengthening of a prior vowel if it is stressed. (amita > emtë, manica > mëngë, veritātem > vërtet , spīritus > shpirt; vs. orphanus > varfër, epíscopus > peshkëp, contrā > kundër, tjetër < -étero-, sherbëtuor, ;
+$ based on examples in DV2.2.2b and 2.2.2c, posttonic vowels seem to be lost at this point in the context R __ T, with lengthening of a prior vowel if it is stressed. (amita > emtë, manica > mëngë, veritātem > vërtet , spīritus > shpirt; vs. orphanus > varfër, epíscopus > peshkëp, contrā > kundër, tjetër < -étero-, sherbëtuor...
+$ lengthening aspect implemented first 
 $ --not near -ll- it seems so -long,-back to be safe :  maledicere > mallëkoj but also mallkoj?; likewise voluntātem > vull(ë)n(d)et ; note also Buzuku's sonëte -- but there might be analogical-lexical reasons for that as it is so - nate?) 
 $TODO reexamine this? 
 [+prim] > [+long] / __ [+cons,+son,-long,-back] ə [-cont]
+
+$syncope aspect of DV1734.1.III implemented below; this is also DV1734.4
 ə > ∅ / [+cons,+son,-long,-back] __ [-cont]
 
 $DV1734.1.IV -- 'lengthening before nasals, liquids, sibilants'

@@ -76,7 +76,8 @@ h > ∅ / [+syl] __
 [-prim] > ∅ / # __ 
 ∅ > ə / # __ [+son,+cons] [+cons]
 [-prim] > ə / @ __ ( @ )* [+prim]
-ə > ∅ / n __ [-cont]
+ə > ∅ / [+nas,+cons] __ [-cont]
+ə > ∅ / [+cons] ( @ )* [+nas,+cons] __ [+nas,+cons] ( @ )* [+prim]
 ə > ∅ / [+son,+cons] m __ [+nas,+cons]
 [-son] > [-voi] / __ [-voi]
 p > k / __ t

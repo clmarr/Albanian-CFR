@@ -90,6 +90,7 @@ t > d / [+stres] ( [-syl] )* n __
 θ > f / [+cons] __ 
 w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
+s > z / __ [+voi,+cons,-lat]
 s > ʃ 
 ˈe > ˈɑ / k __ l
 ˈe > ˈɑ / k __ rː
@@ -122,7 +123,7 @@ l > ʎ / [-cont,+hi] __
 n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ [+strid,+cons]
 n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ #
 [+lab,-son,+cont] > [+strid] 
-ʃ > ʒ / __ [+cons,+voi]
+ʃ > ʒ / __ [+cons,+voi,-son]
 [-ant,+distr,+delrel] > [+ant,-distr,+cont,-front,+cor,0delrel] 
 x > h 
 ∅ > b / @ m __ [-stres] [+lat]

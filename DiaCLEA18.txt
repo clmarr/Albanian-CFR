@@ -371,7 +371,7 @@ $TODO IMPLEMENT FOR DIA : ē s (i,e,j) also is an i-mutation targetǃ -- later 
 
 $TODO NOTE FOR DIA: although phonemic nasalization is assigned a later point in the relative chronology (DV1737, number 8), it may be necessary here at least for /e/ and/or /ɛ/, to block ietation and allow the merger of DV2.2.1K with DV2.2.1L1 & DV2.2.1M (aka the merger of 5b.1 with 5b.2 and 5b.3)
 
-$DIACLEA INSERTION: before diphthongization/ietation (of the round elements), front round y and ø seem to retract before n and ɲ (e.g. Latin words in -ōnem > PAlb *uo, axungia > MPA ˌɑksˈyɲjɑ > ashunjë not *ashynjë and likewise in sanguisungia, words in -onju > PAlb *uo as well; ikone > korë; immūne > mû; luntrem > lundër not lyndër (via i-mutation), etc... ) but not m or ŋ (iunctura > yndyrë, pōma > pemë, brūma > brymë, etc...), and also not when in jø (ratiōnem > arësye etc.) 
+$DIACLEA INSERTION: before diphthongization/ietation (of the round elements), front round y and ø seem to retract before n and ɲ (e.g. Latin words in -ōnem > PAlb *uo, axungia > MPA ˌɑksˈyɲjɑ > ashunjë not *ashynjë and likewise in sanguisungia, words in -onju > PAlb *uo as well; ikone > korë; immūne > mû; luntrem > lundër not lyndër (via i-mutation), etc... ) but not m or ŋ (iunctura > yndyrë, iūnctus > gjymtë, pōma > pemë, brūma > brymë, etc...), and also not when in jø (ratiōnem > arësye etc.) 
 	$TODO: however, note that of hte 13 cases here (not counting arsye which ends up fronted otherwise), 3 are cases where the fronting would be due to i-mutation that could be blocked by labials ( cāpōnem > kapua, pāvōnem > pallua, timōnem > timua), 1 is probably in a later layer (īconem > korë), 3 are possibly velars bleeding i-mutation (falcōnem drancōnem lacōnem > fajkua, drangua, lëkua), and one has an apparent resuffixation (rōsupōne > rozhponjë). Of the remainder, only leōnem is originally with [ˈo] at this stage; the mere four  that remain (immūne > mu , luntrem > lundër, sanguisungia > shushunjë, axungia > ashunjë) are all with u. Consider reformulating this. 
 [+front,+round] > [-front,+back] / [-front] __ [+nas,-lab,-back]
 
@@ -499,12 +499,15 @@ t > d / [+stres] ([-syl])* n __
 $ mp > mb and nk > ng everywhere they occur.
 [-cont,-cor] > [+voi] / [+nas] __ 
 
-$DV4.1N (=DV1742I) OAlb f < PAlb θ / C __, including OAlb ënfle -- cf Matzinger 2006: 71 -- Matzinger, Joachim. 2006.  anische Text Mbsuame e Kreshterë (Dottrina cristiana) des Lekë Matrënga von 1592. Eine Einführing in die albanische Sprachwissenschaft. Seems to be in all dialects? 
+$DV4.1N (=DV1742I) OAlb f < PAlb θ / C __, including OAlb ënfle -- cf Matzinger 2006: 71 -- Matzinger, Joachim. 2006.  Altalbanische Text Mbsuame e Kreshterë (Dottrina cristiana) des Lekë Matrënga von 1592. Eine Einführing in die albanische Sprachwissenschaft. Seems to be in all dialects? 
 θ > f / [+cons] __
 
 $DV4.2E & DV4.2F3 -- wave of palatalization, occuring before front vowels, including fronted former long round vowels (y, ø) but not including reduced vowels.  Absorbs /w/. 
 w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
+
+$DIACLEA insertion: A2.XIV. Latin /s/ voices to /z/ rather than going to /ʃ/ before at least m and z (exmulgia > zmojle, crisma > krezëm, crismāre > krezmoj, exvigilāre > zgjoj, scabies >zgjebe, scoria > zgjyrë) but not /l/ (slucus > shluk). Right now maximally assume it happens before all voiced consonants.
+s > z / __ [+voi,+cons,-lat]
 
 $ DV1744.H ~ s becomes ʃ -- for s in reflexes of Old Greek (presh < prason), Latin, and the earliest Slavic loans (grusht, shkrap) becomes ʃ (1744.H) -- but this is not fed by tʃ becoming s (DV1744.F and 1744.G) 
 s > ʃ
@@ -694,7 +697,8 @@ $ placed between PAlb and modern Alb by DV´18 but could probably be placed earl
 [+lab,-son,+cont] > [+strid]
 
 $DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced consonants to modern ʒ -- has to be before end of the fall of lenited stops (in this case β) 
-ʃ > [+voi] / __ [+cons,+voi]
+$DIACLEA fix: now only happens before obstruents as there are exceptions for at least /l/ and possibly other resonants. In reality this may be morphological though, as it only seems to happen to the prefix sh- "dis, un" 
+ʃ > [+voi] / __ [+cons,+voi,-son]
 
 $ dʒ and tʃ pass to z and s -- whether from PPAlb dʒ/tʃ or from reflexes of Latin loans in dj-, tj (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3)
 $ This effects also the earliest Slavic loanwords : e.g. poroçit > porosit "to request", sul "small boat" , etc. 

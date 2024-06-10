@@ -195,7 +195,7 @@ $ form prior to 8/5/23 was: {[-cont,+back] w;[-cont,+back,+round]} > {[-round] �
 $ was formulated so as to handle if these are treated instead as labialized consonants (alas in practice the format in ALLex currently is always "k w" and "ɡ w", not "kʷ", "ɡʷ".) 
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
 $ in practice qu- and gu- never occur without following vowels, so it can be expressed without the following vowel. 
-$ TODO move   this later, or having relevant coloring phenomena operate beforehand (quīs > qysh, quadrum > kodër, quartus > kort, etc...)
+$ TODO move   this later, or having relevant coloring phenomena operate beforehand (quīs > qysh, quadrum > kodër, quartus > kort, civitatem > qytet, eruilla >rrylë; lso possibly, with  the Xʷ(?), factūra > fytyrë and axungia >ushu(n)jë ~ Romanian osânză)
 w > ∅ / [-cont,+back] __
 
 $merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) ; expanded to cover ŋ n too. 
@@ -265,7 +265,7 @@ $DIACLEA CHANGE: suppressed. Effects of this currently handled in second drop wa
 $ ə > ∅
 
 $ TODO need to work on this rule -- see "kt outcomes" file. 
-$ k becoming yod before /t/ if next to front vowel -- De Vaan 2018(:1744)  -- DV1744J3
+$ k becoming yod before /t/ if next to front vowel -- De Vaan 2018(:1744)  -- DV1744.J3
 	$ potentially IMPORTANT: what frontness should we treat /a/ as having at this point? For the inputs to Gallo-Romance, Pope 1934 treats Latin /a/ and /aː/ as originally backed, but becoming fronted... what should they be here?  
 	$ given that he lists SANCTVS > shenjtë "holy, saint", this either ...
 		$ (a) must be after VN coalescence, 
@@ -480,7 +480,7 @@ $ this includes initial position after the loss of unstressed first syllable vow
 $ DV1744.B4 -- also k > f before s with same qualifications. 
 $ this can be jointly handled with the same development before /s/ (which is understood to not yet be ʃ)
 $ and the same development for pt to ft (DV1744.B3), which also absorbs (b) implying a regressive devoicing in praebyter > prift (example given in DV1744.B3) 
-$ k > f aspect is bled before front vowels by k > j phenomena it seems (DV1744J3)
+$ k > f aspect is bled before front vowels by k > j phenomena it seems (DV1744.J3)
 $ De Vaan does not include ps > fs(h) -- data seems inconsistent as there is gripsa > grifshë but psh- outcomes in supsīritāre > psherëtij and supsīrium > pshirë. 
 $ handling DV2.2.2b.iii (kˌət  >ft ) here too. 
 p > k / __ t
@@ -516,8 +516,9 @@ $ DV1744.H ~ s becomes ʃ -- for s in reflexes of Old Greek (presh < prason), La
 s > ʃ
 
 $DV2.2.1C5: Latin short e > a in "q, sh" __ "rr, l". No explicit word on the dating of this except that it is between post-Latin PPAlb, and PAlb; the forms used (q, sh,... rr, l) suggest a later date but at first inspection it seems to precede the merger of ae to short e (caelum > qiell) which certainly must have been before k > q (=[c]). So it is placed right after "rr, l" emerged (with what would become dark l now being long l, and rr being long r)
+$Per its current placement after ietation, a j is imposed, and ˈɛ is used. 
 $no clear way to block this for PPAlb *e, so this will need to be fixed if errors arise (TODO) 
-ˈe > ˈɑ / {k;[+cor,-lab,+cont]} __ {l;rː}
+ˈɛ > ˈɑ / {k;[+cor,-lab,+cont]} __ {l;rː}
 
 $bandaid -- fronting of remaining low vowels at this point, because the lexicon has modern Albanian low vowels as front. 
 [+lo] > [+front,-back]

@@ -242,15 +242,15 @@ $----- early aspects of vowel reduction and falls -----
 $ DV2.2.2c "at an early stage" internal unstressed post-tonic vowels go to schwa, some soon to be lost. 
 $ originally formulated here so as to not count items with inflectional ending consonants (e.g. accusative -m) as "internal" : [-stres] > ə / [+prim] (@)* __ ([-syl])* [+syl] -- but now this is no longer necessary(?)
 $ the vowel reduction and falls as a whole are said to happen "in the last phase of the Proto-Albanian period... after i-mutation and a-mutation" but it seems this does not apply to these early internal post-tonic reductions given the cited cases of lardh and verdh, nor to the internal pretonic vowels that are reduced to ə and/or "lost at a stage preceding PAlb" (with Latin etyma cited -- cotoneus > ftua, nepōtia > mbesë, etc.); note that APA is not strictly within De Vaan's "PAlb here". 
-$ DIACLEA CHANGE: does not seem to affect low-vowels at this point -- yet. In most cases it will, though. 
-$ DIACLEA CHANGE: moved to (originally) second _VOWEL DROP WAVE_ 
+$ DIACLEA CHANGE C1B.III: does not seem to affect low-vowels at this point -- yet. In most cases it will evenutally , though. 
+$ DIACLEA CHANGE D3.III: moved to (originally) second _VOWEL DROP WAVE_, although some of the effects placed not long after this at the beginning of Middle Proto-Albanian. There may still be some justification for 
 $[-stres,-lo] > ə / [+prim] (@)* __ @ 
 
 
 $--------------------Middle Proto-Albanian-------------------
 =Middle Proto-Albanian
 $ main wave of contact with Proto-Romanian (temporarily?) complete now
-$ evidence from the loans indicates that around this time, the reflexes of hte PIE palatovelars in Alb should be around ts/dz (evidenced mainly by Aromanian as these deaffricate in Romanian), tentatively before the merger of PPAlb a: into o is complete (cf. mazăre for Alb modhull, rață for rosë "duck"), before the passage of PPAlb tʃ dʒ to s z (ciută -- sutë etc...), after the retraction of post-vocalic s (mosh "old") but before the same impact on cluster s including in Latin loans (strunga-shtrungë; Lat fossātum > ORom fsat, Alb fshat, Lat spodium > Alb shpuzë > Rom spuza), tentatively after the emergence of some schwa (Rom nǎpârcǎ -- Alb nëpërkë "adder"), after the emergence of Albanian suffix -zë, perhaps after the emergence of the Albanian postposed article in -të (Drobeta), at a point when initial PPAlb w is in the stage of [β] (Rom abur -- Alb avull "vapor", vatra-vatër) which closes to /b/ in Romanian just like PPAlb /ð/ (< intervocalic d) goes to PVlach /d/; before ALb long u: > y (ghiuj/gjysh, buc/byk... , the -i- in ghiuj probably for ohter reasons though that is certainly interesting...) 
+$ evidence from the loans indicates that around this time, the reflexes of hte PIE palatovelars in Alb should be around ts/dz (evidenced mainly by Aromanian as these deaffricate in Romanian), tentatively before the merger of PPAlb a: into o is complete (cf. mazăre for Alb modhull, rață for rosë "duck"), before the passage of PPAlb tʃ dʒ to s z (ciută -- sutë etc...), after the retraction of post-vocalic s (mosh "old") but before the same impact on cluster s including in Latin loans (strunga-shtrungë; Lat fossātum > ORom fsat, Alb fshat, Lat spodium > Alb shpuzë > Rom spuza), tentatively after the emergence of some schwa (Rom nǎpârcǎ -- Alb nëpërkë "adder" --though as of June 2024 this idea is set aside as the vowel reduction patterns of Rom and Alb are too different to warrant so much effort to reconcile them), after the emergence of Albanian suffix -zë, perhaps after the emergence of the Albanian postposed article in -të (Drobeta), at a point when initial PPAlb w is in the stage of [β] (Rom abur -- Alb avull "vapor", vatra-vatër) which closes to /b/ in Romanian just like PPAlb /ð/ (< intervocalic d) goes to PVlach /d/; before ALb long u: > y (ghiuj/gjysh, buc/byk... , the -i- in ghiuj probably for ohter reasons though that is certainly interesting...) 
 
 $ resolution of DV1744.D & DV1744.E1 -- see notes on this above, this is motivated by the outcomes in Aromanian and Romanian of PPAlb ɟ͡ʝ vs. PPAlb d in cases where they both ended up as ð in Alb. 
 {t͡s;d͡z} > {θ;ð}
@@ -261,8 +261,16 @@ $DIACLEA rule insertion: ʎ depalatalizes to l between high vowels
 ʎ > l / [+hi] __ [+hi]
 
 $ DV2.2.2c, resolution -- effacement of internal posttonic vowels is complete in time to block loss of d (> ð) in verdh and lardh, based on example words used. 
-$DIACLEA CHANGE: suppressed. Effects of this currently handled in second drop wave.  
+$DIACLEA CHANGE: largely suppressed. Effects of this currently handled in second drop wave; some handled below, for non-low vowels, without a need to explicitly pass through schwa, for hte following contexts
+	$ atonic (non-low) vowels in [+son] t/d __ k 
+	$ atonic (non-low) vowels in r  __ [-son,-lab]
+	$ non-primary (non-low) vowels in in k/g __ t/k(/d/g) V
+	$atonic (non-low) vowels in V b/p/g/k __ [-voi,-lab] 
 $ ə > ∅
+[-stres,-lo] > ∅ / [+son] [+cor,-cont] __ k 
+[-stres,-lo] > ∅ / r __ [-son,-lab]
+[-prim,-lo] > ∅ / [+back,-cont] __ [-cont,-lab] [+syl]
+[-stres,-lo] > ∅ / [+syl] [-cor,-cont] __ [-voi,-lab]
 
 $ TODO need to work on this rule -- see "kt outcomes" file. 
 $ k becoming yod before /t/ if next to front vowel -- De Vaan 2018(:1744)  -- DV1744.J3
@@ -361,6 +369,7 @@ $ this thus implements DV2.2.1B11
 [+syl,+hi,-tense] > [-hi,+tense]
 
 $DIACLEA INSERTION : nw (or nβ) > m before [e], currently unspecified for stress though all cases seem to be before countertonic [ˌe]. This explains all nw > m cases except for the proposed etymology of invernālia for mërrajë. Motivation for this may be found in differentiating this from [ø], which in some accounts (e.g. Orel 2000) may have been [we] (note that the same sound becomes [uo] before sonorants). 
+$ TODO maybe broaden this and have nɸ involved for cases like iūnctus 
 n [+lab,-syl,+voi] > m / __ [+front,-hi,+tense]
 
 $I-MUTATION HERE, since it can feed ietation/diphthongizations (in case of PPAlb a: > ɒː > ... > ye) and also bleed them. 
@@ -509,7 +518,7 @@ $DV4.2E & DV4.2F3 -- wave of palatalization, occuring before front vowels, inclu
 w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
 
-$DIACLEA insertion: A2.XIV. Latin /s/ voices to /z/ rather than going to /ʃ/ before at least m and z (exmulgia > zmojle, crisma > krezëm, crismāre > krezmoj, exvigilāre > zgjoj, scabies >zgjebe, scoria > zgjyrë) but not /l/ (slucus > shluk). Right now maximally assume it happens before all voiced consonants.
+$DIACLEA insertion: A2.XIV. Latin /s/ voices to /z/ rather than going to /ʃ/ before at least m and z (exmulgia > zmojle, crisma > krezëm, crismāre > krezmoj, exvigilāre > zgjoj, scabies >zgjebe, scoria > zgjyrë) but not /l/ (slucus > shluk). Right now maximally assume it happens before all voiced consonants. Has to happen after i-mutation (if that's source of hte voicing scabies and scoria) and the syncope ofthe -i- exvigilare.
 s > z / __ [+voi,+cons,-lat]
 
 $ DV1744.H ~ s becomes ʃ -- for s in reflexes of Old Greek (presh < prason), Latin, and the earliest Slavic loans (grusht, shkrap) becomes ʃ (1744.H) -- but this is not fed by tʃ becoming s (DV1744.F and 1744.G) 
@@ -690,7 +699,7 @@ $ DIACLEA : suppressed
 $ ∅ > h / # __ [+syl]
 
 $DV3.1A2 -- "PAlb. β" to m before "VN$". 
-$Some ambiguity of dating of this rule -- this is placed between Proto-Albanian and modern Albanina, but the wording of this rule assumes beta has emerged but has not yet passed to /v/ (all the cases listed are where beta reflects Latin /w/), and it also assumes the /n/ is still present in this ve:nsi:ca despite nasal-spirant stuff that happened quite early... unless this word was loaned in another wave? Some examination may be necessary.
+$Some ambiguity of dating of this rule -- this is placed between Proto-Albanian and modern Albanian, but the wording of this rule assumes beta has emerged but has not yet passed to /v/ (all the cases listed are where beta reflects Latin /w/), and it also assumes the /n/ is still present in this ve:nsi:ca despite nasal-spirant stuff that happened quite early... unless this word was loaned in another wave? Some examination may be necessary.
 $Syllable break handled with a consonant for now. This may need to be examined but has no issues at present. 
 $ DIACLEA -- SUPPRESSED. This will have a different and earlier explanation in MPA.
 $[+lab,+cont,-syl,+voi] > m / __ [+syl] n [+cons]
@@ -698,6 +707,7 @@ $[+lab,+cont,-syl,+voi] > m / __ [+syl] n [+cons]
 $ DV4.2T = DV1742O -- labiodentalization of β
 $ incorporating ɸ here too. 
 $ placed between PAlb and modern Alb by DV´18 but could probably be placed earlier as this does seem to be pan-Albanian? 
+$ Furthermore, earlier placement may be warranted in case the reflex of *β seems to pattern with /f/ in terms of -kt- clusters, where /f/ seems to pattern differently than /p m/...
 [+lab,-son,+cont] > [+strid]
 
 $DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced consonants to modern ʒ -- has to be before end of the fall of lenited stops (in this case β) 

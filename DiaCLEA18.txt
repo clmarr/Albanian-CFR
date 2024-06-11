@@ -384,6 +384,10 @@ $DIACLEA CHANGE: I-mutation is BLOCKED by preceding labials, and also no evidenc
 $TODO IMPLEMENT FOR DIA : ē s (i,e,j) also is an i-mutation targetǃ -- later note...: perhaps ditch this as it is ... covered already by pre-ʃ phenomenon? TODO CHECK...
 {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / [-lab] __ ([-syl])* [+front,-round,-cons]
 
+$ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3) 
+$ DIACLEA RELOCDATION B2.III -- bleeds nd > nt, so relocdated to just before it. As of June 11 2024, relocdated yet further to come before ietation, which it counterfeeds it (tegula > tjegull not segull, castellam > kështjell not këshsell, daemonem > djemër not zemër, though the last could be a later loan.). If this creates problems, another fix could be to make the j arising from hiatus into to a different element, perhaps a /ʝ/? This is currently placed after (in fact, right after) i-mutation, which may have different conditioning effects of dj/tj vs. inherited tʃ/dʒ (< kw, gw). 
+{d j;t j} > {d͡ʒ;t͡ʃ}
+
 $TODO NOTE FOR DIA: although phonemic nasalization is assigned a later point in the relative chronology (DV1737, number 8), it may be necessary here at least for /e/ and/or /ɛ/, to block ietation and allow the merger of DV2.2.1K with DV2.2.1L1 & DV2.2.1M (aka the merger of 5b.1 with 5b.2 and 5b.3)
 
 $DIACLEA INSERTION: before diphthongization/ietation (of the round elements), front round y and ø seem to retract before n and ɲ (e.g. Latin words in -ōnem > PAlb *uo, axungia > MPA ˌɑksˈyɲjɑ > ashunjë not *ashynjë and likewise in sanguisungia, words in -onju > PAlb *uo as well; ikone > korë; immūne > mû; luntrem > lundër not lyndër (via i-mutation), etc... ) but not m or ŋ (iunctura > yndyrë, iūnctus > gjymtë, pōma > pemë, brūma > brymë, etc...), and also not when in jø (ratiōnem > arësye etc.) 
@@ -497,10 +501,6 @@ $ De Vaan does not include ps > fs(h) -- data seems inconsistent as there is gri
 $ handling DV2.2.2b.iii (kˌət  >ft ) here too. 
 p > k / __ t
 {k ə;k} > {f;f} / __ {t;s}
-
-$ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3) 
-$ DIACLEA RELOCDATION B2.III -- bleeds nd > nt, so relocdated to just before it. As of June 11 2024, relocdated yet further to come before ietation, which it counterfeeds it (tegula > tjegull not segull, castellam > kështjell not këshsell, daemonem > djemër not zemër, though the last could be a later loan.). If this creates problems, another fix could be to make the j arising from hiatus into to a different element, perhaps a /ʝ/? This is currently placed after (in fact, right after) i-mutation, which may have different conditioning effects of dj/tj vs. inherited tʃ/dʒ (< kw, gw). 
-{d j;t j} > {d͡ʒ;t͡ʃ}
 
 $ post-nasal stop voicing. De Vaan attributes this to Proto-Albanian, for Latin and native words alike for -p- (DV1743.B2, .B4) and -t- (1743.D2 = 4.2D2), while treating Latin loans alone for k > g / n __ (DV1744.A1, .A3)
 	$ De Vaan's handling of /p/ is given the same time betweeen native and Latin strata, but not the

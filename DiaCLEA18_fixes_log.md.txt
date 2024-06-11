@@ -63,7 +63,7 @@ B2.I - DV1740E3, ln and ll > l, moved to before lambdacism (moved from rule inst
 
 B2.II - DV1740F3 -- the lengthening of intervocalic l (and sl > l: (...> lˠ)) before non-front vowels (which is now just straight to darkening, per D3.I) is moved to before DV1740E3 after it was moved forward, as DV1740E3 counterfeeds it. In order to do so, [-front] is now explicitly stipulated in the posterior context. 
 
-B2.III -- DV4.2M1, M2, N1, N3 -- affrication of dj and tj--  relocdated to before post-nasal stop voicing, because ntj ends up as (n)s, not (n)z -- the affrication appears to bleed the voicing. 
+B2.III -- DV4.2M1, M2, N1, N3 -- affrication of dj and tj--  relocdated to before post-nasal stop voicing, because ntj ends up as (n)s, not (n)z -- the affrication appears to bleed the voicing. As of June 11 2024, relocdated yet further earlier, to right between i-mutation and ietation -- dj/tj may behave differently as conditioning for i-mutation, but ietation seems to counterfeed dj/tj affrication (segull, castellam > kështjell not këshsell, daemonem > djemër not zemër, though the last could be a later loan as it is Christian terminology).  If this creates problems, another fix could be to make the j arising from hiatus into to a different element, perhaps a /ʝ/? This is currently placed after (in fact, right after) i-mutation, which may have different conditioning effects of dj/tj vs. inherited tʃ/dʒ (< kw, gw). 
 
 ## B3 -- possible relocdations to pre-Latin to post-Latin periods out of deletions to test (TODO!) 
 
@@ -129,13 +129,22 @@ i-mutation blocked by prior labial elements
 			-- though further changes are needed to both the specification and the timing of i-mutation it seems... 
 Based on one example, it also doesn't occur word initially, so instead of {[-lab];#} for prior context, we get to use the simpler [-lab].
 
-C3B.IV -- DV1744J3, k,g > j / __ [-round,-stres] t,  now has the conditioning vowel become [+front] rather than [-round] (changing outcomes when it is [ə] or [a]). TODO further revisions here will likely overrule this. 
+C3B.IVog -- DV1744J3, k,g > j / __ [-round,-stres] t,  now has the conditioning vowel become [+front] rather than [-round] (changing outcomes when it is [ə] or [a]). TODO further revisions here will likely overrule this. 
+
+C3B.IV* -- concerning the observation that 
 
 C3B.V -- raising before s/ʃ turned out to only be accurate when there was also a /j/ in the next syllable. This also meant it could effectively be merged into i-mutation, triggering D2.I.
 
 C3B.VI -- 4.1B3 m > mb before unstressed vowel now limited to occur non-initially and with an /l/ on the other side of the unstressed vowel (grumbulloj, shëmbëlltyrë, (m)bletë) 
 
 C3B.VII -- DV1743.B4 now only operates after non-initial vowels then oral resonants (previously: any context with an oral resonant immediately beforehand.) 
+
+C3B.VIII -- first wave of vowel drops reshaped, no longer targeting strictly posttonic elements, and now targeting the following: 
+	$ atonic (non-low) vowels in [+son] t __ k 
+			$ d excluded as it seems there are secondary -dk- clusters with voicing involved, to yet be resolved.
+	$ atonic (non-low) vowels in r  __ [-son,-lab]
+	$ non-primary (non-low) vowels in in k/g __ t/k(/d/g) V
+	$atonic (non-low) vowels in V b/p/g/k __ [-voi,-lab] 
 
 ## C4 -- changes in both input and output
 
@@ -174,6 +183,8 @@ D2.I -- it turned out that raising of /e/ before /s~ʃ/ (DV2.2.1A4.II) was only 
 D3.I - DV1740F3: original rule was Lat *l > l: / V __ V[-front], now just having this go straight to lˠ as the step of having /lː/ turns out unnecessary, and the conditioning suggests a dark L. This thus involves the effecive deletion of DV3.1E. 
 
 D3.II -- Kortlandt's early final s-deletion is consolidated with the deletion of final nasals, s and -ns that was originally placed right before the earliest vowel drops that were right before the flag for Middle Proto-Albanian. These are currently placed early in the period, where Kortlandt's shift had been placed. 
+
+D3.III -- early drop of post-tonic vowels moved into the originally second vowel drop wave, but a lot of it is going to be covered in C3B.VIII. 
 
 
 

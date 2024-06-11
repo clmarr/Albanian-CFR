@@ -261,16 +261,19 @@ $DIACLEA rule insertion: ʎ depalatalizes to l between high vowels
 ʎ > l / [+hi] __ [+hi]
 
 $ DV2.2.2c, resolution -- effacement of internal posttonic vowels is complete in time to block loss of d (> ð) in verdh and lardh, based on example words used. 
-$DIACLEA CHANGE: largely suppressed. Effects of this currently handled in second drop wave; some handled below, for non-low vowels, without a need to explicitly pass through schwa, for hte following contexts
-	$ atonic (non-low) vowels in [+son] t/d __ k 
+$DIACLEA CHANGE C3B.VIII: largely suppressed. Effects of this currently handled in second drop wave; some handled below, for non-low vowels, without a need to explicitly pass through schwa, for hte following contexts
+	$ atonic (non-low) vowels in [+son] t/d __ k  
+		$ d now removed as it appears that secondary(!) d (i) k clusters have voicing involved -- eradicare > rrëgjoj, medicastrum > mëgashtër , excaudicāre >shkagoj 
 	$ atonic (non-low) vowels in r  __ [-son,-lab]
 	$ non-primary (non-low) vowels in in k/g __ t/k(/d/g) V
 	$atonic (non-low) vowels in V b/p/g/k __ [-voi,-lab] 
 $ ə > ∅
-[-stres,-lo] > ∅ / [+son] [+cor,-cont] __ k 
+[-stres,-lo] > ∅ / [+son] t __ k 
 [-stres,-lo] > ∅ / r __ [-son,-lab]
 [-prim,-lo] > ∅ / [+back,-cont] __ [-cont,-lab] [+syl]
 [-stres,-lo] > ∅ / [+syl] [-cor,-cont] __ [-voi,-lab]
+
+$TODO may need to implement voicing assimilation and other cluster fixes here... or later.
 
 $ TODO need to work on this rule -- see "kt outcomes" file. 
 $ k becoming yod before /t/ if next to front vowel -- De Vaan 2018(:1744)  -- DV1744.J3
@@ -496,7 +499,7 @@ p > k / __ t
 {k ə;k} > {f;f} / __ {t;s}
 
 $ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3) 
-$ DIACLEA RELOCDATION -- bleeds nd > nt, so relocdated to before it. 
+$ DIACLEA RELOCDATION B2.III -- bleeds nd > nt, so relocdated to just before it. As of June 11 2024, relocdated yet further to come before ietation, which it counterfeeds it (tegula > tjegull not segull, castellam > kështjell not këshsell, daemonem > djemër not zemër, though the last could be a later loan.). If this creates problems, another fix could be to make the j arising from hiatus into to a different element, perhaps a /ʝ/? This is currently placed after (in fact, right after) i-mutation, which may have different conditioning effects of dj/tj vs. inherited tʃ/dʒ (< kw, gw). 
 {d j;t j} > {d͡ʒ;t͡ʃ}
 
 $ post-nasal stop voicing. De Vaan attributes this to Proto-Albanian, for Latin and native words alike for -p- (DV1743.B2, .B4) and -t- (1743.D2 = 4.2D2), while treating Latin loans alone for k > g / n __ (DV1744.A1, .A3)

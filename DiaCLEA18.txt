@@ -142,6 +142,7 @@ $ [+cons,+son] l > lˠ
 r l > lˠ
 $ l [+cons,+son] > lˠ
 
+
 $DIACLEA INSERTION: A2.VIII Latin o and oː alike are changed to short u before non-palatal sonorant consonants, in syllables that are antepenultimate or earlier (i.e. those that will not be final syllables in Late Proto-Albanian)
 	$ this seems to be a change shared with Vlacho-Romance. 
 	$ originally I thought this was a specifically pretonic development, which does describe the majority of cases, and all cases before /ɫ/ and /ŋ/, but there are exceptions -- fornice > furriq, compater > kumtër, computum > kumt, cˈonsocer > krushk (Romanian cuscru), mˈonachus > murg, cˈontrā > kundër, etc... 
@@ -154,16 +155,23 @@ $DIACLEA INSERTION: A2.VIII Latin o and oː alike are changed to short u before 
 		$ 2. This does not happen to long ō before m: prōmitt-ere > premtoj, rōmānus > rëmër. Based on dhuroj < dōnāre, it does seem to occur for ō before n. 
 		$ 3. In the case of items before ɫ and l, it does seem to be that this is just non-primary-stressed o/oː segments that are affected (amándola >mendull, but Volpulum > Volpull) 
 $part I: implementing the rule for __ NC
-[+round,-lo,-hi] > [+hi,-long] / @ __ [+nas,+cons] [-cont]
+$ as of June 2024 -- part one conditioning broadened to (r) N (V-stres) C, the rest are collapsed into unstressed o raising, the C simply being non-sonorants
+[+round,-lo,-hi] > [+hi,-long] / @ __ (r) [+nas,+cons] ([-stres]) [-son]
 
-$part II: implementing the DiaCLEA-inserted rule A2.VIII for m elsewhere, for /o/, antepenultimate or earlier
-[+round,-long,-lo] > [+hi] / @ __ m ([-syl])* [+syl] ([-syl])* [+syl]
+$part II: implementing the DiaCLEA-inserted rule A2.VIII for m elsewhere, for /o/, antepenultimate or earlier. As of June 2024: suppressed.
+$[+round,-long,-lo] > [+hi] / @ __ m ([-syl])* [+syl] ([-syl])* [+syl]
 
-$part III: non-primary-stressed o and o: are affected before ɫ and l 
-[+round,-lo,-prim,-hi] > [+hi,-long] / @ __ [+lat,-front]
+$part III: non-primary-stressed o and o: are affected before ɫ and l. As of June 2024: suppressed.
+$[+round,-lo,-prim,-hi] > [+hi,-long] / @ __ [+lat,-front]
 
-$part IV: implementing the default behavior of the rule, for the remaining (non-palatal) sonorants: rː, r, nː, n, ŋ
-[+round,-lo,-hi] > [+hi,-long] / @ __ [+son,+cons,-lab,-front] ([-syl])* [+syl] ([-syl])* [+syl]
+$part IV: implementing the default behavior of the rule, for the remaining (non-palatal) sonorants: rː, r, nː, n, ŋ. As of June 2024: suppressed.
+$[+round,-lo,-hi] > [+hi,-long] / @ __ [+son,+cons,-lab,-front] ([-syl])* [+syl] ([-syl])* [+syl]
+
+$DIACLEA CORRECTION A2.VIII new version -- o to o: always when countertonic now, except when after labial-sonorant (florīnum > flori, proximare > prozhëm, prodāre > prodhoj, maybe prōmitt-o > premtoj) or onset sonorant (rosalia > rrëshaj, rōmānus > remër/rëmër, notoj, rozhponjë...), if the following wherein it goes to ɔ instead. Handle the exception first then the rule, the exception falling to (ˌɔ). Not necessarily unstressed o -- daemonem > djemër not djemu/-ũ, consobrinus > kushëri not kushuri, -- the two cases seem to be amandola > mendull (which is irregular for other reasons), and leporem > lepur (which could be colored by the p?) 
+[+round,-prim,-hi] > [-tense] / {#;[+lab,-son]} [+son,+cor] __
+
+$now the actual unstressed o > u rule A2.VIII. Apparently doesn't happen word initially.
+[+round,+tense,-prim,+stres,-hi] > [+hi,-long] / @ __
 
 $DV1740H2 -- rC, Cr > r. 
 $ This one is likely very bugged and needs either suppression or massive fixes-- suppressed, in conference with De Vaan 8/9/23

@@ -19,10 +19,10 @@ r j > ʎ / @ __ @
 {l;n} > {∅;∅} / l __ 
 l j > ʎ 
 r l > lˠ 
-[+round,-lo,-hi] > [+hi,-long,-splng] / @ __ [+nas,+cons] [-cont]
-[+round,-long,-lo] > [+hi] / @ __ m ( [-syl] )* [+syl] ( [-syl] )* [+syl]
-[+round,-lo,-prim,-hi] > [+hi,-long,-splng] / @ __ [+lat,-front]
-[+round,-lo,-hi] > [+hi,-long,-splng] / @ __ [+son,+cons,-lab,-front] ( [-syl] )* [+syl] ( [-syl] )* [+syl]
+[+round,-lo,-hi] > [+hi,-long,-splng] / @ __ ( r ) [+nas,+cons] ( [-stres] ) [-son]
+[+round,-prim,-hi] > [-tense,-cons,-lat,+cont,0delrel] / # [+son,+cor] __ 
+[+round,-prim,-hi] > [-tense,-cons,-lat,+cont,0delrel] / [+lab,-son] [+son,+cor] __ 
+[+round,+tense,-prim,+stres,-hi] > [+hi,-long,-splng] 
 j > ∅ / w __ 
 w > b / @ [+syl] [+cor,-nas,+son] __ 
 w > ∅ / [+syl] __ [+syl]

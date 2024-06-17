@@ -2,7 +2,6 @@ $ This cascade is primarily based off of BaseCLEA18, debugging it using DiaSim a
 
 $ On stages/periodization, see file "Periodization policy"
 
-
 $ "DV-NOTATION" for indexing De Vaan 2018 rules -- DV####.ɑβɣ##. -- DV for De Vaan, ### is page number, ɑβɣ is an alphabetic index in (A, B, C...) for each transformation on the page (starting with A, etc...), and   the number is the line of that transformation on that page. 
 
 $TODO incorporate relevant TODOs (TODO FOR DIA, IMPLEMENT FOR DIA etc...) 
@@ -39,7 +38,18 @@ $ g before n is ŋ -- Pope 1934(: p75 s158, p133 s321); Allen 1978 p23; Lloyd 19
 $ not made explicit by De Vaan -- henceforth Latin ɡn as discussed by him can be assumed to represent ŋn. In Romanian these clusters (later) become mn or m- (agnellus > miel, signum > semn, cognatus > cumnat...), but for Albanian De Vaan later assigns these as going to /ɲ/. 
 ɡ > ŋ / __ n
 
-$DIACLEA RELOCDATION: Latin nasal fricative phenomenon moved to after pre-penultimate o/o:-raising. 
+$ Latin(-internal?) NASAL FRICATIVE PHENOMENON : Latin nasals lost before fricatives, making a prior vowel long if there was a prior V. 
+	$ an input assumption for DV1735.D4. wrt krushk "in-law" < CONSOCER 
+	$ some assert these long V-s would have gone through a stage of nasality for the vowels, but De Vaan does not consider this 
+		$ relevant for Albanian outcomes
+		$ inquiry into whether occasional Gheg nasality in these places (there are some 20-30 relevant words, at least can be systematically handled would be interesting -- it seems generally they are not nasalized) 
+	$ cf Pope 1934 s359 (as a "very early" phenomenon in Latin), also p73 s156ii; also Allen 1978(:27-31, 55-6). 
+		$ Shared with Romanian apparently. 
+		$ Per Allen, Vaananen etc 
+	$ different handling in corresponding Orel 1.4.7.13 on p115 in ns > ʃ
+	$ this should not be formulated and sequenced so as to be fed by De Vaan 2018's one step passage of his PPAlb *tɕ *dʝ > *θ *ð, so that is placed afterward  (just because this is not indicated -- if there is evidence for it this would merit a change in treatment)
+$DIACLEA RELOCDATION B1.I: moved this to after the pre-penultimate o/o:>u phenomena. As of June 17 -- reverted, returned to normal position
+[+syl] n > [+long] ∅ / __ [-son,+cont]
 
 $ DIACLEA INSERTION: A2.IV. Latin -ˈVolV(C)# items shift the stress onto the -o-, even though it is short. This is actually seen in the Romance languages too it seems (Seen in modiolus, filiolus, caveola, capreolus, phaseolus, gladiolus, etc...)   so it is placed into Latin input handling. 
 [+prim] o > [-stres] [+prim] / __ l [-stres] ([+cons]) #
@@ -133,7 +143,6 @@ r l > lˠ
 $ l [+cons,+son] > lˠ
 
 $DIACLEA INSERTION: A2.VIII Latin o and oː alike are changed to short u before non-palatal sonorant consonants, in syllables that are antepenultimate or earlier (i.e. those that will not be final syllables in Late Proto-Albanian)
-	$ this is a very, very, major change  
 	$ this seems to be a change shared with Vlacho-Romance. 
 	$ originally I thought this was a specifically pretonic development, which does describe the majority of cases, and all cases before /ɫ/ and /ŋ/, but there are exceptions -- fornice > furriq, compater > kumtër, computum > kumt, cˈonsocer > krushk (Romanian cuscru), mˈonachus > murg, cˈontrā > kundër, etc... 
 	$ the appearance that it was pretonic is just an artefact of Latin's stress system, that tends to put stress on the penultimate syllable.
@@ -155,20 +164,6 @@ $part III: non-primary-stressed o and o: are affected before ɫ and l
 
 $part IV: implementing the default behavior of the rule, for the remaining (non-palatal) sonorants: rː, r, nː, n, ŋ
 [+round,-lo,-hi] > [+hi,-long] / @ __ [+son,+cons,-lab,-front] ([-syl])* [+syl] ([-syl])* [+syl]
-
-
-$ Latin(-internal?) NASAL FRICATIVE PHENOMENON : Latin nasals lost before fricatives, making a prior vowel long if there was a prior V. 
-	$ an input assumption for DV1735.D4. wrt krushk "in-law" < CONSOCER 
-	$ some assert these long V-s would have gone through a stage of nasality for the vowels, but De Vaan does not consider this 
-		$ relevant for Albanian outcomes
-		$ inquiry into whether occasional Gheg nasality in these places (there are some 20-30 relevant words, at least can 
-		$ be systematically handled would be interesting
-	$ cf Pope 1934 s359 (as a "very early" phenomenon in Latin), also p73 s156ii; also Allen 1978(:27-31, 55-6). 
-		$ Shared with Romanian apparently. 
-	$ different handling in corresponding Orel 1.4.7.13 on p115 in ns > ʃ
-	$ this should not be formulated and sequenced so as to be fed by De Vaan 2018's one step passage of his PPAlb *tɕ *dʝ > *θ *ð (as this is not indicated), so that is placed afterward 
-$DIACLEA RELOCDATION: moved this to after the pre-penultimate o/o:>u phenomena. 
-[+syl] n > [+long] ∅ / __ [-son,+cont]
 
 $DV1740H2 -- rC, Cr > r. 
 $ This one is likely very bugged and needs either suppression or massive fixes-- suppressed, in conference with De Vaan 8/9/23

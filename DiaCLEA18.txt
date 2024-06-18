@@ -167,7 +167,7 @@ $[+round,-lo,-prim,-hi] > [+hi,-long] / @ __ [+lat,-front]
 $part IV: implementing the default behavior of the rule, for the remaining (non-palatal) sonorants: rː, r, nː, n, ŋ. As of June 2024: suppressed.
 $[+round,-lo,-hi] > [+hi,-long] / @ __ [+son,+cons,-lab,-front] ([-syl])* [+syl] ([-syl])* [+syl]
 
-$DIACLEA CORRECTION A2.VIII new version -- o to o: always when countertonic now, except when after labial-sonorant (florīnum > flori, proximare > prozhëm, prodāre > prodhoj, maybe prōmitt-o > premtoj) or onset sonorant (rosalia > rrëshaj, rōmānus > remër/rëmër, notoj, rozhponjë...), if the following wherein it goes to ɔ instead. Handle the exception first then the rule, the exception falling to (ˌɔ). Not necessarily unstressed o -- daemonem > djemër not djemu/-ũ, consobrinus > kushëri not kushuri, -- the two cases seem to be amandola > mendull (which is irregular for other reasons), and leporem > lepur (which could be colored by the p?) 
+$DIACLEA CORRECTION A2.VIII new version -- o to o: always when countertonic now, except when after labial-sonorant (florīnum > flori, proximare > prozhëm, prodāre > prodhoj, maybe prōmitt-o > premtoj) or onset sonorant (rosalia > rrëshaj, rōmānus > remër/rëmër, notoj, rozhponjë...), if the following wherein it goes to ɔ instead. Handle the exception first then the rule, the exception falling to (ˌɔ). Not necessarily unstressed o -- daemonem > djemër not djemu/-ũ, consobrinus > kushëri not kushuri, etc. 
 [+round,-prim,-hi] > [-tense] / {#;[+lab,-son]} [+son,+cor] __
 
 $DIACLEA CORRECTION A2.VIIIa -- unstressed o to u in  __ R V-stres
@@ -220,6 +220,8 @@ $ DV1744.C4 -- emergence of PAlb β before Latin long ō and the reflex of Alb 
 $ although is not explicitly stated, the examples all concern initial vowels. 
 $ DIACLEA CORRECTION: also occurs before initial short /o/ too it seems.
 $ TODO move this to a later time . 
+$ TODO consider treating this as via diphthongization.
+$ TODO doesn't seem to happen before labials for unstressed o (oblata > blatë, ofella > felë, though opera > vapër) 
 ∅ > w / # __ [-hi,+round]
 
 $ DV1744.C1 : Lat. w- > β. 
@@ -263,7 +265,7 @@ $ resolution of DV1744.D & DV1744.E1 -- see notes on this above, this is motivat
 
 $DIACLEA rule insertion: ʎ depalatalizes to l between high vowels
 	$ note, does not seem to happen in Vlacho-Romance: peculium > Alb. pekul but Daco-Rom (dial.) picui & păcui and Aromanian picul'iǔ; milium > Alb mel but Drom mei and Arom mel'iǔ
-	$ TODO there is some depalatalization of ʎ that remains unaccounted for ː favaliam > falë , oleaster > ullashtër ... 
+	$ TODO there is some depalatalization of ʎ that remains unaccounted for ː favaliam > falë (unless this is fawʎə ??), oleaster > ullashtër (already u?) ... 
 ʎ > l / [+hi] __ [+hi]
 
 $ DV2.2.2c, resolution -- effacement of internal posttonic vowels is complete in time to block loss of d (> ð) in verdh and lardh, based on example words used. 

@@ -19,7 +19,7 @@ $	many are nonetheless clearly assumed by De Vaan 2018 in terms of how he treats
 
 $ general rule for De Vaan(:1747) is no change in stress placement: by default, Latin loans have the same stress placement as in Classical Latin, "and the same goes for loanwords from later layers... Slavic, Italian... Greek... Turkish". Exceptions seem to be largely morphologically motivated (see bottom of p1747); De Vaan (1747) agrees with Matzinger 2006 that things are too complicated for Jokl 1923's treatment of PPAlb as having general penultimate accent. 
 
-$DIACLEA CORRECTION: pʰ > f, even if tʰ > t and kʰ > k
+$DIACLEA CORRECTION A2.IX: pʰ > f, even if tʰ > t and kʰ > k
 	$  Aromanian has shcl'ifur but Romanian has only palanga > pǎrângǎ (like Albanian also has p- in cognat plengë). 
 pʰ > f
 
@@ -31,7 +31,7 @@ $		e.g. De Vaan 2018 p1739 ~ DV1739.A4 -- mokër "millstone" Doric *mākhāna�
 $ corresponds to Orel 1.4.7.1 
 [+sg,-cont] > [-sg]
 
-$ Greek 'y' becomes i, likewise for the long-variant (praebyter > prift, etc.) 
+$ Greek 'y' becomes i, likewise for the long-variant (praebyter > prift, etc... however there may be some exceptions: khylus > Alb. qull vs. Romanian cir. (The case of qipër/qypër, however, is probably secondary, and for hte same reasons as shqip/shqyp -- rounding in some Gheg dialects in (at least) [c] __ [p] ) 
 [+front,+syl] > [-round,-lab]
 
 $ g before n is ŋ -- Pope 1934(: p75 s158, p133 s321); Allen 1978 p23; Lloyd 1987 p81)
@@ -93,7 +93,7 @@ $changed to sidestep then-current input-side issues in DiaSim. TODO consider res
 $DV1740I3 -- internal Lat. -rr- becomes PAlb *r: as well. 
 r r > rː 
 
-$DV1740G3 -- PPAlb *-rj- to ʎ. Does not seem (?) intended to be fed by gliding of Latin i,e in hiatus to j, which is below (GLIDING) -- Latin to PAlb etyma listed by De Vaan are clearly unaffected (altarivm p1737; febrvārivs p1745...). Cited to Bonnet 1998: 208ff; Matzinger 2006: 74. 
+$DV1740G3 -- PPAlb *-rj- to ʎ. E.g. marathrion > maraj (Rom. marariu). Does not seem (?) intended to be fed by gliding of Latin i,e in hiatus to j, which is below (GLIDING) -- Latin to PAlb etyma listed by De Vaan are clearly unaffected (altarivm p1737; febrvārivs p1745...). Cited to Bonnet 1998: 208ff; Matzinger 2006: 74. 
 $ can be put here before the gliding of Latin i and e.  
 r j > ʎ / @ __ @
 
@@ -129,7 +129,7 @@ $ DV1740G1 : intervocalic l becomes ʎ before front vowel.
 $ DIA -- SUPPRESSED, see "Old_DV1740G1_notes", the one case where this works (vjej "I need") is in the same ˌɑ __ [+prim,+front] context that so many of the errors are, best move for now is just to suppress this. 
 $l > ʎ / [+syl] __ [+syl,+front]
 
-$ DV1740G2 : l j > ʎ in PPAlb and Lat. Seems intended to be fed by hiatus vowel gliding. 
+$ DV1740G2 : l j > ʎ in PPAlb and Lat. Seems intended to be fed by hiatus vowel gliding in Latin loans -- unlike the r j > ʎ phenomenon. 
 l j > ʎ
 
 $DV1740F2 -- l and a nearby resonant (Rl, lR) merge to become *l:. De Vaan lists parabola -> përrallë as his third example wihch would imply a treatment of /β/ (perhaps? if not /b/?) as a resonant, which could cause problems, but actually parabola > përrallë can be perfectly handled if it is placed before the fall of unstressed vowels.
@@ -221,7 +221,7 @@ $ although is not explicitly stated, the examples all concern initial vowels.
 $ DIACLEA CORRECTION: also occurs before initial short /o/ too it seems.
 $ TODO move this to a later time . 
 $ TODO consider treating this as via diphthongization.
-$ TODO doesn't seem to happen before labials for unstressed o (oblata > blatë, ofella > felë, though opera > vapër) 
+$ TODO doesn't seem to happen before labials for unstressed o at least (oblata > blatë, ofella > felë, though opera > vapër... tho this word is also analyzed as possibly native? ) 
 ∅ > w / # __ [-hi,+round]
 
 $ DV1744.C1 : Lat. w- > β. 

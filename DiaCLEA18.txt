@@ -142,6 +142,9 @@ $ [+cons,+son] l > lˠ
 r l > lˠ
 $ l [+cons,+son] > lˠ
 
+$DV1736 "4.", moved back (DIACLEA CORECTION B2.IV) handling the posited emergence of high lax vowels from older short high vowels as part of p1736's new vowel system.. Include also his e > ɛ shift here (listed above), and this will give us also o > ɔ too (not ʏ or œ since short versions of y and ø have no way to emerge at this stage.); the outcome of PPAlb/Greek ā (> ɒː) is already ɔː here but he mentions some Latin o & oː passing through "ɔ > o"; unclear when it raises again. 
+$ DIACLEA CORRECTION B2.IV -- laxing moved to Early Proto-Albanian period. 
+[-lo,+syl,-long] > [-tense]
 
 $DIACLEA INSERTION: A2.VIII Latin o and oː alike are changed to short u before non-palatal sonorant consonants, in syllables that are antepenultimate or earlier (i.e. those that will not be final syllables in Late Proto-Albanian)
 	$ this seems to be a change shared with Vlacho-Romance. 
@@ -170,8 +173,8 @@ $[+round,-lo,-hi] > [+hi,-long] / @ __ [+son,+cons,-lab,-front] ([-syl])* [+syl]
 $DIACLEA CORRECTION A2.VIII new version -- o to o: always when countertonic now, except when after labial-sonorant (florīnum > flori, proximare > prozhëm, prodāre > prodhoj, maybe prōmitt-o > premtoj) or onset sonorant (rosalia > rrëshaj, rōmānus > remër/rëmër, notoj, rozhponjë...), if the following wherein it goes to ɔ instead. Handle the exception first then the rule, the exception falling to (ˌɔ). Not necessarily unstressed o -- daemonem > djemër not djemu/-ũ, consobrinus > kushëri not kushuri, etc. 
 [+round,-prim,-hi] > [-tense] / {#;[+lab,-son]} [+son,+cor] __
 
-$DIACLEA CORRECTION A2.VIIIa -- unstressed o to u in  __ R V-stres
-o > u / __ [+son,+cor,-nas] [-stres]
+$DIACLEA CORRECTION A2.VIIIa -- unstressed o/ɔ to u/ʊ in  __ R V-stres
+[+round,-lo,-stres]> [+hi] / __ [+son,+cor,-nas] [-stres]
 
 $now the actual unstressed o > u rule A2.VIII. Apparently doesn't happen word initially.
 [+round,+tense,-prim,+stres,-hi] > [+hi,-long] / @ __
@@ -353,7 +356,8 @@ $the following system will emerge per chart at bottom of 1736 -- filling changes
 	$ he lists "Lat. o & ō" for both but this will be handled per the more indepth descriptions as supplied in the listed changes further above as appropriate. Ie DV1735A has really mainly Lat. ō going to ø > e... 
 
 $handling the posited emergence of high lax vowels from older short high vowels as part of p1736's new vowel system.. Include also his e > ɛ shift here (listed above), and this will give us also o > ɔ too (not ʏ or œ since short versions of y and ø have no way to emerge at this stage.); the outcome of PPAlb/Greek ā (> ɒː) is already ɔː here but he mentions some Latin o & oː passing through "ɔ > o"; unclear when it raises again. 
-[-lo,+syl,-long] > [-tense]
+$ DIACLEA CORRECTION B2.IV -- moved to Early Proto-Albanian period. 
+$[-lo,+syl,-long] > [-tense]
 
 $then distinctive length is lost in vowels
 $this effectively implements: DV2.2.1A2, part of DV2.2.1A4, DV2.2.1A6, DV2.2.1B3, part of DV2.2.1B4-8, DV2.2.1B10, part of DV2.2.1C4, part of DV2.2.1E1, DV2.2.1E3, part of DV2.2.1F1 & F3. 

@@ -431,13 +431,6 @@ w > ∅ / [+syl] __ [+syl]
 $ p1743 -- w > b after r and l. I.e. the (non-nasal) (sonorant) coronals. 
 w > b / [+cor,-nas,+son] __
 
-$ De Vaan p1743-4 -- w dropped between k (DV1743.G2) or g (DV1744.A2), and vowels. This will eventually feed the palatalization of these velars before i/e/y (p1743) but this feeding does not have to be explicitly coded in. 
-$ form prior to 8/5/23 was: {[-cont,+back] w;[-cont,+back,+round]} > {[-round] ∅;[-round]} / __ [-cons] 
-$ was formulated so as to handle if these are treated instead as labialized consonants (alas in practice the format in ALLex currently is always "k w" and "ɡ w", not "kʷ", "ɡʷ".) 
-$changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
-$ in practice qu- and gu- never occur without following vowels, so it can be expressed without the following vowel. 
-w > ∅ / [-cont,+back] __
-
 $ DV1744.C4 -- emergence of PAlb β before Latin long ō and the reflex of Alb long-ā, but PPAlb ō is not listed. PAlb β itself is the reflex of initial Latin w- and PPAlb β, itself from a PIE u̯. Treat as w for now, betacize later, as then merge them here, with a single rule. In order to impact PPAlb ā and Latin ō but not PPAlb ō, PPAlb ō must have a different reflex at this stage. But De Vaan 2018 does not seem to PPAlb ō and Latin  differently otherwise, in fact they are typically handled together (cf. DV1736G1, DV2.2.1B7 & DV2.2.1B8) except when i-mutation is concerned (DV1736H1, which can simply be handled by placing it in the post-Greek but pre-Latin area of PAlb). So unless there are issues that emerge upon later examination, we will be treating PPAlb ō as potentially a trigger as well.
 $ although is not explicitly stated, the examples all concern initial  vowels. 
 ∅ > w / # __ [-hi,+round,+long]
@@ -562,6 +555,14 @@ $it can be assumed this is intended as a law targeting stressed vowels, because 
 {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ([-syl])* {[+front,-round,-cons];ʎ}
 
 $TODO NOTE FOR DIA: although phonemic nasalization is assigned a later point in the relative chronology (DV1737, number 8), it may be necessary here at least for /e/ and/or /ɛ/, to block ietation and allow the merger of DV2.2.1K with DV2.2.1L1 & DV2.2.1M (aka the merger of 5b.1 with 5b.2 and 5b.3)
+
+$ De Vaan p1743-4 -- w dropped between k (DV1743.G2) or g (DV1744.A2), and vowels. This will eventually feed the palatalization of these velars before i/e/y (p1743) but this feeding does not have to be explicitly coded in. 
+$ form prior to 8/5/23 was: {[-cont,+back] w;[-cont,+back,+round]} > {[-round] ∅;[-round]} / __ [-cons] 
+$ was formulated so as to handle if these are treated instead as labialized consonants (alas in practice the format in ALLex currently is always "k w" and "ɡ w", not "kʷ", "ɡʷ".) 
+$changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
+$ in practice qu- and gu- never occur without following vowels, so it can be expressed without the following vowel. 
+$ placed after i-mutation generously as doesn't seem intended to feed it. 
+w > ∅ / [-cont,+back] __
 
 $IETATION and DIPHTHONGIZATION follows. 
 $DV2.2.1K and 1737's 5b -- diphthongized ietation -- ɛ (< PPAlb e, Lat e & ae) > ie before "word-final ɫ, r" ; he also attributes this to *e

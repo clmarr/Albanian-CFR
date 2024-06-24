@@ -189,20 +189,12 @@ $TODO before w deletion and modification phenomena operate, there are some thing
 	$ TODO 1 disappearance of w into vowel coloring in: 167 eruilla > rrylë, 189 februarius > f(ë)ruor (via ɒː ?), potentially others -- though not servitium > shërbes) 
 
 $ DV1743.B4 -- w > b after r and l. I.e. the (non-nasal) (sonorant) coronals. 
-$ DIACLEA fix: only after a non-initial vowel. (e.g. not februarius > fëruor, eruilla > rrylë, alveolus > unatt. llullë > nullë...) 
+$ DIACLEA fix: only after a non-initial vowel. (e.g. not eruilla > rrylë, alveolus > unatt. llullë > nullë...) 
 w > b / @ [+syl] [+cor,-nas,+son] __
 
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM, njerkë "stepmother" < NOVERCA
 $ TODO RELOCDATE THIS LATER -- W phenomena including coloring stuff where this matters happen much later
 w > ∅ / [+syl] __ [+syl]
-
-$ De Vaan p1743-4 -- w dropped between k (DV1743.G2) or g (DV1744.A2), and vowels. This will eventually feed the palatalization of these velars before i/e/y (p1743) but this feeding does not have to be explicitly coded in. 
-$ form prior to 8/5/23 was: {[-cont,+back] w;[-cont,+back,+round]} > {[-round] ∅;[-round]} / __ [-cons] 
-$ was formulated so as to handle if these are treated instead as labialized consonants (alas in practice the format in ALLex currently is always "k w" and "ɡ w", not "kʷ", "ɡʷ".) 
-$changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
-$ in practice qu- and gu- never occur without following vowels, so it can be expressed without the following vowel. 
-$ TODO move   this later, or having relevant coloring phenomena operate beforehand (quīs > qysh, quadrum > kodër, quartus > kort, civitatem > qytet, eruilla >rrylë; lso possibly, with  the Xʷ(?), factūra > fytyrë and axungia >ushu(n)jë ~ Romanian osânză)
-w > ∅ / [-cont,+back] __
 
 $merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) ; expanded to cover ŋ n too. 
 $ DIACLEA CHANGE: decoupled these. Handling gn phenomena elsewhere, on the basis of cognatus > kunat, fuskina > fuzhnjë, etc. Furthermore in Romanian words in original -ŋn- reflect in mn or even m- (agnellus > miel) 
@@ -413,6 +405,14 @@ $ DIACLEA CORRECTION (insertion) -- disappearance of j after labials:
 			$ maybe..>? : subiug-āre > shuaj
 	$ the cases of capreum > qepër and salviella > sherbelë suggest this happened AFTER i-mutation, bu gremium > gremb and manubrium > mëru may suggest the opposite as concerns ɛ and u...
 j > ∅ / {[+lab,+cont];[+lab,-front] r} __
+
+$ De Vaan p1743-4 -- w dropped between k (DV1743.G2) or g (DV1744.A2), and vowels. This will eventually feed the palatalization of these velars before i/e/y (p1743) but this feeding does not have to be explicitly coded in. 
+$ form prior to 8/5/23 was: {[-cont,+back] w;[-cont,+back,+round]} > {[-round] ∅;[-round]} / __ [-cons] 
+$ was formulated so as to handle if these are treated instead as labialized consonants (alas in practice the format in ALLex currently is always "k w" and "ɡ w", not "kʷ", "ɡʷ".) 
+$changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
+$ in practice qu- and gu- never occur without following vowels, so it can be expressed without the following vowel. 
+$ TODO move   this later, or having relevant coloring phenomena operate beforehand (quīs > qysh, quadrum > kodër, quartus > kort, civitatem > qytet, eruilla >rrylë; lso possibly, with  the Xʷ(?), factūra > fytyrë and axungia >ushu(n)jë ~ Romanian osânză)
+w > ∅ / [-cont,+back] __
 
 $ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3) 
 $ DIACLEA RELOCDATION B2.III -- bleeds nd > nt, so relocdated to just before it. As of June 11 2024, relocdated yet further to come before ietation, which it counterfeeds it (tegula > tjegull not segull, castellam > kështjell not këshsell, daemonem > djemër not zemër, though the last could be a later loan.). If this creates problems, another fix could be to make the j arising from hiatus into to a different element, perhaps a /ʝ/? This is currently placed after (in fact, right after) i-mutation, which may have different conditioning effects of dj/tj vs. inherited tʃ/dʒ (< kw, gw). 

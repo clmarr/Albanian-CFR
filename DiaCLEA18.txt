@@ -48,9 +48,8 @@ $ Latin(-internal?) NASAL FRICATIVE PHENOMENON : Latin nasals lost before fricat
 		$ Per Allen, Vaananen etc 
 	$ different handling in corresponding Orel 1.4.7.13 on p115 in ns > ʃ
 	$ this should not be formulated and sequenced so as to be fed by De Vaan 2018's one step passage of his PPAlb *tɕ *dʝ > *θ *ð, so that is placed afterward  (just because this is not indicated -- if there is evidence for it this would merit a change in treatment)
-$DIACLEA RELOCDATION B1.I: moved this to after the pre-penultimate o/o:>u phenomena. As of June 17 -- reverted, returned to normal position. As of June 24, moved to right after new location of dj/tj affrication, which appears to feed this; furthermore (, lengthening aspect removed -- htat was Latin internal. 
-[+syl] n > [+long] ∅ / __ [-son,+cont]
-$n > ∅ / __ [+strid]
+$DIACLEA RELOCDATION B1.I: moved this to after the pre-penultimate o/o:>u phenomena. As of June 17 -- reverted, returned to normal position. As of June 24, moved to right after new location of dj/tj affrication, which appears to feed this; furthermore (, lengthening aspect removed -- htat was Latin internal; condition is now stridents. 
+$[+syl] n > [+long] ∅ / __ [-son,+cont]
 
 $ DIACLEA INSERTION: A2.IV. Latin -ˈVolV(C)# items shift the stress onto the -o-, even though it is short. This is actually seen in the Romance languages too it seems (Seen in modiolus, filiolus, caveola, capreolus, phaseolus, gladiolus, etc...)   so it is placed into Latin input handling. 
 [+prim] o > [-stres] [+prim] / __ l [-stres] ([+cons]) #
@@ -382,6 +381,10 @@ $ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV174
 $ DIACLEA RELOCDATION B2.III -- bleeds nd > nt, so relocdated to just before it. As of June 11 2024, relocdated yet further to come before ietation, which it counterfeeds it (tegula > tjegull not segull, castellam > kështjell not këshsell, daemonem > djemër not zemër, though the last could be a later loan.). If this creates problems, another fix could be to make the j arising from hiatus into to a different element, perhaps a /ʝ/? As of June 24 2024, this is moved before i-mutation as well, because i-mutation has same patterning as yod-vowel coalescence, and i-mutation contexts literally cause a yod sometimes (eremus > jerm, lapathia > lëpjetë, (b/p)astica > bjeshkë, etc), but we never see (af-)frication in these contexts. Note that this can be the case in Christian vocab where (af-)fricatoin does not occur ː  christiān-u > kërshter-ë. Furthermore, there appears to be possibly related raising phenomenon before dorsals and palatoalveolars including s triggered by this. 
 {d j;t j} > {d͡ʒ;t͡ʃ}
 
+$DIACLEA RELOCDATION B1.I: moved nasal-fricative phenomenon to after the pre-penultimate o/o:>u phenomena. As of June 17 -- reverted, returned to normal position. As of June 24, moved to right after new location of dj/tj affrication, which appears to feed this; furthermore (, lengthening aspect removed -- htat was Latin internal; condition is now stridents. 
+$[+syl] n > [+long] ∅ / __ [-son,+cont]
+n > ∅ / __ [+strid]
+
 $-----------------------Middle Proto-Albanian II---------------------
 
 $I-MUTATION HERE, since it can feed ietation/diphthongizations (in case of PPAlb a: > ɒː > ... > ye) and also bleed them. 
@@ -568,8 +571,7 @@ $ DV1744.H ~ s becomes ʃ -- for s in reflexes of Old Greek (presh < prason), La
 s > ʃ
 
 $DIACLEA CORRECTION A2.XVII: the new ʃ absorbs following t͡ʃ
-t͡ʃ > ∅ / ʃ __ 
-
+t͡ʃ > ∅ / ʃ __
 $ TODO WORK HERE JUNE 24
 
 $DV2.2.1C5: Latin short e > a in "q, sh" __ "rr, l". No explicit word on the dating of this except that it is between post-Latin PPAlb, and PAlb; the forms used (q, sh,... rr, l) suggest a later date but at first inspection it seems to precede the merger of ae to short e (caelum > qiell) which certainly must have been before k > q (=[c]). So it is placed right after "rr, l" emerged (with what would become dark l now being long l, and rr being long r)

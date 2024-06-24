@@ -185,9 +185,6 @@ $ TODO long term - -consider only applying it for -rs- and -sr- for pre-Latin et
 $ r [+cons] > r 
 $ [+cons] r > r 
 
-$ DIACLEA CORRECTION (insertion) -- disappearance of j after w -- 561 laqueum > lak, 551 quiētus > qetë, 932 salviella > shërbelë ; perhaps also broaden to cover alveolu > nullë "gum" if we believe in that etymology. Seems apparent in Romanian too : quiētus > (in-)cet. 
-j > ∅ / w __ 
-
 $TODO before w deletion and modification phenomena operate, there are some things that need to be fixed... 
 	$ TODO 1 disappearance of w into vowel coloring in: 167 eruilla > rrylë, 189 februarius > f(ë)ruor (via ɒː ?), potentially others -- though not servitium > shërbes) 
 
@@ -395,6 +392,27 @@ $it can be assumed this is intended as a law targeting stressed vowels, because 
 $DIACLEA CHANGE: I-mutation is BLOCKED by preceding labials, and also no evidence it occurs word-initially.
 $TODO IMPLEMENT FOR DIA : ē s (i,e,j) also is an i-mutation targetǃ -- later note...: perhaps ditch this as it is ... covered already by pre-ʃ phenomenon? TODO CHECK...
 {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / [-lab] __ ([-syl])* [+front,-round,-cons]
+
+$DIACLEA CORRECTION A1.V1: i-mutation also occurs for countertonic a in S __ liquid
+ˌɑ > ˌe / s __ [+cor,-nas,+son] ([+cons])* [+front,-cons,-lo,-round]
+
+$ DIACLEA CORRECTION (insertion) -- disappearance of j after labials: 
+	$ w:  laqueum > lak, quiētus > qetë, salviella > shërbelë ; perhaps also alveolu > nullë "gum" if we believe in that etymology. Seems apparent in Romanian too : quiētus > (in-)cet, although this may be independent (note the difference between laqueum > laț and quiētus > in-cet.. curious.). As of June 24, this is moved from being between DV1740H2 and DV1743.B4 to right after i-mutation, because the latter appears to occur for the countertonic a in salviella > sherbelë, which is nevertheless affected by this. 
+	$ mj : gremium > gremb, 
+		$ NOT in unstressed final -ja : amia > ame "brown meagre" 
+	$ prj : capreolum > kaprjɔ́lˠu > kapruall , capreum > qepër, cypreum > qipër 
+	$ brj: manubrium > mëru (though some Gheg mënojë -- see Bonnet) 
+	$ Orj ? : N-boreānus > Nbˌɔrjánʊ > Gheg murâ, Tosk murë ; corium > kua (pl. koi though); coctorium > koftor? 
+		$ NOT in unstressed final -ja : cichorea > kore , victoria > vitore ( if this etymology is to be trusted) 
+		$ languōria, scōria -- only after raisingǃ ː > lëngjyrë, zgjyrë 
+		 $ vexing case -- pistōria > pshterë... except that this is actually pistāria per Bonne
+	$ not bj directly: abiēgnus > vgjê, abiēgnea > vgjenjë 
+		$bjá > bé instead > cambiāre > këmbej, ex-cambiāre > shkëmbej
+			$ (unlike in N-boreānus > murâǃ) 
+			$ difficult case : rubia > rrojbë 
+			$ maybe..>? : subiug-āre > shuaj
+	$ the cases of capreum > qepër and salviella > sherbelë suggest this happened AFTER i-mutation, bu gremium > gremb and manubrium > mëru may suggest the opposite as concerns ɛ and u...
+j > ∅ / {[+lab,+cont];[+lab,-front] r} __
 
 $ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3) 
 $ DIACLEA RELOCDATION B2.III -- bleeds nd > nt, so relocdated to just before it. As of June 11 2024, relocdated yet further to come before ietation, which it counterfeeds it (tegula > tjegull not segull, castellam > kështjell not këshsell, daemonem > djemër not zemër, though the last could be a later loan.). If this creates problems, another fix could be to make the j arising from hiatus into to a different element, perhaps a /ʝ/? This is currently placed after (in fact, right after) i-mutation, which may have different conditioning effects of dj/tj vs. inherited tʃ/dʒ (< kw, gw). 
@@ -635,7 +653,7 @@ $DIACLEA CHANGEː -n also deleted.
 {m;n;s} > {∅;∅;∅} / __ #
 [-stres,-lo] > ∅ / __ #
 
-$DV1738, top, part 3: final -ja(s) to e, clearly bleeding part 2 below. 
+$DV1738, top, part 3: final -ja(s) to e, clearly bleeding part DV1738 part 2.
 $form prior to 8/5/23 was: j a (s) > e / __ #
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
 {j a s;j a} > {e;e} / __ #

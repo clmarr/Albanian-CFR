@@ -20,10 +20,10 @@ l j > ʎ
 r l > lˠ 
 [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
 [+round,-lo,-hi] > [+hi,-long,-splng] / @ __ ( r ) [+nas,+cons] ( [-stres] ) [-son]
-[+round,-prim,-hi] > [-tense,-cons,-lat,+cont,0delrel] / # [+son,+cor] __ 
-[+round,-prim,-hi] > [-tense,-cons,-lat,+cont,0delrel] / [+lab,-son] [+son,+cor] __ 
+[+round,-prim,-hi] > [+lo,+tense,-cons,-lat,+cont,0delrel] / # [+son,+cor] __ 
+[+round,-prim,-hi] > [+lo,+tense,-cons,-lat,+cont,0delrel] / [+lab,-son] [+son,+cor] __ 
+[+round,-lo,-prim,+stres,-hi] > [+hi,-long,-splng] / @ __ 
 [+round,-lo,-stres] > [+hi] / __ [+son,+cor,-nas] [-stres]
-[+round,+tense,-prim,+stres,-hi] > [+hi,-long,-splng] / @ __ 
 w > b / @ [+syl] [+cor,-nas,+son] __ 
 w > ∅ / [+syl] __ [+syl]
 n j > ɲ 
@@ -51,7 +51,7 @@ j > ɟ / # __
 [+back,+long,+syl,-lo] > [+front,-back] 
 [+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅/ __ [-syl]
 [+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅/ __ #
-[+round,+lo,+long] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
+[+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
 [+syl] > [-long,-splng] 
 [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
 ˈɪ > ˈi / __ ʎ

@@ -170,14 +170,14 @@ $[+round,-lo,-prim,-hi] > [+hi,-long] / @ __ [+lat,-front]
 $part IV: implementing the default behavior of the rule, for the remaining (non-palatal) sonorants: rː, r, nː, n, ŋ. As of June 2024: suppressed.
 $[+round,-lo,-hi] > [+hi,-long] / @ __ [+son,+cons,-lab,-front] ([-syl])* [+syl] ([-syl])* [+syl]
 
-$DIACLEA CORRECTION A2.VIII new version -- o to o: always when countertonic now, except when after labial-sonorant (florīnum > flori, proximare > prozhëm, prodāre > prodhoj, maybe prōmitt-o > premtoj) or onset sonorant (rosalia > rrëshaj, rōmānus > remër/rëmër, notoj, rozhponjë...), if the following wherein it goes to ɔ instead. Handle the exception first then the rule, the exception falling to (ˌɔ). Not necessarily unstressed o -- daemonem > djemër not djemu/-ũ, consobrinus > kushëri not kushuri, etc. 
-[+round,-prim,-hi] > [-tense] / {#;[+lab,-son]} [+son,+cor] __
+$DIACLEA CORRECTION A2.VIII new version -- o to o: always when countertonic now, except when after labial-sonorant (florīnum > flori, proximare > prozhëm, prodāre > prodhoj, maybe prōmitt-o > premtoj) or onset sonorant (rosalia > rrëshaj, rōmānus > remër/rëmër, notoj, rozhponjë...), if the following wherein it goes to ɔ instead. Handle the exception first then the rule, the exception falling to (ˌɔ). Use ɒ (later ɔ) for these exceptoins. Not necessarily unstressed o -- daemonem > djemër not djemu/-ũ, consobrinus > kushëri not kushuri, etc. 
+[+round,-prim,-hi] > [+lo,+tense] / {#;[+lab,-son]} [+son,+cor] __
+
+$now the actual unstressed o > u rule A2.VIII. Apparently doesn't happen word initially.
+[+round,-lo,-prim,+stres,-hi] > [+hi,-long] / @ __
 
 $DIACLEA CORRECTION A2.VIIIa -- unstressed o/ɔ to u/ʊ in  __ R V-stres
 [+round,-lo,-stres]> [+hi] / __ [+son,+cor,-nas] [-stres]
-
-$now the actual unstressed o > u rule A2.VIII. Apparently doesn't happen word initially.
-[+round,+tense,-prim,+stres,-hi] > [+hi,-long] / @ __
 
 $DV1740H2 -- rC, Cr > r. 
 $ This one is likely very bugged and needs either suppression or massive fixes-- suppressed, in conference with De Vaan 8/9/23
@@ -331,8 +331,8 @@ $ based on treatment of Lat. ae elsewhere, where it falls in with Latin *short* 
 $ DIACLEA CORRECTION: this does not happen prevocalically (perhaps because the -j- is seen as an onset?) 
 [+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ {[-syl];#}
 
-$ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër, but via PPAlb *ā) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. 
-[+round,+lo,+long] > [-lo,-tense]
+$ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër, but via PPAlb *ā) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. DIACLEA CORRECTION: to handle the current implementation of A2.VIII, broadened to include short ɒ too. 
+[+round,+lo] > [-lo,-tense]
 
 $ 4 NEW VOWEL SYSTEM. loss of distinctive vowel length leading to "system"
 $the following system will emerge per chart at bottom of 1736 -- filling changes not already handled before this point.

@@ -380,7 +380,7 @@ n [+lab,-syl,+voi] > m / __ [+front,-hi,+tense]
 
 $ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3) 
 $ DIACLEA RELOCDATION B2.III -- bleeds nd > nt, so relocdated to just before it. As of June 11 2024, relocdated yet further to come before ietation, which it counterfeeds it (tegula > tjegull not segull, castellam > kështjell not këshsell, daemonem > djemër not zemër, though the last could be a later loan.). If this creates problems, another fix could be to make the j arising from hiatus into to a different element, perhaps a /ʝ/? As of June 24 2024, this is moved before i-mutation as well, because i-mutation has same patterning as yod-vowel coalescence, and i-mutation contexts literally cause a yod sometimes (eremus > jerm, lapathia > lëpjetë, (b/p)astica > bjeshkë, etc), but we never see (af-)frication in these contexts. Note that this can be the case in Christian vocab where (af-)fricatoin does not occur ː  christiān-u [kristjan-ʊ] > kërshter-ë. Furthermore, there appears to be possibly related raising phenomenon before dorsals and palatoalveolars including s triggered by this. 
-$DIACLEA CORRECTION C2.I dj and tj mergin into dʒ tʃ, which as of late June 2024 has been relocdated significantly earlier, now does not immediately result in yod effacement, because the yod can still color following vowels
+$DIACLEA CORRECTION C2.I dj and tj merge into dʒ tʃ, which as of late June 2024 has been relocdated significantly earlier, now does not immediately result in yod effacement, because the yod can still color following vowels
 ${d j;t j} > {d͡ʒ;t͡ʃ}
 {d;t} > {d͡ʒ;t͡ʃ} / __ j
 
@@ -402,20 +402,36 @@ $this implements DV2.2.1A3,  DV2.2.1B4, DV2.2.1F2,
 $this is also part of the implementation of DV2.2.1A5,DV2.2.1B6, DV2.2.1L1, and DV1737's 5b.II 
 $the contextual trigger for this is left somewhat vague, but examples given include __ n t ī, __ C j, __ C ɛ, __ C {ɪ/e}, and one case that will probably concern __ ʎ (DV2.2.1A5) .. so the context can be what is C j, ʎ, i e ɛ ɪ here. 
 $it can be assumed this is intended as a law targeting stressed vowels, because it is placed in 2.2.1 "The stressed vowels of PAlb". No direct statement of ɲ being implicated.
-$DIACLEA CORRECTION C3B.III: I-mutation is BLOCKED by preceding labials, and also no evidence it occurs word-initially.
-$DIACLEA CORRECTION C8.I: I-mutation now realized via evanescent ɨ̯
-$ TODO LATE JUNE WORK HEREǃǃ 
-{ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / [-lab] __ ([-syl])* [+front,-round,-cons]
+
+
+$DIACLEA CORRECTION C8.I: I-mutation now realized via evanescent ɪ̯ which coalesces with the target vowels.
+$ FORMER I-MUT {ˈɑ;ˈu;ˈo;ˈe;ˈɛ} > {ˈe;ˈy;ˈø;ˈi;ˈi} / [-lab] __ ([-syl])* [+front,-round,-cons]
+
+$DIACLEA CORRECTION C3B.III: I-mutation is BLOCKED by preceding labials, and also no evidence it occurs word-initially. This can be captured by specifying [-lab] for a prior for the i-mutation trigger because requiring a specification excludes the word boundary being there. 
+
+$DIACLEA CORRECTION C1B.VII: ɔ > œ phenomena no longer a regular part of i-mutation, simply participating in the later coalescence (E1.I) with yod (georgius > Gjergj; ratiōnem > arësye -- these are caused by *prior* yod! Cases like 2/3SG sheh for shoh are analogical). 
+∅ > ɪ̯ / [-lab] __ 
 
 $DIACLEA CORRECTION A1.V1: i-mutation also occurs for countertonic a in S __ liquid
-ˌɑ > ˌe / s __ [+cor,-nas,+son] ([+cons])* [+front,-cons,-lo,-round]
+$ ultimately ˌɑ > ˌe / s __ [+cor,-nas,+son] ([+cons])* [+front,-cons,-lo,-round]
+∅ > ɪ̯ / s __ ˌɑ [+cor,-nas,+son] ([+cons])* [+front,-cons,-lo,-round]
 
-$ DIACLEA CORRECTION (insertion) -- disappearance of j after labials: 
+$DIACLEA INSERTION A2.XVI -- j arising due to i-mutation triggers voicing of k at least after s (scabies > zgjebe, scōria > zgjyrë). This happens before ɪ̯ merges into j (fascia > fashqë). 
+k > ɡ / [+strid] __ ɪ̯
+
+$ DIACLEA CORRECTION A2.XVIII -- yod is effaced in Middle Proto-Albanian earlier before -a, if after a palatal or palatovelar. Outcomes thus go to -ë and not -a 
+j > ∅ / [+cons,+front] __ ɑ
+
+$ DIACLEA CORRECTION D3.VII --  j before final unstressed a becomes iota before loss of yod after labials (A2.II), allowing this, too, to join with i-mutation. (Exception ːrubia > rrojbë; may require separate explanation). 
+j > ɪ̯ / __ ɑ
+
+$ DIACLEA CORRECTION A2.II -- disappearance of j after labials, except before unstressed -a, whic his handled above in D3.VII 
 	$ w:  laqueum > lak, quiētus > qetë, salviella > shërbelë ; perhaps also alveolu > nullë "gum" if we believe in that etymology. Seems apparent in Romanian too : quiētus > (in-)cet, although this may be independent (note the difference between laqueum > laț and quiētus > in-cet.. curious.). As of June 24, this is moved from being between DV1740H2 and DV1743.B4 to right after i-mutation, because the latter appears to occur for the countertonic a in salviella > sherbelë, which is nevertheless affected by this. 
 	$ mj : gremium > gremb, 
-		$ NOT in unstressed final -ja : amia > ame "brown meagre" 
-	$ prj : capreolum > kaprjɔ́lˠu > kapruall , capreum > qepër, cypreum > qipër 
-	$ brj: manubrium > mëru (though some Gheg mënojë -- see Bonnet) 
+		$ NOT in unstressed final -ja : amia > ame "brown meagre"  (i-mutation otherwise blocked)
+	$ prj : capreolum > kaprjɔ́lˠu > kapruall , 
+			$ after i-mutation capreum > qepër, cypreum > qipër 
+	$ brj: manubrium > mëru (though some Gheg mënojë -- see Bonnet) -- but this may be excluded as per the new patterning of i-mutation of u. 
 	$ Orj ? : N-boreānus > Nbˌɔrjánʊ > Gheg murâ, Tosk murë ; corium > kua (pl. koi though); coctorium > koftor? 
 		$ NOT in unstressed final -ja : cichorea > kore , victoria > vitore ( if this etymology is to be trusted) 
 		$ languōria, scōria -- only after raisingǃ ː > lëngjyrë, zgjyrë 
@@ -425,8 +441,19 @@ $ DIACLEA CORRECTION (insertion) -- disappearance of j after labials:
 			$ (unlike in N-boreānus > murâǃ) 
 			$ difficult case : rubia > rrojbë 
 			$ maybe..>? : subiug-āre > shuaj
-	$ the cases of capreum > qepër and salviella > sherbelë suggest this happened AFTER i-mutation, but gremium > gremb and manubrium > mëru may suggest the opposite as concerns ɛ and u... TODO need to work this out. 
+	$ the cases of capreum > qepër and salviella > sherbelë suggest this happened AFTER the beginning of i-mutation in the emergence of iota, but gremium > gremb and manubrium > mëru may suggest the opposite as concerns ɛ and u... As of July 2024, though, /u/ i-mutation is handled ohterwise, so this can be placed after the emergence of iota but before the resolution in terms of coalescence, and before the merge of iota with j 
 j > ∅ / {[+lab,+cont];[+lab,-front] r} __
+
+$ now ɪ̯ can merge into j, as part of C8.I. 
+ɪ̯ > j 
+
+$DIACLEA CORRECTION D3.IV -- coalescence of etymological ui/uj, ai/aj, ei/ej, ɛi/ɛj > y e i i all roped into the resolution of i-mutation, 
+$DIACLEA CORRECION D3.V -- i-mutation resolution combined with (E1.I) includes jɔ > œ (/ ø) and (A1.VIII) ɪ̯œ > y. 
+$ DIACLEA CORRECTION D3.V: likewise, unification of ɪ̯ a & j a (christiān-u > krishter-ë). This does not happen after labials (lapathia > lëpjetë, pastica > bjeshkë etc.) (and no evidence of D3.V happening after labials either.). As a bonus, final -ja to -e is accounted for. 
+$ First part unifies the outcomes for iota/yod + V sequences, not occurring after labials {ɪ̯;j} {ˈɑ;ˌɑ} > e, Jø > y , Jɔ > ø at least -- and if the current handling of i-mut is right, also J e/ɛ > i 
+$ For this, first, the (stressed) front mid round vowels raise as they coalesce (j e, j ɛ, j ø > i i y), then the back and round vowels front (and raise, in the case of a) to (tense?) mid or high front vowels. U is not included here, it'll be covered in the next part.
+j [+front,-lo,+stres] > ∅ [+hi,+tense] / [-lab] __
+j [-hi,+syl] > ∅ [-lo,-back,+front,+tense] / [-lab] __
 
 $ De Vaan p1743-4 -- w dropped between k (DV1743.G2) or g (DV1744.A2), and vowels. This will eventually feed the palatalization of these velars before i/e/y (p1743) but this feeding does not have to be explicitly coded in. 
 $ form prior to 8/5/23 was: {[-cont,+back] w;[-cont,+back,+round]} > {[-round] ∅;[-round]} / __ [-cons] 
@@ -435,9 +462,6 @@ $changed to sidestep then-current input-side issues in DiaSim. TODO consider res
 $ in practice qu- and gu- never occur without following vowels, so it can be expressed without the following vowel. 
 $ TODO move   this later, or having relevant coloring phenomena operate beforehand (quīs > qysh, quadrum > kodër, quartus > kort, civitatem > qytet, eruilla >rrylë; lso possibly, with  the Xʷ(?), factūra > fytyrë and axungia >ushu(n)jë ~ Romanian osânză)
 w > ∅ / [-cont,+back] __
-
-$DIACLEA INSERTION A2.XVI -- j arising due to i-mutation triggers voicing of k at least after s (scabies > zgjebe, scōria > zgjyrë). This happens before ɪ̯ merges into j (fascia > fashqë). 
-k > ɡ / [+strid] __ ɪ̯
 
 $TODO NOTE FOR DIA: although phonemic nasalization is assigned a later point in the relative chronology (DV1737, number 8), it may be necessary here at least for /e/ and/or /ɛ/, to block ietation and allow the merger of DV2.2.1K with DV2.2.1L1 & DV2.2.1M (aka the merger of 5b.1 with 5b.2 and 5b.3)
 

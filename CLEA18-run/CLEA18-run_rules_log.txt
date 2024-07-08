@@ -62,12 +62,17 @@ n [+lab,-syl,+voi] > m/ __ [+front,-hi,+tense]
 n > ∅ / __ [+strid]
 ∅ > ɪ̯ / __ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] j
 j > ∅ / ɪ̯ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] __ 
-{ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / [-lab] __ ( [-syl] )* [+front,-round,-cons]
-ˌɑ > ˌe / s __ [+cor,-nas,+son] ( [+cons] )* [+front,-cons,-lo,-round]
+∅ > ɪ̯ / [-lab] __ 
+∅ > ɪ̯ / s __ ˌɑ [+cor,-nas,+son] ( [+cons] )* [+front,-cons,-lo,-round]
+k > ɡ / [+strid] __ ɪ̯
+j > ∅ / [+cons,+front] __ ɑ
+j > ɪ̯ / __ ɑ
 j > ∅ / [+lab,+cont] __ 
 j > ∅ / [+lab,-front] r __ 
+ɪ̯ > j 
+j [+front,-lo,+stres] > ∅ [+hi,+tense,-cons,-lat,+cont,0delrel]/ [-lab] __ 
+j [-hi,+syl] > ∅ [-lo,-back,+front,+tense,-cons,-lat,+cont,0delrel]/ [-lab] __ 
 w > ∅ / [-cont,+back] __ 
-k > ɡ / [+strid] __ ɪ̯
 [+front,+round] > [-front,+back] / [-front] __ [+nas,-lab,-back]
 [+front,-hi,-lo,-round,+prim] > ˈi e̯/ __ lˠ ( [-lo,-stres] ( m ) ) #
 [+front,-hi,-lo,-round,+prim] > ˈi e̯/ __ r ( [-lo,-stres] ( m ) ) #

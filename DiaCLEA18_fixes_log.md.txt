@@ -18,12 +18,14 @@ A1.VI -- limited i-mutation of countertonic ˌa in S __ r/l (sarcinārivm > she
 
 A1.VII -- raising of ɔ to u before a palatoalveolar or palatal then vowel. 
 
+A1.VIII -- mid front vowels e œ ɛ before r or s then j become i-mutanda, via the ɪ̯. In these cases, the j is then deleted. (scōria > zgjyrë, languōria > lëngjyrë, etc.; miseria > mëshirë, dēsīderia > dëshirë, etc.; ceresia > qerishë > qershi; ecclēsia > kishë, camisia > këmishë...) 
+
 ## A2 Insertion of phenomena that are something new under the sun from the perspective of the baseline. 
 
 A2.I - ʎ > l / [+hi] __ [+hi],  inserted after the emergence of dark L and ʎ
 	into Middle Proto-Albanian now -- clearly divergent from Vlacho-Romance, inasmuch as that matters. 	
 
-A2.II - j > ∅ disappearance of j after labial continuants, and after pr/br/V-front+round r in MPA. On the basis of qepër and on sherbelë respectively, happens after i-mutation of stressed vowels, and of countertonic a (in limited context). Appears to also happen after final -ja goes to e. 
+A2.II - j > ∅ disappearance of j after labial continuants, and after pr/br/V-front+round r in MPA. On the basis of qepër and on sherbelë respectively, happens after i-mutation of stressed vowels, and of countertonic a (in limited context). Appears to also happen after final -ja goes to e.  TODO rework this. 
 
 A2.III -- ina > inia rule inserted into Antique Proto-Albanian
 
@@ -58,6 +60,8 @@ A2.XV -- Latin onset ex- [eks-] to [es-], seemingly across Romance, so placed in
 A2.XVI -- j arising due to i-mutation triggers voicing of k at least after s (scabies > zgjebe, scōria > zgjyrë) 
 
 A2.XVII -- right after s goes to ʃ (DV1744.H), it absorbs a following t͡ʃ. TODO may need to reconsider this... 
+
+A2.XVIII -- yod is effaced in Middle Proto-Albanian earlier before -a, if after a palatal or palatovelar. Outcomes thus go to -ë and not -a 
 
 # B Rule relocdation
 
@@ -117,6 +121,8 @@ C1B.IV -- DV1736.G1 / DV2.2.1L1 -- ō does actually go to ø, not *uo, before w
 C1B.V -- DV2.2.1B4 -- ʎ does not trigger i-mutation. It is clear it does not for ˈa (but still does for ˈe, at least ˈe from Latin short ǐ) -- cf. alium > aj, fallium > faj, malleus > maj, pallia >pajë, tālea > tajë, rōsālia > rrëshajë. It also does not trigger i-mutation for ˈu it seems, at least based on vitulea > Middle Proto-Albanian *βetˈuʎɑ > ftujë. There don't seem to be any examples of /ˈɛʎ/ or /ˈoʎ/ at this time. There are various cases where it does appear on the surface to do so for /e/ but all of these are for former [ɪ], like scintīlia > shkëndijë etc, and htese may show a different patterning than i-mutation (familia > fëmijë, suavilla > shijë), so this is better handled by a separate rule it seems. 
 
 C1B.VI -- concerns DV4.1U2 (= DV1742P2)-- the  voicing assimilation of ʃ before voiced consonants to modern /ʒ/  now only happens before obstruents. In reality this may be morphological though, as it only seems to happen to the prefix sh- "dis, un" 
+
+C1B.VII -- ɔ > œ phenomena no longer a regular part of i-mutation; relevant cases seem to be actually due to prior yod (georgius > Gjergj, ratiōnem > ratiónem > arësye) or analogical (2/3SG of shoh in sheh). 
 
 ## C2 -- changes in output 
 
@@ -209,9 +215,23 @@ D3.II -- Kortlandt's early final s-deletion is consolidated with the deletion of
 
 D3.III -- early drop of post-tonic vowels moved into the originally second vowel drop wave, but a lot of it is going to be covered in C3B.VIII. 
 
+D3.IV -- coalescence of etymological ui/uj, ai/aj, ei/ej, ɛi/ɛj > y e i i all roped into the resolution of i-mutation
 
+D3.V -- i-mutation resolution combined with (E1.I) includes jɔ > œ (/ ø) and (A1.VIII) ɪ̯œ > y. 
 
-# E larger changes in progress, with things to consider... 
+D3.VI -- i-mutation resolution also combined with ja in loans into Middle Proto-Albanian (e.g. christiān-u > kërshter-ë), though not after labials;
+
+D3.VII -- j before final unstressed a becomes iota before loss of yod after labials (A2.II), allowing this, too, to join with i-mutation 
+
+# E rule separation
+
+E1 -- rules broken off of single rules to be treated separately 
+
+E1.I -- i-mutation of /ɔ/ no longer treated as regular ( C1B.VII) since it seems to only occur non-analogically when the /ɔ/ is after an etymological yod. It is now realized as the coalescence of /jɔ/ to /œ/ (or /ø/ if we're using that.). 
+
+E1.II -- i-mutation of /u/, where licit, is now treated separately than other i-mutation, realized in the emergence of /j/ after the /u/, and the later coalescence of /uj/ to /y/ 
+
+# F larger changes in progress, with things to consider... 
 
 
 .... need to (re-?)work out the ordering and specific conditioning of many of the things below. 
@@ -288,7 +308,7 @@ reorganization of rules seems to be necessary
 	manic-āre > Alb. mëngoj 	Rom a mâneca
 
 	paus-āre > Alb. pushoj			O Rom a pǎsa 
-		(Meyer and Kristophson think the Alb here is from Ital. Mihaescu Haarmann ar enot in agreement. ) 
+		(Meyer and Kristophson think the Alb here is from Ital. Mihaescu Haarmann are not in agreement. ) 
 
 	par-āre > Alb përoj, puroj 
 			mbroj		a apǎra 

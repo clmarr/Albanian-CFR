@@ -330,7 +330,8 @@ $ De Vaan 1736 "1." + DV1736~A1&A3 (on Lat & PPAlb ū) + DV1735~A7&A8 (on Lat &
 $ De Vaan p1736 "2." +DV1735~A1&A2: PPAlb & Lat ai (incl ae?) > ē
 $ based on treatment of Lat. ae elsewhere, where it falls in with Latin *short* e, it seems not, but this is bled already anyways so no need to change this rule at the moment (as of Aug. 1 2023) 
 $ DIACLEA CORRECTION: this does not happen prevocalically (perhaps because the -j- is seen as an onset?) 
-[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ {[-syl];#}
+$ DIACLEA CORRECTION D3.IV -- this is consolidated into the resolution of i-mutation. Commented out. 
+$[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ {[-syl];#}
 
 $ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër, but via PPAlb *ā) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. DIACLEA CORRECTION: to handle the current implementation of A2.VIII, broadened to include short ɒ too. 
 [+round,+lo] > [-lo,-tense]
@@ -403,18 +404,21 @@ $this is also part of the implementation of DV2.2.1A5,DV2.2.1B6, DV2.2.1L1, and 
 $the contextual trigger for this is left somewhat vague, but examples given include __ n t ī, __ C j, __ C ɛ, __ C {ɪ/e}, and one case that will probably concern __ ʎ (DV2.2.1A5) .. so the context can be what is C j, ʎ, i e ɛ ɪ here. 
 $it can be assumed this is intended as a law targeting stressed vowels, because it is placed in 2.2.1 "The stressed vowels of PAlb". No direct statement of ɲ being implicated.
 
-
 $DIACLEA CORRECTION C8.I: I-mutation now realized via evanescent ɪ̯ which coalesces with the target vowels.
 $ FORMER I-MUT {ˈɑ;ˈu;ˈo;ˈe;ˈɛ} > {ˈe;ˈy;ˈø;ˈi;ˈi} / [-lab] __ ([-syl])* [+front,-round,-cons]
 
 $DIACLEA CORRECTION C3B.III: I-mutation is BLOCKED by preceding labials, and also no evidence it occurs word-initially. This can be captured by specifying [-lab] for a prior for the i-mutation trigger because requiring a specification excludes the word boundary being there. 
-
 $DIACLEA CORRECTION C1B.VII: ɔ > œ phenomena no longer a regular part of i-mutation, simply participating in the later coalescence (E1.I) with yod (georgius > Gjergj; ratiōnem > arësye -- these are caused by *prior* yod! Cases like 2/3SG sheh for shoh are analogical). 
-∅ > ɪ̯ / [-lab] __ 
+$ implementing i-mutation ignition for a ɛ e, separated from that of /u/ per E1.II. 
+$TODO -- maybe make this triggered by reduction of unstressed front vowels to yod... 
+∅ > ɪ̯ / [-lab] __ [-round,-hi,+prim]  ([-syl])* [+front,-round,-cons]
 
 $DIACLEA CORRECTION A1.V1: i-mutation also occurs for countertonic a in S __ liquid
 $ ultimately ˌɑ > ˌe / s __ [+cor,-nas,+son] ([+cons])* [+front,-cons,-lo,-round]
 ∅ > ɪ̯ / s __ ˌɑ [+cor,-nas,+son] ([+cons])* [+front,-cons,-lo,-round]
+
+$DIACLEA CORRECTION E1.II: i-mutation of /u/ now treated separately, and handled in terms of a posterior /j/. With a few exceptions (ducem > duq, rudem >rrudhë), taken to be between coronals and single non-palatal consonants (crucem > kryq not palatalized yet); cases like dúī > dy and súī > sy handled by the later coalescence part of i-mutation. 
+∅ > j / [+cor] ˈu __ [+cons,-front] [+front,-cons,-lo,-round]
 
 $DIACLEA INSERTION A2.XVI -- j arising due to i-mutation triggers voicing of k at least after s (scabies > zgjebe, scōria > zgjyrë). This happens before ɪ̯ merges into j (fascia > fashqë). 
 k > ɡ / [+strid] __ ɪ̯
@@ -454,6 +458,10 @@ $ First part unifies the outcomes for iota/yod + V sequences, not occurring afte
 $ For this, first, the (stressed) front mid round vowels raise as they coalesce (j e, j ɛ, j ø > i i y), then the back and round vowels front (and raise, in the case of a) to (tense?) mid or high front vowels. U is not included here, it'll be covered in the next part.
 j [+front,-lo,+stres] > ∅ [+hi,+tense] / [-lab] __
 j [-hi,+syl] > ∅ [-lo,-back,+front,+tense] / [-lab] __
+
+$second part -- falling sonority diphthongs coalesce: aj > e, ej ɛj > i i, uj > y 
+ˈɑ [-syl,-cons,+front,+hi] > ˈe 
+[+prim] [-syl,-cons,+front,+hi] > [+front,+hi,+tense] ∅
 
 $ De Vaan p1743-4 -- w dropped between k (DV1743.G2) or g (DV1744.A2), and vowels. This will eventually feed the palatalization of these velars before i/e/y (p1743) but this feeding does not have to be explicitly coded in. 
 $ form prior to 8/5/23 was: {[-cont,+back] w;[-cont,+back,+round]} > {[-round] ∅;[-round]} / __ [-cons] 

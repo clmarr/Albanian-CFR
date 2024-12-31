@@ -21,7 +21,6 @@ l [+cons,+son] > lː
 b > ∅ / [+syl] __ ( r ) [+syl]
 w > ∅ / [+syl] __ [+syl]
 w > b / [+cor,-nas,+son] __ 
-w > ∅ / [-cont,+back] __ 
 ∅ > w / # __ [-hi,+round,+long]
 w > β / # __ 
 j > ɟ / # __ 
@@ -50,11 +49,12 @@ s > ∅ / [-stres] ( [+nas,+cons] ) __ #
 [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
 {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round,-cons]
 {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* ʎ
+w > ∅ / [-cont,+back] __ 
 [+front,-hi,-lo,-round,+prim] > ˈi e̯/ __ lː ( [-lo,-stres] ( m ) ) #
 [+front,-hi,-lo,-round,+prim] > ˈi e̯/ __ r ( [-lo,-stres] ( m ) ) #
-{ˈo;j ˈø;ˈø} > {ˈu o̯;ˈy e̯;ˈy e̯} / __ lː ( [-lo,-stres] ( m ) ) #
-{ˈo;j ˈø;ˈø} > {ˈu o̯;ˈy e̯;ˈy e̯} / __ n ( [-lo,-stres] ( m ) ) #
-{ˈo;j ˈø;ˈø} > {ˈu o̯;ˈy e̯;ˈy e̯} / __ r ( [-lo,-stres] ( m ) ) #
+{ˈo;j ˈø;ˈø} > {ˈu o̯;j ˈy e̯;ˈy e̯} / __ lː ( [-lo,-stres] ( m ) ) #
+{ˈo;j ˈø;ˈø} > {ˈu o̯;j ˈy e̯;ˈy e̯} / __ n ( [-lo,-stres] ( m ) ) #
+{ˈo;j ˈø;ˈø} > {ˈu o̯;j ˈy e̯;ˈy e̯} / __ r ( [-lo,-stres] ( m ) ) #
 ∅ > j / __ ˈɛ
 j > ∅ / [-cont] [+cor,+son,-nas] __ ˈɛ
 ˈo > ˈu o̯ / # __ r
@@ -79,15 +79,15 @@ t > d / [+stres] ( [-syl] )* n __
 w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
 s > ʃ 
-ˈe > ˈɑ / k __ l
-ˈe > ˈɑ / k __ rː
-ˈe > ˈɑ / [+cor,-lab,+cont] __ l
-ˈe > ˈɑ / [+cor,-lab,+cont] __ rː
+ˈɛ > ˈɑ / k __ l
+ˈɛ > ˈɑ / k __ rː
+ˈɛ > ˈɑ / [+cor,-lab,+cont] __ l
+ˈɛ > ˈɑ / [+cor,-lab,+cont] __ rː
 [+ant,+cor,-cont] j > [-ant,+distr,+delrel,+cor,-son,-cont,+cons,0tense] ∅
 [+lo] > [+front,-back] 
 {m;s} > {∅;∅} / __ #
 [-stres,-lo] > ∅ / __ #
-{j a s;j a} > {e;e} / __ #
+{j a s;j a} > {ɛ;ɛ} / __ #
 {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
 a j > ∅ / __ ˌa #
 [+hi,+front,-prim] > [-front,+back,+round,+lab] / [+back,-cont] __ #
@@ -101,7 +101,9 @@ a j > ∅ / __ ˌa #
 l > ʎ / __ k
 l > ʎ / [-cont,+hi] __ 
 ∅ > b / m __ #
-[+syl] > [+nas,+son,0delrel] / __ [+nas,+cons]
+[+syl] > [+nas] / __ [+nas,+cons]
+n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ [+strid,+cons]
+n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ #
 ∅ > h / # __ [+syl]
 [+lab,+cont,-syl,+voi] > m / __ [+syl] n [+cons]
 [+lab,-son,+cont] > [+strid] 

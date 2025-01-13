@@ -161,8 +161,9 @@ rː > r
 [+back,-cont] j > [-back,+front] ∅
 z > d͡z / n __ 
 c > k / __ [+syl] ʃ
-[-prim,-back,-lo] > ə / @ __ ( [-syl] )* [+prim]
-[-stres] > ə / @ __ ( [-syl] )* [+prim]
+[-prim,-back,-lo] > ə / @ __ ( @ )* [+prim]
+[-prim,-back,-lo] > ə / # ( [-syl] )* ( [-prim] ) [-syl] ( [-syl] )* __ 
+[-stres] > ə / # [-prim] ( [-prim] )* __ 
 ə > ∅ / n __ [-cont]
 {o;ɔ;a} > {ə;ə;ə} / __ #
 [+long] > [-long,-splng] 

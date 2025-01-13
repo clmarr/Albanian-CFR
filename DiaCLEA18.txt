@@ -244,7 +244,7 @@ $ DV2.2.2c "at an early stage" internal unstressed post-tonic vowels go to schwa
 $ originally formulated here so as to not count items with inflectional ending consonants (e.g. accusative -m) as "internal" : [-stres] > ə / [+prim] (@)* __ ([-syl])* [+syl] -- but now this is no longer necessary(?)
 $ the vowel reduction and falls as a whole are said to happen "in the last phase of the Proto-Albanian period... after i-mutation and a-mutation" but it seems this does not apply to these early internal post-tonic reductions given the cited cases of lardh and verdh, nor to the internal pretonic vowels that are reduced to ə and/or "lost at a stage preceding PAlb" (with Latin etyma cited -- cotoneus > ftua, nepōtia > mbesë, etc.); note that APA is not strictly within De Vaan's "PAlb here". 
 $ DIACLEA CHANGE C1B.III: does not seem to affect low-vowels at this point -- yet. In most cases it will evenutally , though. 
-$ DIACLEA CHANGE D3.III: moved to (originally) second _VOWEL DROP WAVE_, although some of the effects placed not long after this at the beginning of Middle Proto-Albanian. There may still be some justification for 
+$ DIACLEA CHANGE D3.III: moved to (originally) second _VOWEL DROP WAVE_, although some of the effects placed not long after this at the beginning of Middle Proto-Albanian. There may still be some justification for vowel elision at this time, but that remains to be seen.
 $[-stres,-lo] > ə / [+prim] (@)* __ @ 
 
 
@@ -883,8 +883,10 @@ c > k / __ [+syl] ʃ
 $repeat of internal pretonic vowel reductions per DV2.2.2b (see above)
 $DIACLEA CORRECTION C1B.VIII -- reduction to schwa now doesn't occur for BACK countertonics. 
 $DIACLEA CORRECTION C1B.IX -- low vowels also not mass reduced if countertonic.
-[-prim,-back,-lo] > ə / @ __ ([-syl])* [+prim]
-[-stres] > ə / @ __ ([-syl])* [+prim]
+$ Jan 13 2025 -- bandaid to include also countertonics in words with no tonic tonic stress at all -- assumed to be no more than two syllables.
+[-prim,-back,-lo] > ə / @ __ (@)* [+prim]
+[-prim,-back,-lo] > ə / # ([-syl])* ([-prim]) ([-syl])+ __
+[-stres] > ə / # ([-prim])+ __
 ə > ∅ / n __ [-cont]
 
 $gleaned from DV1738, unstressed final -o(n) and -a(s) in loans from early Slavic, Italian and Greek are reduced to -ë

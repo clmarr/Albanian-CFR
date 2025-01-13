@@ -93,7 +93,8 @@ h > ∅ / __ [-stres]
 h > ∅ / [+syl] __ 
 [-prim] > ∅ / # __ 
 ∅ > ə / # __ [+son,+cons] [+cons]
-[-prim] > ə / @ __ ( @ )* [+prim]
+[-prim,-back] > ə / @ __ ( @ )* [+prim]
+[-stres] > ə / @ __ ( @ )* [+prim]
 ə > ∅ / [+nas,+cons] __ [-cont]
 ə > ∅ / [+cons] ( @ )* [+nas,+cons] __ [+nas,+cons] ( @ )* [+prim]
 ə > ∅ / [+son,+cons] m __ [+nas,+cons]
@@ -160,7 +161,8 @@ rː > r
 [+back,-cont] j > [-back,+front] ∅
 z > d͡z / n __ 
 c > k / __ [+syl] ʃ
-[-prim] > ə / @ __ ( [-syl] )* [+prim]
+[-prim,-back] > ə / @ __ ( [-syl] )* [+prim]
+[-stres] > ə / @ __ ( [-syl] )* [+prim]
 ə > ∅ / n __ [-cont]
 {o;ɔ;a} > {ə;ə;ə} / __ #
 [+long] > [-long,-splng] 
@@ -170,3 +172,4 @@ c > k / __ [+syl] ʃ
 c > t͡ʃ / __ [+cons]
 ɲ > j / [-hi] __ #
 ɲ > j / [+hi,+front] __ #
+[-prim] > [-stres,-prim,+syl,+son,0delrel] 

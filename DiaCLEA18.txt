@@ -881,8 +881,9 @@ $TODO consider motivating factors here...
 c > k / __ [+syl] ʃ 
 
 $repeat of internal pretonic vowel reductions per DV2.2.2b (see above)
-$DIACLEA CORRECTION C1B.VIII -- reduction to schwa now doesn't occur for BAKC countertonics. 
-[-prim,-back] > ə / @ __ ([-syl])* [+prim]
+$DIACLEA CORRECTION C1B.VIII -- reduction to schwa now doesn't occur for BACK countertonics. 
+$DIACLEA CORRECTION C1B.IX -- low vowels also not mass reduced if countertonic.
+[-prim,-back,-lo] > ə / @ __ ([-syl])* [+prim]
 [-stres] > ə / @ __ ([-syl])* [+prim]
 ə > ∅ / n __ [-cont]
 

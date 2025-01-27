@@ -585,6 +585,10 @@ $ handling DV2.2.2b.iii (kˌət  >ft ) here too.
 p > k / __ t
 {k ə;k} > {f;f} / __ {t;s}
 
+$DIACLEA CORRECTION A2.XXII -- TV̯L > ləTV̯ if prior syllable has simple onset, it seems: (duplic-ā- > dulpëkoj, pavīcula > pylkë, radīcula > rilkë, conucula > konurkë, but mātrīcula > ndrikull). Two rules necessary per current DiaSim restriction against features in disjunctions. [-voi] in second row is a dummy/place filler. note that if other /l ə/ sequences arise, the functionality of this could be compromised. 
+[-stres] [+lat] > l ə / [+syl] ([-syl,+voi]) [+hi,+syl] [-voi,-cont] __
+∅ ∅ [-voi,-cont] l > l ə [-voi] ∅ / [+hi,+syl] __ ə
+
 $DIACLEA CORRECTION A2.XXI -- progressive u-spreading between two unstressed syllables (u or countertonic ˌu spreading onto unstressed vowel). TODO (1/27/25) still needs to be bled by some voiced stop phenomena. 
 [-stres] > u / [-prim,+hi,+back,+round] ([-syl])* __
 

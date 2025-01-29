@@ -193,9 +193,6 @@ $ DV1743.B4 -- w > b after r and l. I.e. the (non-nasal) (sonorant) coronals. Co
 $ DIACLEA fix: only after a non-initial vowel. (e.g. not eruilla > rrylë, alveolus > unatt. llullë > nullë...) 
 w > b / @ [+syl] [+cor,-nas,+son] __
 
-$ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM (Rom. cetate), njerkë "stepmother" < NOVERCA
-$ TODO RELOCDATE THIS LATER -- W phenomena including coloring stuff where this matters happen much later
-w > ∅ / [+syl] __ [+syl]
 
 $merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) ; expanded to cover ŋ n too. 
 $ DIACLEA CHANGE: decoupled these. Handling gn phenomena elsewhere, on the basis of cognatus > kunat, fuskina > fuzhnjë, etc. Furthermore in Romanian words in original -ŋn- reflect in mn or even m- (agnellus > miel) 
@@ -374,8 +371,13 @@ $ This differs from the outcome for /ʊ/ from Latin or PPAlb *u, which both rais
 $ this thus implements DV2.2.1B11
 [+syl,+hi,-tense] > [-hi,+tense]
 
+$ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM (Rom. cetate), njerkë "stepmother" < NOVERCA
+$ DIACLEA CORRECTION B1.III -- relocdated later -- TODO W phenomena including coloring stuff where this matters happen much later, still get to this
+w > ∅ / [+syl] __ [+syl]
+
 $DIACLEA INSERTION : nw (or nβ) > m before [e], currently unspecified for stress though all cases seem to be before countertonic [ˌe]. This explains all nw > m cases except for the proposed etymology of invernālia for mërrajë. Motivation for this may be found in differentiating this from [ø], which in some accounts (e.g. Orel 2000) may have been [we] (note that the same sound becomes [uo] before sonorants). 
 $ TODO maybe broaden this and have nɸ involved for cases like iūnctus 
+$ TODO work out conditioning of this !
 n [+lab,-syl,+voi] > m / __ [+front,-hi,+tense]
 
 
@@ -871,6 +873,7 @@ $DV2.1D2 -- Tosk uo > ua ; written agnostically as to the syllabic status of the
 
 $DV2.1F2: və > u- 
 $ this might be yet earlier considering that it also happens in Gheg? Or not. 
+$ TODO consider moving it. 
 {v ə;v ˌə} > {u;ˈu} / # __
 
 = Proto-Tosk

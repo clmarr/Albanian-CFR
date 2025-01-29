@@ -25,7 +25,6 @@ r l > lˠ
 [+round,-lo,-prim,+stres,-hi] > [+hi,-long,-splng] / @ __ 
 [+round,-lo,-stres] > [+hi] / __ [+son,+cor,-nas] [-stres]
 w > b / @ [+syl] [+cor,-nas,+son] __ 
-w > ∅ / [+syl] __ [+syl]
 n j > ɲ 
 [+nas] [-cont,+back,+voi] > ɲ/ __ [+front,-cons,+hi]
 ∅ > w / # __ [-hi,+round]
@@ -55,6 +54,7 @@ j > ɟ / # __
 ˈɪ > ˈi / __ ʎ
 ˈɪ > ˈi / __ [+lab]
 [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
+w > ∅ / [+syl] __ [+syl]
 n [+lab,-syl,+voi] > m/ __ [+front,-hi,+tense]
 {d;t} > {d͡ʒ;t͡ʃ} / __ j
 n > ∅ / __ [+strid]

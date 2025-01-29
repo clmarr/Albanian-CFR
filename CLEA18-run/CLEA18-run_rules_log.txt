@@ -8,8 +8,7 @@ k > ∅ / # [+front,-hi,-lo] __ s
 [+cor,-son] > ∅ / [-stres] ( [+nas,+cons] ) __ #
 [+nas,+cons] > ∅ / [-stres] __ #
 {c͡ç;ɟ͡ʝ} > {t͡s;d͡z} 
-{i n;ˈiː n} > {i n i;i n ˈiː} / # ( [-front] )* [+lab,+voi] ( [+son] )* __ [+lo]
-{i n;ˈiː n} > {i n i;i n ˈiː} / [+back] __ [+lo]
+{i n;ˌiː n;ˈiː n} > {i n i;ˌiː n i;i n ˈiː} / # ( [-front] )* [+lab,+voi] ( [+son] )* ( [+back] ) __ [+lo]
 {w r;r} > {rː;rː} / # __ 
 r r > rː 
 r j > ʎ / @ __ @
@@ -44,7 +43,8 @@ j > ɟ / # __
 [+round,+syl,-hi,-lo,+long] > [+lo] / __ n ( [+syl,-stres] ( [+nas] ) ) #
 [+round,+syl,-hi,-lo,+long] > [+lo] / __ j ( [+syl,-stres] ( [+nas] ) ) #
 [+round,+syl,-hi,-lo,+long] > [+lo] / [-cont] __ r ( [+syl,-stres] ( [+nas] ) ) #
-[-hi,+long,+tense] > [+round,+lab,+lo] / __ ɲ [+round]
+[-hi,+long,+tense,+prim] > [+round,+lab,+lo] / __ [+cons,+son] ( j ) [+round]
+j > ∅ / [+syl] r __ [+round]
 [+front,+lo,+round] > [-round,-lab,-lo] / [+cor] __ 
 [+lo,+round] > [-front,+back] 
 [+back,+long,+syl,-lo] > [+front,-back] 

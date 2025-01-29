@@ -77,14 +77,15 @@ $ needs to come after the nasal-spirant law above in Latin input handling so as 
 $ However, in light of the fact that Proto-Albanian loans reflecting PIE palatovelars reflect as ts dz in Aromanian and various ts s z in Romanian (unlike PAlb ð < PPAlb *d, which reflects with d in Romanian and Aromanian), this is indeed split in two, with the affricate stage first, and the spirantization only after Middle Proto-Albanian (when De Vaan assigns the contact between Proto-Albanian and Proto-Vlach)
 {c͡ç;ɟ͡ʝ} > {t͡s;d͡z}
 
-$ DIACLEA insertion : in-metathesis or i-insertion in -- -Cina-/-Cinia rule (or -ina- metathesis? 
+$ DIACLEA insertion A2.III : in-metathesis or i-insertion in -- -Cina-/-Cinia rule (or -ina- metathesis?) Jan 28, 2025 -- expanded to cover countertonics. 
 	$ the "maybe-metathesis" rule? (see below), occurring after back elements or strings of non-front elements that include at least one voiced labial element not separated by an obstruent from the target 
 $ TODO does seem to happen after aw > a, so consider either relocdating that earlier into the end of Antique Proto-Albanian, or moving this -- and the relevant vowel drops -- later...
 $ results when the /i/ is stressed are unclear -- which is why this is a "maybe metathesis" rule
 	$ if it is really metathesis, we should see -ní(jë), with the n possibly going to -r- in Tosk when conditioned. This is possible what we see in porrˈīna > *porrinˈiːa > purri(-a) and maybe its possible variant prijë. But prijë could also be explained as coming from a prinjë, which matches the non-metathesis scenario that seems evident in marruːcˈiːna > mërqinjë, where it seems the original i maintains its stress, rather than switching with the n (along with the insertion of an i before the n). On the other hand columbīna > kullumbrí is a clear case of what looks more like metathesis. Seeing as -injë is a rather common suffix, it's possible merqinjë was analogized, so we are going with the -metathesis scenario for now -- that is (ˈ)ina > in(ˈ)ia, not (ˈ)ina > (ˈ)inia
 	$ inasmuch as ia > e is plausible for Romanian, may also be evident in Romanian and Aromanian (?) -- marrucina > Alb mërqinjë, Romanian mărăcine (albeit also mărăcină), Aromanian mărăține. Alas this rule may not be worth it at all... 
-$TODO ... is this rule *really* worth its cost in complication? Consider removing it. 
-{i n;ˈiː n} > {i n i;i n ˈiː} / {# ([-front])* [+lab,+voi] ([+son])*;[+back]}  __ [+lo]
+	$ merged into one rule, back optional, but has to come after labials as it does in all cases (fuscina, fuscinārius, marrūcīna -- not sarcināriu). 
+$TODO ... is this rule *really* worth its cost in complication? Consider removing it. Or just getting reid of hte ìːn >iníː aspect? 
+{i n;ˌiː n;ˈiː n} > {i n i;ˌiː n i;i n ˈiː} / # ([-front])* [+lab,+voi] ([+son])* ([+back])  __ [+lo]
 
 $DV1740I1 -- initial PPAlb and Lat. r- becomes "*r:"; merges with the reflex of PPAlb initial *wr- (DV1740I2)
 $form prior to 8/5/23 was: (w) r > rː / # __ 
@@ -309,13 +310,15 @@ $ other relevant cases:
 	$ in practice it doesn't seem this happens much before -ll and -r at this stage for the long oː but were going with this for now out of faithfulness .
 		$TODO: remove this commentary from baseline 18 cascade once decisions are made for DiaCLEA, move it there. 
 
-$DIACLEA INSERTION: aw-mutation? rounding and lowering of primary stressed unrounded long/tense (a:, o:, e:) vowels under the influence of a round vowel on the other side of an ɲ. 
+$DIACLEA INSERTION A2.XI: aw-mutation? rounding and lowering of primary stressed unrounded long/tense (a:, o:, e:) vowels under the influence of a round vowel on the other side of an ɲ. As of Jan 28, 2025, this is expanded to also operate across n (iānua > ... > gjua) and rj (qershuar, fëruor etc), with deletion of the j. Unified by features -- these are consonantal sonorants (as it turns out, l ʎ m don't occur in  the right positions to trigger thisǃ) 
 $ inclusion of ō is unclear -- evidence does not point strongly either way. Excluding it would mean more conditions though. 
 $ operation on ē does not happen after dentals and perhaps not after l-velar sequences (plac-ē- > pëlqej, indulg-ē- ndjej, perindulg- përdëllej; lk uncertain given plac-ē> pëlqej but mulc-ē > mëlkoj, mulkoj, but without pëlqej; one other issue is poenitere > pend-o- though this is only seen today in the reflexive pendohem and maybe it wouldn't apply given the different suffix in that case?). For now, for the sake of simplicity, just go with the coronal; for all we know, perhaps Alb. pëlqej is actually a cognate, not a reflex, of Latin placeo/placēre (the word apparently also exists in Tocharian)
 	$ these same post coronal environments do see some -ej outcomes for the -ā- class too (simul-ā- > shëmbëllej, incausin-ā- > ngashërej, sper-ā- > shpërej ...) but only in 7 out of 76 cases.
 $ During August 2023 it was thought that ɲ also depalatalized after original ō here but in further consideration, only two items are affected (antōnius, cotōneum) and these were able to be explained otherwise in a much more general rule conditioned by nasals, so this was removed on the 29th
-$TODO this may operate around rj too for ā and maybe ō, with deletion of the -j- element in some cases. That merits more inspection. Definitely consider possibilities to reformulate this. 
-[-hi,+long,+tense] > [+round,+lab,+lo] / __ ɲ [+round]
+[-hi,+long,+tense,+prim] > [+round,+lab,+lo] / __ [+cons,+son] (j) [+round]
+
+$DIACLEA insertion A2.XI.1 -- j deleted in Vrj [round], handling the ˈārjʊ cases but also coctorium > koftor  etc. Not hte Vrja cases that ultimately become -e, after some i-mutation. 
+j > ∅ / [+syl] r __ [+round]
 
 $ handling now the fork in the fate of ēɲ[round] -- alternatively, could do this by unrounding the unstressed final vowel trigger of this, and that is maybe more parsimonious (one less rule), but may not really be "kosher" so to speak as it is kind of hacky, perhaps. 
 [+front,+lo,+round] > [-round,-lab,-lo] / [+cor] __

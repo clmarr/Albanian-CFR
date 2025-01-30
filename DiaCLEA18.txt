@@ -272,17 +272,23 @@ $DIACLEA rule insertion: ʎ depalatalizes to l between high vowels
 ʎ > l / [+hi] __ [+hi]
 
 $ DV2.2.2c, resolution -- effacement of internal posttonic vowels is complete in time to block loss of d (> ð) in verdh and lardh, based on example words used. 
+	$ ə > ∅
 $DIACLEA CHANGE C3B.VIII: largely suppressed. Effects of this currently handled in second drop wave; some handled below, for non-low vowels, without a need to explicitly pass through schwa, for hte following contexts
-	$ atonic (non-low) vowels in [+son] t/d __ k  
+	$ [α] atonic (non-low) vowels in [+son] t/d __ k  
 		$ d now removed as it appears that secondary(!) d (i) k clusters have voicing involved -- eradicare > rrëgjoj, medicastrum > mëgashtër , excaudicāre >shkagoj 
-	$ atonic (non-low) vowels in r  __ [-son,-lab]
-	$ non-primary (non-low) vowels in in k/g __ t/k(/d/g) V
-	$atonic (non-low) vowels in V b/p/g/k __ [-voi,-lab] 
-$ ə > ∅
-[-stres,-lo] > ∅ / [+son] t __ k 
+	$ [β] atonic (non-low) vowels in r  __ [-son,-lab]
+	$ [ɣ] non-primary (non-low) vowels in in k/g __ t/k(/d/g) V
+	$ [ð]  atonic (non-low) vowels in V b/p/g/k __ [-voi,-lab] 
+$ ... 
+	$ [ɛ] as of Jan 29, 2025, another one added coming first, on the basis of cluster behavior: 
+		$ non-initial (i.e. secondary stressed vowel somewhere before) unstressed vowels (including low vowelsǃ) in [+voi] [-voi] __ [+cor,-voi]. This completely usurps [α]. 
+[-stres] > ∅ / [+stres] ((@)* [+voi]) [-voi] __ [-voi]
+	$ [-stres,-lo] > ∅ / [+son] t __ k  --- now obselete! 
 [-stres,-lo] > ∅ / r __ [-son,-lab]
 [-prim,-lo] > ∅ / [+back,-cont] __ [-cont,-lab] [+syl]
 [-stres,-lo] > ∅ / [+syl] [-cor,-cont] __ [-voi,-lab]
+
+$ DIACLEA CHANGE C3B.VIII-
 
 $TODO may need to implement voicing assimilation and other cluster fixes here... or later.
 

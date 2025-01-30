@@ -36,13 +36,13 @@ j > ɟ / # __
 {s n;t n;d n;n n;k n} > {nː;nː;nː;nː;nː} 
 {t͡s;d͡z} > {θ;ð} 
 ʎ > l / [+hi] __ [+hi]
+[+back,+cons] > j / [-cons] __ [-stres,+front] t
+[+back,+cons] > j / [+front] __ t
+n [+back,+cons] > ɲ/ [-round] __ t
 [-stres] > ∅ / [+stres] ( ( @ )* [+voi] ) [-voi] __ [-voi]
 [-stres,-lo] > ∅ / r __ [-son,-lab]
 [-prim,-lo] > ∅ / [+back,-cont] __ [-cont,-lab] [+syl]
 [-stres,-lo] > ∅ / [+syl] [-cor,-cont] __ [-voi,-lab]
-[+back,+cons] > j / __ [-stres,+front] t
-[+back,+cons] > j / [+front] __ t
-n [+back,+cons] > ɲ/ [-round] __ t
 [+round,+syl,-hi,-lo,+long] > [+lo] / __ lˠ ( [+syl,-stres] ( [+nas] ) ) #
 [+round,+syl,-hi,-lo,+long] > [+lo] / __ n ( [+syl,-stres] ( [+nas] ) ) #
 [+round,+syl,-hi,-lo,+long] > [+lo] / __ j ( [+syl,-stres] ( [+nas] ) ) #

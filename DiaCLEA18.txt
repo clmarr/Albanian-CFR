@@ -271,26 +271,6 @@ $DIACLEA rule insertion: ʎ depalatalizes to l between high vowels
 	$ TODO there is some depalatalization of ʎ that remains unaccounted for ː favaliam > falë (unless this is fawʎə ??), oleaster > ullashtër (already u?) ... 
 ʎ > l / [+hi] __ [+hi]
 
-$ DV2.2.2c, resolution -- effacement of internal posttonic vowels is complete in time to block loss of d (> ð) in verdh and lardh, based on example words used. 
-	$ ə > ∅
-$DIACLEA CHANGE C3B.VIII: largely suppressed. Effects of this currently handled in second drop wave; some handled below, for non-low vowels, without a need to explicitly pass through schwa, for hte following contexts
-	$ [α] atonic (non-low) vowels in [+son] t/d __ k  
-		$ d now removed as it appears that secondary(!) d (i) k clusters have voicing involved -- eradicare > rrëgjoj, medicastrum > mëgashtër , excaudicāre >shkagoj 
-	$ [β] atonic (non-low) vowels in r  __ [-son,-lab]
-	$ [ɣ] non-primary (non-low) vowels in in k/g __ t/k(/d/g) V
-	$ [ð]  atonic (non-low) vowels in V b/p/g/k __ [-voi,-lab] 
-$ ... 
-	$ [ɛ] as of Jan 29, 2025, another one added coming first, on the basis of cluster behavior: 
-		$ non-initial (i.e. secondary stressed vowel somewhere before) unstressed vowels (including low vowelsǃ) in [+voi] [-voi] __ [+cor,-voi]. This completely usurps [α]. 
-[-stres] > ∅ / [+stres] ((@)* [+voi]) [-voi] __ [-voi]
-	$ [-stres,-lo] > ∅ / [+son] t __ k  --- now obselete! 
-[-stres,-lo] > ∅ / r __ [-son,-lab]
-[-prim,-lo] > ∅ / [+back,-cont] __ [-cont,-lab] [+syl]
-[-stres,-lo] > ∅ / [+syl] [-cor,-cont] __ [-voi,-lab]
-
-$ DIACLEA CHANGE C3B.VIII-
-
-$TODO may need to implement voicing assimilation and other cluster fixes here... or later.
 
 $ TODO need to work on this rule -- see "kt outcomes" file. 
 $ k becoming yod before /t/ if next to front vowel -- De Vaan 2018(:1744)  -- DV1744.J3
@@ -303,12 +283,32 @@ $ k becoming yod before /t/ if next to front vowel -- De Vaan 2018(:1744)  -- DV
 	$ we'll formulate the rule to simultaneously entertain (a) and (b) by using an optional nasal placed intermediately for the prior conditioning
 		$ as it is not among the listed sources of this. 
 $ first part -- conditioning on front vowel or /a/, then /t/; using [-stres,-round] ([-stres] implies [+syl]), as it can be assumed there was no front round vowels yet.  Based on the example of cogitare, it seems expected that g is swept up in this. 
-$ DIACLEA CORRECTION C3B.IVog : the trigger is the more phonetically predictable front vowels here -- not [ə], and not [a]ǃ 
-[+back,+cons] > j / __ [-stres,+front] t
+$ DIACLEA CORRECTION C3B.IVog : the trigger is the more phonetically predictable front vowels here -- not [ə], and not [a]ǃ  C3B.IV** -- must come after vowel. 
+$ DIACLEA CORRECTION B2.V -- moved. this aspect to before MPA I vowel drops of C3B.VIII
+[+back,+cons] > j / [-cons] __ [-stres,+front] t
 $ second part -- prior conditioning
 $ DIACLEA CORRECTION C3B.IV* -- nasal conditioning removed here. Instesad nkt > ɲt after stressed nonround (ma(n)jtë, shenjtë, strenjtë)
 [+back,+cons] > j / [+front] __ t
 n [+back,+cons] > ɲ / [-round] __ t
+
+$ DV2.2.2c, resolution -- effacement of internal posttonic vowels is complete in time to block loss of d (> ð) in verdh and lardh, based on example words used. 
+	$ ə > ∅
+$DIACLEA CHANGE C3B.VIII: largely suppressed. Effects of this currently handled in second drop wave; some handled below, for non-low vowels, without a need to explicitly pass through schwa, for hte following contexts
+	$ {α} atonic (non-low) vowels in [+son] t/d __ k  
+		$ d now removed as it appears that secondary(!) d (i) k clusters have voicing involved -- eradicare > rrëgjoj, medicastrum > mëgashtër , excaudicāre >shkagoj 
+	$ {β} atonic (non-low) vowels in r  __ [-son,-lab]
+	$ {ɣ} non-primary (non-low) vowels in in k/g __ t/k(/d/g) V
+	$ {ð}  atonic (non-low) vowels in V b/p/g/k __ [-voi,-lab] 
+$ ... 
+	$ [ɛ] as of Jan 29, 2025, another one added coming first, on the basis of cluster behavior: 
+		$ non-initial (i.e. secondary stressed vowel somewhere before) unstressed vowels (including low vowelsǃ) in [+voi] [-voi] __ [+cor,-voi]. This completely usurps [α]. 
+[-stres] > ∅ / [+stres] ((@)* [+voi]) [-voi] __ [-voi]
+	$ [-stres,-lo] > ∅ / [+son] t __ k  --- now obselete! 
+[-stres,-lo] > ∅ / r __ [-son,-lab]
+[-prim,-lo] > ∅ / [+back,-cont] __ [-cont,-lab] [+syl]
+[-stres,-lo] > ∅ / [+syl] [-cor,-cont] __ [-voi,-lab]
+
+$TODO may need to implement voicing assimilation and other cluster fixes here... or later.
 
 $part I of DV1736.G1 / DV2.2.1L1 has PPAlb ō and Lat ō, as well as Lat o, ultimately becoming *uo before word-final {ɫ,n,r,j}. For this to happen, the ō instances cannot be fronted to ø -- as will happen to long oː otherwise. At the same time, De Vaan does not list a *ɫ in Proto-Albanian or Proto-Albanian, though its sources are clear, coming from a PAlb *lː (DV1739~3.1E), itself with identifiable Pre-Proto-Albanian and Latin sources (DV1740~3.2F, cf. also -E). Makes sense to gather these as /lː/ for now, for the baseline cascade, before this rule. The *Rl aspect of it seems to come after consonantal reductionsː see De Vaan's listing of Latin PARABOLA > përrallë for DV1740~3.2F2. 
 $note that this is not listed for the reflex of PPAlb *ā, which is currently *ɒː, but alas this item *does* get fronted to ø under i-mutation in DV2.2.1B7.

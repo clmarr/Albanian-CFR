@@ -24,8 +24,11 @@ A1.IX -- reduction of u before voiceless stops or clusters containing them. Occu
 
 A1.X - -in Middle Proto-Albanian I, another early vowel loss:  non-initial (i.e. secondary stressed vowel somewhere before) unstressed vowels (including low vowelsǃ) in [+voi] [-voi] __ [+cor,-voi]. This completely usurps [α] ( [-stres,-lo] > ∅ / [+son] t __ k  ) 
 
-A1.XI -- before DV1744.B5, p (optional unstressed vowel) and k effaced in N __ T 
-	-- TODO THIS! 
+A1.XI -- lenition of d and b to delta and beta in between non-nasal non-lateral sonorants. Setting stage for their later loss. 
+
+A1.XII -- in earlier Middle Proto-Albanian, early loss of vowels in n __ [+cor,-cont] (A1.XII.a -- benedic-o- > bënkoj, christīnatalem > kërshëndelë, paenit-ē/-entia > pendoj and pendesë, reni(d/g)enio > rrëngjej (?); sanit-ātem,-osum > shëndet, shëndosh 
+	$  A1.XII.b and of i in [+back] n __ [-cont] [+back] ( communic-ā- > kungoj; manica > mëngë, manic-ā- > mëngoj, manipul-ā- > mbuloj 
+ 	$ Romanian doesn't do some of these -- communic-ā- , sanitātem, manica... 
 
 ## A2 Insertion of phenomena that are something new under the sun from the perspective of the baseline. 
 
@@ -84,8 +87,10 @@ A2.XXIII -- Middle Proto-Albanian I cluster simplifications done on Jan 29, 2025
 	A2.XXIII.α -- T1 [+cont] T2 > sT2 ː brōtascu > breshk, potest-ā- > pushtoj, potestātem > pushtet 
 			trumpisc-ā- > trushkyej -- feeds pre-fricative nasal lossǃ
 			also fabrica etc. cases. 
+
 	A2.XXIII.β -- tk# > tək (for now) ː canticus > kantëk ( > kantkë)  -- before ɣ 
 				planticus > plang thoug h... hold off on this one. 
+			TODO implement? 
 	
 	 A2.XXIII.ɣ C1 C2 T > C1 T  	-- must be laterǃ -- now placed right before marker for MPA II. 
 				(bled by α and β) 
@@ -212,12 +217,12 @@ C3B.V -- raising before s/ʃ turned out to only be accurate when there was also 
 
 C3B.VI -- 4.1B3 m > mb before unstressed vowel now limited to occur non-initially and with an /l/ on the other side of the unstressed vowel (grumbulloj, shëmbëlltyrë, (m)bletë) 
 
-C3B.VII -- DV1743.B4 now only operates after non-initial vowels then oral resonants (previously: any context with an oral resonant immediately beforehand.) 
+C3B.VII -- DV1743.B4 now only operates after non-initial vowels then oral resonants (previously: any context with an oral resonant immediately beforehand.). As of Feb 2, 2025, suppressed. 
 
 C3B.VIII -- first wave of vowel drops reshaped, no longer targeting strictly posttonic elements, and now targeting the following: 
 	$ atonic (non-low) vowels in [+son] t __ k 
 			$ d excluded as it seems there are secondary -dk- clusters with voicing involved, to yet be resolved.
-	$ atonic (non-low) vowels in r  __ [-son,-lab]
+	$ (β) atonic (non-low) vowels in r  __ [-son,-lab]
 	$ non-primary (non-low) vowels in in k/g __ t/k(/d/g) V
 	$atonic (non-low) vowels in V b/p/g/k __ [-voi,-lab] 
 		$ [ɛ] as of Jan 29, 2025, another one added coming first, on the basis of cluster behavior: 
@@ -278,6 +283,10 @@ D3.VI -- i-mutation resolution also combined with ja in loans into Middle Proto-
 
 D3.VII -- j before final unstressed a becomes iota before loss of yod after labials (A2.II), allowing this, too, to join with i-mutation 
 
+D3.VIII -- medial losses of d and b deleted (d -- DV1745.A4 ; b -- DV1745.A2, DV1745.A3) Reinterpreted as lenition outcomes. 
+
+D3.IX -- DV1743.B4 (Lw > Lb) now considered to be part of betacism. 
+
 # E rule separation
 
 E1 -- rules broken off of single rules to be treated separately 
@@ -285,6 +294,8 @@ E1 -- rules broken off of single rules to be treated separately
 E1.I -- i-mutation of /ɔ/ no longer treated as regular ( C1B.VII) since it seems to only occur non-analogically when the /ɔ/ is after an etymological yod. It is now realized as the coalescence of /jɔ/ to /œ/ (or /ø/ if we're using that.). 
 
 E1.II -- i-mutation of /u/, where licit, is now treated separately than other i-mutation, realized in the emergence of /j/ after the /u/, and the later coalescence of /uj/ to /y/. Where it is licit: posterior context is a single non-palatal consonant, and prior Tr- (incl. kryq) or ʒ- (< s-), l-... can just go with coronals for now, with ducem > duq and rudem > rrudhë taken as exceptions. 
+
+E1.III -- now to two stages of rhotacismː n > ɾ̃, and ɾ̃ > ɾ, with vowel loss and certain cluster developments (notably ɾ̃T > ɾ̃D) happening in-between .
 
 # F larger changes in progress, with things to consider... 
 
@@ -306,7 +317,7 @@ working on file showing similarities between APA /b/ and /w/ developments... wil
 
 there is also some sort of (pretonic?) beta and delta triggered cluster voicing phenomenon that appears to be missed this far, part of other general cluster simplifications that seem to be missed thus far... 
 
-Voicing of pretonic secondary clusters involving a voiced stop(?) (> fricative(?)), and wiht -w- (> fricative β or v or βʷ)?
+Voicing of pretonic secondary clusters involving a voiced stop(?) (> fricative(?)), and with -w- (> fricative β or v or βʷ)?
 	exvigil-āre	> əkswəɡəl-aː	> z-gl-oj > zgjoj
 	saburrum 	> səbˈurrə 	> zhur
 	excaudic-āre 	> əksawdək-ˈaː	> shkag-oj

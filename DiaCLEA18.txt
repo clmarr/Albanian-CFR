@@ -341,9 +341,9 @@ $ handling now the fork in the fate of ēɲ[round] -- alternatively, could do t
 $ De Vaan 1736 "1." + DV1736~A1&A3 (on Lat & PPAlb ū) + DV1735~A7&A8 (on Lat & PPAlb ō) - long back vowels fronted -- listing only the round ones and not including ɒː (incl. from PIE & AGk aː)-- in effect, he seems to mean the non-low long back vowels ones. 
 [+back,+long,+syl,-lo] > [+front,-back]
 
-$ De Vaan p1736 "2." +DV1735~A1&A2: PPAlb & Lat ai (incl ae?) > ē
+$ De Vaan p1736 "2." +DV1735~A1&A2: PPAlb & Lat ai (not "ae" -- handled in earlier rule) > ē
 $ based on treatment of Lat. ae elsewhere, where it falls in with Latin *short* e, it seems not, but this is bled already anyways so no need to change this rule at the moment (as of Aug. 1 2023) 
-$ DIACLEA CORRECTION: this does not happen prevocalically (perhaps because the -j- is seen as an onset?) 
+$ DIACLEA CORRECTION C3B.II: this does not happen prevocalically (perhaps because the -j- is seen as an onset?) 
 $ DIACLEA CORRECTION D3.IV -- this is consolidated into the resolution of i-mutation. Commented out. 
 $[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ {[-syl];#}
 
@@ -440,8 +440,9 @@ $ FORMER I-MUT {ˈɑ;ˈu;ˈo;ˈe;ˈɛ} > {ˈe;ˈy;ˈø;ˈi;ˈi} / [-lab] __ ([-s
 $DIACLEA CORRECTION C3B.III: I-mutation is BLOCKED by preceding labials, and also no evidence it occurs word-initially. This can be captured by specifying [-lab] for a prior for the i-mutation trigger because requiring a specification excludes the word boundary being there. 
 $DIACLEA CORRECTION C1B.VII: ɔ > œ phenomena no longer a regular part of i-mutation, simply participating in the later coalescence (E1.I) with yod (georgius > Gjergj; ratiōnem > arësye -- these are caused by *prior* yod! Cases like 2/3SG sheh for shoh are analogical). 
 $ implementing i-mutation ignition for a ɛ e, separated from that of /u/ per E1.II. 
+$DIACLEA CORRECTION C3B.X -- now requires at least one consonant to come between. 
 $TODO -- maybe make this triggered by reduction of unstressed front vowels to yod... 
-∅ > ɪ̯ / [-lab] __ [-round,-hi,+prim]  ([-syl])* [+front,-round,-cons]
+∅ > ɪ̯ / [-lab] __ [-round,-hi,+prim]  ([-syl])+ [+front,-round,-cons]
 
 $DIACLEA CORRECTION A1.V1: i-mutation also occurs for countertonic a in S __ liquid
 $ ultimately ˌɑ > ˌe / s __ [+cor,-nas,+son] ([+cons])* [+front,-cons,-lo,-round]
@@ -490,8 +491,10 @@ j [+front,-lo,+stres] > ∅ [+hi,+tense] / [-lab] __
 j [-hi,+syl] > ∅ [-lo,-back,+front,+tense] / [-lab] __
 
 $second part -- falling sonority diphthongs coalesce: aj > e, ej ɛj > i i, uj > y 
-ˈɑ [-syl,-cons,+front,+hi] > ˈe 
-[+prim] [-syl,-cons,+front,+hi] > [+front,+hi,+tense] ∅
+$ now incorporates (DV1735~A1&A2) diphthong resolution, as well as DIACLEA CORRECTION C3B.II -- doesn't happen prevocalically for a 
+$ D3.IV as of Feb 2 -- simply not happening for now. 
+$[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ {[-syl];#}
+$[+prim] [-syl,-cons,+front,+hi] > [+front,+hi,+tense] ∅
 
 $ De Vaan p1743-4 -- w dropped between k (DV1743.G2) or g (DV1744.A2), and vowels. This will eventually feed the palatalization of these velars before i/e/y (p1743) but this feeding does not have to be explicitly coded in. 
 $ form prior to 8/5/23 was: {[-cont,+back] w;[-cont,+back,+round]} > {[-round] ∅;[-round]} / __ [-cons] 

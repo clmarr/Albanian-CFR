@@ -64,7 +64,7 @@ n > ∅ / __ [+strid]
 [+cons] > ∅ / [+cons] __ [-son]
 ∅ > ɪ̯ / __ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] j
 j > ∅ / ɪ̯ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] __ 
-∅ > ɪ̯ / [-lab] __ [-round,-hi,+prim] ( [-syl] )* [+front,-round,-cons]
+∅ > ɪ̯ / [-lab] __ [-round,-hi,+prim] [-syl] ( [-syl] )* [+front,-round,-cons]
 ∅ > ɪ̯ / s __ ˌɑ [+cor,-nas,+son] ( [+cons] )* [+front,-cons,-lo,-round]
 ∅ > j / [+cor] ˈu __ [+cons,-front] [+front,-cons,-lo,-round]
 k > ɡ / [+strid] __ ɪ̯
@@ -75,8 +75,6 @@ j > ∅ / [+lab,-front] r __
 ɪ̯ > j 
 j [+front,-lo,+stres] > ∅ [+hi,+tense,-cons,-lat,+cont,0delrel]/ [-lab] __ 
 j [-hi,+syl] > ∅ [-lo,-back,+front,+tense,-cons,-lat,+cont,0delrel]/ [-lab] __ 
-ˈɑ [-syl,-cons,+front,+hi] > ˈe
-[+prim] [-syl,-cons,+front,+hi] > [+front,+hi,+tense,-cons,-lat,+cont,0delrel] ∅
 w > ∅ / [-cont,+back] __ 
 [+front,+round] > [-front,+back] / [-front] __ [+nas,-lab,-back]
 [+front,-hi,-lo,-round,+prim] > ˈi e̯/ __ lˠ ( [-lo,-stres] ( m ) ) #

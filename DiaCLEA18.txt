@@ -508,6 +508,7 @@ $ MIDDLE PROTO-ALBANIAN LENITION: d and b to delta and beta in between non-nasal
 $ DIACLEA CORRECTION D3.IX -- w and original b, both now beta, to b after l,r. ( incorping DIACLEA fix C3B.VII: now only after a non-initial vowel. (e.g. not eruilla > rrylë, alveolus > unatt. llullë > nullë...) 
 β > b / @ [+syl] ([-syl])* [+son,-nas,+cor] __
 
+
 $BETA COLORING! - + LOSS -- WORK HERE!
 
 $TODO work here
@@ -898,7 +899,8 @@ $ DIACLEA CORRECTION E1.III: Tosk rhotacism is now split into two stages: n > ɾ
 n > ɾ̃ / [+syl] __ [+syl]
 
 $DV3.1H2 : -rn- > -rr- / V __ V . This happens in Gheg and Tosk, but De Vaan 2018, citing Janson 1986(:97f), argues it is post-Slavic. Inasmuch as it happens in Gheg, it is also independent of Tosk rhotacism, and should thus be handled separately.
-r n > rː / @ __ @
+$DIACLEA CORRECTION C1A.IV -- now unconditioned (formerly  r n > rː / @ __ @) 
+r n > rː
 
 $DV3.1E -- l: passes to dark l.
 $ This is actually pan-Albanian but it is placed as a PAlb to Modern Alb change DV'18. 

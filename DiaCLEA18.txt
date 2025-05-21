@@ -116,15 +116,15 @@ $DIACLEA18 change: changed the -prim to -stress here as this doesn't seem to app
 $DV1740F3 -- Lat *l > l: / V __ V[-front]
 $ as long as the lambda forming rule DV1740G1 is placed before this, [-front] does not need to be explicated, which is useful because [a] may technically be treated as front depending on the current convention for Latin on the input side, but this does appear to occur before [a] ? (or not?) 
 $ Combined with DV1740F1 ~ PPAlb *l, *sl > l: / V __ V[-front] 
-$ form prior to 8/5/23 was: (s) > lː / [+syl] __ [+syl]
+$ form prior to 8/5/23 was: (s) l > lː / [+syl] __ [+syl]
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
-$ DIACLEA change : just having this go straight to dark L /lˠ/
-$ DIACLEA change : placing this before {nl,ll} > l, which counterfeeds it, and thus also before lambdacism -- in order to do so, the posterior context is now also *explicitly* [-front] 
+$ DIACLEA CHANGE D3.I : just having this go straight to dark L /lˠ/
+$ DIACLEA CHANGE B2.V : placing this before {nl,ll} > l, which counterfeeds it, and thus also before lambdacism -- in order to do so, the posterior context is now also *explicitly* [-front] 
 {s l;l} > {lˠ;lˠ} / [+syl] __ [+syl,-front] 
 
 $DV1740E3 -- Lat ll > PAlb l. As [l] is a resonant, this will be totally bled by DV1740F2 if not placed before it.
 $merge with DV1740E1: PPAlb ln > PAlb l; placement for the same counterbleeding reasons.  
-$DIA RELOCDATION: but this does seem to feed lambdacism -- placed before lambdacism as otherwise lambdacism for -llj- segments will be lost due to hte current formulation of rule 14 (l [+cons,+son] > lː); could specify that rule for [-lat] for the second input segment, but it is simpler to just place this rule earlier. 
+$DIA CHANGE B2.VI: but this does seem to feed lambdacism -- placed before lambdacism as otherwise lambdacism for -llj- segments will be lost due to hte current formulation of rule 14 (l [+cons,+son] > lː); could specify that rule for [-lat] for the second input segment, but it is simpler to just place this rule earlier. 
 {l;n} > {∅;∅} / l __ 
 
 $ DV1740G1 : intervocalic l becomes ʎ before front vowel.
@@ -755,7 +755,6 @@ $ De Vaan 2018 (: 1745.A4) -- Latin /b/ is deleted both (DV1745.A2) intervocalic
 	$ the cases of bubalus > buall, diabolus > djall, liber > lirë and perhaps fabrica > farkë suggest that for De Vaan 2018, this should be placed before the loss of unstressed posttonic internal vowels -- unlike the case with /d/ (i.e. laridum > lardh) [though for DIA this has now been moved] 
 b > ∅ / [+syl] __ (r) [+syl]
 
-
 $ --- end of intervocalic drop block ----
 $ TODO -- can remove this TODO when handled other experimenting with other cluster simplifications and then checking if they match those of Orel 
 $ TODO -- need to shift this again so that it comes before the INITIAL vowel drops! edictare > hetoj etc. 
@@ -770,7 +769,7 @@ $in effect, this is non-low-vowel unstressed final syllables closed by inflectio
 $form prior to 8/5/23 was: [-stres] {m;s} > ∅ / __ #
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
 $ note that -stres implies a vowel if we are using the default feature definitions and implications (as is intended for this cascade), as the feature [stres] is unspecified unless it is [+syl] 
-$DIACLEA CHANGEː -n also deleted. 
+$DIACLEA CHANGE C1A.V: final -n also deleted. 
 {m;n;s} > {∅;∅;∅} / __ #
 [-stres,-lo] > ∅ / __ #
 
@@ -787,7 +786,7 @@ $changed to sidestep then-current input-side issues in DiaSim. TODO consider res
 $DV1738, top, part 4: final -a + jˌa (def FSG) > a 
 a j > ∅ / __ ˌa #
 
-$DV1738, top, part 5 -- final countertonic -is, -ei (def rt msg) to >i, but it appears this is accomplished by other rules. TODO check this if necessary. 
+$DV1738, top, part 5 -- final countertonic -is, -ei (def article, msg) to >i, but it appears this is accomplished by other rules. TODO check this if necessary. 
 
 $DV1738, top, part 6: final -i without primary stress (effectively countertonic) > -u after velars. (but in practice this will be mainly be the (secondarily stressed?) -u of the definite masculine nominative?) 
 [+hi,+front,-prim] > [-front,+back,+round,+lab] / [+back,-cont] __ #
@@ -909,7 +908,7 @@ $ DIACLEA CORRECTION: deleted. Consolidated as the /l:/ stage never happens now.
 $lː > lˠ
 
 $DV3.1B2 n: to n
-$DIACLEA CHANGE: expand this to the shortening of all long nasals. 
+$DIACLEA CHANGE C1A.VI: expand this to the shortening of all long nasals. 
 $nː > n
 [+nas,+cons] > [-long]
 
@@ -965,7 +964,7 @@ $ Jan 13 2025 -- bandaid to include also countertonics in words with no tonic to
 ə > ∅ / n __ [-cont]
 
 $gleaned from DV1738, unstressed final -o(n) and -a(s) in loans from early Slavic, Italian and Greek are reduced to -ë
-$ TODO FOR DIA : consider retracting this just to -o, and have the passage of unstreseed -a to -ë only here, as the -o > -ë phenomena in Byzantine/Bulgarian/Italian seem limited to feminines, in which it could be analogical.
+$ TODO FOR DIA : consider retracting this just to -o, and have the passage of unstressed -a to -ë only here, as the -o > -ë phenomena in Byzantine/Bulgarian/Italian seem limited to feminines, in which it could be analogical.
 $ DIACLEA CHANGE: move this just to o ɔ a becoming ə ə ə as this causes too many errors
 {o;ɔ;a} > {ə;ə;ə} / __ #
 

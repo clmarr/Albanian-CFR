@@ -48,7 +48,7 @@ $ Latin(-internal?) NASAL FRICATIVE PHENOMENON : Latin nasals lost before fricat
 		$ Per Allen, Vaananen etc 
 	$ different handling in corresponding Orel 1.4.7.13 on p115 in ns > ʃ
 	$ this should not be formulated and sequenced so as to be fed by De Vaan 2018's one step passage of his PPAlb *tɕ *dʝ > *θ *ð, so that is placed afterward  (just because this is not indicated -- if there is evidence for it this would merit a change in treatment)
-$DIACLEA RELOCDATION B1.I: moved this to after the pre-penultimate o/o:>u phenomena. As of June 17 -- reverted, returned to normal position. As of June 24, moved to right after new location of dj/tj affrication, which appears to feed this; furthermore (, lengthening aspect removed -- htat was Latin internal; condition is now stridents. 
+$DIACLEA CHANGE B1.I: moved this to after the pre-penultimate o/o:>u phenomena. As of June 17 -- reverted, returned to normal position. As of June 24, moved to right after new location of dj/tj affrication, which appears to feed this; furthermore (, lengthening aspect removed -- htat was Latin internal; condition is now stridents. 
 $[+syl] n > [+long] ∅ / __ [-son,+cont]
 
 $ DIACLEA INSERTION: A2.IV. Latin -ˈVolV(C)# items shift the stress onto the -o-, even though it is short. This is actually seen in the Romance languages too it seems (Seen in modiolus, filiolus, caveola, capreolus, phaseolus, gladiolus, etc...)   so it is placed into Latin input handling. 
@@ -207,7 +207,7 @@ $DIACLEA insertion A2.XI.1 -- j deleted in Vrj [round], handling the ˈārjʊ c
 j > ∅ / [+syl] r __ [+round]
 
 $merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) ; expanded to cover ŋ n too. 
-$ DIACLEA CHANGE: decoupled these. Handling gn phenomena elsewhere, on the basis of cognatus > kunat, fuskina > fuzhnjë, etc. Furthermore in Romanian words in original -ŋn- reflect in mn or even m- (agnellus > miel) 
+$ DIACLEA CHANGE (But not a significant change from baseline it seems?) decoupled these. Handling gn phenomena elsewhere, on the basis of cognatus > kunat, fuskina > fuzhnjë, etc. Furthermore in Romanian words in original -ŋn- reflect in mn or even m- (agnellus > miel) 
 $kn and gn phenomena are now to be handled either in tandem with k/g(V-stres)t phenomena, or before APA. --
 ${ŋ n j;ŋ n;ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ;ɲ;ɲ}
 n j > ɲ 
@@ -404,7 +404,7 @@ n [+lab,-syl,+voi] > m / __ [+front,-hi,+tense]
 
 
 $ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3) 
-$ DIACLEA RELOCDATION B2.III -- bleeds nd > nt, so relocdated to just before it. As of June 11 2024, relocdated yet further to come before ietation, which it counterfeeds it (tegula > tjegull not segull, castellam > kështjell not këshsell, daemonem > djemër not zemër, though the last could be a later loan.). If this creates problems, another fix could be to make the j arising from hiatus into to a different element, perhaps a /ʝ/? As of June 24 2024, this is moved before i-mutation as well, because i-mutation has same patterning as yod-vowel coalescence, and i-mutation contexts literally cause a yod sometimes (eremus > jerm, lapathia > lëpjetë, (b/p)astica > bjeshkë, etc), but we never see (af-)frication in these contexts. Note that this can be the case in Christian vocab where (af-)fricatoin does not occur ː  christiān-u [kristjan-ʊ] > kërshter-ë. Furthermore, there appears to be possibly related raising phenomenon before dorsals and palatoalveolars including s triggered by this. 
+$ DIACLEA CHANGE B2.III -- bleeds nd > nt, so relocdated to just before it. As of June 11 2024, relocdated yet further to come before ietation, which it counterfeeds it (tegula > tjegull not segull, castellam > kështjell not këshsell, daemonem > djemër not zemër, though the last could be a later loan.). If this creates problems, another fix could be to make the j arising from hiatus into to a different element, perhaps a /ʝ/? As of June 24 2024, this is moved before i-mutation as well, because i-mutation has same patterning as yod-vowel coalescence, and i-mutation contexts literally cause a yod sometimes (eremus > jerm, lapathia > lëpjetë, (b/p)astica > bjeshkë, etc), but we never see (af-)frication in these contexts. Note that this can be the case in Christian vocab where (af-)fricatoin does not occur ː  christiān-u [kristjan-ʊ] > kërshter-ë. Furthermore, there appears to be possibly related raising phenomenon before dorsals and palatoalveolars including s triggered by this. 
 $DIACLEA CORRECTION C2.I dj and tj merge into dʒ tʃ, which as of late June 2024 has been relocdated significantly earlier, now does not immediately result in yod effacement, because the yod can still color following vowels
 ${d j;t j} > {d͡ʒ;t͡ʃ}
 {d;t} > {d͡ʒ;t͡ʃ} / __ j
@@ -965,7 +965,7 @@ $ Jan 13 2025 -- bandaid to include also countertonics in words with no tonic to
 
 $gleaned from DV1738, unstressed final -o(n) and -a(s) in loans from early Slavic, Italian and Greek are reduced to -ë
 $ TODO FOR DIA : consider retracting this just to -o, and have the passage of unstressed -a to -ë only here, as the -o > -ë phenomena in Byzantine/Bulgarian/Italian seem limited to feminines, in which it could be analogical.
-$ DIACLEA CHANGE: move this just to o ɔ a becoming ə ə ə as this causes too many errors
+$ DIACLEA CHANGE C5.I: reform this to just o ɔ a becoming ə ə ə as this causes too many errors
 {o;ɔ;a} > {ə;ə;ə} / __ #
 
 $DV1734.3 -- loss of length in Northern Tosk (and much elsewhere except much of Lab) 

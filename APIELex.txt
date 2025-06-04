@@ -2,16 +2,38 @@ $Proto-Indo-European,Modern Tosk
 $ using for uvulars for back velars, palatals for front velars except h1 (as x)
 $ H1 as x, H2 as back velar, H3 labiovelar
 $ double stress with stressed suffixes 
+$ TODO to morph diachrony file
+$ it seems tehre was a stress retraction that was at least still going on when the earliest Greek loanwords entered, that effected many paradigms, that was done by the point of Latin contact. 
+$ using n-j-é/ó for -nj- presents, likely from nasal infix with -e- reduced to -j-. 
 $ using -akʷyos rather than -ikʷyos -- makes more sense for -u(a/o/e)s in enlarguemnt from o-stem verbs. Also Durrës. 
 $ -i-eh2 as source of collective/feminine derivational suffix -í, def. -ía
+$ plural -ëra/-na < -īna per Orel 2000(:229), which causes i-mutation, from a "collectivizing" PIE -īna he says. I'm treating this as from adjectivalizing -iHn(-os) + collectivizing -eχ. Since feminine of the latter is listed without accent, ot putting it on, for now. 
+* MPL i-mutating -ër/-ën treated as from -énes, plural of PIE suffix *-éːn forming nouns of roots, more in line with De Vaan 2004: 71; Schumacher 2013(:2019) has it via -inih; Orel 2000(: 230) instead has a proposed PIE *-ino for these. 
+$ per Orel 2000 and it seems others agree, resonant final noun-stems become -o- stems.
 
-$Demiraj - currently on arë
-$Orel -- end of page 7, on arë.
+$TODO -- iterate through 
+	$ De Vaan 2017 -- curr page 1738 
+	$  Orel 1998, end of page 8, on arg.
+	$ Demiraj 1997, currently on arrë.
+	$Rix - on bie, p76
+	$ Schumacher 2013 -- curr page 213, beginning of section 2.1.5 , but running thru from 210 too...
 
-$jam forms, inherited -- some challenged. 
-x ˈe s m i , j ˈa m $be.1SG.PRES. jom in some Gheg. Demiraj 1997: 207. Orel 1998: 156. 
-$ Orel 1998: 156 claims *es(o)nti > janë. unclear
-χ ˈe n x ˈe s t i , ˈə ʃ t ə $be.3SG.PRES. Gheg ã(n)sthtë. Buzuku anshtë, Budi/Bardhi/Bogdani âshtë, Variboba ësht. Schumacher 2013: 209. Demiraj 1997: 207. Or inlaut nasal infix or analogy from esonti > janë -- cf. Orel 1998: 156. 
+$BE conjugations (exc. aorist < TURN) -- TODO discuss in dissertation. 
+$BE jam forms, inherited -- some challenged. 
+x ˈe s m i , j ˈa m $verb, be.1SG.PRES. jom in some Gheg. Demiraj 1997: 207. Orel 1998: 156. However I think it's maybe PPAlb Héσamɩ. However per Joseph 2016(:133), evidence of e > a before CC (gjashtë, jashtë, mjaltë) does support this. 
+x ˈe s o m i , j ˈa m $verb, BE.1sg.pres < APAlb  esam(i). Either a < thematic -o- (cf. Latin sum < Old Latin esom), or this is from another tense or mood (cf. Sanskrit (Vedic?) asam), which is quite plausible given that *esmi reflects as the subjunctive... maybe. PROPOSAL. Posited below. 
+x ˈe s m i , j ˈɛ m $verb, BE.1sg.pres.subj reflecting PIE pres indicative (TODO my Proposal A). See above. 
+x ˈe s e m i , j ˈɛ m $verb, BE.1sg.pres.subj. My proposal B: reflects replacement of reconstructed PIE *xˈes-o-χ with *xˈes-e-mi on the basis of 2sg.subj *xes-e-si and 3sg.subj *xes-e-ti
+x ˈe s i , j ˈɛ  $verb, BE.2sg.pres.act.indic. Originally a proposal, but turns out Brian 2016 supports it. PPALb eσ(ɩ). 
+x ˈe s e s i , j ˈɛ ʃ $verb, BE.2sg.pres.act.subj. Proposal. From PIE subj in this case.
+χ ˈe n x ˈe s t i , ˈə ʃ t ə $verb, be.3SG.PRES. Gheg ã(n)sthtë. Buzuku anshtë, Budi/Bardhi/Bogdani âshtë, Variboba ësht. Schumacher 2013: 209. Demiraj 1997: 207. Would reflect a preverb in h2en-. Other theories below, also cf.  Orel 1998: 156. 
+x ˈe n x ˈe s t i , ˈə ʃ t ə $verb, be.SG.PRES. Alternate theory to the above, per Hamp 1980: 341 apud Joseph 2016: 132-3. This theory has the advanteage of a parallel in Koine Greek enesti, with a corresponding short for eni, based on adverb/ preverb. Contact may be involved for these parallels in Koine Greek and Albanian (Hamp 1980 sees the Greek as a calque of the Albanian; Matzinger and Schumacher see the reverse -- Joseph 2016: 132. I note however that a Greek 'eni borrowed into Antique Proto Albanian would become *i, not ë). Also proposed is inlaut nasal infix or analogy from esonti > janë (Orel 2000: 179). However I posit a nasal present infix and extension with -tod (see below), and that e
+$x n s t ˈo d , ˈə ʃ t ə $verb, be.3SG.PRES. My proposal A, alternate to the above: a nasal infix present, weak root, with extension in -tod (to explain PAlb -a > -ë). -- nah, it results in a non-nasal vowel.
+χ ˈe n χ e s t t ˈo d , ˈə ʃ t ə $verb, be.3SG.PRES. My proposal B: h2en-h1est(< esti)-tod 
+χ ˈe n , ˈə $verb, be.3SG.PRES < preverbg h2en-. Tosk ë : NE Gheg o, NW Gheg â, central and southern Gheg ô. Spelled ëë in early modern Tosk, apparently. Joseph 2016: 132. 
+x ˈe s e t ˈo d , j ˈɛ t ə $verb, BE.3SG.PRES.SUBJ. PIE SUBJ.3SG *xeseti reshaped for suffix -tód. This is a proposal. 
+x s m ˈe s i , j ˈɛ m i $verb, BE.1PL.PRES. This is a proposal. Form per Kapovic 2017: 93, proposal is it's directly inherited (with initial x > e, then stress shift). TODO however Joseph 2016(:135-6) sees this as analogical. 
+x s ˈe n t o d s $verb, BE.3PL.PRES. Proposal. IE xsénti (Hit asanzi, Ved sánti, Lat sunt... -- Fortson p87; Kapovic 2017: 93), with ending replaced with -tods, like with 3SG a bit. Or it could be the e > a / __ C C thing. Joseph 2016: 133-4 seems to suggest a contact morphome in syncretism with the 1sg. TODO discuss this in the dissertation. Orel 1998: 156 claims *es(o)nti > janë. 
 
 $dorsal row 1 - front dorsals
 $h1- 
@@ -25,14 +47,11 @@ $gh1-
 
 $g1- 
 ɟ ˈn̩ xʷ s c o m , ɲ ˈɔ h $know.1sg.impf.act.ind. pres. njohë in Old Gheg. Schumacher 2013: 210. 
-ɟ ˈo m bʰ ˈo s , ð ˈə m b $tooth. Gheg dhâmb. Schumacher 2013: 210. Demiraj 1997: 158. Orel 1998: 82. De Vaan 2017: 1746. 
+ɟ ˈo m bʰ o s , ð ˈə m b $tooth. Gheg dhâmb. Schumacher 2013: 210, 211. Demiraj 1997: 158. Orel 1998: 82. De Vaan 2017: 1746. 
 
 $e- 
 ˈe n p e r ˈe n d ˈo , b ɾ ˈə n d a $inside. Orel 1998: 35. Tosk variant brënda, noted as normal Tosk outcome by De Vaan 2017: 1733. Gheg mrena. Other proposal, cited on wiki, seems to be en per en ta, which seems to reflect Camarda (ː318). 
 ˈe n p e r ˈe n d a kʷ j o s , b ɾ ˈə n d ə s $intestines. Gheg mranës. A derivative thereof loaned into Romanian and Slavic for words for cheese. Orel 1998: 35.
-
-$BE conjugations (exc. aorist < TURN) 
-ˈe s a m , j ˈa m $BE.1sg.pres. Either a < thematic -o- (cf. Latin sum < Old Latin esom), or this is from another tense or mood (cf. Sanskrit (Vedic?) asam), which is quite plausible given that *esmi reflects as the subjunctive... maybe. 
 
 $ DORSAL ROW 2 -- BACK DORSALS
 $h2- 
@@ -44,6 +63,7 @@ $h2-
 χ ˈe w x ˈe χ , ˈa h ə $breath, vapor, soul, spirit. Gheg avë. Demiraj 1997: 72. 
 χ ˈe w eː j t ˈo s , ˈa f t $gust, breath. Orel 1998: 2. Demiraj 1997: 71-2, perhaps ,but as χˈewx-et-(ˈos?). Done below.
 χ ˈe w x e t ˈo s , ˈa f t $gust. See above.
+χ ˈe w n e χ , ˈa ɾ ə $wasp. Now ar-ëz. PAlb aunā. Gheg anëz. Orel 1998: 8 plus consultation for form of IE h2eu̯- "weave". 
 
 $distal particle and related pronouns
 χ ˌe w , a $disjunctive particle. Demiraj 1997: 69. Orel 1998: 1. Cabej 1982 I: 27-8. 
@@ -56,11 +76,15 @@ $distal particle and related pronouns
 χ ˌe w t ˈo d , a t ˈa $3dist.neut.sg. Demiraj 1997: 73
 χ ˌe w t ˌo m , a t ə $3dist.sg.acc. Demiraj 1997: 73. 
 χ ˌe w t ˈo m s , a t ˈa $3dist.mpl. Demiraj 1997: 73. 
-χ ˌe w t ˈuː , a t ˈy $there. TODO check form. Orel 1998: 12. 
+χ ˌe w t ˈu x , a t ˈy $there. Orel 1998: 12 with -ū. Using h1
 
 χ ˈe p s e r o , ˈa f ə ɾ $near. Orel 1998: 1-2. Cf Sanskrit ápara, Avestan apara, Gohtic afar. -s at the end? 
 χ ˈe p n e χ , ˈə m ə $river-bed, fountain". Doesn't actually exist in Tosk -- instead as Gheg ãmë. Demiraj 1997: 75. However Orel 1998(: 4) following Tagliavini and Cabej 1982 II: 39 thinks it is instead a metaphoric use of "mother", perhaps calquing Slavic (SCr matica "water-source", Bulg matka "water-source). TODO consider. Alternatively, perhaps it went the other way. 
 χ ˈe p n u l ˈo s , ˈa m u lˠ $still water. Gheg hãmull, and also amull "river bed, fountain". TODO may be derived. Demiraj 1997: 75. Different etymology in Orel 1998: 4-5. 
+
+χ ˈe t t e χ , ˈa t ə $father. Or: *átta, since there's no initial laryngeal in Hittite. May be Lallwort. Demiraj 1997: 83. 
+χ ˈe t t e n e s , ˈɛ t ə ɾ $fathers. Inherited, at least in terms of the umlauting ending. Schumacher 2013: 219.
+
 
 χ ˌe n , a $probably, perhaps (particle). Demiraj 1997: 69. 
 χ ˈe n ɟʰ i c o s , ˈa ŋ k θ $nightmare. h2(e)nɟʰ plus diminutive per Demiraj 1997: 79. Gheg (Tosk makth). Alternative theory from Orel 1998: 6 below. 
@@ -73,7 +97,12 @@ $unclear TODO -- (h)Ardhi -- Orel 1998 : 7, Demiraj 1997: 195 .
 χ ˌe n x e p ˈi , m b i $on, upon, over. Demiraj 1997: 260. 
 χ ˈe n t e χ , ˈa n ə $side, edge, verge, brink, facet. Gheg ãnë, ãndë. Demiraj 1997: 77. 
 
-χ ˈe l bʰ i , ˈɛ l b $barley(corn). Or χlbi or χolbi. Demiraj 1997: 164. Schumacher 2013: 211. 
+χ ˈe l bʰ i , ˈɛ l b $barley(corn). Or χlbi or χolbi. Demiraj 1997: 164. Schumacher 2013: 211. I-mutation 
+χ ˈe r ɡʰ o s , ˈa ɾ ɡ $nit (Arbëresh). Form ergjiz in mainland due to i-mutation (and suffixal extnesion), but nature teherof is unclear)
+χ ˌe r ɡʰ u l ˈo s , ˈa ɾ ɡ u lˠ $young louse, newly hatched nit. Tosk. Demiraj 1997: 81. HHe argues it's gʷʰ not gʰ though doesn't quite seem right
+χ ˌe r xʷ ˈo s , ˈa ɾ ə $arable land, field. Alternate hypothesis from Meyer 1891: 14 to Lat arvum and kin. Alternatively < *ager (Hamp) or akin to Latvian ara and Messapic ara - cf Orel 1998: 7-8. 
+χ ˌr̩ xʷ w ˈe r e χ , ˈa ɾ ə $arable land. Demiraj 1998: 80. See above. 
+χ ˌr̩ t c ˈo s , ˈa ɾ θ $bear. More recently backformed to ar-, -th reinterpreted as the suffix -th; > Bogdani ar-a, Tosk/Gheg ar-i. Demiraj 1997: 81. Orel 1998: 8-9. 
 
 ɢʰ ˈo r dʰ ˈo s , ɡ ˈa ɾ ð $fence. Schumacher 2013: 211. Demiraj 1997: 175. Considered a loan from Gothic or Slavic by some. 
 
@@ -83,6 +112,8 @@ xʷ ˈe w c u l ˈo s , ˈa k u lˠ $ice. TODO may be later derived. Claimed to 
 xʷ ˈe w q s n e χ , ˈa n ə $vessel, cooker. Demiraj 1997: 76. Gheg ãnë. Gheg enë from plural in PAlb. 
 xʷ ˈe w q s n o s , ˈa n $womb, joint, vessel; ship. Demiraj 1997: 76. 
 xʷ ˈe s q o s , ˈa h $beech. Cognate to "ash" (Eng.). Orel 1998: 2. Demiraj 1997: 73. Gheg variant hah. 
+xʷ ˈe s t x , ˈa ʃ t $bone. Unclear about ending. xʷ- on the basis of Greek form, but Celtic cognates may be from a (h2) χostx-. Plural (i-mutated) eshtra. Historic plural eshtë also. Demiraj 1997 : 82. 
+xʷ ˈe s t i h n e χ , ˈɛ ʃ t ɾ a $bonse.PL. Inherited. On morphology, see Orel 2000: 228-9. Gheg eshtëna. Also Schumacher 2013: 219. 
 xʷ ˈe d m e χ , ˈə m ə $odor. Doesn't actually exist in Tosk. Instead in Gheg as ãmë. Demiraj 1997: 76. Derived amëz. Orel 1998: 4. May also be metaphorically from mother (French mere de vinaigre) -- Cabej 1982 II: 40-1. 
 xʷ ˈn̩ xʷ m n̩ , ˈə m ə ɾ $name. Gheg emën. De Vaan 2017: 1733 (notes ëmër as regular Tosk outcome), 1738. 
 
@@ -109,11 +140,25 @@ $ LABIALS
 
 p ˈl̩ x q o , p l ˈa k $old. De Vaan 2017: 1738. 
 
-bʰ χ n i o: , b ˈə j $do.PRES.ACT.1SG. Gheg bãj. Demiraj 1997: 97. 
-bʰ χ ˈn̩ j e t i , b ˈə n $do.PRES.ACT.3SG. Gheg bân. Schumacher 1997: 212. 
-bʰ χ n o , b ˈə ɾ ə $do.pstpart. Demiraj 1997: 97. 
+$bheyχ ? Laryngeal unclear. Extended with -n-y-e.
+bʰ ˈi χ m n̩ , b ˈi m ə $plant (noun). Demiraj 1997: 100 as from bhi-. Wiktionary claims it's from bhūma, which is admittedly closer to cognacy with Grek phūma, German Baum, etc, but this is uncited (citation to Demiraj appears spurious given that he doesn't seem to say this, at least in the electronic version of his work). 
+bʰ i χ n j ˈe t i , b ˈi n $verb, sprout.PRES.ACT.3SG. Rix 2001: 72. 
+bʰ i χ n j ˈo χ , b ˈi j $verb, sprout.PRES.ACT.1SG. Demiraj 1997: 100. Gheg bĩj etc. 
+bʰ i χ n ˈo s , b ˈi ɾ ə $sprout.PSTPART. Demiraj 1997: 100. 
+bʰ ˈi χ r o s , b ˈi ɾ $son. Demiraj 1997: 101. Unclear why -rós isn't accented -- TODO look into that. Orel 1998(:26) hypothesis of zero-grade of bher (i.e. bear, give birth) is less convincing phonologically even if it is good semantically -- shouldn't zero grade there give br-, not bir-? 
+bʰ ˈi χ r i e χ , b ˈi j ə $daughter. Demiraj 1997: 101.
 
-m χ ɢʰ u , m ˈa ɡ $hinnulus. Now makth, with addition of Palb -ts >θ. Form mãng in Gheg formed with nasal inlaut. Gheg meksh wiht suffix -sh. Demiraj 1997: 254. Schumacher 2013: 211. 
+$bheχ
+bʰ χ n j ˈo χ , b ˈə j $verb, do.PRES.ACT.1SG. Nasal infixed, later stress retracted. Gheg bãj. Demiraj 1997: 97. Rix 2001: 69 claims a bʰn̩χ-, but this would give -a-, not -an-. Victim of stress retraction as are other cells in this paradigm. 
+bʰ χ n j ˈe s i , b ˈə n $verb, do.PRES.ACT.2SG. Gheg bân. Schumacher 2013: 253. 
+bʰ χ n j ˈe t i , b ˈə n $verb, do.PRES.ACT.3SG. Gheg bân. Schumacher 2013: 212 as banit <  banɛt < bʰχni̯eti; Schumacher 2013(: 253) on loss of the -j-. 
+bʰ χ n ˈo s , b ˈə ɾ ə $do.pstpart. Demiraj 1997: 97. Stress o suffix leads to > a before retraction, rather than reduction? (TODO maybe reconsider.)
+
+$bheydh-
+bʰ i n ˈe dʰ o χ , b ˈi n d $convince.PRES.ACT.1SG. Nasal Pres. DeVaan 2017: 1745. Demiraj 1997: 101. Orel 1998: 25-6. Rix 2001: 71. 
+bʰ i n dʰ ˈe t a j , b ˈi n d ɛ t $convince.PRES.MEDPASS.3SG. Nasal pres. Schumacher 2013: 214. Stress retracted.
+
+m χ ɢʰ ˈu , m ˈa ɡ $hinnulus. Now makth, with addition of Palb -ts >θ. Form mãng in Gheg formed with nasal inlaut. Gheg meksh with suffix -sh. Demiraj 1997: 254. Schumacher 2013: 211. 
 m ˈn̩ t ˈo s , m ˈa t $bank. De Vaan 2017: 1738. 
 
 
@@ -127,23 +172,14 @@ t ˌo m , t ə $-të in 3sg.acc and now also nom atë, këtë. Demiraj 1997:
 
 
 s q ˈo n d n e χ , h ˈə n ə $moon. Gheg hânë. Schumacher 2013: 212. Demiraj 1997: 199 with diff stressed vocalism. Gheg hânë. 
-s e p t ˈm̩ t ˈo s , ʃ t ˈa t ə $seven. De Vaan 2017: 1738. 
-s ˈo kʷ ˈo s , ɟ ˈa k $blood. Schumacher 2013: 211. Demiraj 1997: 181. Old Gheg gjāll. 
-s ˈo l w ˈo , ɟ ˈa lˠ ə $alive, living. Demiraj 1997: 182. Schumacher 2013: 212. 
-s ˈu p n ˈo s , ɟ ˈu m ə $sleep. Schumacher 2013: 210. 
+s e p t m̩ t ˈo s , ʃ t ˈa t ə $seven. De Vaan 2017: 1738. 
+s ˈe r p o n o s , ɟ ˈa ɾ p ə ɾ $snake, NSG. N-stem it seems. Gheg gjarpën. Demiraj 1997: 183; Matzinger 2013: 209. Gheg gjarpën. A sonorant stem that became o-grade per Orel 2000: 218, a point Schumacher (2013: 209) also implies although while Orel has -a as the reflex of Proto-Albanian -os, Schumacher has -ʉh; Demiraj also seems to agree. Seems to show root accent etymologically, given gj- rather than sh- outcome. Consider shtërpinj below. Orel 200(:49, 61, 218) has -ena < -enos, Schumacher (2013: 209) has a PAlb SG -anʉh and pl -ánai (; > Buzuku gjarpënë and PL gjarpanjë) which is presumably < -onos, -onoi, while Demiraj is unsure: "-e/ono". Buzuku's variety seems to reflect -o- > -a- but Tosk purals appear to be gjarpinj, gjarpij, (and gjarpra, likely from n-stem acc pl amphikinetic -V́nn̩s)... which appear if anything to suggest -e- for plural. Unclear.
+s r p ˈe n j o e s , ʃ t ə ɾ p ˈi j $reptiles (pluralia tantum), from og plural of snakes. Orel 1998 disagrees; however Demiraj 1997: 374 as srpeni(:)-. Ending in -(j)oes is a guess. 
+s ˈo kʷ ˈo s , ɟ ˈa k $blood. Schumacher 2013: 211. Demiraj 1997: 181. Old Gheg gjāll. TODO check accent.
+s ˈo l w ˈo , ɟ ˈa lˠ ə $alive, living. Demiraj 1997: 182. Schumacher 2013: 212. TODO check accent.
+s ˈu p n o s , ɟ ˈu m ə $sleep. Schumacher 2013: 210, 215, where he has initial accent only, as also seen in Greek, Balto-SLavic apparently... Per 215, he explains how we get -ë via -ʉh rather than -a (as Orel would probably have it). 
 
 n ˈo kʷ t e χ , n ˈa t ə $night.sg. Demiraj 1997: 283. 
 n ˈo kʷ t i x , n ˈɛ t $night.pl. Demiraj 1997: 283. Schumacher 2013: 210, 211.  
 
 l ˈi ɢ ˈo s , l ˈi ɡ $illness. De Vaan 2017: 1738. 
-
-
-
-
-
-$TODO -- iterate through 
-	$ De Vaan 2017 -- curr page 1738 
-	$  Orel 1998, 
-	$ Demiraj 1997, 
-
-	$ Schumacher 2013 -- curr page 213, beginning of section 2.1.5 

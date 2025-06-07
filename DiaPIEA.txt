@@ -1,0 +1,309 @@
+$ this cascade will eventually encompass the whole of Proto-Indo-European to modern standard (Tosk) Albanian. The baseline is drawn from De Vaan 2018. 
+
+
+$ STAGES: see periodization policy. 
+
+$ This cascade will not explicitly encode De Vaan 2018's proposals (new, 
+$ and retentions from older work, alike) for Proto-Albanian developments 
+$ from Proto-Indo-European, yet at least (as of March 14, 2023). 
+$ Other cites referenced are as follows -- 
+$ $ $ Allen 1978 = Allen, William Sidney. 1978. "Vox Latina--a Guide to the Pronunciation of Classical Latin" (2nd ed.). Cambridge University Press. 
+$ $ $ Bonnet 1998 = Bonnet, Guillaume. 1998. "Les mots latins de l'albanais". L'Harmattan. 
+$ $ $ Çabej 1962 = Çabej, Eqrem. 1962. Zur Charakteristik der lateinischen Lehnworter im Albanischen. Revue de Linguistique (Bucureşti),  7:161–199.
+$ $ $ Çabej 1986 = Çabej, Eqrem. 1986. Studime gjuhësore, volume I-VIII. Prishtinë: Rilindja. 
+$ $ $ De Vaan 2004 = De Vaan, Michiel. 2004. PIE *e in Albanian. Die Sprache. Zeitschrift für Sprachwissenschaft, 44(1): 70–85.
+$ $ $ Huld 1986 = Huld, Martin E. 1986. "Accentual Sttratification of Ancient Greek Loanwords in Albanian". Zeitschrift für vergleichende Sprachforschung, 99 Bd. 2 ː 245-253. 
+$ $ $ Huld 1979 = Huld, Martin. 1979. An etymological glossary of selected Albanian items. University  of California, Los Angeles.
+$ $ $ Lafe 2000 = Lafe, G. 2000. Der italienische Einfluss auf das Albanische. Zweiter Teil. Wörterbuch der Italianismen im Albanischen, in Ponto-Baltica, 10:31–120.
+$ $ $ Landi 1989 = Landi, A. 1989. Gli elementi latini nella lingua albanese. Napoli: Edizioni Scientifiche Italiane. 
+$ $ $ Marr 2023 = Marr, Clayton. 2023. The Angevin–Albanian element in the Albanian lexicon. To appear in Zeitschrift fur Balkanologie. 
+$ $ $ Orel 1998 = Orel, Vladimir. 1998. Albanian etymological dictionary. Brill.
+$ $ $ Orel 2000  = Orel, Vladimir. 2000. A concise historical grammar of the Albanian language: reconstruction of Proto-Albanian. Brill. 
+
+$ "DV-NOTATION" for indexing De Vaan 2018 rules -- DV####.ɑβɣ##. -- DV for De Vaan, ### is page number, ɑβɣ is an alphabetic index in (A, B, C...) for each transformation on thepage (starting wiht A, etc...), and   the number is the line of that transformation on that page. 
+	$ alternatively subsection title maybe used, with the alphanumeric iteration occuring within the section and not based on page breaks -- e.g. DV4.3F4 -- which is after a page break form DV4.3F3. 
+
+
+$ this cascade is intended to simulate the development of Classical Latin loans into Albanian into the modern forms in Standard Albanian (a southern variant of Northern Tosk).
+$ Despite this, it currently includes changes from Proto-Indo-European to Pre-Proto-Albanian (the form before the first wave of Greek), and then the pre-Greek to pre-Latin changes as well. 
+$ These are essentially here for place keeping, in anticipation of work that incorporates multiple layers of the lexicon. 
+$ These are to be ignored when simulating for ALLex because of newly programmed behavior triggered by having the start stage specified in the lexicon header. 
+
+=Proto-Indo-European
+$---------------------------Proto-Indo-European------------------------
+
+$from De Vaan 1738-9, order may need to be revised. 
+$for now, (somewhat arbitrarily) coding laryngeals as specific sounds 
+	$ since we can't handle h1 h2 h3 etc. -- or otherwise we'd have to define these in symbolDefs
+$choose features closest to their coloring vowel . 
+$ h for h1 -- no coloring effect negative for all feats (except cont.)	(or use ʔ ?) 
+$ ħ for h2 -- -front +back -round -hi +lo --like a  
+$ χʷ for h3 -- -front +back +round -hi -lo -- like o 
+	$ TODO reconsider this, considering that APIELex has x χ and xʷ respectively for laryngeals 1 2 and 3
+$ h2 and h3 can be minimally captured as +back,+cont
+$ the three together can be captured for now as -cor,-son,+cont (unless we make h1 ʔ -- this is an argument not to) -- until any *f is developed. 
+$ (x for Hamp's h4 if we need it? ) (or use h and make h1 ʔ ?) 	(or could use ? or h4) 
+$ using j for i̯ and w for u̯
+$ for the palatovelars : c ɟ ɟʰ
+$ *a as it emerges is [ɑ], as this is ħ is closest to.
+
+$DV1738~2.3C1 part 1, *e > *a ( really ɑ ) after *h2. Nothing listed for *h3 here. 
+$ so most faithful formulation would be : [-hi,-round] > [+lo] / ħ __
+$ but inasmuch as laryngeal vowel coloring is a widely accepted broad phenomenon of laryngeal-coloring within PIE, it is formulated explicitly in the way it is thought to work across branches; likewise it is expanded to include coloring by posterior laryngeals as well 
+$ ultimately this is part of the implementation of the following: 
+$   in the progressive coloring aspect: DV2.3C2, 2.3E2, 2.3F1, 2.3J2, 2.3K2
+$   in the regressive coloring aspect: DV2.3E2, 2.3F1, 2.3G2, 2.3H1, 2.3J2, 2.3K2
+[-hi,-lo,-round] > [βlo,ɣround,ðback,ɛfront] / [-cor,-son,+cont,βlo,ɣround,ðback,ɛfront] __
+[-hi,-lo,-round] > [βlo,ɣround,ðback,ɛfront] / __ [-cor,-son,+cont,βlo,ɣround,ðback,ɛfront]
+
+$DV1738~2.3C3 -- "*a < RHV" -- not sure I interpreted this right, he gives pare "first" as example; given the etymology in pr̩-h2-e/o I think he rather is intending for the R to pass to aR (...?), rather than it all to be absorbed into an *a which would be the literal interpretation of "RHV > a" by the system. 
+$ this needs to be before 2.3A2 in order to get this effect for parë "first", so that is implemented. (also likely necessary to come before  the H-loss aspect of 2.3B1, 2.3C1, 2.3C2, 2.3E2 and 2.3F1, but this aspect of each will probably instead be handled by 1746.K4) 
+$ Formulated so as to preserve maximal stress
+$ 8/9/23 -- De Vaan confirms his 
+∅ > ɑ / __ [+cons,+syl] [-cor,-son,+cont] [+syl] 
+ɑ [+cons,βstres,ɣprim] > [βstres,ɣprim] [-syl] 
+
+$Per general understanding of laryngeal behavior, laryngeals efface and lengthen prior vowels (after coloring them) when before consonants or the word boundary. This is touched upon in various DV'18 rules as an aspect, with each rule effectively handling the effacement of hte laryngeal and the ensuing prior vowel lengthening separately in parallel: 2.3E, 2.3G1, 2.3G2, 2.3H1, 2.3I1 -- but inspection of all the examples given show that while this is not explicated, all these VH cases are VHC or VH#, which is in line with the broad understanding of how this phenomenon occured across most core IE branches. 
+$rules that are essentially accomplished here: the *iH > *i: aspect of 2.3E, 2.3F2 (fed by laryngeal vowel coloring), 2.3G1's eh1 > ē aspecet, 2.3H1's oH and eh3 aspects (the latter fed by laryngeal vowel coloring)
+[+syl] [-cor,-son,+cont] > [+long] ∅ / __ {[+cons];#}
+
+$DV1738~2.3C4 -- *h2 and *h3 become *a before syllabic resonants. Reformulated here so that stress is preserved and the resonants lose resonance in a single rule. 
+$this may actually be multiple phenomena, with a later *o created by this rule or other phenommena involving h3 later merging to *a, but it's handled as one phenomenon by De Vaan 2018 it seems. It is actually simpler to let h3 pass to *o here and then become *a via 2.3C1 here though, so that's what this cascade does. 
+$maximally faithful form without doing this would be: [+back,+cont] [+syl,+cons,βstres,ɣprim] > [+lo,-hi,-round,+tense,+voi,-strid,βstres,ɣprim] [-syl]
+$based on the case of arë "field" given as an example, it seems this is not intended to be bled by DV2.3A1, so it is placed before it. 
+[+back,+cont,+cons] [+syl,+cons,βstres,ɣprim] > [βstres,ɣprim,+tense,+voi,-strid] [-syl]
+
+$PREVOCALIC LARYNGEAL EFFACEMENT: per general understanding of laryngeal behavior in late PIE as it differentiated (but which is generally understood to be all IE except Anatolian?), prevocalic laryngeals are now effaced.
+$This is implicit in (and thus implements aspects of) the rules DV2.3B1 (actually in this case it's the whole rule), DV2.3C1, DV2.3C2 (the other aspect being the abovehandled laryngeal vowel-coloring), 2.3E2, 2.3F1, 2.3J2 (the rest handled by laryngeal vowel-coloring), 2.3K2 (as above) 
+[-cor,-son,+cont] > ∅ / __ [+syl]
+
+$DV1738~2.3A1 
+$seems intended to counterbleed DV1738~2.3C4 as formulated above (?)
+r̩ > r i 
+
+$DV1738~2.3D2 -- wL̥T > uLT
+$the rule formalism is expressed somewhat verbosely here to preserve any stress. 
+w [+cons,+syl,βstres,ɣprim] > [+syl,βstres,ɣprim] [-syl] / __ [-son]
+
+$DV1738~2.3.C7&C8 -- resonant nasals become a (really ɑ). Formulated more verbosely with feature matrices here so as to preserve existing stress. TODO check formulation for errors.
+[+nas,+syl] > [+back,+lo,-cons,-nas,-ant,-lab,-cor,+lo]
+
+$DV1738~2.3C5 -- any H becomes *a (ɑ) in C__C (C5). Incorporate part of C6, that which acts on *non-*syllabic resonants
+[-cor,-son,+cont] > ɑ / [+cons,-syl] __ [-son] 
+
+$DV1738~2.3C6: H becomes *a (really ɑ) in CR__C 
+$formulated here so as to preserve any stress that was on the R, for the subset of cases where the resonant is syllabic (other part of this rule is handled above with 2.3C5)
+$currently sequenced and formulated as if it counterbleeds DV2.3C4 as formulated above
+[+cons,+syl,βstres,ɣprim] [-cor,-son,+cont] > [-syl] [+syl,+lo,-hi,-round,+back,βstres,ɣprim] / [-son] __ [-son]
+
+$DV1738~2.3C9 calls for insertion of PPAlb a (really ɑ) in between two consonants, but if interpreted to be deterministic this would cause massive errors. The given example is madh "big" < *m̥ĝ, but De Vaan 2018 hedges here, noting that Schumacher 2013(: 238) instead explains this item via analogy. Thus this is not implemented for now. 
+
+$DV1738~2.3C1 : PIE *(H)o > *a	(really ɑ) 
+$ unspecified for any differene in the stress of the *o, but clearly it's the short one. 
+$ the H deletion aspect is already handled above (cf. PREVOCALIC LARYNGEAL EFFACEMENT) 
+$ this effectively also implements DV2.3J1 and DV2.3K1, and effectively the merged behavior of h2 and h3 in DV2.3J2 and DV2.3K2 (these now go from *oi and *ou to *ai and *au)
+[+back,-hi,αstres,βprim] > [+front,-round,αstres,βprim]
+
+$Bandaid: loss of syllabicity for remaining syllabic resonants after adjacent to syllabic elements
+$This also forms the diphthongs from V {i,u} sequences that might have arisen, thus implementing the final parts of 2.3J2 and 2.3K2 and medial parts of 2.3E2 and 2.3F1
+$ formation prior to 8/5/2023 was: {[+cons];[+hi]} > {[-syl];[-syl]} / [+syl] __
+$ however this had to be changed to sidestep then-current issue in DiaSim. TODO consider restoring when this is resolved. 
+[+cons] > [-syl] / [+syl] __
+[+hi] > [-syl] / [+syl] __
+
+$DV4.3I3 -- *Tt > *tʃ too. The single example pot-to is a dental stop; to resolve conflict between this rule and DV4.3Q3, I refer to the examples given by De Vaan 2018 in the latter, and these include -pt-, -ct-, and -kʷt- but on dentals. Given the past literature on the "thorn cluster", it makes sense to assume that this one targets a dental cluster, and effacement rule in DV4.3Q3 which would naturally compete with this, is place-independent and comes later -- in effect targeting non-dental stop
+$ conference with De Vaan - -yes this is dentals, yes it comes before 4.3Q3
+[+ant,-cont] t > t͡ʃ
+
+$DV2.3G3.I -as- and -es- ultimately to -ā- (really ɑː) before l, n, or r. 
+$This can be handled as s-effacement with compensatory vowel lengthening here, as there is a later ē > ā shift (DV2.3G3.II) 
+$merged in: 2.3I2 ~ PIE *-us- > ū / __ {l,r} 
+$going to boldly assume this happened to all vowels since there are no counterexamples for -is- and -os- 
+$TODO modify this if it doesn't work so as not to misrepresent. 
+[+syl,-cons] s > [+long] ∅ / __ [+cor,+son]
+
+$DV4.3Q5 -- s effaced before l,m,n,r -- so, sonorant consonants. 
+$this also handles DV3.3A3 = DV1741A3 
+$but this must come after DV2.3G3 and DV2.3I3 so as not to bleed their vowel-lengthening aspects. (if this is all more broadly conceived as vowel lengthening this could be of interest as it is also attested for Doric, Ionic and Attic)
+$grouping this also with effective loss before "medial" d and dʰ implicated in Kortlandt 1987 -- 
+$per Kortlandt 1987 p220 s5iii -- medial PIE *-sd(h)- (he seems to mean intervocalic for "medial") yielded the same reflex of *-d(h)- in -dh- (=/ð/) -- but the *s needs to be gone to feed this! 
+s > ∅ / __ {[+son,+cons];d;dʰ}
+
+$$ consonantal stuff from PIE to (PG) PPAlb follow -- De Vaan 4.3, pp1745-6
+$ treatment : palatovelars are handled as c, ɟ, ɟʰ respectively 
+
+$DV1745~4.3E1 & ~4.3F1 -- depalatalization of *k̂ and *ĝ before resonants (examples are the liquids l and r). He does not list this occurring for *ĝʰ it seems 
+[-cont,+hi,-sg] > [-front,+back] / __ [+cons,+son]
+
+$DV1745~4.3F2 -- depalatalization of *ĝ after n (case of ankth)
+ɟʰ > [-front,+back] / n __
+
+$DV1745~4.3D2: the dimer/dore/derr rule
+$ TODO consider making this go to dʰ instead? Or just reformulating this/explaining otherwise
+ɟʰ > d / # __
+
+$DV4.3J3 reflex of  ɟʰw- merges into the outcomes of labiovelars before front vowels, even when not before front vowels
+$merge with DV4.3J1 -- this happening to dj and dʰj- 
+$and merge w. DV4.3I1 -- this happening to tj 
+$but note that DV4.3J1 and DV4.3I1, if they don't happen here, will be covered later when the same change impacts Latin loans -- TODO consider using the MINIMAL VERSION below instead (which implements only DV4.3J3) to test if this is a better way to do things... 
+$ ɟʰ [-cons,+round,-syl] > d͡ʒ $-- MINIMAL VERSION
+$ formation prior to 8/5/2023 was: {ɟʰ w; [+cor,-cont] j} > [+delrel,+strid,-ant,+distr,-hi,+front] ∅
+$ however this had to be changed to sidestep then-current issue in DiaSim. TODO consider restoring when this is resolved. 
+{ɟʰ w;t j;d j;dʰ j} > {d͡ʒ;t͡ʃ;d͡ʒ;d͡ʒ}
+
+$DV4.3G1 & H1 -- unless in aforementioned bleeding conditions, the (non-aspirated) c and ɟ affricate to what De Vaan 2018 notates as *t͡ɕ and *d͡ʑ; *c͡ɕ and ɟ͡ʑ are more conventional from a phonetic perspective; this cascade uses *c͡ç and *ɟ͡ʝ as this assumes a change in one less feature (strid)
+$ De Vaan 2018 treats *c and *ɟ differently here from *ɟʰ, which is handled below. 
+[-cont,+front,-sg] > [+delrel]
+
+$DV4.3H2 -- intervocalic *ɟʰ is affricated
+ɟʰ > [+delrel] / [+syl] __ [+syl] 
+
+$DV4.3H3 -- *dʰɟʰ results in a palatal affricate
+dʰ ɟʰ > ∅ [+delrel]
+
+$DV2.3G1 ē > ā (really ɑː)
+$must precede 2.3H1 which doesnt feed it
+$note that Orel has a different view, wherein the merger of ē and ā is only completed much later, but De Vaan 2018 reasonably notes AGrk spēlaion > shpellë which could imply it at least must precede the Ancient Greek later. 
+$this also accomplishes the last aspect DV2.3G3
+[+long,+front,-hi] > [-front,+back,+lo]
+
+$DV2.3F1 eu (really ew as handled here) to ē 
+$ for mechanical reasons must come before DV4.3Q2 which effaces w potentially, not to mention DV4.3L1 which fricates it.
+[+front,-hi,+syl] w > [+long] ∅
+
+$DV2.3E2 ei (really with -j now due to handling of hiatus high vowels above; from various sources) to ī. 
+$for mechanical reasons should come before DV4.3Q1 which effaces j
+$ TODO however it is possible that this happened later.
+[+front,-hi,+syl] j > [+hi,+long] ∅
+
+$DV1745~4.3E3 & DV(1746)~4.3F4, the delabialization of labiovelars before what amounts to an elsewhere condition (a, back/round vowels, and the word boundary), will be similarly handled after the primary palatalization of them before front (tense/non-low) vowels -- i.e. DV4.3I2 & DV4.3J2
+
+$DV4.3I2 & J2 -- fronting of pre-palatal-vowel labiovelars into what are (ultimately) affricates, done (for each voicing status) in one step in DV'2018 (this is merged into a single step here). In this one, the aspiration of the voiced stop in PIE makes no difference. Furthermore, he puts the superscript "w" in parentheses but the meaning of this is unclear is it does not seem that he intends for the PIE plain velar series to be impacted by this. TODO disambiguate this point in email -- confer with De Vaan, that is. 
+$TODO -- point to consider for view that PPAlb reflexes of PIE plain velars were further back than the labiovelars?... and distinction between ɟʰ and ɟ  ?
+$TODO note -- this has to be before any changes that make the reflexes of PIE *j,i,ī,e,ē something other than front and non-low. 
+$TODO considerations here on roundness annotation/specification for postalveolar fricatives? 
+[-cont,+round] > [+delrel,+strid,+distr,-hi,-back,+front,-round] / __ [-cons,+front]
+
+$DV3.3A4 = DV1741A4: n > m / P __ 
+n > m / [+lab,+cons] __
+$DV3.3A2 = DV1741A2: effacement of stops before *m
+[-cont] > ∅ / __ m
+
+$DV4.3Q3 (=DV1746K3) -- effacement of stops before t, which I infer should be bled by DV4.3I3 (see notes for that rule) 
+[-cont] > ∅ / __ t
+
+$DV4.3Q1 & Q2 : intervocalic glides effaced. As pertains to /w/, I infer that this naturally competes with its frication rule (DV4.3L1), and that this one is intended if anything to have priority ,based on the example provided in ve "widow" < *h¹u̯idhʰ1eu̯eh²
+[-cons,-syl] > ∅ / [+syl] __ [+syl]
+
+$ DV4.3E3 & DV4.3F4 after labiovelars palatalized before front vowels (further above, DV4.3I2 & J2),  what's left of the labiovelars lose their labiality -- 
+$TODO but note -- actually this doesn't need to happen until after the Latin loans, since it happens to all Latin labiovelars as well! 
+$ Thus may suppress this rule here with no consequences... and it may not be necessary to assume it either. 
+[-cont] > [-round]
+
+$DV1745~4.3~D3 -- *d from *sw- before a stressed vowel...  DV'18 asserts this for diell (< su̯él ) , dergjem "I am ill" (< su̯órgh); dirsë "sweat" -- as also in Kortlandt 1987 p219 s3. 
+s w > d / __ [+stres]
+
+$DV2.2.1E3 stressed vo- > u, but based on the example this seems to be vō- too. 
+$TODO IMPLEMENT OR DIA: probably delete this, or merge it with DV2.1F2.
+w [+prim,-hi,+round] > ˈu / # __
+
+$DV4.3L1 frication and develarization of w to De Vaan 2018's PPAlb *β
+$TODO note for DIA though: there is no need for this to happen twice, as it also occurs later (DV1744.C1) 
+$ however this is clearly not intended to affect the [w] in what De Vaan notates as *au diphthongs, so this is fixed with a bandaid. 
+w > ʊ̯ / [+lo,+syl] __ [-syl]
+w > β
+
+$DV4.3K1 *sp > *f,-- cf also Kortlandt 1987 p220 s5i
+$merge with DV4.3L2 *sw (now *sβ per my sequencing here, since DV4.3L1 is placed beforehand) > *β -- cf. also Kortlandt 1987 p220 s3.
+$merge also with DV4.3O1 *sk > x-- cf also Kortlandt 1987 p220 s5iii 
+$ these can be unified in a single rule so I am doing so, with the cost of two assumptions
+$ $ 1) we have a PPAlb *ɸ at this stage not *f as a small cost -- especially considering that the labiodentalization of ɸ can be easily handled in tandem with the later moving of β to v (and this also better matches the general timing for the emergence of labiodentals in the area too, e.g. Greek) 
+$ $ 2) there are no sg or sgʰ clusters at this point... which I don't think there are. 
+$ TODO DIA NOTE -- for own uses, explore using instead a stage of sw>ɣʷ (requires outcome of ∅ [+cons,+cont]) or even w (just ∅ [+cont]), which does not require redundant loss of labiality.
+$if shpel is indeed a loan from a Doric aspellón (my proposal) then this must come before the loaning thereof.
+s [-son,-cor,-front] > ∅ [+cont]
+$ originally "> ∅ [+cons,+cons]" 
+
+$DV4.3G2 (and Kortlandt 1987 p219 s2) -- s "dissimilates" before Vs; in Kortlandt 1987 p219 this goes straight to θ but Kortlandt'87 generally works in terms of ultimate reflexes without excluding intermediate forms; De Vaan'18 has it go to the intermediate *tɕ (which for reasons discussed above is cç in this cascade). Inasmuch as this has to happen before that following s is about to be mutated, we're working with what De Vaan asserts the ancestor of θ to be at this time -- namely, the aforementioned affricate. Phonetically of course this compromise is suspect (the segment asserted by De Vaan, unlike the one being used as a proxy here, actually is a sibilant and a strident...) but that the details here can be worked on later. 
+s > c͡ç / __ [+syl] s
+
+$handling of DV4.3M & N -- De Vaan 2018 has *s developing into *ʒ before a stressed vowel (N), and developing into *ʃ in a wide variety of places (M)
+	$ M1 (before unstressed vowel, 
+	$ M2 intervocalic -- no explicit handling of about potential rule competition in the context V __ V[+stres]?) -- TODO confer over email on this? 
+	$ M3 in __ T 
+	$ M4 in k __ t (absorbing the k) 
+$ he states his account here is based on Kortlandt 1987 
+$ Kortlandt 1987 is indeed mostly in line with this, with a few details different: 
+$ $ w. r. t. N -- Kortlandt 1987 S2 (p219) doesn't explicitly posit a PPAlb *ʒ, just noting that gj- reflects *s before a stressed vowel (Orel 1985 p279 explicitly rejects the role of the stressed vowel, for reasons Kortlandt in turn rejects)
+$ notes Schumacher 2013 pp258-65 also as an "extensive discussion with partially different views" 
+$ anyhow, for now, it seems this can be handled in much fewer than five rules -- just two, with the pre-tonic voicing being last, a development imposed on *ʃ, *ʃ itself being the "elsewhere outcome" of *s after the other rules impacting it have been applied
+$This seems supported by the view in Kortlandt 1987 (p.221) that more explicitly treats ʃ as the "elsewhere" outcome -- "it seems that PIE. *s yielded sh in all other positions..." 
+$ -- that is Kortlandt, Frederik. 1987. PIE *s in Albanian. Studies in Slavic and General Linguistics. 10: 219-226. 
+$ perhaps check also Schumacher 2013 = Schumacher, Stefan. 2013. Historische Phonologie. In Stefan Schumacher and Joachim Matzinger (eds.). Die Verben des Altabanischen. Belegwörterbuch, Vorgeschichte und Etymologie. Unter Mitarbeit von Anna-Maria Adaktylos. Wiesbaden: Harassowitz, 205-276. 
+$ first part was originally (before 8/5/23): (k) s > ʃ 
+$ this had to be changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when this is resolved. 
+{k s;s} > {ʃ;ʃ}
+ʃ > ʒ / __ [+stres]
+
+$DV4.3K2 *tp- > ft- (perhaps after some schwa losses?) 
+$using φ  for reasons explained in formalization for DV4.3K1 
+$TODO ɸ -- need to incorporate ɸ > f into any β > v shift. Can remove this note only when that is done. 
+t p > ɸ t 
+
+
+$ ----------- Pre-Proto-Albanian = pre-Greek proto-Albanian. --------------
+=Pre-Proto-Albanian
+
+$ rule to capture movement of native and Greek aː to ɔː -- for benefit of the doubt, borrowing Orel's usage of ɒː to allow this to not to pattern with Latin aː while respecting the chronology of vocalic developments on De Vaan p1736. So here we have aː > ɒː. Note also DV1739.A4 where Doric mākhānā is listed here. 
+[+long,+lo] > [+back,+round]
+
+$ general rule for De Vaan(:1747) is no change in stress placement: by default, Latin loans have the same stress placement as in Classical Latin, "and the same goes for loanwords from later layers... Slavic, Italian... Greek... Turkish". Exceptions seem to be largely morphologically motivated (see bottom of p1747); De Vaan (1747) agrees with Matzinger 2006 that things are too complicated for Jokl 1923's treatment of PPAlb as having general penultimate accent. 
+
+$DV1744.E2 not affecting Latin words, *intervocalic* *d to edh, perhaps with ability to see through r. (later change that DV'18 asserts affects Latin words too, has r not as optional but necessary, and is thus not intervocalic, with Latin intervocalic d being lost in Albanian in this account). Since De Vaan treats the intervocalic lenition as pre-Latin and a separate sound change with no explicit mention of r (optional or not) in the context, so will it be handled here.
+d > ð / [+syl] __ [+syl]
+
+$DV1744J2 (=4.2Q2) -- some PAlb *ð < PIE d / V __ V becomes *j. But this does not seem intended to be deterministic(?) as while ujë "water" and the aorist -jt- are cited, DV1744E2 also has (-)dha "gave" and lodhet "to tire" cited. Some other sources do not have ujë "water" coming from something with an intervocalic *d though: Orel 1998 (:483) assets a PAlb *udrjā akin to Greek hydría "water bucket", in line with Camarda, Gil'ferding and Hamp 1965(:138); Huld 1976(:197) seems largely favorable to this and puts *udr-iom as his own form. Meyer 1891(:456) had *udni̯ā; Pedersen 1897(:286) and Tagliavini (1937:237) accept this but Huld 1976(:196) does not on the basis of the lack of any nasal traces in Arvanitika, a similar criticism to that voiced by Orel 1998. La Piana has ujë < ulë < ud-l-o. Demiraj 1997 (:401-2) asserts a PAlb *urjā citing Skt. vār- "water". Çabej 1967(:70-2) seems to say what De Vaan 2018 is saying here, except in that the -j- arises later in hiatus after the fall of intervocalic -d- in native words, which apparently Çabej 1967 considers more widespread than does De Vaan 2018 (?). 
+$TODO reexamine this considering the above. Also perhaps confer with De Vaan on what was intended here.
+ð > j / [+syl] __ [+syl] 
+
+$DV4.1B2 -- m to b before l -- DV'18 lists bluan "to grind" < mleh1-, bletë "bee" < *m[e]lit? (question mark in the original) -- given the second example, there may have been some vowel effacement before this point? But DV'18 does not attribute this outcome for Latin loans into Proto-Albanian, and indeed they don't seem to show it exactly (e.g. simulatūra > shëmbëlltyrë etc.) 
+m > b / __ l
+
+$DV1740.C5 = DV3.2C5 : PPAlb *-nt- > PAlb -n:- (ultimately) in apparently uncertain conditions: "-nt- (3pl., acc.sg.) in post-tonic syllable (?) or retention of the cluster (Janson 1986: 96,154)" -- implementing the post-tonic part here since it was listed, 
+$ -- actually post-tonic means anything after the primary stress (meeting @Aug 9, and is okay with having this as baseline)
+$ This is not intended to affect Latin loans.
+$ nn > n: later. 
+t > n / [+prim] (@)* n __
+
+$DV1740C4 = DV3.2C4 : PPAlb -nd- > -nn- ; implemented like above. 
+$This is not intended to affect Latin loans, clearly.
+d > n / n __
+
+$DV1743.F2 : PPAlb *j before a stressed vowel -- but not the *j that is a glided Latin initial i or e. 
+j > ɟ / __ [+stres]
+
+$DV2.2.1A4.I: PPAlb *e and Latin ē raise to ultimately *i "sometimes" when before sh -- Latin short e not listed, even though PPAlb *e patterns with Latin short e elsewhere (general outcome: 2.2.1B2; i-mutation outcomes: 2.2.1A3; in CL_ : 2.2.1B1).
+$ Way to handle this might be to lengthen PPAlb *e in this context here so that it will merge with Latin ē, and then have a second part of this rule (2.2.1A4.II) later  
+$ NOTE FOR DIA : The example given for Latin ē could instead be handled as triggered by the following glide actually, as it works for ecclesia > kishë and bestia > bish(t)ë, but not vēscus > veshk, rēstem > rrjesht, ēsca > eshkë or quadrēsima > kreshmë. 
+ˈe > ˈeː / __ [+cor,+cont,+strid]
+
+$ DV4.2Q4 : j inserted before word initial *e- 
+$ use of the * in the original suggests this is not Latin words targeted, and the example of jashtë suggests it precedes a-mutation (below). 
+∅ > j / __ [-hi,-lo,+front,+syl]
+
+$DV2.2.1C2: PPAlb *e (but not Latin short E?) undergoes a-mutation, cf. De Vaan 2004: 78-83. Placed here as it apparently doesn't happen to Latin.
+$ per De Vaan 2004(:78-83), this is actually going to ja, not simply ɑ, so that is reflected in this rule (this also supports the apparent limitation of this development to the pre-Latin stratum) 
+ˈe > j ˈɑ / __ ([-syl])* [+lo,+syl]
+
+$DV2.2.1A1: PPAlb *i, unlike Latin i, reflects as PAlb *i without qualifications, as do PPAlb *ī and Latin ī (2.2.1A2,A6), but not Latin I, which reflects as PAlb *e generally (2.2.1B11) except when under i-mutation (2.2.1A5), wherein it behaves quite similarly to Latin E and PPAlb *e (2.2.1A3)
+$The best way to handle this for now, without changing all the Latin inputs (but: note that based on Classical Latin and Romance phonology, these short I-s plausibly *could* be either [ɪ] or [e])... is to lengthen all PPAlb *i just before Latin. This is no issue because there does not seem to be any difference in the behavior of PPAlb *ī and *i anyways
+$note that for this to work, the *i present as the second element of diphthongs must already be [j] by now. 
+$note that this is NOT a proposed sound change, but a temporary solution to the issue. (and even replacing the Latin short I instances with [ɪ] or [e] might not work to fix it, because even though it does have a basis in both Classical Latin and Romance phonology, it still might cause issues regarding this short I's role as a trigger of i-mutation -- TODO consider that and make remarks here) 
+[+hi,+front,+syl] > [+long]
+
+=Classical Proto-Albanian
+
+$TODO INSERT STRESS SHIFT!
+
+$TODO fill in the below with DiaCLEA once debugged. 
+

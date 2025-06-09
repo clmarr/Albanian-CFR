@@ -773,6 +773,9 @@ $DIACLEA CHANGE C1A.V: final -n also deleted.
 {m;n;s} > {∅;∅;∅} / __ #
 [-stres,-lo] > ∅ / __ #
 
+$DIACLEA CORRECTION A2.XXIX -- final schwa insertion in etyma that end up assyllabic and stop-final (doesn't seem to happen effectively to z-, s-, zh-, sh-; unclear: n-/në-)
+∅ > ə / # ([-syl])* [-cont] __ #
+
 $DV1738, top, part 3: final -ja(s) to e, clearly bleeding part DV1738 part 2.
 $form prior to 8/5/23 was: j a (s) > e / __ #
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 

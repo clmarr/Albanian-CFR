@@ -382,6 +382,8 @@ $[+stres,+tense,+front,-lab] > [+hi] / __ [+cont,-lab,+strid] ([+cons]) j
 $ raising of ɔ to o seems implicit here as a PAlb *ɔ is not handled for following rules concerning words were it is supposed to have arisen... -- i.e. > ø under i-mutation (5a.iii on p1736; 1735DV.A6 on this for reflex of PPAlb aː), seen also in the formulation of o-breaking rules (DV1736~G1 & G2)... 
 $ This can be handled in tandem with the raising of /ʊ/ back to /u/, which occurs for the reflexes of both Latin U and PPAlb *u (DV1735~2.2E1, -E2)
 [+back,+syl] > [+tense]
+$ DIACLEA fix C1A.VII -- re-tensing of ʊ > u extended to ɪ > i when unstressed. 
+[+hi,-prim] > [+tense]
 
 $DIACLEA INSERTION -- A2.X -- ɪ goes back up to i before ʎ (5 known cases for ˈɪʎ, e.g. familia > fëmijë, scantilia > shkëndijë) and before labials (4 cases for ˈɪp and ˈɪf, ex. gripsa > grifshë). This is better not handled as part of i-mutation as some of the pre-labial cases don't work that way (gripsa > grifshë) and it appears that ʎ only triggers what looks like i-mutation for /ɪ/.   
 $ TODO note that all cases except for grifshë can be counterexplained by i-mutation though. 
@@ -392,6 +394,7 @@ $ TODO FOR DIA -- note that the data suggests it might be more complicated here.
 $ inasmuch as this is mainly a Latin to Albanian cascade endeavor at present, and no specific examples were given for native PPAlb *i having a different outcome from Latin I, precedence is given to the developments described for the latter.
 $ This differs from the outcome for /ʊ/ from Latin or PPAlb *u, which both raise back to /u/ (DV1735~2.2E1, -E2), as seen with /ɔ/ to /o/, handled above. 
 $ this thus implements DV2.2.1B11
+$ DIACLEA FIX 
 [+syl,+hi,-tense] > [-hi,+tense]
 
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM (Rom. cetate), njerkë "stepmother" < NOVERCA

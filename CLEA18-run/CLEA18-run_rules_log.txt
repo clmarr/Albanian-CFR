@@ -53,6 +53,7 @@ n [+back,+cons] > ɲ/ [-round] __ t
 [+front,+lo,+round] > [-round,-lab,-lo] / [+cor] __ 
 [+lo,+round] > [-front,+back] 
 [+back,+long,+syl,-lo] > [+front,-back] 
+[+syl] [+lab,+voi,-syl,-nas] [+prim,+lo] > [+prim,+stres,+syl,+son,0delrel] [+lab] [-stres,-prim,+syl,+son,0delrel]
 [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
 [+syl] > [-long,-splng] 
 [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 

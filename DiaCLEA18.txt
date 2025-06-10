@@ -54,8 +54,8 @@ $[+syl] n > [+long] ∅ / __ [-son,+cont]
 $ DIACLEA INSERTION: A2.IV. Latin -ˈVolV(C)# items shift the stress onto the -o-, even though it is short. This is actually seen in the Romance languages too it seems (Seen in modiolus, filiolus, caveola, capreolus, phaseolus, gladiolus, etc...)   so it is placed into Latin input handling. 
 [+prim] o > [-stres] [+prim] / __ l [-stres] ([+cons]) #
 
-$DIACLEA INSERTION: the prefix ex- [eks-] is treated as es-, seemingly across Romance. Tempting to broaden this to all unstressed #Vx- onsets, but there's the possibility that rounding of axungia > ushu(n)jë is due to a labial element reflecting the -k- (cf. Romanian osânzǎ, cognate, too). 
-k > ∅ / # [+front,-hi,-lo] __ s
+$DIACLEA INSERTION A2.XV: the prefix ex- [eks-] is treated as es-, seemingly across Romance. A2.XV.α -- as of June 10, 2025, broadened: all k in ˌV __ s deleted.
+k > ∅ / [+stres,-prim] __ s
 
 $ -- end of Latin input handling --- 
 
@@ -354,6 +354,7 @@ $ DIACLEA CORRECTION D3.IV -- this is consolidated into the resolution of i-muta
 $[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ {[-syl];#}
 
 $DIACLEA FIX A2.XXXI Middle Proto-Albanian I -- stress retraction in V β ˈVlo (ablēv-ā- > blej , arrīv-ā- > arrij, Drivastum > Drisht, lav-ā- > laj, oli̍̄vānu > ullî, etc. Including caballus > kuol, kālë for good measure 
+$ TODO write about this in dissertation!
 [+syl] [+lab,+voi,-syl,-nas] [+prim,+lo] > [+prim] [+lab] [-stres]
 
 $ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër, but via PPAlb *ā) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. DIACLEA CORRECTION: to handle the current implementation of A2.VIII, broadened to include short ɒ too. 

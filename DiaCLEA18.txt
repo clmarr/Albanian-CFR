@@ -173,7 +173,7 @@ $[+round,-lo,-prim,-hi] > [+hi,-long] / @ __ [+lat,-front]
 $part IV: implementing the default behavior of the rule, for the remaining (non-palatal) sonorants: rː, r, nː, n, ŋ. As of June 2024: suppressed.
 $[+round,-lo,-hi] > [+hi,-long] / @ __ [+son,+cons,-lab,-front] ([-syl])* [+syl] ([-syl])* [+syl]
 
-$DIACLEA CORRECTION A2.VIII new version -- o to o: always when countertonic now, except when after labial-sonorant (florīnum > flori, proximare > prozhëm, prodāre > prodhoj, maybe prōmitt-o > premtoj) or onset sonorant (rosalia > rrëshaj, rōmānus > remër/rëmër, notoj, rozhponjë...), if the following wherein it goes to ɔ instead. Handle the exception first then the rule, the exception falling to (ˌɔ). Use ɒ (later ɔ) for these exceptoins. Not necessarily unstressed o -- daemonem > djemër not djemu/-ũ, consobrinus > kushëri not kushuri, etc. 
+$DIACLEA CORRECTION A2.VIII new version -- o to o: always when countertonic now, except when after labial-sonorant (florīnum > flori, proximare > prozhëm, prodāre > prodhoj, maybe prōmitt-o > premtoj) or onset sonorant (rosalia > rrëshajë -- albeit dialectal rrushajë, rōmānus > remër/rëmër, notoj, rozhponjë...), if the following wherein it goes to ɔ instead. Handle the exception first then the rule, the exception falling to (ˌɔ). Use ɒ (later ɔ) for these exceptoins. Not necessarily unstressed o -- daemonem > djemër not djemu/-ũ, consobrinus > kushëri not kushuri, etc. 
 [+round,-prim,-hi] > [+lo,+tense] / {#;[+lab,-son]} [+son,+cor] __
 
 $now the actual unstressed o > u rule A2.VIII. Apparently doesn't happen word initially.
@@ -204,7 +204,7 @@ $ During August 2023 it was thought that ɲ also depalatalized after original o�
 $ January 28, 2025 -- moved into Middle Proto-Albanian I period -- some evidence Romanian is also implicated in related changes that postdate this. Placed just before nj > ɲ, so that r and n can be unified easily. 
 [-hi,+long,+prim] > [+round,+lab,+lo] / __ [+cons,+son] {j [+round];w}
 
-$DIACLEA insertion A2.XI.1 -- j deleted in Vrj [round], handling the ˈārjʊ cases but also coctorium > koftor, inboreanus > murâ,  etc. Not hte Vrja cases that ultimately become -e, after some i-mutation. Seems evident in Romanian too -- cerasiarium > cireșar, armissarius > armăsar, februarius > făurar, sagittārius > săgetător, sarcinarius > sa(r/l)ciner 
+$DIACLEA insertion A2.XI.1 -- j deleted in Vrj [round], handling the ˈārjʊ cases but also coctorium > koftor, inboreanus > murâ,  etc. Not the Vrja cases that ultimately become -e, after some i-mutation. Seems evident in Romanian too -- cerasiarium > cireșar, armissarius > armăsar, februarius > făurar, sagittārius > săgetător, sarcinarius > sa(r/l)ciner 
 j > ∅ / [+syl] r __ [+round]
 
 $merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) ; expanded to cover ŋ n too. 

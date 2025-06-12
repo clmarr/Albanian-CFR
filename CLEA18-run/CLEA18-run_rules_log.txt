@@ -23,10 +23,13 @@ r l > lˠ
 [+round,-prim,-hi] > [+lo,+tense,-cons,-lat,+cont,0delrel] / [+lab,-son] [+son,+cor] __ 
 [+round,-lo,-prim,+stres,-hi] > [+hi,-long,-splng] / @ __ 
 [+round,-lo,-stres] > [+hi] / __ [+son,+cor,-nas] [-stres]
-w > ∅ / [-back,-son] __ 
 [-hi,+long,+prim] > [+round,+lab,+lo] / __ [+cons,+son] j [+round]
 [-hi,+long,+prim] > [+round,+lab,+lo] / __ [+cons,+son] w
 j > ∅ / [+syl] r __ [+round]
+w > ∅ / [-back,-son] __ 
+[+syl,+front] > [-long,-splng] 
+{w ˈɑ;w ˌɑ;w ɑ;w ˈɪ;w ˌɪ;w ɪ;w ˈi;w ˌi;w i} > {ˈɒː;ˌɒː;ɒː;ˈyː;ˌyː;yː;ˈyː;ˌyː;yː} / [-voi,-cont] ( [-prim] ) __ 
+{w ˈɑ;w ˌɑ;w ɑ;w ˈɪ;w ˌɪ;w ɪ;w ˈi;w ˌi;w i} > {ˈɒː;ˌɒː;ɒː;ˈyː;ˌyː;yː;ˈyː;ˌyː;yː} / # ( [-cons] )* [+son,+cons] __ 
 n j > ɲ 
 [+nas] [-cont,+back,+voi] > ɲ/ __ [+front,-cons,+hi]
 ∅ > w / # __ [-hi,+round]
@@ -56,6 +59,8 @@ n [+back,+cons] > ɲ/ [-round] __ t
 [+back,+long,+syl,-lo] > [+front,-back] 
 [+syl] [+lab,+voi,-syl,-nas] [+prim,+lo] > [+prim,+stres,+syl,+son,0delrel] [+lab] [-stres,-prim,+syl,+son,0delrel]
 [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
+w > v / [+lo] __ [+front,-hi,+prim]
+w > v / [+hi,+back,+syl] __ [+front,-hi,+prim]
 [+syl] > [-long,-splng] 
 [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
 [+hi,-prim] > [+tense,-cons,-lat,+cont,0delrel] 

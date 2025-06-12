@@ -196,8 +196,6 @@ $ DIACLEA fix C3B.VII: now only after a non-initial vowel. (e.g. not eruilla > r
 $ DIACLEA CORRECTION D3.IX -- now considered part of betacism
 $w > b / @ [+syl] [+cor,-nas,+son] __
 
-$DIACLEA INSERTION A2.XXXII early MPA I -- w deleted after non-velar obstruents early. Bleeds post-w progressive rounding in this period. Survival of -w- as -b- in zbuloj is morphological. 
-w > ∅ / [-back,-son] __
 
 $DIACLEA INSERTION A2.XI: aw-mutation? rounding and lowering of primary stressed unrounded long/tense (a:, o:, e:) vowels under the influence of a round vowel on the other side of an ɲ. As of Jan 28, 2025, this is expanded to also operate across n (iānua > ... > gjua) and rj (qershuar, fëruor etc), with deletion of the j. Unified by features -- these are consonantal sonorants (as it turns out, l ʎ m don't occur in  the right positions to trigger thisǃ So can just leave with two feature spec.). Jan 28 2025 -- also realized that +tense was not necessary. 
 $ inclusion of ō is unclear -- evidence does not point strongly either way. Excluding it would mean more conditions though. 
@@ -209,6 +207,15 @@ $ January 28, 2025 -- moved into Middle Proto-Albanian I period -- some evidence
 
 $DIACLEA insertion A2.XI.1 -- j deleted in Vrj [round], handling the ˈārjʊ cases but also coctorium > koftor, inboreanus > murâ,  etc. Not the Vrja cases that ultimately become -e, after some i-mutation. Seems evident in Romanian too -- cerasiarium > cireșar, armissarius > armăsar, februarius > făurar, sagittārius > săgetător, sarcinarius > sa(r/l)ciner 
 j > ∅ / [+syl] r __ [+round]
+
+$DIACLEA INSERTION A2.XXXII  -- w deleted after non-velar obstruents early. Bleeds post-w progressive rounding in this period. Survival of -w- as -b- in zbuloj is morphological. 
+w > ∅ / [-back,-son] __
+
+$DIACLEA INSERTION A1.XIII length lost in front vowels early.. .
+[+syl,+front] > [-long]
+
+$DIACLEA INSERTION A2.XXXIII -- coalescence of w with following ɪ i or short a in two contexts: T-voi (V-prim) __ and # (V)* resonant __. Long round vowels seem to be the result (in asmuch as y doesn't fall, at least)
+{w ˈɑ;w ˌɑ;w ɑ;w ˈɪ;w ˌɪ;w ɪ;w ˈi;w ˌi;w i}>{ˈɒː;ˌɒː;ɒː;ˈyː;ˌyː;yː;ˈyː;ˌyː;yː} / {[-voi,-cont] ([-prim]); # ([-cons])* [+son,+cons]} __
 
 $merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) ; expanded to cover ŋ n too. 
 $ DIACLEA CHANGE (But not a significant change from baseline it seems?) decoupled these. Handling gn phenomena elsewhere, on the basis of cognatus > kunat, fuskina > fuzhnjë, etc. Furthermore in Romanian words in original -ŋn- reflect in mn or even m- (agnellus > miel) 
@@ -358,10 +365,14 @@ $[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ {[-syl];#}
 
 $DIACLEA FIX A2.XXXI Middle Proto-Albanian I -- stress retraction in V β ˈVlo (ablēv-ā- > blej , arrīv-ā- > arrij, Drivastum > Drisht, lav-ā- > laj, oli̍̄vānu > ullî, etc. Including caballus > kuol, kālë for good measure 
 $ TODO write about this in dissertation!
+$ TODO maybe broaden this to E cases now that the taverna cases are bled. 
 [+syl] [+lab,+voi,-syl,-nas] [+prim,+lo] > [+prim] [+lab] [-stres]
 
 $ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër, but via PPAlb *ā) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. DIACLEA CORRECTION: to handle the current implementation of A2.VIII, broadened to include short ɒ too. 
 [+round,+lo] > [-lo,-tense]
+
+$DIACLEA FIX A2.XXXIX Middle Proto-Albanian I --bleeding regressive coloring , w > v between non-mid back vowels and pre-consonantal E. Does not happen for b (harroj, lëroj., tabelë, tryezë < trabeza, trā). 
+w > v / {[+lo];[+hi,+back,+syl]} __ [+front,-hi,+prim]
 
 $ 4 NEW VOWEL SYSTEM. loss of distinctive vowel length leading to "system"
 $the following system will emerge per chart at bottom of 1736 -- filling changes not already handled before this point.

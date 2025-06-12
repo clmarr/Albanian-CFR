@@ -74,7 +74,7 @@ $ TODO revise this, probably deleting the first part.
 
 $DV1744.D & DV1744.E1  --*tɕ *dʝ > *θ *ð -- for De Vaan, these happen in one step, without intermediate stages in alveolar or dental affricates. 
 $ symbol defs and the IPA don't (most typically) use *tɕ *dʝ, these are expressed with c͡ç and ɟ͡ʝ for reasons discussed above in the formulation for DV4.3G1 & H1 
-$ needs to come after the nasal-spirant law above in Latin input handling so as not to feed it. 
+$ needs to come after the nasal-spirant law in Latin input handling so as not to feed it. 
 $ However, in light of the fact that Proto-Albanian loans reflecting PIE palatovelars reflect as ts dz in Aromanian and various ts s z in Romanian (unlike PAlb ð < PPAlb *d, which reflects with d in Romanian and Aromanian), this is indeed split in two, with the affricate stage first, and the spirantization only after Middle Proto-Albanian (when De Vaan assigns the contact between Proto-Albanian and Proto-Vlach)
 {c͡ç;ɟ͡ʝ} > {t͡s;d͡z}
 
@@ -173,10 +173,10 @@ $[+round,-lo,-prim,-hi] > [+hi,-long] / @ __ [+lat,-front]
 $part IV: implementing the default behavior of the rule, for the remaining (non-palatal) sonorants: rː, r, nː, n, ŋ. As of June 2024: suppressed.
 $[+round,-lo,-hi] > [+hi,-long] / @ __ [+son,+cons,-lab,-front] ([-syl])* [+syl] ([-syl])* [+syl]
 
-$DIACLEA CORRECTION A2.VIII new version -- o to o: always when countertonic now, except when after labial-sonorant (florīnum > flori, proximare > prozhëm, prodāre > prodhoj, maybe prōmitt-o > premtoj) or onset sonorant (rosalia > rrëshajë -- albeit dialectal rrushajë, rōmānus > remër/rëmër, notoj, rozhponjë...), if the following wherein it goes to ɔ instead. Handle the exception first then the rule, the exception falling to (ˌɔ). Use ɒ (later ɔ) for these exceptoins. Not necessarily unstressed o -- daemonem > djemër not djemu/-ũ, consobrinus > kushëri not kushuri, etc. 
+$DIACLEA CORRECTION A2.VIII new version -- o  raising exception when after labial-sonorant (florīnum > flori, proximare > prozhëm, prodāre > prodhoj, maybe prōmitt-o > premtoj) or onset sonorant (rosalia > rrëshajë -- albeit dialectal rrushajë, rōmānus > remër/rëmër, notoj, rozhponjë...), if the following wherein it goes to ɔ instead. Exceptions handled by falling to (ˌɔ). Use ɒ (later ɔ) for these exceptoins. Not necessarily unstressed o -- daemonem > djemër not djemu/-ũ, consobrinus > kushëri not kushuri, etc. 
 [+round,-prim,-hi] > [+lo,+tense] / {#;[+lab,-son]} [+son,+cor] __
 
-$now the actual unstressed o > u rule A2.VIII. Apparently doesn't happen word initially.
+$now the actual internal non-primary o > u rule A2.VIII. Apparently doesn't happen word initially.
 [+round,-lo,-prim,+stres,-hi] > [+hi,-long] / @ __
 
 $DIACLEA CORRECTION A2.VIIIa -- unstressed o/ɔ to u/ʊ in  __ R V-stres
@@ -188,14 +188,10 @@ $ TODO long term - -consider only applying it for -rs- and -sr- for pre-Latin et
 $ r [+cons] > r 
 $ [+cons] r > r 
 
-$TODO before w deletion and modification phenomena operate, there are some things that need to be fixed... 
-	$ TODO 1 disappearance of w into vowel coloring in: 167 eruilla > rrylë, 189 februarius > f(ë)ruor (via ɒː ?), potentially others -- though not servitium > shërbes) 
-
 $ DV1743.B4 -- w > b after r and l. I.e. the (non-nasal) (sonorant) coronals. Corvus > korb (Rom. corb), pulvere > bulbër (Rom. pulbere; but also Alb. pluhur), serv-īre > Alb. shërbej (Rom. a șerbi, also servus > Rom șerb) 
 $ DIACLEA fix C3B.VII: now only after a non-initial vowel. (e.g. not eruilla > rrylë, alveolus > unatt. llullë > nullë...) 
 $ DIACLEA CORRECTION D3.IX -- now considered part of betacism
 $w > b / @ [+syl] [+cor,-nas,+son] __
-
 
 $DIACLEA INSERTION A2.XI: aw-mutation? rounding and lowering of primary stressed unrounded long/tense (a:, o:, e:) vowels under the influence of a round vowel on the other side of an ɲ. As of Jan 28, 2025, this is expanded to also operate across n (iānua > ... > gjua) and rj (qershuar, fëruor etc), with deletion of the j. Unified by features -- these are consonantal sonorants (as it turns out, l ʎ m don't occur in  the right positions to trigger thisǃ So can just leave with two feature spec.). Jan 28 2025 -- also realized that +tense was not necessary. 
 $ inclusion of ō is unclear -- evidence does not point strongly either way. Excluding it would mean more conditions though. 
@@ -211,7 +207,7 @@ j > ∅ / [+syl] r __ [+round]
 $DIACLEA INSERTION A2.XXXII  -- w deleted after non-velar obstruents early. Bleeds post-w progressive rounding in this period. Survival of -w- as -b- in zbuloj is morphological. 
 w > ∅ / [-back,-son] __
 
-$DIACLEA INSERTION A1.XIII length lost in front vowels early.. .
+$DIACLEA INSERTION A1.XIII length lost in front vowels early. TODO revise?
 [+syl,+front] > [-long]
 
 $DIACLEA INSERTION A2.XXXIII -- coalescence of w with following ɪ i or short a in two contexts: T-voi (V-prim) __ and # (V)* resonant __. Long round vowels seem to be the result (in asmuch as y doesn't fall, at least)
@@ -232,7 +228,7 @@ $[+hi,+round,-cons] > ∅ / [+nas] [-cont,+back,+voi] __ [+front,-cons,+hi]
 $ DV1744.C4 -- emergence of PAlb β before Latin long ō and the reflex of Alb long-ā, but PPAlb ō is not listed. PAlb β itself is the reflex of initial Latin w- and PPAlb β, itself from a PIE u̯. Treat as w for now, betacize later, as then merge them here, with a single rule. In order to impact PPAlb ā and Latin ō but not PPAlb ō, PPAlb ō must have a different reflex at this stage. But De Vaan 2018 does not seem to PPAlb ō and Latin  differently otherwise, in fact they are typically handled together (cf. DV1736G1, DV2.2.1B7 & DV2.2.1B8) except when i-mutation is concerned (DV1736H1, which can simply be handled by placing it in the post-Greek but pre-Latin area of PAlb). So unless there are issues that emerge upon later examination, we will be treating PPAlb ō as potentially a trigger as well.
 $ although is not explicitly stated, the examples all concern initial vowels. 
 $ DIACLEA CORRECTION: also occurs before initial short /o/ too it seems.
-$ TODO move this to a later time . 
+$ TODO move this to a later time ? 
 $ TODO consider treating this as via diphthongization.
 $ TODO doesn't seem to happen before labials for unstressed o at least (oblata > blatë, ofella > felë, though opera > vapër... tho this word is also analyzed as possibly native? ) 
 ∅ > w / # __ [-hi,+round]
@@ -554,6 +550,7 @@ $DV2.2.1K and 1737's 5b -- diphthongized ietation -- ɛ (< PPAlb e, Lat e & ae) 
 $his ɫ is "lː" here though and his r is simply a short r so it is a diagonal grouping in terms of length, hard to capture in a feature matrix. 
 $it says word-final but the falls of unstresesd vowels are actually assigned later (to word-internal and initial cases that is; the dating of the fall of final unstressed vowels isn't quite given in 1737-8 but one can assume this will happen to low vowels so this is added in : ([-lo,-stres] (m) ), the [m] being there to deal with the accusative (cf DV1737~2.2.2d) 
 $ DIACLEA FIX: now using lˠ not lː
+$ TODO 2025 -- make this about length
 [+front,-hi,-lo,-round,+prim] > ˈi e̯ / __ {lˠ;r} ([-lo,-stres] (m)) #
 
 $ DV1737's 5b.2 & 5b.3 : ø > ye and o > uo before word final -ɫ, -n, -r

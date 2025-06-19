@@ -735,8 +735,9 @@ $TODO reexamine this?
 $syncope aspect of DV1734.1.III implemented below; this is also DV1734.4
 ə > ∅ / [+cons,+son,-long,-back] __ [-cont]
 
-$DV1734.1.IV -- 'lengthening before nasals, liquids, sibilants'
-[+prim] > [+long] / __ {[+cons,+son];[+strid]}
+$DV1734.1.IV -- 'lengthening before nasals, liquids, sibilants'.
+$DIACLEA CHANGE C3B.XI -- major change, remark in diss. (TODO!). Lengthening of vowels no longer occurs before nasals. 
+[+prim] > [+long] / __ {[+cons,+son,-nas];[+strid]}
 
 $   ------------- INTERVOCALIC STOP EFFACEMENT (AND CLUSTER SIMPLIFICATION?) -----------
 $ TODO figure out how to handle this in the base cascade? -- probably have it here after the fall of schwa in R __ T, with a (more concise) explanation
@@ -943,7 +944,8 @@ $BANDAID fix-- since the notation of the data uses ɾ and r not r and rː, this 
 rː > r
 
 $ ã raises to ə in Tosk (ultimately denasalizing to ë outside of some Lab subdialects which may (or may not) have preserved nasality, maybe for this item) 
-[+lo,+nas,+syl] > [-lo,-back,-front,0tense]
+$ DIACLEA CHANGE C3B.XII -- in Proto-Tosk, it is only short ã that becomes ə̃; long ãː actually reflects as -a- (shpërlaj, etc.).  
+[+lo,+nas,+syl,-long] > [-lo,-back,-front,0tense]
 
 $DV2.1D2 -- Tosk uo > ua ; written agnostically as to the syllabic status of the a. 
 [+back,-cons,-hi] > [-back,+front,+lo,-round,-lab,+tense] / [-cons,+round,+hi,+back] __

@@ -396,9 +396,12 @@ $ This can be handled in tandem with the raising of /ʊ/ back to /u/, which occu
 $ DIACLEA fix C1A.VII -- re-tensing of ʊ > u extended to ɪ > i when unstressed. 
 [+hi,-prim] > [+tense]
 
-$DIACLEA INSERTION -- A2.X -- ɪ goes back up to i before ʎ (5 known cases for ˈɪʎ, e.g. familia > fëmijë, scantilia > shkëndijë) and before labials (4 cases for ˈɪp and ˈɪf, ex. gripsa > grifshë). This is better not handled as part of i-mutation as some of the pre-labial cases don't work that way (gripsa > grifshë) and it appears that ʎ only triggers what looks like i-mutation for /ɪ/.   
+$DIACLEA INSERTION A2.XXXV -- hiatus j insertion between front vowel __ non-round non-hi vowel in Middle Proto-Albanian I, just before pre-palatal ɪ-raising (which it seems to feed)̠. 
+∅ > j / [+front,+syl] __ [-round,-hi,+syl] 
+
+$DIACLEA INSERTION -- A2.X -- ɪ goes back up to i before ʎ (5 known cases for ˈɪʎ, e.g. familia > fëmijë, scantilia > shkëndijë) and j (picta > pɪjtɑ > pitë, plictum > ... > plic, arguably via > ... > vijë) and before labials (4 cases for ˈɪp and ˈɪf, ex. gripsa > grifshë). This is better not handled as part of i-mutation as some of the pre-labial cases don't work that way (gripsa > grifshë) and it appears that ʎ only triggers what looks like i-mutation for /ɪ/. Not ɲ ː tinea > tenjë, strinctum > shtrenjt-ë. 
 $ TODO note that all cases except for grifshë can be counterexplained by i-mutation though. 
-ˈɪ > ˈi / __ {ʎ;[+lab]}
+ˈɪ > ˈi / __ {[+front,-syl,-nas];[+lab]}
 
 $ It seems there is a difference between native and Latin *i outcomes --  DV1734~2.2A1: the former all end up as PAlb *i, but in DV1735~2.2A5 Latin /i/ only becomes PAlb *i with i-mutation, otherwise becoming *e (DV1735~2.2B11) 
 $ TODO FOR DIA -- note that the data suggests it might be more complicated here... 
@@ -409,11 +412,11 @@ $ DIACLEA FIX
 [+syl,+hi,-tense] > [-hi,+tense]
 
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM (Rom. cetate), njerkë "stepmother" < NOVERCA
-$ DIACLEA CORRECTION B1.III -- relocdated later -- TODO W phenomena including coloring stuff where this matters happen much later, still get to this
+$ DIACLEA CORRECTION B1.III -- relocdated later -- TODO W phenomena including coloring stuff where this matters happen much later, still get to this (tribulum > truoll, viv-o- >v-ua-, scrib-o- > shkr-ua- ...) . TODO May have to go even later because it seems this also happens with Slavic etyma (bɯβɒl(-ʊ,-iːt͡sɑ) > buall(icë); gɒtɒβ-ɒ > gat-ua, pɒdʊkɒβʊ > patkua, pɒrɒβʊ > përua, tɒrɒβʊ> tërua, βɒlkɒβʊ > vallkua, βīrɒβʊ > virua, zɑ̄bɒjɪ > zabua )
 w > ∅ / [+syl] __ [+syl]
 
 $DIACLEA INSERTION : nw (or nβ) > m before [e], currently unspecified for stress though all cases seem to be before countertonic [ˌe]. This explains all nw > m cases except for the proposed etymology of invernālia for mërrajë. Motivation for this may be found in differentiating this from [ø], which in some accounts (e.g. Orel 2000) may have been [we] (note that the same sound becomes [uo] before sonorants). 
-$ TODO maybe broaden this and have nɸ involved for cases like iūnctus 
+$ TODO maybe broaden this and have ɸ involved for cases like iūnctus 
 $ TODO work out conditioning of this !
 n [+lab,-syl,+voi] > m / __ [+front,-hi,+tense]
 
@@ -523,6 +526,8 @@ $[+prim] [-syl,-cons,+front,+hi] > [+front,+hi,+tense] ∅
 
 $ DIACLEA CORRECTION A1.XI
 $ MIDDLE PROTO-ALBANIAN LENITION: d and b to delta and beta in between non-nasal and non-lateral sonorants, settinɡ staɡe for their later loss. 
+$ TODO reforming timing of this...
+	$ for delta, must be after initial wave of post-nasal vowel losses, which seem to bleed it -- i.e. currently rules 49,50 -- cf. benedicere >bëndëk-o- > bënk-o
 {b;d} > {β;ð} / [+son,-nas,-lat] __ [+son,-nas,-lat]
 
 $ DIACLEA CORRECTION D3.IX -- w and original b, both now beta, to b after l,r. ( incorping DIACLEA fix C3B.VII: now only after a non-initial vowel. (e.g. not eruilla > rrylë, alveolus > unatt. llullë > nullë...) 
@@ -539,6 +544,7 @@ $ was formulated so as to handle if these are treated instead as labialized cons
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
 $ in practice qu- and gu- never occur without following vowels, so it can be expressed without the following vowel. 
 $ TODO move   this later, or having relevant coloring phenomena operate beforehand (quīs > qysh, quadrum > kodër, quartus > kort, civitatem > qytet, eruilla >rrylë; lso possibly, with  the Xʷ(?), factūra > fytyrë and axungia >ushu(n)jë ~ Romanian osânză)
+$TODO adjust this, given the earlier beta coloring phenomena...
 w > ∅ / [-cont,+back] __
 
 $TODO NOTE FOR DIA: although phonemic nasalization is assigned a later point in the relative chronology (DV1737, number 8), it may be necessary here at least for /e/ and/or /ɛ/, to block ietation and allow the merger of DV2.2.1K with DV2.2.1L1 & DV2.2.1M (aka the merger of 5b.1 with 5b.2 and 5b.3)

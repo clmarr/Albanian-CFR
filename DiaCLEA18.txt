@@ -253,7 +253,6 @@ $ was formulated so as to handle if these are treated instead as labialized cons
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
 {s n;t n;d n;n n;k n} > {nː;nː;nː;nː;nː}
 
-$TODO there is probably some way that vowels in hiatus are handled, rather than simple reduction. Come back to this. 
 
 $----- early aspects of vowel reduction and falls ----- 
 
@@ -441,6 +440,10 @@ $		$R T1 T2 > R T2 ː excarpt-ā- > shkartoj , canticellum > këngjel,
 	$	S T1  T2 -- ōscit-ā- > ushtoj 
 [+cons] > ∅ / [+cons] __ [-son]
 
+$DIACLEA CHANGE -- seeding of secondary length starts to emerge -- A1.XIV just before i-mutation and loss of post-labial-continuant j, hiatus vowels with the first element countertonic has the second element attain length and countertonic stress (primary remains primary though), and the first element to schwa for now (will seed length).
+[+stres,-prim] [+syl] > ə [+long,+stres]
+
+
 
 $-----------------------Middle Proto-Albanian II---------------------
 =Middle Proto-Albanian II
@@ -505,6 +508,7 @@ j > ∅ / {[+lab,+cont];[+lab,-front] r} __
 $ now ɪ̯ can merge into j, as part of C8.I. 
 ɪ̯ > j 
 
+$I-MUTATION
 $DIACLEA CORRECTION D3.IV -- coalescence of etymological ui/uj, ai/aj, ei/ej, ɛi/ɛj > y e i i all roped into the resolution of i-mutation, 
 $DIACLEA CORRECION D3.V -- i-mutation resolution combined with (E1.I) includes jɔ > œ (/ ø) and (A1.VIII) ɪ̯œ > y. 
 $ DIACLEA CORRECTION D3.V: likewise, unification of ɪ̯ a & j a (christiān-u > krishter-ë). This does not happen after labials (lapathia > lëpjetë, pastica > bjeshkë etc.) (and no evidence of D3.V happening after labials either.). As a bonus, final -ja to -e is accounted for. 
@@ -986,9 +990,10 @@ $repeat of internal pretonic vowel reductions per DV2.2.2b (see above)
 $DIACLEA CORRECTION C1B.VIII -- reduction to schwa now doesn't occur for BACK countertonics. 
 $DIACLEA CORRECTION C1B.IX -- low vowels also not mass reduced if countertonic.
 $ Jan 13 2025 -- bandaid to include also countertonics in words with no tonic tonic stress at all -- assumed to be no more than two syllables.
-[-prim,-back,-lo] > ə / @ __ (@)* [+prim]
-[-prim,-back,-lo] > ə / # ([-syl])* ([-prim]) ([-syl])+ __
-[-stres] > ə / # ([-prim])+ __
+$DIACLEA CORRECTION 
+[-prim,-back,-lo,-long] > ə / @ __ (@)* [+prim]
+[-prim,-back,-lo,-long] > ə / # ([-syl])* ([-prim]) ([-syl])+ __
+[-stres,-long] > ə / # ([-prim])+ __
 ə > ∅ / n __ [-cont]
 
 $gleaned from DV1738, unstressed final -o(n) and -a(s) in loans from early Slavic, Italian and Greek are reduced to -ë

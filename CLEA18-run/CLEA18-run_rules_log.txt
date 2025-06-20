@@ -72,6 +72,7 @@ n [+lab,-syl,+voi] > m/ __ [+front,-hi,+tense]
 {d;t} > {d͡ʒ;t͡ʃ} / __ j
 n > ∅ / __ [+strid]
 [+cons] > ∅ / [+cons] __ [-son]
+[+stres,-prim] [+syl] > ə [+long,+stres,+syl,+son,0delrel]
 ∅ > ɪ̯ / __ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] j
 j > ∅ / ɪ̯ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] __ 
 ∅ > ɪ̯ / [-lab] __ [-round,-hi,+prim] [-syl] ( [-syl] )* [+front,-round,-cons]
@@ -185,9 +186,9 @@ rː > r
 [+back,-cont] j > [-back,+front] ∅
 z > d͡z / n __ 
 c > k / __ [+syl] ʃ
-[-prim,-back,-lo] > ə / @ __ ( @ )* [+prim]
-[-prim,-back,-lo] > ə / # ( [-syl] )* ( [-prim] ) [-syl] ( [-syl] )* __ 
-[-stres] > ə / # [-prim] ( [-prim] )* __ 
+[-prim,-back,-lo,-long] > ə / @ __ ( @ )* [+prim]
+[-prim,-back,-lo,-long] > ə / # ( [-syl] )* ( [-prim] ) [-syl] ( [-syl] )* __ 
+[-stres,-long] > ə / # [-prim] ( [-prim] )* __ 
 ə > ∅ / n __ [-cont]
 {o;ɔ;a} > {ə;ə;ə} / __ #
 [+long] > [-long,-splng] 

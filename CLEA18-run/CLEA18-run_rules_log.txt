@@ -108,8 +108,8 @@ h > ∅ / __ [-stres]
 h > ∅ / [+syl] __ 
 [-prim] > ∅ / # __ 
 ∅ > ə / # __ [+son,+cons] [+cons]
-[-prim,-back] > ə / @ __ ( @ )* [+prim]
-[-stres] > ə / @ __ ( @ )* [+prim]
+[-prim,-back,-long] > ə / @ __ ( @ )* [+prim]
+[-stres,-long] > ə / @ __ ( @ )* [+prim]
 ə > ∅ / [+nas,+cons] __ [-cont]
 ə > ∅ / [+cons] ( @ )* [+nas,+cons] __ [+nas,+cons] ( @ )* [+prim]
 ə > ∅ / [+son,+cons] m __ [+nas,+cons]

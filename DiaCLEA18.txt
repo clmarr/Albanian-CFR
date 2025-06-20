@@ -263,7 +263,6 @@ $ DIACLEA CHANGE C1B.III: does not seem to affect low-vowels at this point -- ye
 $ DIACLEA CHANGE D3.III: moved to (originally) second _VOWEL DROP WAVE_, although some of the effects placed not long after this at the beginning of Middle Proto-Albanian. There may still be some justification for vowel elision at this time, but that remains to be seen.
 $[-stres,-lo] > ə / [+prim] (@)* __ @ 
 
-
 $--------------------Middle Proto-Albanian-------------------
 =Middle Proto-Albanian
 $ main wave of contact with Proto-Romanian (temporarily?) complete now
@@ -276,7 +275,6 @@ $DIACLEA rule insertion: ʎ depalatalizes to l between high vowels
 	$ note, does not seem to happen in Vlacho-Romance: peculium > Alb. pekul but Daco-Rom (dial.) picui & păcui and Aromanian picul'iǔ; milium > Alb mel but Drom mei and Arom mel'iǔ
 	$ TODO there is some depalatalization of ʎ that remains unaccounted for ː favaliam > falë (unless this is fawʎə ??), oleaster > ullashtër (already u?) ... 
 ʎ > l / [+hi] __ [+hi]
-
 
 $ TODO need to work on this rule -- see "kt outcomes" file. 
 $ k becoming yod before /t/ if next to front vowel -- De Vaan 2018(:1744)  -- DV1744.J3
@@ -615,8 +613,9 @@ $ TODO FOR DIA consider suppressing the Buzuku rule here.
 
 $ DV2.2.2b -- internal pretonic vowels "including *au" (now > *a per DV2.2.1C3) to schwa, some of these to fall soon. "These reductions also affected the oldest layers of loanwords from Middle Greek, Italian, and Slavic" -- so will be repeated later just after the point for Old Northern Tosk Albanian. 
 $DIACLEA CORRECTION C1b.VIII : not for back countertonics though. 
-[-prim,-back] > ə / @ __ (@)* [+prim]
-[-stres] > ə / @ __ (@)* [+prim]
+$DIACLEA CORRECTION A2.XXXIV -- (TODO write about this!) unstressed long vowels (in practice, mostly countertonic) not reduced to ə by DV2.2.2b.
+[-prim,-back,-long] > ə / @ __ (@)* [+prim]
+[-stres,-long] > ə / @ __ (@)* [+prim]
 
 $ ------- secondary cluster formation---------------
 

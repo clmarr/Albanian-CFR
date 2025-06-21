@@ -145,7 +145,7 @@ $ [+cons,+son] l > lˠ
 r l > lˠ
 $ l [+cons,+son] > lˠ
 
-$DV1736 "4.", moved back (DIACLEA CORECTION B2.IV) handling the posited emergence of high lax vowels from older short high vowels as part of p1736's new vowel system.. Include also his e > ɛ shift here (listed above), and this will give us also o > ɔ too (not ʏ or œ since short versions of y and ø have no way to emerge at this stage.); the outcome of PPAlb/Greek ā (> ɒː) is already ɔː here but he mentions some Latin o & oː passing through "ɔ > o"; unclear when it raises again. 
+$DV1736 "4.", moved back (DIACLEA CORRECTION B2.IV) handling the posited emergence of high lax vowels from older short high vowels as part of p1736's new vowel system.. Include also his e > ɛ shift here (listed above), and this will give us also o > ɔ too (not ʏ or œ since short versions of y and ø have no way to emerge at this stage.); the outcome of PPAlb/Greek ā (> ɒː) is already ɔː here but he mentions some Latin o & oː passing through "ɔ > o"; unclear when it raises again. 
 $ DIACLEA CORRECTION B2.IV -- laxing moved to Early Proto-Albanian period. 
 [-lo,+syl,-long] > [-tense]
 
@@ -204,14 +204,18 @@ $ January 28, 2025 -- moved into Middle Proto-Albanian I period -- some evidence
 $DIACLEA insertion A2.XI.1 -- j deleted in Vrj [round], handling the ˈārjʊ cases but also coctorium > koftor, inboreanus > murâ,  etc. Not the Vrja cases that ultimately become -e, after some i-mutation. Seems evident in Romanian too -- cerasiarium > cireșar, armissarius > armăsar, februarius > făurar, sagittārius > săgetător, sarcinarius > sa(r/l)ciner 
 j > ∅ / [+syl] r __ [+round]
 
-$DIACLEA INSERTION A2.XXXII  -- w deleted after non-velar obstruents early. Bleeds post-w progressive rounding in this period. Survival of -w- as -b- in zbuloj is morphological. 
+$DIACLEA INSERTION: A2.XXXVII. ʎ to lɪ̯ before unround, ɫɪ̯ before round if voiced back elements (w, ɡ) are before the prior vowel (evangelium, invigilium, , vilia, Greek gɔ̄leon, galliatia, favalia, eruilium, eriulia, possibly battualia > Cham bëtalë... feeds later darkening but must be before w loses its backness.).
+$ counterbled by progressive beta/w coloring.
+$ i-mutatory effects but NOT blocked by prior labial (in fact, targets it in the case of w)
+$ seems to come after later (Christian) vocab added -- see evangelium > ungjill. 
+ʎ > j ɫ / [+back,+voi] [+syl] __ [+syl,+round]
+ʎ > j l / [+back,+voi] [+syl] __ [+syl]
+
+$DIACLEA INSERTION A2.XXXII  -- w deleted after non-velar obstruents early. Bleeds post-w progressive rounding in this period. Survival of -w- as -b- in zbuloj is morphological. TODO revisit this?
 w > ∅ / [-back,-son] __
 
 $DIACLEA INSERTION A1.XIII length lost in front vowels early. TODO revise?
 [+syl,+front] > [-long]
-
-$DIACLEA INSERTION A2.XXXIII -- coalescence of w with following ɪ i or short a in two contexts: T-voi (V-prim) __ and # (V)* resonant __. Long round vowels seem to be the result (in asmuch as y doesn't fall, at least)
-{w ˈɑ;w ˌɑ;w ɑ;w ˈɪ;w ˌɪ;w ɪ;w ˈi;w ˌi;w i}>{ˈɒː;ˌɒː;ɒː;ˈyː;ˌyː;yː;ˈyː;ˌyː;yː} / {[-voi,-cont] ([-prim]); # ([-cons])* [+son,+cons]} __
 
 $merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) ; expanded to cover ŋ n too. 
 $ DIACLEA CHANGE (But not a significant change from baseline it seems?) decoupled these. Handling gn phenomena elsewhere, on the basis of cognatus > kunat, fuskina > fuzhnjë, etc. Furthermore in Romanian words in original -ŋn- reflect in mn or even m- (agnellus > miel) 
@@ -223,22 +227,8 @@ $DV1740.D4 Lat -ng(u-)>ɲ / __ V[+front]
 $ form prior to 8/5/23 was: [+nas] [-cont,+back,+voi] ([+hi,+round,-cons]) / __ [+front,-cons,+hi]
 $now only doing the ng > ɲ aspect, as the loss of w after g is handled by DV1744.A2 above.
 $[+hi,+round,-cons] > ∅ / [+nas] [-cont,+back,+voi] __ [+front,-cons,+hi]
+$ unaffected etyma incongyrare and invigilia are because these are Christian vocab! 
 [+nas] [-cont,+back,+voi] > ɲ / __ [+front,-cons,+hi]
-
-$ DV1744.C4 -- emergence of PAlb β before Latin long ō and the reflex of Alb long-ā, but PPAlb ō is not listed. PAlb β itself is the reflex of initial Latin w- and PPAlb β, itself from a PIE u̯. Treat as w for now, betacize later, as then merge them here, with a single rule. In order to impact PPAlb ā and Latin ō but not PPAlb ō, PPAlb ō must have a different reflex at this stage. But De Vaan 2018 does not seem to PPAlb ō and Latin  differently otherwise, in fact they are typically handled together (cf. DV1736G1, DV2.2.1B7 & DV2.2.1B8) except when i-mutation is concerned (DV1736H1, which can simply be handled by placing it in the post-Greek but pre-Latin area of PAlb). So unless there are issues that emerge upon later examination, we will be treating PPAlb ō as potentially a trigger as well.
-$ although is not explicitly stated, the examples all concern initial vowels. 
-$ DIACLEA CORRECTION: also occurs before initial short /o/ too it seems.
-$ TODO move this to a later time ? 
-$ TODO consider treating this as via diphthongization.
-$ TODO doesn't seem to happen before labials for unstressed o at least (oblata > blatë, ofella > felë, though opera > vapër... tho this word is also analyzed as possibly native? ) 
-∅ > w / # __ [-hi,+round]
-
-$ DV1744.C1 : Lat. w- > β. 
-$ this is redundant with the earlier rule doing the exact same thing to PIE u̯ > PPAlb β (DV1746.F1 = DV4.3L1) effectively merged these
-$ note that the dating of this shift in Latin is quite old -- 1st century, case of <nerβa> in a Latin inscription (otherwise from β?) -- though that is in the West. 
-$ TODO actually, consider moving this later. 
-$ DIACLEA CORRECTION D3.IX -- now w > b stuff after coronal sonorant consonants handled as part of this too.  
-w > β / {#;[+son,+cor]} __
 
 $ DV4.2F4: Lat. i- merges with PPAlb *ʒ as PAlb *ɟ; PPAlb *ʒ as PAlb *ɟ as implementing DV4.2F1
 $ TODO FOR DIA ? : consider merging this with the j- > ɟ for PPAlb j-, and explain j reflexes of Latin glided i- (janar etc?)
@@ -271,9 +261,9 @@ $ evidence from the loans indicates that around this time, the reflexes of hte P
 $ resolution of DV1744.D & DV1744.E1 -- see notes on this above, this is motivated by the outcomes in Aromanian and Romanian of PPAlb ɟ͡ʝ vs. PPAlb d in cases where they both ended up as ð in Alb. 
 {t͡s;d͡z} > {θ;ð}
 
-$DIACLEA rule insertion: ʎ depalatalizes to l between high vowels
+$DIACLEA rule A2I: ʎ depalatalizes to l between high vowels
 	$ note, does not seem to happen in Vlacho-Romance: peculium > Alb. pekul but Daco-Rom (dial.) picui & păcui and Aromanian picul'iǔ; milium > Alb mel but Drom mei and Arom mel'iǔ
-	$ TODO there is some depalatalization of ʎ that remains unaccounted for ː favaliam > falë (unless this is fawʎə ??), oleaster > ullashtër (already u?) ... 
+	$ TODO there is some depalatalization of ʎ that remains unaccounted for ː  oleaster > ullashtër (already u?) ... 
 ʎ > l / [+hi] __ [+hi]
 
 $ TODO need to work on this rule -- see "kt outcomes" file. 
@@ -361,11 +351,14 @@ $ TODO write about this in dissertation!
 $ TODO possibly broaden this to other cases of stress retraction...
 [+syl] [+lab,+voi,-syl,-nas] [+prim,+lo] > [+prim] [+lab] [-stres]
 
+$DIACLEA INSERTION A2.XXXIII -- coalescence of w with following ɪ i or short a in two contexts: T-voi (V-prim) __ and # (V)* liquid __. Long round vowels seem to be the result (in asmuch as y doesn't fall, at least)
+w [+syl,αhi,αfront,-long]> ∅ [+round,+lab,+long] / {[-voi,-cont] ([-prim]); # ([-cons])* [+son,+cons,-nas]} __ 
+
 $ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër, but via PPAlb *ā) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. DIACLEA CORRECTION: to handle the current implementation of A2.VIII, broadened to include short ɒ too. 
 [+round,+lo] > [-lo,-tense]
 
-$DIACLEA FIX A2.XXXIX Middle Proto-Albanian I --bleeding regressive coloring , w > v between non-mid back vowels and pre-consonantal E. Does not happen for b (harroj, lëroj., tabelë, tryezë < trabeza, trā). 
-w > v / {[+lo];[+hi,+back,+syl]} __ [+front,-hi,+prim]
+$DIACLEA FIX A2.XXXVIII Middle Proto-Albanian I --bleeding regressive coloring , w > v between non-mid back vowels an E. Does not happen for b (harroj, lëroj., tabelë, tryezë < trabeza, trā). If it sees through (n), as proposed on June 20, then it also feeds n-loss and bleeds nw > m phenomenon 
+w > v / {[+lo];[+hi,+back,+syl]} ([+nas]) __ [+front,-hi,+prim]
 
 $ 4 NEW VOWEL SYSTEM. loss of distinctive vowel length leading to "system"
 $the following system will emerge per chart at bottom of 1736 -- filling changes not already handled before this point.
@@ -393,8 +386,6 @@ $[+stres,+tense,+front,-lab] > [+hi] / __ [+cont,-lab,+strid] ([+cons]) j
 $ raising of ɔ to o seems implicit here as a PAlb *ɔ is not handled for following rules concerning words were it is supposed to have arisen... -- i.e. > ø under i-mutation (5a.iii on p1736; 1735DV.A6 on this for reflex of PPAlb aː), seen also in the formulation of o-breaking rules (DV1736~G1 & G2)... 
 $ This can be handled in tandem with the raising of /ʊ/ back to /u/, which occurs for the reflexes of both Latin U and PPAlb *u (DV1735~2.2E1, -E2)
 [+back,+syl] > [+tense]
-$ DIACLEA fix C1A.VII -- re-tensing of ʊ > u extended to ɪ > i when unstressed. 
-[+hi,-prim] > [+tense]
 
 $DIACLEA INSERTION A2.XXXV -- hiatus j insertion between front vowel __ non-round non-hi vowel in Middle Proto-Albanian I, just before pre-palatal ɪ-raising (which it seems to feed)̠. 
 ∅ > j / [+front,+syl] __ [-round,-hi,+syl] 
@@ -408,18 +399,7 @@ $ TODO FOR DIA -- note that the data suggests it might be more complicated here.
 $ inasmuch as this is mainly a Latin to Albanian cascade endeavor at present, and no specific examples were given for native PPAlb *i having a different outcome from Latin I, precedence is given to the developments described for the latter.
 $ This differs from the outcome for /ʊ/ from Latin or PPAlb *u, which both raise back to /u/ (DV1735~2.2E1, -E2), as seen with /ɔ/ to /o/, handled above. 
 $ this thus implements DV2.2.1B11
-$ DIACLEA FIX 
 [+syl,+hi,-tense] > [-hi,+tense]
-
-$ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM (Rom. cetate), njerkë "stepmother" < NOVERCA
-$ DIACLEA CORRECTION B1.III -- relocdated later -- TODO W phenomena including coloring stuff where this matters happen much later, still get to this (tribulum > truoll, viv-o- >v-ua-, scrib-o- > shkr-ua- ...) . TODO May have to go even later because it seems this also happens with Slavic etyma (bɯβɒl(-ʊ,-iːt͡sɑ) > buall(icë); gɒtɒβ-ɒ > gat-ua, pɒdʊkɒβʊ > patkua, pɒrɒβʊ > përua, tɒrɒβʊ> tërua, βɒlkɒβʊ > vallkua, βīrɒβʊ > virua, zɑ̄bɒjɪ > zabua )
-w > ∅ / [+syl] __ [+syl]
-
-$DIACLEA INSERTION : nw (or nβ) > m before [e], currently unspecified for stress though all cases seem to be before countertonic [ˌe]. This explains all nw > m cases except for the proposed etymology of invernālia for mërrajë. Motivation for this may be found in differentiating this from [ø], which in some accounts (e.g. Orel 2000) may have been [we] (note that the same sound becomes [uo] before sonorants). 
-$ TODO maybe broaden this and have ɸ involved for cases like iūnctus 
-$ TODO work out conditioning of this !
-n [+lab,-syl,+voi] > m / __ [+front,-hi,+tense]
-
 
 $ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3) 
 $ DIACLEA CHANGE B2.III -- bleeds nd > nt, so relocdated to just before it. As of June 11 2024, relocdated yet further to come before ietation, which it counterfeeds it (tegula > tjegull not segull, castellam > kështjell not këshsell, daemonem > djemër not zemër, though the last could be a later loan.). If this creates problems, another fix could be to make the j arising from hiatus into to a different element, perhaps a /ʝ/? As of June 24 2024, this is moved before i-mutation as well, because i-mutation has same patterning as yod-vowel coalescence, and i-mutation contexts literally cause a yod sometimes (eremus > jerm, lapathia > lëpjetë, (b/p)astica > bjeshkë, etc), but we never see (af-)frication in these contexts. Note that this can be the case in Christian vocab where (af-)fricatoin does not occur ː  christiān-u [kristjan-ʊ] > kërshter-ë. Furthermore, there appears to be possibly related raising phenomenon before dorsals and palatoalveolars including s triggered by this. 
@@ -427,9 +407,14 @@ $DIACLEA CORRECTION C2.I dj and tj merge into dʒ tʃ, which as of late June 202
 ${d j;t j} > {d͡ʒ;t͡ʃ}
 {d;t} > {d͡ʒ;t͡ʃ} / __ j
 
-$DIACLEA RELOCDATION B1.I: moved nasal-fricative phenomenon to after the pre-penultimate o/o:>u phenomena. As of June 17 -- reverted, returned to normal position. As of June 24, moved to right after new location of dj/tj affrication, which appears to feed this; furthermore (, lengthening aspect removed -- htat was Latin internal; condition is now stridents. 
+$DIACLEA INSERTION A1.IV : nw (or nβ) > m before non-primary stressed e (incl. < ɪ) and ɛ. This overpredicts in the case of invernīnum > *mërri (vërri) but that word might reflect hibernīnum instead. Motivation for this may be found in differentiating this from [ø], which in some accounts (e.g. Orel 2000) may have been [we] (note that the same sound becomes [uo] before sonorants). 
+$ TODO maybe broaden this and have ɸ involved for cases like iūnctus ? 
+n [+lab,-syl,+voi] > m / __ [+front,-hi,-prim]
+
+$DIACLEA RELOCDATION B1.I: moved nasal-fricative phenomenon to after the pre-penultimate o/o:>u phenomena. As of June 17 -- reverted, returned to normal position. As of June 24 2024 (or 2023?), moved to right after new location of dj/tj affrication, which appears to feed this; furthermore (, lengthening aspect removed -- htat was Latin internal; condition is now stridents. 
+$ DIACLEA CORRECTION C3A.4: broadened to all nasals
 $[+syl] n > [+long] ∅ / __ [-son,+cont]
-n > ∅ / __ [+strid]
+[+nas,+cons] > ∅ / __ [+strid]
 
 $DIACLEA CORRECTION A2.XXIII.ɣ ː Later MPA I cluster simplification. C1 C2 C-son > C1 C-son	-- must be later than other losses. -- now placed right before marker for MPA II. Bled by A2.XIII.α (and A2.XXII.β if it exists). 
 $TODO -- after some place assimilation has occurred iūnctus > ɟyŋt-ə . > ɟymt-ə
@@ -441,19 +426,38 @@ $		$R T1 T2 > R T2 ː excarpt-ā- > shkartoj , canticellum > këngjel,
 	$	S T1  T2 -- ōscit-ā- > ushtoj 
 [+cons] > ∅ / [+cons] __ [-son]
 
-$DIACLEA CHANGE -- seeding of secondary length starts to emerge -- A1.XIV just before i-mutation and loss of post-labial-continuant j, hiatus vowels with the first element countertonic has the second element attain length and countertonic stress (primary remains primary though), and the first element to schwa for now (will seed length).
-[+stres,-prim] [+syl] > ə [+long,+stres]
-
-
-
 $-----------------------Middle Proto-Albanian II---------------------
 =Middle Proto-Albanian II
 
-$ much of the Christian vocab is integrated around this point, including kristjān-u > krishter.-ë Also cases of non-palatalization like lëpjetë likely do too. 
+$ much of the Christian vocab is integrated around (at, or by) this point, including kristjān-u > krishter.-ë Also cases of non-palatalization like lëpjetë likely do too. 
+
+$DIACLEA INSERTION A2.XXXVI --  unstressed front vowels made high. This will (TODO!) ultimately be related to i-mutation by principle. 
+[-stres,+front] > [+hi]
+
+$ DV1744.C4 -- emergence of PAlb β before Latin long ō and the reflex of Alb long-ā, but PPAlb ō is not listed. PAlb β itself is the reflex of initial Latin w- and PPAlb β, itself from a PIE u̯. Treat as w for now, betacize later, as then merge them here, with a single rule. In order to impact PPAlb ā and Latin ō but not PPAlb ō, PPAlb ō must have a different reflex at this stage. But De Vaan 2018 does not seem to PPAlb ō and Latin  differently otherwise, in fact they are typically handled together (cf. DV1736G1, DV2.2.1B7 & DV2.2.1B8) except when i-mutation is concerned (DV1736H1, which can simply be handled by placing it in the post-Greek but pre-Latin area of PAlb). So unless there are issues that emerge upon later examination, we will be treating PPAlb ō as potentially a trigger as well.
+$ although is not explicitly stated, the examples all concern initial vowels. 
+$ DIACLEA CORRECTION C1A.I: also occurs before initial short /o/ too it seems.
+$ DIACLEA CORRECTION C1B.XI -- w- prosthesis before o doesn't happen if there is a labial after it. 
+$ DIACLEA CORRECTION B1.IV -- DV1744.C1 and C4 moved to beginning of Middle Proto-Albanian II. 
+$ TODO consider treating this as via diphthongization? .
+∅ > w / # __ [-hi,+round] [-lab]
+
+$ DV1744.C1 : Lat. w- > β. 
+$ this is redundant with the earlier rule doing the exact same thing to PIE u̯ > PPAlb β (DV1746.F1 = DV4.3L1) effectively merged these
+$ note that the dating of this shift in Latin is quite old -- 1st century, case of <nerβa> in a Latin inscription (otherwise from β?) -- though that is in the West. 
+$ DIACLEA CORRECTION D3.IX -- now w > b stuff after coronal sonorant consonants handled as part of this too.  
+$ DIACLEA CORRECTION B1.IV -- DV1744.C1 and C4 moved to beginning of Middle Proto-Albanian II. 
+w > β / {#;[+son,+cor]} __
+
+$ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM (Rom. cetate), njerkë "stepmother" < NOVERCA
+$ DIACLEA CORRECTION B1.III -- relocdated later -- TODO W phenomena including coloring stuff where this matters happen much later, still get to this (tribulum > truoll, viv-o- >v-ua-, scrib-o- > shkr-ua- ...) . TODO May have to go even later because it seems this also happens with Slavic etyma (bɯβɒl(-ʊ,-iːt͡sɑ) > buall(icë); gɒtɒβ-ɒ > gat-ua, pɒdʊkɒβʊ > patkua, pɒrɒβʊ > përua, tɒrɒβʊ> tërua, βɒlkɒβʊ > vallkua, βīrɒβʊ > virua, zɑ̄bɒjɪ > zabua )
+w > ∅ / [+syl] __ [+syl]
+
+$DIACLEA CHANGE A1.XIV -- seeding of secondary length starts to emerge -- A1.XIV just before i-mutation and loss of post-labial-continuant j, hiatus vowels with the first element countertonic has the second element attain length and countertonic stress (primary remains primary though), and the first element to schwa for now (will seed length).
+[+stres,-prim] [+syl] > ə [+long,+stres]
 
 $DIACLEA CORRECTION A1.VIII: mid front vowels e œ ɛ before r or s then j become i-mutanda, via the ɪ̯. In these cases, the j is then deleted. 
-∅ > ɪ̯ / __ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] j
-j > ∅ / ɪ̯ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] __
+∅ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] j > ɪ̯ [+prim] [+cont] ∅
 
 $I-MUTATION HERE, since it can feed ietation/diphthongizations (in case of PPAlb a: > ɒː > ... > ye) and also bleed them. 
 $this implements DV2.2.1A3,  DV2.2.1B4, DV2.2.1F2, 
@@ -476,7 +480,8 @@ $ ultimately ˌɑ > ˌe / s __ [+cor,-nas,+son] ([+cons])* [+front,-cons,-lo,-ro
 ∅ > ɪ̯ / s __ ˌɑ [+cor,-nas,+son] ([+cons])* [+front,-cons,-lo,-round]
 
 $DIACLEA CORRECTION E1.II: i-mutation of /u/ now treated separately, and handled in terms of a posterior /j/. With a few exceptions (ducem > duq, rudem >rrudhë), taken to be between coronals and single non-palatal consonants (crucem > kryq not palatalized yet); cases like dúī > dy and súī > sy handled by the later coalescence part of i-mutation. 
-∅ > j / [+cor] ˈu __ [+cons,-front] [+front,-cons,-lo,-round]
+$ June 20, 2025 -- now not doing this at all. Kryq may involve influence from OCS. TODO address in fixes. 
+$ ∅ > j / [+cor] ˈu __ [+cons,-front] [+front,-cons,-lo,-round]
 
 $DIACLEA INSERTION A2.XVI -- j arising due to i-mutation triggers voicing of k at least after s (scabies > zgjebe, scōria > zgjyrë). This happens before ɪ̯ merges into j (fascia > fashqë). 
 k > ɡ / [+strid] __ ɪ̯
@@ -503,26 +508,39 @@ $ DIACLEA CORRECTION A2.II -- disappearance of j after labials, except before un
 			$ (unlike in N-boreānus > murâǃ) 
 			$ difficult case : rubia > rrojbë 
 			$ maybe..>? : subiug-āre > shuaj
-	$ the cases of capreum > qepër and salviella > sherbelë suggest this happened AFTER the beginning of i-mutation in the emergence of iota, but gremium > gremb and manubrium > mëru may suggest the opposite as concerns ɛ and u... As of July 2024, though, /u/ i-mutation is handled ohterwise, so this can be placed after the emergence of iota but before the resolution in terms of coalescence, and before the merge of iota with j 
-j > ∅ / {[+lab,+cont];[+lab,-front] r} __
+	$ the cases of capreum > qepër and salviella > sherbelë suggest this happened AFTER the beginning of i-mutation in the emergence of iota, but gremium > gremb and manubrium > mëru may suggest the opposite as concerns ɛ and u... As of July 2024, though, /u/ i-mutation is handled ohterwise, so this can be placed after the emergence of iota but before the resolution in terms of coalescence, and before the merge of iota with j. 
+j > ∅ / [+lab,-front] (r) __
+
+$ De Vaan p1743-4 -- w dropped between k (DV1743.G2) or g (DV1744.A2), and vowels. This will eventually feed the palatalization of these velars before i/e/y (p1743) but this feeding does not have to be explicitly coded in. 
+$ form prior to 8/5/23 was: {[-cont,+back] w;[-cont,+back,+round]} > {[-round] ∅;[-round]} / __ [-cons] 
+$ was formulated so as to handle if these are treated instead as labialized consonants (alas in practice the format in ALLex currently is always "k w" and "ɡ w", not "kʷ", "ɡʷ".) 
+$changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
+$ in practice qu- and gu- never occur without following vowels, so it can be expressed without the following vowel. 
+$ DIACLEA CHANGE B1.V --  moved later, in part bc of relevant coloring phenomena operate beforehand (quīs > qysh, quadrum > kodër, quartus > kort, civitatem > qytet, eruilla >rrylë; lso possibly, with  the Xʷ(?), factūra > fytyrë and axungia >ushu(n)jë ~ Romanian osânză), various other reasons too. 
+w > ∅ / [-cont,+back] __
 
 $ now ɪ̯ can merge into j, as part of C8.I. 
 ɪ̯ > j 
 
 $I-MUTATION
+
 $DIACLEA CORRECTION D3.IV -- coalescence of etymological ui/uj, ai/aj, ei/ej, ɛi/ɛj > y e i i all roped into the resolution of i-mutation, 
+
+$second part -- falling sonority diphthongs coalesce: aj > e, ej ɛj > i i, uj > y 
+$ now incorporates (DV1735~A1&A2) diphthong resolution, as well as DIACLEA CORRECTION C3B.II -- doesn't happen prevocalically for a 
+$ D3.IV as of Feb 2 -- simply not happening for now. 
+$ DIACLEA CHANGE B2>VII -- as of June 20, 2025 -- happening before regressive aspect of i-mutation 
+$ DIACLEA CHANGE C1B.XII -- no longer effects e of any stress level. Does effect u and ɛ still. This can be expressed as αround,αtens
+[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ [+cons]
+[+syl,αround,αtense] [-syl,-cons,+front,+hi,+tense] > [+front,+hi,+tense] ∅
+
+
 $DIACLEA CORRECION D3.V -- i-mutation resolution combined with (E1.I) includes jɔ > œ (/ ø) and (A1.VIII) ɪ̯œ > y. 
 $ DIACLEA CORRECTION D3.V: likewise, unification of ɪ̯ a & j a (christiān-u > krishter-ë). This does not happen after labials (lapathia > lëpjetë, pastica > bjeshkë etc.) (and no evidence of D3.V happening after labials either.). As a bonus, final -ja to -e is accounted for. 
 $ First part unifies the outcomes for iota/yod + V sequences, not occurring after labials {ɪ̯;j} {ˈɑ;ˌɑ} > e, Jø > y , Jɔ > ø at least -- and if the current handling of i-mut is right, also J e/ɛ > i 
 $ For this, first, the (stressed) front mid round vowels raise as they coalesce (j e, j ɛ, j ø > i i y), then the back and round vowels front (and raise, in the case of a) to (tense?) mid or high front vowels. U is not included here, it'll be covered in the next part.
 j [+front,-lo,+stres] > ∅ [+hi,+tense] / [-lab] __
 j [-hi,+syl] > ∅ [-lo,-back,+front,+tense] / [-lab] __
-
-$second part -- falling sonority diphthongs coalesce: aj > e, ej ɛj > i i, uj > y 
-$ now incorporates (DV1735~A1&A2) diphthong resolution, as well as DIACLEA CORRECTION C3B.II -- doesn't happen prevocalically for a 
-$ D3.IV as of Feb 2 -- simply not happening for now. 
-$[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ {[-syl];#}
-$[+prim] [-syl,-cons,+front,+hi] > [+front,+hi,+tense] ∅
 
 $ DIACLEA CORRECTION A1.XI
 $ MIDDLE PROTO-ALBANIAN LENITION: d and b to delta and beta in between non-nasal and non-lateral sonorants, settinɡ staɡe for their later loss. 
@@ -535,17 +553,6 @@ $ DIACLEA CORRECTION D3.IX -- w and original b, both now beta, to b after l,r. (
 
 
 $BETA COLORING! - + LOSS -- WORK HERE!
-
-$TODO work here
-
-$ De Vaan p1743-4 -- w dropped between k (DV1743.G2) or g (DV1744.A2), and vowels. This will eventually feed the palatalization of these velars before i/e/y (p1743) but this feeding does not have to be explicitly coded in. 
-$ form prior to 8/5/23 was: {[-cont,+back] w;[-cont,+back,+round]} > {[-round] ∅;[-round]} / __ [-cons] 
-$ was formulated so as to handle if these are treated instead as labialized consonants (alas in practice the format in ALLex currently is always "k w" and "ɡ w", not "kʷ", "ɡʷ".) 
-$changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
-$ in practice qu- and gu- never occur without following vowels, so it can be expressed without the following vowel. 
-$ TODO move   this later, or having relevant coloring phenomena operate beforehand (quīs > qysh, quadrum > kodër, quartus > kort, civitatem > qytet, eruilla >rrylë; lso possibly, with  the Xʷ(?), factūra > fytyrë and axungia >ushu(n)jë ~ Romanian osânză)
-$TODO adjust this, given the earlier beta coloring phenomena...
-w > ∅ / [-cont,+back] __
 
 $TODO NOTE FOR DIA: although phonemic nasalization is assigned a later point in the relative chronology (DV1737, number 8), it may be necessary here at least for /e/ and/or /ɛ/, to block ietation and allow the merger of DV2.2.1K with DV2.2.1L1 & DV2.2.1M (aka the merger of 5b.1 with 5b.2 and 5b.3)
 

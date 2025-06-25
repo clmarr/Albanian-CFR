@@ -559,16 +559,24 @@ $ DIACLEA CORRECTION D3.IX -- w and original b, both now beta, to b after l,r. (
 $C3B.VII fix: β > b / @ [+syl] ([-syl])* [+son,-nas,+cor] __
 β > b / [+son,-nas,+cor] __
 
-$BETA COLORING! - + LOSS -- WORK HERE! TODO REMOVE WHEN ACCOUNTED FOR. 
-
 $TODO NOTE FOR DIA: although phonemic nasalization is assigned a later point in the relative chronology (DV1737, number 8), it may be necessary here at least for /e/ and/or /ɛ/, to block ietation and allow the merger of DV2.2.1K with DV2.2.1L1 & DV2.2.1M (aka the merger of 5b.1 with 5b.2 and 5b.3)
 
 $DIACLEA INSERTION: before diphthongization/ietation (of the round elements), front round y and ø seem to retract before n and ɲ (e.g. Latin words in -ōnem > PAlb *uo, axungia > MPA ˌɑksˈyɲjɑ > ashunjë not *ashynjë and likewise in sanguisungia, words in -onju > PAlb *uo as well; ikone > korë; immūne > mû; luntrem > lundër not lyndër (via i-mutation), etc... ) but not m or ŋ (iunctura > yndyrë, iūnctus > gjymtë, pōma > pemë, brūma > brymë, etc...), and also not when in jø (ratiōnem > arësye etc.) 
 	$TODO: however, note that of hte 13 cases here (not counting arsye which ends up fronted otherwise), 3 are cases where the fronting would be due to i-mutation that could be blocked by labials ( cāpōnem > kapua, pāvōnem > pallua, timōnem > timua), 1 is probably in a later layer (īconem > korë), 3 are possibly velars bleeding i-mutation (falcōnem drancōnem lacōnem > fajkua, drangua, lëkua), and one has an apparent resuffixation (rōsupōne > rozhponjë). Of the remainder, only leōnem is originally with [ˈo] at this stage; the mere four  that remain (immūne > mu , luntrem > lundër, sanguisungia > shushunjë, axungia > ashunjë) are all with u. Consider reformulating this. 
 [+front,+round] > [-front,+back] / [-front] __ [+nas,-lab,-back]
 
+=Middle Proto-Albanian III
+$ Earliest Slavic loans here. 
+$BETA COLORING! - + LOSS -- WORK HERE! TODO REMOVE WHEN ACCOUNTED FOR. 
 
-$TODO REINTERPRETING IETATION AND DIPHTHONGIZATION AS DUE TO LENGTH. 
+$TODO LENGTHENING PHENOMENA IN PROGRESS HERE
+
+
+$ h ejected by initial 
+
+
+
+$TODO REINTERPRETING IETATION AND DIPHTHONGIZATION AS DUE TO LENGTH. GOING OT HAVE TO HCANGE HTE BELOW. 
 $IETATION and DIPHTHONGIZATION follows. 
 $DV2.2.1K and 1737's 5b -- diphthongized ietation -- ɛ (< PPAlb e, Lat e & ae) > ie before "word-final ɫ, r" ; he also attributes this to *e
 $his ɫ is "lː" here though and his r is simply a short r so it is a diagonal grouping in terms of length, hard to capture in a feature matrix. 
@@ -601,6 +609,8 @@ $this is also DV2.2.1L2 as concerns Latin o
 $DV1737's 5b.v: *ø > *ye / __ (w) V
 $ formatted to allow /w/ to have become [β]
 ˈø > ˈy e̯ / __ ([+lab,-syl,+cont,+voi]) [+syl]
+
+$ ---TODO END OF AREA OT CHANGE-- 
 
 $ a-mutation -- DV1736's 5a.2, also DV1735~ 2.2C2 + de Vaan 2004: 78--83. --  e (or ɛ it seems?) instances lower to a under the influence of /a/ in next syllable it seems. -- but per De Vaan 2004(78-83) this doesn't happen to Latin (and indeed the data largely matches this), and this is handled above in DV2.2.1C2. 
 $[-hi,-round,+syl] > [+lo,-tense] / __ ([-syl])* [+lo,+syl]
@@ -819,11 +829,22 @@ $form prior to 8/5/23 was: [-stres] {m;s} > ∅ / __ #
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
 $ note that -stres implies a vowel if we are using the default feature definitions and implications (as is intended for this cascade), as the feature [stres] is unspecified unless it is [+syl] 
 $DIACLEA CHANGE C1A.V: final -n also deleted. 
+$DIACLEA CHANGE C2.II  non-low final vowels first to ə, in time to allow Tosk-rhotacism in V̯nV̯# but not many cases of V́nV̯#.  
 {m;n;s} > {∅;∅;∅} / __ #
-[-stres,-lo] > ∅ / __ #
+[-stres,-lo] > ə / __ #
+ə > ∅ / [+stres] ([-syl])* __ #
+
+$ DIACLEA CORRECTION E1.III: Tosk rhotacism is now split into two stages: n > ɾ̃, and ɾ̃ > ɾ. First part happens before split, actually. Then final non-low vowels are lost at last. 
+$ TODO consider merging this with vowel drops in more elegant way. 
+n > ɾ̃ / [+syl] __ [+syl]
+ə > ∅ / __ #
+
+$ DIACLEA CORRECTION C3B.XIV -- Tosk rhotacism doesn't happen ---or rather is reversed -- after penultimate high vowels. 
+ɾ̃ > n / [+hi,+prim] __ [-stres] #
 
 $DIACLEA CORRECTION A2.XXIX -- final schwa insertion in etyma that end up assyllabic and stop-final (doesn't seem to happen effectively to z-, s-, zh-, sh-; unclear: n-/në-)
 ∅ > ə / # ([-syl])* [-cont] __ #
+
 
 $DV1738, top, part 3: final -ja(s) to e, clearly bleeding part DV1738 part 2.
 $form prior to 8/5/23 was: j a (s) > e / __ #
@@ -946,8 +967,6 @@ $DV3.1G1 : Tosk rhotacism -- "dated 800-1000 CE, Janson 1986: 190-211".
 $ TODO NOTE FOR DIA : note that this may have to precede some vowel drops though -- note the example inimīcvs > armik (which is given by DV'18: 1739), though maybe ə was retained between n-m (note cited form anëmik) 
 $ DIACLEA CORRECTION A1.V: between high vowels and final ə this does not seem to normally happen (furtunë, shpinë, kurtinë, kaptinë, trinë, tinë; exception -- rrëshirë). Block via gemination
 n > nː / [+syl,+hi] __ ə #
-$ DIACLEA CORRECTION E1.III: Tosk rhotacism is now split into two stages: n > ɾ̃, and ɾ̃ > ɾ. 
-n > ɾ̃ / [+syl] __ [+syl]
 
 $DV3.1H2 : -rn- > -rr- / V __ V . This happens in Gheg and Tosk, but De Vaan 2018, citing Janson 1986(:97f), argues it is post-Slavic. Inasmuch as it happens in Gheg, it is also independent of Tosk rhotacism, and should thus be handled separately.
 $DIACLEA CORRECTION C1A.IV -- now unconditioned (formerly  r n > rː / @ __ @) 

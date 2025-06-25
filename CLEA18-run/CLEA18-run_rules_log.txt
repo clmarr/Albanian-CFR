@@ -147,7 +147,11 @@ t͡ʃ > ∅ / ʃ __
 [+prim] > [+long] / __ [+strid]
 b > ∅ / [+syl] __ ( r ) [+syl]
 {m;n;s} > {∅;∅;∅} / __ #
-[-stres,-lo] > ∅ / __ #
+[-stres,-lo] > ə / __ #
+ə > ∅ / [+stres] ( [-syl] )* __ #
+n > ɾ̃ / [+syl] __ [+syl]
+ə > ∅ / __ #
+ɾ̃ > n / [+hi,+prim] __ [-stres] #
 ∅ > ə / # ( [-syl] )* [-cont] __ #
 {j a s;j a} > {ɛ;ɛ} / __ #
 {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
@@ -175,7 +179,6 @@ n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ #
 x > h 
 ∅ > b / @ m __ [-stres] [+lat]
 n > nː / [+syl,+hi] __ ə #
-n > ɾ̃ / [+syl] __ [+syl]
 r n > rː 
 [+nas,+cons] > [-long,-splng] 
 {r;ɾ̃} > {ɾ;ɾ} 

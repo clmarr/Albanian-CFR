@@ -147,14 +147,16 @@ $ l [+cons,+son] > lˠ
 
 $DV1736 "4.", moved back (DIACLEA CORRECTION B2.IV) handling the posited emergence of high lax vowels from older short high vowels as part of p1736's new vowel system.. Include also his e > ɛ shift here (listed above), and this will give us also o > ɔ too (not ʏ or œ since short versions of y and ø have no way to emerge at this stage.); the outcome of PPAlb/Greek ā (> ɒː) is already ɔː here but he mentions some Latin o & oː passing through "ɔ > o"; unclear when it raises again. 
 $ DIACLEA CORRECTION B2.IV -- laxing moved to Early Proto-Albanian period. 
-[-lo,+syl,-long] > [-tense]
+[-lo,+syl,-long,-cons] > [-tense]
+
+$TODO WORK HERE -- FILER AT R20 -- 6/24
 
 $DIACLEA INSERTION: A2.VIII Latin o and oː alike are changed to short u before non-palatal sonorant consonants, in syllables that are antepenultimate or earlier (i.e. those that will not be final syllables in Late Proto-Albanian)
 	$ this seems to be a change shared with Vlacho-Romance. 
 	$ originally I thought this was a specifically pretonic development, which does describe the majority of cases, and all cases before /ɫ/ and /ŋ/, but there are exceptions -- fornice > furriq, compater > kumtër, computum > kumt, cˈonsocer > krushk (Romanian cuscru), mˈonachus > murg, cˈontrā > kundër, etc... 
 	$ the appearance that it was pretonic is just an artefact of Latin's stress system, that tends to put stress on the penultimate syllable.
 	$ this doesn't seem to happen to word-initial vowels; although many of these end up as /u/ (urdhër, urdhëroj, uroj, ullashtër)... it seems there are separate reasons for that. Though the case of ōrdinem is possibly part of this phenomenon. -- cf Meglenite úrdin. 
-	$ this occurs before hte nasal-fricative phenomena of Latin, which means post-dating that because...
+	$ this occurs before the nasal-fricative phenomena of Latin, which means post-dating that because...
 		$ this occurs AFTER the gliding of high vowels in hiatus, as pertains to the syllable counting for what is a valid target for this rule (pistoria > shterë, not shturë or shtyrë, etc)
 	$ there are minor differences in the conditioning wrt to the five non-palatal sonorants here... 
 		$ 1. for n and m, this also occurs in __ N C, even in penultimate syllables (concha > kungë, rombus > rrumb...) 
@@ -968,8 +970,8 @@ $DV2.1D2 -- Tosk uo > ua ; written agnostically as to the syllabic status of the
 
 $DV2.1F2: və > u- 
 $ this might be yet earlier considering that it also happens in Gheg? Or not. 
-$ TODO consider moving it. 
-{v ə;v ˌə} > {u;ˈu} / # __
+$ DIACLEA FIX D4.I -- this is removed, reinterpreted. See D4.I on fixes log.
+${v ə;v ˌə} > {u;ˈu} / # __
 
 = Proto-Tosk
 

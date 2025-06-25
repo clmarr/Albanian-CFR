@@ -8,10 +8,11 @@ k > ∅ / [+stres,-prim] __ s
 [+cor,-son] > ∅ / [-stres] ( [+nas,+cons] ) __ #
 [+nas,+cons] > ∅ / [-stres] __ #
 {c͡ç;ɟ͡ʝ} > {t͡s;d͡z} 
-{i n;ˌiː n;ˈiː n} > {i n i;ˌiː n i;i n ˈiː} / # ( [-front] )* [+lab,+voi] ( [+cor,+cont] )* ( [+back] ) __ [+lo]
 {w r;r} > {rː;rː} / # __ 
 r r > rː 
 r j > ʎ / @ __ @
+[-prim,-hi,+round] > [-round,-lab,-back,+front] / __ m [-cons,-round]
+{i n;ˌiː n;ˈiː n} > {i n i;ˌiː n i;i n ˈiː} / # ( [-front] )* [+lab,+voi] ( [+cor,+cont] )* ( [+back] ) __ [+lo]
 [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
 {s l;l} > {lˠ;lˠ} / [+syl] __ [+syl,-front]
 {l;n} > {∅;∅} / l __ 
@@ -71,7 +72,6 @@ n [+lab,-syl,+voi] > m/ __ [+front,-hi,-prim]
 [+nas,+cons] > ∅ / __ [+strid]
 [+cons] > ∅ / [+cons] __ [-son]
 [-stres,+front] > [+hi] 
-∅ > w / # __ [-hi,+round] [-lab]
 w > β / # __ 
 w > β / [+son,+cor] __ 
 w > ∅ / [+syl] __ [+syl]
@@ -90,7 +90,7 @@ w > ∅ / [-cont,+back] __
 j [+front,-lo,+stres] > ∅ [+hi,+tense,-cons,-lat,+cont,0delrel]/ [-lab] __ 
 j [-hi,+syl] > ∅ [-lo,-back,+front,+tense,-cons,-lat,+cont,0delrel]/ [-lab] __ 
 {b;d} > {β;ð} / [+son,-nas,-lat] __ [+son,-nas,-lat]
-β > b / @ [+syl] ( [-syl] )* [+son,-nas,+cor] __ 
+β > b / [+son,-nas,+cor] __ 
 [+front,+round] > [-front,+back] / [-front] __ [+nas,-lab,-back]
 [+front,-hi,-lo,-round,+prim] > ˈi e̯/ __ lˠ ( [-lo,-stres] ( m ) ) #
 [+front,-hi,-lo,-round,+prim] > ˈi e̯/ __ r ( [-lo,-stres] ( m ) ) #

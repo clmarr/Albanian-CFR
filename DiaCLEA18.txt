@@ -78,16 +78,6 @@ $ needs to come after the nasal-spirant law in Latin input handling so as not to
 $ However, in light of the fact that Proto-Albanian loans reflecting PIE palatovelars reflect as ts dz in Aromanian and various ts s z in Romanian (unlike PAlb ð < PPAlb *d, which reflects with d in Romanian and Aromanian), this is indeed split in two, with the affricate stage first, and the spirantization only after Middle Proto-Albanian (when De Vaan assigns the contact between Proto-Albanian and Proto-Vlach)
 {c͡ç;ɟ͡ʝ} > {t͡s;d͡z}
 
-$ DIACLEA insertion A2.III : in-metathesis or i-insertion in -- -Cina-/-Cinia rule (or -ina- metathesis?) Jan 28, 2025 -- expanded to cover countertonics. 
-	$ the "maybe-metathesis" rule? (see below), occurring after back elements or strings of non-front elements that include at least one voiced labial element not separated by an obstruent from the target 
-$ TODO does seem to happen after aw > a, so consider either relocdating that earlier into the end of Classical Proto-Albanian, or moving this -- and the relevant vowel drops -- later...
-$ results when the /i/ is stressed are unclear -- which is why this is a "maybe metathesis" rule
-	$ if it is really metathesis, we should see -ní(jë), with the n possibly going to -r- in Tosk when conditioned. This is possible what we see in porrˈīna > *porrinˈiːa > purri(-a) and maybe its possible variant prijë. But prijë could also be explained as coming from a prinjë, which matches the non-metathesis scenario that seems evident in marruːcˈiːna > mërqinjë, where it seems the original i maintains its stress, rather than switching with the n (along with the insertion of an i before the n). On the other hand columbīna > kullumbrí is a clear case of what looks more like metathesis. Seeing as -injë is a rather common suffix, it's possible merqinjë was analogized, so we are going with the -metathesis scenario for now -- that is (ˈ)ina > in(ˈ)ia, not (ˈ)ina > (ˈ)inia
-	$ inasmuch as ia > e is plausible for Romanian, may also be evident in Romanian and Aromanian (?) -- marrucina > Alb mërqinjë, Romanian mărăcine (albeit also mărăcină), Aromanian mărăține. Alas this rule may not be worth it at all... 
-	$ merged into one rule, back optional, but has to come after labials as it does in all cases (fuscina, fuscinārius, marrūcīna -- not sarcināriu). 
-$TODO ... is this rule *really* worth its cost in complication? Consider removing it. Or just getting reid of hte ìːn >iníː aspect? 
-{i n;ˌiː n;ˈiː n} > {i n i;ˌiː n i;i n ˈiː} / # ([-front])* [+lab,+voi] ([+cor,+cont])* ([+back])  __ [+lo]
-
 $DV1740I1 -- initial PPAlb and Lat. r- becomes "*r:"; merges with the reflex of PPAlb initial *wr- (DV1740I2)
 $form prior to 8/5/23 was: (w) r > rː / # __ 
 $format changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
@@ -99,6 +89,20 @@ r r > rː
 $DV1740G3 -- PPAlb *-rj- to ʎ. E.g. marathrion > maraj (Rom. marariu). Does not seem (?) intended to be fed by gliding of Latin i,e in hiatus to j, which is below (GLIDING) -- Latin to PAlb etyma listed by De Vaan are clearly unaffected (altarivm p1737; febrvārivs p1745...). Cited to Bonnet 1998: 208ff; Matzinger 2006: 74. 
 $ can be put here before the gliding of Latin i and e.  
 r j > ʎ / @ __ @
+
+$ DIACLEA insertion A2.XXXVIV unstressed o unrounds before m hten unround vowel; may need to rethink placement. Going to e for now. 
+[-prim,-hi,+round] > [-round,-lab,-back,+front] / __ m [-cons,-round]
+
+$ DIACLEA insertion A2.III : in-metathesis or i-insertion in -- -Cina-/-Cinia rule (or -ina- metathesis?) Jan 28, 2025 -- expanded to cover countertonics. 
+	$ the "maybe-metathesis" rule? (see below), occurring after back elements or strings of non-front elements that include at least one voiced labial element not separated by an obstruent from the target 
+$ TODO does seem to happen after aw > a, so consider either relocdating that earlier into the end of Classical Proto-Albanian, or moving this -- and the relevant vowel drops -- later...
+$ results when the /i/ is stressed are unclear -- which is why this is a "maybe metathesis" rule
+	$ if it is really metathesis, we should see -ní(jë), with the n possibly going to -r- in Tosk when conditioned. This is possible what we see in porrˈīna > *porrinˈiːa > purri(-a) and maybe its possible variant prijë. But prijë could also be explained as coming from a prinjë, which matches the non-metathesis scenario that seems evident in marruːcˈiːna > mërqinjë, where it seems the original i maintains its stress, rather than switching with the n (along with the insertion of an i before the n). On the other hand columbīna > kullumbrí is a clear case of what looks more like metathesis. Seeing as -injë is a rather common suffix, it's possible merqinjë was analogized, so we are going with the -metathesis scenario for now -- that is (ˈ)ina > in(ˈ)ia, not (ˈ)ina > (ˈ)inia
+	$ inasmuch as ia > e is plausible for Romanian, may also be evident in Romanian and Aromanian (?) -- marrucina > Alb mërqinjë, Romanian mărăcine (albeit also mărăcină), Aromanian mărăține. Alas this rule may not be worth it at all... 
+	$ merged into one rule, back optional, but has to come after labials as it does in all cases (fuscina, fuscinārius, marrūcīna -- not sarcināriu). 
+$TODO ... is this rule *really* worth its cost in complication? Consider removing it. Or just getting rid of hte ìːn >iníː aspect? 
+{i n;ˌiː n;ˈiː n} > {i n i;ˌiː n i;i n ˈiː} / # ([-front])* [+lab,+voi] ([+cor,+cont])* ([+back])  __ [+lo]
+
 
 $$ De Vaan 2018 has the change in vowel length to quality only come after major PPAlb to PAlb developments -- see p1736 -- namely long round vowel fronting, ai > ē, and aː > ɔː. -- will be handled in next stage
 
@@ -441,8 +445,8 @@ $ although is not explicitly stated, the examples all concern initial vowels.
 $ DIACLEA CORRECTION C1A.I: also occurs before initial short /o/ too it seems.
 $ DIACLEA CORRECTION C1B.XI -- w- prosthesis before o doesn't happen if there is a labial after it. 
 $ DIACLEA CORRECTION B1.IV -- DV1744.C1 and C4 moved to beginning of Middle Proto-Albanian II. 
-$ TODO consider treating this as via diphthongization? .
-∅ > w / # __ [-hi,+round] [-lab]
+$ DIACLEA CORRECTION D3.X -- now interpreted as part of initial lengthening feeding diphthongization. 
+$∅ > w / # __ [-hi,+round] [-lab]
 
 $ DV1744.C1 : Lat. w- > β. 
 $ this is redundant with the earlier rule doing the exact same thing to PIE u̯ > PPAlb β (DV1746.F1 = DV4.3L1) effectively merged these
@@ -453,6 +457,7 @@ w > β / {#;[+son,+cor]} __
 
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM (Rom. cetate), njerkë "stepmother" < NOVERCA
 $ DIACLEA CORRECTION B1.III -- relocdated later -- TODO W phenomena including coloring stuff where this matters happen much later, still get to this (tribulum > truoll, viv-o- >v-ua-, scrib-o- > shkr-ua- ...) . TODO May have to go even later because it seems this also happens with Slavic etyma (bɯβɒl(-ʊ,-iːt͡sɑ) > buall(icë); gɒtɒβ-ɒ > gat-ua, pɒdʊkɒβʊ > patkua, pɒrɒβʊ > përua, tɒrɒβʊ> tërua, βɒlkɒβʊ > vallkua, βīrɒβʊ > virua, zɑ̄bɒjɪ > zabua )
+$ Note -- should come before i-mutation ~ ovatia > voesë. 
 w > ∅ / [+syl] __ [+syl]
 
 $DIACLEA CHANGE A1.XIV -- seeding of secondary length starts to emerge -- A1.XIV just before i-mutation and loss of post-labial-continuant j, hiatus vowels with the first element countertonic has the second element attain length and countertonic stress (primary remains primary though), and the first element to schwa for now (will seed length).
@@ -550,11 +555,11 @@ $ TODO reforming timing of this...
 	$ for delta, must be after initial wave of post-nasal vowel losses, which seem to bleed it -- i.e. currently rules 49,50 -- cf. benedicere >bëndëk-o- > bënk-o
 {b;d} > {β;ð} / [+son,-nas,-lat] __ [+son,-nas,-lat]
 
-$ DIACLEA CORRECTION D3.IX -- w and original b, both now beta, to b after l,r. ( incorping DIACLEA fix C3B.VII: now only after a non-initial vowel. (e.g. not eruilla > rrylë, alveolus > unatt. llullë > nullë...) 
-β > b / @ [+syl] ([-syl])* [+son,-nas,+cor] __
+$ DIACLEA CORRECTION D3.IX -- w and original b, both now beta, to b after l,r. ( incorping DIACLEA fix C3B.VII: now only after a non-initial vowel. (e.g. not eruilla > rrylë, alveolus > unatt. llullë > nullë... -- but as of Feb 2, 2025, this is suppressed.)
+$C3B.VII fix: β > b / @ [+syl] ([-syl])* [+son,-nas,+cor] __
+β > b / [+son,-nas,+cor] __
 
-
-$BETA COLORING! - + LOSS -- WORK HERE!
+$BETA COLORING! - + LOSS -- WORK HERE! TODO REMOVE WHEN ACCOUNTED FOR. 
 
 $TODO NOTE FOR DIA: although phonemic nasalization is assigned a later point in the relative chronology (DV1737, number 8), it may be necessary here at least for /e/ and/or /ɛ/, to block ietation and allow the merger of DV2.2.1K with DV2.2.1L1 & DV2.2.1M (aka the merger of 5b.1 with 5b.2 and 5b.3)
 
@@ -562,6 +567,8 @@ $DIACLEA INSERTION: before diphthongization/ietation (of the round elements), fr
 	$TODO: however, note that of hte 13 cases here (not counting arsye which ends up fronted otherwise), 3 are cases where the fronting would be due to i-mutation that could be blocked by labials ( cāpōnem > kapua, pāvōnem > pallua, timōnem > timua), 1 is probably in a later layer (īconem > korë), 3 are possibly velars bleeding i-mutation (falcōnem drancōnem lacōnem > fajkua, drangua, lëkua), and one has an apparent resuffixation (rōsupōne > rozhponjë). Of the remainder, only leōnem is originally with [ˈo] at this stage; the mere four  that remain (immūne > mu , luntrem > lundër, sanguisungia > shushunjë, axungia > ashunjë) are all with u. Consider reformulating this. 
 [+front,+round] > [-front,+back] / [-front] __ [+nas,-lab,-back]
 
+
+$TODO REINTERPRETING IETATION AND DIPHTHONGIZATION AS DUE TO LENGTH. 
 $IETATION and DIPHTHONGIZATION follows. 
 $DV2.2.1K and 1737's 5b -- diphthongized ietation -- ɛ (< PPAlb e, Lat e & ae) > ie before "word-final ɫ, r" ; he also attributes this to *e
 $his ɫ is "lː" here though and his r is simply a short r so it is a diagonal grouping in terms of length, hard to capture in a feature matrix. 
@@ -970,7 +977,7 @@ $DV2.1D2 -- Tosk uo > ua ; written agnostically as to the syllabic status of the
 
 $DV2.1F2: və > u- 
 $ this might be yet earlier considering that it also happens in Gheg? Or not. 
-$ DIACLEA FIX D4.I -- this is removed, reinterpreted. See D4.I on fixes log.
+$ DIACLEA FIX D3.X.a -- this is removed, reinterpreted. See D3.X(.a) on fixes log.
 ${v ə;v ˌə} > {u;ˈu} / # __
 
 = Proto-Tosk

@@ -441,7 +441,7 @@ $-----------------------Middle Proto-Albanian II---------------------
 $ much of the Christian vocab is integrated around (at, or by) this point, including kristjān-u > krishter.-ë Also cases of non-palatalization like lëpjetë likely do too. 
 
 $DIACLEA INSERTION A2.XXXVI --  unstressed front vowels made high. This will (TODO!) ultimately be related to i-mutation by principle. 
-[-stres,+front] > [+hi]
+[-stres,+front] > [+hi] / [+cons] __
 
 $ DV1744.C4 -- emergence of PAlb β before Latin long ō and the reflex of Alb long-ā, but PPAlb ō is not listed. PAlb β itself is the reflex of initial Latin w- and PPAlb β, itself from a PIE u̯. Treat as w for now, betacize later, as then merge them here, with a single rule. In order to impact PPAlb ā and Latin ō but not PPAlb ō, PPAlb ō must have a different reflex at this stage. But De Vaan 2018 does not seem to PPAlb ō and Latin  differently otherwise, in fact they are typically handled together (cf. DV1736G1, DV2.2.1B7 & DV2.2.1B8) except when i-mutation is concerned (DV1736H1, which can simply be handled by placing it in the post-Greek but pre-Latin area of PAlb). So unless there are issues that emerge upon later examination, we will be treating PPAlb ō as potentially a trigger as well.
 $ although is not explicitly stated, the examples all concern initial vowels. 
@@ -459,9 +459,12 @@ $ DIACLEA CORRECTION B1.IV -- DV1744.C1 and C4 moved to beginning of Middle Prot
 w > β / {#;[+son,+cor]} __
 
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM (Rom. cetate), njerkë "stepmother" < NOVERCA
-$ DIACLEA CORRECTION B1.III -- relocdated later -- TODO W phenomena including coloring stuff where this matters happen much later, still get to this (tribulum > truoll, viv-o- >v-ua-, scrib-o- > shkr-ua- ...) . TODO May have to go even later because it seems this also happens with Slavic etyma (bɯβɒl(-ʊ,-iːt͡sɑ) > buall(icë); gɒtɒβ-ɒ > gat-ua, pɒdʊkɒβʊ > patkua, pɒrɒβʊ > përua, tɒrɒβʊ> tërua, βɒlkɒβʊ > vallkua, βīrɒβʊ > virua, zɑ̄bɒjɪ > zabua )
+$ DIACLEA CORRECTION B1.III -- relocdated later -- 
+$TODO W phenomena including coloring stuff where this matters happen much later, still get to this (tribulum > truoll, viv-o- >v-ua-, scrib-o- > shkr-ua- ...) . TODO May have to go even later because it seems this also happens with Slavic etyma (bɯβɒl(-ʊ,-iːt͡sɑ) > buall(icë); gɒtɒβ-ɒ > gat-ua, pɒdʊkɒβʊ > patkua, pɒrɒβʊ > përua, tɒrɒβʊ> tërua, βɒlkɒβʊ > vallkua, βīrɒβʊ > virua, zɑ̄bɒjɪ > zabua )
 $ Note -- should come before i-mutation ~ ovatia > voesë. 
-w > ∅ / [+syl] __ [+syl]
+$ DIACLEA FIX E1.IV -- now two stages of -w- deletion. First just deleted after round vowels. Later, deleted everywhere, joining fate of β, after first Slavic wave, and some final beta coloring phenomena shared between w and b, both as beta. 
+w > ∅ / [+syl,+round] __ [+syl]
+w > β 
 
 $DIACLEA CORRECTION A1.VIII: mid front vowels e œ ɛ before r or s then j become i-mutanda, via the ɪ̯. In these cases, the j is then deleted. 
 ∅ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] j > ɪ̯ [+prim] [+cont] ∅
@@ -523,8 +526,8 @@ $ form prior to 8/5/23 was: {[-cont,+back] w;[-cont,+back,+round]} > {[-round] �
 $ was formulated so as to handle if these are treated instead as labialized consonants (alas in practice the format in ALLex currently is always "k w" and "ɡ w", not "kʷ", "ɡʷ".) 
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
 $ in practice qu- and gu- never occur without following vowels, so it can be expressed without the following vowel. 
-$ DIACLEA CHANGE B1.V --  moved later, in part bc of relevant coloring phenomena operate beforehand (quīs > qysh, quadrum > kodër, quartus > kort, civitatem > qytet, eruilla >rrylë; lso possibly, with  the Xʷ(?), factūra > fytyrë and axungia >ushu(n)jë ~ Romanian osânză), various other reasons too. 
-w > ∅ / [-cont,+back] __
+$ DIACLEA CHANGE B1.V --  moved later, in part bc of relevant coloring phenomena operate beforehand (quīs > qysh, quadrum > kodër, quartus > kort, civitatem > qytet, eruilla >rrylë; lso possibly, with  the Xʷ(?), factūra > fytyrë and axungia >ushu(n)jë ~ Romanian osânză), various other reasons too. Fixed to include β too. 
+β > ∅ / [-cont,+back] __
 
 $ now ɪ̯ can merge into j, as part of C8.I. 
 ɪ̯ > j 
@@ -565,12 +568,14 @@ $DIACLEA INSERTION: before diphthongization/ietation (of the round elements), fr
 	$TODO: however, note that of hte 13 cases here (not counting arsye which ends up fronted otherwise), 3 are cases where the fronting would be due to i-mutation that could be blocked by labials ( cāpōnem > kapua, pāvōnem > pallua, timōnem > timua), 1 is probably in a later layer (īconem > korë), 3 are possibly velars bleeding i-mutation (falcōnem drancōnem lacōnem > fajkua, drangua, lëkua), and one has an apparent resuffixation (rōsupōne > rozhponjë). Of the remainder, only leōnem is originally with [ˈo] at this stage; the mere four  that remain (immūne > mu , luntrem > lundër, sanguisungia > shushunjë, axungia > ashunjë) are all with u. Consider reformulating this. 
 [+front,+round] > [-front,+back] / [-front] __ [+nas,-lab,-back]
 
+$TODO REGRESSIVE BETA COLORING! - + LOSS -- WORK HERE! TODO REMOVE WHEN ACCOUNTED FOR, OR DEEMED UNNECESSARY. 
+
+
 =Middle Proto-Albanian III
 $ DIACLEA INSERTION A2.XXXXI - ø > œ before it is unrounded by LPA. 
 [+front,+round,-hi] > [-tense]
 
 $ Earliest Slavic loans here. 
-$BETA COLORING! - + LOSS -- WORK HERE! TODO REMOVE WHEN ACCOUNTED FOR. 
 
 $TODO LENGTHENING PHENOMENA IN PROGRESS HERE
 $DIACLEA CHANGE A2.XXXIX.c  length emerges initially for lax mid vowels. 

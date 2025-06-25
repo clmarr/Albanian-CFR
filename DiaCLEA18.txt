@@ -93,6 +93,9 @@ r j > ʎ / @ __ @
 $ DIACLEA insertion A2.XXXVIV unstressed o unrounds before m hten unround vowel; may need to rethink placement. Going to e for now. 
 [-prim,-hi,+round] > [-round,-lab,-back,+front] / __ m [-cons,-round]
 
+$ DIACLEA insertion A2.XXXX -- non-primary oː loses length. Bled by A2.XXXVIV.
+[-hi,+round,-prim] > [-long]
+
 $ DIACLEA insertion A2.III : in-metathesis or i-insertion in -- -Cina-/-Cinia rule (or -ina- metathesis?) Jan 28, 2025 -- expanded to cover countertonics. 
 	$ the "maybe-metathesis" rule? (see below), occurring after back elements or strings of non-front elements that include at least one voiced labial element not separated by an obstruent from the target 
 $ TODO does seem to happen after aw > a, so consider either relocdating that earlier into the end of Classical Proto-Albanian, or moving this -- and the relevant vowel drops -- later...
@@ -355,9 +358,9 @@ $[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ {[-syl];#}
 $DIACLEA FIX A2.XXXI Middle Proto-Albanian I -- stress retraction in V β ˈVlo (ablēv-ā- > blej , arrīv-ā- > arrij, Drivastum > Drisht, lav-ā- > laj, oli̍̄vānu > ullî, etc. Including caballus > kuol, kālë for good measure 
 $ TODO write about this in dissertation!
 $ TODO possibly broaden this to other cases of stress retraction...
-[+syl] [+lab,+voi,-syl,-nas] [+prim,+lo] > [+prim] [+lab] [-stres]
+[+syl] [+lab,+voi,-syl,-nas] [+prim,+lo] > [+prim] [+lab] [-stres] / @ __
 
-$DIACLEA INSERTION A2.XXXIII -- coalescence of w with following ɪ i or short a in two contexts: T-voi (V-prim) __ and # (V)* liquid __. Long round vowels seem to be the result (in asmuch as y doesn't fall, at least)
+$DIACLEA INSERTION A2.XXXIII -- coalescence of w with following ɪ i or short a in two contexts: T-voi (V-prim) __ and # (V)* liquid __. Long round vowels seem to be the result (in asmuch as y doesn't fall, at least). Feeds ɒ > ɔ tho
 w [+syl,αhi,αfront,-long]> ∅ [+round,+lab,+long] / {[-voi,-cont] ([-prim]); # ([-cons])* [+son,+cons,-nas]} __ 
 
 $ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër, but via PPAlb *ā) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. DIACLEA CORRECTION: to handle the current implementation of A2.VIII, broadened to include short ɒ too. 
@@ -459,9 +462,6 @@ $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he c
 $ DIACLEA CORRECTION B1.III -- relocdated later -- TODO W phenomena including coloring stuff where this matters happen much later, still get to this (tribulum > truoll, viv-o- >v-ua-, scrib-o- > shkr-ua- ...) . TODO May have to go even later because it seems this also happens with Slavic etyma (bɯβɒl(-ʊ,-iːt͡sɑ) > buall(icë); gɒtɒβ-ɒ > gat-ua, pɒdʊkɒβʊ > patkua, pɒrɒβʊ > përua, tɒrɒβʊ> tërua, βɒlkɒβʊ > vallkua, βīrɒβʊ > virua, zɑ̄bɒjɪ > zabua )
 $ Note -- should come before i-mutation ~ ovatia > voesë. 
 w > ∅ / [+syl] __ [+syl]
-
-$DIACLEA CHANGE A1.XIV -- seeding of secondary length starts to emerge -- A1.XIV just before i-mutation and loss of post-labial-continuant j, hiatus vowels with the first element countertonic has the second element attain length and countertonic stress (primary remains primary though), and the first element to schwa for now (will seed length).
-[+stres,-prim] [+syl] > ə [+long,+stres]
 
 $DIACLEA CORRECTION A1.VIII: mid front vowels e œ ɛ before r or s then j become i-mutanda, via the ɪ̯. In these cases, the j is then deleted. 
 ∅ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] j > ɪ̯ [+prim] [+cont] ∅
@@ -566,15 +566,26 @@ $DIACLEA INSERTION: before diphthongization/ietation (of the round elements), fr
 [+front,+round] > [-front,+back] / [-front] __ [+nas,-lab,-back]
 
 =Middle Proto-Albanian III
+$ DIACLEA INSERTION A2.XXXXI - ø > œ before it is unrounded by LPA. 
+[+front,+round,-hi] > [-tense]
+
 $ Earliest Slavic loans here. 
 $BETA COLORING! - + LOSS -- WORK HERE! TODO REMOVE WHEN ACCOUNTED FOR. 
 
 $TODO LENGTHENING PHENOMENA IN PROGRESS HERE
+$DIACLEA CHANGE A2.XXXIX.c  length emerges initially for lax mid vowels. 
+[+stres,-hi,-lo,-tense] > [+long] / # __
+
+$DIACLEA CHANGE A2.XXXIX.a length emerges for tonic and countertonic elements followed by an voiced consonantal other than m (b~β,d~ð,g,z,ʒ,r,ɾ,l,lˠ,ʎ ; n, ɲ) and then an unstressed vowel. 
 
 
-$ h ejected by initial 
+$ TODO draw in vowel coalescence phenomena. 
+
+$DIACLEA CHANGE A1.XIV -- seeding of secondary length starts to emerge -- A1.XIV just before i-mutation and loss of post-labial-continuant j, hiatus vowels with the first element countertonic has the second element attain length and countertonic stress (primary remains primary though), and the first element to schwa for now (will seed length).
+[+stres,-prim] [+syl] > ə [+long,+stres]
 
 
+$ h ejected by initial ˌe, ˌa -- TODO! IPMLEMENT  -- TODO name this!
 
 $TODO REINTERPRETING IETATION AND DIPHTHONGIZATION AS DUE TO LENGTH. GOING OT HAVE TO HCANGE HTE BELOW. 
 $IETATION and DIPHTHONGIZATION follows. 
@@ -582,8 +593,9 @@ $DV2.2.1K and 1737's 5b -- diphthongized ietation -- ɛ (< PPAlb e, Lat e & ae) 
 $his ɫ is "lː" here though and his r is simply a short r so it is a diagonal grouping in terms of length, hard to capture in a feature matrix. 
 $it says word-final but the falls of unstresesd vowels are actually assigned later (to word-internal and initial cases that is; the dating of the fall of final unstressed vowels isn't quite given in 1737-8 but one can assume this will happen to low vowels so this is added in : ([-lo,-stres] (m) ), the [m] being there to deal with the accusative (cf DV1737~2.2.2d) 
 $ DIACLEA FIX: now using lˠ not lː
-$ TODO 2025 -- make this about length
-[+front,-hi,-lo,-round,+prim] > ˈi e̯ / __ {lˠ;r} ([-lo,-stres] (m)) #
+$ DIACLEA CONSOLIDATION D3.X.b: now roped into initial lengthening.
+$ TODO 2025 -- implement, make this about length
+$ [+front,-hi,-lo,-round,+prim] > ˈi e̯ / __ {lˠ;r} ([-lo,-stres] (m)) #
 
 $ DV1737's 5b.2 & 5b.3 : ø > ye and o > uo before word final -ɫ, -n, -r
 $ these are also part II of DV2.2.1L1, L2 and 2.2.1M ... but the conditioning appears slightly different for those? 2.2.1M, generating PAlb *ye, is attriubted for "PPAlb. ō + i-mutation, Lat. jō" whereas the table earlier on 1737 treats all Lat & PPAlb ō as becoming ø̄ 
@@ -593,7 +605,9 @@ $ per DV2.2.1M, glided j gets absorbed into ø here.
 $ TODO check this^ IMPLEMENT FOR DIA -- remove the (j), because this is better handled via tj > tʃ > s. 
 $ regarding the word-finality, same factors apply as above in DV1737~5b.1
 $ DIACLEA FIX: now using lˠ not lː
-{ˈo;j ˈø;ˈø} > {ˈu o̯;j ˈy e̯;ˈy e̯} / __ {lˠ;n;r} ([-lo,-stres] (m)) # 
+$ DIACLEA CONSOLIDATION D3.X.b: now roped into initial lengthening.
+$ TODO IMPLEMENT THAT -- lengthening as means to diphthongization... (in C V̯? ) 
+${ˈo;j ˈœ;ˈœ} > {ˈu o̯;j ˈy e̯;ˈy e̯} / __ {lˠ;n;r} ([-lo,-stres] (m)) # 
 
 $ DV1736's 5a.1 : *ɛ > jɛ ietation (my word)
 $ = DV2.2.1B2 
@@ -604,13 +618,15 @@ j > ∅ / [-cont] [+cor,+son,-nas] __ ˈɛ
 
 $DV1737's 5b.iv: *o > *uo/# __ {r,lj},
 $this is also DV2.2.1L2 as concerns Latin o
-ˈo > ˈu o̯ / # __ {r;l j;ʎ}
+$ DIACLEA CONSOLIDATION D3.X.b: now roped into initial lengthening.
+$ ˈo > ˈu o̯ / # __ {r;l j;ʎ}
 
 $DV1737's 5b.v: *ø > *ye / __ (w) V
 $ formatted to allow /w/ to have become [β]
-ˈø > ˈy e̯ / __ ([+lab,-syl,+cont,+voi]) [+syl]
+$ DIACLEA CONSOLIDATION D3.X.b: now roped into initial lengthening (and VwV coalescences.)
+$ ˈœ > ˈy e̯ / __ ([+lab,-syl,+cont,+voi]) [+syl]
 
-$ ---TODO END OF AREA OT CHANGE-- 
+$ ---TODO END OF AREA TO CHANGE-- 
 
 $ a-mutation -- DV1736's 5a.2, also DV1735~ 2.2C2 + de Vaan 2004: 78--83. --  e (or ɛ it seems?) instances lower to a under the influence of /a/ in next syllable it seems. -- but per De Vaan 2004(78-83) this doesn't happen to Latin (and indeed the data largely matches this), and this is handled above in DV2.2.1C2. 
 $[-hi,-round,+syl] > [+lo,-tense] / __ ([-syl])* [+lo,+syl]
@@ -629,7 +645,8 @@ $bandaid here thus inserted
 $ DV 1737's 7. Unstressed word-internal vowels to schwa, unstressed initial to zero-- include in _- VOWEL DROP WAVE -_
 
 
-$DIACLEA INSERTION: h is deleted after vowels and before non-stressed vowels except before stressed vowels (later insertions hard to characterize; some role of r?) 
+$DIACLEA INSERTION A2.XII: h is deleted after vowels and before non-stressed vowels except before stressed vowels (later insertions hard to characterize; some role of r?) 
+$ TODO may need to revise.
 h > ∅ / __ [-stres]
 h > ∅ / [+syl] __
 $∅ > h / # __ [+stres] r
@@ -996,8 +1013,9 @@ $DV2.1D2 -- Tosk uo > ua ; written agnostically as to the syllabic status of the
 
 $DV2.1F2: və > u- 
 $ this might be yet earlier considering that it also happens in Gheg? Or not. 
-$ DIACLEA FIX D3.X.a -- this is removed, reinterpreted. See D3.X(.a) on fixes log.
+$ DIACLEA FIX D3.X.a -- this is reinterpreted as ˌuo̯ as input, and __ C as context. See D3.X(.a) on fixes lo, a nd initial lenghtening in MPA II file. 
 ${v ə;v ˌə} > {u;ˈu} / # __
+ˌu o̯ > ˌu / # __
 
 = Proto-Tosk
 

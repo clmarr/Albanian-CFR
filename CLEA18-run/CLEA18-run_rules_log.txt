@@ -62,6 +62,7 @@ w [+syl,αhi,αfront,-long] > ∅ [+round,+lab,+long]/ # ( [-cons] )* [+son,+con
 [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
 w > v / [+lo] ( [+nas] ) __ [+front,-hi,+prim]
 w > v / [+hi,+back,+syl] ( [+nas] ) __ [+front,-hi,+prim]
+[+syl] [+lab,-strid,+voi,-nas] [+prim,-hi] > [+prim,+stres,+syl,+son,0delrel] [+lab] [-stres,-prim,+syl,+son,0delrel]/ __ [+son] [+syl]
 [+syl] > [-long,-splng] 
 [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
 ∅ > j / [+front,+syl] __ [-round,-hi,+syl]

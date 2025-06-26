@@ -476,15 +476,31 @@ $ DIACLEA CORRECTION D3.IX -- now w > b stuff after coronal sonorant consonants 
 $ DIACLEA CORRECTION B1.IV -- DV1744.C1 and C4 moved to beginning of Middle Proto-Albanian II. 
 w > β / {#;[+son,+cor]} __
 
+$ DIACLEA CORRECTION A1.XI
+$ MIDDLE PROTO-ALBANIAN LENITION: d and b to delta and beta in between non-nasal and non-lateral sonorants, settinɡ staɡe for their later loss. More precisely, posterior context is (r) V -- not directly before j. 
+$ TODO reforming timing of this...
+	$ for delta, must be after initial wave of post-nasal vowel losses, which seem to bleed it -- i.e. currently rules 49,50 -- cf. benedicere >bëndëk-o- > bënk-o
+{b;d} > {β;ð} / [+son,-nas,-lat] __ (r) [+syl] 
+
+$DIACLEA FIX D3.XI -- beta sent to w after round vowels, joining fate of w for these intervocalically (deletion), while blocking i-mutation. 
+β > w / [+round] __
+
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM (Rom. cetate), njerkë "stepmother" < NOVERCA
 $ DIACLEA CORRECTION B1.III -- relocdated later -- 
 $TODO W phenomena including coloring stuff where this matters happen much later, still get to this (tribulum > truoll, viv-o- >v-ua-, scrib-o- > shkr-ua- ...) . TODO May have to go even later because it seems this also happens with Slavic etyma (bɯβɒl(-ʊ,-iːt͡sɑ) > buall(icë); gɒtɒβ-ɒ > gat-ua, pɒdʊkɒβʊ > patkua, pɒrɒβʊ > përua, tɒrɒβʊ> tërua, βɒlkɒβʊ > vallkua, βīrɒβʊ > virua, zɑ̄bɒjɪ > zabua )
 $ Note -- should come before i-mutation ~ ovatia > voesë. 
-$ DIACLEA FIX E1.IV -- now two stages of -w- deletion. First just deleted after round vowels. Later, deleted everywhere, joining fate of β, after first Slavic wave, and some final beta coloring phenomena shared between w and b, both as beta. 
+$ DIACLEA FIX E1.IV -- now two stages of -w- deletion. First just deleted after round vowels. Later, deleted everywhere, joining fate of β, after first Slavic wave, and some final beta coloring phenomena shared between w and b, both as beta in some places, w in others.. 
 w > ∅ / [+syl,+round] __ [+syl]
 w > β 
 
-$TODO -- move lenition to here.
+
+
+$ DIACLEA INSERTION A2.XXXXII -right after d > ð, ð reverts to d in V́ __ r
+ð > d / [+prim] __ r
+
+$ DIACLEA CORRECTION D3.IX -- w and original b, both now beta, to b after l,r. ( incorping DIACLEA fix C3B.VII: now only after a non-initial vowel. (e.g. not eruilla > rrylë, alveolus > unatt. llullë > nullë... -- but as of Feb 2, 2025, this is suppressed.)
+$C3B.VII fix: β > b / @ [+syl] ([-syl])* [+son,-nas,+cor] __
+β > b / [+son,-nas,+cor] __
 
 $DIACLEA CORRECTION A1.VIII: mid front vowels e œ ɛ before r or s then j become i-mutanda, via the ɪ̯. In these cases, the j is then deleted. 
 $TODO revisit.
@@ -502,9 +518,9 @@ $ FORMER I-MUT {ˈɑ;ˈu;ˈo;ˈe;ˈɛ} > {ˈe;ˈy;ˈø;ˈi;ˈi} / [-lab] __ ([-s
 $DIACLEA CORRECTION C3B.III: I-mutation is BLOCKED by preceding labials, and also no evidence it occurs word-initially. This can be captured by specifying [-lab] for a prior for the i-mutation trigger because requiring a specification excludes the word boundary being there. 
 $DIACLEA CORRECTION C1B.VII: ɔ > œ phenomena no longer a regular part of i-mutation, simply participating in the later coalescence (E1.I) with yod (georgius > Gjergj; ratiōnem > arësye -- these are caused by *prior* yod! Cases like 2/3SG sheh for shoh are analogical). 
 $ implementing i-mutation ignition for a ɛ e, separated from that of /u/ per E1.II. 
-$DIACLEA CORRECTION C3B.X -- now requires at least one consonant to come between. 
+$DIACLEA CORRECTION C3B.X -- now requires at least one initial consonantal to come between. 
 $TODO -- maybe make this triggered by reduction of unstressed front vowels to yod... 
-∅ > ɪ̯ / [-lab] __ [-round,-hi,+prim]  ([-syl])+ [+front,-round,-cons]
+∅ > ɪ̯ / [-lab] __ [-round,-hi,+prim]  [+cons] ([-syl])* [+front,-round,-cons]
 
 $DIACLEA CORRECTION A1.V1: i-mutation also occurs for countertonic a in S __ liquid
 $ ultimately ˌɑ > ˌe / s __ [+cor,-nas,+son] ([+cons])* [+front,-cons,-lo,-round]
@@ -520,7 +536,7 @@ k > ɡ / [+strid] __ ɪ̯
 $ DIACLEA CORRECTION A2.XVIII -- yod is effaced in Middle Proto-Albanian earlier before -a, if after a palatal or palatovelar. Outcomes thus go to -ë and not -a 
 j > ∅ / [+cons,+front] __ ɑ
 
-$ DIACLEA CORRECTION D3.VII --  j before final unstressed a becomes iota before loss of yod after labials (A2.II), allowing this, too, to join with i-mutation. (Exception ːrubia > rrojbë; may require separate explanation). 
+$ DIACLEA CORRECTION D3.VII --  j before final unstressed a becomes iota before loss of yod after labials (A2.II), allowing this, too, to join with i-mutation. (Exception ːrubia > rrojbë; may require separate explanation; this may however be a loan. ). 
 j > ɪ̯ / __ ɑ
 
 $ DIACLEA CORRECTION A2.II -- disappearance of j after labials, except before unstressed -a, whic his handled above in D3.VII 
@@ -573,18 +589,6 @@ $ For this, first, the (stressed) front mid round vowels raise as they coalesce 
 j [+front,-lo,+stres] > ∅ [+hi,+tense] / [-lab] __
 j [-hi,+syl] > ∅ [-lo,-back,+front,+tense] / [-lab] __
 
-$ DIACLEA CORRECTION A1.XI
-$ MIDDLE PROTO-ALBANIAN LENITION: d and b to delta and beta in between non-nasal and non-lateral sonorants, settinɡ staɡe for their later loss. 
-$ TODO reforming timing of this...
-	$ for delta, must be after initial wave of post-nasal vowel losses, which seem to bleed it -- i.e. currently rules 49,50 -- cf. benedicere >bëndëk-o- > bënk-o
-{b;d} > {β;ð} / [+son,-nas,-lat] __ [+son,-nas,-lat]
-
-$ DIACLEA INSERTION A2.XXXXII -right after d > ð, ð reverts to d in V́ __ r
-ð > d / [+prim] __ r
-
-$ DIACLEA CORRECTION D3.IX -- w and original b, both now beta, to b after l,r. ( incorping DIACLEA fix C3B.VII: now only after a non-initial vowel. (e.g. not eruilla > rrylë, alveolus > unatt. llullë > nullë... -- but as of Feb 2, 2025, this is suppressed.)
-$C3B.VII fix: β > b / @ [+syl] ([-syl])* [+son,-nas,+cor] __
-β > b / [+son,-nas,+cor] __
 
 $ DIACLEA INSERTION A2.XXXXIII regressive beta-coloring for initial or soon-to-be initial front vowels, becomes round and takes backness of following vocoid, before [+lab,-son,+voi] ([-cons] ) [+voi,-syl]. Soon to be initial -- seeing through (([-son]) [-son] (([-cons] ) r )) . Maybe move after vowel falls to make this a simpler rule (or move htem before)
 $ TODO in progress!!

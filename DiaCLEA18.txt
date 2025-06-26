@@ -182,7 +182,7 @@ $[+round,-lo,-prim,-hi] > [+hi,-long] / @ __ [+lat,-front]
 $part IV: implementing the default behavior of the rule, for the remaining (non-palatal) sonorants: rː, r, nː, n, ŋ. As of June 2024: suppressed.
 $[+round,-lo,-hi] > [+hi,-long] / @ __ [+son,+cons,-lab,-front] ([-syl])* [+syl] ([-syl])* [+syl]
 
-$DIACLEA FIX  A2.XXXXIX s > h in A-prim (W) __ V̯ -- tatoj < tasit-o-, before -st- cluster would be formed by early syncope. Also before o-phenomena (partly for convenience)
+$DIACLEA FIX  A2.XXXXIV s > h in A-prim (W) __ V̯ -- tatoj < tasit-o-, before -st- cluster would be formed by early syncope. Also before o-phenomena (partly for convenience)
 s > h / [+lo,-prim] ([-cons,-syl]) __ [-stres] [-son]
 
 $DIACLEA CORRECTION A2.VIII new version -- o  raising exception when after labial-sonorant (florīnum > flori, proximare > prozhëm, prodāre > prodhoj, maybe prōmitt-o > premtoj) or onset sonorant (rosalia > rrëshajë -- albeit dialectal rrushajë, rōmānus > remër/rëmër, notoj, rozhponjë...), if the following wherein it goes to ɔ instead. Exceptions handled by falling to (ˌɔ). Use ɒ (later ɔ) for these exceptoins. Not necessarily unstressed o -- daemonem > djemër not djemu/-ũ, consobrinus > kushëri not kushuri, etc. 
@@ -462,6 +462,9 @@ $-----------------------Middle Proto-Albanian II---------------------
 
 $ much of the Christian vocab is integrated around (at, or by) this point, including kristjān-u > krishter.-ë Also cases of non-palatalization like lëpjetë likely do too. 
 
+$DIACLEA INSERTION E1.V.a kw, gw > kʷ, gʷ; later to be derounded
+{k w;ɡ w} > {kʷ;ɡʷ}
+
 $DIACLEA INSERTION A2.XXXVI --  unstressed front vowels made high. This will (TODO!) ultimately be related to i-mutation by principle. 
 [-stres,+front] > [+hi] / [+cons] __
 
@@ -542,7 +545,7 @@ j > ∅ / [+cons,+front] __ ɑ
 $ DIACLEA CORRECTION D3.VII --  j before final unstressed a becomes iota before loss of yod after labials (A2.II), allowing this, too, to join with i-mutation. (Exception ːrubia > rrojbë; may require separate explanation; this may however be a loan. ). 
 j > ɪ̯ / __ ɑ
 
-$ DIACLEA CORRECTION A2.II -- disappearance of j after labials, except before unstressed -a, whic his handled above in D3.VII 
+$ DIACLEA CORRECTION A2.II -- disappearance of j after labials, except before unstressed -a, whic his handled above in D3.VII. As of June 26, it's now labial *consonantals*, can see through (V) r. 
 	$ w:  laqueum > lak, quiētus > qetë, salviella > shërbelë ; perhaps also alveolu > nullë "gum" if we believe in that etymology. Seems apparent in Romanian too : quiētus > (in-)cet, although this may be independent (note the difference between laqueum > laț and quiētus > in-cet.. curious.). As of June 24, this is moved from being between DV1740H2 and DV1743.B4 to right after i-mutation, because the latter appears to occur for the countertonic a in salviella > sherbelë, which is nevertheless affected by this. 
 	$ mj : gremium > gremb, 
 		$ NOT in unstressed final -ja : amia > ame "brown meagre"  (i-mutation otherwise blocked)
@@ -559,7 +562,7 @@ $ DIACLEA CORRECTION A2.II -- disappearance of j after labials, except before un
 			$ difficult case : rubia > rrojbë 
 			$ maybe..>? : subiug-āre > shuaj
 	$ the cases of capreum > qepër and salviella > sherbelë suggest this happened AFTER the beginning of i-mutation in the emergence of iota, but gremium > gremb and manubrium > mëru may suggest the opposite as concerns ɛ and u... As of July 2024, though, /u/ i-mutation is handled ohterwise, so this can be placed after the emergence of iota but before the resolution in terms of coalescence, and before the merge of iota with j. 
-j > ∅ / [+lab,-front] (r) __
+j > ∅ / [+lab,-son] ( ([+syl]) r) __
 
 $ De Vaan p1743-4 -- w dropped between k (DV1743.G2) or g (DV1744.A2), and vowels. This will eventually feed the palatalization of these velars before i/e/y (p1743) but this feeding does not have to be explicitly coded in. 
 $ form prior to 8/5/23 was: {[-cont,+back] w;[-cont,+back,+round]} > {[-round] ∅;[-round]} / __ [-cons] 
@@ -567,7 +570,9 @@ $ was formulated so as to handle if these are treated instead as labialized cons
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
 $ in practice qu- and gu- never occur without following vowels, so it can be expressed without the following vowel. 
 $ DIACLEA CHANGE B1.V --  moved later, in part bc of relevant coloring phenomena operate beforehand (quīs > qysh, quadrum > kodër, quartus > kort, civitatem > qytet, eruilla >rrylë; lso possibly, with  the Xʷ(?), factūra > fytyrë and axungia >ushu(n)jë ~ Romanian osânză), various other reasons too. Fixed to include β too. 
-β > ∅ / [-cont,+back] __
+$β > ∅ / [-cont,+back] __
+$ DIACLEA FIX E1.V.b -- reinterpreted as delabialization of single segment.
+[-son,+back] > [-lab,-round]
 
 $ now ɪ̯ can merge into j, as part of C8.I. 
 ɪ̯ > j 

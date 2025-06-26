@@ -1,18 +1,22 @@
 Derivation file for run '../Albanian-diachrony/Albanian-CFR/CLEA18-run'; etymon number :792:
-#pʰˌɑlˈɑnɡɑ# >>> *#falˠˈənɡə# ( GOLD : #plˈɛŋɡə#) :
-pʰ ˌɑ l ˈɑ n ɡ ɑ 
-*#fˌɑlˈɑnɡɑ# | 0 : pʰ > f 
-*#fˌɑlˠˈɑnɡɑ# | 17 : {s l;l} > {lˠ;lˠ} / [+syl] __ [+syl,-front]
-Middle Proto-Albanian I stage form : *#fˌɑlˠˈɑnɡɑ#
-Middle Proto-Albanian II stage form : *#fˌɑlˠˈɑnɡɑ#
-Middle Proto-Albanian III stage form : *#fˌɑlˠˈɑnɡɑ#
-*#fˌalˠˈanɡa# | 144 : [+lo] > [+front,-back] 
-*#fˌalˠˈanɡə# | 160 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-*#fˌalˠˈãnɡə# | 170 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian stage form : *#fˌalˠˈãnɡə#
-*#fˌalˠˈə̃nɡə# | 193 : [+lo,+nas,+syl,-long] > [-lo,-back,-front,0tense] 
-Proto-Tosk stage form : *#fˌalˠˈə̃nɡə#
-*#fˌalˠˈənɡə# | 194 : [-cons,+nas] > [-nas] 
-Old Northern Tosk Albanian stage form : *#fˌalˠˈənɡə#
-*#falˠˈənɡə# | 211 : [-prim] > [-stres,-prim,+syl,+son,0delrel] 
-Final form : *#falˠˈənɡə#
+#pʰˌɑlˈɑnɡum# >>> *#falˠˈənɡ# ( GOLD : #plˈɛŋɡ#) :
+pʰ ˌɑ l ˈɑ n ɡ u m 
+*#fˌɑlˈɑnɡum# | 0 : pʰ > f 
+*#fˌɑlˈɑnɡu# | 8 : [+nas,+cons] > ∅ / [-stres] __ #
+*#fˌɑlˠˈɑnɡu# | 17 : {s l;l} > {lˠ;lˠ} / [+syl] __ [+syl,-front]
+*#fˌɑlˠˈɑnɡʊ# | 21 : [-lo,+syl,-long,-cons] > [-tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian I stage form : *#fˌɑlˠˈɑnɡʊ#
+*#fˌɑlˠˈɑnɡu# | 69 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#fˌɑlˠˈɑnɡu#
+Middle Proto-Albanian III stage form : *#fˌɑlˠˈɑnɡu#
+*#fˌalˠˈanɡu# | 144 : [+lo] > [+front,-back] 
+*#fˌalˠˈanɡə# | 153 : [-stres,-lo] > ə / __ #
+*#fˌalˠˈanɡ# | 154 : ə > ∅ / [+stres] ( [-syl] )* __ #
+*#fˌalˠˈãnɡ# | 170 : [-cons] > [+nas] / __ [+nas,+cons]
+Late Proto-Albanian stage form : *#fˌalˠˈãnɡ#
+*#fˌalˠˈə̃nɡ# | 193 : [+lo,+nas,+syl,-long] > [-lo,-back,-front,0tense] 
+Proto-Tosk stage form : *#fˌalˠˈə̃nɡ#
+*#fˌalˠˈənɡ# | 194 : [-cons,+nas] > [-nas] 
+Old Northern Tosk Albanian stage form : *#fˌalˠˈənɡ#
+*#falˠˈənɡ# | 211 : [-prim] > [-stres,-prim,+syl,+son,0delrel] 
+Final form : *#falˠˈənɡ#

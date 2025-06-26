@@ -601,23 +601,22 @@ $TODO REGRESSIVE BETA COLORING! - + LOSS -- WORK HERE! TODO REMOVE WHEN ACCOUNTE
 
 
 =Middle Proto-Albanian III
-$ DIACLEA INSERTION A2.XXXXI - ø > œ before it is unrounded by LPA. 
-[+front,+round,-hi] > [-tense]
 
-$DIACLEA FIX  D3.X.b1 -- initial lengthening of stressed lax mid vowels.
-[+prim,-tense] > [+long] / # __ 
 
-$DIACLEA FIX D3.X.b2 -- onset ˌɔ lengthens before non-labials
-ˌɔ > ˌɔː / # __ [-lab]
+$ incorporates DIACLEA INSERTION A2.XXXXI - ø > œ (and o > ɔ) before it is unrounded by LPA. 
+[+syl,+round,-hi] > [-tense]
+
+$DIACLEA FIX  A2.XXXIX.c -- initial lax mid vowel  lengthening phenomena. (D3.X.b1 the tonic  ones). 
+$DIACLEA FIX D3.X.b2 -- initial ˈɔ, and initial ˌɔ, also lengthened more broadly, before non-labials.  Counterbled by initial vowel loss; counterbleeds it in the case of pre-labial examples.
+[-tense,+round,+back] > [+long] / # __ [-lab]
+$D3.X.b1 For ɛ œ it occurs initially when each is stressed (after ø > œ, for convenience) and before a sonorant (or hiatus, but that counts as sonorant).
+[+prim,-tense] > [+long] / # __ [+son]
+
 
 $ Earliest Slavic loans here. 
 
-$TODO LENGTHENING PHENOMENA IN PROGRESS HERE
-$DIACLEA CHANGE A2.XXXIX.c  length emerges initially for lax mid vowels. 
-[+stres,-hi,-lo,-tense] > [+long] / # __
-
 $DIACLEA CHANGE A2.XXXIX.a length emerges for tonic and countertonic elements followed by an voiced consonantal other than m (b~β,d~ð,g,z,ʒ,r,ɾ,l,lˠ,ʎ ; n, ɲ) and then an unstressed vowel. 
-
+$TODO implement. 
 
 $ TODO draw in vowel coalescence phenomena. 
 
@@ -668,11 +667,12 @@ $ ˈœ > ˈy e̯ / __ ([+lab,-syl,+cont,+voi]) [+syl]
 
 $ ---TODO END OF AREA TO CHANGE-- 
 
-$TODO shortenings...
+$TODO analyze shortenings...
 
-$ DIACLEA FIX D3.X.c length becomes diphthongization for lax long vowels. For this, diphthongization univerally arises from long lax mid vowels that reached a certain point. Unified rule with V[+hi,aplace] ə, schwa excrescence becomes the second diphthong element. This merges in with etymological schwa. 
-[+long,-tense] > [+hi,-long] ə
-ə > [-syl,+tense,afront,bback,uround,ulab] / [+hi,+syl,afront,bback,uround] __
+$TODO, EPSILON NOTE: from this point onward, De Vaan uses *e, but the difference between *e and *ɛ is not meaningful (any longer), and the gold outcomes in ALLex feature /ɛ/, so we will have to at some point move (or merge) these to/as ɛ -- probably at the end.
+$bandaid here thus inserted
+[-round,+syl,-hi,-lo] > [-tense] 
+
 
 $ a-mutation -- DV1736's 5a.2, also DV1735~ 2.2C2 + de Vaan 2004: 78--83. --  e (or ɛ it seems?) instances lower to a under the influence of /a/ in next syllable it seems. -- but per De Vaan 2004(78-83) this doesn't happen to Latin (and indeed the data largely matches this), and this is handled above in DV2.2.1C2. 
 $[-hi,-round,+syl] > [+lo,-tense] / __ ([-syl])* [+lo,+syl]
@@ -680,13 +680,20 @@ $[-hi,-round,+syl] > [+lo,-tense] / __ ([-syl])* [+lo,+syl]
 $ DV2.2.1C3 -- Lat AU and PPAlb *au (falling diphthong of either w or ʊ̯ , the latter from the bandaid in late PPAlb) become a , but not early enough to trigger i-mutation (and likely also after contact with Proto-Vlach?)
 [-syl,-cons,+round] > ∅ / [+lo,+syl] __
 
+$ DIACLEA FIX D3.X.c length becomes diphthongization for lax long vowels. For this, diphthongization univerally arises from long lax mid vowels that reached a certain point. Unified rule with V[+hi,aplace] ə, schwa excrescence becomes the second diphthong element. This merges in with etymological schwa. 
+$ DIACLEA FIX D3.X.d -- -- in partial agreement with DV2.2.1K and 1737's 5b on diphthongized ietation, ɛː ends up as jɛ except before final ɾ lˠ; to these, I broaden these to include n too. Implemented by intervention before D3.X.c resolves.  
+$TODO probably going to have to move this.
+[+long,-tense] ∅ > [+hi,-long,+tense] ə
+
+$D3.X.d
+ə > e̯ / ˈi __ {lˠ;[+cor,-lat,+son]}
+ˈi ə > j ˈɛ
+
+$resolving D3.X.c
+ə > [-syl,+tense,afront,bback,uround,ulab] / [+hi,+syl,afront,bback,uround] __
+
 $ DV 1737's 6. ø > e; implements final parts of DV2.2.1B6-8.
 [+front,-cons,-hi] > [-round,-lab]
-
-$TODO, EPSILON NOTE: from this point onward, De Vaan uses *e, but the difference between *e and *ɛ is not meaningful (any longer), and the gold outcomes in ALLex feature /ɛ/, so we will have to at some point move (or merge) these to/as ɛ -- probably at the end.
-$ likewise, for o and ɔ
-$bandaid here thus inserted
-[+syl,-lo,-hi] > [-tense]
 
 $ DV 1737's 7. Unstressed word-internal vowels to schwa, unstressed initial to zero-- include in _- VOWEL DROP WAVE -_
 
@@ -695,8 +702,9 @@ $_- VOWEL DROP WAVE -_
 $ TODO: currently considering moving the initial syncope wave to this area (currently rule 35, resolving in rule 38); make a note if you do.  
 
 $ DV2.2.2a -- in absolute initial position, all vowels reduce to schwa, on their way to zero (except in __ RC in Buzuku) 
+$ DIACLEA FIX C1.B.XIII -- long vowels are not reduced.
 $ TODO FOR DIA consider suppressing the Buzuku rule here. 
-[-prim] > ∅ / # __
+[-prim,-long] > ∅ / # __ [+cons]
 ∅ > ə / # __ [+son,+cons] [+cons]
 
 $ DV2.2.2b -- internal pretonic vowels "including *au" (now > *a per DV2.2.1C3) to schwa, some of these to fall soon. "These reductions also affected the oldest layers of loanwords from Middle Greek, Italian, and Slavic" -- so will be repeated later just after the point for Old Northern Tosk Albanian. 
@@ -1009,7 +1017,24 @@ $DIACLEA fix A2.XX -- vowels identical in (oral) quality in hiatus merged, curre
 [+syl,αlo,ɣhi,βround,ɩfront,ʊback] [+syl,+stres,αlo,ɣhi,βround,ɩfront,ʊback] > ∅ [+long]
 [+syl,+stres,αlo,ɣhi,βround,ɩfront,ʊback] [+syl,αlo,ɣhi,βround,ɩfront,ʊback] > ∅ [+long,+stres]
 
+$DV2.1F2: və > u- 
+$ this might be yet earlier considering that it also happens in Gheg? Or not. 
+$ DIACLEA FIX D3.X.a -- this is reinterpreted as βo ~ ˌuo̯)as input, and __ C as context. See D3.X(.a) on fixes lo, a nd initial lengthening in MPA II file.  
+$ RELOCDATION B2.VIII -- (reformulated) DV2.1.F2 və (or rather vo-) > u phenomena moved back to before end of Late Proto-Alb. It is shared, after all. 
+${v ə;v ˌə} > {u;ˈu} / # __
+o̯ > ∅ / # ˌu __
+
+$ DIACLEA FIX D3.X.e -- before Later Proto-Tosk finishes (and the split happens), initial uo- ye- to vɔ-, vɛ-. Includes primary and secondary stressed uo-. Does not rope in etymological -vo-. 
+[+round,cprim,dstres] [-syl,-cons] > w [cprim,dstres,-tense] / # __
+
 =Late Proto-Albanian
+
+$DV2.1D2 -- Tosk uo > ua ; written agnostically as to the syllabic status of the a. 
+$DIACLEA FIX B2.IX -- Tosk uo > ua reinterpreted as including wo > wa [D3.X.f] (but not etymological vo-), now occurs at beginning of Proto-Tosk. 
+[+back,-cons,-hi] > [-back,+front,+lo,-round,-lab,+tense] / [+round,-syl] __
+
+$resolving D3.X.f
+w > v
 
 $ DV4.2P *x to *h -- this is listed as a PPAlb to PAlb change, but it is placed here as it also seems to effect Slavic loans as well, and has somewhat different outcomes in (some) Gheg where Tosk -h ends up corresponding to Gheg -f  
 x > h 
@@ -1048,14 +1073,6 @@ $ ã raises to ə in Tosk (ultimately denasalizing to ë outside of some Lab s
 $ DIACLEA CHANGE C3B.XII -- in Proto-Tosk, it is only short ã that becomes ə̃; long ãː actually reflects as -a- (shpërlaj, etc.).  
 [+lo,+nas,+syl,-long] > [-lo,-back,-front,0tense]
 
-$DV2.1D2 -- Tosk uo > ua ; written agnostically as to the syllabic status of the a. 
-[+back,-cons,-hi] > [-back,+front,+lo,-round,-lab,+tense] / [-cons,+round,+hi,+back] __
-
-$DV2.1F2: və > u- 
-$ this might be yet earlier considering that it also happens in Gheg? Or not. 
-$ DIACLEA FIX D3.X.a -- this is reinterpreted as ˌuo̯ as input, and __ C as context. See D3.X(.a) on fixes lo, a nd initial lenghtening in MPA II file. 
-${v ə;v ˌə} > {u;ˈu} / # __
-ˌu o̯ > ˌu / # __
 
 = Proto-Tosk
 

@@ -99,15 +99,21 @@ j [-hi,+syl] > ∅ [-lo,-back,+front,+tense,-cons,-lat,+cont,0delrel]/ [-lab] __
 ð > d / [+prim] __ r
 β > b / [+son,-nas,+cor] __ 
 [+front,+round] > [-front,+back] / [-front] __ [+nas,-lab,-back]
-[+front,+round,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-[+stres,-hi,-lo,-tense] > [+long] / # __ 
+[+syl,+round,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+[-tense,+round,+back] > [+long] / # __ [-lab]
+[+prim,-tense] > [+long] / # __ [+son]
 [+stres,-prim] [+syl] > ə [+long,+stres,+syl,+son,0delrel]
 ∅ > j / __ ˈɛ
 j > ∅ / [-cont] [+cor,+son,-nas] __ ˈɛ
+[-round,+syl,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
 [-syl,-cons,+round] > ∅ / [+lo,+syl] __ 
+[+long,-tense] ∅ > [+hi,-long,+tense,-splng,-cons,-lat,+cont,0delrel] ə
+ə > e̯ / ˈi __ lˠ
+ə > e̯ / ˈi __ [+cor,-lat,+son]
+ˈi ə > j ˈɛ 
+ə > [-syl,+tense,afront,bback,uround,ulab,0stres,0prim,-cons,-lat,+cont,0delrel]/ [+hi,+syl,afront,bback,uround] __ 
 [+front,-cons,-hi] > [-round,-lab] 
-[+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-[-prim] > ∅ / # __ 
+[-prim,-long] > ∅ / # __ [+cons]
 ∅ > ə / # __ [+son,+cons] [+cons]
 [-prim,-back,-long] > ə / @ __ ( @ )* [+prim]
 [-stres,-long] > ə / @ __ ( @ )* [+prim]
@@ -174,6 +180,10 @@ n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ #
 [+syl,+prim,αlo,ɣhi,βround,ɩfront,ʊback] [+syl,αlo,ɣhi,βround,ɩfront,ʊback] > ∅ [+long,+prim,+stres,+syl,+son,0delrel]
 [+syl,αlo,ɣhi,βround,ɩfront,ʊback] [+syl,+stres,αlo,ɣhi,βround,ɩfront,ʊback] > ∅ [+long]
 [+syl,+stres,αlo,ɣhi,βround,ɩfront,ʊback] [+syl,αlo,ɣhi,βround,ɩfront,ʊback] > ∅ [+long,+stres,+syl,+son,0delrel]
+o̯ > ∅ / # ˌu __ 
+[+round,cprim,dstres] [-syl,-cons] > w [cprim,dstres,-tense,-cons,-lat,+cont,0delrel]/ # __ 
+[+back,-cons,-hi] > [-back,+front,+lo,-round,-lab,+tense,-cons,-lat,+cont,0delrel] / [+round,-syl] __ 
+w > v 
 x > h 
 ∅ > b / @ m __ [-stres] [+lat]
 n > nː / [+syl,+hi] __ ə #
@@ -182,8 +192,6 @@ r n > rː
 {r;ɾ̃} > {ɾ;ɾ} 
 rː > r 
 [+lo,+nas,+syl,-long] > [-lo,-back,-front,0tense] 
-[+back,-cons,-hi] > [-back,+front,+lo,-round,-lab,+tense,-cons,-lat,+cont,0delrel] / [-cons,+round,+hi,+back] __ 
-ˌu o̯ > ˌu / # __ 
 [-cons,+nas] > [-nas] 
 ʎ > j 
 [+back,-cont] j > [-back,+front] ∅

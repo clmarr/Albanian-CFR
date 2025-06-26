@@ -144,7 +144,7 @@ A2.XXXVIV -- tentatively into Classical Proto-Albanian -- may need to revise thi
 A2.XXXIX -- (MAJOR -- TODO DISCUSS IN DISS! ALSO-- UNNATURAL CLASSǃ) MPA II~III secondary length revision
 	A2.XXXIX.a -- length emerges for tonic and countertonic elements followed by an voiced consonantal other than m (b~β,d~ð,g,z,ʒ,r,ɾ,l,lˠ,ʎ ; n, ɲ) and then an unstressed vowel. 
 	A2.XXXIX.b -- length due to b/β and ð loss in V __ C (not just V __ V̯ C as above), sometimes with beta coloring in the case of beta.
-	A2.XXXIX.c -- length emerges initially for lax mid vowels. 
+	A2.XXXIX.c -- length emerges initially for tonic lax mid vowels, and ˌɔ before non-labials. 
 	 
 A2.XXXX -- non-primary oː loses length. Bled by A2.XXXVIV.
 
@@ -188,6 +188,10 @@ B2.VI -- (n l >) l l > l moved to before lambdacism
 
 B2.VII -- now regressive i-mutation aka Vj diphthong coalescence happens before progressive i-mutation. 
 
+B2.VIII -- (reformulated) DV2.1.F2 və (or rather vo-) > u phenomena moved back to before end of Late Proto-Alb. It is shared, after all. 
+
+B2.IX -- Tosk uo > ua reinterpreted as including wo > wa (but not etymological vo-), now occurs at beginning of Proto-Tosk. 
+
 ## B3 -- possible relocdations to pre-Latin to post-Latin periods out of deletions to test (TODO!) 
 
 B3.I -- D1.I - DV1740G2: intervocalic lambdacism before front vowels 
@@ -219,7 +223,7 @@ C1A.V -- final -n also deleted with final -m for DV1738, top, part 1.
 
 C1A.VI -- DV3.1B2 nː > n broadened so that all long nasals are shortened. 
 
-
+C1A.VII -- Tosk uo > ua now also understood to include vo > va 
 ### C1B -- input made narrower
 
 C1B.I - Gliding rule (R9 in baseline): [-prim] --> [-stres], countertonic vowels are excempted from gliding at this time. 
@@ -247,6 +251,8 @@ C1B.X -- specifications on the specific environments in which w is actually lost
 C1B.XI -- w- prosthesis before o doesn't happen if there is a labial after it. Now obsolete -- see D3.X -- now interpreted as part of initial lengthening feeding diphthongization.
 
 C1B.XII -- falling sonority diphthong coalescence no longer effects ej. 
+
+C1.B.XIII -- long vowels are not reduced; initial vowels are not reduced before glides (massive change! TODO discuss in diss!) TODO finish implementing.
 
 ## C2 -- changes in output 
 
@@ -376,9 +382,19 @@ D3.IX -- DV1743.B4 (Lw > Lb) now considered to be part of betacism.
 
 D3.X -- various rules concerning initial o- are reinterpreted as part of lengthening....
 
-	D3.X.a -- DV2.1F2, və > u, only happened for two etymological cases, vesc-o/e- > ushqej and evangelium > ungjill. Initial o- > vo-,va- phenomenon is now interpreted as initial lax vowel lengthening. Ungjill will have an explanation in tripthong resolution. Thus, input is now ˌuo̯; and it happens specifically before consonants (vs. ovatia > Old Gheg voese, Old Tosk vaesë... though I suppose that could be the stress retraction.)
+	D3.X.a -- DV2.1F2, və > u, only happened for two etymological cases, vesc-o/e- > ushqej and evangelium > ungjill. Initial o- > vo-,va- phenomenon is now interpreted as initial lax vowel lengthening. Ungjill will have an explanation in tripthong resolution. Thus, input is now ˌuo̯ > βo; and it happens specifically before consonants (vs. ovatia > Old Gheg voese, Old Tosk vaesë... though I suppose that could be the stress retraction.)
 
 	D3.X.b -- dipthhongizations of ɔ ø/œ ɛ > uo ye ie now seen as result of lengthening. 
+		D3.X.b1 For ɛ œ it occurs initially when each is stressed (after ø > œ, for convenience) and before a sonorant (or hiatus, but that counts as sonorant).
+		D3.X.b2 initial ˈɔ, and initial ˌɔ, also lengthened more broadly, before non-labials.
+
+	D3.X.c -- diphthongization univerally arises from long lax mid vowels that reached a certain point. Unified rule with V[+hi,aplace] ə, schwa excrescence becomes the second diphthong element. This merges in with etymological schwa. 
+
+	D3.X.d -- in partial agreement with DV2.2.1K and 1737's 5b on diphthongized ietation, ɛː ends up as jɛ except the primary stressed case before (to-become) final ɾ lˠ; to these, I broaden these to include n too. 
+		
+	D3.X.e -- before Later Proto-Tosk finishes (and the split happens), initial uo- ye- to vɔ-, vɛ-
+
+	D3.X.f -- DV2.1D2 (Tosk uo > ua ) extended to also occur after w. w then merges in parallel in Tosk and Gheg into β. 
 
 D4 -- other reinterpretations. 
 

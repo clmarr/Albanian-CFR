@@ -266,12 +266,19 @@ $ DIACLEA CHANGE D3.III: moved to (originally) second _VOWEL DROP WAVE_, althoug
 $[-stres,-lo] > ə / [+prim] (@)* __ @ 
 
 $--------------------Middle Proto-Albanian-------------------
-=Middle Proto-Albanian
+=Middle Proto-Albanian I
 $ main wave of contact with Proto-Romanian (temporarily?) complete now
 $ evidence from the loans indicates that around this time, the reflexes of hte PIE palatovelars in Alb should be around ts/dz (evidenced mainly by Aromanian as these deaffricate in Romanian), tentatively before the merger of PPAlb a: into o is complete (cf. mazăre for Alb modhull, rață for rosë "duck"), before the passage of PPAlb tʃ dʒ to s z (ciută -- sutë etc...), after the retraction of post-vocalic s (mosh "old") but before the same impact on cluster s including in Latin loans (strunga-shtrungë; Lat fossātum > ORom fsat, Alb fshat, Lat spodium > Alb shpuzë > Rom spuza), tentatively after the emergence of some schwa (Rom nǎpârcǎ -- Alb nëpërkë "adder" --though as of June 2024 this idea is set aside as the vowel reduction patterns of Rom and Alb are too different to warrant so much effort to reconcile them), after the emergence of Albanian suffix -zë, perhaps after the emergence of the Albanian postposed article in -të (Drobeta), at a point when initial PPAlb w is in the stage of [β] (Rom abur -- Alb avull "vapor", vatra-vatër) which closes to /b/ in Romanian just like PPAlb /ð/ (< intervocalic d) goes to PVlach /d/; before ALb long u: > y (ghiuj/gjysh, buc/byk... , the -i- in ghiuj probably for ohter reasons though that is certainly interesting...) 
 
 $ resolution of DV1744.D & DV1744.E1 -- see notes on this above, this is motivated by the outcomes in Aromanian and Romanian of PPAlb ɟ͡ʝ vs. PPAlb d in cases where they both ended up as ð in Alb. 
 {t͡s;d͡z} > {θ;ð}
+
+$DIACLEA INSERTION A2.XII: h is deleted after vowels and before non-stressed vowels except before stressed vowels (later insertions hard to characterize; some role of r?) 
+$ TODO may need to move
+h > ∅ / __ [-stres]
+h > ∅ / [+syl] __
+$∅ > h / # __ [+stres] r
+
 
 $DIACLEA rule A2I: ʎ depalatalizes to l between high vowels
 	$ note, does not seem to happen in Vlacho-Romance: peculium > Alb. pekul but Daco-Rom (dial.) picui & păcui and Aromanian picul'iǔ; milium > Alb mel but Drom mei and Arom mel'iǔ
@@ -308,7 +315,7 @@ $DIACLEA CHANGE C3B.VIII: largely suppressed. Effects of this currently handled 
 $ ... 
 	$ [ɛ] as of Jan 29, 2025, another one added coming first, on the basis of cluster behavior: 
 		$ non-initial (i.e. secondary stressed vowel somewhere before) unstressed vowels (including low vowelsǃ) in [+voi] [-voi] __ [+cor,-voi]. This completely usurps [α]. 
-[-stres] > ∅ / [+stres] ((@)* [+voi]) [-voi] __ [-voi]
+[-stres] > ∅ / [+stres] ((@)* [+voi]) [-voi,+cons] __ [-voi]
 	$ [-stres,-lo] > ∅ / [+son] t __ k  --- now obselete! 
 [-stres,-lo] > ∅ / r __ [-son,-lab]
 [-prim,-lo] > ∅ / [+back,-cont] __ [-cont,-lab] [+syl]
@@ -477,6 +484,8 @@ $ DIACLEA FIX E1.IV -- now two stages of -w- deletion. First just deleted after 
 w > ∅ / [+syl,+round] __ [+syl]
 w > β 
 
+$TODO -- move lenition to here.
+
 $DIACLEA CORRECTION A1.VIII: mid front vowels e œ ɛ before r or s then j become i-mutanda, via the ɪ̯. In these cases, the j is then deleted. 
 $TODO revisit.
 ∅ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] j > ɪ̯ [+prim] [+cont] ∅
@@ -595,6 +604,12 @@ $TODO REGRESSIVE BETA COLORING! - + LOSS -- WORK HERE! TODO REMOVE WHEN ACCOUNTE
 $ DIACLEA INSERTION A2.XXXXI - ø > œ before it is unrounded by LPA. 
 [+front,+round,-hi] > [-tense]
 
+$DIACLEA FIX  D3.X.b1 -- initial lengthening of stressed lax mid vowels.
+[+prim,-tense] > [+long] / # __ 
+
+$DIACLEA FIX D3.X.b2 -- onset ˌɔ lengthens before non-labials
+ˌɔ > ˌɔː / # __ [-lab]
+
 $ Earliest Slavic loans here. 
 
 $TODO LENGTHENING PHENOMENA IN PROGRESS HERE
@@ -653,6 +668,12 @@ $ ˈœ > ˈy e̯ / __ ([+lab,-syl,+cont,+voi]) [+syl]
 
 $ ---TODO END OF AREA TO CHANGE-- 
 
+$TODO shortenings...
+
+$ DIACLEA FIX D3.X.c length becomes diphthongization for lax long vowels. For this, diphthongization univerally arises from long lax mid vowels that reached a certain point. Unified rule with V[+hi,aplace] ə, schwa excrescence becomes the second diphthong element. This merges in with etymological schwa. 
+[+long,-tense] > [+hi,-long] ə
+ə > [-syl,+tense,afront,bback,uround,ulab] / [+hi,+syl,afront,bback,uround] __
+
 $ a-mutation -- DV1736's 5a.2, also DV1735~ 2.2C2 + de Vaan 2004: 78--83. --  e (or ɛ it seems?) instances lower to a under the influence of /a/ in next syllable it seems. -- but per De Vaan 2004(78-83) this doesn't happen to Latin (and indeed the data largely matches this), and this is handled above in DV2.2.1C2. 
 $[-hi,-round,+syl] > [+lo,-tense] / __ ([-syl])* [+lo,+syl]
 
@@ -668,13 +689,6 @@ $bandaid here thus inserted
 [+syl,-lo,-hi] > [-tense]
 
 $ DV 1737's 7. Unstressed word-internal vowels to schwa, unstressed initial to zero-- include in _- VOWEL DROP WAVE -_
-
-
-$DIACLEA INSERTION A2.XII: h is deleted after vowels and before non-stressed vowels except before stressed vowels (later insertions hard to characterize; some role of r?) 
-$ TODO may need to revise.
-h > ∅ / __ [-stres]
-h > ∅ / [+syl] __
-$∅ > h / # __ [+stres] r
 
 $ --- Second wave (as originally written) of early vowel reduction phenomena here --- 
 $_- VOWEL DROP WAVE -_

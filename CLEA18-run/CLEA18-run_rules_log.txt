@@ -39,11 +39,13 @@ j > ɟ / # __
 ʒ > ɟ 
 {s n;t n;d n;n n;k n} > {nː;nː;nː;nː;nː} 
 {t͡s;d͡z} > {θ;ð} 
+h > ∅ / __ [-stres]
+h > ∅ / [+syl] __ 
 ʎ > l / [+hi] __ [+hi]
 [+back,+cons] > j / [-cons,-front] __ [-stres,+front] t
 [+back,+cons] > j / [+front] __ t
 n [+back,+cons] > ɲ/ [-round] __ t
-[-stres] > ∅ / [+stres] ( ( @ )* [+voi] ) [-voi] __ [-voi]
+[-stres] > ∅ / [+stres] ( ( @ )* [+voi] ) [-voi,+cons] __ [-voi]
 [-stres,-lo] > ∅ / r __ [-son,-lab]
 [-prim,-lo] > ∅ / [+back,-cont] __ [-cont,-lab] [+syl]
 [-stres,-lo] > ∅ / [+syl] [-cor,-cont] __ [-voi,-lab]
@@ -105,8 +107,6 @@ j > ∅ / [-cont] [+cor,+son,-nas] __ ˈɛ
 [-syl,-cons,+round] > ∅ / [+lo,+syl] __ 
 [+front,-cons,-hi] > [-round,-lab] 
 [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-h > ∅ / __ [-stres]
-h > ∅ / [+syl] __ 
 [-prim] > ∅ / # __ 
 ∅ > ə / # __ [+son,+cons] [+cons]
 [-prim,-back,-long] > ə / @ __ ( @ )* [+prim]

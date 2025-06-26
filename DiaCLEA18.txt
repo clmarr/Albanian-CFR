@@ -365,7 +365,7 @@ $ DIACLEA CORRECTION C3B.II: this does not happen prevocalically (perhaps becaus
 $ DIACLEA CORRECTION D3.IV -- this is consolidated into the resolution of i-mutation. Commented out. 
 $[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ {[-syl];#}
 
-$DIACLEA FIX A2.XXXI.a Middle Proto-Albanian I -- stress retraction in V β ˈV-hi (ablēv-ā- > blej , arrīv-ā- > arrij, Drivastum > Drisht, lav-ā- > laj, oli̍̄vānu > ullî, etc. Including caballus > kuol, kālë for good measure. 
+$DIACLEA FIX A2.XXXI.a Middle Proto-Albanian I -- stress retraction in V β ˈV-hi (ablēv-ā- > blej , arrīv-ā- > arrij, Drivastum > Drisht, lav-ā- > laj, oli̍̄vānu > ullî, etc. Including caballus > kuol, kālë for good measure. Bled by ɒ > ɔ but maybe that can be moved later? 
 $ TODO write about this in dissertation!
 $ TODO possibly broaden this to other cases of stress retraction...
 [+syl] [+lab,+voi,-syl,-nas] [+prim,+lo] > [+prim] [+lab] [-stres] / @ __
@@ -407,6 +407,7 @@ $[+stres,+tense,+front,-lab] > [+hi] / __ [+cont,-lab,+strid] ([+cons]) j
 
 $ raising of ɔ to o seems implicit here as a PAlb *ɔ is not handled for following rules concerning words were it is supposed to have arisen... -- i.e. > ø under i-mutation (5a.iii on p1736; 1735DV.A6 on this for reflex of PPAlb aː), seen also in the formulation of o-breaking rules (DV1736~G1 & G2)... 
 $ This can be handled in tandem with the raising of /ʊ/ back to /u/, which occurs for the reflexes of both Latin U and PPAlb *u (DV1735~2.2E1, -E2)
+$ TODO examine whether we really want ɔ > o here.
 $ DIACLEA FIX C3A.5 -- round vowel now effects /ʏ/ too
 [+round,+syl] > [+tense]
 
@@ -585,9 +586,9 @@ $ DIACLEA CHANGE C1B.XII -- no longer effects e of any stress level. Does effect
 $DIACLEA CORRECION D3.V -- i-mutation resolution combined with (E1.I) includes jɔ > œ (/ ø) and (A1.VIII) ɪ̯œ > y. 
 $ DIACLEA CORRECTION D3.V: likewise, unification of ɪ̯ a & j a (christiān-u > krishter-ë). This does not happen after labials (lapathia > lëpjetë, pastica > bjeshkë etc.) (and no evidence of D3.V happening after labials either.). As a bonus, final -ja to -e is accounted for. 
 $ First part unifies the outcomes for iota/yod + V sequences, not occurring after labials {ɪ̯;j} {ˈɑ;ˌɑ} > e, Jø > y , Jɔ > ø at least -- and if the current handling of i-mut is right, also J e/ɛ > i 
-$ For this, first, the (stressed) front mid round vowels raise as they coalesce (j e, j ɛ, j ø > i i y), then the back and round vowels front (and raise, in the case of a) to (tense?) mid or high front vowels. U is not included here, it'll be covered in the next part.
+$ For this, first, the (stressed) front mid round vowels raise as they coalesce (j e, j ɛ, j ø > i i y), then the back and round vowels front (and raise, in the case of a) to (tense?) mid or high front vowels. U is not included here, it'll be covered in the next part. Second part doesn't happen to unstressed either. 
 j [+front,-lo,+stres] > ∅ [+hi,+tense] / [-lab] __
-j [-hi,+syl] > ∅ [-lo,-back,+front,+tense] / [-lab] __
+j [-hi,+syl,+stres] > ∅ [-lo,-back,+front,+tense] / [-lab] __
 
 
 $ DIACLEA INSERTION A2.XXXXIII regressive beta-coloring for initial or soon-to-be initial front vowels, becomes round and takes backness of following vocoid, before [+lab,-son,+voi] ([-cons] ) [+voi,-syl]. Soon to be initial -- seeing through (([-son]) [-son] (([-cons] ) r )) . Maybe move after vowel falls to make this a simpler rule (or move htem before)

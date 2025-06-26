@@ -73,6 +73,7 @@ w > v / [+hi,+back,+syl] ( [+nas] ) __ [+front,-hi,+prim]
 n [+lab,-syl,+voi] > m/ __ [+front,-hi,-prim]
 [+nas,+cons] > ∅ / __ [+strid]
 [+cons] > ∅ / [+cons] __ [-son]
+[-prim,-hi] > ə / # ( [-son] )* [-delrel,-voi] __ r ( [+syl] ) [+prim]
 [-stres,+front] > [+hi] / [+cons] __ 
 w > β / # __ 
 w > β / [+son,+cor] __ 
@@ -124,7 +125,6 @@ t > d / n __ ( [-syl] )* [+stres]
 t > d / [+stres] ( [-syl] )* n __ 
 [-cont,-cor] > [+voi] / [+nas] __ 
 θ > f / [+cons] __ 
-w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
 s > z / __ [+voi,+cons,-lat]
 s > ʃ 

@@ -1,19 +1,23 @@
 Derivation file for run '../Albanian-diachrony/Albanian-CFR/CLEA18-run'; etymon number :849:
-#pˈinnɑ# >>> *#pˈɛnə# ( GOLD : #pˈɛndə#) :
-p ˈi n n ɑ 
-*#pˈɪnnɑ# | 21 : [-lo,+syl,-long,-cons] > [-tense,-cons,-lat,+cont,0delrel] 
-*#pˈɪnːɑ# | 39 : {s n;t n;d n;n n;k n} > {nː;nː;nː;nː;nː} 
-Middle Proto-Albanian I stage form : *#pˈɪnːɑ#
-*#pˈenːɑ# | 73 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#pˈenːɑ#
-Middle Proto-Albanian III stage form : *#pˈenːɑ#
-*#pˈɛnːɑ# | 108 : [-round,+syl,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
-*#pˈɛnːa# | 145 : [+lo] > [+front,-back] 
-*#pˈɛnːə# | 161 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-*#pˈɛ̃nːə# | 171 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian stage form : *#pˈɛ̃nːə#
-*#pˈɛ̃nə# | 191 : [+nas,+cons] > [-long,-splng] 
-Proto-Tosk stage form : *#pˈɛ̃nə#
-*#pˈɛnə# | 195 : [-cons,+nas] > [-nas] 
-Old Northern Tosk Albanian stage form : *#pˈɛnə#
-Final form : *#pˈɛnə#
+#pˈilleum# >>> *#pˈɛl# ( GOLD : #pˈil#) :
+p ˈi l l e u m 
+*#pˈilleu# | 8 : [+nas,+cons] > ∅ / [-stres] __ #
+*#pˈillju# | 16 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+*#pˈilju# | 18 : {l;n} > {∅;∅} / l __ 
+*#pˈiʎu# | 19 : l j > ʎ 
+*#pˈɪʎʊ# | 21 : [-lo,+syl,-long,-cons] > [-tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian I stage form : *#pˈɪʎʊ#
+*#pˈɪlʊ# | 43 : ʎ > l / [+hi] __ [+hi]
+*#pˈɪlu# | 69 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+*#pˈelu# | 73 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#pˈelu#
+Middle Proto-Albanian III stage form : *#pˈelu#
+*#pˈɛlu# | 108 : [-round,+syl,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
+*#pˈɛːlu# | 150 : [+prim] > [+long] / __ [+cons,+son,-nas]
+*#pˈɛːlə# | 154 : [-stres,-lo] > ə / __ #
+*#pˈɛːl# | 155 : ə > ∅ / [+stres] ( [-syl] )* __ #
+Late Proto-Albanian stage form : *#pˈɛːl#
+Proto-Tosk stage form : *#pˈɛːl#
+*#pˈɛl# | 205 : [+long] > [-long,-splng] 
+Old Northern Tosk Albanian stage form : *#pˈɛl#
+Final form : *#pˈɛl#

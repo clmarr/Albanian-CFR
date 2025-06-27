@@ -11,7 +11,7 @@ k > ∅ / [+stres,-prim] __ s
 {w r;r} > {rː;rː} / # __ 
 r r > rː 
 r j > ʎ / @ __ @
-[-prim,-hi,+round] > [-round,-lab,-back,+front] / __ m [-cons,-round]
+[-hi,+round] > [-round,-lab,-back,+front] / [-back] __ m [-cons,-round]
 [-hi,+round,-prim] > [-long,-splng] 
 {i n;ˌiː n;ˈiː n} > {i n i;ˌiː n i;i n ˈiː} / # ( [-front] )* [+lab,+voi] ( [+cor,+cont] )* ( [+back] ) __ [+lo]
 [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
@@ -59,6 +59,7 @@ n [+back,+cons] > ɲ/ [-round] __ t
 [+round,+syl,-hi,-lo,+long] > [+lo] / [-cont] __ r ( [+syl,-stres] ( [+nas] ) ) #
 [+front,+lo,+round] > [-round,-lab,-lo] / [+cor] __ 
 [+lo,+round] > [-front,+back] 
+[+round] > [-long,-splng] / __ [+lab,+cont,+cons] [-lo]
 [+back,+long,+syl,-lo] > [+front,-back] 
 [+syl] [+lab,+voi,-syl,-nas] [+prim,+lo] > [+prim,+stres,+syl,+son,0delrel] [+lab] [-stres,-prim,+syl,+son,0delrel]/ @ __ 
 w [+syl,αhi,αfront,-long] > ∅ [+round,+lab,+long]/ [-voi,-cont] ( [-prim] ) __ 

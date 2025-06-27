@@ -90,8 +90,8 @@ $DV1740G3 -- PPAlb *-rj- to ʎ. E.g. marathrion > maraj (Rom. marariu). Does not
 $ can be put here before the gliding of Latin i and e.  
 r j > ʎ / @__ @
 
-$ DIACLEA insertion A2.XXXVIV unstressed o unrounds before m hten unround vowel; may need to rethink placement. Going to e for now. 
-[-prim,-hi,+round] > [-round,-lab,-back,+front] / __ m [-cons,-round]
+$ DIACLEA insertion A2.XXXVIV o unrounds (and fronts?) before m then unround vowel; may need to rethink placement. Going to e for now. Doesn't seem to happen after back elements which supports fronting as the mechanism. (promitt-o- > premtoj "promise"; pōma > pemë "tree" [otherwise would be effeected by shortening]; ? rōmānu- > Arvanite/Arbëreshë/Cham rëmër  & Gheg/Arbanasi remën "shepherd, peasant; Vlach" + dialectal Rëmenj (, Pogradec) < rōmān-ī ; glomerata > grëmëratë "biestlings, curds" ( > Greek gramenada) ... not coma > komë etc.)
+[-hi,+round] > [-round,-lab,-back,+front] / [-back] __ m [-cons,-round]
 
 $ DIACLEA insertion A2.XXXX -- non-primary oː loses length. Bled by A2.XXXVIV.
 [-hi,+round,-prim] > [-long]
@@ -156,7 +156,7 @@ $DV1736 "4.", moved back (DIACLEA CORRECTION B2.IV) handling the posited emergen
 $ DIACLEA CORRECTION B2.IV -- laxing moved to Early Proto-Albanian period. 
 [-lo,+syl,-long,-cons] > [-tense]
 
-$TODO WORK HERE -- FILER AT R20 -- 6/24
+$TODO WORK HERE -- FILLER AT R20 -- 6/24
 
 $DIACLEA INSERTION: A2.VIII Latin o and oː alike are changed to short u before non-palatal sonorant consonants, in syllables that are antepenultimate or earlier (i.e. those that will not be final syllables in Late Proto-Albanian)
 	$ this seems to be a change shared with Vlacho-Romance. 
@@ -307,7 +307,9 @@ $ DIACLEA CORRECTION C3B.IV* -- nasal conditioning removed here. Instead nkt > �
 [+back,+cons] > j / [+front] __ t
 n [+back,+cons] > ɲ / [-round] __ t
 
-
+$ DIACLEA INSERTION A2.XXXXVII
+$∅ > j / {# m [+front,-cons] r (k);[+lab,-cons] ([+cor,+cont,-nas] (k)) [+front,-cons] (s) [+back,+cons]} __ [+prim,+lo]
+$TODO do this in MPA II instead, trumpisc-a- is Chr. loan. 
 
 $ DV2.2.2c, resolution -- effacement of internal posttonic vowels is complete in time to block loss of d (> ð) in verdh and lardh, based on example words used. 
 	$ ə > ∅
@@ -360,6 +362,9 @@ $ other relevant cases:
 $ handling now the fork in the fate of ēɲ[round] -- alternatively, could do this by unrounding the unstressed final vowel trigger of this, and that is maybe more parsimonious (one less rule), but may not really be "kosher" so to speak as it is kind of hacky, perhaps. 
 [+front,+lo,+round] > [-round,-lab,-lo] / [+cor] __
 [+lo,+round] > [-front,+back]
+
+$DIACLEA FIX A2.XXXXVIII -- MPA II shortening of long round vowels before continuant consonantal labials 
+[+round] > [-long] / __ [+lab,+cont,+cons] [-lo]
 
 $ De Vaan 1736 "1." + DV1736~A1&A3 (on Lat & PPAlb ū) + DV1735~A7&A8 (on Lat & PPAlb ō) - long back vowels fronted -- listing only the round ones and not including ɒː (incl. from PIE & AGk aː)-- in effect, he seems to mean the non-low long back vowels ones. 
 [+back,+long,+syl,-lo] > [+front,-back]

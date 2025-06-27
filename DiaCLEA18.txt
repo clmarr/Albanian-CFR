@@ -307,6 +307,9 @@ $ DIACLEA CORRECTION C3B.IV* -- nasal conditioning removed here. Instead nkt > �
 [+back,+cons] > j / [+front] __ t
 n [+back,+cons] > ɲ / [-round] __ t
 
+$DIACLEA CORRECTION A1.XI.b b > beta. 
+b > β / [-cons] __ ([+son,+cons]) [+syl]
+
 $ DIACLEA INSERTION A2.XXXXVII
 $∅ > j / {# m [+front,-cons] r (k);[+lab,-cons] ([+cor,+cont,-nas] (k)) [+front,-cons] (s) [+back,+cons]} __ [+prim,+lo]
 $TODO do this in MPA II instead, trumpisc-a- is Chr. loan. 
@@ -335,9 +338,9 @@ $DIACLEA CORRECTION A1.XII -- in earlier Middle Proto-Albanian, early loss of vo
 
 $CLUSTER PHENOMENA IN PROGRESS.
 
-$ DIACLEA CORRECTION A2.XXIII.α  T1 s T2 > sT2 ː brōtascu > breshk, potest-ā- > pushtoj, potestātem > pushtet; trumpisc-ā- > trushkyej -- feeds pre-fricative nasal lossǃ
+$ DIACLEA CORRECTION A2.XXIII.α  [-son] s T2 > sT2 ː brōtascu > breshk, potest-ā- > pushtoj, potestātem > pushtet; trumpisc-ā- > trushkyej [this is an error. tho.] -- feeds pre-fricative nasal loss [this happens later so it can be fed later.]ǃ
 	$ also fabrica etc. cases, magistericus... 
-[-cont,-son] > ∅ / __ [+cont,-syl] [-cont,-son]
+[-son] > ∅ / __ [+cont,-syl] [-cont,-son]
 
 $part I of DV1736.G1 / DV2.2.1L1 has PPAlb ō and Lat ō, as well as Lat o, ultimately becoming *uo before word-final {ɫ,n,r,j}. For this to happen, the ō instances cannot be fronted to ø -- as will happen to long oː otherwise. At the same time, De Vaan does not list a *ɫ in Proto-Albanian or Proto-Albanian, though its sources are clear, coming from a PAlb *lː (DV1739~3.1E), itself with identifiable Pre-Proto-Albanian and Latin sources (DV1740~3.2F, cf. also -E). Makes sense to gather these as /lː/ for now, for the baseline cascade, before this rule. The *Rl aspect of it seems to come after consonantal reductionsː see De Vaan's listing of Latin PARABOLA > përrallë for DV1740~3.2F2. 
 $note that this is not listed for the reflex of PPAlb *ā, which is currently *ɒː, but alas this item *does* get fronted to ø under i-mutation in DV2.2.1B7.
@@ -362,9 +365,6 @@ $ other relevant cases:
 $ handling now the fork in the fate of ēɲ[round] -- alternatively, could do this by unrounding the unstressed final vowel trigger of this, and that is maybe more parsimonious (one less rule), but may not really be "kosher" so to speak as it is kind of hacky, perhaps. 
 [+front,+lo,+round] > [-round,-lab,-lo] / [+cor] __
 [+lo,+round] > [-front,+back]
-
-$DIACLEA CORRECTION A1.XI.b
-b > β / [-cons] __ ([+son,+cons]) [+syl]
 
 $DIACLEA FIX A2.XXXXVIII -- MPA II shortening of long round vowels before continuant consonantal labials 
 [+round] > [-long] / __ [+lab,+cont,+cons] [-lo]
@@ -497,10 +497,10 @@ $ DIACLEA CORRECTION B1.IV -- DV1744.C1 and C4 moved to beginning of Middle Prot
 w > β / {#;[+son,+cor]} __
 
 $ DIACLEA CORRECTION A1.XI
-$ MIDDLE PROTO-ALBANIAN LENITION: d and b to delta and beta in between non-nasal and non-lateral sonorants, settinɡ staɡe for their later loss. More precisely, posterior context is (r) V -- not directly before j. 
+$ MIDDLE PROTO-ALBANIAN LENITION: d and b to delta and beta in between non-nasal and non-lateral sonorants, settinɡ staɡe for their later loss. More precisely, posterior context is (r) V -- not directly before j. As of 6/27/25, decoupled from b to beta. 
 $ TODO reforming timing of this...
 	$ for delta, must be after initial wave of post-nasal vowel losses, which seem to bleed it -- i.e. currently rules 49,50 -- cf. benedicere >bëndëk-o- > bënk-o
-{b;d} > {β;ð} / [+son,-nas,-lat] __ (r) [+syl]
+d > ð / [+son,-nas,-lat] __ (r) [+syl]
 
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM (Rom. cetate), njerkë "stepmother" < NOVERCA
 $ DIACLEA CORRECTION B1.III -- relocdated later -- 

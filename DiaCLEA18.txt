@@ -706,7 +706,7 @@ $TODO probably going to have to move this.
 
 $TODO, EPSILON NOTE: from this point onward, De Vaan uses *e, but the difference between *e and *ɛ is not meaningful (any longer), and the gold outcomes in ALLex feature /ɛ/, so we will have to at some point move (or merge) these to/as ɛ -- probably at the end. Counterfeeds ɛ > ie though.
 $bandaid here thus inserted
-[-round,+front,+syl,-hi,-lo] > [-tense] 
+[+front,+syl,-hi,-lo] > [-tense] 
 
 
 $ a-mutation -- DV1736's 5a.2, also DV1735~ 2.2C2 + de Vaan 2004: 78--83. --  e (or ɛ it seems?) instances lower to a under the influence of /a/ in next syllable it seems. -- but per De Vaan 2004(78-83) this doesn't happen to Latin (and indeed the data largely matches this), and this is handled above in DV2.2.1C2. 

@@ -489,16 +489,19 @@ $ TODO reforming timing of this...
 	$ for delta, must be after initial wave of post-nasal vowel losses, which seem to bleed it -- i.e. currently rules 49,50 -- cf. benedicere >bëndëk-o- > bënk-o
 {b;d} > {β;ð} / [+son,-nas,-lat] __ (r) [+syl] 
 
-$DIACLEA FIX D3.XI -- beta sent to w after round vowels, joining fate of w for these intervocalically (deletion), while blocking i-mutation. 
-β > w / [+round] __
-
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM (Rom. cetate), njerkë "stepmother" < NOVERCA
 $ DIACLEA CORRECTION B1.III -- relocdated later -- 
 $TODO W phenomena including coloring stuff where this matters happen much later, still get to this (tribulum > truoll, viv-o- >v-ua-, scrib-o- > shkr-ua- ...) . TODO May have to go even later because it seems this also happens with Slavic etyma (bɯβɒl(-ʊ,-iːt͡sɑ) > buall(icë); gɒtɒβ-ɒ > gat-ua, pɒdʊkɒβʊ > patkua, pɒrɒβʊ > përua, tɒrɒβʊ> tërua, βɒlkɒβʊ > vallkua, βīrɒβʊ > virua, zɑ̄bɒjɪ > zabua )
 $ Note -- should come before i-mutation ~ ovatia > voesë. 
 $ DIACLEA FIX E1.IV -- now two stages of -w- deletion. First just deleted after round vowels. Later, deleted everywhere, joining fate of β, after first Slavic wave, and some final beta coloring phenomena shared between w and b, both as beta in some places, w in others.. 
-w > ∅ / [+syl,+round] __ [+syl]
 w > β 
+
+$DIACLEA FIX D3.XI -- beta sent to w after  vowels, joining fate of w for round vowels intervocalically (deletion)
+$β > w / [+round] __
+β > w / [-cons] __
+
+$now continuing with E1.IV
+w > ∅ / [+syl,+round] __ [+syl]
 
 
 $ DIACLEA INSERTION A2.XXXXII -right after d > ð, ð reverts to d in V́ __ r
@@ -589,7 +592,10 @@ $ now incorporates (DV1735~A1&A2) diphthong resolution, as well as DIACLEA CORRE
 $ D3.IV as of Feb 2 -- simply not happening for now. 
 $ DIACLEA CHANGE B2>VII -- as of June 20, 2025 -- happening before regressive aspect of i-mutation 
 $ DIACLEA CHANGE C1B.XII -- no longer effects e of any stress level. Does effect u and ɛ still. This can be expressed as αround,αtens
-[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ [+cons]
+$[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ [+cons]
+
+$ DIACLEA FIX D3XII -- INCORPORATING aw > a: here too now.
+[+lo,+syl] [efront,aback,-cons,-syl] > [alo,aback,efront,+long] ∅ / __ [+cons]
 [+syl,αround,αtense] [-syl,-cons,+front,+hi,+tense] > [+front,+hi,+tense] ∅
 
 

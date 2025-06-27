@@ -185,7 +185,13 @@ $[+round,-lo,-hi] > [+hi,-long] / @ __ [+son,+cons,-lab,-front] ([-syl])* [+syl]
 $DIACLEA FIX  A2.XXXXIV s > h in A-prim (W) __ V̯ -- tatoj < tasit-o-, before -st- cluster would be formed by early syncope. Also before o-phenomena (partly for convenience)
 s > h / [+lo,-prim] ([-cons,-syl]) __ [-stres] [-son]
 
-$DIACLEA CORRECTION A2.VIII new version -- o  raising exception when after labial-sonorant (florīnum > flori, proximare > prozhëm, prodāre > prodhoj, maybe prōmitt-o > premtoj) or onset sonorant (rosalia > rrëshajë -- albeit dialectal rrushajë, rōmānus > remër/rëmër, notoj, rozhponjë...), if the following wherein it goes to ɔ instead. Exceptions handled by falling to (ˌɔ). Use ɒ (later ɔ) for these exceptoins. Not necessarily unstressed o -- daemonem > djemër not djemu/-ũ, consobrinus > kushëri not kushuri, etc. 
+$DIACLEA INSERTION A1.XIII length lost in i early. TODO revise?
+[+syl,+front,+hi] > [-long]
+
+$DIACLEA FIX A2.XXXI.ð stress retraction across coronals 
+[+syl] [+cor,-nas,-lat] [+prim,-long] > [+prim] [+cor] [-stres] / __ [-cont,-voi] ( j ) [+syl,+hi] #
+
+$DIACLEA CORRECTION A2.VIII new version -- o  raising exception when after labial-sonorant (florīnum > flori, proximare > prozhëm, prodāre > prodhoj, maybe prōmitt-o > premtoj) or onset sonorant (rosalia > rrëshajë -- albeit dialectal rrushajë, rōmānus > remër/rëmër, notoj, rozhponjë...), if the following wherein it goes to ɔ instead. Exceptions handled by falling to (ˌɔ). Use ɒ (later ɔ) for these exceptions. Not necessarily unstressed o -- daemonem > djemër not djemu/-ũ, consobrinus > kushëri not kushuri, etc. 
 [+round,-prim,-hi] > [+lo,+tense] / {#;[+lab,-son]} [+son,+cor] __
 
 $now the actual internal non-primary o > u rule A2.VIII. Apparently doesn't happen word initially.
@@ -225,9 +231,6 @@ $ seems to come after later (Christian) vocab added -- see evangelium > ungjill.
 
 $DIACLEA INSERTION A2.XXXII  -- w deleted after non-velar obstruents early. Bleeds post-w progressive rounding in this period. Survival of -w- as -b- in zbuloj is morphological. TODO revisit this?
 w > ∅ / [-back,-son] __
-
-$DIACLEA INSERTION A1.XIII length lost in front vowels early. TODO revise?
-[+syl,+front] > [-long]
 
 $merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) ; expanded to cover ŋ n too. 
 $ DIACLEA CHANGE (But not a significant change from baseline it seems?) decoupled these. Handling gn phenomena elsewhere, on the basis of cognatus > kunat, fuskina > fuzhnjë, etc. Furthermore in Romanian words in original -ŋn- reflect in mn or even m- (agnellus > miel) 
@@ -379,7 +382,7 @@ $ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > m
 $DIACLEA FIX A2.XXXVIII Middle Proto-Albanian I --bleeding regressive coloring , w > v between non-mid back vowels an ˈE. Does not happen for b (harroj, lëroj., tabelë, tryezë < trabeza, trā). If it sees through (n), as proposed on June 20, then it also feeds n-loss and bleeds nw > m phenomenon 
 w > v / {[+lo];[+hi,+back,+syl]} ([+nas]) __ [+front,-hi,+prim]
 
-$ DIACLEA INSERTION A2.XXXI.b V B-strid ˈV-hi R V; bled by w > v taverrë phenom. 
+$ DIACLEA INSERTION A2.XXXI.b stress retraction V B-strid ˈV-hi R V; bled by w > v taverrë phenom. 
 [+syl] [+lab,-strid,+voi,-nas] [+prim,-hi] > [+prim] [+lab] [-stres] / __ [+son] [+syl]
 
 $ 4 NEW VOWEL SYSTEM. loss of distinctive vowel length leading to "system"

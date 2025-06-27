@@ -493,7 +493,7 @@ $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he c
 $ DIACLEA CORRECTION B1.III -- relocdated later -- 
 $TODO W phenomena including coloring stuff where this matters happen much later, still get to this (tribulum > truoll, viv-o- >v-ua-, scrib-o- > shkr-ua- ...) . TODO May have to go even later because it seems this also happens with Slavic etyma (bɯβɒl(-ʊ,-iːt͡sɑ) > buall(icë); gɒtɒβ-ɒ > gat-ua, pɒdʊkɒβʊ > patkua, pɒrɒβʊ > përua, tɒrɒβʊ> tërua, βɒlkɒβʊ > vallkua, βīrɒβʊ > virua, zɑ̄bɒjɪ > zabua )
 $ Note -- should come before i-mutation ~ ovatia > voesë. 
-$ DIACLEA FIX E1.IV -- now two stages of -w- deletion. First just deleted after round vowels. Later, deleted everywhere, joining fate of β, after first Slavic wave, and some final beta coloring phenomena shared between w and b, both as beta in some places, w in others.. 
+$ DIACLEA FIX E1.IV -- now two stages of -w- deletion. First just deleted after presonorant round vowels. Later, deleted everywhere, joining fate of β, after first Slavic wave, and some final beta coloring phenomena shared between w and b, both as beta in some places, w in others.. 
 w > β 
 
 $DIACLEA FIX D3.XI -- beta sent to w after  vowels, joining fate of w for round vowels intervocalically (deletion)
@@ -501,7 +501,7 @@ $β > w / [+round] __
 β > w / [-cons] __
 
 $now continuing with E1.IV
-w > ∅ / [+syl,+round] __ [+syl]
+w > ∅ / [+syl,+round] __ [+son]
 
 
 $ DIACLEA INSERTION A2.XXXXII -right after d > ð, ð reverts to d in V́ __ r
@@ -628,11 +628,15 @@ $ incorporates DIACLEA INSERTION A2.XXXXI - ø > œ (and o > ɔ) before it is un
 [+syl,+round,-hi] > [-tense]
 
 $DIACLEA FIX  A2.XXXIX.c -- initial lax mid vowel  lengthening phenomena. (D3.X.b1 the tonic  ones). 
-$DIACLEA FIX D3.X.b2 -- initial ˈɔ, and initial ˌɔ, also lengthened more broadly, before non-labials.  Counterbled by initial vowel loss; counterbleeds it in the case of pre-labial examples.
-[-tense,+round,+back] > [+long] / # __ [-lab]
+
 $D3.X.b1 For ɛ œ it occurs initially when each is stressed (after ø > œ, for convenience) and before a sonorant (or hiatus, but that counts as sonorant).
 [+prim,-tense] > [+long] / # __ [+son]
 
+$DIACLEA FIX A2.XXXXVI -- word initial long vowels shortened. Effects e.g. a: e: < aw aj etc.
+[-prim] > [-long] / # __
+
+$DIACLEA FIX D3.X.b2 -- initial ˈɔ, and initial ˌɔ, also lengthened more broadly, before non-labials.  Counterbled by initial vowel loss; counterbleeds it in the case of pre-labial examples.
+[-tense,+round,+back] > [+long] / # __ [-lab]
 
 $ Earliest Slavic loans here. 
 

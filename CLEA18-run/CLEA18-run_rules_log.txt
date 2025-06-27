@@ -85,7 +85,7 @@ w > β / [+son,+cor] __
 {b;d} > {β;ð} / [+son,-nas,-lat] __ ( r ) [+syl]
 w > β 
 β > w / [-cons] __ 
-w > ∅ / [+syl,+round] __ [+syl]
+w > ∅ / [+syl,+round] __ [+son]
 ð > d / [+prim] __ r
 β > b / [+son,-nas,+cor] __ 
 ∅ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] j > ɪ̯ [+prim,+stres,+syl,+son,0delrel] [+cont,0delrel] ∅
@@ -105,8 +105,9 @@ j [+front,-lo,+stres] > ∅ [+hi,+tense,-cons,-lat,+cont,0delrel]/ [-lab] __
 j [-hi,+syl,+stres] > ∅ [-lo,-back,+front,+tense,-cons,-lat,+cont,0delrel]/ [-lab] __ 
 [+front,+round] > [-front,+back] / [-front] __ [+nas,-lab,-back]
 [+syl,+round,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-[-tense,+round,+back] > [+long] / # __ [-lab]
 [+prim,-tense] > [+long] / # __ [+son]
+[-prim] > [-long,-splng] / # __ 
+[-tense,+round,+back] > [+long] / # __ [-lab]
 [+stres,-prim] [+syl] > ə [+long,+stres,+syl,+son,0delrel]
 ∅ > j / __ ˈɛ
 j > ∅ / [-cont] [+cor,+son,-nas] __ ˈɛ

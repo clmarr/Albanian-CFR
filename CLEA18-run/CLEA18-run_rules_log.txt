@@ -85,11 +85,11 @@ n [+lab,-syl,+voi] > m/ __ [+front,-hi,-prim]
 [-stres,+front] > [+hi] / [+cons] __ 
 w > β / # __ 
 w > β / [+son,+cor] __ 
-d > ð / [+son,-nas,-lat] __ ( r ) [+syl]
+d > ð / [+son,-nas] __ [-cons]
+d r > rː / [-prim] __ 
 w > β 
 β > w / [-cons] __ 
 w > ∅ / [+syl,+round] __ [+son]
-ð > d / [+prim] __ r
 β > b / [+son,-nas,+cor] __ 
 ∅ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] j > ɪ̯ [+prim,+stres,+syl,+son,0delrel] [+cont,0delrel] ∅
 ∅ > ɪ̯ / [-lab] __ [-round,-hi,+prim] [+cons] ( [-syl] )* [+front,-round,-cons]

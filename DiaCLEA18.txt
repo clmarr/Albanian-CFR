@@ -78,11 +78,6 @@ $ needs to come after the nasal-spirant law in Latin input handling so as not to
 $ However, in light of the fact that Proto-Albanian loans reflecting PIE palatovelars reflect as ts dz in Aromanian and various ts s z in Romanian (unlike PAlb ð < PPAlb *d, which reflects with d in Romanian and Aromanian), this is indeed split in two, with the affricate stage first, and the spirantization only after Middle Proto-Albanian (when De Vaan assigns the contact between Proto-Albanian and Proto-Vlach)
 {c͡ç;ɟ͡ʝ} > {t͡s;d͡z}
 
-$DV1740I1 -- initial PPAlb and Lat. r- becomes "*r:"; merges with the reflex of PPAlb initial *wr- (DV1740I2)
-$form prior to 8/5/23 was: (w) r > rː / # __ 
-$format changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
-{w r;r} > {rː;rː} / # __
-
 $DV1740I3 -- internal Lat. -rr- becomes PAlb *r: as well. 
 r r > rː 
 
@@ -282,7 +277,6 @@ h > ∅ / __ [-stres]
 h > ∅ / [+syl] __
 $∅ > h / # __ [+stres] r
 
-
 $DIACLEA rule A2I: ʎ depalatalizes to l between high vowels
 	$ note, does not seem to happen in Vlacho-Romance: peculium > Alb. pekul but Daco-Rom (dial.) picui & păcui and Aromanian picul'iǔ; milium > Alb mel but Drom mei and Arom mel'iǔ
 	$ TODO there is some depalatalization of ʎ that remains unaccounted for ː  oleaster > ullashtër (already u?) ... 
@@ -309,6 +303,15 @@ n [+back,+cons] > ɲ / [-round] __ t
 
 $DIACLEA CORRECTION A1.XI.b b > beta. 
 b > β / [-cons] __ ([+son,+cons]) [+syl]
+
+$DIACLEA FIX A2.XXXXIX -- rVr > rVlˠ dissimilation. Counterbled by initial r trilling. 
+r > lˠ / r [+syl] __
+
+$DV1740I1 -- initial PPAlb and Lat. r- becomes "*r:"; merges with the reflex of PPAlb initial *wr- (DV1740I2)
+$form prior to 8/5/23 was: (w) r > rː / # __ 
+$format changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
+$DIACLEA FIX B1.VI -- initial (w) r trilling moved into MPA I.
+{w r;r} > {rː;rː} / # __
 
 $ DIACLEA INSERTION A2.XXXXVII
 $∅ > j / {# m [+front,-cons] r (k);[+lab,-cons] ([+cor,+cont,-nas] (k)) [+front,-cons] (s) [+back,+cons]} __ [+prim,+lo]

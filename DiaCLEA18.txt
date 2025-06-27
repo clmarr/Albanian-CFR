@@ -88,7 +88,7 @@ r r > rː
 
 $DV1740G3 -- PPAlb *-rj- to ʎ. E.g. marathrion > maraj (Rom. marariu). Does not seem (?) intended to be fed by gliding of Latin i,e in hiatus to j, which is below (GLIDING) -- Latin to PAlb etyma listed by De Vaan are clearly unaffected (altarivm p1737; febrvārivs p1745...). Cited to Bonnet 1998: 208ff; Matzinger 2006: 74. 
 $ can be put here before the gliding of Latin i and e.  
-r j > ʎ / @ __ @
+r j > ʎ / @__ @
 
 $ DIACLEA insertion A2.XXXVIV unstressed o unrounds before m hten unround vowel; may need to rethink placement. Going to e for now. 
 [-prim,-hi,+round] > [-round,-lab,-back,+front] / __ m [-cons,-round]
@@ -307,6 +307,8 @@ $ DIACLEA CORRECTION C3B.IV* -- nasal conditioning removed here. Instead nkt > �
 [+back,+cons] > j / [+front] __ t
 n [+back,+cons] > ɲ / [-round] __ t
 
+
+
 $ DV2.2.2c, resolution -- effacement of internal posttonic vowels is complete in time to block loss of d (> ð) in verdh and lardh, based on example words used. 
 	$ ə > ∅
 $DIACLEA CHANGE C3B.VIII: largely suppressed. Effects of this currently handled in second drop wave; some handled below, for non-low vowels, without a need to explicitly pass through schwa, for hte following contexts
@@ -316,7 +318,7 @@ $DIACLEA CHANGE C3B.VIII: largely suppressed. Effects of this currently handled 
 	$ {ɣ} non-primary (non-low) vowels in in k/g __ t/k(/d/g) V
 	$ {ð}  atonic (non-low) vowels in V b/p/g/k __ [-voi,-lab] 
 $ ... 
-	$ [ɛ] as of Jan 29, 2025, another one added coming first, on the basis of cluster behavior: 
+	$ {ɛ} as of Jan 29, 2025, another one added coming first, on the basis of cluster behavior: 
 		$ non-initial (i.e. secondary stressed vowel somewhere before) unstressed vowels (including low vowelsǃ) in [+voi] [-voi] __ [+cor,-voi]. This completely usurps [α]. 
 [-stres] > ∅ / [+stres] ((@)* [+voi]) [-voi,+cons] __ [-voi]
 	$ [-stres,-lo] > ∅ / [+son] t __ k  --- now obselete! 
@@ -490,7 +492,7 @@ $ DIACLEA CORRECTION A1.XI
 $ MIDDLE PROTO-ALBANIAN LENITION: d and b to delta and beta in between non-nasal and non-lateral sonorants, settinɡ staɡe for their later loss. More precisely, posterior context is (r) V -- not directly before j. 
 $ TODO reforming timing of this...
 	$ for delta, must be after initial wave of post-nasal vowel losses, which seem to bleed it -- i.e. currently rules 49,50 -- cf. benedicere >bëndëk-o- > bënk-o
-{b;d} > {β;ð} / [+son,-nas,-lat] __ (r) [+syl] 
+{b;d} > {β;ð} / [+son,-nas,-lat] __ (r) [+syl]
 
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM (Rom. cetate), njerkë "stepmother" < NOVERCA
 $ DIACLEA CORRECTION B1.III -- relocdated later -- 
@@ -909,7 +911,8 @@ $ De Vaan 2018 (: 1745.A4) -- Latin /b/ is deleted both (DV1745.A2) intervocalic
 	$ for (b) he lists farkë "smithy" < FABRICA, OGeg fëruor "february" < FEBRUĀRIVS, kushëri "cousin" < CŌNSOBRĪNVS, harr-o- "to  forgot < ABERRĀRE
 	$ for (a): buall "buffalo" < BUBALVS, djall "devil" < DIABOLVS, i/e lirë "free" < LIBER, kut "elbow" < CUBITVS) 
 	$ the cases of bubalus > buall, diabolus > djall, liber > lirë and perhaps fabrica > farkë suggest that for De Vaan 2018, this should be placed before the loss of unstressed posttonic internal vowels -- unlike the case with /d/ (i.e. laridum > lardh) [though for DIA this has now been moved] 
-b > ∅ / [+syl] __ (r) [+syl]
+$ SUPPRESSED. Now handled elsewhere.
+$sb > ∅ / [+syl] __ (r) [+syl]
 
 $ --- end of intervocalic drop block ----
 $ TODO -- can remove this TODO when handled other experimenting with other cluster simplifications and then checking if they match those of Orel 
@@ -927,8 +930,10 @@ $changed to sidestep then-current input-side issues in DiaSim. TODO consider res
 $ note that -stres implies a vowel if we are using the default feature definitions and implications (as is intended for this cascade), as the feature [stres] is unspecified unless it is [+syl] 
 $DIACLEA CHANGE C1A.V: final -n also deleted. 
 $DIACLEA CHANGE C2.II  non-low final vowels first to ə, in time to allow Tosk-rhotacism in V̯nV̯# but not many cases of V́nV̯#.  
+$ DIACLEA CHANGE C1.B.XIV -- ɛ no longer deleted word finall
 {m;n;s} > {∅;∅;∅} / __ #
-[-stres,-lo] > ə / __ #
+[-stres,+round] > ə / __ #
+[-stres,+hi] > ə / __ #
 ə > ∅ / [+stres] ([-syl])* __ #
 
 $ DIACLEA CORRECTION E1.III: Tosk rhotacism is now split into two stages: n > ɾ̃, and ɾ̃ > ɾ. First part happens before split, actually. Then final non-low vowels are lost at last. 

@@ -1,31 +1,39 @@
 Derivation file for run '../Albanian-diachrony/Albanian-CFR/CLEA18-run'; etymon number :115:
-#dˌiskwˌiritˈɑːnioː# >>> *#dəʃkəɾtˈɔj# ( GOLD : #ʃcyɾtˈɔj#) :
-d ˌi s k w ˌi r i t ˈɑː n i oː 
-*#dˌiskwˌiritˈɑːnio# | 13 : [-hi,+round,-prim] > [-long,-splng] 
-*#dˌiskwˌiritˈɑːnjo# | 15 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-*#dˌɪskwˌɪrɪtˈɑːnjɔ# | 20 : [-lo,+syl,-long,-cons] > [-tense,-cons,-lat,+cont,0delrel] 
-*#dˌɪskwˌɪrɪtˈɒːnjɔ# | 29 : [-hi,+long,+prim] > [+round,+lab,+lo] / __ [+cons,+son] j [+round]
-*#dˌɪskwˌɪrɪtˈɒːɲɔ# | 35 : n j > ɲ 
-Middle Proto-Albanian I stage form : *#dˌɪskwˌɪrɪtˈɒːɲɔ#
-*#dˌɪskwˌɪrtˈɒːɲɔ# | 51 : [-stres,-lo] > ∅ / r __ [-son,-lab]
-*#dˌɪskˌʏːrtˈɒːɲɔ# | 66 : w [+syl,αhi,αfront,-long] > ∅ [+round,+lab,+long]/ [-voi,-cont] ( [-prim] ) __ 
-*#dˌɪskˌʏːrtˈɔːɲɔ# | 68 : [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
-*#dˌɪskˌʏrtˈɔɲɔ# | 72 : [+syl] > [-long,-splng] 
-*#dˌɪskˌyrtˈoɲo# | 73 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-*#dˌeskˌyrtˈoɲo# | 77 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#dˌeskˌyrtˈoɲo#
-Middle Proto-Albanian III stage form : *#dˌeskˌyrtˈoɲo#
-*#dˌeskˌyrtˈɔɲɔ# | 110 : [+syl,+round,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-*#dˌɛskˌyrtˈɔɲɔ# | 121 : [+front,+syl,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
-*#dəskərtˈɔɲɔ# | 129 : [-prim,-back,-long] > ə / @ __ ( @ )* [+prim]
-*#dəʃkərtˈɔɲɔ# | 148 : s > ʃ 
-*#dəʃkərtˈɔɲə# | 164 : [-stres,+round] > ə / __ #
-*#dəʃkərtˈɔɲ# | 166 : ə > ∅ / [+stres] ( [-syl] )* __ #
-*#dəʃkərtˈɔ̃ɲ# | 182 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian stage form : *#dəʃkərtˈɔ̃ɲ#
-*#dəʃkəɾtˈɔ̃ɲ# | 203 : {r;ɾ̃} > {ɾ;ɾ} 
-Proto-Tosk stage form : *#dəʃkəɾtˈɔ̃ɲ#
-*#dəʃkəɾtˈɔɲ# | 206 : [-cons,+nas] > [-nas] 
-Old Northern Tosk Albanian stage form : *#dəʃkəɾtˈɔɲ#
-*#dəʃkəɾtˈɔj# | 221 : ɲ > j / [-hi] __ #
-Final form : *#dəʃkəɾtˈɔj#
+#dˌiskˌɑbɑllikˈɑːnioː# >>> *#dəʃkavəjkˈɔj# ( GOLD : #ʃkalkˈɔj#) :
+d ˌi s k ˌɑ b ɑ l l i k ˈɑː n i oː 
+*#dˌiskˌɑbɑllikˈɑːnio# | 13 : [-hi,+round,-prim] > [-long,-splng] 
+*#dˌiskˌɑbɑllikˈɑːnjo# | 15 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+*#dˌiskˌɑbɑlikˈɑːnjo# | 17 : {l;n} > {∅;∅} / l __ 
+*#dˌɪskˌɑbɑlɪkˈɑːnjɔ# | 20 : [-lo,+syl,-long,-cons] > [-tense,-cons,-lat,+cont,0delrel] 
+*#dˌɪskˌɑbɑlɪkˈɒːnjɔ# | 29 : [-hi,+long,+prim] > [+round,+lab,+lo] / __ [+cons,+son] j [+round]
+*#dˌɪskˌɑbɑlɪkˈɒːɲɔ# | 35 : n j > ɲ 
+Middle Proto-Albanian I stage form : *#dˌɪskˌɑbɑlɪkˈɒːɲɔ#
+*#dˌɪskˌɑβɑlɪkˈɒːɲɔ# | 47 : b > β / [-cons] __ ( [+son,+cons] ) [+syl]
+*#dˌɪskˌɑβɑlɪkˈɔːɲɔ# | 68 : [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
+*#dˌɪskˌɑβɑlɪkˈɔɲɔ# | 72 : [+syl] > [-long,-splng] 
+*#dˌɪskˌɑβɑlɪkˈoɲo# | 73 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+*#dˌeskˌɑβɑlekˈoɲo# | 77 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#dˌeskˌɑβɑlekˈoɲo#
+*#dˌeskˌɑβɑlikˈoɲo# | 85 : [-stres,+front] > [+hi] / [+cons] __ 
+*#dˌeskˌɑwɑlikˈoɲo# | 91 : β > w / [-cons] __ 
+Late Proto-Albanian I stage form : *#dˌeskˌɑwɑlikˈoɲo#
+*#dˌeskˌɑwɑlikˈɔɲɔ# | 110 : [+syl,+round,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+*#dˌɛskˌɑwɑlikˈɔɲɔ# | 121 : [+front,+syl,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
+*#dəskˌɑwɑləkˈɔɲɔ# | 129 : [-prim,-back,-long] > ə / @ __ ( @ )* [+prim]
+*#dəskˌɑwələkˈɔɲɔ# | 130 : [-stres,-long] > ə / @ __ ( @ )* [+prim]
+*#dəʃkˌɑwələkˈɔɲɔ# | 148 : s > ʃ 
+*#dəʃkˌawələkˈɔɲɔ# | 156 : [+lo] > [+front,-back] 
+*#dəʃkˌawəlkˈɔɲɔ# | 160 : ə > ∅ / [+cons,+son,-long,-back] __ [-cont]
+*#dəʃkˌawəlkˈɔɲə# | 164 : [-stres,+round] > ə / __ #
+*#dəʃkˌawəlkˈɔɲ# | 166 : ə > ∅ / [+stres] ( [-syl] )* __ #
+*#dəʃkˌawəʎkˈɔɲ# | 180 : l > ʎ / __ k
+*#dəʃkˌawəʎkˈɔ̃ɲ# | 182 : [-cons] > [+nas] / __ [+nas,+cons]
+Late Proto-Albanian II stage form : *#dəʃkˌawəʎkˈɔ̃ɲ#
+*#dəʃkˌavəʎkˈɔ̃ɲ# | 197 : w > v 
+Proto-Tosk stage form : *#dəʃkˌavəʎkˈɔ̃ɲ#
+*#dəʃkˌavəʎkˈɔɲ# | 206 : [-cons,+nas] > [-nas] 
+*#dəʃkˌavəjkˈɔɲ# | 207 : ʎ > j 
+Old North Tosk stage form : *#dəʃkˌavəjkˈɔɲ#
+*#dəʃkˌavəjkˈɔj# | 221 : ɲ > j / [-hi] __ #
+*#dəʃkavəjkˈɔj# | 223 : [-prim] > [-stres,-prim,+syl,+son,0delrel] 
+Final form : *#dəʃkavəjkˈɔj#

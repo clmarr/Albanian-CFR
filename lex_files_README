@@ -1,11 +1,16 @@
 #Lexicon files and coordination
 
-gjALex -- gjithë (all) Albanian Lexicon
+## gjALex -- gjithë (all) Albanian Lexicon
+
 will be automatically compiled via merge_lex.py, used properly
 
-##merge_lex.py  -- to make gjALex
+
+
+###merge_lex.py  -- to make gjALex
 
 TODO fill in usage instrs
+
+for periods -- see PeriodizationPolicy (file)
 
 ##Lexica in this folder 
 
@@ -13,10 +18,24 @@ TODO fill in usage instrs
 
 ###Single stage lexica
 
-ALLex -- Albanian Latin Lexicon 
+####ALLex = Albanian Latin Lexicon 
 	Classical Latin loans in to Classical Proto-Albanian, inherited into MSTA 
 	longest running lexicon
 	work began in 2022
 	
+	Exclusions justification : "ExclusionsFromALLex"
+			-- may be worth considering for insertions at later layers! 
+	
+
+	
 ###Multistage lexica
-AlbMultiStageLex -- abortive attempt at a manual multi stage lexicon, probably from late 2024 or 2025 
+
+####LatinChristianVocabToAlbanian
+
+organized by time, some certain and less certain cases of borrowings from Latin in era of Christianization and some later periods (e.g. around time of Slavic contact)
+
+consider dividnig on these grounds and then having it feed into the merged lexicon gjALex
+
+####AlbMultiStageLex 
+
+abortive attempt at a manual multi stage lexicon, probably from late 2024 or 2025 

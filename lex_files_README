@@ -1,0 +1,22 @@
+#Lexicon files and coordination
+
+gjALex -- gjithë (all) Albanian Lexicon
+will be automatically compiled via merge_lex.py, used properly
+
+##merge_lex.py  -- to make gjALex
+
+TODO fill in usage instrs
+
+##Lexica in this folder 
+
+(MSTA = Modern Standard (Tosk) Albanian)
+
+###Single stage lexica
+
+ALLex -- Albanian Latin Lexicon 
+	Classical Latin loans in to Classical Proto-Albanian, inherited into MSTA 
+	longest running lexicon
+	work began in 2022
+	
+###Multistage lexica
+AlbMultiStageLex -- abortive attempt at a manual multi stage lexicon, probably from late 2024 or 2025 

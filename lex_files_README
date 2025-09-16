@@ -8,6 +8,8 @@ will be automatically compiled via merge_lex.py, used properly
 
 ###merge_lex.py  -- to make gjALex
 
+TODO actually implement... 
+
 TODO fill in usage instrs
 
 for periods -- see PeriodizationPolicy (file)
@@ -25,12 +27,22 @@ for periods -- see PeriodizationPolicy (file)
 	
 	Exclusions justification : "ExclusionsFromALLex"
 			-- may be worth considering for insertions at later layers! 
+			
+	best to build gjALex off of ALLex though as some work was done in late June onto gjALex 
+	
+####APIELex 
+
+Proto-Indo-European etyma inherited into modern Albanian
+	
+####APBalkLex.txt
+
+from Balkan substrata into tentative common ancestor of Greek, Albanian (Armenian?) 
 	
 ####EPSEALLex 
-	loans from Slavic into LPA I (or should it be MPA III?)
+	loans from Slavic into LPA I 
 		
 	
-###TODO files to check fo rdecisions 
+###TODO files to check for decisions 
 
 -"etyma to reperiodize.txt"
 "ExclusionsFromALLex" 
@@ -39,12 +51,43 @@ for periods -- see PeriodizationPolicy (file)
 	
 ###Multistage lexica
 
+####AncientGreekLayer.txt
+
+various layers of Greek to diff stages of Albanian... 
+
 ####LatinChristianVocabToAlbanian
 
 organized by time, some certain and less certain cases of borrowings from Latin in era of Christianization and some later periods (e.g. around time of Slavic contact)
 
 consider dividnig on these grounds and then having it feed into the merged lexicon gjALex
 
+####APSlLex.txt
+includes etyma from Slavic into LPA I (identical to EPSEALLex as of 9/16) , and into, tentatively, LPA II
+
+
 ####AlbMultiStageLex 
 
 abortive attempt at a manual multi stage lexicon, probably from late 2024 or 2025 
+
+
+####ALLAPS 
+also with intermediate forms worked in
+	should use this as a basisǃ 
+largely Latin etyma, used in mid 2025, seems to differ from ALLex by 15 -- ID which these are. 
+	1. consideration of alternate hypotheses for dating of allegoria > logori
+	2. MPA I evigl-aː- > yej, per Lopuhaa 2015
+	3. MPA I faʎ-aː > fyej, per Lopuhaa 2015
+	4. alternative dating of causa > kafshë 
+	5-6. two alternatives for cavula > gavër 
+	7. alternative dating for collare > kular
+	8-9. alternative datings for lëvdoj, lavd
+	10. pagav-å- > paguaj from Italo-Romance, per Lopuhaa			[this one also into ALLex. ] 
+	11. prohib-eː- > pruaj per Meyer apud Lopuhaa		[also into ALLex]
+	12. sclawi > shqe "Slav.PL", in addition to shqa
+	13. sed-aː-> shuoaj per Lopuhaa 2015 			[also into ALLex]
+	14. val-eː- > vyej per Lopuhaa 2015			[also into ALLex]
+	15. alt hypoth for miraculum's regular outcome
+	(16.??) debitoːritium > detorës 
+	17 .strambinu > shtrembër
+	?? 
+		a copule things not mutually co-addressed, but long story short, should work off ALLAPSǃ 

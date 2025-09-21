@@ -282,7 +282,7 @@ $DIACLEA rule A2I: ʎ depalatalizes to l between high vowels
 	$ TODO there is some depalatalization of ʎ that remains unaccounted for ː  oleaster > ullashtër (already u?) ... 
 ʎ > l / [+hi] __ [+hi]
 
-$ TODO need to work on this rule -- see "kt outcomes" file. (outdated?)
+$ TODO need to work on this rule -- see "kt outcomes" file. 
 $ k becoming yod before /t/ if next to front vowel -- De Vaan 2018(:1744)  -- DV1744.J3
 	$ potentially IMPORTANT: what frontness should we treat /a/ as having at this point? For the inputs to Gallo-Romance, Pope 1934 treats Latin /a/ and /aː/ as originally backed, but becoming fronted... what should they be here?  
 	$ given that he lists SANCTVS > shenjtë "holy, saint", this either ...
@@ -315,7 +315,7 @@ $DIACLEA FIX B1.VI -- initial (w) r trilling moved into MPA I.
 
 $ DIACLEA INSERTION A2.XXXXVII
 $∅ > j / {# m [+front,-cons] r (k);[+lab,-cons] ([+cor,+cont,-nas] (k)) [+front,-cons] (s) [+back,+cons]} __ [+prim,+lo]
-$TODO do this in MPA II instead, trumpisc-a- is Chr. loan. (obselete?)
+$TODO do this in MPA II instead, trumpisc-a- is Chr. loan. 
 
 $ DV2.2.2c, resolution -- effacement of internal posttonic vowels is complete in time to block loss of d (> ð) in verdh and lardh, based on example words used. 
 	$ ə > ∅
@@ -383,7 +383,6 @@ $[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ {[-syl];#}
 
 $DIACLEA FIX A2.XXXI.a Middle Proto-Albanian I -- stress retraction in V β ˈV-hi (ablēv-ā- > blej , arrīv-ā- > arrij, Drivastum > Drisht, lav-ā- > laj, oli̍̄vānu > ullî, etc. Including caballus > kuol, kālë for good measure. Bled by ɒ > ɔ but maybe that can be moved later? 
 $ TODO write about this in dissertation!
-$ cf. invoke Lopuhaa 2015 
 $ TODO possibly broaden this to other cases of stress retraction...
 [+syl] [+lab,+voi,-syl,-nas] [+prim,+lo] > [+prim] [+lab] [-stres] / @ __
 
@@ -527,7 +526,7 @@ $C3B.VII fix: β > b / @ [+syl] ([-syl])* [+son,-nas,+cor] __
 β > b / [+son,-nas,+cor] __
 
 $DIACLEA CORRECTION A1.VIII: mid front vowels e œ ɛ before r or s then j become i-mutanda, via the ɪ̯. In these cases, the j is then deleted. 
-$TODO revisit. (obsolete?)
+$TODO revisit.
 ∅ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] j > ɪ̯ [+prim] [+cont] ∅
 
 $I-MUTATION HERE, since it can feed ietation/diphthongizations (in case of PPAlb a: > ɒː > ... > ye) and also bleed them. 
@@ -666,7 +665,7 @@ $DIACLEA CHANGE A1.XIV -- seeding of secondary length starts to emerge -- A1.XIV
 
 $ h ejected by initial ˌe, ˌa -- TODO! IPMLEMENT  -- TODO name this!
 
-$TODO REINTERPRETING IETATION AND DIPHTHONGIZATION AS DUE TO LENGTH. GOING OT HAVE TO CHANGE THE BELOW. 
+$TODO REINTERPRETING IETATION AND DIPHTHONGIZATION AS DUE TO LENGTH. GOING OT HAVE TO HCANGE HTE BELOW. 
 $IETATION and DIPHTHONGIZATION follows. 
 $DV2.2.1K and 1737's 5b -- diphthongized ietation -- ɛ (< PPAlb e, Lat e & ae) > ie before "word-final ɫ, r" ; he also attributes this to *e
 $his ɫ is "lː" here though and his r is simply a short r so it is a diagonal grouping in terms of length, hard to capture in a feature matrix. 
@@ -938,7 +937,7 @@ $in effect, this is non-low-vowel unstressed final syllables closed by inflectio
 $form prior to 8/5/23 was: [-stres] {m;s} > ∅ / __ #
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
 $ note that -stres implies a vowel if we are using the default feature definitions and implications (as is intended for this cascade), as the feature [stres] is unspecified unless it is [+syl] 
-$DIACLEA CHANGE C1A.V: final -n also deleted. 
+$DIACLEA CHANGE C1A.V/A1.II: final -n also deleted. 
 $DIACLEA CHANGE C2.II  non-low final vowels first to ə, in time to allow Tosk-rhotacism in V̯nV̯# but not many cases of V́nV̯#.  
 $ DIACLEA CHANGE C1.B.XIV -- ɛ no longer deleted word finall
 {m;n;s} > {∅;∅;∅} / __ #

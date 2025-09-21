@@ -315,7 +315,7 @@ $DIACLEA FIX B1.VI -- initial (w) r trilling moved into MPA I.
 
 $ DIACLEA INSERTION A2.XXXXVII
 $∅ > j / {# m [+front,-cons] r (k);[+lab,-cons] ([+cor,+cont,-nas] (k)) [+front,-cons] (s) [+back,+cons]} __ [+prim,+lo]
-$TODO do this in MPA II instead, trumpisc-a- is Chr. loan. 
+$TODO do this in MPA II instead, trumpisc-a- is Chr. loan. (TODO is this remark obsolete?) 
 
 $ DV2.2.2c, resolution -- effacement of internal posttonic vowels is complete in time to block loss of d (> ð) in verdh and lardh, based on example words used. 
 	$ ə > ∅
@@ -383,6 +383,7 @@ $[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ {[-syl];#}
 
 $DIACLEA FIX A2.XXXI.a Middle Proto-Albanian I -- stress retraction in V β ˈV-hi (ablēv-ā- > blej , arrīv-ā- > arrij, Drivastum > Drisht, lav-ā- > laj, oli̍̄vānu > ullî, etc. Including caballus > kuol, kālë for good measure. Bled by ɒ > ɔ but maybe that can be moved later? 
 $ TODO write about this in dissertation!
+$ cf. Lopuhaa 2015
 $ TODO possibly broaden this to other cases of stress retraction...
 [+syl] [+lab,+voi,-syl,-nas] [+prim,+lo] > [+prim] [+lab] [-stres] / @ __
 
@@ -526,7 +527,7 @@ $C3B.VII fix: β > b / @ [+syl] ([-syl])* [+son,-nas,+cor] __
 β > b / [+son,-nas,+cor] __
 
 $DIACLEA CORRECTION A1.VIII: mid front vowels e œ ɛ before r or s then j become i-mutanda, via the ɪ̯. In these cases, the j is then deleted. 
-$TODO revisit.
+$TODO revisit. (TODO remark obsolete?)
 ∅ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] j > ɪ̯ [+prim] [+cont] ∅
 
 $I-MUTATION HERE, since it can feed ietation/diphthongizations (in case of PPAlb a: > ɒː > ... > ye) and also bleed them. 
@@ -665,7 +666,7 @@ $DIACLEA CHANGE A1.XIV -- seeding of secondary length starts to emerge -- A1.XIV
 
 $ h ejected by initial ˌe, ˌa -- TODO! IPMLEMENT  -- TODO name this!
 
-$TODO REINTERPRETING IETATION AND DIPHTHONGIZATION AS DUE TO LENGTH. GOING OT HAVE TO HCANGE HTE BELOW. 
+$TODO REINTERPRETING IETATION AND DIPHTHONGIZATION AS DUE TO LENGTH. GOING TO HAVE TO CHANGE THE BELOW. 
 $IETATION and DIPHTHONGIZATION follows. 
 $DV2.2.1K and 1737's 5b -- diphthongized ietation -- ɛ (< PPAlb e, Lat e & ae) > ie before "word-final ɫ, r" ; he also attributes this to *e
 $his ɫ is "lː" here though and his r is simply a short r so it is a diagonal grouping in terms of length, hard to capture in a feature matrix. 
@@ -1207,4 +1208,5 @@ $ DV3.1B3 nd > n is listed for PALb to MAlb, but this is really mostly(? only?) 
 $ d > ∅ / n __
 
 $DV1742.M1 h > f is more of a Gheg change (and probably needs to be more finely specified) thus this cascade does not implement it
+
 $DV1742.M2 θ > f with listed Gheg ufull for Tosk uthull (and thjeshtër/fjeshtër < FILIASTER, whatever is made of that) seems transparently more Gheg, and is perhaps not intended to be deterministic and/or needs more fine specification, so currently left unimplemented. 

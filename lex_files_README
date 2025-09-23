@@ -4,8 +4,6 @@
 
 will be automatically compiled via merge_lex.py, used properly
 
-
-
 ###merge_lex.py  -- to make gjALex
 
 TODO actually implement... 
@@ -29,6 +27,7 @@ for periods -- see PeriodizationPolicy (file)
 			-- may be worth considering for insertions at later layers! 
 			
 	best to build gjALex off of ALLex though as some work was done in late June onto gjALex 
+		but now basing off ALLAPS
 	
 ####APIELex 
 

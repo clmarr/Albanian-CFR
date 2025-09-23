@@ -42,9 +42,9 @@ Thus, the stages. Each is recorded at its end point-- the culmination of the cha
 		-- agnostic for now if treating greater Proto-Indo-European, before the split of Anatolian (and Tocharian), or the smaller one here. 
 	layers added at this point: native vocab
 
-	0.1 -- Classical Proto-Indo-European (post-Anatolic)
+	0.1 -- Classical Proto-Indo-European (post-Anatolic) -- not currently implemented (TODO?)
 	0.2 -- Proto-Balkan-Indo-European? ~ common ancestor of Greek, Albanian (Armenian? )
-
+			-- implement? 
 	
 		
 I. Archaic Proto-Albanian -- APA -- changes in this period affect earliest Greek loans, but not earliest wave of Latin loans 
@@ -65,6 +65,8 @@ I. Archaic Proto-Albanian -- APA -- changes in this period affect earliest Greek
 	layers added after this point: Latin wave 1, Greek wave 2 
 
 	note that at early stages of this project, unfortunately and confusingly, "antique" was used for Classical Proto-Albanian, but later for Archaic Proto-Albanian.
+	
+	A putative proto-Messapo-Balkanic would be just before this point, but its existence remains hypothetical.
 
 II. Classical Proto-Albanian -- CPA
 	begins just after 150 BCE

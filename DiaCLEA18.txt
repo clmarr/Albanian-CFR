@@ -2,7 +2,7 @@ $ This cascade is primarily based off of BaseCLEA18, debugging it using DiaSim a
 
 $ On stages/periodization, see file "Periodization policy"
 
-$ "DV-NOTATION" for indexing De Vaan 2018 rules -- DV####.ɑβɣ##. -- DV for De Vaan, ### is page number, ɑβɣ is an alphabetic index in (A, B, C...) for each transformation on the page (starting with A, etc...), and   the number is the line of that transformation on that page. 
+$ "DV-NOTATION" for indexing De Vaan 2018 rules -- DV####.ɑβɣ##. -- DV for De Vaan, ### is page number, ɑβɣ is an alphabetic index in (A, B, C...) for each transformation on the page (starting with A, etc...), and the number is the line of that transformation on that page. 
 
 $TODO incorporate relevant TODOs (TODO FOR DIA, IMPLEMENT FOR DIA etc...) 
 
@@ -948,16 +948,14 @@ $ DIACLEA CHANGE C1.B.XIV -- ɛ no longer deleted word finall
 ə > ∅ / [+stres] ([-syl])* __ #
 
 $ DIACLEA CORRECTION E1.III: Tosk rhotacism is now split into two stages: n > ɾ̃, and ɾ̃ > ɾ. First part happens before split, actually. Then final non-low vowels are lost at last. 
+$ og: n > ɾ̃ / [+syl] __ [+syl]
+$ DIACLEA CORRECTION C3B.XIV -- Tosk rhotacism doesn't happen after penultimate high vowels. As of 10/2/25, ihncluding this as a context conditioning on this 'reversal' rule [rather than a separate rule ~ ɾ̃ > n / [+hi,+prim] __ [-stres] #]. No evidene it's just penultimates.
+n > ɾ̃ / [+syl,-hi] __ [+syl]
 $ TODO consider merging this with vowel drops in more elegant way. 
-n > ɾ̃ / [+syl] __ [+syl]
 ə > ∅ / __ #
-
-$ DIACLEA CORRECTION C3B.XIV -- Tosk rhotacism doesn't happen ---or rather is reversed -- after penultimate high vowels. 
-ɾ̃ > n / [+hi,+prim] __ [-stres] #
 
 $DIACLEA CORRECTION A2.XXIX -- final schwa insertion in etyma that end up assyllabic and stop-final (doesn't seem to happen effectively to z-, s-, zh-, sh-; unclear: n-/në-)
 ∅ > ə / # ([-syl])* [-cont] __ #
-
 
 $DV1738, top, part 3: final -ja(s) to e, clearly bleeding part DV1738 part 2.
 $form prior to 8/5/23 was: j a (s) > e / __ #
@@ -1094,9 +1092,7 @@ $ DIACLEA CORRECTION: the places this actually correctly happens seem to be befo
 ∅ > b / @ m __ [-stres] [+lat]
 
 $DV3.1G1 : Tosk rhotacism -- "dated 800-1000 CE, Janson 1986: 190-211". 
-$ TODO NOTE FOR DIA : note that this may have to precede some vowel drops though -- note the example inimīcvs > armik (which is given by DV'18: 1739), though maybe ə was retained between n-m (note cited form anëmik) 
-$ DIACLEA CORRECTION A1.V: between high vowels and final ə this does not seem to normally happen (furtunë, shpinë, kurtinë, kaptinë, trinë, tinë; exception -- rrëshirë). Block via gemination
-n > nː / [+syl,+hi] __ ə #
+$ TODO NOTE FOR DIA : note that this may have to precede some vowel drops though -- note the example inimīcvs > armik (which is given by DV'18: 1739), though maybe ə was retained between n-m (note cited form anëmik)
 
 $DV3.1H2 : -rn- > -rr- / V __ V . This happens in Gheg and Tosk, but De Vaan 2018, citing Janson 1986(:97f), argues it is post-Slavic. Inasmuch as it happens in Gheg, it is also independent of Tosk rhotacism, and should thus be handled separately.
 $DIACLEA CORRECTION C1A.IV -- now unconditioned (formerly  r n > rː / @ __ @) 
@@ -1113,7 +1109,7 @@ $DIACLEA CHANGE C1A.VI: expand this to the shortening of all long nasals.
 $nː > n
 [+nas,+cons] > [-long]
 
-$BANDAID fix-- since the notation of the data uses ɾ and r not r and rː, this is implemented here, even though DV2018 has a modern Alb r and rː 
+$BANDAID fix-- since the notation of the data uses ɾ and r not r and rː, this is implemented here, even though DV2018 has a modern Alb r and rː . This now includes implementation of Tosk rhotacism [DV3.1G1]
 {r;ɾ̃} > {ɾ;ɾ} 
 rː > r
 

@@ -27,19 +27,24 @@ SORT_ORDER = ["a̯","a","ã","aː","ãː","ˌa","ˌã","ˌaː","ˌãː","ˈa
               "ʋ","ɥ","ɥ̃","y","ỹ","yː","ỹː","ˌy","ˌỹ","ˌyː","ˌỹː","ˈy","ˈỹ","ˈyː","ˈỹː",
               "ɔ̯","ɔ","ɔ̃","ɔː","ɔ̃ː","ˌɔ","ˌɔ̃","ˌɔː","ˌɔ̃ː","ˈɔ","ˈɔ̃","ˈɔː","ˈɔ̃ː",
               "o̯","o","õ","oː","õː","ˌo","ˌõ","ˌoː","ˌõː","ˈo","ˈõ","ˈoː","ˈõː",
-              "q","ɢ","k","ɡ","g","ŋ","x","ɣ","lˠ","ɰ",
+              "q","ɢ","k","kʰ","ɡ","ɡʰ","g","gʰ","ŋ","ŋ̩","x","ɣ","lˠ","l̩ˠ","ɰ",
               "xʷ","ɣʷ","w","w̃","u","ũ","uː","ũː","ˌu","ˌũ","ˌuː","ˌũː","ˈu","ˈũ","ˈuː","ˈũː",
-              "c","ɟ","ɲ","ʎ",
+              "c","ɟ","ɟʰ","ɲ","ɲ̩","ʎ","ʎ̩",
               "t͡ʃ","d͡ʒ","ʃ","ʒ",
-              "t","d","t͡s","d͡z","t͡θ","d͡ð","s","z","θ","ð","n","l","ɾ","r","ɹ",
-              "p","b","ɸ","β","f","v","m",
-              ABSENT_ETYM,UNATTD_ETYM]
+              "t","t̪","tʰ","d","d̪","dʰ","t͡s","d͡z","t͡θ","d͡ð","s","z","θ","ð","n","n̩","n̪","l","l̩","ɾ","ɾ̩","ɾ̃","ɾ̩̃","r","r̩","ɹ","ɹ̩",
+              "p","pʰ","b","bʰ","ɸ","β","f","v","m","m̩",
+              ABSENT_ETYM,UNATTD_ETYM,"*",""] #last three shouldn't really be happening...
 PH_ORDERING = {String: index for index, String in enumerate(SORT_ORDER)}
 
 def linesort(lines):
-    return sorted(lines, key=lambda ln : [SORT_ORDER.index(str,float('inf')) for str in last_content_col_in_line(ln).split(PH_DELIM)])
+    return sorted(lines, key=lambda ln : [SORT_ORDER.index(str) for str in last_content_col_in_line(ln).split(PH_DELIM)])
 
 def last_content_col_in_line(line):
+
+    #TODO debugging
+    if "MPL" in line:
+        print("MPL in "+line)
+
     cmt_start = line.find(CMT_FLAG)
     content = line+""
     if cmt_start != -1:
@@ -47,9 +52,11 @@ def last_content_col_in_line(line):
     if LEX_DELIM not in content:
         return content
     content = content.split(LEX_DELIM)
-    for ci in range (len(content)-1, 0):
-        if content[ci] not in [ABSENT_ETYM,UNATTD_ETYM]:
-            return content[ci]
+
+    for ci in range(1, len(content)):
+        if content[-ci] not in [ABSENT_ETYM,UNATTD_ETYM]:
+           return content[-ci]
+
     return content[0]
 
 

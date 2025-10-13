@@ -23,9 +23,12 @@ ncol = args.numcols if args.numcols else len(lines[startloc].split("$")[0].split
 error_rows = []
 rows_w_commented_delim = []
 
-for li in range(startloc,len(lines)):
+for li in range(startloc, len(lines)):
 	commented = CMT_FLAG in lines[li]
-	cols_here = len(lines[li].split(CMT_FLAG)[0].split(LEX_DELIM))
+	content = lines[li] if not commented else lines[li].split(CMT_FLAG)[0]
+	if len(content.strip()) == 0 :
+		continue
+	cols_here = len(content.split(LEX_DELIM))
 	if cols_here != ncol:
 		error_rows += [li]
 	if commented:
@@ -36,7 +39,12 @@ if len(error_rows) > 0:
 	print("Rows with errant sizes: " + ", ".join([str(ri) for ri in error_rows]))
 if len(rows_w_commented_delim) > 0:
 	print("Rows with column delimiters in comments: "+ ", ".join([str(ri) for ri in rows_w_commented_delim]))
-	
-		
-	
+
+if len(error_rows) == 0:
+	print("no errant rows!")
+else:
+	print("error rows:")
+	if len(error_rows) > 0:
+		for eri in error_rows:
+			print(str(eri)+": "+lines[eri][:lines[eri].index(CMT_FLAG)])
 

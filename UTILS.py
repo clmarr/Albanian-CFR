@@ -4,6 +4,7 @@ HEADER_FLAG = "="
 HEADER_DELIM = ","
 CMT_FLAG = "$"
 LEX_DELIM = " , "
+PH_DELIM = " "
 ABSENT_ETYM = "..."
 UNATTD_ETYM = ">*"
 STAGES = ["Proto-Indo-European", "Proto-Balkan-Indo-European",
@@ -11,6 +12,45 @@ STAGES = ["Proto-Indo-European", "Proto-Balkan-Indo-European",
           "Middle Proto-Albanian I", "Middle Proto-Albanian II",
           "Late Proto-Albanian I", "Late Proto-Albanian II", "Proto-Tosk",
           "Old North Tosk", "Modern Standard Albanian"]
+STRESS_MARKERS = ["ˈ", "ˌ"]
+SORT_ORDER = ["a̯","a","ã","aː","ãː","ˌa","ˌã","ˌaː","ˌãː","ˈa","ˈã","ˈaː","ˈãː",
+              "ħ","ʕ","ɑ̯","ɑ","ɑ̃","ɑː","ɑ̃ː","ˌɑ","ˌɑ̃","ˌɑː","ˌɑ̃ː","ˈɑ","ˈɑ̃","ˈɑː","ˈɑ̃ː",
+              "ɒ̯","ɒ","ɒ̃","ɒː","ɒ̃ː","ˌɒ","ˌɒ̃","ˌɒː","ˌɒ̃ː","ˈɒ","ˈɒ̃","ˈɒː","ˈɒ̃ː",
+              "æ̯","æ","æ̃","æː","æ̃ː","ˌæ","ˌæ̃","ˌæː","ˌæ̃ː","ˈæ","ˈæ̃","ˈæː","ˈæ̃ː",
+              "χ","ʁ","ɐ̯","ɐ","ɐ̃","ɐː","ɐ̃ː","ˌɐ","ˌɐ̃","ˌɐː","ˌɐ̃ː","ˈɐ","ˈɐ̃","ˈɐː","ˈɐ̃ː",
+              "ʔ","h","ɦ","ə̯","ə̯̃","ə","ə̃","əː","ə̃ː","ˌə","ˌə̃","ˌəː","ˌə̃ː","ˈə","ˈə̃","ˈəː","ˈə̃ː",
+              "ɛ̯","ɛ","ɛ̃","ɛː","ɛ̃ː","ˌɛ","ˌɛ̃","ˌɛː","ˌɛ̃ː","ˈɛ","ˈɛ̃","ˈɛː","ˈɛ̃ː",
+              "œ̯","œ","œ̃","œː","œ̃ː","ˌœ","ˌœ̃","ˌœː","ˌœ̃ː","ˈœ","ˈœ̃","ˈœː","ˈœ̃ː",
+              "e̯","e","ẽ","eː","ẽː","ˌe","ˌẽ","ˌeː","ˌẽː","ˈe","ˈẽ","ˈeː","ˈẽː",
+              "ø̯","ø","ø̃","øː","ø̃ː","ˌø","ˌø̃","ˌøː","ˌø̃ː","ˈø","ˈø̃","ˈøː","ˈø̃ː",
+              "ç","ʝ","j","j̃","i","ĩ","iː","ĩː","ˌi","ˌĩ","ˌiː","ˌĩː","ˈi","ˈĩ","ˈiː","ˈĩː",
+              "ʋ","ɥ","ɥ̃","y","ỹ","yː","ỹː","ˌy","ˌỹ","ˌyː","ˌỹː","ˈy","ˈỹ","ˈyː","ˈỹː",
+              "ɔ̯","ɔ","ɔ̃","ɔː","ɔ̃ː","ˌɔ","ˌɔ̃","ˌɔː","ˌɔ̃ː","ˈɔ","ˈɔ̃","ˈɔː","ˈɔ̃ː",
+              "o̯","o","õ","oː","õː","ˌo","ˌõ","ˌoː","ˌõː","ˈo","ˈõ","ˈoː","ˈõː",
+              "q","ɢ","k","ɡ","g","ŋ","x","ɣ","lˠ","ɰ",
+              "xʷ","ɣʷ","w","w̃","u","ũ","uː","ũː","ˌu","ˌũ","ˌuː","ˌũː","ˈu","ˈũ","ˈuː","ˈũː",
+              "c","ɟ","ɲ","ʎ",
+              "t͡ʃ","d͡ʒ","ʃ","ʒ",
+              "t","d","t͡s","d͡z","t͡θ","d͡ð","s","z","θ","ð","n","l","ɾ","r","ɹ",
+              "p","b","ɸ","β","f","v","m",
+              ABSENT_ETYM,UNATTD_ETYM]
+PH_ORDERING = {String: index for index, String in enumerate(SORT_ORDER)}
+
+def linesort(lines):
+    return sorted(lines, key=lambda ln : [SORT_ORDER.index(str,float('inf')) for str in last_content_col_in_line(ln).split(PH_DELIM)])
+
+def last_content_col_in_line(line):
+    cmt_start = line.find(CMT_FLAG)
+    content = line+""
+    if cmt_start != -1:
+        content = content[:cmt_start].strip()
+    if LEX_DELIM not in content:
+        return content
+    content = content.split(LEX_DELIM)
+    for ci in range (len(content)-1, 0):
+        if content[ci] not in [ABSENT_ETYM,UNATTD_ETYM]:
+            return content[ci]
+    return content[0]
 
 
 def col_check(file_loc, numcols=False):
@@ -124,3 +164,4 @@ def change_transcription(f,c,m,r,n_cols=False):
     file.close()
 
     print("Transcription change from '"+m+"' to '"+r+"' complete!")
+

@@ -12,13 +12,13 @@ parser.add_argument("-n","--numcols", default=False)
 args = parser.parse_args()
 
 file_loc = args.file
-ncol = args.numcols if args.numcols else len(lines[startloc].split("$")[0].split([HEADER_DELIM,LEX_DELIM][startloc]))
 
 f = open(file_loc, encoding="utf-8")
 lines = [line for line in f.readlines() if len(line.strip()) > 0] 
 f.close()
 
 startloc = int(lines[0][0] == HEADER_FLAG) #1 if true else 0
+ncol = args.numcols if args.numcols else len(lines[startloc].split("$")[0].split([HEADER_DELIM,LEX_DELIM][startloc]))
 
 error_rows = []
 rows_w_commented_delim = []
@@ -33,9 +33,9 @@ for li in range(startloc,len(lines)):
 			rows_w_commented_delim += [li]
 
 if len(error_rows) > 0:
-	print("Rows with errant sizes: "+ ", ".join(error_rows))
+	print("Rows with errant sizes: " + ", ".join([str(ri) for ri in error_rows]))
 if len(rows_w_commented_delim) > 0:
-	print("Rows with column delimiters in comments: "+ ", ".join(rows_w_commented_delim))
+	print("Rows with column delimiters in comments: "+ ", ".join([str(ri) for ri in rows_w_commented_delim]))
 	
 		
 	

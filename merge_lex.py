@@ -1,5 +1,4 @@
 import UTILS
-import argparse
 
 # Script to create merged lexicon from multiple sources (at OUTPUT)
 # they will be organized (quasi phonemically alphabetized) by reflex form, unless modern reflex is obsolesced,
@@ -11,6 +10,7 @@ import argparse
 OUTPUT = "gjALex.txt"
 STAGE_CIRCUMFIX = "_"
 NATIVE_NAMES = UTILS.STAGES + ["Albanian"]
+OUTPUT_HEADER = UTILS.STAGES
 
 def cmt_stage_marking(line, header_in_use, src):
     content = UTILS.get_lex_line_content(line)
@@ -20,23 +20,55 @@ def cmt_stage_marking(line, header_in_use, src):
     for iter in range(0, len(cols)):
         if cols[iter].strip() not in [UTILS.ABSENT_ETYM, UTILS.UNATTD_ETYM]:
             infix = STAGE_CIRCUMFIX + \
-                "Inherited from " if src in NATIVE_NAMES else src+" into " \
+                ("Inherited from " if src in NATIVE_NAMES else src+" into " ) \
                 + header_in_use[iter] + STAGE_CIRCUMFIX
-    if content.strip() != "":
+    if content.strip() == "":
         print("contentless column: "+line)
         return line
 
     cmt_loc = line.find(UTILS.CMT_FLAG)
-    if cmt_loc != -1:
-        return line[:cmt_loc+1] + infix + line[cmt_loc+1:]
-    else:
-        return line + UTILS.CMT_FLAG + infix
+    return line + (UTILS.CMT_FLAG if cmt_loc == -1 else "") + infix
 
+# makes sure all lines are going to work with the same output header.
+# input_stages : hte ones that are in the input!
+def digest_line(ln, inp_stage_names, src):
+    outp_si , inp_si = 0 , 0
+
+    inp_st_forms = UTILS.get_lex_line_content(ln).split(UTILS.LEX_DELIM)
+    cmt = "" if UTILS.CMT_FLAG not in ln else ln[ln.index(UTILS.CMT_FLAG):]
+
+    if len(inp_st_forms) == 1 and inp_st_forms[0].strip() == "":
+        return ln
+
+    if len(inp_stage_names) != len(inp_st_forms):
+        raise Exception ("Columnation mismatch error! line : "+ln)
+
+    present_atm = False
+    output = []
+
+    while inp_si < len(inp_stage_names):
+        if OUTPUT_HEADER[outp_si] == inp_stage_names[inp_si]:
+            output += [inp_st_forms[inp_si]]
+            present_atm = inp_st_forms[inp_si] != UTILS.ABSENT_ETYM
+            outp_si += 1
+            inp_si += 1
+        else: # output stage not in input
+            if inp_stage_names[inp_si] not in OUTPUT_HEADER:
+                raise Exception("invalid input stage: "+inp_stage_names[inp_si])
+            output += [UTILS.UNATTD_ETYM if present_atm else UTILS.ABSENT_ETYM ]
+            outp_si += 1
+
+    # fill in remainder if there are any
+    while outp_si < len(OUTPUT_HEADER):
+        output += [UTILS.UNATTD_ETYM if present_atm else UTILS.ABSENT_ETYM ]
+        outp_si += 1
+
+    return cmt_stage_marking(UTILS.LEX_DELIM.join(output)+" "+cmt,OUTPUT_HEADER,src)
 
 # dictionary with input stage file names as keys and the stage they are marked as as values.
 INPUTS = {"ALLAPS.txt" : "Latin",  #various stages of Latin currently working from here, rather than ALLex or the Christian Latin file.
-          "APIELex": "Proto-Indo-European", #PIE inheritance
-          "APBalkLex": "Proto-Balkan-Indo-European"} #Balkan Indo-European formations and substrate etyma
+          "APIELex.txt": "Proto-Indo-European", #PIE inheritance
+          "APBalkLex.txt": "Proto-Balkan-Indo-European"} #Balkan Indo-European formations and substrate etyma
          # "AGrAPALex": "Greek" #Ancient Greek into Archaic Proto-Albanian, from three Greek sources.
                 # -- but currently won't work because multiple headers!
 # TODO add in other Greek phases
@@ -50,6 +82,9 @@ def extract_file_lines(path):
     # strip out lines wihtout (uncommented) content
     lines = [li.strip() for li in lines if UTILS.get_lex_line_content(li).strip() != ""]
 
+    #TODO debugging
+    print("header: "+lines[0])
+
     init_by_header = lines[0][0] == UTILS.HEADER_FLAG
     working_header = UTILS.get_lex_line_content(lines[0][1:]).split(UTILS.HEADER_DELIM)
     if not init_by_header:
@@ -59,18 +94,19 @@ def extract_file_lines(path):
 
     source = INPUTS.get(path)
     lines = lines[init_by_header:] # 0 if false
-    return [cmt_stage_marking(li, working_header, source) for li in lines]
+    return [digest_line(li, working_header, source) for li in lines if li.strip() != ""]
 
 #begin to assemble lines.
 outplines = []
 
 for inpi in INPUTS.keys():
+    print("extracting from : "+inpi)
     outplines += extract_file_lines(inpi)
 
 #outplines = [UTILS.HEADER_FLAG + UTILS.HEADER_DELIM.join(UTILS.STAGES)] + UTILS.linesort(outplines)
 
 outf = open(OUTPUT, encoding="utf-8", mode="w")
-outf.writeline(UTILS.HEADER_FLAG + UTILS.HEADER_DELIM.join(UTILS.STAGES))
-outf.writelines(UTILS.linesort(outplines))
+outf.write(UTILS.HEADER_FLAG + UTILS.HEADER_DELIM.join(OUTPUT_HEADER)+"\n")
+outf.write("\n".join(UTILS.linesort(outplines)))
 outf.close()
 

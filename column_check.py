@@ -20,7 +20,9 @@ if len(error_rows) == 0:
     print("no errant rows!")
 else:
     print("error rows:")
-    if len(error_rows) > 0:
-        for eri in error_rows:
-            print(str(eri) + ": " + lines[eri][:lines[eri].index(CMT_FLAG)])
+    f = open(args.file, encoding="utf-8")
+    lines = [line for line in f.readlines() if len(line.strip()) > 0]
+    f.close()
+    for eri in error_rows:
+        print(str(eri) + ": " + lines[eri][:lines[eri].index(UTILS.CMT_FLAG)])
 

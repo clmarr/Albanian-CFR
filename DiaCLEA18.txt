@@ -233,8 +233,12 @@ t p > ɸ t
 $ ----------- Pre-Proto-Albanian = pre-Greek proto-Albanian. --------------
 =Archaic Proto-Albanian
 
-$ rule to capture movement of native and Greek aː to ɔː -- for benefit of the doubt, borrowing Orel's usage of ɒː to allow this to not to pattern with Latin aː while respecting the chronology of vocalic developments on De Vaan p1736. So here we have aː > ɒː. Note also DV1739.A4 where Doric mākhānā is listed here. 
-[+long,+lo] > [+back,+round]
+$ bandaid, essentially: a > ɑ everywhere. 
+[+lo,+syl] > [+back,-front]
+
+$ rule to capture movement of native and Greek aː to ɔː -- for benefit of the doubt, borrowing Orel's usage of ɒː to allow this to not to pattern with Latin aː while respecting the chronology of vocalic developments on De Vaan p1736. So here we have aː(/ɑː)> ɒː. Note also DV1739.A4 where Doric mākhānā is listed here. 
+$ DIACLEA FIX C1.B.XV -- ɑː > ɒː in Archaic Proto-Albanian now doesn't occur in final syllables.
+[+long,+lo] > [+round,+lab] / __ ([-syl])* [+syl]
 
 $ general rule for De Vaan(:1747) is no change in stress placement: by default, Latin loans have the same stress placement as in Classical Latin, "and the same goes for loanwords from later layers... Slavic, Italian... Greek... Turkish". Exceptions seem to be largely morphologically motivated (see bottom of p1747); De Vaan (1747) agrees with Matzinger 2006 that things are too complicated for Jokl 1923's treatment of PPAlb as having general penultimate accent. 
 
@@ -279,10 +283,6 @@ $The best way to handle this for now, without changing all the Latin inputs (but
 $note that for this to work, the *i present as the second element of diphthongs must already be [j] by now. 
 $note that this is NOT a proposed sound change, but a temporary solution to the issue. (and even replacing the Latin short I instances with [ɪ] or [e] might not work to fix it, because even though it does have a basis in both Classical Latin and Romance phonology, it still might cause issues regarding this short I's role as a trigger of i-mutation -- TODO consider that and make remarks here) 
 [+hi,+front,+syl] > [+long]
-
-$ bandaid, essentially: a > ɑ everywhere. 
-[+lo,+syl] > [+back,-front]
-
 
 $--------------------Classical Proto-Albanian----------------------
 =Classical Proto-Albanian
@@ -890,7 +890,7 @@ $[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ [+cons]
 
 $ DIACLEA FIX D3.XII -- INCORPORATING aw > a: here too now.
 [+lo,+syl] [efront,aback,-cons,-syl] > [alo,aback,efront,+long] ∅ / __ [+cons]
-[+syl,αround,αtense] [-syl,-cons,+front,+hi,+tense] > [+front,+hi,+tense] ∅
+[+syl,αround,αtense] [-syl,-cons,+front,+hi,+tense] > [+front,-back,+hi,-lo,+tense] ∅
 
 
 $DIACLEA CORRECION D3.V -- i-mutation resolution combined with (E1.I) includes jɔ > œ (/ ø) and (A1.VIII) ɪ̯œ > y. 
@@ -919,7 +919,7 @@ $TODO REGRESSIVE BETA COLORING! - + LOSS -- WORK HERE! TODO REMOVE WHEN ACCOUNTE
 
 
 $ incorporates DIACLEA INSERTION A2.XXXXI - ø > œ (and o > ɔ) before it is unrounded by LPA. 
-[+syl,+round,-hi] > [-tense]
+[+syl,+round,-hi,-lo] > [-tense]
 
 $DIACLEA FIX  A2.XXXIX.c -- initial lax mid vowel  lengthening phenomena. (D3.X.b1 the tonic  ones). 
 

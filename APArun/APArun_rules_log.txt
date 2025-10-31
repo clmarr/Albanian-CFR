@@ -44,7 +44,8 @@ s > c͡ç / __ [+syl] s
 {k s;s} > {ʃ;ʃ} 
 ʃ > ʒ / __ [+stres]
 t p > ɸ t 
-[+long,+lo] > [+back,+round] 
+[+lo,+syl] > [+back,-front] 
+[+long,+lo] > [+round,+lab] / __ ( [-syl] )* [+syl]
 d > ð / [+syl] __ [+syl]
 ð > j / [+syl] __ [+syl]
 m > b / __ l
@@ -55,7 +56,6 @@ j > ɟ / __ [+stres]
 ∅ > j / __ [-hi,-lo,+front,+syl]
 ˈe > j ˈɑ / __ ( [-syl] )* [+lo,+syl]
 [+hi,+front,+syl] > [+long] 
-[+lo,+syl] > [+back,-front] 
 pʰ > f 
 [+sg,-cont] > [-sg] 
 [+front,+syl] > [-round,-lab] 
@@ -162,11 +162,11 @@ j > ∅ / [+lab,-son] ( ( [+syl] ) r ) __
 [-son,+back] > [-lab,-round] 
 ɪ̯ > j 
 [+lo,+syl] [efront,aback,-cons,-syl] > [alo,aback,efront,+long] ∅/ __ [+cons]
-[+syl,αround,αtense] [-syl,-cons,+front,+hi,+tense] > [+front,+hi,+tense,-cons,-lat,+cont,0delrel] ∅
+[+syl,αround,αtense] [-syl,-cons,+front,+hi,+tense] > [+front,-back,+hi,-lo,+tense,-cons,-lat,+cont,0delrel] ∅
 j [+front,-lo,+stres] > ∅ [+hi,+tense,-cons,-lat,+cont,0delrel]/ [-lab] __ 
 j [-hi,+syl,+stres] > ∅ [-lo,-back,+front,+tense,-cons,-lat,+cont,0delrel]/ [-lab] __ 
 [+front,+round] > [-front,+back] / [-front] __ [+nas,-lab,-back]
-[+syl,+round,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+[+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
 [+prim,-tense] > [+long] / # __ [+son]
 [-prim] > [-long,-splng] / # __ 
 [-tense,+round,+back] > [+long] / # __ [-lab]

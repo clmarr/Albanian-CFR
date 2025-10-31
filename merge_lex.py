@@ -12,20 +12,22 @@ STAGE_CIRCUMFIX = "_"
 NATIVE_NAMES = UTILS.STAGES + ["Albanian"]
 OUTPUT_HEADER = UTILS.STAGES
 
+# TODO note error -- this always marks things as the OUTPUT stage.
 def cmt_stage_marking(line, header_in_use, src):
     content = UTILS.get_lex_line_content(line)
+    if content.strip() == "":
+        print("contentless column: "+line)
+        return line
+
     cols = content.split(UTILS.LEX_DELIM)
 
     infix = ""
     for iter in range(0, len(cols)):
         if cols[iter].strip() not in [UTILS.ABSENT_ETYM, UTILS.UNATTD_ETYM]:
             infix = STAGE_CIRCUMFIX + \
-                ("Inherited from " if src in NATIVE_NAMES else src+" into " ) \
+                ("Inherited from " if src in NATIVE_NAMES else "Borrowed from "+src+" into " ) \
                 + header_in_use[iter] + STAGE_CIRCUMFIX
-    if content.strip() == "":
-        print("contentless column: "+line)
-        return line
-
+            break
     cmt_loc = line.find(UTILS.CMT_FLAG)
     return line + (UTILS.CMT_FLAG if cmt_loc == -1 else "") + infix
 
@@ -67,19 +69,24 @@ def digest_line(ln, inp_stage_names, src):
 
 # dictionary with input stage file names as keys and the stage they are marked as as values.
 INPUTS = {"ALLAPS.txt" : "Latin",  #various stages of Latin currently working from here, rather than ALLex or the Christian Latin file.
-          "APIELex.txt": "Proto-Indo-European", #PIE inheritance
-          "APBalkLex.txt": "Proto-Balkan-Indo-European"} #Balkan Indo-European formations and substrate etyma
-         # "AGrAPALex": "Greek" #Ancient Greek into Archaic Proto-Albanian, from three Greek sources.
-                # -- but currently won't work because multiple headers!
-# TODO add in other Greek phases
-# TODO add in Slavic phases
+          #"APIELex.txt": "Proto-Indo-European", #PIE inheritance #TODO don't do until reasonably confident with later layers (and fulL)
+          #"APBalkLex.txt": "Proto-Balkan-Indo-European", #Balkan Indo-European formations and substrate etyma #TODO don't do until reasonably confident with later layers (and fulL)
+          "ADoLex.txt" : "Doric Greek dialects", #Doric loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc.
+          "AAttLex.txt" : "Attic Greek dialects", #Attic loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc.
+          "AMacLex.txt" : "Macedonian, per Huld, "} #Macedonian loans into Archaic Proto-Albanian (a likely later time than above tho),
+                # as assumed by Huld; TODO maybe move to later era? 
+        #  "AHesLex.txt" : "Classical Proto-Albanian"} #Indo-European inheritance attested by Hesychius of Alexandria
+                    # as loans presumably from Proto-Albanian into Greek dialects, currently attributed by me to Classical Proto-Albanian
+          # currently not using later Greek layers bc of ambiguities; may revise this tho.
+                #TODO not doing until more confident in later stuff etc. They're also in AMacLex.txt.
+# TODO add in Slavic phases once relevant chronotopic and geotopic Slavic phonology has confidence
 
 def extract_file_lines(path):
     f = open(path, encoding="utf-8")
     lines = f.readlines()
     f.close()
 
-    # strip out lines wihtout (uncommented) content
+    # strip out lines without (uncommented) content
     lines = [li.strip() for li in lines if UTILS.get_lex_line_content(li).strip() != ""]
 
     #TODO debugging

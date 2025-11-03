@@ -71,6 +71,8 @@ def digest_line(ln, inp_stage_names, src):
 INPUTS = {"ALLAPS.txt" : "Latin",  #various stages of Latin currently working from here, rather than ALLex or the Christian Latin file.
           #"APIELex.txt": "Proto-Indo-European", #PIE inheritance #TODO don't do until reasonably confident with later layers (and fulL)
           #"APBalkLex.txt": "Proto-Balkan-Indo-European", #Balkan Indo-European formations and substrate etyma #TODO don't do until reasonably confident with later layers (and fulL)
+          "EPSEALLex.txt" : "Proto-Slavic", #First wave of Slavic loans -- into Late Proto-Albanian I
+          "LPSEALLex.txt" : "Proto-Slavic", #Second wave of Slavic loans -- into Late Proto-Albanian II, or maybe to be changed to being into Proto-Tosk?
           "ADoLex.txt" : "Doric Greek dialects", #Doric loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc.
           "AAttLex.txt" : "Attic Greek dialects", #Attic loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc.
           "AMacLex.txt" : "Macedonian, per Huld, "} #Macedonian loans into Archaic Proto-Albanian (a likely later time than above tho),
@@ -79,7 +81,6 @@ INPUTS = {"ALLAPS.txt" : "Latin",  #various stages of Latin currently working fr
                     # as loans presumably from Proto-Albanian into Greek dialects, currently attributed by me to Classical Proto-Albanian
           # currently not using later Greek layers bc of ambiguities; may revise this tho.
                 #TODO not doing until more confident in later stuff etc. They're also in AMacLex.txt.
-# TODO add in Slavic phases once relevant chronotopic and geotopic Slavic phonology has confidence
 
 def extract_file_lines(path):
     f = open(path, encoding="utf-8")

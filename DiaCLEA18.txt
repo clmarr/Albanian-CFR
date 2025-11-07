@@ -919,7 +919,7 @@ $TODO REGRESSIVE BETA COLORING! - + LOSS -- WORK HERE! TODO REMOVE WHEN ACCOUNTE
 $ Earliest Slavic loans here. 
 
 $DIACLEA INSERTION A1.XVI ː ɯ handling 
-$[+syl,+back,+hi] > [+round,+lab]
+[+syl,+back,+hi] > [+round,+lab]
 
 $DIACLEA INSERTION A.1 & A2.XXXXX : æ(ː?) > eː / C-strid __ C Vfront, elsewhere to a (also A1.I). Even if not long, [æ] tends to be longest vowel and this does not seem to merge with /e/ or /ɛ/ immediately assuming the raising to /i/ (/ɪ/?) phenomenon is a bit later. 
 [+lo,-tense,+syl] > [-lo,+tense,+long] / [+cons,-strid] ([-cons]) __ [-syl] [+front]
@@ -933,7 +933,11 @@ $DIACLEA INSERTION A2.XXXXX.a.ii -- eː reflecting æ(ː) raises to ɪ between s
 $ incorporates DIACLEA INSERTION A2.XXXXI - ø > œ (and o > ɔ) before it is unrounded by LPA. 
 [+syl,+round,-hi,-lo] > [-tense]
 
+$DIACLEA FIX A2.XXXXXI : first wave Slavic nasal vowels are unpacted to Vn, with a for ɒ̃. 
+[+syl,+nas] ∅ > [+front,-back,-round,-lab,-nas] n
+
 $DIACLEA FIX  A2.XXXIX.c -- initial lax mid vowel  lengthening phenomena. (D3.X.b1 the tonic  ones). 
+$TODO IMPLEMENT THIS?? 
 
 $D3.X.b1 For ɛ œ it occurs initially when each is stressed (after ø > œ, for convenience) and before a sonorant (or hiatus, but that counts as sonorant).
 [+prim,-tense] > [+long] / # __ [+son]
@@ -1139,7 +1143,7 @@ $no clear way to block this for PPAlb *e, so this will need to be fixed if error
 ˈɛ > ˈɑ / {k;[+cor,-lab,+cont]} __ {l;rː}
 
 $bandaid -- fronting of remaining low vowels at this point, because the lexicon has modern Albanian low vowels as front. 
-[+lo] > [+front,-back]
+[+lo,-round] > [+front,-back]
 
 $ -------- rise of long vowels -------
 $ De Vaan places this between Proto-Albanian and modern PAlb but it seems clear that it is intended to represent a pan-Albanian development
@@ -1409,8 +1413,11 @@ $ DIACLEA CHANGE C3B.XII -- in Proto-Tosk, it is only short ã that becomes ə�
 
 =Proto-Tosk
 
-$DIACLEA INSERTION A1.I -- Slavic aæː handling
+$DIACLEA INSERTION A1.I -- Slavic æː handling
 [+syl,-tense] > [-lo] 
+
+$DIACLEA INSERTION A1.XVI -- Slavic ɯ handling: ɯ > u if htere's any, ɨ >i 
+[+syl,+hi,-round,ɯback] > [-ɯfront,ɯround,ɯlab]
 
 $loss of vocalic nasalization: DV2.1A2, C2, completing E1, F3
 [-cons,+nas] > [-nas]

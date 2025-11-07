@@ -916,7 +916,16 @@ $TODO REGRESSIVE BETA COLORING! - + LOSS -- WORK HERE! TODO REMOVE WHEN ACCOUNTE
 
 
 =Late Proto-Albanian I
+$ Earliest Slavic loans here. 
 
+$DIACLEA INSERTION A.1 & A2.XXXXX : æː > eː / C-strid __ C Vfront, elsewhere to ɛː (also A1.I)
+[+lo,-tense] > [-lo,+tense] / [+cons,-strid] ([-cons]) __ [-syl] [+front]
+
+$DIACLEA INSERTION A2.XXXXX.b other æː all merges to ɑː
+[+lo] > [+tense,-front,+back]
+
+$DIACLEA INSERTION A2.XXXXX.a.ii -- resulting eː reflecting æː raises further to i between same sonorance consonatns. 
+[+front,+tense,+long] > [+hi] / [ason] __ [ason]
 
 $ incorporates DIACLEA INSERTION A2.XXXXI - ø > œ (and o > ɔ) before it is unrounded by LPA. 
 [+syl,+round,-hi,-lo] > [-tense]
@@ -932,7 +941,6 @@ $DIACLEA FIX A2.XXXXVI -- word initial long vowels shortened. Effects e.g. a: e:
 $DIACLEA FIX D3.X.b2 -- initial ˈɔ, and initial ˌɔ, also lengthened more broadly, before non-labials.  Counterbled by initial vowel loss; counterbleeds it in the case of pre-labial examples.
 [-tense,+round,+back] > [+long] / # __ [-lab]
 
-$ Earliest Slavic loans here. 
 
 $DIACLEA CHANGE A2.XXXIX.a length emerges for tonic and countertonic elements followed by an voiced consonantal other than m (b~β,d~ð,g,z,ʒ,r,ɾ,l,lˠ,ʎ ; n, ɲ) and then an unstressed vowel. 
 $TODO implement. 
@@ -1397,6 +1405,9 @@ $ DIACLEA CHANGE C3B.XII -- in Proto-Tosk, it is only short ã that becomes ə�
 
 
 =Proto-Tosk
+
+$DIACLEA INSERTION A1.I -- Slavic aæː handling
+[+syl,-tense] > [-lo] 
 
 $loss of vocalic nasalization: DV2.1A2, C2, completing E1, F3
 [-cons,+nas] > [-nas]

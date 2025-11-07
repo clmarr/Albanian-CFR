@@ -140,7 +140,7 @@ def get_lex_line_content(ln):
 def change_transcription(f,c,m,r,n_cols=False):
     # checking for column errors....
     if col_check_report(f,ncols=n_cols,verbose=True):
-        raise Exception("Tried to change a transcription in a file with inconsistent columns. Aborting for security purposes.")
+        raise Exception("Tried to change a transcription in a file with inconsistent columns. Should have "+str(n_cols)+" columns. Aborting for security purposes.")
 
     vars = [f,c,m,r]
     if False in vars:

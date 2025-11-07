@@ -1416,6 +1416,10 @@ $ DIACLEA CHANGE C3B.XII -- in Proto-Tosk, it is only short ã that becomes ə�
 $DIACLEA INSERTION A1.I -- Slavic æː handling
 [+syl,-tense] > [-lo] 
 
+$other bandaids -- handling of ɑ, β
+[+lo,-round] > [+front,-back] 
+β > v 
+
 $DIACLEA INSERTION A1.XVI -- Slavic ɯ handling: ɯ > u if htere's any, ɨ >i 
 [+syl,+hi,-round,ɯback] > [-ɯfront,ɯround,ɯlab]
 

@@ -939,8 +939,8 @@ $DIACLEA FIX A2.XXXXXI : first wave Slavic nasal vowels are unpacted to Vn, with
 $DIACLEA FIX  A2.XXXIX.c -- initial lax mid vowel  lengthening phenomena. (D3.X.b1 the tonic  ones). 
 $TODO IMPLEMENT THIS?? 
 
-$D3.X.b1 For ɛ œ it occurs initially when each is stressed (after ø > œ, for convenience) and before a sonorant (or hiatus, but that counts as sonorant).
-[+prim,-tense] > [+long] / # __ [+son]
+$D3.X.b1 For ɛ œ it occurs initially when each is stressed (after ø > œ, for convenience) and before a sonorant (or hiatus, but that counts as sonorant). As of Nov 11, 2025, sonorance restriction relaxed too as only exception is eshkë
+[+prim,-tense] > [+long] / # __ 
 
 $DIACLEA FIX A2.XXXXVI -- word initial long vowels shortened. Effects e.g. a: e: < aw aj etc.
 [-prim] > [-long] / # __
@@ -985,10 +985,14 @@ $ DIACLEA CONSOLIDATION D3.X.b: now roped into lengthening as diphthongization, 
 
 $ DV1736's 5a.1 : *ɛ > jɛ ietation (my word)
 $ = DV2.2.1B2 
-∅ > j / __ ˈɛ
+$ DIACLEA FIX C3B.XV.n -- this doesn't happen before nasals (diff from diphthongization at this point) 
+$ DIACLEA FIX C3B.XV.l and .r -- doesn't happen after l at all, happens only after r if the r is after a vowel (Hrepa , Hreɟa , terebellum > rrjep, rrjedh, turjelë) -- handling as polarity between sonorance and nasality, since here is no post vocalic ɛ to be concerned with)
+	$ (initial ietation to be handled above in D3.X.b1) 
+∅ > j / [rson,-rnas] __ ˈɛ [-nas]
 
 $ DV2.2.1B1 : but no ietation in the context TL __ 
-j > ∅ / [-cont] [+cor,+son,-nas] __ ˈɛ
+$j > ∅ / [-cont] [+cor,+son,-nas] __ ˈɛ 
+$ usurped by DIACLEA FIX C3B.XV.l & .r
 
 $DV1737's 5b.iv: *o > *uo/# __ {r,lj},
 $this is also DV2.2.1L2 as concerns Latin o

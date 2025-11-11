@@ -933,8 +933,8 @@ $DIACLEA INSERTION A2.XXXXX.a.ii -- eː reflecting æ(ː) raises to ɪ between s
 $ incorporates DIACLEA INSERTION A2.XXXXI - ø > œ (and o > ɔ) before it is unrounded by LPA. 
 [+syl,+round,-hi,-lo] > [-tense]
 
-$DIACLEA FIX A2.XXXXXI : first wave Slavic nasal vowels are unpacted to Vn, with a for ɒ̃. 
-[+syl,+nas] ∅ > [+front,-back,-round,-lab,-nas] n
+$DIACLEA FIX A2.XXXXXI : first wave Slavic nasal vowels are unpacted to Vn, with a for ɒ̃ and e for ɛ.
+[+syl,+nas] ∅ > [+front,-back,-round,-lab,-nas,+tense] n
 
 $DIACLEA FIX  A2.XXXIX.c -- initial lax mid vowel  lengthening phenomena. (D3.X.b1 the tonic  ones). 
 $TODO IMPLEMENT THIS?? 
@@ -987,7 +987,7 @@ $ DV1736's 5a.1 : *ɛ > jɛ ietation (my word)
 $ = DV2.2.1B2 
 ∅ > j / __ ˈɛ
 
-$ DV2.2.1B1 : but no ietation in the context CL __ 
+$ DV2.2.1B1 : but no ietation in the context TL __ 
 j > ∅ / [-cont] [+cor,+son,-nas] __ ˈɛ
 
 $DV1737's 5b.iv: *o > *uo/# __ {r,lj},

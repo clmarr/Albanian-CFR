@@ -172,15 +172,15 @@ j [-hi,+syl,+stres] > ∅ [-lo,-back,+front,+tense,-cons,-lat,+cont,0delrel]/ [-
 [+syl,+tense,-lo,+long] > [+hi] / [ason] __ [ason]
 [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
 [+syl,+nas] ∅ > [+front,-back,-round,-lab,-nas,+tense,-cons,-lat,+cont,0delrel] n
-[+prim,-tense] > [+long] / # __ [+son]
+[+prim,-tense] > [+long] / # __ 
 [-prim] > [-long,-splng] / # __ 
 [-tense,+round,+back] > [+long] / # __ [-lab]
 [+stres,-prim] [+syl] > ə [+long,+stres,+syl,+son,0delrel]
 [+prim] > [+long] / __ lˠ ( [-lo,-cons] ) #
 [+prim] > [+long] / __ n ( [-lo,-cons] ) #
 [+prim] > [+long] / __ r ( [-lo,-cons] ) #
-∅ > j / __ ˈɛ [-nas]
-j > ∅ / [-cont] [+cor,+son,-nas] __ ˈɛ
+∅ > j / [-cons] [+cor,-lat,-nas,+son] __ ˈɛ [-nas]
+∅ > j / [rson,rnas] __ ˈɛ [-nas]
 [+long,-tense] ∅ > [+hi,-long,+tense,-splng,-cons,-lat,+cont,0delrel] ə
 [+front,+syl,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
 ə > e̯ / ˈi __ lˠ

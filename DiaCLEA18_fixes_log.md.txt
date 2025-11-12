@@ -280,7 +280,7 @@ A2.XXXXXIII : Late Proto-Albanian initial r > rr phenomena
 1216, | ...                | ...                | ...                | ...                | ...                | ...                | ...                | *#rˈɛ̃ʃɪkə#        | *#rˈɛ̃ʃɪkə#        | *#rˈɛ̃ʃɪkə#        | *#ɾˈɛʃɪkə#         | *#ɾˈɛʃɪkə#         | #rˈɛt͡skə#
 
 
-		non-round instinaces not ounded -- Radhimë, rashë, regj (< regius, later loan), ræzika > rezhgë, rɛ̃dʊ >rend
+		non-round instinaces not rounded -- Radhimë, rashë, regj (< regius, later loan), ræzika > rezhgë, rɛ̃dʊ >rend
 
 
 # B Rule relocdation
@@ -410,6 +410,8 @@ C3A.4 -- pre-strident nasal loss now impacts all nasals, not just n.
 
 C3A.5 --  round vowel now effects /ʏ/ too
 
+C3A.6 -- LPA ja(s) > ɛ phenomenon extended to cover Slavic -ɪjɛ finals. In combination with C3B.XVI, this makes it so that post-vocalically (but not post a or Slavic ɒ, per C3B.XVI)
+
 ### C3B -- context made narrower
 
 C3B.I -- "preconsonantal" ʃ to t͡ʃ in most recent modern Albanian is now only pre-nasal
@@ -463,7 +465,7 @@ C3B.XV -- ɛ > jɛ style LPA I ietation (e.g. DV1736's 5a.1) doesn't happen in a
 		C3B.XV.r -- after r -- only if after a vowel [?] (Hrepa > erepa >  rrjep, Rreɟa > ereða > rrjedh, terebellum > turjelë) -- SUGGESTS laryngeal vowels HAVE NOT FALLEN AT THIS TIME {TODO DISCUSS THIS}
 
 	further narrowing later 11/11
-	C1.B.XVI -- ietation rule inputs now narrower... now *does* happen as follows
+C1.B.XVI -- ietation rule inputs now narrower... now *does* happen as follows
 		C1.B.XVI.t ː to ˈɛ, obeying prior context rules above, 
 			posterior context: __  {r s;s s;(s;t) t;p } (r) V
 			written as: __ {[+cor,-lat,-nas] s;([+cor,-lat,-nas]) [-delrel,-back,-voi]} [+son]
@@ -473,6 +475,22 @@ C3B.XV -- ɛ > jɛ style LPA I ietation (e.g. DV1736's 5a.1) doesn't happen in a
 						same prior context as before
 				posterior ː (r) [+voi,+cons,mson,mlab] ([+hi,-back,-nas]) [+back]
 					djemër, pjekë, mjek, qerm, qerdhë, tjegull, vjerdhë
+
+C3B.XVII -- final j a (s) > ɛ new restrictions 
+	C3B.XVII.a  not immediately after low vowels 
+		other exapmlesː Slav rækɒ́ja > rːəkɒ́ja > rrëkajë , ukraja > ... > ukrajë
+		may see thru l or otherwise after lj > j ː  (<Lat) MPA rosālia >.. .> rrëshajë (compare maybe spelaion > shpellë, with some uncertainty)
+		evidence that loss of ð /d, g before r comes beforehandː Slav ɒɡrˈɒdja > ... >   ograjë , plagia > plágja (?) > pllajë 
+			no clear evidence it isn't seeing through voiced consonantsː 	ː	
+				amia > ame (but this word is odd anways)
+			but C3B.XVII.b clearly doesn't apply over palatals
+			may have some relatoin to j > hː SLav postaja > pustahë, lɒ́ja > .. > lohë 
+	C3B.XVII.b -- not after initial syllable vowels	: prijë, vijë (vs. all other -ɪjɛ and -ija cases to -ijë) 
+		anti-first vowel rule below doesn't apply across at least consonants
+					ɟ ː ligje
+					c ː shoqe
+		unhandled	lus dubious probs	loans	zmuːlɟia > zmojle? 	rːobja >rrojbë; 	pəstˈɛːrja > (pë)shterë (however lëngjere etc)
+
 
 ## C4 -- changes in both input and output
 

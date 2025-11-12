@@ -1019,7 +1019,7 @@ $ formatted to allow /w/ to have become [β]
 $ DIACLEA CONSOLIDATION D3.X.b: now roped into initial lengthening (and VwV coalescences.)
 $ ˈœ > ˈy e̯ / __ ([+lab,-syl,+cont,+voi]) [+syl]
 
-$ DIACLEA INSERTION A2.XXXXXIII  -- lengthening before initial round vowels (perhpas via a phonetic w) and before low before non-coronal cons
+$ DIACLEA INSERTION A2.XXXXXIII  -- lengthening before initial round vowels (perhaps via a phonetic w) and before low before non-coronal cons
 r > rː / # __ {[+lo] [+cons,-cor];[+round,-lo]}
 
 $ ---TODO END OF AREA TO CHANGE-- 
@@ -1267,7 +1267,7 @@ $ DIACLEA CHANGE C1.B.XIV -- ɛ no longer deleted word finall
 
 $ DIACLEA CORRECTION E1.III: Tosk rhotacism is now split into two stages: n > ɾ̃, and ɾ̃ > ɾ. First part happens before split, actually. Then final non-low vowels are lost at last. 
 $ og: n > ɾ̃ / [+syl] __ [+syl]
-$ DIACLEA CORRECTION C3B.XIV -- Tosk rhotacism doesn't happen after penultimate high vowels. As of 10/2/25, ihncluding this as a context conditioning on this 'reversal' rule [rather than a separate rule ~ ɾ̃ > n / [+hi,+prim] __ [-stres] #]. No evidene it's just penultimates.
+$ DIACLEA CORRECTION C3B.XIV -- Tosk rhotacism doesn't happen after penultimate high vowels. As of 10/2/25, including this as a context conditioning on this 'reversal' rule [rather than a separate rule ~ ɾ̃ > n / [+hi,+prim] __ [-stres] #]. No evidene it's just penultimates.
 n > ɾ̃ / [+syl,-hi] __ [+syl]
 $ TODO consider merging this with vowel drops in more elegant way. 
 ə > ∅ / __ #
@@ -1278,7 +1278,11 @@ $DIACLEA CORRECTION A2.XXIX -- final schwa insertion in etyma that end up assyll
 $DV1738, top, part 3: final -ja(s) to e, clearly bleeding part DV1738 part 2.
 $form prior to 8/5/23 was: j a (s) > e / __ #
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
-{j a s;j a} > {ɛ;ɛ} / __ #
+ $ TODO CONSIDER MAKING THIS AFTER SECOND SLAV INSERTION (MOVING THIS LATER OR THAT EARLIER) 
+$earlier version ; {j a s;j a} > {ɛ;ɛ} / __ #
+$ DIACLEA CORRECTIONS C3B.XVII.a & .b and C3A.6 : broadened to tentatively hit all vowels (tho in practice just -a- and -ɛ), after nonconsonants or non-first-syllable, non-low vowels -- which conveniently can be handled as V (C)* [-lo]. Not accounting for final -s anymore, tihs should be handled in a separate rule as it is separate. 
+j [-stres] > ɛ / [+syl] ([-syl])* [-lo] __ #
+
 
 $DV1738, top, part 2: final -a(m/n)(s) to ë 
 $form prior to 8/5/23 was: a ([+nas,+cons]) (s) > ə / __ #

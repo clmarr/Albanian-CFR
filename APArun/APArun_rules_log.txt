@@ -180,8 +180,12 @@ j [-hi,+syl,+stres] > ∅ [-lo,-back,+front,+tense,-cons,-lat,+cont,0delrel]/ [-
 [+prim] > [+long] / __ lˠ ( [-lo,-cons] ) #
 [+prim] > [+long] / __ n ( [-lo,-cons] ) #
 [+prim] > [+long] / __ r ( [-lo,-cons] ) #
-∅ > j / [-cons] [+cor,-lat,-nas,+son] __ ˈɛ [-nas]
-∅ > j / [rson,rnas] __ ˈɛ [-nas]
+∅ > j / s t __ ˈɛ l
+∅ > j / [-cons] [+cor,-lat,-nas,+son] __ ˈɛ [+cor,-lat,-nas] s [+son]
+∅ > j / [-cons] [+cor,-lat,-nas,+son] __ ˈɛ ( [+cor,-lat,-nas] ) [-delrel,-back,-voi] [+son]
+∅ > j / [rson,rnas] __ ˈɛ [+cor,-lat,-nas] s [+son]
+∅ > j / [rson,rnas] __ ˈɛ ( [+cor,-lat,-nas] ) [-delrel,-back,-voi] [+son]
+∅ > j / [nson,nnas] __ [+prim,-lo,-hi,-round] ( r ) [+voi,+cons,mson,mlab] ( [+hi,-back,-nas] ) [+back]
 [+long,-tense] ∅ > [+hi,-long,+tense,-splng,-cons,-lat,+cont,0delrel] ə
 [+front,+syl,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
 ə > e̯ / ˈi __ lˠ

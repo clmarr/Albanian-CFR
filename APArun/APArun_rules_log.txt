@@ -168,11 +168,12 @@ j [-hi,+syl,+stres] > ∅ [-lo,-back,+front,+tense,-cons,-lat,+cont,0delrel]/ [-
 [+front,+round] > [-front,+back] / [-front] __ [+nas,-lab,-back]
 [+syl,+back,+hi] > [+round,+lab] 
 [+lo,-tense,+syl] > [-lo,+tense,+long,-cons,-lat,+cont,0delrel] / [+cons,-strid] ( [-cons] ) __ [-syl] [+front]
-[+lo,+syl] > [+tense,-front,+back,-cons,-lat,+cont,0delrel] 
-[+syl,+tense,-lo,+long] > [+hi] / [ason] __ [ason]
 [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
-[+syl,+nas] ∅ > [+front,-back,-round,-lab,-nas,+tense,-cons,-lat,+cont,0delrel] n
+[-tense,+lo] > [-long,-splng] 
 [+prim,-tense] > [+long] / # __ 
+[+lo,+syl,-long] > [+tense,-front,+back,-cons,-lat,+cont,0delrel] 
+[+syl,+tense,-lo,+long] > [+hi] / [ason] __ [ason]
+[+syl,+nas] ∅ > [+front,-back,-round,-lab,-nas,+tense,-cons,-lat,+cont,0delrel] n
 [-prim] > [-long,-splng] / # __ 
 [-tense,+round,+back] > [+long] / # __ [-lab]
 [+stres,-prim] [+syl] > ə [+long,+stres,+syl,+son,0delrel]

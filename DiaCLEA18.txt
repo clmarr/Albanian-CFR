@@ -924,14 +924,19 @@ $DIACLEA INSERTION A1.XVI ː ɯ handling
 $DIACLEA INSERTION A.1 & A2.XXXXX : æ(ː?) > eː / C-strid __ C Vfront, elsewhere to a (also A1.I). Even if not long, [æ] tends to be longest vowel and this does not seem to merge with /e/ or /ɛ/ immediately assuming the raising to /i/ (/ɪ/?) phenomenon is a bit later. 
 [+lo,-tense,+syl] > [-lo,+tense,+long] / [+cons,-strid] ([-cons]) __ [-syl] [+front]
 
-$DIACLEA INSERTION A2.XXXXX.b other æː all merges to ɑː
-[+lo,+syl] > [+tense,-front,+back]
+$ incorporates DIACLEA INSERTION A2.XXXXI - ø > œ (and o > ɔ) before it is unrounded by LPA. This comes before (bc it feeds) D3.X.b1
+[+syl,+round,-hi,-lo] > [-tense]
 
-$DIACLEA INSERTION A2.XXXXX.a.ii -- eː reflecting æ(ː) raises to ɪ between same sonorance consonatns. 
+$D3.X.b1 For ɛ œ it occurs initially when each is stressed (after ø > œ, for convenience) and before a sonorant (or hiatus, but that counts as sonorant). As of Nov 11, 2025, sonorance restriction relaxed too as only exception is eshkë. As of Nov 11, 2025, this also now happens to æ, before becoming ɑ.
+[-tense,+lo] > [-long]
+[+prim,-tense] > [+long] / # __ 
+
+$DIACLEA INSERTION A2.XXXXX.b other æ not effected by the e phenomenon or the initial lengthening all merges to ɑ.
+[+lo,+syl,-long] > [+tense,-front,+back]
+
+$DIACLEA INSERTION A2.XXXXX.a.ii -- eː reflecting æ(ː) raises to ɪ between same sonorance consonants. 
 [+syl,+tense,-lo,+long] > [+hi] / [ason] __ [ason]
 
-$ incorporates DIACLEA INSERTION A2.XXXXI - ø > œ (and o > ɔ) before it is unrounded by LPA. 
-[+syl,+round,-hi,-lo] > [-tense]
 
 $DIACLEA FIX A2.XXXXXI : first wave Slavic nasal vowels are unpacted to Vn, with a for ɒ̃ and e for ɛ.
 [+syl,+nas] ∅ > [+front,-back,-round,-lab,-nas,+tense] n
@@ -939,8 +944,6 @@ $DIACLEA FIX A2.XXXXXI : first wave Slavic nasal vowels are unpacted to Vn, with
 $DIACLEA FIX  A2.XXXIX.c -- initial lax mid vowel  lengthening phenomena. (D3.X.b1 the tonic  ones). 
 $TODO IMPLEMENT THIS?? 
 
-$D3.X.b1 For ɛ œ it occurs initially when each is stressed (after ø > œ, for convenience) and before a sonorant (or hiatus, but that counts as sonorant). As of Nov 11, 2025, sonorance restriction relaxed too as only exception is eshkë
-[+prim,-tense] > [+long] / # __ 
 
 $DIACLEA FIX A2.XXXXVI -- word initial long vowels shortened. Effects e.g. a: e: < aw aj etc.
 [-prim] > [-long] / # __

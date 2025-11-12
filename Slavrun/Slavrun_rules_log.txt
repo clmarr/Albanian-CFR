@@ -1,0 +1,23 @@
+[+syl,-tense] > [-lo] 
+[+lo,-round] > [+front,-back] 
+β > v 
+x > h 
+[+syl,+hi,-round,ɯback] > [!ɯfront,ɯround,ɯlab] 
+[-cons,+nas] > [-nas] 
+ʎ > j 
+[+back,-cont] j > [-back,+front] ∅
+z > d͡z / n __ 
+c > k / __ [+syl] ʃ
+[-prim,-back,-lo,-long] > ə / @ __ ( @ )* [+prim]
+[-prim,-back,-lo,-long] > ə / # ( [-syl] )* ( [-prim] ) [-syl] ( [-syl] )* __ 
+[-stres,-long] > ə / # [-prim] ( [-prim] )* __ 
+ə > ∅ / n __ [-cont]
+{o;ɔ;a} > {ə;ə;ə} / __ #
+[+long] > [-long,-splng] 
+[+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
+{d ʃ;d s;d θ} > {t͡ʃ;t͡s;t͡s} 
+ʃ > t͡ʃ / __ [+cons,+nas]
+c > t͡ʃ / __ [+cons]
+ɲ > j / [-hi] __ #
+ɲ > j / [+hi,+front] __ #
+[-prim] > [-stres,-prim,+syl,+son,0delrel] 

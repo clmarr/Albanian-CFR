@@ -1423,8 +1423,8 @@ $nː > n
 [+nas,+cons] > [-long]
 
 $BANDAID fix-- since the notation of the data uses ɾ and r not r and rː, this is implemented here, even though DV2018 has a modern Alb r and rː . This now includes implementation of Tosk rhotacism [DV3.1G1]
-{r;ɾ̃} > {ɾ;ɾ} 
-rː > r
+$Other parts now moved after P-Tosk
+ɾ̃ > ɾ 
 
 $ ã raises to ə in Tosk (ultimately denasalizing to ë outside of some Lab subdialects which may (or may not) have preserved nasality, maybe for this item) 
 $ DIACLEA CHANGE C3B.XII -- in Proto-Tosk, it is only short ã that becomes ə̃; long ãː actually reflects as -a- (shpërlaj, etc.).  
@@ -1440,6 +1440,10 @@ $other bandaids -- handling of ɑ, β, x
 [+lo,-round] > [+front,-back] 
 β > v 
 x > h
+
+$bandaid for r: > r
+r > ɾ
+rː > r
 
 $DIACLEA INSERTION A1.XVI -- Slavic ɯ handling: ɯ > u if htere's any, ɨ >i 
 [+syl,+hi,-round,ɯback] > [-ɯfront,ɯround,ɯlab]

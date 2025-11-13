@@ -920,7 +920,7 @@ $TODO REGRESSIVE BETA COLORING! - + LOSS -- WORK HERE! TODO REMOVE WHEN ACCOUNTE
 
 
 =Late Proto-Albanian I
-$ Earliest Slavic loans here. 
+$ Earliest Slavic loans here; "first Slavic wave"
 
 $DIACLEA INSERTION A1.XVI ː ɯ handling 
 [+syl,+back,+hi] > [+round,+lab]
@@ -1137,7 +1137,8 @@ $ post-nasal stop voicing. De Vaan attributes this to Proto-Albanian, for Latin 
 	$ TODO need step to preserve Latin/non-Latin differences if this if expanded for PIE > Alb run.
 $ he handles nt > nd together for native and Latin, with the conditioning "n __ in  a pretonic or stressed syllable"; his examples also include cases where it is the coda of a stressed syllable (dhëndër, kundër), and those where it is the onset
 $ This is placed into the period before the earliest Slavic loans enter as benefit of the doubt, since that's still Proto-Albanian for De Vaan. (except by technicality the proposed precocious pre-rhotic Slavic loans, if they are considered to be a legitimate layer) 
-$ TODO note however the possible case of Angevin encant > ankand (Marr 2023) 
+$ TODO note however the possible case of Angevin encant > ankand (Marr 2023)  -- argues for this to be later
+	$ furthermore : first wave slavic kɒ̃tʊ > kënd ɪnpɒrzdɪnʊ > mbrazën , ɒblɒ̃kʊ > oblëng, mælinʊka > milingë; second Slavic wave items ~ trõtītɪ,    >trondit, possibly ɒbʊpɪ́nʊkɑ > op(ë/i)ngë, emporja > Mborje (near Korçë)
 t > d / n __ ([-syl])* [+stres]
 t > d / [+stres] ([-syl])* n __
 $ mp > mb and nk > ng everywhere they occur.
@@ -1451,6 +1452,10 @@ $ DIACLEA CHANGE C3B.XII -- in Proto-Tosk, it is only short ã that becomes ə�
 $DIACLEA INSERTION A1.I -- Slavic æː handling
 [+syl,-tense] > [-lo] 
 
+
+$DIACLEA INSERTION A1.XVI -- Slavic ɯ handling: ɯ > u if htere's any, ɨ >i 
+[+syl,+hi,-round,ɯback] > [-ɯfront,ɯround,ɯlab]
+
 $other bandaids -- handling of ɑ, β, x
 [+lo,-round] > [+front,-back] 
 β > v 
@@ -1459,9 +1464,6 @@ x > h
 $bandaid for r: > r
 r > ɾ
 rː > r
-
-$DIACLEA INSERTION A1.XVI -- Slavic ɯ handling: ɯ > u if htere's any, ɨ >i 
-[+syl,+hi,-round,ɯback] > [-ɯfront,ɯround,ɯlab]
 
 $loss of vocalic nasalization: DV2.1A2, C2, completing E1, F3
 [-cons,+nas] > [-nas]

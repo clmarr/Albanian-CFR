@@ -198,7 +198,9 @@ r > rː / # __ [+round,-lo]
 ə > [-syl,+tense,afront,bback,uround,ulab,0stres,0prim,-cons,-lat,+cont,0delrel]/ [+hi,+syl,afront,bback,uround] __ 
 [+front,-cons,-hi] > [-round,-lab] 
 n j > ɲ 
+[-prim] n > [+lo,-hi,+nas,+front,-back,+tense,-round,-lab,-cons,-lat,+cont,0delrel] ɾ̃/ __ [-stres]
 [+syl,+round,-prim] > [+long] / # __ [+cons,-lab]
+[+lo] > [+long] / # __ [+cor,anas,!acont,-lat] ( ( [-syl] )* [-prim] ( [-syl] )* )* [+prim]
 [-prim,-long] > ∅ / # __ [+cons]
 ∅ > ə / # __ [+son,+cons] [+cons]
 [-prim,-back,-long] > ə / @ __ ( @ )* [+prim]
@@ -247,8 +249,8 @@ j [-stres] > ɛ/ [+syl] ( [-syl] )* [-lo] __ #
 a j > ∅ / __ ˌa #
 [+hi,+front,-prim] > [-front,+back,+round,+lab] / [+back,-cont] __ #
 [+nas,+cons] > ∅ / [+nas,+cons] __ #
-[+nas,+cons] [+nas,+cons] > ∅ [+long]
-[+nas,+cons] [+nas,+cons] > ∅ [+long]
+[+nas,+cons] [+nas,+cons,+cont] > ∅ [+long]
+[+nas,+cons] [+nas,+cons,+cont] > ∅ [+long]
 j > ∅ / [+front,+cons] __ 
 [+syl] [-prim,-round,-lo] > [+long] ∅/ __ #
 l > ʎ / __ k

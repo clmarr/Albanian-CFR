@@ -1062,21 +1062,29 @@ $ DV 1737's 6. ø > e; implements final parts of DV2.2.1B6-8.
 $DIACLEA INSERTION A1.XVII Late Proto-Albanian I > II has a second wave of the n j > ɲ phenomenon
 n j > ɲ
 
+$DIACLEA INSERTION A2.XXXXXIV LPA I early nasalization in V-prim n V-stres (> ãɾ̃V; in most cases later to ə̃ɾ̃V). Happens also after high vowels (?). Explains anëmik < inimicus, ministrare > marshtroj; also why we end up with -ër/n for demone > djemër etc where elsewhere unstresseds ɔ and u survive as u. 
+[-prim] n > [+lo,-hi,+nas,+front,-back,+tense,-round,-lab] ɾ̃ / __ [-stres]
+
 $ DV 1737's 7. Unstressed word-internal vowels to schwa, unstressed initial to zero-- include in _- VOWEL DROP WAVE -_
 
 $ --- Second wave (as originally written) of early vowel reduction phenomena here --- 
 $_- VOWEL DROP WAVE -_
 $ TODO: currently considering moving the initial syncope wave to this area (currently rule 35, resolving in rule 38); make a note if you do.  
 
+$ DIACLEA FIX C1.B.XVI -- aphaeresis blocked by lengthening for round vowel except before labial cons
+[+syl,+round,-prim] > [+long] / # __ [+cons,-lab]
+
+$DIACLEA CORRECTION A2.XXXXXV lengthening to block aphaeresis for low vowels in... # __ [+cor,anas,-acont,-lat] , EXCEPT if it is also __ C C ˈV
+[+lo] > [+long] / # __ [+cor,anas,-acont,-lat] (([-syl])* [-prim] ([-syl])*)* [+prim]
+
+
 $ DV2.2.2a -- in absolute initial position, all vowels reduce to schwa, on their way to zero (except in __ RC in Buzuku) 
 $ DIACLEA FIX C1.B.XIII -- long vowels are not reduced.
-$ DIACLEA FIX C1.B.XVI -- initial vowel deletion doesn't occur for round vowel except before labial cons
 $ TODO FOR DIA consider suppressing the Buzuku rule here. 
-[+syl,+round,-prim] > [+long] / # __ [+cons,-lab]
 [-prim,-long] > ∅ / # __ [+cons]
 ∅ > ə / # __ [+son,+cons] [+cons]
 
-$ DV2.2.2b -- internal pretonic vowels "including *au" (now > *a per DV2.2.1C3) to schwa, some of these to fall soon. "These reductions also affected the oldest layers of loanwords from Middle Greek, Italian, and Slavic" -- so will be repeated later just after the point for Old Northern Tosk Albanian. 
+$ DV2.2.2b --  APHAERESIS -- internal pretonic vowels "including *au" (now > *a per DV2.2.1C3) to schwa, some of these to fall soon. "These reductions also affected the oldest layers of loanwords from Middle Greek, Italian, and Slavic" -- so will be repeated later just after the point for Old Northern Tosk Albanian. 
 $DIACLEA CORRECTION C1b.VIII : not for back countertonics though. 
 $DIACLEA CORRECTION A2.XXXIV -- (TODO write about this!) unstressed long vowels (in practice, mostly countertonic) not reduced to ə by DV2.2.2b.
 [-prim,-back,-long] > ə / @ __ (@)* [+prim]
@@ -1317,8 +1325,8 @@ $DIACLEA INSERTION: A2.VI; final nasal clusters resolve in favor of the first el
 
 $DIACLEA INSERTION: A2.VII. pretonically primary and secondary sequences of nasals alike resolve to the second element; at least when it is /n/ the result is a long /nː/. It seems there are two rounds of this. Examples: carmināre (> karmini-ā- due to ina - inia phenomena) > kernjoj; (gn = ŋn remember) sign-āre > shënoj, cognatus > kunat, damn-āre > dënoj, communic-āre > kungoj. This will also potentially handle homorganic nasals, if they have emerged. 
 $ Since all other cases have been handled by the above rule concerning final nasal clusters, there is no need for a context, but if there was one it would be -- / __ ([-stres])* [+prim]
-[+nas,+cons] [+nas,+cons] > ∅ [+long] 
-[+nas,+cons] [+nas,+cons] > ∅ [+long] 
+[+nas,+cons] [+nas,+cons,+cont] > ∅ [+long] 
+[+nas,+cons] [+nas,+cons,+cont] > ∅ [+long] 
 
 $DIACLEA CORRECTION: postalveolars and palatals absorb following yod
 j > ∅ / [+front,+cons] __ 

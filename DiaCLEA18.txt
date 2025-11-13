@@ -1120,8 +1120,11 @@ $DIACLEA CORRECTION A2.XXII -- TV̯L > ləTV̯ if prior syllable has simple onse
 [-stres] [+lat] > l ə / [+syl] ([-syl,+voi]) [+hi,+syl] [-voi,-cont] __
 ∅ ∅ [-voi,-cont] l > l ə [-voi] ∅ / [+hi,+syl] __ ə
 
-$DIACLEA CORRECTION A2.XXI -- progressive u-spreading between two unstressed syllables (u or countertonic ˌu spreading onto unstressed vowel).
-[-prim] > [+hi,+tense,+back,+round,+lab,-lo,-front] / [-prim,+hi,+back,+round] ([-syl])* __
+$DIACLEA CORRECTION A2.XXI -- progressive u-spreading between two unstressed syllables (u or countertonic ˌu spreading onto unstressed vowel). As of 11/11/25 however, much more restricted. 
+	$ previous form: [-prim] > [+hi,+tense,+back,+round,+lab,-lo,-front] / [-prim,+hi,+back,+round] ([-syl])* __
+$however, basically the only secure place this happens is across lˠ. Other places it occurred may be better explained as some labial/dorsal __ lateral rounding phenomenon (see file to figure out) occurring after the excrescence rule that concerns grumbulloj and kumbull at least. 
+$ now only across lˠ
+[-prim] > [+hi,+tense,+back,+round,+lab,-lo,-front] / [-prim,+hi,+back,+round] lˠ __
 
 $DIACLEA CORRECTION A1.IX -- reduction of u before voiceless stops or clusters containing them. Occurs right after (and is fed by) progressive u-spreading (A2.XXI), and before post-nasal stop voicing (co(n)tentāre > kutëndoj, conventāre > kuvendoj... etc.). Not for first countertonic vowel. 
 {u;ˌu} > {ə;ˌə} / [+stres] ([-syl] ([-stres]))* __ ([-syl])* [-voi]

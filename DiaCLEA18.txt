@@ -1066,7 +1066,9 @@ $ TODO: currently considering moving the initial syncope wave to this area (curr
 
 $ DV2.2.2a -- in absolute initial position, all vowels reduce to schwa, on their way to zero (except in __ RC in Buzuku) 
 $ DIACLEA FIX C1.B.XIII -- long vowels are not reduced.
+$ DIACLEA FIX C1.B.XVI -- initial vowel deletion doesn't occur for round vowel except before labial cons
 $ TODO FOR DIA consider suppressing the Buzuku rule here. 
+[+syl,+round,-prim] > [+long] / # __ [+cons,-lab]
 [-prim,-long] > ∅ / # __ [+cons]
 ∅ > ə / # __ [+son,+cons] [+cons]
 

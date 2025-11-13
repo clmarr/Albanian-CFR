@@ -708,12 +708,22 @@ $ TODO examine whether we really want ɔ > o here.
 $ DIACLEA FIX C3A.5 -- round vowel now effects /ʏ/ too
 [+round,+syl] > [+tense]
 
-$DIACLEA INSERTION A2.XXXV -- hiatus j insertion between front vowel __ non-round non-hi vowel in Middle Proto-Albanian I, just before pre-palatal ɪ-raising (which it seems to feed)̠. 
-∅ > j / [+front,+syl] __ [-round,-hi,+syl] 
-
 $DIACLEA INSERTION -- A2.X -- ɪ goes back up to i before ʎ (5 known cases for ˈɪʎ, e.g. familia > fëmijë, scantilia > shkëndijë) and j (picta > pɪjtɑ > pitë, plictum > ... > plic, arguably via > ... > vijë) and before labials (4 cases for ˈɪp and ˈɪf, ex. gripsa > grifshë). This is better not handled as part of i-mutation as some of the pre-labial cases don't work that way (gripsa > grifshë) and it appears that ʎ only triggers what looks like i-mutation for /ɪ/. Not ɲ ː tinea > tenjë, strinctum > shtrenjt-ë. 
+	$Counterfed by dj/tj assibilation (servitium > shërbes)
 $ TODO note that all cases except for grifshë can be counterexplained by i-mutation though. 
 ˈɪ > ˈi / __ {[+front,-syl,-nas];[+lab]}
+
+$ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3) 
+$ DIACLEA CHANGE B2.III -- bleeds nd > nt, so relocdated to just before it. As of June 11 2024, relocdated yet further to come before ietation, which it counterfeeds it (tegula > tjegull not segull, castellam > kështjell not këshsell, daemonem > djemër not zemër, though the last could be a later loan.). If this creates problems, another fix could be to make the j arising from hiatus into to a different element, perhaps a /ʝ/? As of June 24 2024, this is moved before i-mutation as well, because i-mutation has same patterning as yod-vowel coalescence, and i-mutation contexts literally cause a yod sometimes (eremus > jerm, lapathia > lëpjetë, (b/p)astica > bjeshkë, etc), but we never see (af-)frication in these contexts. Note that this can be the case in Christian vocab where (af-)fricatoin does not occur ː  christiān-u [kristjan-ʊ] > kërshter-ë. Furthermore, there appears to be possibly related raising phenomenon before dorsals and palatoalveolars including s triggered by this. As of Nov 11, 2025, relocdated yet further back to come before secondary Latin hiatus i/e > j phenomenon, which counterfeeds it too. 
+$DIACLEA CORRECTION C2.I dj and tj merge into dʒ tʃ, which as of late June 2024 has been relocdated significantly earlier, now does not immediately result in yod effacement, because the yod can still color following vowels
+${d j;t j} > {d͡ʒ;t͡ʃ}
+{d;t} > {d͡ʒ;t͡ʃ} / __ j
+
+$DIACLEA INSERTION A1.XVIII at least before A2.XXXV, secondary Latin layer unstressed  i in hiatus > j (christiānu > kërshter-ë , diabolus > djall , elegia > ligje for bleeding A2.XXXV; also relevant for iosephus > jozef, sanctu-iakobo > Shijak) 
+i > j / __ [+stres] 
+
+$DIACLEA INSERTION A2.XXXV -- hiatus j insertion between front vowel __ non-round non-hi vowel in Middle Proto-Albanian I, just before pre-palatal ɪ-raising (which it seems to feed)̠.  As of 11/13/25, this now only happens after stressed i/e
+∅ > j / [+front,+syl] __ [-round,-hi,+syl] 
 
 $ It seems there is a difference between native and Latin *i outcomes --  DV1734~2.2A1: the former all end up as PAlb *i, but in DV1735~2.2A5 Latin /i/ only becomes PAlb *i with i-mutation, otherwise becoming *e (DV1735~2.2B11) 
 $ TODO FOR DIA -- note that the data suggests it might be more complicated here... 
@@ -721,12 +731,6 @@ $ inasmuch as this is mainly a Latin to Albanian cascade endeavor at present, an
 $ This differs from the outcome for /ʊ/ from Latin or PPAlb *u, which both raise back to /u/ (DV1735~2.2E1, -E2), as seen with /ɔ/ to /o/, handled above. 
 $ this thus implements DV2.2.1B11
 [+syl,+hi,-tense] > [-hi,+tense]
-
-$ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3) 
-$ DIACLEA CHANGE B2.III -- bleeds nd > nt, so relocdated to just before it. As of June 11 2024, relocdated yet further to come before ietation, which it counterfeeds it (tegula > tjegull not segull, castellam > kështjell not këshsell, daemonem > djemër not zemër, though the last could be a later loan.). If this creates problems, another fix could be to make the j arising from hiatus into to a different element, perhaps a /ʝ/? As of June 24 2024, this is moved before i-mutation as well, because i-mutation has same patterning as yod-vowel coalescence, and i-mutation contexts literally cause a yod sometimes (eremus > jerm, lapathia > lëpjetë, (b/p)astica > bjeshkë, etc), but we never see (af-)frication in these contexts. Note that this can be the case in Christian vocab where (af-)fricatoin does not occur ː  christiān-u [kristjan-ʊ] > kërshter-ë. Furthermore, there appears to be possibly related raising phenomenon before dorsals and palatoalveolars including s triggered by this. 
-$DIACLEA CORRECTION C2.I dj and tj merge into dʒ tʃ, which as of late June 2024 has been relocdated significantly earlier, now does not immediately result in yod effacement, because the yod can still color following vowels
-${d j;t j} > {d͡ʒ;t͡ʃ}
-{d;t} > {d͡ʒ;t͡ʃ} / __ j
 
 $DIACLEA INSERTION A1.IV : nw (or nβ) > m before non-primary stressed e (incl. < ɪ) and ɛ. This overpredicts in the case of invernīnum > *mërri (vërri) but that word might reflect hibernīnum instead. Motivation for this may be found in differentiating this from [ø], which in some accounts (e.g. Orel 2000) may have been [we] (note that the same sound becomes [uo] before sonorants). 
 $ TODO maybe broaden this and have ɸ involved for cases like iūnctus ? 

@@ -1393,6 +1393,9 @@ $ dʒ and tʃ pass to z and s -- whether from PPAlb dʒ/tʃ or from reflexes of 
 $ This effects also the earliest Slavic loanwords : e.g. poroçit > porosit "to request", sul "small boat" , etc. 
 [-ant,+distr,+delrel] > [+ant,-distr,+cont,-front]
 
+$DIACLEA CORRECTION B2.XI -- pretonic vowel reductions moved to before second slavic wave. Placed provisionally after s >  ʃ and t͡ʃ > s. 
+$[-prim,-back,-lo,-long] > ə / @ __ (@)* [+prim]
+
 $DIACLEA fix A2.XIX -- schwa deleted in hiatus with another vowel, without lengthening. As implemented on 1/26/25, caused .4% rise in accuracy and considerable improvement elsewhere. 
 ə > ∅ / [+syl] __
 ə > ∅ / __ [+syl] 
@@ -1506,7 +1509,8 @@ $repeat of internal pretonic vowel reductions per DV2.2.2b (see above)
 $DIACLEA CORRECTION C1B.VIII -- reduction to schwa now doesn't occur for BACK countertonics. 
 $DIACLEA CORRECTION C1B.IX -- low vowels also not mass reduced if countertonic.
 $ Jan 13 2025 -- bandaid to include also countertonics in words with no tonic tonic stress at all -- assumed to be no more than two syllables.
-$DIACLEA CORRECTION 
+$DIACLEA CORRECTION  (what was this? TODO CHECK) 
+$DIACLEA CORRECTION B2.XI -- pretonic vowel reductions moved to before second slavic wave. Placed provisionally after s >  ʃ and t͡ʃ > s. 
 [-prim,-back,-lo,-long] > ə / @ __ (@)* [+prim]
 [-prim,-back,-lo,-long] > ə / # ([-syl])* ([-prim]) ([-syl])+ __
 [-stres,-long] > ə / # ([-prim])+ __

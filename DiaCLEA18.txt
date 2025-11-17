@@ -1168,6 +1168,8 @@ s > z / __ [+voi,+cons,-lat]
 $A1.XX -- early fall of unstressed (non-initial-syllable) vowels before low vowels. Feeds s > t͡s phenomena 
 [-stres] > ∅ / [+syl] ([-syl])* __ ([-syl])+ [+lo]
 
+
+
 $ DV1744.H ~ s becomes ʃ -- for s in reflexes of Old Greek (presh < prason), Latin, and the earliest Slavic loans (grusht, shkrap) becomes ʃ (1744.H) -- but this is not fed by tʃ becoming s (DV1744.F and 1744.G) 
 s > ʃ
 
@@ -1177,7 +1179,7 @@ t͡ʃ > ∅ / ʃ __
 $DIACLEA CORRECTION A2.XXX Middle Proto-Albanian II -- degemination of obstruents. They count as geminates if they share place of articulation and continuancy (so homorganic plosive - affricate is a geminate). Broad place of articulation considered -- labials as one category, coronals as one category, dorsals as one category. Second element is the one kept. TODO may need to move this around
 [-son,acont,blab,chi] > ∅ / __ [-son,acont,blab,chi]
 
-$ DIACLEA CORRECTION A2.XXXXXXI  [TODO THESIS -- REEXAMINE FOR USE OF ALPHA FEATURES] LPA ˈi and ˈɪ (later from Slavic) > ˈɛ phenomena , before ʃ or t͡ʃ , after s > ʃ  (DV1744.H) but before t͡ʃ > s..
+$ DIACLEA CORRECTION A2.XXXXXXI  [TODO THESIS -- REEXAMINE FOR EXAMPLE OF ALPHA POLARITY] LPA ˈi and ˈɪ (later from Slavic) > ˈɛ phenomena , before ʃ or t͡ʃ , after s > ʃ  (DV1744.H) but before t͡ʃ > s..
 	$A2.XXXXXXI.a  if before an affricate, needs the anteriority to mismatch lowness of final vowel, can see through one medial unstressed-- perhaps should have yers lost by now? 
 [+prim,+hi,-round] > [-hi,-tense] / __ [+delrel,!aant] ([-syl])* [alo]
 	$A2.XXXXXXI.s -- for ʃ, just has to come before a vowel (this is before final vowel losses)
@@ -1473,12 +1475,12 @@ $ ã raises to ə in Tosk (ultimately denasalizing to ë outside of some Lab s
 $ DIACLEA CORRECTION C3B.XII -- in Proto-Tosk, it is only short ã that becomes ə̃; long ãː actually reflects as -a- (shpërlaj, etc.).  
 [+lo,+nas,+syl,-long] > [-lo,-back,-front,0tense]
 
+$TODO FOR LAB,CHAM,ARB-,ARV- : y > i here -- DV2.1A3 
 
 =Proto-Tosk
 
 $DIACLEA CORRECTION A1.I -- Slavic æː handling
 [+syl,-tense] > [-lo] 
-
 
 $DIACLEA CORRECTION A1.XVI -- Slavic ɯ handling: ɯ > u if htere's any, ɨ >i 
 [+syl,+hi,-round,ɯback] > [-ɯfront,ɯround,ɯlab]
@@ -1492,10 +1494,16 @@ $bandaid for r: > r
 r > ɾ
 rː > r
 
+$DIACLEA CORRECTION A2.XXXXXX: Northern Tosk pre-nasal non-back vowel deletions. 
+$ A2.XXXXXX.ʎ and .t , .a--- broadest cases, can happen before CC 
+[-prim,-back] > ∅ / {# (t);[-cons] [+lat];t} __ [+nas]
+
+$ cases that need to happen before NV -- initially; general internal VC- case. 
+[-prim,-back] > ∅ / [-cons] [+syl] __ [+nas] [-syl]
+
 $loss of vocalic nasalization: DV2.1A2, C2, completing E1, F3
 [-cons,+nas] > [-nas]
 
-$TODO FOR LAB,CHAM,ARB-,ARV- : y > i here -- DV2.1A3 
 
 $DV4.1R2 -- final devoicing of -z
 $ DIACLEA: suppressed. Correct only for medius > mes, which has a doublet medius>mjez ; mes may have evolved that way for syntactic reasons anyways. 

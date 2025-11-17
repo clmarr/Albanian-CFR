@@ -1168,8 +1168,6 @@ s > z / __ [+voi,+cons,-lat]
 $A1.XX -- early fall of unstressed (non-initial-syllable) vowels before low vowels. Feeds s > t͡s phenomena 
 [-stres] > ∅ / [+syl] ([-syl])* __ ([-syl])+ [+lo]
 
-
-
 $ DV1744.H ~ s becomes ʃ -- for s in reflexes of Old Greek (presh < prason), Latin, and the earliest Slavic loans (grusht, shkrap) becomes ʃ (1744.H) -- but this is not fed by tʃ becoming s (DV1744.F and 1744.G) 
 s > ʃ
 
@@ -1397,6 +1395,9 @@ $DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced consonants to mo
 $DIACLEA FIX C1B.VI: now only happens before obstruents as there are exceptions for at least /l/ and possibly other resonants. In reality this may be morphological though, as it only seems to happen to the prefix sh- "dis, un" 
 ʃ > [+voi] / __ [+cons,+voi,-son]
 
+$DIACLEA A2.XXXXXXII LPA I merger and coalescence of ʒ, d z, d ʒ, d͡z into d͡ʒ. Whether z and d͡ʒ are included or not is not clear since d͡ʒ > z separately. Loss of segmentality of d handled below (TODO)
+[+strid,+cor,+voi] > d͡ʒ
+
 $ dʒ and tʃ pass to z and s -- whether from PPAlb dʒ/tʃ or from reflexes of Latin loans in dj-, tj (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3)
 $ This effects also the earliest Slavic loanwords : e.g. poroçit > porosit "to request", sul "small boat" , etc. 
 [-ant,+distr,+delrel] > [+ant,-distr,+cont,-front]
@@ -1560,9 +1561,7 @@ $ TODO consider restoring old version when possible.
 {d ʃ;d s;d θ} > {t͡ʃ;t͡s;t͡s}
 
 $DV4.1K1 -- Old Alb ʃ > t͡ʃ before a consonant 
-$DIACLEA ANALYSIS: for Latin loans at present, c [+cons] clusters are barely present (at the pivot point at this rule, only one was detected -- and it was an error), while "ʃ [+cons]" sequences... overwhelmingly don't go to "t͡ʃ ..." 
-	$ in fact, as of Aug 15, tʃ for ʃ was the most common confusion, with 88% of errant words having it, and the error was particularly common after the word bound (43.6%), before /t/ (36.8%) and before /k/ (30%) 
-	$ DIACLEA CORRECTION: posterior context changed from [+cons] to [+cons,+nas]
+$ DIACLEA CORRECTION C3B.XIX: posterior context changed from [+cons] to [+cons,+nas]
 ʃ > t͡ʃ / __ [+cons,+nas]
 
 $DV4.1K3 partially implemented here -- Tosk standard does not have c > t͡ʃ everywhere, but does seem to have it when praeconsonantal (çfarë, etc.) 

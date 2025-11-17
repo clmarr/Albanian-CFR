@@ -143,7 +143,7 @@ A2.XXXII early MPA I -- w deleted after coronal obstruents. Bleeds post-w progre
 	
 A2.XXXIII -- coalescence of w with following ɪ i or short a in two contexts: T (V-stres) __  and # (Vocoid)* [+son] __
 
-A2.XXXIV -- (TODO write about this!) unstressed long vowels (in practice, mostly countertonic) not reduced to ə by DV2.2.2b.
+A2.XXXIV --  {now C1b.VIII for proper sectioning; replace when possible) 
 
 A2.XXXV -- hiatus j insertion between front vowel __ non-round non-hi vowel in Middle Proto-Albanian I, just before pre-palatal ɪ-raising (which it seems to feed)̠. 
 
@@ -404,6 +404,7 @@ C1B.XI -- w- prosthesis before o doesn't happen if there is a labial after it. N
 C1B.XII -- falling sonority diphthong coalescence no longer effects ej. 
 
 C1.B.XIII -- long vowels are not reduced; initial vowels are not reduced before glides (massive change! TODO discuss in diss!) TODO finish implementing.
+	C1.B.XIIIb  unstressed long vowels (in practice, mostly countertonic) not reduced to ə by DV2.2.2b.
 
 C1.B.XIV -- ɛ no longer deleted word finally for DV1738 top part 1 rule. 
 
@@ -412,6 +413,8 @@ C1.B.XV -- ɑː > ɒː in Archaic Proto-Albanian now doesn't occur in final syll
 C1.B.XVI -- initial vowel deletion doesn't occur for round vowels  (Lat ūnctūra > yndyrë, upupa > pupë, oscit-a- > ushtoj, ... ungroj, ; Slavic ɒrɒndɪjɛ > orëndi, ograjë, maybe ukrajë...) except before labial cons (Chr. lat oblāta > blatë, ofella > felë; maybe Slav abuwirtku > berk; lav oblëng and opingë may be later
 
 C1.B.XVII-- uj does not happen at the time of DV1735 anymore. 
+
+C1.B.XVIII -- (what is left of it -- cf. D1.VI) second round of DV2.2.2b countertonic reductions (including still ˌə > ə) does not happen for nasals. 
 
 ## C2 -- changes in output 
 
@@ -548,6 +551,8 @@ D1.III -- DV3.1A2, that is the passage of "PAlb β" to m before VN$ is deleted a
 D1.IV -- DV4.1R2 -- final z devoicing deleted. Only example mes < medius may be conditioned by other factors, such as syntax, anyways. 
 
 D1.V -- m > mb in word-final position is suppressed. Too many errors. Consider reinstating with finer grained conditioning. Curiously it seems to be happening to an /a/ that undergoes i-mutation, though the relationship between these phenomena seems ... opaque at best?
+
+D1.VI -- second round of DV2.2.2b pretonic (or rather non-posttonic) vowel reductions deleted except for limited case in first or seocnd syllables, regardless of if actually pretonic (just simply not posttonic -- cases of për, ndër). 
 
 ##D2 -- rules deleted as they were redundant
 

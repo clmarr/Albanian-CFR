@@ -1085,8 +1085,7 @@ $ TODO FOR DIA consider suppressing the Buzuku rule here.
 ∅ > ə / # __ [+son,+cons] [+cons]
 
 $ DV2.2.2b --  APHAERESIS -- internal pretonic vowels "including *au" (now > *a per DV2.2.1C3) to schwa, some of these to fall soon. "These reductions also affected the oldest layers of loanwords from Middle Greek, Italian, and Slavic" -- so will be repeated later just after the point for Old Northern Tosk Albanian. 
-$DIACLEA CORRECTION C1b.VIII : not for back countertonics though. 
-$DIACLEA CORRECTION A2.XXXIV -- (TODO write about this!) unstressed long vowels (in practice, mostly countertonic) not reduced to ə by DV2.2.2b.
+$DIACLEA CORRECTIONS  : not for back (C1b.VIII) countertonics, or (C1.B.XIIIb) unstressed long vowels (in practice, mostly countertonic) not reduced to ə by DV2.2.2b.
 [-prim,-back,-long] > ə / @ __ (@)* [+prim]
 [-stres,-long] > ə / @ __ (@)* [+prim]
 
@@ -1394,7 +1393,11 @@ $ This effects also the earliest Slavic loanwords : e.g. poroçit > porosit "to 
 [-ant,+distr,+delrel] > [+ant,-distr,+cont,-front]
 
 $DIACLEA CORRECTION B2.XI -- pretonic vowel reductions moved to before second slavic wave. Placed provisionally after s >  ʃ and t͡ʃ > s. 
-$[-prim,-back,-lo,-long] > ə / @ __ (@)* [+prim]
+$ These DIACLEA CORRECTIONS apply still: 
+	$C1B.VIII -- mass reduction to schwa now doesn't occur for BACK (C1B.VIII), LONG (C1B.XIII), nasal (C1.B.XVIII) or LOW (C1B.IX) countertonic vowels.
+$[-stres,-long] > ə / # ([-prim])+ __
+$[-prim,-back,-lo,-long,-nas] > ə / @ __ (@)* [+prim]
+[-prim,-back,-lo,-long,-nas] > ə / # ([-syl])* ([-prim]) ([-syl])+ __
 
 $DIACLEA fix A2.XIX -- schwa deleted in hiatus with another vowel, without lengthening. As implemented on 1/26/25, caused .4% rise in accuracy and considerable improvement elsewhere. 
 ə > ∅ / [+syl] __
@@ -1509,11 +1512,8 @@ $repeat of internal pretonic vowel reductions per DV2.2.2b (see above)
 $DIACLEA CORRECTION C1B.VIII -- reduction to schwa now doesn't occur for BACK countertonics. 
 $DIACLEA CORRECTION C1B.IX -- low vowels also not mass reduced if countertonic.
 $ Jan 13 2025 -- bandaid to include also countertonics in words with no tonic tonic stress at all -- assumed to be no more than two syllables.
-$DIACLEA CORRECTION  (what was this? TODO CHECK) 
-$DIACLEA CORRECTION B2.XI -- pretonic vowel reductions moved to before second slavic wave. Placed provisionally after s >  ʃ and t͡ʃ > s. 
-[-prim,-back,-lo,-long] > ə / @ __ (@)* [+prim]
-[-prim,-back,-lo,-long] > ə / # ([-syl])* ([-prim]) ([-syl])+ __
-[-stres,-long] > ə / # ([-prim])+ __
+$DIACLEA CORRECTION C1.B.XIIIb unstressed long vowels (in practice, mostly countertonic) not reduced to ə by DV2.2.2b.
+$DIACLEA CORRECTION B2.XI -- pretonic vowel reductions moved to before second slavic wave. Placed provisionally after s >  ʃ and t͡ʃ > s.  :$[-prim,-back,-lo,-long] > ə / @ __ (@)* [+prim]; [-prim,-back,-lo,-long] > ə / # ([-syl])* ([-prim]) ([-syl])+ __; [-stres,-long] > ə / # ([-prim])+ __
 ə > ∅ / n __ [-cont]
 
 $gleaned from DV1738, unstressed final -o(n) and -a(s) in loans from early Slavic, Italian and Greek are reduced to -ë

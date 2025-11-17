@@ -1157,13 +1157,16 @@ $ DIACLEA CORRECTION C3A.7 -- restrictions on nt > nd phenomena in De vaan (that
 $DV4.1N (=DV1742I) OAlb f < PAlb θ / C __, including OAlb ënfle -- cf Matzinger 2006: 71 -- Matzinger, Joachim. 2006.  Altalbanische Text Mbsuame e Kreshterë (Dottrina cristiana) des Lekë Matrënga von 1592. Eine Einführing in die albanische Sprachwissenschaft. Seems to be in all dialects? 
 θ > f / [+cons] __
 
-$DV4.2E & DV4.2F3 -- wave of palatalization, occuring before front vowels, including fronted former long round vowels (y, ø) but not including reduced vowels.  Absorbs /w/. 
+$DV4.2E & DV4.2F3 -- wave of palatalization, occurring before front vowels, including fronted former long round vowels (y, ø) but not including reduced vowels.  Absorbs /w/. 
 $ DIACLEA FIX D2.II -- absorption of w in palatalizing k removed, now redundant given earlier mass -w- loss, and lack of such sequences in any contact languages since MPA.
 $w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
 
 $DIACLEA CORRECTION A2.XIV. Latin /s/ voices to /z/ rather than going to /ʃ/ before at least m and z (exmulgia > zmojle, crisma > krezëm, crismāre > krezmoj, exvigilāre > zgjoj, scabies >zgjebe, scoria > zgjyrë) but not /l/ (slucus > shluk). Right now maximally assume it happens before all voiced consonants. Has to happen after i-mutation (if that's source of hte voicing scabies and scoria) and the syncope ofthe -i- exvigilare.
 s > z / __ [+voi,+cons,-lat]
+
+$A1.XX -- early fall of unstressed (non-initial-syllable) vowels before low vowels. Feeds s > t͡s phenomena 
+[-stres] > ∅ / [+syl] ([-syl])* __ ([-syl])+ [+lo]
 
 $ DV1744.H ~ s becomes ʃ -- for s in reflexes of Old Greek (presh < prason), Latin, and the earliest Slavic loans (grusht, shkrap) becomes ʃ (1744.H) -- but this is not fed by tʃ becoming s (DV1744.F and 1744.G) 
 s > ʃ
@@ -1174,6 +1177,11 @@ t͡ʃ > ∅ / ʃ __
 $DIACLEA CORRECTION A2.XXX Middle Proto-Albanian II -- degemination of obstruents. They count as geminates if they share place of articulation and continuancy (so homorganic plosive - affricate is a geminate). Broad place of articulation considered -- labials as one category, coronals as one category, dorsals as one category. Second element is the one kept. TODO may need to move this around
 [-son,acont,blab,chi] > ∅ / __ [-son,acont,blab,chi]
 
+$ DIACLEA CORRECTION A2.XXXXXXI  [TODO THESIS -- REEXAMINE FOR USE OF ALPHA FEATURES] LPA ˈi and ˈɪ (later from Slavic) > ˈɛ phenomena , before ʃ or t͡ʃ , after s > ʃ  (DV1744.H) but before t͡ʃ > s..
+	$A2.XXXXXXI.a  if before an affricate, needs the anteriority to mismatch lowness of final vowel, can see through one medial unstressed-- perhaps should have yers lost by now? 
+[+prim,+hi,-round] > [-hi,-tense] / __ [+delrel,!aant] ([-syl])* [alo]
+	$A2.XXXXXXI.s -- for ʃ, just has to come before a vowel (this is before final vowel losses)
+[+prim,+hi,-round] > [-hi,-tense] / __ ʃ [+syl]
 
 $ DIACLEA CORRECTION A1.VII raising of ɔ to u before palatoalveolar or palatal then vowel (requires proper syncope, dorsal palatalization, and degemination rules to work though)
 [+round,-front] > [+hi,+tense] / __ [+front,-son] [+syl]
@@ -1215,7 +1223,7 @@ $syncope aspect of DV1734.1.III implemented below; this is also DV1734.4
 ə > ∅ / [+cons,+son,-long,-back] __ [-cont]
 
 $DV1734.1.IV -- 'lengthening before nasals, liquids, sibilants'.
-$DIACLEA CORRECTION C3B.XI -- major change, remark in diss. (TODO!). Lengthening of vowels no longer occurs before nasals. 
+$DIACLEA CORRECTION C3B.XI -- major change, remark in diss. (TODO!). C3B.XI.n Lengthening of vowels no longer occurs before nasals. C3B.XI.c lengthening 
 [+prim] > [+long] / __ {[+cons,+son,-nas];[+strid]}
 
 $   ------------- INTERVOCALIC STOP EFFACEMENT (AND CLUSTER SIMPLIFICATION?) -----------
@@ -1266,7 +1274,7 @@ $ TODO make note in DiaSim fixes file. Need to be clear but concise.
 $ TODO currently placed this before the drop of final vowels, since those seem to be counted as intervocalic for De Vaan -- TODO decide on where to put this in the baseline files, and explain it concisely but clearly.
 
 
-$ ---------- Pre-Slavic final vowel effacement phenomena -- 
+$ ----------  final vowel effacement phenomena -- 
 
 $DV1738, top, part 1: final -V(s) and -oi (> ī ?) without stress fall 
 $in effect, this is non-low-vowel unstressed final syllables closed by inflectional endings. 
@@ -1515,7 +1523,8 @@ $DIACLEA CORRECTION C1B.IX -- low vowels also not mass reduced if countertonic.
 $ Jan 13 2025 -- bandaid to include also countertonics in words with no tonic tonic stress at all -- assumed to be no more than two syllables.
 $DIACLEA CORRECTION C1.B.XIIIb unstressed long vowels (in practice, mostly countertonic) not reduced to ə by DV2.2.2b.
 $DIACLEA CORRECTION B2.XI -- pretonic vowel reductions moved to before second slavic wave. Retaining post nasal deletions. Placed provisionally after s >  ʃ and t͡ʃ > s.  :$[-prim,-back,-lo,-long] > ə / @ __ (@)* [+prim]; [-prim,-back,-lo,-long] > ə / # ([-syl])* ([-prim]) ([-syl])+ __; [-stres,-long] > ə / # ([-prim])+ __
-ə > ∅ / n __ [-cont]
+$D4.II -- what was left of the seocnd wave of pretonic (DV2.2.2b) reductions in terms of ə > ∅ / n __ [-cont] in LPA II reinterpreted as more general deletion rule
+ə > ∅ / @ [+nas] __ [-son,+cons]
 
 $ DIACLEA FIX A1.XIX -- another round of voicing of (non-affricate) stops in homorganic NT clusters into Old Northern Tosk. No evidence of a distinction between (ŋ/ɲ)(k/c) tho. 
 [-delrel,ŋhi,mlab] > [+voi] / [+nas,ŋhi,mlab] __

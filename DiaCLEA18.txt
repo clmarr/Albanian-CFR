@@ -1148,8 +1148,6 @@ $ post-nasal stop voicing. De Vaan attributes this to Proto-Albanian, for Latin 
 	$ TODO need step to preserve Latin/non-Latin differences if this if expanded for PIE > Alb run.
 $ he handles nt > nd together for native and Latin, with the conditioning "n __ in  a pretonic or stressed syllable"; his examples also include cases where it is the coda of a stressed syllable (dhëndër, kundër), and those where it is the onset
 $ This is placed into the period before the earliest Slavic loans enter as benefit of the doubt, since that's still Proto-Albanian for De Vaan. (except by technicality the proposed precocious pre-rhotic Slavic loans, if they are considered to be a legitimate layer) 
-$ TODO note however the possible case of Angevin encant > ankand (Marr 2023)  -- argues for this to be recur later
-	$ furthermore : first wave slavic kɒ̃tʊ > kënd ɪnpɒrzdɪnʊ > mbrazën , ɒblɒ̃kʊ > oblëng, mælinʊka > milingë; second Slavic wave items ~ trõtītɪ,    >trondit, possibly ɒbʊpɪ́nʊkɑ > op(ë/i)ngë, emporja > Mborje (near Korçë)
 $ DIACLEA CORRECTION C3A.7 -- restrictions on nt > nd phenomena in De vaan (that it must be pretonic or in (hte coda, apparently) of a stressed syllable) deleted. 
 {n t;m p;n k}> {n d;m b;n ɡ}
 
@@ -1515,6 +1513,9 @@ $ Jan 13 2025 -- bandaid to include also countertonics in words with no tonic to
 $DIACLEA CORRECTION C1.B.XIIIb unstressed long vowels (in practice, mostly countertonic) not reduced to ə by DV2.2.2b.
 $DIACLEA CORRECTION B2.XI -- pretonic vowel reductions moved to before second slavic wave. Retaining post nasal deletions. Placed provisionally after s >  ʃ and t͡ʃ > s.  :$[-prim,-back,-lo,-long] > ə / @ __ (@)* [+prim]; [-prim,-back,-lo,-long] > ə / # ([-syl])* ([-prim]) ([-syl])+ __; [-stres,-long] > ə / # ([-prim])+ __
 ə > ∅ / n __ [-cont]
+
+$ DIACLEA FIX A1.XIX -- another round of voicing of (non-affricate) stops in homorganic NT clusters into Old Northern Tosk. No evidence of a distinction between (ŋ/ɲ)(k/c) tho. 
+[-delrel,ŋhi,mlab] > [+voi] / [+nas,ŋhi,mlab] __
 
 $gleaned from DV1738, unstressed final -o(n) and -a(s) in loans from early Slavic, Italian and Greek are reduced to -ë
 $ TODO FOR DIA : consider retracting this just to -o, and have the passage of unstressed -a to -ë only here, as the -o > -ë phenomena in Byzantine/Bulgarian/Italian seem limited to feminines, in which it could be analogical.

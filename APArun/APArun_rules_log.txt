@@ -221,9 +221,12 @@ p > k / __ t
 θ > f / [+cons] __ 
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
 s > z / __ [+voi,+cons,-lat]
+[-stres] > ∅ / [+syl] ( [-syl] )* __ [-syl] ( [-syl] )* [+lo]
 s > ʃ 
 t͡ʃ > ∅ / ʃ __ 
 [-son,acont,blab,chi] > ∅ / __ [-son,acont,blab,chi]
+[+prim,+hi,-round] > [-hi,-tense,-cons,-lat,+cont,0delrel] / __ [+delrel,!aant] ( [-syl] )* [alo]
+[+prim,+hi,-round] > [-hi,-tense,-cons,-lat,+cont,0delrel] / __ ʃ [+syl] #
 [+round,-front] > [+hi,+tense,-cons,-lat,+cont,0delrel] / __ [+front,-son] [+syl]
 ˈɛ > ˈɑ / k __ l
 ˈɛ > ˈɑ / k __ rː

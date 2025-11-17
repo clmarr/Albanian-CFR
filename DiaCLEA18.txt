@@ -629,8 +629,8 @@ $part I of DV1736.G1 / DV2.2.1L1 has PPAlb ō and Lat ō, as well as Lat o, ul
 $note that this is not listed for the reflex of PPAlb *ā, which is currently *ɒː, but alas this item *does* get fronted to ø under i-mutation in DV2.2.1B7.
 $TODO make sure the relevant rules concerning laterals are all placed before this! -- can remove when that is done. 
 $What we need to do here: ensure that the relevant words can pass to *uo, and won't be bled by fronting to *ø, and we do this by effectively merging them into *ɒː, the reflex of PPAlb *ā. Use *lː for ɫ for now. Need to do this to o:, but not to short o. Allow presence of unstressed non-low vowel (which will fall before long), and a possible nasal following it, to express what will become final position, as they might not have fallen yet by this stage. 
-$ DIACLEA FIX: now using lˠ not lː
-$ DIACLEA FIX: in the case of -r, this does not seem to happen after continuants (nder, tmerr, vlerë, herë, mësherë...) 
+$ DIACLEA FIX: now using lˠ not lː  { not listed in fixes file bc this is just really about formalism} 
+$ DIACLEA FIX C3B.XVIII: in the case of -r, this does not seem to happen after continuants (nder, tmerr, vlerë, herë, mësherë...) 
 [+round,+syl,-hi,-lo,+long] > [+lo] / __ {lˠ;n;j} ([+syl,-stres] ([+nas])) #
 [+round,+syl,-hi,-lo,+long] > [+lo] / [-cont] __ r ([+syl,-stres] ([+nas])) #
 
@@ -670,7 +670,7 @@ $ TODO possibly broaden this to other cases of stress retraction...
 $DIACLEA INSERTION A2.XXXIII -- coalescence of w with following ɪ i or short a in two contexts: T-voi (V-prim) __ and # (V)* liquid __. Long round vowels seem to be the result (in asmuch as y doesn't fall, at least). Feeds ɒ > ɔ tho
 w [+syl,αhi,αfront,-long]> ∅ [+round,+lab,+long] / {[-voi,-cont] ([-prim]); # ([-cons])* [+son,+cons,-nas]} __ 
 
-$ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër, but via PPAlb *ā) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. DIACLEA CORRECTION: to handle the current implementation of A2.VIII, broadened to include short ɒ too. 
+$ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër, but via PPAlb *ā) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. DIACLEA CORRECTION C1A.VIII: to handle the current implementation of A2.VIII, broadened to include short ɒ too. 
 [+round,+lo] > [-lo,-tense]
 
 $DIACLEA FIX A2.XXXVIII Middle Proto-Albanian I --bleeding regressive coloring , w > v between non-mid back vowels an ˈE. Does not happen for b (harroj, lëroj., tabelë, tryezë < trabeza, trā). If it sees through (n), as proposed on June 20, then it also feeds n-loss and bleeds nw > m phenomenon 
@@ -699,7 +699,7 @@ $this effectively implements: DV2.2.1A2, part of DV2.2.1A4, DV2.2.1A6, DV2.2.1B3
 
 $DV2.2.1A4.II -- resolving raising before "sh" (which might still be [s] in this cascade) for Latin ē and PPAlb *e in this position (earlier lengthened to feed this, now both to [e] as the short variants are now [ɛ]) 
 $TODO FOR DIA: note above that this may be more accurately captured as __ ʃj than simply __ ʃ , given eshkë, kreshmë, rrjesht and veshk. 
-$DIACLEA FIX: this seems to actually just be i-mutation, as it only really seems to occur when there is a -j- in the next syllable. Suppressed.  
+$DIACLEA FIX D2.I: this seems to actually just be i-mutation, as it only really seems to occur when there is a -j- in the next syllable. Suppressed.  
 $[+stres,+tense,+front,-lab] > [+hi] / __ [+cont,-lab,+strid] ([+cons]) j
 
 $ raising of ɔ to o seems implicit here as a PAlb *ɔ is not handled for following rules concerning words were it is supposed to have arisen... -- i.e. > ø under i-mutation (5a.iii on p1736; 1735DV.A6 on this for reflex of PPAlb aː), seen also in the formulation of o-breaking rules (DV1736~G1 & G2)... 
@@ -976,7 +976,7 @@ $IETATION and DIPHTHONGIZATION follows.
 $DV2.2.1K and 1737's 5b -- diphthongized ietation -- ɛ (< PPAlb e, Lat e & ae) > ie before "word-final ɫ, r" ; he also attributes this to *e
 $his ɫ is "lː" here though and his r is simply a short r so it is a diagonal grouping in terms of length, hard to capture in a feature matrix. 
 $it says word-final but the falls of unstresesd vowels are actually assigned later (to word-internal and initial cases that is; the dating of the fall of final unstressed vowels isn't quite given in 1737-8 but one can assume this will happen to low vowels so this is added in : ([-lo,-stres] (m) ), the [m] being there to deal with the accusative (cf DV1737~2.2.2d) 
-$ DIACLEA FIX: now using lˠ not lː
+$ DIACLEA FIX: now using lˠ not lː {This is just about formalism; not noted in fixes log}
 $ DIACLEA CONSOLIDATION D3.X.b: now roped into initial lengthening.
 $ TODO 2025 -- implement, make this about length
 $ [+front,-hi,-lo,-round,+prim] > ˈi e̯ / __ {lˠ;r} ([-lo,-stres] (m)) #
@@ -988,7 +988,7 @@ $ TODO check this ^
 $ per DV2.2.1M, glided j gets absorbed into ø here. 
 $ TODO check this^ IMPLEMENT FOR DIA -- remove the (j), because this is better handled via tj > tʃ > s. 
 $ regarding the word-finality, same factors apply as above in DV1737~5b.1
-$ DIACLEA FIX: now using lˠ not lː
+$ DIACLEA FIX: now using lˠ not lː {just formalism, not noted in fixes log}
 ${ˈo;j ˈœ;ˈœ} > {ˈu o̯;j ˈy e̯;ˈy e̯} / __ {lˠ;n;r} ([-lo,-stres] (m)) # 
 $ DIACLEA CONSOLIDATION D3.X.b: now roped into lengthening as diphthongization, formulated appropriately, with e included. Heck actually just make it all tonic vowels. (former versoin below)
 [+prim] > [+long] / __ {lˠ;n;r} ([-lo,-cons]) #
@@ -1100,7 +1100,7 @@ $In 2.2.2b, it is unclear what determines the drop of pretonic schwa, but based 
 	$ (ii) k ə t > f t. -- This latter one will be handled in the later kt > ft shift as "2.2.2b.iii"
 $ note that some are dropped later -- note Early Modern Tosk vëllezër, vullëndet, mallëkon "to cures", arësye "reason" etc.
 $ part i, schwa deleted between n and stops.
-$ DIACLEA CORRECTION: while preserving the deletion of ə between n and T, even word initially, it is extended to m, also even word initially
+$ DIACLEA CORRECTION: while preserving the deletion of ə between n and T, even word initially, it is extended to after m, also even word initially
 ə > ∅ / [+nas,+cons] __ [-cont]
 $ DIACLEA CORRECTION: also, pretonic NəN to NN if there is a consonant beforehand (i.e. not inimicus > armik)
 ə > ∅ / [+cons] (@)* [+nas,+cons] __ [+nas,+cons] (@)* [+prim]
@@ -1381,7 +1381,7 @@ $ Furthermore, earlier placement may be warranted in case the reflex of *β seem
 [+lab,-son,+cont] > [+strid]
 
 $DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced consonants to modern ʒ -- has to be before end of the fall of lenited stops (in this case β) 
-$DIACLEA fix: now only happens before obstruents as there are exceptions for at least /l/ and possibly other resonants. In reality this may be morphological though, as it only seems to happen to the prefix sh- "dis, un" 
+$DIACLEA FIX C1B.VI: now only happens before obstruents as there are exceptions for at least /l/ and possibly other resonants. In reality this may be morphological though, as it only seems to happen to the prefix sh- "dis, un" 
 ʃ > [+voi] / __ [+cons,+voi,-son]
 
 $ dʒ and tʃ pass to z and s -- whether from PPAlb dʒ/tʃ or from reflexes of Latin loans in dj-, tj (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3)
@@ -1397,7 +1397,7 @@ $[-prim,-back,-lo,-long,-nas] > ə / @ __ (@)* [+prim]
 $[-prim,-back,-lo,-long,-nas] > ə / # ([-syl])* ([-prim]) ([-syl])+ __
 [-prim] > ə / # (([-syl])* [-prim] ([-syl])*)* [-syl] __ [-syl] (([-syl])* [-prim] ([-syl])*)* #
 
-$DIACLEA fix A2.XIX -- schwa deleted in hiatus with another vowel, without lengthening. As implemented on 1/26/25, caused .4% rise in accuracy and considerable improvement elsewhere. 
+$DIACLEA FIX A2.XIX -- schwa deleted in hiatus with another vowel, without lengthening. As implemented on 1/26/25, caused .4% rise in accuracy and considerable improvement elsewhere. 
 ə > ∅ / [+syl] __
 ə > ∅ / __ [+syl] 
 

@@ -381,6 +381,8 @@ C1A.VI -- DV3.1B2 nː > n broadened so that all long nasals are shortened.
 
 C1A.VII -- Tosk uo > ua now also understood to include vo > va 
 
+C1A.VIII: to handle the current implementation of A2.VIII, ā > ɔ broadened to include short ɒ too. 
+
 ### C1B -- input made narrower
 
 C1B.I - Gliding rule (R9 in baseline): [-prim] --> [-stres], countertonic vowels are excempted from gliding at this time. 
@@ -462,7 +464,7 @@ C3B.I -- "preconsonantal" ʃ to t͡ʃ in most recent modern Albanian is now only
 
 C3B.II -- ai > ē (DV1735~A1&A2) blocked prevocalically. 
 
-C3B.III -- major changeǃ 
+C3B.III -- major changeǃ  TODO DISCUSS
 i-mutation blocked by prior labial elements
 		-- this change alone, not made finer, led to a 1.3% increase in accuracy, at an early stage
 		and many of the words it did not fix, it set on the right track. 
@@ -508,7 +510,7 @@ C3B.XV -- ɛ > jɛ style LPA I ietation (e.g. DV1736's 5a.1) doesn't happen in a
 		C3B.XV.r -- after r -- only if after a vowel [?] (Hrepa > erepa >  rrjep, Rreɟa > ereða > rrjedh, terebellum > turjelë) -- SUGGESTS laryngeal vowels HAVE NOT FALLEN AT THIS TIME {TODO DISCUSS THIS}
 
 	further narrowing later 11/11
-C1.B.XVI -- ietation rule inputs now narrower... now *does* happen as follows
+C3.B.XVI -- ietation rule inputs now narrower... now *does* happen as follows
 		C1.B.XVI.t ː to ˈɛ, obeying prior context rules above, 
 			posterior context: __  {r s;s s;(s;t) t;p } (r) V
 			written as: __ {[+cor,-lat,-nas] s;([+cor,-lat,-nas]) [-delrel,-back,-voi]} [+son]
@@ -534,6 +536,7 @@ C3B.XVII -- final j a (s) > ɛ new restrictions
 					c ː shoqe
 		unhandled	lus dubious probs	loans	zmuːlɟia > zmojle? 	rːobja >rrojbë; 	pəstˈɛːrja > (pë)shterë (however lëngjere etc)
 
+C3B.XVIII -- ō > uo rather than ø phenom, when before r, now needs t ocome after non-continuants
 
 ## C4 -- changes in both input and output
 

@@ -1395,9 +1395,11 @@ $ This effects also the earliest Slavic loanwords : e.g. poroçit > porosit "to 
 $DIACLEA CORRECTION B2.XI -- pretonic vowel reductions moved to before second slavic wave. Placed provisionally after s >  ʃ and t͡ʃ > s. 
 $ These DIACLEA CORRECTIONS apply still: 
 	$C1B.VIII -- mass reduction to schwa now doesn't occur for BACK (C1B.VIII), LONG (C1B.XIII), nasal (C1.B.XVIII) or LOW (C1B.IX) countertonic vowels.
+$DIACLEA CORRECTION D4.I -- none of this is actually necessary except for the vowels of nontonic words. D4.I --Therefore, what was left of the second wave of (DV2.2.2b) pretonic reductions, supposed to effect Slavic etyma of the second wave (but not doing so), reinterpreted as reduction to schwa rules specifically of vowels in words without tonic vowels, excluding those at the edges (e; që with variant qi -- likely a separate phenom, cf. qiroj > që) . Rest deleted. 
 $[-stres,-long] > ə / # ([-prim])+ __
 $[-prim,-back,-lo,-long,-nas] > ə / @ __ (@)* [+prim]
-[-prim,-back,-lo,-long,-nas] > ə / # ([-syl])* ([-prim]) ([-syl])+ __
+$[-prim,-back,-lo,-long,-nas] > ə / # ([-syl])* ([-prim]) ([-syl])+ __
+[-prim] > ə / # (([-syl])* [-prim] ([-syl])*)* [-syl] __ [-syl] (([-syl])* [-prim] ([-syl])*)* #
 
 $DIACLEA fix A2.XIX -- schwa deleted in hiatus with another vowel, without lengthening. As implemented on 1/26/25, caused .4% rise in accuracy and considerable improvement elsewhere. 
 ə > ∅ / [+syl] __

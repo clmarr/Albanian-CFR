@@ -261,7 +261,7 @@ n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ #
 [+lab,-son,+cont] > [+strid] 
 ʃ > ʒ / __ [+cons,+voi,-son]
 [-ant,+distr,+delrel] > [+ant,-distr,+cont,-front,+cor,0delrel] 
-[-prim,-back,-lo,-long,-nas] > ə / # ( [-syl] )* ( [-prim] ) [-syl] ( [-syl] )* __ 
+[-prim] > ə / # ( ( [-syl] )* [-prim] ( [-syl] )* )* [-syl] __ [-syl] ( ( [-syl] )* [-prim] ( [-syl] )* )* #
 ə > ∅ / [+syl] __ 
 ə > ∅ / __ [+syl]
 [+syl,αlo,ɣhi,βround,ɩfront,ʊback] [+syl,+prim,αlo,ɣhi,βround,ɩfront,ʊback] > ∅ [+long]

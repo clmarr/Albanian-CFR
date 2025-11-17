@@ -562,7 +562,7 @@ $DIACLEA rule A2I: ʎ depalatalizes to l between high vowels
 	$ TODO there is some depalatalization of ʎ that remains unaccounted for ː  oleaster > ullashtër (already u?) ... 
 ʎ > l / [+hi] __ [+hi]
 
-$ TODO need to work on this rule -- see "kt outcomes" file. 
+$ see "kt outcomes" file, nad the more recent (Nov 17 2025) "MPA f obstruent cluster formation redux" 
 $ k becoming yod before /t/ if next to front vowel -- De Vaan 2018(:1744)  -- DV1744.J3
 	$ potentially IMPORTANT: what frontness should we treat /a/ as having at this point? For the inputs to Gallo-Romance, Pope 1934 treats Latin /a/ and /aː/ as originally backed, but becoming fronted... what should they be here?  
 	$ given that he lists SANCTVS > shenjtë "holy, saint", this either ...
@@ -578,7 +578,8 @@ $ DIACLEA CORRECTION B2.V -- moved. this aspect to before MPA I vowel drops of C
 [+back,+cons] > j / [-cons,-front] __ [-stres,+front] t
 $ second part -- prior conditioning
 $ DIACLEA CORRECTION C3B.IV* -- nasal conditioning removed here. Instead nkt > ɲt after stressed nonround (ma(n)jtë, shenjtë, strenjtë)
-[+back,+cons] > j / [+front] __ t
+$ DIACLEA CORRECTION C3B.IV.l -- in hte immediate contact position (i.e. not the above, rather than merely after front vowels, iotation happens after  (C3B.IV.l) non-initial coronal continuants and (C3B.IV.b) labials on the other side of the vowel. (formerly: [+back,+cons] > j / [+front] __ t) 
+[+back,+cons] > j / {[+lab];@ [+cor,+cont]} [+syl] __ t
 n [+back,+cons] > ɲ / [-round] __ t
 
 $DIACLEA CORRECTION A1.XI.b b > beta. 

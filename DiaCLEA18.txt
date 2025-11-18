@@ -1164,20 +1164,23 @@ $ DIACLEA FIX D2.II -- absorption of w in palatalizing k removed, now redundant 
 $w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
 
-$DIACLEA CORRECTION A2.XIV. Latin /s/ voices to /z/ rather than going to /ʃ/ before at least m and z (exmulgia > zmojle, crisma > krezëm, crismāre > krezmoj, exvigilāre > zgjoj, scabies >zgjebe, scoria > zgjyrë) but not /l/ (slucus > shluk). Right now maximally assume it happens before all voiced consonants. Has to happen after i-mutation (if that's source of hte voicing scabies and scoria) and the syncope ofthe -i- exvigilare.
+$DIACLEA CORRECTION A2.XIV. Latin /s/ voices to /z/ rather than going to /ʃ/ before at least m and z (exmulgia > zmojle, crisma > krezëm, crismāre > krezmoj, exvigilāre > zgjoj, scabies >zgjebe, scoria > zgjyrë) but not /l/ (slucus > shluk). Right now maximally assume it happens before all voiced consonants. Has to happen after i-mutation (if that's source of hte voicing scabies and scoria) and the syncope ofthe -i- exvigilare. Vs. proximus > prɔzɪmu > prɔʒm̩ > prozhëm
 s > z / __ [+voi,+cons,-lat]
 
 $A1.XX -- early fall of unstressed (non-initial-syllable) vowels before low vowels. Feeds s > t͡s phenomena 
 [-stres] > ∅ / [+syl] ([-syl])* __ ([-syl])+ [+lo]
+
+$DIACLEA CORRECTION A2.XXX Middle Proto-Albanian II -- degemination of obstruents. They count as geminates if they share place of articulation and continuancy (so homorganic plosive - affricate is a geminate). Broad place of articulation considered -- labials as one category, coronals as one category, dorsals as one category. Second element is the one kept. TODO may need to move this around
+[-son,acont,blab,chi] > ∅ / __ [-son,acont,blab,chi]
+
+$ s in C __ C-cor goes to t͡s, blocking retraction
+s > t͡s / [+cons] __ [+cons,-cor]
 
 $ DV1744.H ~ s becomes ʃ -- for s in reflexes of Old Greek (presh < prason), Latin, and the earliest Slavic loans (grusht, shkrap) becomes ʃ (1744.H) -- but this is not fed by tʃ becoming s (DV1744.F and 1744.G) 
 s > ʃ
 
 $DIACLEA CORRECTION A2.XVII: the new ʃ absorbs following t͡ʃ
 t͡ʃ > ∅ / ʃ __
-
-$DIACLEA CORRECTION A2.XXX Middle Proto-Albanian II -- degemination of obstruents. They count as geminates if they share place of articulation and continuancy (so homorganic plosive - affricate is a geminate). Broad place of articulation considered -- labials as one category, coronals as one category, dorsals as one category. Second element is the one kept. TODO may need to move this around
-[-son,acont,blab,chi] > ∅ / __ [-son,acont,blab,chi]
 
 $ DIACLEA CORRECTION A2.XXXXXXI  [TODO THESIS -- REEXAMINE FOR EXAMPLE OF ALPHA POLARITY] LPA ˈi and ˈɪ (later from Slavic) > ˈɛ phenomena , before ʃ or t͡ʃ , after s > ʃ  (DV1744.H) but before t͡ʃ > s..
 	$A2.XXXXXXI.a  if before an affricate, needs the anteriority to mismatch lowness of final vowel, can see through one medial unstressed-- perhaps should have yers lost by now? 

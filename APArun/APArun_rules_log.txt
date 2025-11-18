@@ -221,9 +221,10 @@ n j > ɲ
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
 s > z / __ [+voi,+cons,-lat]
 [-stres] > ∅ / [+syl] ( [-syl] )* __ [-syl] ( [-syl] )* [+lo]
+[-son,acont,blab,chi] > ∅ / __ [-son,acont,blab,chi]
+s > t͡s / [+cons] __ [+cons,-cor]
 s > ʃ 
 t͡ʃ > ∅ / ʃ __ 
-[-son,acont,blab,chi] > ∅ / __ [-son,acont,blab,chi]
 [+prim,+hi,-round] > [-hi,-tense,-cons,-lat,+cont,0delrel] / __ [+delrel,!aant] ( [-syl] )* [alo]
 [+prim,+hi,-round] > [-hi,-tense,-cons,-lat,+cont,0delrel] / __ ʃ [+syl] #
 [+round,-front] > [+hi,+tense,-cons,-lat,+cont,0delrel] / __ [+front,-son] [+syl]

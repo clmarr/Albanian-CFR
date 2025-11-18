@@ -1449,6 +1449,7 @@ $ DIACLEA CORRECTION A2.XXXXXXVI tj > c in Tosk after second Slavic input and af
 $ Resolving DIACLEA CORRECTION D4.III -- remaining ie̯ except in _R# to jɛ
 [-round,+hi,cprim,+stres] [-syl,-cons,-hi] > j [cprim,-tense] / __ {[+son] @;[-son]}
 
+
 $DIACLEA CORRECTION A1.XVII.3 Late Proto-Albanian II has a third wave of the n j > ɲ phenomenon that is fed by ietation > jɛ .
 [+cor,+nas,+son] j > ɲ
 
@@ -1461,6 +1462,9 @@ $DIACLEA CORRECTION A2.XXXXXXV after second Slavic wave, k insertion in S __ l .
 $DV4.1E2 & DV4.1F2 -- iotation of l after velar stops. This does not occur in some southern varieties, such as Cham and some Arbereshe dialects, so it could be that it occurred after Proto-Tosk split (in the broad sense, i.e. Proto-Southern-Albanian), or that Proto-Southern-Tosk retracted *ʎ to *l after velar stops. The outcome in Arvanitika is ʎ; in Arvanitika (and the other varieties where ʎ occurs after velars?), ʎ elsewhere appears to be preserved -- cf. Arvanitika biʎë "daughter" noted in De Vaan 2018 (:1740).
 $ DV1743.F5 -- -c(u)l- > c > ɟ if after nasals in ungj < avunculus -- effectively handled here and with the earlier voicing of k > g in the earlier Middle Proto-Albanian post-nasal voicing shift.
 l > ʎ / [-cont,+hi] __
+
+$A2.XXXXXXVII post-second-wave Slavic ʎ > l if all separating it from the beginning f hte word is labial segments that are either stops or hi (w, u), or ʃ 
+ʎ > l / # (ʃ) ([+lab,uhi,-ucont])* __ 
 
 $DIACLEA CORRECTION A1.I -- Slavic wave 2 æː handling
 [+syl,-tense] > [-lo] 
@@ -1478,6 +1482,12 @@ $ TODO note for DIA -- many examples actually have an /r/ after the vowel... (ha
 $ Placed pretty early as affected words seem to be pretty widely so
 $ DIACLEA : suppressed
 $ ∅ > h / # __ [+syl]
+
+$DIACLEA CORRECTION A2.XXXXXXVI post-Slavic r/ɾj > rːj -- pɯrjɪ > purrë, caries > qerre, dɪbrjʊ > dibërr
+{r j;ɾ j} > {rː;rː} / # ([-syl])* [+syl] ([-syl])* __
+
+$DIACLEA CORRECTION A1.XXI: Slavic second wave final a > ɛ after palatal sonorant consonants (rja, ɲ(j)a, ʎ(j)a > -re, ɲe, ʎe) 
+[+lo,-stres] > ɛ / [+cons] [+son,+front] __
 
 =Proto-Tosk-SGheg
 $TODO (ǃǃ) with revisions, up to this point was Tosk + SGheg developments. Different NT developments for north Gheg, plus different outcomes of å and ä, should be handled differently

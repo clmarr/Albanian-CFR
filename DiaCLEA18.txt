@@ -1083,6 +1083,12 @@ $ DV 1737's 6. ø > e; implements final parts of DV2.2.1B6-8.
 $ resolving D3.X.d as per D4.III for now, exc in # C __ 
 $ˈi e̯ > j ˈɛ 
 
+$ DV1744.E4 -- Latin d becomes edh after r (as with PPAlb d -- DV1744.E2) 
+$DIACLEA CORRECTION D3.VIII -- reinterpreted as lenition outcomes , more broadly post vocalic (reinstated here to cover Slavic items Nov 18, 2025). 
+$DIACLEA CORRECTION B2.XIII moved to before yer reduction phenomena. 
+$DIACLEA CORRECTION C3A.9 -- expanded to more typical leniting contexts ː post-oral-sonorant, before lateral or non-consonant (j ː ogradja > ograjë)
+d > ð / [+son,-nas] __ [βlat,βcons]
+
 $ DV 1737's 7. Unstressed word-internal vowels to schwa, unstressed initial to zero-- include in _- VOWEL DROP WAVE -_
 
 $ --- Second wave (as originally written) of early vowel reduction phenomena here --- 
@@ -1160,6 +1166,9 @@ $DV4.2E & DV4.2F3 -- wave of palatalization, occurring before front vowels, incl
 $ DIACLEA FIX D2.II -- absorption of w in palatalizing k removed, now redundant given earlier mass -w- loss, and lack of such sequences in any contact languages since MPA.
 $w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
+
+$tentative reduction of yers here TDO 
+$[+hi,-tense,-prim] > ə
 
 $DIACLEA CORRECTION A2.XIV. Latin /s/ voices to /z/ rather than going to /ʃ/ before at least m and z (exmulgia > zmojle, crisma > krezëm, crismāre > krezmoj, exvigilāre > zgjoj, scabies >zgjebe, scoria > zgjyrë) but not /l/ (slucus > shluk). Right now maximally assume it happens before all voiced consonants. Has to happen after i-mutation (if that's source of hte voicing scabies and scoria) and the syncope ofthe -i- exvigilare. Vs. proximus > prɔzɪmu > prɔʒm̩ > prozhëm
 s > z / __ [+voi,+cons,-lat]
@@ -1258,10 +1267,6 @@ $ possible other exceptions in the data:
 	$ However in any case this clearly should be later if it happens at all, because (a) it is not seen in shared vocab with Romanian (padure, etc.), and more importantly (b) it is clear that cases that De Vaan doesn't seem to consider intervocalic -- laridum and viridim -- and which are unaffected (becoming lardh and verdh, respectively) -- thus, intervocalic stop effacement is moved to after vowel this based on DIA evidence, to allow DV1744.E4 to be fed first by internal vowel drops, and to allow them to bleed the -d- effacement after /r/ (and potentially feed it in other cases, if we go with the views of Orel 2000)
 $DIACLEA CORRECTION D3.VIII -- removed, reinterpreted as lenition outcomes 
 $d > ∅ / [+syl] __ [+syl]
-
-$ DV1744.E4 -- Latin d becomes edh after r (as with PPAlb d -- DV1744.E2) 
-$DIACLEA CORRECTION D3.VIII -- removed, reinterpreted as lenition outcomes 
-$d > ð / r __
 
 $ De Vaan 2018 (: 1745.A4) -- Latin /b/ is deleted both (DV1745.A2) intervocalically and (DV1745.A3) in V __ r 
 	$ he explicate the prior vowel in DV1745.A3 (it's just " __ r") but all cases he lists 
@@ -1464,7 +1469,7 @@ $ DV1743.F5 -- -c(u)l- > c > ɟ if after nasals in ungj < avunculus -- effective
 l > ʎ / [-cont,+hi] __
 
 $A2.XXXXXXVII post-second-wave Slavic ʎ > l if all separating it from the beginning f hte word is labial segments that are either stops or hi (w, u), or ʃ 
-ʎ > l / # (ʃ) ([+lab,uhi,-ucont])* __ 
+ʎ > l / # (ʃ) ([+lab,uhi,ucont])* __ 
 
 $DIACLEA CORRECTION A1.I -- Slavic wave 2 æː handling
 [+syl,-tense] > [-lo] 

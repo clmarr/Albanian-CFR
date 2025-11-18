@@ -201,6 +201,7 @@ r > rː / # __ [+round,-lo]
 [+front,+syl,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
 ə > [-syl,+tense,afront,bback,uround,ulab,0stres,0prim,-cons,-lat,+cont,0delrel]/ [+hi,+syl,afront,bback,uround] __ 
 [+front,-cons,-hi] > [-round,-lab] 
+d > ð / [+son,-nas] __ [βlat,βcons]
 [-prim,-back,-long] > ə / @ __ ( @ )* [+prim]
 [-stres,-long] > ə / @ __ ( @ )* [+prim]
 ə > ∅ / [+nas,+cons] __ [-cont]
@@ -281,7 +282,7 @@ o̯ > ∅ / # ˌu __
 j > ∅ / [+front,+cons] __ 
 ∅ > k / [-voi,+cor,+strid] __ [+lat]
 l > ʎ / [-cont,+hi] __ 
-ʎ > l / # ( ʃ ) ( [+lab,uhi,!ucont] )* __ 
+ʎ > l / # ( ʃ ) ( [+lab,uhi,ucont] )* __ 
 [+syl,-tense] > [-lo] 
 [+syl,+hi,-round,ɯback] > [!ɯfront,ɯround,ɯlab] 
 [+lo,-round] > [+front,-back] 

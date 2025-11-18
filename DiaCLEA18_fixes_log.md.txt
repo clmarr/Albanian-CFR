@@ -45,9 +45,9 @@ A1.XVI (really a bandaid but well addressed in sources other than De Vaan, presu
 	A1.XVI.a ɯ that remained such in Slavic becomes u. ..
 	A1.XVI.b ɯ > ɨ in Slavic become Albanian i. 
 
-A1.XVII Late Proto-Albanian I > II has a second wave of n j > ɲ phenomena
+A1.XVII Late Proto-Albanian II > PTosk-SGheg has a second and third wave of n j > ɲ phenomena
 	Slavic toponyms: Tunjë, Leshnjë, ...
-	secondary nj : fënjeshtër, Kashnjet, ..
+	secondary nj : fënjeshtër, Kashnjet, ..	 later (third wave (XVII.3) njerkë
 
 A1.XVIII at least before A2.XXXV, secondary Latin layer unstressed  i in hiatus > j (christiānu > kërshter-ë , diabolus > djall , elegia > ligje) 
 
@@ -382,6 +382,8 @@ B1.V -- post-velar stop w moved to MPA II.
 
 B1.VI -- initial (w) r trilling moved into MPA I.
 
+B1.VII -- jV > ɛ moved past second slav wave, after secondary n j > ɲ (A1.XVII)
+
 ## B2 -- rule moved to an earlier time 
 
 B2.I - DV1740E3, ln and ll > l, moved to before lambdacism (moved from rule instant 13 to 10), as it seems to feed it. 
@@ -419,6 +421,9 @@ B3.II -- D1.II -- DV1740F2: l coalescence with nearby resonant to dark L, see al
 
 B4.I -- D1.II -- DV1740F2: l coalescence with nearby resonant to dark L, see also B3.II 
 
+## B5 -- stage movement
+
+B5.I -- moved second Slavic stage into zone just before (sl > skl) kl > kʎ phenomena. Massive other changes. See Nov 17 changes. Discuss dating more when the dust clears (TODO)
 
 # C Changes in conditioning to improve accuracy
 
@@ -445,6 +450,8 @@ C1A.VII -- Tosk uo > ua now also understood to include vo > va
 C1A.VIII: to handle the current implementation of A2.VIII, ā > ɔ broadened to include short ɒ too. 
 
 C1A.IX : k>p> f phenomena now broadened to all non-coronal voiceless segments before voiceless coronals; consolidated into single rule in the process. 
+
+C1A.X ː second wave of n j > ɲ phenomena (A1.XVII.2) expanded to include ðj and lj > ʎ. 
 
 ### C1B -- input made narrower
 
@@ -495,6 +502,8 @@ C1.B.XIX -- in MPA I, aspect of DV2.2.2b.iii in having kə >f before t is remove
 C2.I dj and tj mergin into dʒ tʃ, which as of late June 2024 has been relocdated significantly earlier, now does not immediately result in yod effacement, because the yod can still color following vowels (ratiōne > arësye, curti-ā- > kurtjɔɲœ > kursej, meridi-āre > MPA mɛrdjɔ́ɲœ > mërzej -- unlike with s (pʰaseolus > fasjɔ́lˠu > fashuall) 
 
 C2.II non-low final vowels first to ə, in time to allow Tosk-rhotacism in V̯nV̯# but not many cases of V́nV̯#.   Then final non-low vowels are lost at last. 
+
+C2.III Tosk Ã > ə also involves delabialization now. 
 
 ## C3 -- changes in context conditioning. Many things that should be in this section are in C1 though because "input" may have been interpreted broadly...
 
@@ -688,9 +697,9 @@ D3.X -- various rules concerning initial o- are reinterpreted as part of lengthe
 
 	D3.X.c -- diphthongization univerally arises from long lax mid vowels that reached a certain point. Unified rule with V[+hi,aplace] ə, schwa excrescence becomes the second diphthong element. This merges in with etymological schwa. 
 
-	D3.X.d -- in partial agreement with DV2.2.1K and 1737's 5b on diphthongized ietation, ɛː ends up as jɛ except the primary stressed case before (to-become) final ɾ lˠ; to these, I broaden these to include n too. 
+	D3.X.d -- in partial agreement with DV2.2.1K and 1737's 5b on diphthongized ietation, ɛː ends up as jɛ except the primary stressed case before (to-become) final ɾ lˠ; to these, I broaden these to include n too. However, as of Nov 17, 2025,this is roped into D3.X.e except in # __ C, which is handled as per D4.III 
 		
-	D3.X.e -- before Later Proto-Tosk finishes (and the split happens), initial uo- ye- to vɔ-, vɛ-
+	D3.X.e -- before Later Proto-Tosk finishes (and the split happens), initial uo- ye- to vɔ-, vɛ-, via wɔ, wɛ-. As of Nov 17, 2025, ie̯ > je except in all contexts except # C __ , and both ie and the round dipthhongs uo and ye undergo this prevocalically elsewhere
 
 	D3.X.f -- DV2.1D2 (Tosk uo > ua ) extended to also occur after w. w then merges in parallel in Tosk and Gheg into β. 
 
@@ -702,13 +711,15 @@ D4 -- other reinterpretations.
 
 D4.I -- (TODO WRITE ABOUT THISǃ) what was left of the second wave of (DV2.2.2b) pretonic reductions, supposed to effect Slavic etyma of the second wave (but not doing so), reinterpreted as reduction to schwa rules specifically of vowels in words without tonic vowels, excluding those at the edges (e; që with variant qi -- likely a separate phenom, cf. qiroj > që) 
 
-D4.II -- what was left of the seocnd wave of pretonic (DV2.2.2b) reductions in terms of ə > ∅ / n __ [-cont] in LPA II reinterpreted as more general deletion rule in nasal __ obstruent
+D4.II -- what was left of the second wave of pretonic (DV2.2.2b) reductions in terms of ə > ∅ / n __ [-cont] in LPA II reinterpreted as more general deletion rule in nasal __ obstruent
 	armissarius > armëshuar > hamshor
 	amita > ämitə > emtë 
 	(ɒbəpɪnʊka > opingë)
 	runɪtsɪ > runs
 	drɒbɪnitsa > Dromcë 
 	etc. 
+
+D4.III -- reinterpreted DV1736's 5a.1 : *ɛ > jɛ  phenomena as ietation, to become properly jɛ only later. Cf. Buzuku mishërier < miserari, plus non-participation of results in Late Proto-Albanian palatalizations (tegula/u> tˈɛgulˠ > tjegull not qegull etc, but Slavic wave II tjɛʒɪnə > qazhnë, tjesati > qesat. Thus counterfeeds A2.XXXXXXVI. 
 
 # E rule separation
 

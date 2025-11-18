@@ -1173,7 +1173,7 @@ $A1.XX -- early fall of unstressed (non-initial-syllable) vowels before low vowe
 $DIACLEA CORRECTION A2.XXX Middle Proto-Albanian II -- degemination of obstruents. They count as geminates if they share place of articulation and continuancy (so homorganic plosive - affricate is a geminate). Broad place of articulation considered -- labials as one category, coronals as one category, dorsals as one category. Second element is the one kept. TODO may need to move this around
 [-son,acont,blab,chi] > ∅ / __ [-son,acont,blab,chi]
 
-$ s in C __ C-cor goes to t͡s, blocking retraction
+$DIACLEA CORRECTION A2.XXXXXXIV s in C __ C-cor goes to t͡s, blocking retraction
 s > t͡s / [+cons] __ [+cons,-cor]
 
 $ DV1744.H ~ s becomes ʃ -- for s in reflexes of Old Greek (presh < prason), Latin, and the earliest Slavic loans (grusht, shkrap) becomes ʃ (1744.H) -- but this is not fed by tʃ becoming s (DV1744.F and 1744.G) 
@@ -1359,10 +1359,6 @@ $$ dialectal evidence suggests that this originally first passed to ʎ: Huld 197
 $MOST FAITHFUL VERSION: l > j / __ k
 l > ʎ / __ k
 
-$DV4.1E2 & DV4.1F2 -- iotation of l after velar stops. This does not occur in some southern varieties, such as Cham and some Arbereshe dialects, so it could be that it occurred after Proto-Tosk split (in the broad sense, i.e. Proto-Southern-Albanian), or that Proto-Southern-Tosk retracted *ʎ to *l after velar stops. The outcome in Arvanitika is ʎ; in Arvanitika (and the other varieties where ʎ occurs after velars?), ʎ elsewhere appears to be preserved -- cf. Arvanitika biʎë "daughter" noted in De Vaan 2018 (:1740).
-$ DV1743.F5 -- -c(u)l- > c > ɟ if after nasals in ungj < avunculus -- effectively handled here and with the earlier voicing of k > g in the earlier Middle Proto-Albanian post-nasal voicing shift.
-l > ʎ / [-cont,+hi] __
-
 $ DV4.1B2 : b inserted between m and the word bound.-- cf. also Bonnet 1998: 195
 $ DIACLEA: suppressed. Not worth the errors. TODO consider reinstating with finer grained conditioning.
 $ ∅ > b / m __ #
@@ -1379,13 +1375,6 @@ $ DIACLEA TODO NOTE: after uo and perhpas a, this does not happen word finally i
 	$n > ∅ / [+syl,+nas] __ #
 	$ n > ∅ / [+syl] ([-syl])* [+syl] [-cons,+nas] __ #
 n > ∅ / [-cons,+nas] ([-cons,+nas]) __ {[+strid,+cons];#}
-
-$ DV4.1W2 = DV1742R2 -- h prosthesis from PAlb into modern Alb. 
-$ may not be deterministic (may have originated in hypercorrection), but per conference with De Vaan- - inclusion so as to test it (8/9)
-$ TODO note for DIA -- many examples actually have an /r/ after the vowel... (hark, harmëshor, harron...) 
-$ Placed pretty early as affected words seem to be pretty widely so
-$ DIACLEA : suppressed
-$ ∅ > h / # __ [+syl]
 
 $DV3.1A2 -- "PAlb. β" to m before "VN$". 
 $Some ambiguity of dating of this rule -- this is placed between Proto-Albanian and modern Albanian, but the wording of this rule assumes beta has emerged but has not yet passed to /v/ (all the cases listed are where beta reflects Latin /w/), and it also assumes the /n/ is still present in this ve:nsi:ca despite nasal-spirant stuff that happened quite early... unless this word was loaned in another wave? Some examination may be necessary.
@@ -1410,6 +1399,14 @@ $ dʒ and tʃ pass to z and s -- whether from PPAlb dʒ/tʃ or from reflexes of 
 $ This effects also the earliest Slavic loanwords : e.g. poroçit > porosit "to request", sul "small boat" , etc. 
 [-ant,+distr,+delrel] > [+ant,-distr,+cont,-front]
 
+$DV3.1G1 : Tosk rhotacism -- "dated 800-1000 CE, Janson 1986: 190-211". 
+$ TODO NOTE FOR DIA : note that this may have to precede some vowel drops though -- note the example inimīcvs > armik (which is given by DV'18: 1739), though maybe ə was retained between n-m (note cited form anëmik)
+
+$DV3.1H2 : -rn- > -rr- / V __ V . This happens in Gheg and Tosk, but De Vaan 2018, citing Janson 1986(:97f), argues it is post-Slavic. Inasmuch as it happens in Gheg, it is also independent of Tosk rhotacism, and should thus be handled separately.
+$DIACLEA CORRECTION C1A.IV -- now unconditioned (formerly  r n > rː / @ __ @) 
+$DIACLEA CORRECTION B2.X -- moved r n > r: into much earlier proto-Albanian, because it bleeds ietation. -- -immediately reverted tho. Before Slav wave two. 
+r n > rː
+
 $DIACLEA CORRECTION B2.XI -- pretonic vowel reductions moved to before second slavic wave. Placed provisionally after s >  ʃ and t͡ʃ > s. 
 $ These DIACLEA CORRECTIONS apply still: 
 	$C1B.VIII -- mass reduction to schwa now doesn't occur for BACK (C1B.VIII), LONG (C1B.XIII), nasal (C1.B.XVIII) or LOW (C1B.IX) countertonic vowels.
@@ -1429,6 +1426,33 @@ $DIACLEA fix A2.XX -- vowels identical in (oral) quality in hiatus merged, curre
 [+syl,αlo,ɣhi,βround,ɩfront,ʊback] [+syl,+stres,αlo,ɣhi,βround,ɩfront,ʊback] > ∅ [+long]
 [+syl,+stres,αlo,ɣhi,βround,ɩfront,ʊback] [+syl,αlo,ɣhi,βround,ɩfront,ʊback] > ∅ [+long,+stres]
 
+= Late Proto-Albanian II
+$ SECOND SLAV WAVE HERE !! 
+
+$DIACLEA CORRECTION A2.XXXXXXV after second Slavic wave, k insertion in S __ l . Feeds DV4.1E2 & DV4.1F2 
+∅ > k / [-voi,+cor,+strid] __ [+lat]
+
+$DV4.1E2 & DV4.1F2 -- iotation of l after velar stops. This does not occur in some southern varieties, such as Cham and some Arbereshe dialects, so it could be that it occurred after Proto-Tosk split (in the broad sense, i.e. Proto-Southern-Albanian), or that Proto-Southern-Tosk retracted *ʎ to *l after velar stops. The outcome in Arvanitika is ʎ; in Arvanitika (and the other varieties where ʎ occurs after velars?), ʎ elsewhere appears to be preserved -- cf. Arvanitika biʎë "daughter" noted in De Vaan 2018 (:1740).
+$ DV1743.F5 -- -c(u)l- > c > ɟ if after nasals in ungj < avunculus -- effectively handled here and with the earlier voicing of k > g in the earlier Middle Proto-Albanian post-nasal voicing shift.
+l > ʎ / [-cont,+hi] __
+
+$DIACLEA CORRECTION A1.I -- Slavic wave 2 æː handling
+[+syl,-tense] > [-lo] 
+
+$DIACLEA CORRECTION A1.XVI -- Slavic wave 2 ɯ handling: ɯ > u if htere's any, ɨ >i 
+[+syl,+hi,-round,ɯback] > [-ɯfront,ɯround,ɯlab]
+
+$other bandaids -- handling of ɑ, β
+[+lo,-round] > [+front,-back] 
+β > w
+
+$ DV4.1W2 = DV1742R2 -- h prosthesis from PAlb into modern Alb. 
+$ may not be deterministic (may have originated in hypercorrection), but per conference with De Vaan- - inclusion so as to test it (8/9)
+$ TODO note for DIA -- many examples actually have an /r/ after the vowel... (hark, harmëshor, harron...) 
+$ Placed pretty early as affected words seem to be pretty widely so
+$ DIACLEA : suppressed
+$ ∅ > h / # __ [+syl]
+
 $DV2.1F2: və > u- 
 $ this might be yet earlier considering that it also happens in Gheg? Or not. 
 $ DIACLEA FIX D3.X.a -- this is reinterpreted as βo ~ ˌuo̯)as input, and __ C as context. See D3.X(.a) on fixes lo, a nd initial lengthening in MPA II file.  
@@ -1436,10 +1460,11 @@ $ RELOCDATION B2.VIII -- (reformulated) DV2.1.F2 və (or rather vo-) > u phenome
 ${v ə;v ˌə} > {u;ˈu} / # __
 o̯ > ∅ / # ˌu __
 
-$ DIACLEA FIX D3.X.e -- before Later Proto-Tosk finishes (and the split happens), initial uo- ye- to vɔ-, vɛ-. Includes primary and secondary stressed uo-. Does not rope in etymological -vo-. 
+$ DIACLEA CORRECTION D3.X.e -- before Later Proto-Tosk finishes (and the split happens), initial uo- ye- to vɔ-, vɛ-. Includes primary and secondary stressed uo-. Does not rope in etymological -vo-. Apparently it's now at late Proto-Tosk-SGheg
 [+round,cprim,dstres] [-syl,-cons] > w [cprim,dstres,-tense] / # __
 
-=Late Proto-Albanian II
+=Proto-Tosk-SGheg
+$TODO (ǃǃ) with revisions, up to this point was Tosk + SGheg developments. Different NT developments for north Gheg, plus different outcomes of å and ä, should be handled differently
 
 $DV2.1D2 -- Tosk uo > ua ; written agnostically as to the syllabic status of the a. 
 $DIACLEA FIX B2.IX -- Tosk uo > ua reinterpreted as including wo > wa [D3.X.f] (but not etymological vo-), now occurs at beginning of Proto-Tosk. 
@@ -1456,14 +1481,6 @@ $ DIACLEA CORRECTION: the places this actually correctly happens seem to be befo
 	$ but not word initially: maledīc-œ > mallkoj, maliti-ā- > malcoj, molārem > mullar, molīnum > mullî, mulc-ē > mëlkoj  maluang-œ- > mallëngjej. 
 	$ accuracy gained with this fix: +0.8%
 ∅ > b / @ m __ [-stres] [+lat]
-
-$DV3.1G1 : Tosk rhotacism -- "dated 800-1000 CE, Janson 1986: 190-211". 
-$ TODO NOTE FOR DIA : note that this may have to precede some vowel drops though -- note the example inimīcvs > armik (which is given by DV'18: 1739), though maybe ə was retained between n-m (note cited form anëmik)
-
-$DV3.1H2 : -rn- > -rr- / V __ V . This happens in Gheg and Tosk, but De Vaan 2018, citing Janson 1986(:97f), argues it is post-Slavic. Inasmuch as it happens in Gheg, it is also independent of Tosk rhotacism, and should thus be handled separately.
-$DIACLEA CORRECTION C1A.IV -- now unconditioned (formerly  r n > rː / @ __ @) 
-$DIACLEA CORRECTION B2.X -- moved r n > r: into much earlier proto-Albanian, because it bleeds ietation. -- -immediatley reverted tho. 
-r n > rː
 
 $DV3.1E -- l: passes to dark l.
 $ This is actually pan-Albanian but it is placed as a PAlb to Modern Alb change DV'18. 
@@ -1486,22 +1503,13 @@ $ DIACLEA CORRECTION C3B.XII -- in Proto-Tosk, it is only short ã that becomes
 
 $TODO FOR LAB,CHAM,ARB-,ARV- : y > i here -- DV2.1A3 
 
-=Proto-Tosk
-
-$DIACLEA CORRECTION A1.I -- Slavic æː handling
-[+syl,-tense] > [-lo] 
-
-$DIACLEA CORRECTION A1.XVI -- Slavic ɯ handling: ɯ > u if htere's any, ɨ >i 
-[+syl,+hi,-round,ɯback] > [-ɯfront,ɯround,ɯlab]
-
-$other bandaids -- handling of ɑ, β, x
-[+lo,-round] > [+front,-back] 
-β > v 
-x > h
 
 $bandaid for r: > r
 r > ɾ
 rː > r
+
+=Proto-Tosk
+
 
 $DIACLEA CORRECTION A2.XXXXXX: Northern Tosk pre-nasal non-back vowel deletions. 
 $ A2.XXXXXX.ʎ and .t , .a--- broadest cases, can happen before CC 

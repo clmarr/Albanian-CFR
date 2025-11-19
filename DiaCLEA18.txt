@@ -920,6 +920,7 @@ $DIACLEA CORRECTION A2.XXXXXIV LPA I early flapping and nasalization in V-prim n
 [-prim] n > [+lo,-hi,+nas,+front,-back,+tense,-round,-lab] ɾ̃ / __ [-stres]
 
 $ DV2.2.2a -- APHAERESIS BLOCK
+$ DIACLEA CORRECTION B2.XII -- aphaeresis block relocdated back from Late Proto-Albanian I into Middle Proto-Albanian I to precede β/w merger (ablev-ā- > blej, but awlona > vlorë); the relevant words indicate there is a difference between the first Slavic layer nad some relevant phenomena.
 
 $ DIACLEA FIX C1.B.XVI -- aphaeresis blocked by lengthening for round vowel.  
 [-prim,+round] > [+long] / # __ [-lab]
@@ -1078,7 +1079,7 @@ $DIACLEA CORRECTION C1A.IV -- now unconditioned (formerly  r n > rː / @ __ @)
 $DIACLEA CORRECTION B2.X -- moved r n > r: into much earlier proto-Albanian, because it bleeds ietation. 
 r n > rː
 
-$ DIACLEA CORRECTION A2.XXXXXXVIII prepalalization, reduction to schwa of unround countertonics in # C-nas V R/L (obstruents except coronal stops) -- TODO NOTE UNNATURAL CLASS. Needss to be initial -- ənkˌɑrðˌulˈicjɑ > ngardhulliqe ; skˌɑrd͡ʒˈœɲɔ > shkarzej etc. 
+$ DIACLEA CORRECTION A2.XXXXXXVIII before palalization, reduction to schwa of unround countertonics in # C-nas V R/L (obstruents except coronal stops) -- TODO NOTE UNNATURAL CLASS. Needss to be initial -- ənkˌɑrðˌulˈicjɑ > ngardhulliqe ; skˌɑrd͡ʒˈœɲɔ > shkarzej etc. 
 [-prim,+stres,-round] > ə / # [-nas,+cons] __ [+cor,+son,-nas] [-son,sstrid,scor]
 
 $DV4.2E & DV4.2F3 -- wave of palatalization, occurring before front vowels, including fronted former long round vowels (y, ø) but not including reduced vowels.  Absorbs /w/. 
@@ -1086,7 +1087,8 @@ $ DIACLEA FIX D2.II -- absorption of w in palatalizing k removed, now redundant 
 $w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
 
-
+$DIACLEA CORRECTION A2.XXXXXXIX -- LPA I ɪ > i / rː __ c before ɪ to schwa
+ɪ > i / rː __ c
 
 $tentative reduction of yers here TDO 
 $[+hi,-tense,-prim] > ə

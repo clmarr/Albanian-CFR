@@ -956,14 +956,6 @@ $ Earliest Slavic loans here; "first Slavic wave"
 $DIACLEA FIX A2.XXXXXI : first wave Slavic nasal vowels are unpacked to Vn, with a for ɒ̃ and e for ɛ. Except if before a nasal. Weak of evidence of word final case. Bleeds d > ð
 [+syl,+nas] ∅ > [+front,-back,-round,-lab,-nas,+tense] n / __ [-nas]
 
-$ DV1744.E4 -- Latin d becomes edh after r (as with PPAlb d -- DV1744.E2) , RECURRENT here as part of Slavic handling. 
-$DIACLEA CORRECTION D3.VIII -- reinterpreted as lenition outcomes , more broadly post vocalic (reinstated here to cover Slavic items Nov 18, 2025). 
-$DIACLEA CORRECTION B2.XIII moved to just after insertion of first Slavic loans 
-$DIACLEA CORRECTION C3A.9 -- expanded to more typical leniting contexts ː post-oral-sonorant, before lateral or non-consonant (j ː ogradja > ograjë)
-$ evidence for two separate d > ð phenomena and that htis is 
-d > ð / [+syl] ([+son,-nas,+cons]) __ [βlat,βcons]
-
-
 $DIACLEA CORRECTION A1.XVI ː ɯ handling 
 [+syl,+back,+hi] > [+round,+lab]
 
@@ -976,7 +968,6 @@ $ incorporates DIACLEA CORRECTION A2.XXXXI - ø > œ (and o > ɔ) before it is u
 $D3.X.b1 For ɛ œ it occurs initially when each is stressed (after ø > œ, for convenience) and before a sonorant (or hiatus, but that counts as sonorant). As of Nov 11, 2025, sonorance restriction relaxed too as only exception is eshkë. As of Nov 11, 2025, this also now happens to æ, before becoming ɑ.
 [-tense,+lo] > [-long]
 [+prim,-tense] > [+long] / # __ 
-
 
 $DIACLEA CORRECTION A2.XXXXX.b other æ not effected by the e phenomenon or the initial lengthening all merges to ɑ.
 [+lo,+syl,-long] > [+tense,-front,+back]
@@ -1005,12 +996,8 @@ $ DV2.2.1B1 : but no ietation in the context TL __
 $j > ∅ / [-cont] [+cor,+son,-nas] __ ˈɛ 
 $ usurped by DIACLEA FIX C3B.XV.l & .r
 
-
-
 $DIACLEA FIX A2.XXXXVI -- word initial long vowels shortened. Effects e.g. a: e: < aw aj etc.
 [-prim] > [-long] / # __
-
-
 
 $DIACLEA FIX D3.X.b2 -- initial ˈɔ, and initial ˌɔ, also lengthened more broadly, before non-labials.  Counterbled by initial vowel loss; counterbleeds it in the case of pre-labial examples.
 [-tense,+round,+back] > [+long] / # __ [-lab]
@@ -1090,8 +1077,8 @@ $w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
 $DIACLEA CORRECTION A2.XXXXXXIX -- LPA I ɪ > i / rː __ c before ɪ to schwa
 ɪ > i / rː __ c
 
-$tentative reduction of yers here TDO 
-$[+hi,-tense,-prim] > ə
+$DIACLEA CORRECTION A1.XXII.ɪ 
+ɪ > ə
 
 $TODO, EPSILON NOTE: from this point onward, De Vaan uses *e, but the difference between *e and *ɛ is not meaningful (any longer), and the gold outcomes in ALLex feature /ɛ/, so we will have to at some point move (or merge) these to/as ɛ -- probably at the end. Counterfeeds ɛ > ie though.
 $bandaid here thus inserted
@@ -1168,6 +1155,19 @@ $ handling DV2.2.2b.iii (kˌət  >ft ) here too.
 $ DIACLEA CORRECTION C1.B.XIX -- in MPA I, aspect of DV2.2.2b.iii in having kə >f before t is removed-- no longer necessary, handled by proper vowel elision phenomena. 
 $ DIACLEA CORRECTION C1A.IX : k>p> f phenomena now broadened to all non-coronal voiceless segments before voiceless coronals; consolidated into single rule in the process. Previously: p > k / __ t ; k > f / __ {t;s} 
 [-voi,-cor] > f / __ [-voi,+cor]
+
+$DIACLEA CORRECTION A1.XXII.ʊ > ∅. Not in first LPA wave though -- doesn't feed p > f -- langʊsʊka >Lënckë not *Lëfckë, zambʊʃa > Zëmçë not Zëfckë . Word finally instead goes to ə (potkua etc.) 
+ʊ > ə / __ #
+ʊ > ∅
+
+$ DV1744.E4 -- Latin d becomes edh after r (as with PPAlb d -- DV1744.E2) , RECURRENT here as part of Slavic handling. 
+$DIACLEA CORRECTION D3.VIII -- reinterpreted as lenition outcomes , more broadly post vocalic (reinstated here to cover Slavic items Nov 18, 2025). 
+$DIACLEA CORRECTION B2.XIII moved to just after insertion of first Slavic loans 
+$DIACLEA CORRECTION C3A.9 -- expanded to more typical leniting contexts ː post-oral-sonorant, before lateral or non-consonant (j ː ogradja > ograjë)
+$ evidence for two separate d > ð phenomena and that htis is 
+$ bled by hard yer deletion: pɒdʊkɒwʊ > potkua. 
+d > ð / [+syl] ([+son,-nas,+cons]) __ [βlat,βcons]
+
 
 $DIACLEA CORRECTION A2.XXII -- TV̯L > ləTV̯ if prior syllable has simple onset, it seems: (duplic-ā- > dulpëkoj, pavīcula > pylkë, radīcula > rilkë, conucula > konurkë, but mātrīcula > ndrikull). Two rules necessary per current DiaSim restriction against features in disjunctions. [-voi] in second row is a dummy/place filler. note that if other /l ə/ sequences arise, the functionality of this could be compromised. 
 [-stres] [+lat] > l ə / [+syl] ([-syl,+voi]) [+hi,+syl] [-voi,-cont] __

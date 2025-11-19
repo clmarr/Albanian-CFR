@@ -962,6 +962,10 @@ $DIACLEA CORRECTION A1.XVI ː ɯ handling
 $DIACLEA CORRECTION A.1 & A2.XXXXX : æ(ː?) > eː / C-strid __ C Vfront, elsewhere to a (also A1.I). Even if not long, [æ] tends to be longest vowel and this does not seem to merge with /e/ or /ɛ/ immediately assuming the raising to /i/ (/ɪ/?) phenomenon is a bit later. 
 [+lo,-tense,+syl] > [-lo,+tense,+long] / [+cons,-strid] ([-cons]) __ [-syl] [+front]
 
+$DIACLEA CORRECTION A1.XXII.ʊ > ∅. Not in first LPA wave though -- doesn't feed p > f -- langʊsʊka >Lënckë not *Lëfckë, zambʊʃa > Zëmçë not Zëfckë . Word finally instead goes to ə (potkua etc.) 
+ʊ > ə / __ #
+ʊ > ∅
+
 $ incorporates DIACLEA CORRECTION A2.XXXXI - ø > œ (and o > ɔ) before it is unrounded by LPA. This comes before (bc it feeds) D3.X.b1
 [+syl,+round,-hi,-lo] > [-tense]
 
@@ -1153,12 +1157,8 @@ $ k > f aspect is bled before front vowels by k > j phenomena it seems (DV1744.J
 $ De Vaan does not include ps > fs(h) -- data seems inconsistent as there is gripsa > grifshë but psh- outcomes in supsīritāre > psherëtij and supsīrium > pshirë. 
 $ handling DV2.2.2b.iii (kˌət  >ft ) here too. 
 $ DIACLEA CORRECTION C1.B.XIX -- in MPA I, aspect of DV2.2.2b.iii in having kə >f before t is removed-- no longer necessary, handled by proper vowel elision phenomena. 
-$ DIACLEA CORRECTION C1A.IX : k>p> f phenomena now broadened to all non-coronal voiceless segments before voiceless coronals; consolidated into single rule in the process. Previously: p > k / __ t ; k > f / __ {t;s} 
-[-voi,-cor] > f / __ [-voi,+cor]
-
-$DIACLEA CORRECTION A1.XXII.ʊ > ∅. Not in first LPA wave though -- doesn't feed p > f -- langʊsʊka >Lënckë not *Lëfckë, zambʊʃa > Zëmçë not Zëfckë . Word finally instead goes to ə (potkua etc.) 
-ʊ > ə / __ #
-ʊ > ∅
+$ DIACLEA CORRECTION C1A.IX : k>p> f phenomena now broadened to all non-coronal voiceless segments before voiceless coronals; consolidated into single rule in the process. Previously: p > k / __ t ; k > f / __ {t;s} . Not fed by ʊ > ∅ -- langʊsʊka >Lënckë not *Lëfckë, zambʊʃa > Zëmçë not Zëfckë-- so that must be afterward or, as present, this must be conditioned on following a vocoid
+[-voi,-cor] > f / {#;[-cons]} __ [-voi,+cor]
 
 $ DV1744.E4 -- Latin d becomes edh after r (as with PPAlb d -- DV1744.E2) , RECURRENT here as part of Slavic handling. 
 $DIACLEA CORRECTION D3.VIII -- reinterpreted as lenition outcomes , more broadly post vocalic (reinstated here to cover Slavic items Nov 18, 2025). 

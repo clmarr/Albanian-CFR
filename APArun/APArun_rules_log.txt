@@ -178,6 +178,8 @@ j [-hi,+syl,+stres] > ∅ [-lo,-back,+front,+tense,-cons,-lat,+cont,0delrel]/ [-
 [+syl,+nas] ∅ > [+front,-back,-round,-lab,-nas,+tense,-cons,-lat,+cont,0delrel] n/ __ [-nas]
 [+syl,+back,+hi] > [+round,+lab] 
 [+lo,-tense,+syl] > [-lo,+tense,+long,-cons,-lat,+cont,0delrel] / [+cons,-strid] ( [-cons] ) __ [-syl] [+front]
+ʊ > ə / __ #
+ʊ > ∅ 
 [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
 [-tense,+lo] > [-long,-splng] 
 [+prim,-tense] > [+long] / # __ 
@@ -213,9 +215,8 @@ r n > rː
 ə > ∅ / [+cons] ( @ )* [+nas,+cons] __ [+nas,+cons] ( @ )* [+prim]
 ə > ∅ / [+son,+cons] m __ [+nas,+cons]
 [-son] > [-voi] / __ [-voi]
-[-voi,-cor] > f / __ [-voi,+cor]
-ʊ > ə / __ #
-ʊ > ∅ 
+[-voi,-cor] > f / # __ [-voi,+cor]
+[-voi,-cor] > f / [-cons] __ [-voi,+cor]
 d > ð / [+syl] ( [+son,-nas,+cons] ) __ [βlat,βcons]
 [-stres] [+lat] > l ə/ [+syl] ( [-syl,+voi] ) [+hi,+syl] [-voi,-cont] __ 
 ∅ ∅ [-voi,-cont] l > l ə [-voi] ∅/ [+hi,+syl] __ ə

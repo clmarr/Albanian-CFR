@@ -461,7 +461,8 @@ s > h / [+lo,-prim] ([-cons,-syl]) __ [-stres] [-son]
 $DIACLEA CORRECTION A1.XIII length lost in i early. TODO revise?
 [+syl,+front,+hi] > [-long]
 
-$DIACLEA FIX A2.XXXI.ð stress retraction across coronals 
+$DIACLEA FIX A2.XXXI.ð stress retraction across coronals : 
+
 [+syl] [+cor,-nas,-lat] [+prim,-long] > [+prim] [+cor] [-stres] / __ [-cont,-voi] ( j ) [+syl,+hi] #
 
 $DIACLEA CORRECTION A2.VIII new version -- o  raising exception when after labial-sonorant (florīnum > flori, proximare > prozhëm, prodāre > prodhoj, maybe prōmitt-o > premtoj) or onset sonorant (rosalia > rrëshajë -- albeit dialectal rrushajë, rōmānus > remër/rëmër, notoj, rozhponjë...), if the following wherein it goes to ɔ instead. Exceptions handled by falling to (ˌɔ). Use ɒ (later ɔ) for these exceptions. Not necessarily unstressed o -- daemonem > djemër not djemu/-ũ, consobrinus > kushëri not kushuri, etc. 
@@ -962,11 +963,14 @@ $DIACLEA CORRECTION A1.XVI ː ɯ handling
 $DIACLEA CORRECTION A.1 & A2.XXXXX : æ(ː?) > eː / C-strid __ C Vfront, elsewhere to a (also A1.I). Even if not long, [æ] tends to be longest vowel and this does not seem to merge with /e/ or /ɛ/ immediately assuming the raising to /i/ (/ɪ/?) phenomenon is a bit later. 
 [+lo,-tense,+syl] > [-lo,+tense,+long] / [+cons,-strid] ([-cons]) __ [-syl] [+front]
 
+$DIACLEA CORRECTION A2.XXXXXXXI -- LPA I unstressed vowel deletions before ɲ .Fed by Middle Proto-Albanian stress retractoins in VwVɲ verbs, does not bleed new vocalic length formation in such cases (placed near ietation); does not happen to initial syllable countertonics, coming after aphaeresis to produce newly first syllable countertonics (Vlonjat). Feeds Cɲ > Cɟ phenomenon in LPA I, and LPA I cluster voicing assimilation (fuskinia > fuzhnjë etc). Comes after some mini-i-mutation (karmiɲ-a- > kerrnjoj; intiɲ-o-> ngjyej?, sanguiniata > sãɲɟɲäta > shëngetë). 
+[-stres] > ∅ / [+syl] (@)* __ ɲ
+
 $DIACLEA CORRECTION A1.XXII.ʊ > ∅. Not in first LPA wave though -- doesn't feed p > f -- langʊsʊka >Lënckë not *Lëfckë, zambʊʃa > Zëmçë not Zëfckë . Word finally instead goes to ə (potkua etc.) 
 ʊ > ə / __ #
 ʊ > ∅
 
-$ incorporates DIACLEA CORRECTION A2.XXXXI - ø > œ (and o > ɔ) before it is unrounded by LPA. This comes before (bc it feeds) D3.X.b1
+$ incorporates DIACLEA CORRECTION A2.XXXXI - ø > œ (and o > ɔ) before it is unrounded in LPA. This comes before (bc it feeds) D3.X.b1
 [+syl,+round,-hi,-lo] > [-tense]
 
 $D3.X.b1 For ɛ œ it occurs initially when each is stressed (after ø > œ, for convenience) and before a sonorant (or hiatus, but that counts as sonorant). As of Nov 11, 2025, sonorance restriction relaxed too as only exception is eshkë. As of Nov 11, 2025, this also now happens to æ, before becoming ɑ.
@@ -1508,6 +1512,8 @@ $DIACLEA CORRECTION A2.XXXXXXVI post-Slavic r/ɾj > rːj -- pɯrjɪ > purrë, c
 
 $DIACLEA CORRECTION A1.XXI: Slavic second wave final a > ɛ after palatal sonorant consonants (rja, ɲ(j)a, ʎ(j)a > -re, ɲe, ʎe) 
 [+lo,-stres] > ɛ / [+cons] [+son,+front] __
+
+
 
 =Proto-Tosk-SGheg
 $TODO (ǃǃ) with revisions, up to this point was Tosk + SGheg developments. Different NT developments for north Gheg, plus different outcomes of å and ä, should be handled differently

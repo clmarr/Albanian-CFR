@@ -191,7 +191,7 @@ j [-hi,+syl,+stres] > ∅ [-lo,-back,+front,+tense,-cons,-lat,+cont,0delrel]/ [-
 ˈɛ > ˈɛː / [-cons] [+cor,-lat,-nas,+son] __ ( [+cor,-lat,-nas] ) [-delrel,-back,-voi] [+son]
 ˈɛ > ˈɛː / [rson,rnas] __ [+cor,-lat,-nas] s [+son]
 ˈɛ > ˈɛː / [rson,rnas] __ ( [+cor,-lat,-nas] ) [-delrel,-back,-voi] [+son]
-[+prim,-lo,-hi,-round] > [+long,-tense,-cons,-lat,+cont,0delrel] / [nson,nnas] __ ( r ) [+voi,+cons,mson,mlab] ( [+hi,-back,-nas] ) [+back]
+[+prim,-lo,-hi,-round] > [+long,-tense,-cons,-lat,+cont,0delrel] / [nson,nnas] __ ( r ) [+voi,+cons] ( [+hi,-back,-nas] ) [+back]
 [-prim] > [-long,-splng] / # __ 
 [-tense,+round,+back] > [+long] / # __ [-lab]
 [+stres,-prim] [+syl] > ə [+long,+stres,+syl,+son,0delrel]
@@ -289,6 +289,7 @@ o̯ > ∅ / # ˌu __
 j > ∅ / [+front,+cons] __ 
 ∅ > k / [-voi,+cor,+strid] __ [+lat]
 [+hi,-round,-tense] > [-hi] / __ [+cons] ɪ
+[+hi,-round,-tense] > [-hi] / __ r
 [+hi,-round,-tense,+nas] > [+tense,+lo,-hi,-cons,-lat,+cont,0delrel] 
 [+hi,-tense,-stres] > ∅ 
 l > ʎ / [-cont,+hi] __ 

@@ -1581,8 +1581,8 @@ $resolving D3.X.f
 w > v
 
 $DIACLEA CORRECTION A2.XXXXXXXV two onset k-voicing rules 
-$DIACLEA A2.XXXXXXXV.u -- k > g / # __ ˌu Ccor V-prim  ; .ə # __ ə Ccor Cc'ons V 
-$k > ɡ / # __ [-prim,+back,+hi] [+cor] [-prim]
+$DIACLEA A2.XXXXXXXV.u -- k > g / # __ ˌu Ccor ə  ; .ə # __ ə Ccor Cc'ons V 
+k > ɡ / # __ [-prim,+back,+hi] [+cor] [-prim,-back,-front]
 $k > ɡ / # __ [-prim,-front,-back] [+cor,-nas] [+cons,-back] [+syl]
 
 $ DV4.2P *x to *h -- this is listed as a PPAlb to PAlb change, but it is placed here as it also seems to effect Slavic loans as well, and has somewhat different outcomes in (some) Gheg where Tosk -h ends up corresponding to Gheg -f  

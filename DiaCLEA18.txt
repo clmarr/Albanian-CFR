@@ -1411,10 +1411,6 @@ $ placed between PAlb and modern Alb by DV´18 but could probably be placed earl
 $ Furthermore, earlier placement may be warranted in case the reflex of *β seems to pattern with /f/ in terms of -kt- clusters, where /f/ seems to pattern differently than /p m/...
 [+lab,-son,+cont] > [+strid]
 
-$DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced consonants to modern ʒ -- has to be before end of the fall of lenited stops (in this case β) 
-$DIACLEA FIX C1B.VI: now only happens before obstruents as there are exceptions for at least /l/ and possibly other resonants. In reality this may be morphological though, as it only seems to happen to the prefix sh- "dis, un" 
-ʃ > [+voi] / __ [+cons,+voi,-son]
-
 $DIACLEA CORRECTION A2.XXXXXXII LPA I merger and coalescence of ʒ, d z, d ʒ, d͡z into d͡ʒ. Whether z and d͡ʒ are included or not is not clear since d͡ʒ > z separately. Loss of segmentality of d handled below (TODO)
 [+strid,+cor,+voi] > d͡ʒ
 
@@ -1697,7 +1693,7 @@ $ TODO consider restoring old version when possible.
 $DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced consonants to modern ʒ -- has to be before end of the fall of lenited stops (in this case β) 
 $DIACLEA FIX C1B.VI: now only happens before obstruents as there are exceptions for at least /l/ and possibly other resonants. In reality this may be morphological though, as it only seems to happen to the prefix sh- "dis, un" ; was ʃ > [+voi] / __ [+cons,+voi,-son]
 $DIACLEA FIX B1.IX -- now treated as the rule to handle apparent ʃ > ʒ cases -- proximu > prozhëm, quadresima > krezhëm, resurgere > rizhgoj, vestigare > vëzhgoj; all with attested older forms in -sh-. Also prozhmoj, krezhmoj but these may be due to anlaogical reulations. Done so by moving this into Old North Tosk. Note that prozhëm and krezhëm suggest it occurs at a point when there are syllabic resonants. Also broadened to occur also beofre sonorants. 
-$ʃ > [+voi] / __ [+cons,+voi]
+ʃ > [+voi] / __ [+cons,+voi]
 
 $DV4.1K1 -- Old Alb ʃ > t͡ʃ before a consonant 
 $ DIACLEA CORRECTION C3B.XIX: posterior context changed from [+cons] to [+cons,+nas]

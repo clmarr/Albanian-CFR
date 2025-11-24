@@ -14,7 +14,9 @@ A1.III -- final -ɲ > j in modern standard Albanian except after u. [Unnatural c
 
 A1.IV -- nw (or nβ) > m before e in Middle Proto-Albanian (MPA I to MPA II), after the passage of Latin /ɪ/ and /eː/ (but not /e/) to /e/. Unspecified for stress (i.e. as [+front,-hi,+tense]), though in fact all effected cases concern countertonic /ˌe/ it seems. This seems to cover all cases of Latin -nv- > Alb. m except for potentially mërrajë, if its etymology in Latin invernālia (> Middle Proto-Albanian *enβˌɛrnˈɑʎɑ) is correct. 
 
-[replace A1.V] {ABROGATED 10/2/25 -- superfluous.} A1.V -- fomerly: temporary gemination of n between stressed high vowel and final ə, in late Proto-Albanian or early Proto-Tosk, blocking rhotacism in these environments (e.g. shpinë, shëllinë, trinë, etc. One exception is rrëshirë it seems. Not internallyː monachus > murg). 
+[replace A1.V] {ABROGATED 10/2/25 -- superfluous.} A1.V -- formerly: temporary gemination of n between stressed high vowel and final ə, in late Proto-Albanian or early Proto-Tosk, blocking rhotacism in these environments (e.g. shpinë, shëllinë, trinë, etc. One exception is rrëshirë it seems. Not internallyː monachus > murg). 
+
+A1.V -- ɑ > a; at end of MPA II for pre-Slavic vocab, in the middle of LPA II for Slavic vocab, for which it comes after l-darkening, which it counterbleeds (mɒgɯlɑ > Mëgullë, Second layer pɒsɯlɑ > pusullë).  Originally "bandaid" in LPA I, but reinterpreted and moved
 
 A1.VI -- limited i-mutation of countertonic ˌa in S __ r/l (sarcinārivm > shelqëruor, Salicētvm > Shelqet, salviella > sherbelë). Possibly also k __ r but this is based on one case (carmināre > kernjoj); similarly based on calendārivm > Old Gheg kallënduor alone it may not occur for l, so this is limited to S as prior context. Neverthless, there may be a relation to DV2.2.1C4 which shifts ɛ > a in k/S -- L/R. 
 
@@ -75,14 +77,17 @@ A1.XXIII -- l-darkening in LPA II as per evidence upon Slavic words. See file Sl
 	A1.XXIII.ɯ -- in # __ [Vback but not u (or ũ)] Cvoi=son 
 		llapush, llohë, lloskë, llomit, llashkë, llaskonjë, llazurë, llacë... 
 		after Slav layer 2ː lloskë, llaskonjë
-		not voiced osbruents: lɒza > lozë, lɒgʊ > log etc
+		not voiced obstruents: lɒza > lozë, lɒgʊ > log etc
 		not u ː luftoj, luqerrë, lundër 
 		includes ã ː lɒ̃nga > llëngë , Vlena > llënë
 			fed by aphaeresisː Vlena > llënë
 		includes late ɯ ː lɯka > llukë 
-
+		happens a bit earlier -- counterfed by DV1740F2/C4.I: dlato > latë
+ 
 	A1.XXIII.C -- in TODO 
-		not in __ C C -- dɒlpta > daltë, dɒlptina > dëltinë 
+		not in __ C C --  dɒlpta > daltë, dɒlptina > dëltinë ; pˌɒlʃtnˈik > Plashnik 
+		fed by rhotic-lateral dissim : Slavic ɒrzɒrʊ > ɒlzɒlʊ > llazurë 
+		ToRT metathesis counterbleeds (but does hpapen in many cases): kllapit, kllapë, klloçit, gllavinë, gallvë, vallkua, (ð  > d after lˠ then metath) fllad, flladit
 
 ## A2 Insertion of phenomena that are something new under the sun from the perspective of the baseline. 
 
@@ -188,7 +193,7 @@ A2.XXXV -- hiatus j insertion between front vowel __ non-round non-hi vowel in M
 
 A2.XXXVI --  unstressed front vowels made high if not post-glide. This will (TODO!) ultimately be related to i-mutation by principle. 
 
-A2.XXXVII -- ʎ to jl before unround, jɫ before round if voiced back elements (w, ɡ) are before the prior vowel (evangelium, invigilium, , vilia, Greek gɔ̄leon, galliatia, favalia, eruilium, eriulia, possibly battualia > Cham bëtalë... feeds later darkening but must be before w loses its backness.). counterbled by progressive beta/w coloring. i-mutatory effects but NOT blocked by prior labial (in fact, targets it in the case of w). seems to come after later (Christian) vocab added -- see evangelium > ungjill. 
+A2.XXXVII -- ʎ to jl before unround, jɫ before round if voiced back elements (w, ɡ) are before the prior vowel (evangelium, invigilium, , vilia, Greek gɔ̄leon, galliatia, favalia, eruilium, eriulia, possibly battualia > Cham bëtalë... feeds later darkening but must be before w loses its backness.). counterbled by progressive beta/w coloring. i-mutatory effects but NOT blocked by prior labial (in fact, targets it in the case of w). seems to come after later (Christian) vocab added -- see evangelium > ungjill. As of Nov 23,2025, temporary length so as to distinguish from final -llë outcomes. TODO REVISIT THIS. 
 
 A2.XXXVIII Middle Proto-Albanian I --bleeding regressive coloring [A2.XXXXIII) , w > v between non-mid back vowels and pre-consonantal E. Does not happen for b (harroj, lëroj., tabelë, tryezë < trabeza, trā). If it sees through (n), as proposed on June 20, then it also feeds n-loss and bleeds nw > m phenomenon
 
@@ -701,6 +706,8 @@ C3B.XVIII -- ō > uo rather than ø phenom, when before r, now needs t ocome af
 C3B.XIX -- : fr Old Alb ʃ > t͡ʃ bfeore a consonant posterior context changed from [+cons] to [+cons,+nas]
 $DIACLEA ANALYSIS: for Latin loans at present, c [+cons] clusters are barely present (at the pivot point at this rule, only one was detected -- and it was an error), while "ʃ [+cons]" sequences... overwhelmingly don't go to "t͡ʃ ..." 
 	$ in fact, as of Aug 15 (2023?), tʃ for ʃ was the most common confusion, with 88% of errant words having it, and the error was particularly common after the word bound (43.6%), before /t/ (36.8%) and before /k/ (30%) 
+
+C3B.XX -- ˈɛ > ˈa in DV2.2.1C5 now only after long coronals, short l hits too many wrong items, no evidence of this before lˠ either. This allows us to unify the context as [+cor,+long] rather than {rː;[+lat]}
 
 ## C4 -- changes in both input and output
 

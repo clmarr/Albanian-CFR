@@ -1468,13 +1468,17 @@ $ DIACLEA CORRECTION A2.XXXXXXVI tj > c in Tosk after second Slavic input and af
 $ Resolving DIACLEA CORRECTION D4.III -- remaining ie̯ except in _R# to jɛ
 [-round,+hi,cprim,+stres] [-syl,-cons,-hi] > j [cprim,-tense] / __ {[+son] @;[-son]}
 
-$ no hard yers as yers are dealt with. 
+$other bandaid -- handling of β. 
+β > v
+
+$ no long hard yers as yers are dealt with. 
 [+hi,-tense,+syl] > [-long] 
 $DIACLEA CORRECTION A2.XXXXXXXIV.ɔ -- stressed hard yer ˈʊ , ˌʊ > ˈɔ ; ˌɔ  /  __ [+cor,+ant] [-cons,+hi]
 {ˈʊ;ˌʊ} > {ˈɔ;ˌɔ} / __ [+cor,+ant] [-cons,+hi]
 
 $DIACLEA CORRECTION A2.XXXXXXXIV.ʌ -- stressed hard yer ˈʊ, ˌʊ > ˈə, ˌə / T __ r/l  -- feeds A1.XXIII.C , tentatively bled by .ɔ (vaguely) (shatorre).
 {ˈʊ;ˌʊ} > {ˈə;ˌə} / [-cont,-son] __ [+cor,+son] [+cons] 
+
 
 $ DIACLEA CORRECTION A1.XXIII.ɯ  in # __ [Vback but not u (or ũ)] Cvoi=son 
 		$ not u ː luftoj, luqerrë, lundër ; not voiced obstruents  lɒza > lozë, lɒgʊ > log etc; after Slav layer 2 -- lloskë, llaskonjë; not before u ː luftoj, luqerrë, lundër , (slavic) luzhi, lu(p)qerbull, luspë
@@ -1483,7 +1487,7 @@ $ DIACLEA CORRECTION A1.XXIII.ɯ  in # __ [Vback but not u (or ũ)] Cvoi=son
 l > lˠ / # __ {[+hi,+back,-round,+syl];[+syl,-hi,+back]} [+cons,mvoi,mson]
 
 $DIACLEA CORRECTION A1.XXIII.Cː in V+back,-hi __ C V/#
-l > lˠ / [+stres,-front,-hi] __ [+cons] {[-cons];#}
+l > lˠ / [+stres,-front,-hi] __ {[+cor,+strid];[-son,βvoi,βcont]} {[-cons];#}
 
 $DV1740F2 -- l and a nearby resonant (Rl, lR) merge to become *l:. De Vaan lists parabola -> përrallë as his third example wihch would imply a treatment of /β/ (perhaps? if not /b/?) as a resonant, which could cause problems, but actually parabola > përrallë can be perfectly handled if it is placed before the fall of unstressed vowels.
 $ but this must be placed after DV1740E3 and DV1740E1 as otherwise it would completely bleed them.
@@ -1553,8 +1557,6 @@ $DIACLEA CORRECTION A1.XVI -- Slavic wave 2 ɯ handling: ɯ > u if htere's any, 
 $DIACLEA CORRECTION A1.V -- brightening of ɑ > a. Comes after l-darkening, which it counterbleeds (mɒgɯlɑ > Mëgullë, Second layer pɒsɯlɑ > pusullë). 
 [+lo,-round] > [+front,-back] 
 
-$other bandaid -- handling of β. 
-β > w
 
 $ DV4.1W2 = DV1742R2 -- h prosthesis from PAlb into modern Alb. 
 $ may not be deterministic (may have originated in hypercorrection), but per conference with De Vaan- - inclusion so as to test it (8/9)

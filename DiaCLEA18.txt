@@ -1415,7 +1415,7 @@ $DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced consonants to mo
 $DIACLEA FIX C1B.VI: now only happens before obstruents as there are exceptions for at least /l/ and possibly other resonants. In reality this may be morphological though, as it only seems to happen to the prefix sh- "dis, un" 
 ʃ > [+voi] / __ [+cons,+voi,-son]
 
-$DIACLEA A2.XXXXXXII LPA I merger and coalescence of ʒ, d z, d ʒ, d͡z into d͡ʒ. Whether z and d͡ʒ are included or not is not clear since d͡ʒ > z separately. Loss of segmentality of d handled below (TODO)
+$DIACLEA CORRECTION A2.XXXXXXII LPA I merger and coalescence of ʒ, d z, d ʒ, d͡z into d͡ʒ. Whether z and d͡ʒ are included or not is not clear since d͡ʒ > z separately. Loss of segmentality of d handled below (TODO)
 [+strid,+cor,+voi] > d͡ʒ
 
 $ dʒ and tʃ pass to z and s -- whether from PPAlb dʒ/tʃ or from reflexes of Latin loans in dj-, tj (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3)
@@ -1693,6 +1693,11 @@ $ had to change because negative alpha values are not currently supported.
 $ TODO consider restoring old version when possible. 
 	$ TODO DIA ANALYSIS : at present... no words are effected. Consider removal.
 {d ʃ;d s;d θ} > {t͡ʃ;t͡s;t͡s}
+
+$DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced consonants to modern ʒ -- has to be before end of the fall of lenited stops (in this case β) 
+$DIACLEA FIX C1B.VI: now only happens before obstruents as there are exceptions for at least /l/ and possibly other resonants. In reality this may be morphological though, as it only seems to happen to the prefix sh- "dis, un" ; was ʃ > [+voi] / __ [+cons,+voi,-son]
+$DIACLEA FIX B1.IX -- now treated as the rule to handle apparent ʃ > ʒ cases -- proximu > prozhëm, quadresima > krezhëm, resurgere > rizhgoj, vestigare > vëzhgoj; all with attested older forms in -sh-. Also prozhmoj, krezhmoj but these may be due to anlaogical reulations. Done so by moving this into Old North Tosk. Note that prozhëm and krezhëm suggest it occurs at a point when there are syllabic resonants. Also broadened to occur also beofre sonorants. 
+$ʃ > [+voi] / __ [+cons,+voi]
 
 $DV4.1K1 -- Old Alb ʃ > t͡ʃ before a consonant 
 $ DIACLEA CORRECTION C3B.XIX: posterior context changed from [+cons] to [+cons,+nas]

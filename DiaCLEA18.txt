@@ -401,13 +401,13 @@ $ form prior to 8/5/23 was: (s) l > lː / [+syl] __ [+syl]
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
 $ DIACLEA CORRECTION D3.I : just having this go straight to dark L /lˠ/
 $ DIACLEA CORRECTION B2.V : placing this before {nl,ll} > l, which counterfeeds it, and thus also before lambdacism -- in order to do so, the posterior context is now also *explicitly* [-front] 
-{s l;l} > {lˠ;lˠ} / [+syl] __ [+syl,-front] 
+$ DIACLEA CORRECTION B1.VIII -- s l aspect supppressed. TODO CONSIDER NOT DOING ANY OF THIS TILL MUCH LATER (will have t ochange rules contingent on lˠ tho)
+${s l;l} > {lˠ;lˠ} / [+syl] __ [+syl,-front] 
+l > lˠ / [+syl] __ [+syl,-front] 
 
 $ DV1740G1 : intervocalic l becomes ʎ before front vowel.
 $ DIACLEA CORRECTION D1.VII -- SUPPRESSED, see "Old_DV1740G1_notes", the one case where this works (vjej "I need") is in the same ˌɑ __ [+prim,+front] context that so many of the errors are, best move for now is just to suppress this. 
 $l > ʎ / [+syl] __ [+syl,+front]
-
-
 
 $DV1736 "4.", moved back (DIACLEA CORRECTION B2.IV) handling the posited emergence of high lax vowels from older short high vowels as part of p1736's new vowel system.. Include also his e > ɛ shift here (listed above), and this will give us also o > ɔ too (not ʏ or œ since short versions of y and ø have no way to emerge at this stage.); the outcome of PPAlb/Greek ā (> ɒː) is already ɔː here but he mentions some Latin o & oː passing through "ɔ > o"; unclear when it raises again. 
 $ DIACLEA CORRECTION B2.IV -- laxing moved to Early Proto-Albanian period. 
@@ -1123,9 +1123,9 @@ $DIACLEA CORRECTIONS  : not for back or low (C1b.VIII, including low given brigh
 $DIACLEA CORRECTION A2.XXI -- progressive u-spreading between two unstressed syllables (u or countertonic ˌu spreading onto unstressed vowel). As of 11/11/25 however, much more restricted. 
 	$ previous form: [-prim] > [+hi,+tense,+back,+round,+lab,-lo,-front] / [-prim,+hi,+back,+round] ([-syl])* __
 $however, basically the only secure place this happens is across lˠ. Other places it occurred may be better explained as some labial/dorsal __ lateral rounding phenomenon (see file to figure out) occurring after the excrescence rule that concerns grumbulloj and kumbull at least. 
-$ now only across lˠ
+$ now only across lˠ; as of 11/24, [+lat]
 $ bleeds A1.XX
-[-prim] > [+hi,+tense,+back,+round,+lab,-lo,-front] / [-prim,+hi,+back,+round] lˠ __
+[-prim] > [+hi,+tense,+back,+round,+lab,-lo,-front] / [-prim,+hi,+back,+round] [+lat] __
 
 $ ------- secondary cluster formation---------------
 
@@ -1471,6 +1471,9 @@ $ DIACLEA CORRECTION A1.XXIII.ɯ  in # __ [Vback but not u (or ũ)] Cvoi=son
 		$ counterfed by DV1740F2/C4.I: dlato > latë
 l > lˠ / # __ {[+hi,+back,-round,+syl];[+syl,-hi,+back]} [+cons,mvoi,mson]
 
+$DIACLEA CORRECTION A1.XXIII.Cː in V+back,-hi __ C V/#
+l > lˠ / [+stres,-front,-hi] __ [+cons] {[-cons];#}
+
 $DV1740F2 -- l and a nearby resonant (Rl, lR) merge to become *l:. De Vaan lists parabola -> përrallë as his third example wihch would imply a treatment of /β/ (perhaps? if not /b/?) as a resonant, which could cause problems, but actually parabola > përrallë can be perfectly handled if it is placed before the fall of unstressed vowels.
 $ but this must be placed after DV1740E3 and DV1740E1 as otherwise it would completely bleed them.
 $ form prior to 8/5/23 was: {[+cons,+son] l;l [+cons,+son]} > lː
@@ -1511,7 +1514,6 @@ $DIACLEA CORRECTION A1.XXIII.ʌ l darkening in V (not glide!) __ Vback
 			$bled by hard yer elision A1.XXII.2 (bërcel, sovajkë, kopil, kaçul, etc.); Slavic final -ɑ still back. (mˈælɑ > mellë; pˌɒsˈɯlɑ > posullë, sˈilɑ > sillë, etc.) ; fed by loss of d/ð/r (bullog, toçillë, cepallë, vurkollak) 
 l > lˠ / [+syl] __ [+syl,+back]
 	
-
 
 $DV4.1V3 -- lk > jk -- some variation (bujk/ bulk for "peasant", OAlb attests ulk) but seems (??) pan-Albanian in nature? 
 $$ dialectal evidence suggests that this originally first passed to ʎ: Huld 1976 p 197 for ujk shows that uʎk- forms in Arvanitika and Arbereshe (Sal, Vacc, Falc), and Huld reasonably asserts proto-Albanian had either or uʎk- or ulk- when it split. This is perfectly compatible with hte rest of De Vaan 2018 (which has ʎ go to j later), and is not a new conclusion, so the version supported by Huld is implemented here for now.

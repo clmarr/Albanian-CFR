@@ -510,7 +510,7 @@ C1A.XI ː CPA lj > ʎ phenom (DV1740G2) broadened from just lj  >ʎ to [+lat] (l
 
 C1B.I - Gliding rule (R9 in baseline): [-prim] --> [-stres], countertonic vowels are excempted from gliding at this time. 
 
-C1B.II -- DV1740F3 -- now only applies to r l 
+C1B.II -- DV1740F2 -- now only applies to r l. Overruled on 11/23/25 by C4.I
 
 C1B.III -- DV2.2.2c -- first reduction (and then loss) of internal posttonic vowels now does not occur for low vowels... yet. 
 
@@ -534,21 +534,23 @@ C1B.XI -- w- prosthesis before o doesn't happen if there is a labial after it. N
 
 C1B.XII -- falling sonority diphthong coalescence no longer effects ej. 
 
-C1.B.XIII -- long vowels are not reduced; initial vowels are not reduced before glides (massive change! TODO discuss in diss!) TODO finish implementing.
+C1B.XIII -- long vowels are not reduced; initial vowels are not reduced before glides (massive change! TODO discuss in diss!) TODO finish implementing.
 	C1.B.XIIIb  unstressed long vowels (in practice, mostly countertonic) not reduced to ə by DV2.2.2b.
 
-C1.B.XIV -- ɛ no longer deleted word finally for DV1738 top part 1 rule. 
+C1B.XIV -- ɛ no longer deleted word finally for DV1738 top part 1 rule. 
 
-C1.B.XV -- ɑː > ɒː in Archaic Proto-Albanian now doesn't occur in final syllables.
+C1B.XV -- ɑː > ɒː in Archaic Proto-Albanian now doesn't occur in final syllables.
 
-C1.B.XVI -- initial vowel deletion doesn't occur for round vowels  (Lat ūnctūra > yndyrë, upupa > pupë, oscit-a- > ushtoj, ... ungroj, ; Slavic ɒrɒndɪjɛ > orëndi, ograjë, maybe ukrajë...) except before labial cons (Chr. lat oblāta > blatë, ofella > felë; maybe Slav abuwirtku > berk; lav oblëng and opingë may be later. However, this is aborted after the relocdation of aphaeresis into Middle Proto-Albanian II -- on clewar would-be pre-Slavic example is honōrem > onør > nder, but this may be questionable.  
+C1B.XVI -- initial vowel deletion doesn't occur for round vowels  (Lat ūnctūra > yndyrë, upupa > pupë, oscit-a- > ushtoj, ... ungroj, ; Slavic ɒrɒndɪjɛ > orëndi, ograjë, maybe ukrajë...) except before labial cons (Chr. lat oblāta > blatë, ofella > felë; maybe Slav abuwirtku > berk; lav oblëng and opingë may be later. However, this is aborted after the relocdation of aphaeresis into Middle Proto-Albanian II -- on clewar would-be pre-Slavic example is honōrem > onør > nder, but this may be questionable.  
 
 
-C1.B.XVII-- uj does not happen at the time of DV1735 anymore. 
+C1B.XVII-- uj does not happen at the time of DV1735 anymore. 
 
-C1.B.XVIII -- (what is left of it -- cf. D1.VI) second round of DV2.2.2b countertonic reductions (including still ˌə > ə) does not happen for nasals. 
+C1B.XVIII -- (what is left of it -- cf. D1.VI) second round of DV2.2.2b countertonic reductions (including still ˌə > ə) does not happen for nasals. 
 
-C1.B.XIX -- in MPA I, aspect of DV2.2.2b.iii in having kə >f before t is removed-- no longer necessary, handled by proper vowel elision phenomena. 
+C1B.XIX -- in MPA I, aspect of DV2.2.2b.iii in having kə >f before t is removed-- no longer necessary, handled by proper vowel elision phenomena. 
+
+
 
 ## C2 -- changes in output 
 
@@ -681,6 +683,12 @@ $DIACLEA ANALYSIS: for Latin loans at present, c [+cons] clusters are barely pre
 
 ## C4 -- changes in both input and output
 
+ C4.I: reanalyzed -- output of DV1740F2, now moved into LPA II (per B1.VIII.r), is just l, whether it becomes lˠ to be hanlded elsewhere; APPLIES TO VOICED CORONALS THEN L. 
+	$ applies to r l and just makes from various layers (Lat perlavantem > pullënd; Slav layer 1 bʊlɒgʊ > bullog; Slav layer 2 skɒrlupa >skllupë); does not apply to [+cons,+son] l or l [+cons,+son] except when included in the following: 
+	$ possibly zl : marislūcius > mëlysh
+	$ ðl ː Slav layer 1 ɡˌʊrdlˈɑt͡ʃɪ > LPA II ɡˌʊrðlˈaː(t?)s > gërlac; wˌʊlkɒdlˈɑkʊ > vʊrkɒðlˈakʊ > vurkollak; mˌɛtˈɑdlɒ > mətˈaðla > mëtallë ; mˌʊdɪlˈitɪ > mˌUðlˈit >molit
+	$ dl: Slav layer 2 tˌɔt͡ʃˈidlɑ > toçilë; tˌɔpˈidlɔ > topil; mˌɔtɔβˈidlɔ > motovile
+	$ no evidence for b (Slav layer 1 ɒblangu > oblëng..), clearly some survival of adjacent v (avlëmend) tho w possible, but left out for now. 
 ## C5 -- changes in both input and context conditioning
 
 C5.I -- DV1738 final -o(n), -a(s) > schwa phenomena reformed to hitting any final o ɔ or a 

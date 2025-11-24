@@ -496,9 +496,36 @@ A2.XXXXXXXV two onset k-voicing rules
 
 			(not for back ; kërkoj , unlcear for labial: kërbaç, kë(r)pus vs. gëlbazë)
 
-A2.XXXXXXXVI formation of syllabic sonorant consonants -- ɾ, r, m, n -- not ŋ ɲ lˠ so [-hi] ; word finally -- j , p, b, g, k , t, d, ð, v, m, g, c, f --- safe to assume all [-syl]. Fed by A2.XXXXXXVI but not A1.XXI
+A2.XXXXXXXVI formation of syllabic sonorant consonants -- ɾ, r, m, ɾ̃, lˠ -- not ŋ ɲ so [-hi] ; word finally -- j , p, b, g, k , t, d, ð, v, m, g, c, f --- safe to assume all [-syl]. Fed by A2.XXXXXXVI but not A1.XXI. See word file "Arguments for Late Proto-Albanian syllabic resonants". 
+		constext for word final -- {j; 
+		data below 
+		suggesting it doesn't happen for n eihter -- - ˈcaʒnë ( does for m -- prozhəm, krezhəm
 
+	not after ɾ ː arma > armë, not arëm; also eremum > jerm not *jerëm , jarɪmʊ > jarm not jarëm (even though older forms have this merely as schwa retention) 
+	yes after j ː ajër 
+	yes after m ː emër , femër , timër etc.
+	not after non-high glidesː -uar, yer endsings. 
+	unclear for laterals
+		maybe after some sort of lateral hallēma > alëm 
+		unclear for lˠ, may be lex issue ː calamum > kallm (kallëm?)
+					but skalma > shkallëm ?
+		also issue ː kulm 
+	 generally not if proceeded by u, at least for ɾ and lˠ -- all the -ull words; murmur, lepur, turtur, pluhur, marmur etc for ɾ 
+	.ŋu	except (ǃ( after ŋɡ < nk or ng -- hingəl, ungj/ungəl, qingəl , nəngj
+			> goes to l̩ specifically. 
+			exception tingull unless that's also tingəl
+			needs ŋ -- pjergull, regull vrigull mjegull
+			not generally k -- mushkull mrekull
+	u L > L̩ / N [+back,-cont] __ ([+syl]) #
 
+A2.XXXXXXXVII dissolution of syllabic sonorant consonants R̩ > əR. Comes after ʃ > ʒ / __ Cvoi (counterbleeds for prozhëm, krezhëm), also after ʃ > t͡ʃ. Different outcomes in Arbëreshë than std. Tosk. 
+
+A2.XXXXXXXVIII secondary l̩, l > ʎ / k,g __ again just after Proto-Tosk development to ONT begins, feeding palatalization
+	-potentially effects relevant loans-- gjëndër? (qartë if Italian at all could be iotated in Italian itself tho; ditto qaca < Sic chiazza)
+	-l̩ when not after iŋg -- hingël, qingël, tingëll 
+		effected ː ungj (S Tosk ungël), nëngj, qengj 
+	collimitare > glëmtoj > gjëmtoj 
+	
 # B Rule relocdation
 
 Rules that were moved to different points in the cascade. 
@@ -780,7 +807,7 @@ C3B.XVII -- final j a (s) > ɛ new restrictions
 
 C3B.XVIII -- ō > uo rather than ø phenom, when before r, now needs t ocome after non-continuants
 
-C3B.XIX -- : fr Old Alb ʃ > t͡ʃ bfeore a consonant posterior context changed from [+cons] to [+cons,+nas]; as of Nov 24, 2025 now required to be word initial 
+C3B.XIX -- : fr Old Alb ʃ > t͡ʃ bfeore a consonant posterior context changed from [+cons] to [+cons,+nas]; as of Nov 24, 2025 also not postvocalic (Leshnjë, vishnjë, Vishnjë, Pashnik etc.) 
 $DIACLEA ANALYSIS: for Latin loans at present, c [+cons] clusters are barely present (at the pivot point at this rule, only one was detected -- and it was an error), while "ʃ [+cons]" sequences... overwhelmingly don't go to "t͡ʃ ..." 
 	$ in fact, as of Aug 15 (2023?), tʃ for ʃ was the most common confusion, with 88% of errant words having it, and the error was particularly common after the word bound (43.6%), before /t/ (36.8%) and before /k/ (30%) 
 

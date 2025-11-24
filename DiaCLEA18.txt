@@ -1568,7 +1568,12 @@ r > ɾ
 rː > r
 
 $DIACLEA CORRECTION A2.XXXXXXXVI formation of syllabic sonorant consonants -- ɾ, r, m, n -- not ŋ ɲ lˠ so [-hi] ; word finally -- j , p, b, g, k , t, d, ð, v, m, g, c, f --- safe to assume all [-syl]. Fed by A2.XXXXXXVI but not A1.XXI
-$ TODO HERE
+
+$DIACLEA CORRECTION A2.XXXXXXXVI.ŋu -- special case for u after NK . TODO may need to modify if prenasal stops have formed before this pointǃ
+u [+lat] > l̩ / [+nas] [+back,-cont] __ ([+syl]) #
+
+
+
 
 $DIACLEA CORRECTION A1.XXI: Slavic second wave final a > ɛ after palatal sonorant consonants (rja, ʎ(j)a > -re, ʎe) . Not nje
 [+lo,-stres] > ɛ / [+cons] [+son,+front,-nas] __
@@ -1637,10 +1642,12 @@ $ cases that need to happen before NV -- initially; general internal VC- case.
 $loss of vocalic nasalization: DV2.1A2, C2, completing E1, F3
 [-cons,+nas] > [-nas]
 
-
 $DV4.1R2 -- final devoicing of -z
 $ DIACLEA: suppressed. Correct only for medius > mes, which has a doublet medius>mjez ; mes may have evolved that way for syntactic reasons anyways. 
 $ z > s / __ # 
+
+$DIACLEA CORRECTION A2.XXXXXXXVIII secondary l̩, l > ʎ / k,g __ again just after Proto-Tosk development to ONT begins, feeding palatalization. happens to l̩ except if prior vowel is i (hingël, tingëll, qingël vs. qengj, ungj [cf. Arb ungël], nëngj etc.), collimitare > gjëmoj . Feeds DV4.1V2 ʎ > j
+[+lat] > ʎ / {#;[+syl,uhi,-ufront]} ([-syl])* [+back,-cont] 
 
 $DV4.1V2 -- ʎ passes to j. This happens across Northern Tosk and most Lab (?) but not in some other isolated southern varieties like Arbereshe. It also seems to have affected all of Gheg but the distribution in Tosk suggests it happened in parallel later, rather than being a true shared development. 
 ʎ > j
@@ -1698,11 +1705,14 @@ $DIACLEA FIX B1.IX -- now treated as the rule to handle apparent ʃ > ʒ cases -
 ʃ > [+voi] / __ [+cons,+voi,mlab,mnas] 
 
 $DV4.1K1 -- Old Alb ʃ > t͡ʃ before a consonant 
-$ DIACLEA CORRECTION C3B.XIX: posterior context changed from [+cons] to [+cons,+nas], and also word initially (not Leshnjë, dëshnicë, pashnik)
-ʃ > t͡ʃ / # __ [+cons,+nas]
+$ DIACLEA CORRECTION C3B.XIX: posterior context changed from [+cons] to [+cons,+nas], and also not postvocalically (not Leshnjë, dëshnicë, pashnik; still balçëm)
+ʃ > t͡ʃ / {#;[+cons]} __ [+cons,+nas]
 
 $DV4.1K3 partially implemented here -- Tosk standard does not have c > t͡ʃ everywhere, but does seem to have it when praeconsonantal (çfarë, etc.) 
 c > t͡ʃ / __ [+cons] 
+
+$DIACLEA CORRECTION A2.XXXXXXXVII dissolution of syllabic sonorant consonants R̩ > əR. Comes after ʃ > ʒ / __ Cvoi (counterbleeds for prozhëm, krezhëm), also after ʃ > t͡ʃ. Different outcomes in Arbëreshë than std. Tosk. 
+∅ [+cons,+syl] > ə [-syl]
 
 $ DIACLEA CORRECTION A2.XXXXXXX -- early modern Tosk nd > n post consonantally into modern North Tosk (vullëndet > vullndet > vullnet; calendarius > kallënduor > kallnuor -- but open to possibility this isn't just for l. In Ghegː sanitōsus > shëndosh > shnosh; sanitatem > shëndet > shnet) 
 {n d;ⁿd} > {n;n} / [+cons] __

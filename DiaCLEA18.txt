@@ -1486,7 +1486,7 @@ $ DIACLEA CORRECTION A1.XXIII.ɯ  in # __ [Vback but not u (or ũ)] Cvoi=son
 		$ counterfed by DV1740F2/C4.I: dlato > latë
 l > lˠ / # __ {[+hi,+back,-round,+syl];[+syl,-hi,+back]} [+cons,mvoi,mson]
 
-$DIACLEA CORRECTION A1.XXIII.Cː in V+back,-hi __ C V/#
+$DIACLEA CORRECTION A1.XXIII.Cː in V+back,-hi __ C V/#. UNNATURAL CLASS of posterior consonant -- exclusion of b. 
 l > lˠ / [+stres,-front,-hi] __ {[+cor,+strid];[-son,βvoi,βcont]} {[-cons];#}
 
 $DV1740F2 -- l and a nearby resonant (Rl, lR) merge to become *l:. De Vaan lists parabola -> përrallë as his third example wihch would imply a treatment of /β/ (perhaps? if not /b/?) as a resonant, which could cause problems, but actually parabola > përrallë can be perfectly handled if it is placed before the fall of unstressed vowels.
@@ -1582,13 +1582,17 @@ $DIACLEA FIX B2.IX -- Tosk uo > ua reinterpreted as including wo > wa [D3.X.f] (
 $resolving D3.X.f
 w > v
 
-$DIACLEA CORRECTION A2.XXXXXXXV two onset k-voicing rules 
-$DIACLEA A2.XXXXXXXV.u -- k > g / # __ ˌu Ccor ə  ; .ə # __ ə Ccor Cc'ons V 
-k > ɡ / # __ [-prim,+back,+hi] [+cor] [-prim,-back,-front]
-$k > ɡ / # __ [-prim,-front,-back] [+cor,-nas] [+cons,-back] [+syl]
 
 $ DV4.2P *x to *h -- this is listed as a PPAlb to PAlb change, but it is placed here as it also seems to effect Slavic loans as well, and has somewhat different outcomes in (some) Gheg where Tosk -h ends up corresponding to Gheg -f  
 x > h 
+
+$DIACLEA CORRECTION A2.XXXXXXXV two onset k-voicing rules 
+$DIACLEA A2.XXXXXXXV.u -- k > g / # __ ˌu Ccor ə  ; .ə # __ ə Ccor Cc'ons V 
+$DIACLEA A2.XXXXXXXV.l # __ (ə) l Ccor,-nas l T  # k ( [-prim,-back,-front] ) l [-cont] 
+	$ .r # __ (ə) r/ʃ {t; t͡ʃ; x > h ; ʃ} -- not k, b, c  -- per current formulation, fed by x > h to hit x>h words. 
+k > ɡ / # __ [-prim,+back,+hi] [+cor] [-prim,-back,-front]
+k > ɡ  / # __ ([-prim,-back,-front]) [+lat] [-cont] 
+k > ɡ / # __ ([-prim,-back,-front]) [+cor] [-voi,-lab,-hi]
 
 $ DV4.1B3 & Bonnet 1998:193 -- *Tosk* insertion of b between m and unstressed vowels
 $ DIACLEA CORRECTION: the places this actually correctly happens seem to be before laterals -- grūmul-ā- > grumbulloj, meletta > (m)bletë (?), similatūra > shëmbëlltyrë

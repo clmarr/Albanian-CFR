@@ -1468,8 +1468,9 @@ $ DIACLEA CORRECTION A2.XXXXXXVI tj > c in Tosk after second Slavic input and af
 $ Resolving DIACLEA CORRECTION D4.III -- remaining ie̯ except in _R# to jɛ
 [-round,+hi,cprim,+stres] [-syl,-cons,-hi] > j [cprim,-tense] / __ {[+son] @;[-son]}
 
-$other bandaid -- handling of β. 
+$other bandaid -- handling of β. D3.F w goes to v when not in a diphthong. 
 β > v
+w > v / [+cons] __
 
 $ no long hard yers as yers are dealt with. 
 [+hi,-tense,+syl] > [-long] 

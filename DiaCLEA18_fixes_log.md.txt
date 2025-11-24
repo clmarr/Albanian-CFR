@@ -57,7 +57,7 @@ A1.XVIII at least before A2.XXXV, secondary Latin layer unstressed  i in hiatus 
 A1.XIX -- another round of voicing of (non-affricate) stops in homorganic NT clusters into Old Northern Tosk : effects one Angevin loan  encant > ankand (Marr 2023) ; furthermore : first wave slavic kɒ̃tʊ > (LPA II *kãnt > > ) kënd , ɪnpɒrzdɪnʊ > mbrazën , ɒblɒ̃kʊ > oblëng, mælinʊka > milingë; second Slavic wave items ~ trõtītɪ,    >trondit, possibly ɒbʊpɪ́nʊkɑ > op(ë/i)ngë, emporja > Mborje (near Korçë)
 	$ heterorganic clusters: does not happen for mt -- kumt, kumtoj, kumtoj emtë, gjymt, gjymtyrë, premtoj, 
 			$ not for ɲtː shenjtë, shtrenjtë , këlshenjtë 
-			$ not for nk : Shënkoll , bënkoj (albiet from bëndëkoj in other dialects, attested) 
+			$ not for nk : Shënkoll , bënkoj (albeit from bëndëkoj in other dialects, attested) 
 
 A1.XX -- early fall of unstressed (non-initial) vowels before low vowels. Feeds s > t͡s phenomena 
 
@@ -65,6 +65,21 @@ A1.XXI ɾ/r j ɑ, Cɲɑ, ʎ ɑ > ɾɛ ɲɛ ʎɛ  after short sonorants ɾ r (not
 
 A1.XXII.1 unstressed ɪ, ʊ > ə, ∅ for first wave Slavic and etyma inherited into LPA I after some marginal bleeding phenomena (A1.XXII.ɪ) but essentially immediately for ʊ (A1.XXII.ʊ) 
 	A1.XXII.2 unstressed yers fall in second wave in time to feed lk > ʎk phenomenon (bælʊka >bejkë)
+
+A1.XXIII -- l-darkening in LPA II as per evidence upon Slavic words. See file Slavic to LPA L darkening. Three contextsː 
+		
+	A1.XXIII.ʌ -- in V (not glide!) __ Vback
+			bled by final yer loss! 
+		Slavic final -ɑ still back. 
+	
+	A1.XXIII.ɯ -- in # __ [Vback but not u (or ũ)] Cvoi=son 
+		llapush, llohë, lloskë, llomit, llashkë, llaskonjë, llazurë, llacë... 
+		after Slav layer 2ː lloskë, llaskonjë
+		not voiced osbruents: lɒza > lozë, lɒgʊ > log etc
+		not u ː luftoj, luqerrë, lundër 
+		includes ã ː lɒ̃nga > llëngë , Vlena > llënë
+			fed by aphaeresisː Vlena > llënë
+		
 
 ## A2 Insertion of phenomena that are something new under the sun from the perspective of the baseline. 
 
@@ -424,13 +439,16 @@ B1.VII -- jV > ɛ moved past second slav wave, after secondary n j > ɲ (A1.XVII
 
 B1.VIII -- large scale relocdation of resonant and resonant cluster phenomena from Classical Proto-Albanian to times as late as Late Proto-Albanian II. 
 
-	.y -- s l, l > lˠ (DV1740F3) -- TBD
-	.n -- ln,ll > lː (> l) -- ln > ll > lː maybe after Slav layer, kupælniku > kuplik (Koplik)
-	.r -- DV1740 "Rl, lR" (apparently incl. βl ?ǃ -- given parabola) moved to much later, in LPA II
+	.y -- s l, l > lˠ (DV1740F3) -- TBD IN PROG
+	.n -- ln,ll > lː (> l) -- ln > ll > lː  ll and some ln (vulnerata > vurratë) to MPA I. Another round maybe after Slav layer, kupælniku > kuplik (Koplik). Note the output in lː is also a change. TODO BOHT ll or just ln (ln -- joint treatment with ld for post slav layer?) 
+	.r -- DV1740 "Rl, lR" (apparently incl. βl ?ǃ -- given parabola) moved to much later, in LPA II - done
 		Second Slav wave skɒrlˈupa > skllupë
 			parabola > ... > *pαRaβla > përrallë 
 		Slav wave 1 bʊrlɒgʊ > bullog
-
+	.ʎ -- lk > ʎk moved from LPA I to LPA II - done. 
+		bled by formation of syllabic resonantsː mulc-o- > mëlkoj ; bled by Alb Tortː lakëm, lakmi, shluk
+		effects second slav layer etyma, and does so fed by fall of yers including for second slav layer: bælʊka > bejkë, sowadlʊka > sovajkë
+	
 ## B2 -- rule moved to an earlier time 
 
 B2.I - DV1740E3, ln and ll > l, moved to before lambdacism (moved from rule instant 13 to 10), as it seems to feed it. 
@@ -444,7 +462,7 @@ B2.IV moving, from the Middle Proto-Albanian to the Early/Classical Proto-Albani
 
 B2.V -- l (> lː) > lˠ moved to before lambdacism (for (l)lj segments)
 
-B2.VI -- (n l >) l l > l moved to before lambdacism
+B2.VI -- (n l >) l l > l moved to before lambdacism. As of 11/23/25, usurped by B1.VIII.n (TODO REPLACEǃ) 
 
 B2.VII -- now regressive i-mutation aka Vj diphthong coalescence happens before progressive i-mutation. 
 
@@ -722,6 +740,8 @@ D1.IV -- DV4.1R2 -- final z devoicing deleted. Only example mes < medius may be 
 D1.V -- m > mb in word-final position is suppressed. Too many errors. Consider reinstating with finer grained conditioning. Curiously it seems to be happening to an /a/ that undergoes i-mutation, though the relationship between these phenomena seems ... opaque at best?
 
 D1.VI -- second round of DV2.2.2b pretonic (or rather non-posttonic) vowel reductions deleted except for limited case in first or seocnd syllables, regardless of if actually pretonic (just simply not posttonic -- cases of për, ndër). 
+
+D1.VII -- DV1740G1 deleted. 
 
 ##D2 -- rules deleted as they were redundant
 

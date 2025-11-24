@@ -403,20 +403,13 @@ $ DIACLEA CORRECTION D3.I : just having this go straight to dark L /lˠ/
 $ DIACLEA CORRECTION B2.V : placing this before {nl,ll} > l, which counterfeeds it, and thus also before lambdacism -- in order to do so, the posterior context is now also *explicitly* [-front] 
 {s l;l} > {lˠ;lˠ} / [+syl] __ [+syl,-front] 
 
-$DV1740E3 -- Lat ll > PAlb l. As [l] is a resonant, this will be totally bled by DV1740F2 if not placed before it.
-$merge with DV1740E1: PPAlb ln > PAlb l; placement for the same counterbleeding reasons.  
-$DIACLEA CORRECTION B2.VI: but this does seem to feed lambdacism -- placed before lambdacism as otherwise lambdacism for -llj- segments will be lost due to hte current formulation of rule 14 (l [+cons,+son] > lː); could specify that rule for [-lat] for the second input segment, but it is simpler to just place this rule earlier. 
-{l;n} > {∅;∅} / l __ 
-
 $ DV1740G1 : intervocalic l becomes ʎ before front vowel.
-$ DIA -- SUPPRESSED, see "Old_DV1740G1_notes", the one case where this works (vjej "I need") is in the same ˌɑ __ [+prim,+front] context that so many of the errors are, best move for now is just to suppress this. 
+$ DIACLEA CORRECTION D1.VII -- SUPPRESSED, see "Old_DV1740G1_notes", the one case where this works (vjej "I need") is in the same ˌɑ __ [+prim,+front] context that so many of the errors are, best move for now is just to suppress this. 
 $l > ʎ / [+syl] __ [+syl,+front]
 
 $ DV1740G2 : l j > ʎ in PPAlb and Lat. Seems intended to be fed by hiatus vowel gliding in Latin loans -- unlike the r j > ʎ phenomenon. 
-$DIACLEA CORRECTION C1A.XI ː CPA lj > ʎ phenom (DV1740G2) broadened from just lj  >ʎ to [+lat] (l) > j
-{l l j;l j} > {ʎ;ʎ}
-
-
+$DIACLEA CORRECTION C1A.XI ː CPA lj > ʎ phenom (DV1740G2) broadened from just lj  >ʎ to [l (l) j > ʎ
+{l l j;l j;lː j} > {ʎ;ʎ;ʎ}
 
 $DV1736 "4.", moved back (DIACLEA CORRECTION B2.IV) handling the posited emergence of high lax vowels from older short high vowels as part of p1736's new vowel system.. Include also his e > ɛ shift here (listed above), and this will give us also o > ɔ too (not ʏ or œ since short versions of y and ø have no way to emerge at this stage.); the outcome of PPAlb/Greek ā (> ɒː) is already ɔː here but he mentions some Latin o & oː passing through "ɔ > o"; unclear when it raises again. 
 $ DIACLEA CORRECTION B2.IV -- laxing moved to Early Proto-Albanian period. 
@@ -573,7 +566,7 @@ $ DIACLEA CORRECTION B2.V -- moved. this aspect to before MPA I vowel drops of C
 $ second part -- prior conditioning
 $ DIACLEA CORRECTION C3B.IV* -- nasal conditioning removed here. Instead nkt > ɲt after stressed nonround (ma(n)jtë, shenjtë, strenjtë)
 $ DIACLEA CORRECTION C3B.IV.r, b-- in hte immediate contact position (i.e. not the above, rather than merely after front vowels, iotation happens after  (C3B.IV.r) voiced coronals preceded by other coronals (perhaps across a nonprimary vowel) and (C3B.IV.b) labials on the other side of the vowel perhaps with l intervening. (formerly: [+back,+cons] > j / [+front] __ t) 
-[+back,+cons] > j / {[+lab] (l);[+cor] ([-prim]) [+cor,+cont]} [+syl] __ t
+[+back,+cons] > j / {[+lab] ([+lat]);[+cor] ([-prim]) [+cor,+cont]} [+syl] __ t
 n [+back,+cons] > ɲ / [-round] __ t
 
 $DIACLEA CORRECTION A1.XI.b b > beta. 
@@ -581,6 +574,13 @@ b > β / [-cons] __ ([+son,+cons]) [+syl]
 
 $DIACLEA FIX A2.XXXXIX -- rVr > rVlˠ dissimilation. Counterbled by initial r trilling. Before back element -- contrarjʊ > kundruall and rarʊ > rrall-ë, but not miserari > mishërier
 r > lˠ / r [+syl] __ [+back]
+
+$DV1740E3 -- Lat ll > PAlb l. As [l] is a resonant, this will be totally bled by DV1740F2 if not placed before it.
+$merge with DV1740E1: PPAlb ln > PAlb l; placement for the same counterbleeding reasons.  
+$DIACLEA CORRECTION B2.VI: but this does seem to feed lambdacism -- placed before lambdacism as otherwise lambdacism for -llj- segments will be lost due to hte current formulation of rule 14 (l [+cons,+son] > lː); could specify that rule for [-lat] for the second input segment, but it is simpler to just place this rule earlier. As of 11/23/25 usurped, however -- see blow.
+$ DIACLEA CORRECTION B1.VIII.n -- ll > lː aspect and some ln > lː (vulnerata >vurratë) happens in Middle Proto-Albanian II
+${l;n} > {∅;∅} / l __ 
+l [+cor,+voi] > lː
 
 $DV1740I1 -- initial PPAlb and Lat. r- becomes "*r:"; merges with the reflex of PPAlb initial *wr- (DV1740I2)
 $form prior to 8/5/23 was: (w) r > rː / # __ 
@@ -1215,7 +1215,7 @@ $ DIACLEA CORRECTION A1.VII raising of ɔ to u before palatoalveolar or palatal 
 $DV2.2.1C5: Latin short e > a in "q, sh" __ "rr, l". No explicit word on the dating of this except that it is between post-Latin PPAlb, and PAlb; the forms used (q, sh,... rr, l) suggest a later date but at first inspection it seems to precede the merger of ae to short e (caelum > qiell) which certainly must have been before k > q (=[c]). So it is placed right after "rr, l" emerged (with what would become dark l now being long l, and rr being long r)
 $Per its current placement after ietation, a j is imposed, and ˈɛ is used. 
 $no clear way to block this for PPAlb *e, so this will need to be fixed if errors arise (TODO) 
-ˈɛ > ˈɑ / {k;[+cor,-lab,+cont]} __ {l;rː}
+ˈɛ > ˈɑ / {k;[+cor,-lab,+cont]} __ {[+lat];rː}
 
 $bandaid -- fronting of remaining low vowels at this point, because the lexicon has modern Albanian low vowels as front. 
 [+lo,-round] > [+front,-back]
@@ -1324,10 +1324,9 @@ $ TODO consider merging this with vowel drops in more elegant way.
 $DIACLEA CORRECTION A2.XXIX -- final schwa insertion in etyma that end up assyllabic and stop-final (doesn't seem to happen effectively to z-, s-, zh-, sh-; unclear: n-/në-)
 ∅ > ə / # ([-syl])* [-cont] __ #
 
-$DIACLEA CORRECTION A1.XVII.2 Late Proto-Albanian II has a second wave of the n j > ɲ and also l/ð (r) j > ʎ that at least bleeds final ja > ɛ phenomena. for ð(r)j > hudrio > ujë, Slav ogradja > ograjë.  
-
+$DIACLEA CORRECTION A1.XVII.2 Late Proto-Albanian II has a second wave of the n j > ɲ and also l/lː/ð (r) j > ʎ that at least bleeds final ja > ɛ phenomena. for ð(r)j > hudrio > ujë, Slav ogradja > ograjë.  
 $ this causes memory error somehow: [+cont,+cor,+voi,-strid,ʎlat,ʎson] j> ʎ
-{ð j;l j} > {ʎ;ʎ}
+{ð j;l j;lː j} > {ʎ;ʎ;ʎ}
 [+cor,+nas,+son] j > ɲ
 
 $DV1738, top, part 3: final -ja(s) to e, clearly bleeding part DV1738 part 2.
@@ -1494,8 +1493,13 @@ $DIACLEA CORRECTION A2.XXXXXXXII.r LPA ɪ > ɛ before r too, at least for stress
 $DIACLEA CORRECTION A2.XXXXXXXIII LPA III ɪ̃ > Tosk ã (S Gheg ɛ̃, N Gheg ã, Lab i) : Slavic ɒbʊpɪnʊka > N/E Tosk opëngë (vs. W Tosk opingë, S Gheg opengë, N Gheg apangë); mʊʒɪnɪska > Muzhënckë; primaverë > prëndverë
 [+hi,-round,-tense,+nas] > [+tense,+lo,-hi]
 
-$DIACLEA CORRECTION A1.XXII.2 unstressed yers fall in second wave in time to feed lk > ʎk phenomenon (bælʊka >bejkë)
+$DIACLEA CORRECTION A1.XXII.2 unstressed yers fall in second wave in time to feed lk > ʎk phenomenon (bælʊka >bejkë). Also bleed LPA l-darkeningː sovadlʊka > sovajkë not sovallkë; zabælʊ > zabel not zabell, etc.
 [+hi,-tense,-stres] > ∅
+
+$DIACLEA CORRECTION A1.XXIII.ʌ l darkening in V (not glide!) __ Vback
+			$bled by hard yer elision A1.XXII.2 (bërcel, sovajkë, kopil, kaçul, etc.); Slavic final -ɑ still back. (mˈælɑ > mellë; pˌɒsˈɯlɑ > posullë, sˈilɑ > sillë, etc.) ; fed by loss of d/ð/r (bullog, toçillë, cepallë, vurkollak) 
+l > lˠ / [+syl] __ [+syl,+back]
+
 
 $DV4.1V3 -- lk > jk -- some variation (bujk/ bulk for "peasant", OAlb attests ulk) but seems (??) pan-Albanian in nature? 
 $$ dialectal evidence suggests that this originally first passed to ʎ: Huld 1976 p 197 for ujk shows that uʎk- forms in Arvanitika and Arbereshe (Sal, Vacc, Falc), and Huld reasonably asserts proto-Albanian had either or uʎk- or ulk- when it split. This is perfectly compatible with hte rest of De Vaan 2018 (which has ʎ go to j later), and is not a new conclusion, so the version supported by Huld is implemented here for now.

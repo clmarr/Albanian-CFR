@@ -1468,6 +1468,14 @@ $ DIACLEA CORRECTION A2.XXXXXXVI tj > c in Tosk after second Slavic input and af
 $ Resolving DIACLEA CORRECTION D4.III -- remaining ie̯ except in _R# to jɛ
 [-round,+hi,cprim,+stres] [-syl,-cons,-hi] > j [cprim,-tense] / __ {[+son] @;[-son]}
 
+$ no hard yers as yers are dealt with. 
+[+hi,-tense,+syl] > [-long] 
+$DIACLEA CORRECTION A2.XXXXXXXIV.ɔ -- stressed hard yer ˈʊ , ˌʊ > ˈɔ ; ˌɔ  /  __ [+cor,+ant] [-cons,+hi]
+{ˈʊ;ˌʊ} > {ˈɔ;ˌɔ} / __ [+cor,+ant] [-cons,+hi]
+
+$DIACLEA CORRECTION A2.XXXXXXXIV.ʌ -- stressed hard yer ˈʊ, ˌʊ > ˈə, ˌə / T __ r/l  -- feeds A1.XXIII.C , tentatively bled by .ɔ (vaguely) (shatorre).
+{ˈʊ;ˌʊ} > {ˈə;ˌə} / [-cont,-son] __ [+cor,+son] [+cons] 
+
 $ DIACLEA CORRECTION A1.XXIII.ɯ  in # __ [Vback but not u (or ũ)] Cvoi=son 
 		$ not u ː luftoj, luqerrë, lundër ; not voiced obstruents  lɒza > lozë, lɒgʊ > log etc; after Slav layer 2 -- lloskë, llaskonjë; not before u ː luftoj, luqerrë, lundër , (slavic) luzhi, lu(p)qerbull, luspë
 		$ yes before ã ː llengë, llërë
@@ -1503,15 +1511,20 @@ j > ∅ / [+front,+cons] __
 $DIACLEA CORRECTION A2.XXXXXXV after second Slavic wave, k insertion in S __ l . Feeds DV4.1E2 & DV4.1F2 
 ∅ > k / [-voi,+cor,+strid] __ [+lat]
 
-$DIACLEA CORRECTION A2.XXXXXXXII.ɪ -- LPA II ɪ > ɛ / __ C ɪ. However, this may actually just be that the relevant words are later loans from Bulgarian; caution is warranted here. 
-$DIACLEA CORRECTION A2.XXXXXXXII.r LPA ɪ > ɛ before r too, at least for stressed (countertonic or tonic) variants
-[+hi,-round,-tense] > [-hi] / __ {[+cons] ɪ;r}
 
 $DIACLEA CORRECTION A2.XXXXXXXIII LPA III ɪ̃ > Tosk ã (S Gheg ɛ̃, N Gheg ã, Lab i) : Slavic ɒbʊpɪnʊka > N/E Tosk opëngë (vs. W Tosk opingë, S Gheg opengë, N Gheg apangë); mʊʒɪnɪska > Muzhënckë; primaverë > prëndverë
 [+hi,-round,-tense,+nas] > [+tense,+lo,-hi]
 
+$DIACLEA CORRECTION A2.XXXXXXXII.ɪ -- LPA II ɪ > ɛ / __ C ɪ. However, this may actually just be that the relevant words are later loans from Bulgarian; caution is warranted here. 
+$DIACLEA CORRECTION A2.XXXXXXXII.r LPA ɪ > ɛ before r too, at least for stressed (countertonic or tonic) variants
+[+hi,-round,-tense] > [-hi] / __ {[+cons] ɪ;r}
+
 $DIACLEA CORRECTION A1.XXII.2 unstressed yers fall in second wave in time to feed lk > ʎk phenomenon (bælʊka >bejkë). Also bleed LPA l-darkeningː sovadlʊka > sovajkë not sovallkë; zabælʊ > zabel not zabell, etc.
 [+hi,-tense,-stres] > ∅
+
+
+$DIACLEA CORRECTION A2.XXXXXXIV.u -- remaining stressed ʊ to u.  Rope in ɪ not covered by other rules to i here
+[+hi,+syl] > [+tense]
 
 $DIACLEA CORRECTION A1.XXIII.ʌ l darkening in V (not glide!) __ Vback
 			$bled by hard yer elision A1.XXII.2 (bërcel, sovajkë, kopil, kaçul, etc.); Slavic final -ɑ still back. (mˈælɑ > mellë; pˌɒsˈɯlɑ > posullë, sˈilɑ > sillë, etc.) ; fed by loss of d/ð/r (bullog, toçillë, cepallë, vurkollak) 
@@ -1550,8 +1563,8 @@ $ Placed pretty early as affected words seem to be pretty widely so
 $ DIACLEA : suppressed
 $ ∅ > h / # __ [+syl]
 
-$DIACLEA CORRECTION A2.XXXXXXVI post-Slavic r/ɾj > rːj -- pɯrjɪ > purrë, caries > qerre, dɪbrjʊ > dibërr
-{r j;ɾ j} > {rː;rː} / # ([-syl])* [+syl] ([-syl])* __
+$DIACLEA CORRECTION A2.XXXXXXVI post-Slavic r/ɾj > rːj -- pɯrjɪ > purrë, caries > qerre, dɪbrjʊ > dibërr. Earlierː {r j;ɾ j} > {rː;rː} / # ([-syl])* [+syl] ([-syl])* __; simplified by deleting context. Hinges on ʃˌatˈʊrja > shatorre and pˌɔtˈɛrja> potere; later is only case after e, notably. 
+{r j;ɾ j} > {rː;rː}
 
 $DIACLEA CORRECTION A1.XXI: Slavic second wave final a > ɛ after palatal sonorant consonants (rja, ʎ(j)a > -re, ʎe) . Not nje
 [+lo,-stres] > ɛ / [+cons] [+son,+front,-nas] __

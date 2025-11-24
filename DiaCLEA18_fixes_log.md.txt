@@ -211,7 +211,7 @@ A2.XXXXVII -- MPA I insertion of j before tonic low vowel, essentially metatheti
 
 A2.XXXXVIII -- MPA I shortening of long round vowels before continuant consonantal labials (b>β by now, m f ; not p and not w), at latest in time to bleed fronting  (buf, puk, pukë/Pukë, grumbull, grumbulloj, umb). Happens in more closed syllables, which are those not followed by a low vowel, in somewhat of a sign that the gliding of non-low vowels may have begun at this point... 
 
-A2.XXXXIX -- rVr > rVlˠ dissimilation. Counterbled by initial r trilling. 
+A2.XXXXIX -- rVr > rVlˠ dissimilation. Counterbled by initial r trilling. Before back element -- contrarjʊ > kundruall and rarʊ > rrall-ë, but not miserari > mishërier
 
 A2.XXXXX -- Slavic yat *ě [æː], while treated as ɛː in later layers (which it likely was by htat time) and in general, has a more nuanced treatment in first layer. 
 
@@ -422,6 +422,15 @@ B1.VI -- initial (w) r trilling moved into MPA I.
 
 B1.VII -- jV > ɛ moved past second slav wave, after secondary n j > ɲ (A1.XVII)
 
+B1.VIII -- large scale relocdation of resonant and resonant cluster phenomena from Classical Proto-Albanian to times as late as Late Proto-Albanian II. 
+
+	.y -- s l, l > lˠ (DV1740F3) -- TBD
+	.n -- ln,ll > lː (> l) -- ln > ll > lː maybe after Slav layer, kupælniku > kuplik (Koplik)
+	.r -- DV1740 "Rl, lR" (apparently incl. βl ?ǃ -- given parabola) moved to much later, in LPA II
+		Second Slav wave skɒrlˈupa > skllupë
+			parabola > ... > *pαRaβla > përrallë 
+		Slav wave 1 bʊrlɒgʊ > bullog
+
 ## B2 -- rule moved to an earlier time 
 
 B2.I - DV1740E3, ln and ll > l, moved to before lambdacism (moved from rule instant 13 to 10), as it seems to feed it. 
@@ -457,11 +466,11 @@ B2.XIV -- A1.XX, early fall of unstressed (non-initial-syllable) vowels before l
 
 B3.I -- D1.I - DV1740G2: intervocalic lambdacism before front vowels 
 
-B3.II -- D1.II -- DV1740F2: l coalescence with nearby resonant to dark L, see also B4.I
+B3.II -- D1.II -- DV1740F2: l coalescence with nearby resonant to dark L, see also B4.I -- 11/23, in progressǃ 
 
 ## B4 -- possible relocdations from post-Latin to later post-Latin periods out of deletions to test 
 
-B4.I -- D1.II -- DV1740F2: l coalescence with nearby resonant to dark L, see also B3.II 
+B4.I -- D1.II -- DV1740F2: l coalescence with nearby resonant to dark L, see also B3.II  -- 11/23, in progressǃ 
 
 ## B5 -- stage movement
 
@@ -494,6 +503,8 @@ C1A.VIII: to handle the current implementation of A2.VIII, ā > ɔ broadened to
 C1A.IX : k>p> f phenomena now broadened to all non-coronal voiceless segments before voiceless coronals; consolidated into single rule in the process. 
 
 C1A.X ː second wave of n j > ɲ phenomena (A1.XVII.2) expanded to include ðj and lj > ʎ. 
+
+C1A.XI ː CPA lj > ʎ phenom (DV1740G2) broadened from just lj  >ʎ to [+lat] (l) > j
 
 ### C1B -- input made narrower
 

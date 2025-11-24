@@ -356,12 +356,6 @@ $ needs to come after the nasal-spirant law in Latin input handling so as not to
 $ However, in light of the fact that Proto-Albanian loans reflecting PIE palatovelars reflect as ts dz in Aromanian and various ts s z in Romanian (unlike PAlb ð < PPAlb *d, which reflects with d in Romanian and Aromanian), this is indeed split in two, with the affricate stage first, and the spirantization only after Middle Proto-Albanian (when De Vaan assigns the contact between Proto-Albanian and Proto-Vlach)
 {c͡ç;ɟ͡ʝ} > {t͡s;d͡z}
 
-$DV1740I3 -- internal Lat. -rr- becomes PAlb *r: as well. 
-r r > rː 
-
-$DV1740G3 -- PPAlb *-rj- to ʎ. E.g. marathrion > maraj (Rom. marariu). Does not seem (?) intended to be fed by gliding of Latin i,e in hiatus to j, which is below (GLIDING) -- Latin to PAlb etyma listed by De Vaan are clearly unaffected (altarivm p1737; febrvārivs p1745...). Cited to Bonnet 1998: 208ff; Matzinger 2006: 74. 
-$ can be put here before the gliding of Latin i and e.  
-r j > ʎ / @__ @
 
 $ DIACLEA CORRECTION A2.XXXVIV o unrounds (and fronts?) before m then unround vowel; may need to rethink placement. Going to e for now. Doesn't seem to happen after back elements which supports fronting as the mechanism. (promitt-o- > premtoj "promise"; pōma > pemë "tree" [otherwise would be effeected by shortening]; ? rōmānu- > Arvanite/Arbëreshë/Cham rëmër  & Gheg/Arbanasi remën "shepherd, peasant; Vlach" + dialectal Rëmenj (, Pogradec) < rōmān-ī ; glomerata > grëmëratë "biestlings, curds" ( > Greek gramenada) ... not coma > komë etc.)
 [-hi,+round] > [-round,-lab,-back,+front] / [-back] __ m [-cons,-round]
@@ -379,6 +373,12 @@ $ results when the /i/ is stressed are unclear -- which is why this is a "maybe 
 $TODO ... is this rule *really* worth its cost in complication? Consider removing it. Or just getting rid of hte ìːn >iníː aspect? 
 {i n;ˌiː n;ˈiː n} > {i n i;ˌiː n i;i n ˈiː} / # ([-front])* [+lab,+voi] ([+cor,+cont])* ([+back])  __ [+lo]
 
+$DV1740I3 -- internal Lat. -rr- becomes PAlb *r: as well. 
+r r > rː 
+
+$DV1740G3 -- PPAlb *-rj- to ʎ. E.g. marathrion > maraj (Rom. marariu). Does not seem (?) intended to be fed by gliding of Latin i,e in hiatus to j, which is below (GLIDING) -- Latin to PAlb etyma listed by De Vaan are clearly unaffected (altarivm p1737; febrvārivs p1745...). Cited to Bonnet 1998: 208ff; Matzinger 2006: 74. 
+$ can be put here before the gliding of Latin i and e.  
+r j > ʎ / @ __ @
 
 $$ De Vaan 2018 has the change in vowel length to quality only come after major PPAlb to PAlb developments -- see p1736 -- namely long round vowel fronting, ai > ē, and aː > ɔː. -- will be handled in next stage
 
@@ -394,7 +394,7 @@ $ for convenience, and given Pope 1934(:s220), and given that forming a broad ru
 $DIACLEA18 change: changed the -prim to -stress here as this doesn't seem to apply to countertonics as the diagnostics reveal a 0% accuracy over this subset -- especially looking at the cases of gruilla, coopertūra, creāre... etc. 
 [-lo,+syl,-stres] > [-syl,+hi,-long] / __ [+syl]
 
-$DV1740F3 -- Lat *l > l: / V __ V[-front]
+$DV1740F3 -- De Vaan's Lat *l > l: / V __ V[-front]
 $ as long as the lambda forming rule DV1740G1 is placed before this, [-front] does not need to be explicated, which is useful because [a] may technically be treated as front depending on the current convention for Latin on the input side, but this does appear to occur before [a] ? (or not?) 
 $ Combined with DV1740F1 ~ PPAlb *l, *sl > l: / V __ V[-front] 
 $ form prior to 8/5/23 was: (s) l > lː / [+syl] __ [+syl]
@@ -405,7 +405,7 @@ $ DIACLEA CORRECTION B2.V : placing this before {nl,ll} > l, which counterfeeds 
 
 $DV1740E3 -- Lat ll > PAlb l. As [l] is a resonant, this will be totally bled by DV1740F2 if not placed before it.
 $merge with DV1740E1: PPAlb ln > PAlb l; placement for the same counterbleeding reasons.  
-$DIA CHANGE B2.VI: but this does seem to feed lambdacism -- placed before lambdacism as otherwise lambdacism for -llj- segments will be lost due to hte current formulation of rule 14 (l [+cons,+son] > lː); could specify that rule for [-lat] for the second input segment, but it is simpler to just place this rule earlier. 
+$DIACLEA CORRECTION B2.VI: but this does seem to feed lambdacism -- placed before lambdacism as otherwise lambdacism for -llj- segments will be lost due to hte current formulation of rule 14 (l [+cons,+son] > lː); could specify that rule for [-lat] for the second input segment, but it is simpler to just place this rule earlier. 
 {l;n} > {∅;∅} / l __ 
 
 $ DV1740G1 : intervocalic l becomes ʎ before front vowel.
@@ -413,14 +413,15 @@ $ DIA -- SUPPRESSED, see "Old_DV1740G1_notes", the one case where this works (vj
 $l > ʎ / [+syl] __ [+syl,+front]
 
 $ DV1740G2 : l j > ʎ in PPAlb and Lat. Seems intended to be fed by hiatus vowel gliding in Latin loans -- unlike the r j > ʎ phenomenon. 
-l j > ʎ
+$DIACLEA CORRECTION C1A.XI ː CPA lj > ʎ phenom (DV1740G2) broadened from just lj  >ʎ to [+lat] (l) > j
+{l l j;l j} > {ʎ;ʎ}
 
 $DV1740F2 -- l and a nearby resonant (Rl, lR) merge to become *l:. De Vaan lists parabola -> përrallë as his third example wihch would imply a treatment of /β/ (perhaps? if not /b/?) as a resonant, which could cause problems, but actually parabola > përrallë can be perfectly handled if it is placed before the fall of unstressed vowels.
 $ but this must be placed after DV1740E3 and DV1740E1 as otherwise it would completely bleed them.
 $ form prior to 8/5/23 was: {[+cons,+son] l;l [+cons,+son]} > lː
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
-$ DIA CHANGE: these go straight to lˠ, not lː
-$ DIA CHANGE: these are suppressed as they were correct for only items in r l, leaving only those. 
+$ DIACLEA CORRECTION D3.I : these go straight to lˠ, not lː
+$ DIACLEA CORRECTION: these are suppressed as they were correct for only items in r l, leaving only those. 
 $ [+cons,+son] l > lˠ
 r l > lˠ
 $ l [+cons,+son] > lˠ
@@ -586,8 +587,8 @@ n [+back,+cons] > ɲ / [-round] __ t
 $DIACLEA CORRECTION A1.XI.b b > beta. 
 b > β / [-cons] __ ([+son,+cons]) [+syl]
 
-$DIACLEA FIX A2.XXXXIX -- rVr > rVlˠ dissimilation. Counterbled by initial r trilling. 
-r > lˠ / r [+syl] __
+$DIACLEA FIX A2.XXXXIX -- rVr > rVlˠ dissimilation. Counterbled by initial r trilling. Before back element -- contrarjʊ > kundruall and rarʊ > rrall-ë, but not miserari > mishërier
+r > lˠ / r [+syl] __ [+back]
 
 $DV1740I1 -- initial PPAlb and Lat. r- becomes "*r:"; merges with the reflex of PPAlb initial *wr- (DV1740I2)
 $form prior to 8/5/23 was: (w) r > rː / # __ 

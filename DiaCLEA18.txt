@@ -511,6 +511,9 @@ $ main wave of contact with Proto-Romanian (temporarily?) complete now
 $ evidence from the loans indicates that around this time, the reflexes of hte PIE palatovelars in Alb should be around ts/dz (evidenced mainly by Aromanian as these deaffricate in Romanian), tentatively before the merger of PPAlb a: into o is complete (cf. mazăre for Alb modhull, rață for rosë "duck"), before the passage of PPAlb tʃ dʒ to s z (ciută -- sutë etc...), after the retraction of post-vocalic s (mosh "old") but before the same impact on cluster s including in Latin loans (strunga-shtrungë; Lat fossātum > ORom fsat, Alb fshat, Lat spodium > Alb shpuzë > Rom spuza), tentatively after the emergence of some schwa (Rom nǎpârcǎ -- Alb nëpërkë "adder" --though as of June 2024 this idea is set aside as the vowel reduction patterns of Rom and Alb are too different to warrant so much effort to reconcile them), after the emergence of Albanian suffix -zë, perhaps after the emergence of the Albanian postposed article in -të (Drobeta), at a point when initial PPAlb w is in the stage of [β] (Rom abur -- Alb avull "vapor", vatra-vatër) which closes to /b/ in Romanian just like PPAlb /ð/ (< intervocalic d) goes to PVlach /d/; before ALb long u: > y (ghiuj/gjysh, buc/byk... , the -i- in ghiuj probably for ohter reasons though that is certainly interesting...) 
 $ TODO possibility that Alb/Alb-Rom substrate divergence was quite earlier -- consider implementation .
 
+$bandaid: deaspiration of consonantals
+[+cons] > [-sg]
+
 $ DIACLEA CORRECTION B1.VIII.j lambdacism and enyacism block moved to MPA I from CPA
 $ DV1740G2 : l j > ʎ in PPAlb and Lat. Seems intended to be fed by hiatus vowel gliding in Latin loans -- unlike the r j > ʎ phenomenon. 
 $DIACLEA CORRECTION C1A.XI ː CPA lj > ʎ phenom (DV1740G2) broadened from just lj  >ʎ to [l (l) j > ʎ
@@ -1371,7 +1374,7 @@ $ Since all other cases have been handled by the above rule concerning final nas
 
 $DIACLEA CORRECTION A2.XXXXXVIII: n-like segments before a stop assimilates to its place of articulation and become simple nasal stops 
 	$ This happens to long nː too -- hinnicul-ā- > LPA I hinːə̯kəlˠɔ́ɲ > hingëlloj 
-[+nas,+cor] > [-long,dcor,βlab,ɣback,ðant,ɩfront,χhi] / __ [-delrel,dcor,βlab,ɣback,ðant,ɩfront,χhi]
+[+nas,+cor] > [-long,+cont,dcor,βlab,ɣback,ðant,ɩfront,χhi] / __ [-delrel,dcor,βlab,ɣback,ðant,ɩfront,χhi]
 
 $------- continued rise of long vowels -------------
 $DV1734.1.II -- long vowels that arise through contraction in final position with *-ë and -i, the latter with apparent fronting but while illustrated in provided examples this apparent fronting is not stated as part of the development by De Vaan 2018, because it can be handled anyways by i-mutation. Gheg preserves -aë# and -oë# longer and makes them into vowels in some dialects ([æ], [ø]), so this is placed after the split of Proto-Albanian 

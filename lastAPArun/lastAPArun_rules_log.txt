@@ -89,6 +89,7 @@ w > ∅ / [-back,-son] __
 j > ɟ / # __ 
 ʒ > ɟ 
 {s n;t n;d n;n n;k n} > {nː;nː;nː;nː;nː} 
+[+cons] > [-sg] 
 {l l j;l j;lː j} > {ʎ;ʎ;ʎ} 
 ʎ > j lˠ / [+back,+voi] [+syl] __ [+syl,+round]
 ʎ > j l / [+back,+voi] [+syl] __ [+syl]
@@ -258,7 +259,7 @@ a j > ∅ / __ [+lo,-round,+stres,-prim] #
 [+nas,+cons] > ∅ / [+nas,+cons] __ #
 [+nas,+cons] [+nas,+cons,+cont] > ∅ [+long]
 [+nas,+cons] [+nas,+cons,+cont] > ∅ [+long]
-[+nas,+cor] > [-long,dcor,βlab,ɣback,ðant,ɩfront,χhi,-splng] / __ [-delrel,dcor,βlab,ɣback,ðant,ɩfront,χhi]
+[+nas,+cor] > [-long,+cont,dcor,βlab,ɣback,ðant,ɩfront,χhi,-splng,0delrel] / __ [-delrel,dcor,βlab,ɣback,ðant,ɩfront,χhi]
 [+syl] [-prim,-round,-lo] > [+long] ∅/ __ #
 [-cons] > [+nas] / __ [+nas,+cons]
 n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ [+strid,+cons]

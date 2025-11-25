@@ -969,6 +969,12 @@ $DIACLEA CORRECTION A.1 & A2.XXXXX : æ(ː?) > eː / C-strid __ C Vfront, elsewh
 $DIACLEA CORRECTION A2.XXXXXXXI -- LPA I unstressed vowel deletions before ɲ .Fed by Middle Proto-Albanian stress retractoins in VwVɲ verbs, does not bleed new vocalic length formation in such cases (placed near ietation); does not happen to initial syllable countertonics, coming after aphaeresis to produce newly first syllable countertonics (Vlonjat). Feeds Cɲ > Cɟ phenomenon in LPA I, and LPA I cluster voicing assimilation (fuskinia > fuzhnjë etc). Comes after some mini-i-mutation (karmiɲ-a- > kerrnjoj; intiɲ-o-> ngjyej?, sanguiniata > sãɲɟɲäta > shëngetë). 
 [-stres] > ∅ / [+syl] (@)* __ ɲ
 
+$DIACLEA CORRECTION A2.XXXXXXXX.ɔʊ -- first Slav layer ɒ > ɔ  /  @ __ [+voi,+cons,-nas] yer, before loss of Slav layer I yers, .
+[+lo,+round,-nas] > [-lo,-tense] / __ [+voi,+cons,-nas] [-tense,+hi,-stres] 
+
+$DIACLEA CORRECTION A2.XXXXXXXX.ka ː ˌɒ,ˈɒ unroudned / velar __ c-nas,-lab -nas. Bled by A2.XXXXXXXX.ɔu, feeds A2.XXXXXXXVI.ARA
+[+lo,+round,-nas,+stres] > [-round,-lab] / [+back,+cons] __ [+cons,-nas,-lab] [-nas]
+
 $DIACLEA CORRECTION A1.XXII.ʊ > ∅. Not in first LPA wave though -- doesn't feed p > f -- langʊsʊka >Lënckë not *Lëfckë, zambʊʃa > Zëmçë not Zëfckë . Word finally instead goes to ə (potkua etc.) 
 ʊ > ə / __ #
 ʊ > ∅
@@ -1088,7 +1094,7 @@ $w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
 $DIACLEA CORRECTION A2.XXXXXXIX -- LPA I ɪ > i / rː __ c before ɪ to schwa
 ɪ > i / rː __ c
 
-$DIACLEA CORRECTION A1.XXII.ɪ 
+$DIACLEA CORRECTION A1.XXII.ɪ unstressed ɪ, ʊ > ə, ∅ for first wave Slavic and etyma inherited into LPA I after some marginal bleeding phenomena
 ɪ > ə
 
 $TODO, EPSILON NOTE: from this point onward, De Vaan uses *e, but the difference between *e and *ɛ is not meaningful (any longer), and the gold outcomes in ALLex feature /ɛ/, so we will have to at some point move (or merge) these to/as ɛ -- probably at the end. Counterfeeds ɛ > ie though.
@@ -1478,7 +1484,7 @@ $DIACLEA CORRECTION A2.XXXXXXXIV.ʌ -- stressed hard yer ˈʊ, ˌʊ > ˈə, ˌə
 
 $DIACLEA CORRECTION A2.XXXXXXXIX -- Second slav layer ɒ > a only in two (countertonic only) positionsː 
 	$ DIACLEA CORRECTION A2.XXXXXXXIX.r ː second Slav  layer ˌɒ > ˌa / # __ r C -- argovë, arqitë, ardenicë
-ˌɒ > ˌɑ / # __ r
+ˌɒ > ˌɑ / # __ r [+cons]
 	$DIACLEA CORRECTION A2.XXXXXXXIX..c :  second Slav  layer ˌɒ > ˌa /  k __ t͡ʃ -- kaçu- words, if they are to be trusted etymologically.  (k __ l cases unclear.) 
 ˌɒ > ˌɑ / k __ t͡ʃ
 	$DIACLEA CORRECTION A2.XXXXXXXIX.ɔ in all other cases of ɒ goes to ɔ, including the nasal variant. 

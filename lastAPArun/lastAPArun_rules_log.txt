@@ -180,6 +180,8 @@ j [-hi,+syl,+stres] > ∅ [-lo,-back,+front,+tense,-cons,-lat,+cont,0delrel]/ [-
 [+syl,+back,+hi] > [+round,+lab] 
 [+lo,-tense,+syl] > [-lo,+tense,+long,-cons,-lat,+cont,0delrel] / [+cons,-strid] ( [-cons] ) __ [-syl] [+front]
 [-stres] > ∅ / [+syl] ( @ )* __ ɲ
+[+lo,+round,-nas] > [-lo,-tense,-cons,-lat,+cont,0delrel] / __ [+voi,+cons,-nas] [-tense,+hi,-stres]
+[+lo,+round,-nas,+stres] > [-round,-lab] / [+back,+cons] __ [+cons,-nas,-lab] [-nas]
 ʊ > ə / __ #
 ʊ > ∅ 
 [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 

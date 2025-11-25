@@ -1568,10 +1568,11 @@ r > ɾ
 rː > r
 
 $DIACLEA CORRECTION A2.XXXXXXXVI formation of syllabic sonorant consonants -- ɾ, r, m, n -- not ŋ ɲ lˠ so [-hi] ; word finally -- j , p, b, g, k , t, d, ð, v, m, g, c, f --- safe to assume all [-syl]. Fed by A2.XXXXXXVI but not A1.XXI
+$internally for round vowels unimplemented as causes too many problems -- see notes currently stored in fixes log (as of 11/24/25).
+
 
 $DIACLEA CORRECTION A2.XXXXXXXVI.ŋu -- special case for u after NK . TODO may need to modify if prenasal stops have formed before this pointǃ
 u [+lat] > l̩ / [+nas] [+back,-cont] __ ([+syl]) #
-
 
 
 
@@ -1646,8 +1647,8 @@ $DV4.1R2 -- final devoicing of -z
 $ DIACLEA: suppressed. Correct only for medius > mes, which has a doublet medius>mjez ; mes may have evolved that way for syntactic reasons anyways. 
 $ z > s / __ # 
 
-$DIACLEA CORRECTION A2.XXXXXXXVIII secondary l̩, l > ʎ / k,g __ again just after Proto-Tosk development to ONT begins, feeding palatalization. happens to l̩ except if prior vowel is i (hingël, tingëll, qingël vs. qengj, ungj [cf. Arb ungël], nëngj etc.), collimitare > gjëmoj . Feeds DV4.1V2 ʎ > j
-[+lat] > ʎ / {#;[+syl,uhi,-ufront]} ([-syl])* [+back,-cont] 
+$DIACLEA CORRECTION A2.XXXXXXXVIII secondary l̩, l > ʎ / k,g __ again just after Proto-Tosk development to ONT begins, feeding palatalization. happens to l̩ except if prior vowel is i {UNNATURAL CLASS} (hingël, tingëll, qingël vs. qengj, ungj [cf. Arb ungël], nëngj etc.), collimitare > gjëmoj . Feeds DV4.1V2 ʎ > j
+[+lat] > ʎ / {#;[+syl,uhi,uback]} ([-syl])* [+back,-cont] __ 
 
 $DV4.1V2 -- ʎ passes to j. This happens across Northern Tosk and most Lab (?) but not in some other isolated southern varieties like Arbereshe. It also seems to have affected all of Gheg but the distribution in Tosk suggests it happened in parallel later, rather than being a true shared development. 
 ʎ > j

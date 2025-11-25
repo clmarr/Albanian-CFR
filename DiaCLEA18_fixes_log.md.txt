@@ -496,12 +496,15 @@ A2.XXXXXXXV two onset k-voicing rules
 
 			(not for back ; kërkoj , unlcear for labial: kërbaç, kë(r)pus vs. gëlbazë)
 
-A2.XXXXXXXVI formation of syllabic sonorant consonants -- ɾ, r, m, ɾ̃, lˠ -- not ŋ ɲ so [-hi] ; word finally -- j , p, b, g, k , t, d, ð, v, m, g, c, f --- safe to assume all [-syl]. Fed by A2.XXXXXXVI but not A1.XXI. See word file "Arguments for Late Proto-Albanian syllabic resonants". 
-		constext for word final -- {j; 
+A2.XXXXXXXVI formation of syllabic sonorant consonants -- ɾ, r, m, ɾ̃, -- not ŋ ɲ so [-hi] ; word finally -- j , p, b, g, k , t, d, ð, v, m, g, c, f --- safe to assume all [-syl]. Fed by A2.XXXXXXVI but not A1.XXI. See word file "Arguments for Late Proto-Albanian syllabic resonants". Clear cases of lˠ reduction occur next to u in certain conditions (see below .ŋu), otherwise not included. UNNATURAL CLASS of consonatns + j - ɾ/ɾ̃. 
+	[{j;[-son];[+son,+cons,+cont]} __ 
+		constext for word final -- seems to be basically all consonantal minus ɾ plus no evidence for ɾ̃, plus j
 		data below 
 		suggesting it doesn't happen for n eihter -- - ˈcaʒnë ( does for m -- prozhəm, krezhəm
 
-	not after ɾ ː arma > armë, not arëm; also eremum > jerm not *jerëm , jarɪmʊ > jarm not jarëm (even though older forms have this merely as schwa retention) 
+	not after ɾ ː arma > armë, not arëm; 
+		final reduction when not low is more ambiguous -- also eremum > jerm not *jerëm , jarɪmʊ > jarm not jarëm (even though older forms have this merely as schwa retention) 
+		(internally likewise : trimēnsana > LPA trəmʃˈãɾə > tr̩(m >∅)ʃˈãɾ̃ə , not trm̩ʃãɾ̃ə > trëmshërë. Similar deletion also arguably seen for nasal in pəɾə̃ndəlɡˈɔ̃ɲ however this could actually be something else going on given sˌaɲtatrˌintˈatɪ > Buzuku shëntëritat (?) unclear.) 
 	yes after j ː ajër 
 	yes after m ː emër , femër , timër etc.
 	not after non-high glidesː -uar, yer endsings. 
@@ -510,18 +513,50 @@ A2.XXXXXXXVI formation of syllabic sonorant consonants -- ɾ, r, m, ɾ̃, lˠ --
 		unclear for lˠ, may be lex issue ː calamum > kallm (kallëm?)
 					but skalma > shkallëm ?
 		also issue ː kulm 
-	 generally not if proceeded by u, at least for ɾ and lˠ -- all the -ull words; murmur, lepur, turtur, pluhur, marmur etc for ɾ 
+
+	 generally not if proceeded by u... , at least for ɾ and lˠ -- all the -ull words; murmur, lepur, turtur, pluhur, marmur etc for ɾ 
 	.ŋu	except (ǃ( after ŋɡ < nk or ng -- hingəl, ungj/ungəl, qingəl , nəngj
 			> goes to l̩ specifically. 
 			exception tingull unless that's also tingəl
 			needs ŋ -- pjergull, regull vrigull mjegull
 			not generally k -- mushkull mrekull
-	u L > L̩ / N [+back,-cont] __ ([+syl]) #
+		u L > L̩ / N [+back,-cont] __ ([+syl]) #
+		ALTERNATIVE EXPLANATION: l̩/l̩ˠ > ull usually word finally (cf Slavic ˈɒkɒl > vokull) 
+
+	.Tɔ -- for round vowels that aren't u, it seems tentatively they and a sonorant go to a syl son if afte rstops (katër (?), mbretër, topër, vokull..? , lakëm) ; exception is after m and somewhat dubious (Tomorr).  
+
+		clear uR > R̩ internally is also rare, as is if u is replaced with anohter round vowel. CURRENTLY UNIMPLEMENTED, NOT WORTH THE COMPLICATION
+			exceptions
+				Gk korsɔ̄ton > LPA kʊrʃœt > kˌuɾʃˈɛt > gërshet
+				Slav II gɒrdˈɪt͡sɪ > ... > gVʷrdˈɛt͡s > gërdec
+				Lat collimitare > LPA (k >g)ulːəmtˈɔɲ > gjëmtoj
+				turb-o-				> tërboj
+				rːump-o-				>rrëmbej
+				resurg-o-		rriʃʊrg-o-	>rrizhgoj
+				porrinia 		purəɾ̃ijə > p(ër)rijë 
+				fundˈɛre 				fën(d)er
+
+				r: alone in being after a resonant, and before something labial-- in fact all others are before coronals
+				prijë aside, can target non hi prim vowels
+
+target : [+round,-prim] [+son,+cor,-hi] ([-prim]) 
+				[-son] [+round,-prim] [+son,+cor,-nas,-hi] ([-prim,-round] ([+son])) [-son] [+prim,-hi]
+
+			--- remaining issues tho (not counting prepalatal r̩/l̩ which is known to > ul) -- 7 , so not worth it. 
+112,  | ...                | ...                | ...                | ...                | ...                | ...                | #kˌɒrwˈɑʎɑ#        | *#kˌɒrwˈɑːʎɑ#      | *#kˌɒɾvˈaːʎa#      | *#kˌɒɾvˈaːʎa#      | *#kˌɒɾvˈaːʎa#      | *#kˌɒɾvˈajə#       | *#kɒɾvˈajə#        | #kaɾavˈɛlə#
+259,  | ...                | ...                | ...                | #kˌurtiˈɑːnioː#    | *#kˌʊrtjˈɒːnjɔ#    | *#kˌurt͡ʃjˈoɲo#    | *#kˌurt͡ʃˈøɲo#     | *#kˌursˈɛ̃ɲ#       | *#kˌuɾsˈɛ̃ɲ#       | *#kˌuɾsˈɛ̃ɲ#       | *#kˌuɾsˈɛ̃ɲ#       | *#kˌuɾsˈɛɲ#        | *#kuɾsˈɛj#         | #kuɾsˈɛj#
+382,  | ...                | ...                | ...                | #kˌollˌuktiˈɑːnioː#| *#kˌʊllˌʊktjˈɒːnjɔ#| *#kˌulːˌujt͡ʃjˈoɲo#| *#kˌulːˌujt͡ʃˈoɲo# | *#kˌulːˌəjsˈɔ̃ɲ#   | *#kˌulːˌəjsˈɔ̃ɲ#   | *#kˌulːˌəjsˈɔ̃ɲ#   | *#ɡˌulːˌəjsˈɔ̃ɲ#   | *#ɡˌulˌəjsˈɔɲ#     | *#ɡuləjsˈɔj#       | #ɡult͡ʃˈɔj#
+383,  | ...                | ...                | ...                | #kˌollˌektˈɑːnioː# | *#kˌʊllˌɛktˈɒːnjɔ# | *#kˌulːˌɛjtˈoɲo#   | *#kˌulːˌitˈoɲo#    | *#kˌulːətˈɔ̃ɲ#     | *#kˌulːətˈɔ̃ɲ#     | *#kˌulːətˈɔ̃ɲ#     | *#ɡˌulːətˈɔ̃ɲ#     | *#ɡˌulətˈɔɲ#       | *#ɡulətˈɔj#        | #ɡultˈɔj#
+692,  | ...                | ...                | ...                | #ˌekskˌurtˈɑːnioː# | *#ˌɛskˌʊrtˈɒːnjɔ#  | *#ˌɛskˌurtˈoɲo#    | *#skˌurtˈoɲo#      | *#ʃkˌurtˈɔ̃ɲ#      | *#ʃkˌuɾtˈɔ̃ɲ#      | *#ʃkˌuɾtˈɔ̃ɲ#      | *#ʃkˌuɾtˈɔ̃ɲ#      | *#ʃkˌuɾtˈɔɲ#       | *#ʃkuɾtˈɔj#        | #ʃkuɾtˈɔj#
+708,  | ...                | ...                | ...                | #sˌubrˌɑwkˈɑːnioː# | *#sˌʊbrˌɑwkˈɒːnjɔ# | *#sˌuβrˌɑwkˈoɲo#   | *#sˌurˌaːkˈoɲo#    | *#ʃˌurˌaːkˈɔ̃ɲ#    | *#ʃˌuɾˌaːkˈɔ̃ɲ#    | *#ʃˌuɾˌaːkˈɔ̃ɲ#    | *#ʃˌuɾˌaːkˈɔ̃ɲ#    | *#ʃˌuɾˌakˈɔɲ#      | *#ʃuɾakˈɔj#        | #ʃuɾukˈɔj
+1695, | ...                | ...                | ...                | #wˌoluntˈɑːtem#    | *#wˌʊlˠʊntˈɑːtɛ#   | *#wˌulˠuntˈɑtɛ#    | *#βˌulˠuntˈetɪ#    | *#vˌulˠə̃ndˈɛt#    | *#vˌulˠə̃ndˈɛt#    | *#vˌulˠə̃ndˈɛt#    | *#vˌulˠə̃ndˈɛt#    | *#vˌulˠndˈɛt#      | *#vulˠnˈɛt#        | #vulˠnˈɛt#
+
+
 
 A2.XXXXXXXVII dissolution of syllabic sonorant consonants R̩ > əR. Comes after ʃ > ʒ / __ Cvoi (counterbleeds for prozhëm, krezhëm), also after ʃ > t͡ʃ. Different outcomes in Arbëreshë than std. Tosk. 
 
 A2.XXXXXXXVIII secondary l̩, l > ʎ / k,g __ again just after Proto-Tosk development to ONT begins, feeding palatalization
-	-potentially effects relevant loans-- gjëndër? (qartë if Italian at all could be iotated in Italian itself tho; ditto qaca < Sic chiazza)
+	-potentially effects relevant loans-- gjëndër? (qartë if Italian at all could be iotated in Italian itself tho; ditto qaca < Sic chiazza)... unclear. 
 	-l̩ when not after iŋg -- hingël, qingël, tingëll 
 		effected ː ungj (S Tosk ungël), nëngj, qengj 
 	collimitare > glëmtoj > gjëmtoj 

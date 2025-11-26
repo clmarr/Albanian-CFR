@@ -951,6 +951,9 @@ $DIACLEA CORRECTION A2.XXXXXIX: initial m nasalizes a following non-primary-stre
 		$ further support for relatively early date - the doublet mëngji/magji; not mëtrik < matricus. 
 [-prim] > [+nas] / # m __ [-delrel]
 
+$DIACLEA CORRECTION A2.XIV. Latin /s/ voices to /z/ rather than going to /ʃ/ before at least m and z (exmulgia > zmojle, crisma > krezëm, crismāre > krezmoj, exvigilāre > zgjoj, scabies >zgjebe, scoria > zgjyrë) but not /l/ (slucus > shluk). Right now maximally assume it happens before all voiced consonants. Has to happen after i-mutation (if that's source of hte voicing scabies and scoria) and the syncope ofthe -i- exvigilare. Vs. proximus > prɔzɪmu > prɔʒm̩ > prozhëm. Doesn't happen to Slavic vocab tho -- placed just before LPA I (11/26). 
+s > z / __ [+voi,+cons,-lat]
+
 $DIACLEA CORRECTION A1.V -- ɑ > a; at end of MPA II for pre-Slavic vocab, in the middle of LPA II for Slavic vocab, for which it comes after l-darkening, which it counterbleeds (mɒgɯlɑ > Mëgullë, Second layer pɒsɯlɑ > pusullë). Originally "bandaid", but moved. 
 [+lo,-round] > [+front,-back]
 
@@ -978,6 +981,7 @@ $DIACLEA CORRECTION A2.XXXXXXXX.ka ː ˌɒ,ˈɒ unroudned / velar __ c-nas,-lab 
 $DIACLEA CORRECTION A1.XXII.ʊ > ∅. Not in first LPA wave though -- doesn't feed p > f -- langʊsʊka >Lënckë not *Lëfckë, zambʊʃa > Zëmçë not Zëfckë . Word finally instead goes to ə (potkua etc.) 
 ʊ > ə / __ #
 ʊ > ∅
+
 
 $ incorporates DIACLEA CORRECTION A2.XXXXI - ø > œ (and o > ɔ) before it is unrounded in LPA. This comes before (bc it feeds) D3.X.b1
 [+syl,+round,-hi,-lo] > [-tense]
@@ -1054,8 +1058,6 @@ ${ˈo;j ˈœ;ˈœ} > {ˈu o̯;j ˈy e̯;ˈy e̯} / __ {lˠ;n;r} ([-lo,-stres] (m
 $ DIACLEA CONSOLIDATION D3.X.b: now roped into lengthening as diphthongization, formulated appropriately, with e included. Heck actually just make it all tonic vowels. (former versoin below)
 [+prim] > [+long] / __ {lˠ;n;r} ([-lo,-cons]) #
 
-
-
 $DV1737's 5b.iv: *o > *uo/# __ {r,lj},
 $this is also DV2.2.1L2 as concerns Latin o
 $ DIACLEA CONSOLIDATION D3.X.b: now roped into initial lengthening.
@@ -1091,11 +1093,15 @@ $ DIACLEA FIX D2.II -- absorption of w in palatalizing k removed, now redundant 
 $w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
 
+$DIACLEA CORRECTION A1.XXII.ɛ ɛ reduced to ə, both for Slavic vocab (rrafsh, Zvarisht) and inherited to this point (turp, ëngjëll, bulbër, lavd, etc.). Does not occur after j however (scabies > zgjebe, caries >qerre ) 
+ɛ > ə / [+cons] __
+
 $DIACLEA CORRECTION A2.XXXXXXIX -- LPA I ɪ > i / rː __ c before ɪ to schwa
 ɪ > i / rː __ c
 
-$DIACLEA CORRECTION A1.XXII.ɪ unstressed ɪ, ʊ > ə, ∅ for first wave Slavic and etyma inherited into LPA I after some marginal bleeding phenomena
+$DIACLEA CORRECTION A1.XXII.1.ɪ unstressed ɪ, ʊ > ə, ∅ for first wave Slavic and etyma inherited into LPA I after some marginal bleeding phenomena
 ɪ > ə
+
 
 $TODO, EPSILON NOTE: from this point onward, De Vaan uses *e, but the difference between *e and *ɛ is not meaningful (any longer), and the gold outcomes in ALLex feature /ɛ/, so we will have to at some point move (or merge) these to/as ɛ -- probably at the end. Counterfeeds ɛ > ie though.
 $bandaid here thus inserted
@@ -1200,9 +1206,6 @@ $ DIACLEA CORRECTION C3A.7 -- restrictions on nt > nd phenomena in De vaan (that
 
 $DV4.1N (=DV1742I) OAlb f < PAlb θ / C __, including OAlb ënfle -- cf Matzinger 2006: 71 -- Matzinger, Joachim. 2006.  Altalbanische Text Mbsuame e Kreshterë (Dottrina cristiana) des Lekë Matrënga von 1592. Eine Einführing in die albanische Sprachwissenschaft. Seems to be in all dialects? 
 θ > f / [+cons] __
-
-$DIACLEA CORRECTION A2.XIV. Latin /s/ voices to /z/ rather than going to /ʃ/ before at least m and z (exmulgia > zmojle, crisma > krezëm, crismāre > krezmoj, exvigilāre > zgjoj, scabies >zgjebe, scoria > zgjyrë) but not /l/ (slucus > shluk). Right now maximally assume it happens before all voiced consonants. Has to happen after i-mutation (if that's source of hte voicing scabies and scoria) and the syncope ofthe -i- exvigilare. Vs. proximus > prɔzɪmu > prɔʒm̩ > prozhëm
-s > z / __ [+voi,+cons,-lat]
 
 $A1.XX -- early fall of unstressed (non-initial-syllable) vowels before low vowels. Feeds s > t͡s phenomena. 
 [-stres] > ∅ / [+syl] ([-syl])* __ ([-syl])+ [+lo]
@@ -1370,8 +1373,8 @@ $DV1738, top, part 6: final -i without primary stress (effectively countertonic)
 $ -----------cluster simplification----------
 $ ----------NASAL CLUSTER SIMPLIFICATION-----
 
-$DIACLEA CORRECTION A2.VI; final nasal clusters resolve in favor of the first element, with no particular evidence of lengthening (Unlike A2.VII). Cases: scamnum > ... >> shkëmb, stamnum > ... > (Gheg?) shtam, damnum > ... > dëm, pignus > ... > peng, terminum > *tjɛrəmənə > tjermn (cf. A1.I) > ... > qerm, signus (insignē?) > ... > sheng. There seems to be an alternate outcome for mn in -më, and for ŋn in -ɲə (një), but the conditions are unclear except that it only happens after vowels, and this is not implemented for now (exāmen > shemë, flāmen (or flāminem?) > flamë, dignus > denjë...). 
-[+nas,+cons] > ∅ / [+nas,+cons] __ #
+$DIACLEA CORRECTION A2.VI; final nasal clusters not starting in n resolve in favor of the first element, with no particular evidence of lengthening (Unlike A2.VII). Cases: scamnum > ... >> shkëmb, stamnum > ... > (Gheg?) shtam, damnum > ... > dëm, pignus > ... > peng, terminum > *tjɛrəmənə > tjermn (cf. A1.I) > ... > qerm, signus (insignē?) > ... > sheng. There seems to be an alternate outcome for mn in -më, and for ŋn in -ɲə (një), but the conditions are unclear except that it only happens after vowels, and this is not implemented for now (exāmen > shemë, flāmen (or flāminem?) > flamë, dignus > denjë...).
+[+nas,+cons] > ∅ / [+nas,+cons,-cor] __ #
 
 $DIACLEA CORRECTION A2.VII. pretonically primary and secondary sequences of nasals alike resolve to the second element; at least when it is /n/ the result is a long /nː/. It seems there are two rounds of this. Examples: carmināre (> karmini-ā- due to ina - inia phenomena) > kernjoj; (gn = ŋn remember) sign-āre > shënoj, cognatus > kunat, damn-āre > dënoj, communic-āre > kungoj. This will also potentially handle homorganic nasals, if they have emerged. 
 $ Since all other cases have been handled by the above rule concerning final nasal clusters, there is no need for a context, but if there was one it would be -- / __ ([-stres])* [+prim]

@@ -1470,8 +1470,8 @@ $ DIACLEA CORRECTION A2.XXXXXXVI tj > c in Tosk after second Slavic input and af
 $ Resolving DIACLEA CORRECTION D4.III -- remaining ie̯ except in _R# to jɛ
 [-round,+hi,cprim,+stres] [-syl,-cons,-hi] > j [cprim,-tense] / __ {[+son] @;[-son]}
 
-$other bandaid -- handling of β. D3.F w goes to v when not in a diphthong. 
-β > v
+$other bandaid -- handling of β. D3.F w goes to v when not in a diphthong; also of SLav ʝ (> ɟ)
+{β;ʝ} > {v;ɟ}
 w > v / [+cons] __
 
 $ no long hard yers as yers are dealt with. 
@@ -1580,14 +1580,13 @@ $DIACLEA CORRECTION A1.XXIV  r > ɾ, r: > r (as that is how the lexicon is coded
 r > ɾ
 rː > r
 
-$DIACLEA CORRECTION A2.XXXXXXXVI formation of syllabic sonorant consonants -- ɾ, r, m, n -- not ŋ ɲ, on lˠ special conditions only... so [-hi] ; word finally -- j , p, b, g, k , t, d, ð, v, m, g, c, f --- safe to assume all [-syl]. Fed by A2.XXXXXXVI but not A1.XXI
+$DIACLEA CORRECTION A2.XXXXXXXVI formation of syllabic sonorant consonants -- ɾ, r, m, n -- not ŋ ɲ, on lˠ special conditions only... so [-hi] ; word finally -- after j , p, b, g, k , t, d, ð, v, m, g, c, f --- but not after ɾ and ɾ̃, unclear if after lˠ and l, no data for r and n. Fed by A2.XXXXXXVI but not A1.XXI
 $internally for round vowels unimplemented as causes too many problems -- see notes currently stored in fixes log (as of 11/24/25).
-
+$11/26/25 for now being conservative in implementation as separately vowel deletion rules should feed it rahter than be part of it, unless it turns out its better that way. 
+[+cons,+son,-hi] > [+syl,-stres,-prim] / {[-son];j;m} __ #
 
 $DIACLEA CORRECTION A2.XXXXXXXVI.ŋu -- special case for u after NK . TODO may need to modify if prenasal stops have formed before this pointǃ
 u [+lat] > l̩ / [+nas] [+back,-cont] __ ([+syl]) #
-
-
 
 $DIACLEA CORRECTION A1.XXI: Slavic second wave final a > ɛ after palatal sonorant consonants (rja, ʎ(j)a > -re, ʎe) . Not nje
 [+lo,-stres] > ɛ / [+cons] [+son,+front,-nas] __

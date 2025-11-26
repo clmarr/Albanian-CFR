@@ -317,8 +317,11 @@ l > ʎ / [-cont,+hi] __
 r > ɾ 
 rː > r 
 [+cons,+son,-hi] > [+syl,-stres,-prim,+son] / [-son] __ #
+[+cons,+son,-hi] > [+syl,-stres,-prim,+son] / [-son] __ [-son]
 [+cons,+son,-hi] > [+syl,-stres,-prim,+son] / j __ #
+[+cons,+son,-hi] > [+syl,-stres,-prim,+son] / j __ [-son]
 [+cons,+son,-hi] > [+syl,-stres,-prim,+son] / m __ #
+[+cons,+son,-hi] > [+syl,-stres,-prim,+son] / m __ [-son]
 u [+lat] > l̩/ [+nas] [+back,-cont] __ ( [+syl] ) #
 [+lo,-stres] > ɛ / [+cons] [+son,+front,-nas] __
 [+back,-cons,-hi] > [-back,+front,+lo,-round,-lab,+tense,-cons,-lat,+cont,0delrel] / [+round] __

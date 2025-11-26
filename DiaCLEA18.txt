@@ -1580,10 +1580,11 @@ $DIACLEA CORRECTION A1.XXIV  r > ɾ, r: > r (as that is how the lexicon is coded
 r > ɾ
 rː > r
 
-$DIACLEA CORRECTION A2.XXXXXXXVI formation of syllabic sonorant consonants -- ɾ, r, m, n -- not ŋ ɲ, on lˠ special conditions only... so [-hi] ; word finally -- after j , p, b, g, k , t, d, ð, v, m, g, c, f --- but not after ɾ and ɾ̃, unclear if after lˠ and l, no data for r and n. Fed by A2.XXXXXXVI but not A1.XXI
+$DIACLEA CORRECTION A2.XXXXXXXVI formation of syllabic sonorant consonants -- ɾ, r, m, n -- not ŋ ɲ, on lˠ special conditions only... so [-hi] 
+	$ prior contxt -- at least for word finally -- after j , p, b, g, k , t, d, ð, v, m, g, c, f --- but not after ɾ and ɾ̃, unclear if after lˠ and l, no data for r and n. Fed by A2.XXXXXXVI but not A1.XXI
 $internally for round vowels unimplemented as causes too many problems -- see notes currently stored in fixes log (as of 11/24/25).
 $11/26/25 for now being conservative in implementation as separately vowel deletion rules should feed it rahter than be part of it, unless it turns out its better that way. 
-[+cons,+son,-hi] > [+syl,-stres,-prim] / {[-son];j;m} __ #
+[+cons,+son,-hi] > [+syl,-stres,-prim] / {[-son];j;m} __ {#;[-son]}
 
 $DIACLEA CORRECTION A2.XXXXXXXVI.ŋu -- special case for u after NK . TODO may need to modify if prenasal stops have formed before this pointǃ
 u [+lat] > l̩ / [+nas] [+back,-cont] __ ([+syl]) #

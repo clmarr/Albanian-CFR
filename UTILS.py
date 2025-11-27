@@ -10,7 +10,8 @@ UNATTD_ETYM = ">*"
 STAGES = ["Proto-Indo-European", "Proto-Balkan-Indo-European",
           "Archaic Proto-Albanian", "Classical Proto-Albanian",
           "Middle Proto-Albanian I", "Middle Proto-Albanian II",
-          "Late Proto-Albanian I", "Late Proto-Albanian II", "Proto-Tosk-SGheg", "Proto-Tosk",
+          "Late Proto-Albanian I", "Late Proto-Albanian II", "Late Proto-Albanian III",
+          "Proto-Tosk-SGheg", "Proto-Tosk",
           "Old North Tosk", "Modern Standard Albanian"]
 STRESS_MARKERS = ["ˈ", "ˌ"]
 SORT_ORDER = ["a̯","a","ã","aː","ãː","ˌa","ˌã","ˌaː","ˌãː","ˈa","ˈã","ˈaː","ˈãː",

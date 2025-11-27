@@ -1073,6 +1073,21 @@ r > rː / # __ {[+lo] [+cons,-cor];[+round,-lo]}
 
 $ ---TODO END OF AREA TO CHANGE-- 
 
+$A1.XX -- early fall of unstressed (non-initial-syllable) vowels before low vowels. Feeds s > t͡s phenomena. Currently suppressed.
+$[-stres] > ∅ / [+syl] ([-syl])* __ ([-syl])+ [+lo]
+
+$DIACLEA CORRECTION A2.XXX Middle Proto-Albanian II -- degemination of obstruents. They count as geminates if they share place of articulation and continuancy (so homorganic plosive - affricate is a geminate). Broad place of articulation considered -- labials as one category, coronals as one category, dorsals as one category. Second element is the one kept. TODO may need to move this around
+[-son,acont,blab,chi] > ∅ / __ [-son,acont,blab,chi]
+
+$DIACLEA CORRECTION A2.XXXXXXIV s in C __ C-cor goes to t͡s, blocking retraction to ʃ. 
+s > t͡s / [+cons] __ [+cons,-cor]
+
+$ DV1744.H ~ s becomes ʃ -- for s in reflexes of Old Greek (presh < prason), Latin, and the earliest Slavic loans (grusht, shkrap) becomes ʃ (1744.H) -- but this is not fed by tʃ becoming s (DV1744.F and 1744.G) 
+$DIACLEA CORRECTION B2.XV -- s > ʃ moved back to LPA I > what is after 11/26, LPA II, before insertion of Greek etyma. Placed before LPA diphthongization (simmaxōro > simahuar). 
+s > ʃ
+
+=Late Proto-Albanian II
+
 $TODO analyze shortenings...
 $ DIACLEA FIX D3.X.c length becomes diphthongization for lax long vowels. For this, diphthongization univerally arises from long lax mid vowels that reached a certain point. Unified rule with V[+hi,aplace] ə, schwa excrescence becomes the second diphthong element. This merges in with etymological schwa. 
 $ DIACLEA FIX D3.X.d -- -- in partial agreement with DV2.2.1K and 1737's 5b on diphthongized ietation, ɛː ends up as jɛ except before final ɾ lˠ; to these, I broaden these to include n too. Implemented by intervention before D3.X.c resolves.  
@@ -1135,7 +1150,7 @@ $DIACLEA CORRECTIONS  : not for back or low (C1b.VIII, including low given brigh
 [-prim,-back,-long,-lo] > ə / @ __ (@)* [+prim]
 [-stres,-long] > ə / @ __ (@)* [+prim]
 
-$DIACLEA CORRECTION A2.XXI -- progressive u-spreading between two unstressed syllables (u or countertonic ˌu spreading onto unstressed vowel). As of 11/11/25 however, much more restricted. 
+$DIACLEA CORRECTION A2.XXI -- progressive u-spreading between two unstressed syllables (u or countertonic ˌu spreading onto unstressed vowel). As of 11/11/25 however, much more restricted. TODO may actually be invalid in majority of cases, i.e. -ull endings that could be reflex of a former syllabic -l̩#. 
 	$ previous form: [-prim] > [+hi,+tense,+back,+round,+lab,-lo,-front] / [-prim,+hi,+back,+round] ([-syl])* __
 $however, basically the only secure place this happens is across lˠ. Other places it occurred may be better explained as some labial/dorsal __ lateral rounding phenomenon (see file to figure out) occurring after the excrescence rule that concerns grumbulloj and kumbull at least. 
 $ now only across lˠ; as of 11/24, [+lat]
@@ -1207,17 +1222,6 @@ $ DIACLEA CORRECTION C3A.7 -- restrictions on nt > nd phenomena in De vaan (that
 $DV4.1N (=DV1742I) OAlb f < PAlb θ / C __, including OAlb ënfle -- cf Matzinger 2006: 71 -- Matzinger, Joachim. 2006.  Altalbanische Text Mbsuame e Kreshterë (Dottrina cristiana) des Lekë Matrënga von 1592. Eine Einführing in die albanische Sprachwissenschaft. Seems to be in all dialects? 
 θ > f / [+cons] __
 
-$A1.XX -- early fall of unstressed (non-initial-syllable) vowels before low vowels. Feeds s > t͡s phenomena. 
-[-stres] > ∅ / [+syl] ([-syl])* __ ([-syl])+ [+lo]
-
-$DIACLEA CORRECTION A2.XXX Middle Proto-Albanian II -- degemination of obstruents. They count as geminates if they share place of articulation and continuancy (so homorganic plosive - affricate is a geminate). Broad place of articulation considered -- labials as one category, coronals as one category, dorsals as one category. Second element is the one kept. TODO may need to move this around
-[-son,acont,blab,chi] > ∅ / __ [-son,acont,blab,chi]
-
-$DIACLEA CORRECTION A2.XXXXXXIV s in C __ C-cor goes to t͡s, blocking retraction
-s > t͡s / [+cons] __ [+cons,-cor]
-
-$ DV1744.H ~ s becomes ʃ -- for s in reflexes of Old Greek (presh < prason), Latin, and the earliest Slavic loans (grusht, shkrap) becomes ʃ (1744.H) -- but this is not fed by tʃ becoming s (DV1744.F and 1744.G) 
-s > ʃ
 
 $DIACLEA CORRECTION A2.XVII: the new ʃ absorbs following t͡ʃ
 t͡ʃ > ∅ / ʃ __
@@ -1463,7 +1467,7 @@ $ Previously: [+round,cprim,dstres] [-syl,-cons] > w [cprim,dstres,-tense] / # _
 [wround,cprim,+stres] [-syl,-cons,-hi] > [wback,wlab,!wfront,-syl] [cprim,-tense] / {#;[-cons]} __ 
 [-round,+hi,cprim,+stres] [-syl,-cons,-hi] > j [cprim,-tense] / [+syl] (@)* __
 
-= Late Proto-Albanian II
+=Late Proto-Albanian III
 $ SECOND SLAV WAVE HERE !! 
 $ placement per DIACLEA CORRECTION B5.I
 

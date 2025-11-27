@@ -204,6 +204,9 @@ s > z / __ [+voi,+cons,-lat]
 [+prim] > [+long] / __ r ( [-lo,-cons] ) #
 r > rː / # __ [+lo] [+cons,-cor]
 r > rː / # __ [+round,-lo]
+[-son,acont,blab,chi] > ∅ / __ [-son,acont,blab,chi]
+s > t͡s / [+cons] __ [+cons,-cor]
+s > ʃ 
 [+long,-tense] ∅ > [+hi,-long,+tense,-splng,-cons,-lat,+cont,0delrel] ə
 r n > rː 
 [-prim,+stres,-round] > ə / # [-nas,+cons] __ [+cor,+son,-nas] [-son,sstrid,scor]
@@ -230,10 +233,6 @@ d > ð / [+syl] ( [+son,-nas,+cons] ) __ [βlat,βcons]
 {u;ˌu} > {ə;ˌə} / [+stres] ( [-syl] ( [-stres] ) )* __ ( [-syl] )* [-voi]
 {n t;m p;n k} > {n d;m b;n ɡ} 
 θ > f / [+cons] __
-[-stres] > ∅ / [+syl] ( [-syl] )* __ [-syl] ( [-syl] )* [+lo]
-[-son,acont,blab,chi] > ∅ / __ [-son,acont,blab,chi]
-s > t͡s / [+cons] __ [+cons,-cor]
-s > ʃ 
 t͡ʃ > ∅ / ʃ __
 [+prim,+hi,-round] > [-hi,-tense,-cons,-lat,+cont,0delrel] / __ [+delrel,!aant] ( [-syl] )* [alo]
 [+prim,+hi,-round] > [-hi,-tense,-cons,-lat,+cont,0delrel] / __ ʃ [+syl] #

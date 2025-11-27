@@ -1562,6 +1562,10 @@ $ part 1 : reducing final -a to schwa to feed in relevant contexts
 $ part 2 : deletion of unstressed final and preconsonantal medial oral vowels to feed anterior sonorant syllabification. Doesn't include the j case (ajër). Doesn't happen after nasals (well, at least not m).
 [-lo,-stres,-nas] > ∅ / [+cons] [+son,+cons,-nas] __ {#;[+cons]}
 
+$DIACLEA CORRECTION A2.LXXVI.V_ -- like above, but for prior vowels. Doesn't happen to high round vowels it seems. 
+[-hi,-stres] > ∅ / [+cons] __ [+son,+cons,-nas] {#;[+cons]}
+
+
 $DIACLEA CORRECTION A2.LXXVI ANTERIOR SONORANT SYLLABIFICATION formation of syllabic sonorant consonants -- ɾ, r, m, n -- not ŋ ɲ, on lˠ special conditions only... so [-hi] 
 	$ prior contxt -- at least for word finally -- after j , p, b, g, k , t, d, ð, v, m, g, c, f --- but not after ɾ and ɾ̃, unclear if after lˠ and l, no data for r and n. Fed by A2.LXVI but not A1.XXI
 $internally for round vowels unimplemented as causes too many problems -- see notes currently stored in fixes log (as of 11/24/25).
@@ -1731,7 +1735,10 @@ $ TODO consider restoring old version when possible.
 	$ TODO DIA ANALYSIS : at present... no words are effected. Consider removal.
 {d ʃ;d s;d θ} > {t͡ʃ;t͡s;t͡s}
 
-$DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced consonants to modern ʒ -- has to be before end of the fall of lenited stops (in this case β) 
+$DIACLEA CORRECTION A2.LXXVII dissolution of syllabic sonorant consonants R̩ > əR. Comes after ʃ > ʒ / __ Cvoi (counterbleeds for prozhëm, krezhëm), also after ʃ > t͡ʃ. Different outcomes in Arbëreshë than std. Tosk. 
+∅ [+cons,+syl] > ə [-syl]
+
+$DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced asyllabic consonants to modern ʒ -- has to be before end of the fall of lenited stops (in this case β) 
 $DIACLEA FIX C1B.VI: now only happens before obstruents as there are exceptions for at least /l/ and possibly other resonants. In reality this may be morphological though, as it only seems to happen to the prefix sh- "dis, un" ; was ʃ > [+voi] / __ [+cons,+voi,-son]
 $DIACLEA FIX B1.IX -- now treated as the rule to handle apparent ʃ > ʒ cases -- proximu > prozhëm, quadresima > krezhëm, resurgere > rizhgoj, vestigare > vëzhgoj; all with attested older forms in -sh-. Also prozhmoj, krezhmoj but these may be due to anlaogical reulations. Done so by moving this into Old North Tosk. Note that prozhëm and krezhëm suggest it occurs at a point when there are syllabic resonants. Also broadened to occur also before sonorants. 
 ʃ > [+voi] / __ [+cons,+voi,mlab,mnas] 
@@ -1743,11 +1750,6 @@ $ DIACLEA CORRECTION C3B.XIX: posterior context changed from [+cons] to [+cons,+
 $DV4.1K3 partially implemented here -- Tosk standard does not have c > t͡ʃ everywhere, but does seem to have it when praeconsonantal (çfarë, etc.) 
 c > t͡ʃ / __ [+cons] 
 
-lˠ̩ > l̩ / [+front] ([+hi])* __
-lˠ̩ > u lˠ / __ #
-
-$DIACLEA CORRECTION A2.LXXVII dissolution of syllabic sonorant consonants R̩ > əR. Comes after ʃ > ʒ / __ Cvoi (counterbleeds for prozhëm, krezhëm), also after ʃ > t͡ʃ. Different outcomes in Arbëreshë than std. Tosk. 
-∅ [+cons,+syl] > ə [-syl]
 
 $ DIACLEA CORRECTION A2.LXX -- early modern Tosk nd > n post consonantally into modern North Tosk (vullëndet > vullndet > vullnet; calendarius > kallënduor > kallnuor -- but open to possibility this isn't just for l. In Ghegː sanitōsus > shëndosh > shnosh; sanitatem > shëndet > shnet) 
 {n d;ⁿd} > {n;n} / [+cons] __

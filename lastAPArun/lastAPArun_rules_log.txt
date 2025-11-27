@@ -314,6 +314,8 @@ rː > r
 [+lo,-stres] > ə / [+cons] [+son,+cons,-nas,-lat] __ #
 [-lo,-stres,-nas] > ∅ / [+cons] [+son,+cons,-nas] __ #
 [-lo,-stres,-nas] > ∅ / [+cons] [+son,+cons,-nas] __ [+cons]
+[-hi,-stres] > ∅ / [+cons] __ [+son,+cons,-nas] #
+[-hi,-stres] > ∅ / [+cons] __ [+son,+cons,-nas] [+cons]
 [+cons,+son,-hi] > [+syl,-stres,-prim,+son] / [-son] __ #
 [+cons,+son,-hi] > [+syl,-stres,-prim,+son] / [-son] __ [+cons]
 [+cons,+son,-hi] > [+syl,-stres,-prim,+son] / j __ #
@@ -354,13 +356,11 @@ c > k / __ [+syl] ʃ
 [+long] > [-long,-splng] 
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
 {d ʃ;d s;d θ} > {t͡ʃ;t͡s;t͡s} 
+∅ [+cons,+syl] > ə [-syl,0stres,0prim]
 ʃ > [+voi]/ __ [+cons,+voi,mlab,mnas]
 ʃ > t͡ʃ / # __ [+cons,+nas]
 ʃ > t͡ʃ / [+cons] __ [+cons,+nas]
 c > t͡ʃ / __ [+cons]
-lˠ̩ > l̩ / [+front] ( [+hi] )* __
-lˠ̩ > u lˠ / __ #
-∅ [+cons,+syl] > ə [-syl,0stres,0prim]
 {n d;ⁿd} > {n;n} / [+cons] __
 ɲ > j / [-hi] __ #
 ɲ > j / [+hi,+front] __ #

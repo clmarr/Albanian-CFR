@@ -308,15 +308,11 @@ j > ∅ / [+front,+cons] __
 [+hi,-tense,-stres] > ∅ 
 [+hi,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
 l > lˠ / [+syl] __ [+syl,+back]
-l > ʎ / __ k
-l > ʎ / [-cont,+hi] __
-ʎ > l / # ( ʃ ) ( [+lab,uhi,ucont] )* __
-[+syl,-tense] > [-lo] 
-[+syl,+hi,-round,ɯback] > [!ɯfront,ɯround,ɯlab] 
-[+lo,-round] > [+front,-back] 
 {r j;ɾ j} > {rː;rː} 
 r > ɾ 
 rː > r 
+[+lo,-stres] > ə / [+cons] [+son,+cons,-nas,-lat] __ #
+[-stres,-lo] > ∅ / [+cons] [+son,+cons,-nas] __ #
 [+cons,+son,-hi] > [+syl,-stres,-prim,+son] / [-son] __ #
 [+cons,+son,-hi] > [+syl,-stres,-prim,+son] / [-son] __ [-son]
 [+cons,+son,-hi] > [+syl,-stres,-prim,+son] / j __ #
@@ -324,6 +320,12 @@ rː > r
 [+cons,+son,-hi] > [+syl,-stres,-prim,+son] / m __ #
 [+cons,+son,-hi] > [+syl,-stres,-prim,+son] / m __ [-son]
 u [+lat] > l̩/ [+nas] [+back,-cont] __ ( [+syl] ) #
+l > ʎ / __ k
+l > ʎ / [-cont,+hi] __
+ʎ > l / # ( ʃ ) ( [+lab,uhi,ucont] )* __
+[+syl,-tense] > [-lo] 
+[+syl,+hi,-round,ɯback] > [!ɯfront,ɯround,ɯlab] 
+[+lo,-round] > [+front,-back] 
 [+lo,-stres] > ɛ / [+cons] [+son,+front,-nas] __
 [+back,-cons,-hi] > [-back,+front,+lo,-round,-lab,+tense,-cons,-lat,+cont,0delrel] / [+round] __
 w > v 

@@ -73,6 +73,7 @@ INPUTS = {"ALLAPS.txt" : "Latin",  #various stages of Latin currently working fr
           #"APBalkLex.txt": "Proto-Balkan-Indo-European", #Balkan Indo-European formations and substrate etyma #TODO don't do until reasonably confident with later layers (and fulL)
           "EPSEALLex.txt" : "Proto-Slavic", #First wave of Slavic loans -- into Late Proto-Albanian I
           "LPSEALLex.txt" : "Proto-Slavic", #Second wave of Slavic loans -- into Late Proto-Albanian II, or maybe to be changed to being into Proto-Tosk?
+          "MGrALAPS.txt" : "Middle Greek", #later waves of Greek.
           "ADoLex.txt" : "Doric Greek dialects", #Doric loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc.
           "AAttLex.txt" : "Attic Greek dialects", #Attic loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc.
           "AMacLex.txt" : "Macedonian, per Huld, "} #Macedonian loans into Archaic Proto-Albanian (a likely later time than above tho),

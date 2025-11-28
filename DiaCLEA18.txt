@@ -394,17 +394,6 @@ $ for convenience, and given Pope 1934(:s220), and given that forming a broad ru
 $DIACLEA18 change: changed the -prim to -stress here as this doesn't seem to apply to countertonics as the diagnostics reveal a 0% accuracy over this subset -- especially looking at the cases of gruilla, coopertūra, creāre... etc. 
 [-lo,+syl,-stres] > [-syl,+hi,-long] / __ [+syl]
 
-$DV1740F3 -- De Vaan's Lat *l > l: / V __ V[-front]
-$ as long as the lambda forming rule DV1740G1 is placed before this, [-front] does not need to be explicated, which is useful because [a] may technically be treated as front depending on the current convention for Latin on the input side, but this does appear to occur before [a] ? (or not?) 
-$ Combined with DV1740F1 ~ PPAlb *l, *sl > l: / V __ V[-front] 
-$ form prior to 8/5/23 was: (s) l > lː / [+syl] __ [+syl]
-$changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
-$ DIACLEA CORRECTION D3.I : just having this go straight to dark L /lˠ/
-$ DIACLEA CORRECTION B2.V : placing this before {nl,ll} > l, which counterfeeds it, and thus also before lambdacism -- in order to do so, the posterior context is now also *explicitly* [-front] 
-$ DIACLEA CORRECTION B1.VIII -- s l aspect supppressed. TODO CONSIDER NOT DOING ANY OF THIS TILL MUCH LATER (will have t ochange rules contingent on lˠ tho)
-${s l;l} > {lˠ;lˠ} / [+syl] __ [+syl,-front] 
-l > lˠ / [+syl] __ [+syl,-front] 
-
 $ DV1740G1 : intervocalic l becomes ʎ before front vowel.
 $ DIACLEA CORRECTION D1.VII -- SUPPRESSED, see "Old_DV1740G1_notes", the one case where this works (vjej "I need") is in the same ˌɑ __ [+prim,+front] context that so many of the errors are, best move for now is just to suppress this. 
 $l > ʎ / [+syl] __ [+syl,+front]
@@ -513,6 +502,17 @@ $ TODO possibility that Alb/Alb-Rom substrate divergence was quite earlier -- co
 
 $bandaid: deaspiration of consonantals
 [+cons] > [-sg]
+
+$DV1740F3 -- De Vaan's Lat *l > l: / V __ V[-front]
+$ as long as the lambda forming rule DV1740G1 is placed before this, [-front] does not need to be explicated, which is useful because [a] may technically be treated as front depending on the current convention for Latin on the input side, but this does appear to occur before [a] ? (or not?) 
+$ Combined with DV1740F1 ~ PPAlb *l, *sl > l: / V __ V[-front] 
+$ form prior to 8/5/23 was: (s) l > lː / [+syl] __ [+syl]
+$changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
+$ DIACLEA CORRECTION D3.I : just having this go straight to dark L /lˠ/
+$ DIACLEA CORRECTION B2.V : placing this before {nl,ll} > l, which counterfeeds it, and thus also before lambdacism -- in order to do so, the posterior context is now also *explicitly* [-front] 
+$ DIACLEA CORRECTION B1.VIII -- s l aspect supppressed. TODO CONSIDER NOT DOING ANY OF THIS TILL MUCH LATER (will have t ochange rules contingent on lˠ tho)
+${s l;l} > {lˠ;lˠ} / [+syl] __ [+syl,-front] 
+l > lˠ / [+syl] __ [+syl,-front] 
 
 $ DIACLEA CORRECTION B1.VIII.j lambdacism and enyacism block moved to MPA I from CPA
 $ DV1740G2 : l j > ʎ in PPAlb and Lat. Seems intended to be fed by hiatus vowel gliding in Latin loans -- unlike the r j > ʎ phenomenon. 
@@ -964,7 +964,7 @@ $DIACLEA FIX A2.LI : first wave Slavic nasal vowels are unpacked to Vn, with ɑ 
 [+syl,+nas] ∅ > [-round,-lab,-nas,+tense] n / __ [-nas]
 
 $DIACLEA CORRECTION A1.XVI ː ɯ handling 
-[+syl,+back,+hi] > [+round,+lab]
+[+syl,+back,+hi,-lat] > [+round,+lab]
 
 $DIACLEA CORRECTION A.1 & A2.L : æ(ː?) > eː / C-strid __ C Vfront, elsewhere to a (also A1.I). Even if not long, [æ] tends to be longest vowel and this does not seem to merge with /e/ or /ɛ/ immediately assuming the raising to /i/ (/ɪ/?) phenomenon is a bit later. 
 [+lo,-tense,+syl] > [-lo,+tense,+long] / [+cons,-strid] ([-cons]) __ [-syl] [+front]
@@ -1562,16 +1562,16 @@ $ part 1 : reducing final -a to schwa to feed in relevant contexts
 $ part 2 : deletion of unstressed final and preconsonantal medial oral vowels to feed anterior sonorant syllabification. Doesn't include the j case (ajër). Doesn't happen after nasals (well, at least not m).
 [-lo,-stres,-nas] > ∅ / [+cons] [+son,+cons,-nas] __ {#;[+cons]}
 
-$DIACLEA CORRECTION A2.LXXVI.V_ -- like above, but for prior vowels. Doesn't happen to high round vowels it seems. 
+$DIACLEA CORRECTION A2.LXXVI.V_ -- like above, but for prior vowels. Doesn't happen to high round vowels it seems. Not having it happen before 
 [-hi,-stres] > ∅ / [+cons] __ [+son,+cons,-nas] {#;[+cons]}
-
 
 $DIACLEA CORRECTION A2.LXXVI ANTERIOR SONORANT SYLLABIFICATION formation of syllabic sonorant consonants -- ɾ, r, m, n -- not ŋ ɲ, on lˠ special conditions only... so [-hi] 
 	$ prior contxt -- at least for word finally -- after j , p, b, g, k , t, d, ð, v, m, g, c, f --- but not after ɾ and ɾ̃, unclear if after lˠ and l, no data for r and n. Fed by A2.LXVI but not A1.XXI
 $internally for round vowels unimplemented as causes too many problems -- see notes currently stored in fixes log (as of 11/24/25).
 $11/26/25 for now being conservative in implementation as separately vowel deletion rules should feed it rahter than be part of it, unless it turns out its better that way. 
 $bleeds l > ʎ // k,g : ascla > ashkël, clausūra > Këlçyrë , vehicula > vegël, calcaria > gëlqere. But not if low vowels involved: rakla > rraqe. 
-[+cons,+son,-hi] > [+syl,-stres,-prim] / {[-son];j;m} __ {#;[+cons]}
+[+cons,+son,-nas] > [+syl,-stres,-prim] / j __ #
+[+cons,+son,-nas] > [+syl,-stres,-prim] / {[-son];m} __ {#;[+cons]}
 
 $DIACLEA CORRECTION A2.LXXVI.ŋu -- special case for u after NK . TODO may need to modify if prenasal stops have formed before this pointǃ
 u [+lat] > l̩ / [+nas] [+back,-cont] __ ([+syl]) #
@@ -1598,7 +1598,7 @@ $DIACLEA CORRECTION A1.I -- Slavic wave 2 æː handling
 [+syl,-tense] > [-lo] 
 
 $DIACLEA CORRECTION A1.XVI -- Slavic wave 2 ɯ handling: ɯ > u if htere's any, ɨ >i. Counterbleeds A1.XXIII.ɯ
-[+syl,+hi,-round,ɯback] > [-ɯfront,ɯround,ɯlab]
+[+syl,+hi,-round,ɯback,-lat] > [-ɯfront,ɯround,ɯlab]
 
 $DIACLEA CORRECTION A1.V -- brightening of ɑ > a. Comes after l-darkening, which it counterbleeds (mɒgɯlɑ > Mëgullë, Second layer pɒsɯlɑ > pusullë). 
 [+lo,-round] > [+front,-back] 

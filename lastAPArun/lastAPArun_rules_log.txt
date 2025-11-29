@@ -206,6 +206,7 @@ s > z / __ [+voi,+cons,-lat]
 ˈɛ > ˈɛː / [rson,rnas] __ ( [+cor,-lat,-nas] ) [-delrel,-back,-voi] [+son]
 [+prim,-lo,-hi,-round] > [+long,-tense,-cons,-lat,+cont,0delrel] / [nson,nnas] __ ( r ) [+voi,+cons,-son] ( [+hi,-back,-nas] ) [+back]
 [-prim] > [-long,-splng] / # __
+[+round,-prim] > [+long] / [+back,-son] __ [-lat] ( @ )* [+prim]
 [-tense,+round,+back] > [+long] / # __ [-lab]
 [+stres,-prim] [+syl] > ə [+long,+stres,+syl,+son]
 [+prim] > [+long] / __ lˠ ( [-lo,-cons] ) #
@@ -216,7 +217,8 @@ r > rː / # __ [+round,-lo]
 [-son,acont,blab,chi] > ∅ / __ [-son,acont,blab,chi]
 s > t͡s / [+cons] __ [+cons,-cor]
 s > ʃ 
-[+long,-hi,-lo,-tense] ∅ > [+hi,-long,+tense,-splng,-cons,-lat,+cont,0delrel] ə
+ˌɔː > ˌuː / # __
+[+long,-hi,-lo,-tense,+prim] ∅ > [+hi,-long,+tense,-splng,-cons,-lat,+cont,0delrel] ə
 r n > rː 
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
 ɛ > ə / w __
@@ -247,7 +249,7 @@ d > ð / [+syl] ( [+son,-nas,+cons] ) __ [βlat,βcons]
 θ > f / [+cons] __
 t͡ʃ > ∅ / ʃ __
 [+prim,+hi,-round] > [-hi,-tense,-cons,-lat,+cont,0delrel] / __ [-ant,+strid,-voi] [+syl] #
-[+round,-front] > [+hi,+tense,-cons,-lat,+cont,0delrel] / __ [+front,-son] [+syl]
+[+round,-front,-lo] > [+hi,+tense,-cons,-lat,+cont,0delrel] / __ [+front,-son] [+syl]
 ˈɛ > ˈɑ / k __ [+cor,+long,-nas,+son]
 ˈɛ > ˈɑ / [+cor,-lab,+cont] __ [+cor,+long,-nas,+son]
 [+lab,-son] > ∅ / [+lab,+cons] ( ( [+son,+cons] ) [+syl] ) __ [-son,-lab]
@@ -289,7 +291,6 @@ n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ #
 [+syl,+prim,αlo,ɣhi,βround,ɩfront,ʊback] [+syl,αlo,ɣhi,βround,ɩfront,ʊback] > ∅ [+long,+prim,+stres,+syl,+son]
 [+syl,αlo,ɣhi,βround,ɩfront,ʊback] [+syl,+stres,αlo,ɣhi,βround,ɩfront,ʊback] > ∅ [+long]
 [+syl,+stres,αlo,ɣhi,βround,ɩfront,ʊback] [+syl,αlo,ɣhi,βround,ɩfront,ʊback] > ∅ [+long,+stres,+syl,+son]
-o̯ > ∅ / # ˌu __
 [wround,cprim,+stres] [-syl,-cons,-hi] > [wback,wlab,!wfront,-syl,0stres,0prim] [cprim,-tense,-cons,-lat,+cont,0delrel]/ # __
 [wround,cprim,+stres] [-syl,-cons,-hi] > [wback,wlab,!wfront,-syl,0stres,0prim] [cprim,-tense,-cons,-lat,+cont,0delrel]/ [-cons] __
 [-round,+hi,cprim,+stres] [-syl,-cons,-hi] > j [cprim,-tense,-cons,-lat,+cont,0delrel]/ [+syl] ( @ )* __

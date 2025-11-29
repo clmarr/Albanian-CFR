@@ -1033,12 +1033,15 @@ $ C1.B.XVI.t
 $ C1.B.XVI.d
 [+prim,-lo,-hi,-round] > [+long,-tense] / [nson,nnas] __   (r) [+voi,+cons,-son] ([+hi,-back,-nas]) [+back]
 
-$ DV2.2.1B1 : but no ietation in the context TL __ 
+$DIACLEA CORRECTION DV2.2.1B1 : but no ietation in the context TL __ 
 $j > ∅ / [-cont] [+cor,+son,-nas] __ ˈɛ 
 $ usurped by DIACLEA FIX C3B.XV.l & .r
 
-$DIACLEA FIX A2.XXXXVI -- word initial long vowels shortened. Effects e.g. a: e: < aw aj etc.
+$DIACLEA CORRECTION A2.XXXXVI -- word initial long vowels shortened. Effects e.g. a: e: < aw aj etc.
 [-prim] > [-long] / # __
+
+$DIACLEA CORRECTION A2.LXXXIV  -- in late LPA I or LPA II , pretonic atonic round vowels are preserved in some way -- becoming countertonic or lengthening -- after velar obstruents, if not before a lateral
+[+round,-prim] > [+long] / [+back,-son] __ [-lat] (@)* [+prim]
 
 $DIACLEA FIX D3.X.b2 -- initial ˈɔ, and initial ˌɔ, also lengthened more broadly, before non-labials.  Counterbled by initial vowel loss; counterbleeds it in the case of pre-labial examples.
 [-tense,+round,+back] > [+long] / # __ [-lab]
@@ -1110,10 +1113,13 @@ s > ʃ
 
 $TODO analyze shortenings...
 
-$ DIACLEA FIX D3.X.c length becomes diphthongization for lax long vowels. For this, diphthongization univerally arises from long lax mid vowels that reached a certain point. Unified rule with V[+hi,aplace] ə, schwa excrescence becomes the second diphthong element. This merges in with etymological schwa. 
+$DIACLEA CORRECTION D3.X.a.11/29/25 rather than diphthongization of ɔː > u, initial countertonic ɔː > uː, before it happens in what is now LPA II. 
+ˌɔː > ˌuː / # __
+
+$ DIACLEA FIX D3.X.c length becomes diphthongization for primary stressed lax long vowels. For this, diphthongization univerally arises from long lax mid vowels that reached a certain point. Unified rule with V[+hi,aplace] ə, schwa excrescence becomes the second diphthong element. This merges in with etymological schwa. 
 $ DIACLEA FIX D3.X.d -- -- in partial agreement with DV2.2.1K and 1737's 5b on diphthongized ietation, ɛː ends up as jɛ except before final ɾ lˠ; to these, I broaden these to include n too. Implemented by intervention before D3.X.c resolves.  
 $TODO probably going to have to move this.
-[+long,-hi,-lo,-tense] ∅ > [+hi,-long,+tense] ə
+[+long,-hi,-lo,-tense,+prim] ∅ > [+hi,-long,+tense] ə
 
 
 $DV3.1H2 : -rn- > -rr- / V __ V . This happens in Gheg and Tosk, but De Vaan 2018, citing Janson 1986(:97f), argues it is post-Slavic. Inasmuch as it happens in Gheg, it is also independent of Tosk rhotacism, and should thus be handled separately.
@@ -1261,7 +1267,7 @@ $[+prim,+hi,-round] > [-hi,-tense] / __ [+delrel,!aant] ([-syl])* [alo]
 [+prim,+hi,-round] > [-hi,-tense] / __ [-ant,+strid,-voi] [+syl] #
 
 $ DIACLEA CORRECTION A1.VII raising of ɔ to u before palatoalveolar or palatal then vowel (requires proper syncope, dorsal palatalization, and degemination rules to work though)
-[+round,-front] > [+hi,+tense] / __ [+front,-son] [+syl]
+[+round,-front,-lo] > [+hi,+tense] / __ [+front,-son] [+syl]
 
 $DV2.2.1C5: Latin short e > a in "q, sh" __ "rr, l". No explicit word on the dating of this except that it is between post-Latin PPAlb, and PAlb; the forms used (q, sh,... rr, l) suggest a later date but at first inspection it seems to precede the merger of ae to short e (caelum > qiell) which certainly must have been before k > q (=[c]). So it is placed right after "rr, l" emerged (with what would become dark l now being long l, and rr being long r)
 $Per its current placement after ietation, a j is imposed, and ˈɛ is used. 
@@ -1488,10 +1494,10 @@ $DIACLEA fix A2.XX -- vowels identical in (oral) quality in hiatus merged, curre
 
 $DV2.1F2: və > u- 
 $ this might be yet earlier considering that it also happens in Gheg? Or not. 
-$ DIACLEA FIX D3.X.a -- this is reinterpreted as βo ~ ˌuo̯)as input, and __ C as context. See D3.X(.a) on fixes lo, a nd initial lengthening in MPA II file.  
+$ DIACLEA FIX D3.X.a -- this is reinterpreted as βo ~ ˌuo̯)as input, and __ C as context. See D3.X(.a) on fixes lo, a nd initial lengthening in MPA II file. But as of Nov 29, 2025, nonstressed o doesn't diphthongize so, this is interpreted as ɔː > uː, before it.
 $ RELOCDATION B2.VIII -- (reformulated) DV2.1.F2 və (or rather vo-) > u phenomena moved back to before end of Late Proto-Alb I, going into LPA II. It is shared, after all. 
 ${v ə;v ˌə} > {u;ˈu} / # __
-o̯ > ∅ / # ˌu __
+$o̯ > ∅ / # ˌu __
 
 $ DIACLEA CORRECTION D3.X.e -- before Late Proto-Albanian II finishes, initial uo- ye- to vɔ-, vɛ- via w . Includes primary and secondary stressed uo-. Does not rope in etymological -vo-. Apparently it's now at late LPA I going into LPA II. As of Nov 17, 2025, ie̯ > je except in all contexts except # C __ , and both ie and the round dipthhongs uo and ye undergo this prevocalically elsewhere
 $ Previously: [+round,cprim,dstres] [-syl,-cons] > w [cprim,dstres,-tense] / # __

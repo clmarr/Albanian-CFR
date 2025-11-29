@@ -735,7 +735,7 @@ $ this thus implements DV2.2.1B11
 [+syl,+hi,-tense] > [-hi,+tense]
 
 $DIACLEA CORRECTION A2.LXXXI -- deletion of intercountertonic n in a somewhat idiosyncratic context with weird classes at play -- see file "intercountertonic denasalization.doc" # ({k,w}) [-prim,-lo] __ {k,p,t,w} [-prim] (n) {d,t,lˠ} [+prim] . Effects: convent-ā > kuvendoj, invit-ā- > ftoj, ventil-ā- > ftilloj, content-ā- > kutëndoj , comput-ā- > kupëtoj. Took way too long on this one. 
-[+nas] > ∅ / # ([+back,-syl]) [-prim,-lo] __ [-syl,tcons,!tcont] [-prim] ([-syl]) [+cor,llat,lvoi,lcont] [+prim]
+[+nas] > ∅ / # ([+back,-syl]) [-prim,-lo] __ [-syl,tcons,!tcont] [-prim] ([-syl]) [+cor,llat,lcont] [+prim]
 
 $DIACLEA CORRECTION A1.IV : nw (or nβ) > m before non-primary stressed front vowel. Bled for invit-ā- by A2.LXXXI, removing need to make this for we (incl. from <wɪ) as opposed to wi. This overpredicts in the case of invernīnum > *mërri (vërri) but that word might reflect hibernīnum instead. Motivation for this may be found in differentiating this from [ø], which in some accounts (e.g. Orel 2000) may have been [we] (note that the same sound becomes [uo] before sonorants). 
 $ TODO maybe broaden this and have ɸ involved for cases like iūnctus ? 
@@ -805,10 +805,10 @@ $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he c
 $ DIACLEA CORRECTION B1.III -- relocdated later -- 
 $TODO W phenomena including coloring stuff where this matters happen much later, still get to this (tribulum > truoll, viv-o- >v-ua-, scrib-o- > shkr-ua- ...) . TODO May have to go even later because it seems this also happens with Slavic etyma (bɯβɒl(-ʊ,-iːt͡sɑ) > buall(icë); gɒtɒβ-ɒ > gat-ua, pɒdʊkɒβʊ > patkua, pɒrɒβʊ > përua, tɒrɒβʊ> tërua, βɒlkɒβʊ > vallkua, βīrɒβʊ > virua, zɑ̄bɒjɪ > zabua )
 $ Note -- should come before i-mutation ~ ovatia > voesë. 
-$ DIACLEA FIX E1.IV -- now two stages of -w- deletion. First just deleted after presonorant round vowels. Later, deleted everywhere, joining fate of β, after first Slavic wave, and some final beta coloring phenomena shared between w and b, both as beta in some places, w in others.. 
+$ DIACLEA CORRECTION E1.IV -- now two stages of -w- deletion. First just deleted after presonorant round vowels. Later, deleted everywhere, joining fate of β, after first Slavic wave, and some final beta coloring phenomena shared between w and b, both as beta in some places, w in others.. 
 w > β 
 
-$DIACLEA FIX D3.XI -- beta sent to w after  vowels, joining fate of w for round vowels intervocalically (deletion)
+$DIACLEA CORRECTION D3.XI -- beta sent to w after  vowels, joining fate of w for round vowels intervocalically (deletion)
 $β > w / [+round] __
 β > w / [-cons] __
 
@@ -959,6 +959,16 @@ s > z / __ [+voi,+cons,-lat]
 
 $DIACLEA CORRECTION A1.V -- ɑ > a; at end of MPA II for pre-Slavic vocab, in the middle of LPA II for Slavic vocab, for which it comes after l-darkening, which it counterbleeds (mɒgɯlɑ > Mëgullë, Second layer pɒsɯlɑ > pusullë). Originally "bandaid", but moved. 
 [+lo,-round] > [+front,-back]
+
+$DIACLEA CORRECTION A2.LXXXIII -- Middle Proto-Albanian Vw(V) coalescences 
+$A2.LXXXIII .io -- íwVround > ˈɔː > ˈuə / {lab, Tr} __ C
+[+hi,+front,-round,+prim] w [+round,-stres] > ˈɔː / {[+lab];[-cont] r} __ [+cons]
+$A2.LXXXIII .eu intersonorant e rounding--  VRˈɛw(V)r/l(/z)> ˈœː . Also applies to aw in case of trabeza at least -- thus fed by A1.V 
+[-hi,+front,+prim] > [+round,+lab,-lo,-tense] / [+son,+cons] __ w ([-stres]) [+voi,+cor]
+$deletion of w across the board except if V2 is low and V1 is not, lengthening phenomena proceed. For AVA, happens if preconsonantal. 
+[+prim] w > [+long] ∅ / __ [-stres,-lo]
+[+prim,+lo] w > [+long] ∅ / __ [-stres,+lo] [-syl]
+
 
 =Late Proto-Albanian I
 $ Earliest Slavic loans here; "first Slavic wave"
@@ -1365,6 +1375,9 @@ $DIACLEA CORRECTION A1.XVII.2 Late Proto-Albanian II has a second wave of the n 
 $ this causes memory error somehow: [+cont,+cor,+voi,-strid,ʎlat,ʎson] j> ʎ
 {ð j;l j;lː j} > {ʎ;ʎ;ʎ}
 [+cor,+nas,+son] j > ɲ
+
+$DIACLEA CORRECTION A2.LXXXII -- deletion of ɣ in LPA II. May be worth it to look at handling ɣ l /l ɣ combos around A1.XVII above. 
+ɣ > ∅
 
 $DV1738, top, part 3: final -ja(s) to e, clearly bleeding part DV1738 part 2.
 $form prior to 8/5/23 was: j a (s) > e / __ #

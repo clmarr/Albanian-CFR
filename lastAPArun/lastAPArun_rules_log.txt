@@ -184,8 +184,8 @@ s > z / __ [+voi,+cons,-lat]
 [+hi,+front,-round,+prim] w [+round,-stres] > ˈɔː/ [-cont] r __ [+cons]
 ˈɒ w [+round,-stres] > ˈɔː
 [-hi,+front,+prim] > [+round,+lab,-lo,-tense,-cons,-lat,+cont,0delrel] / [+son,+cons] __ w ( [-stres] ) [+voi,+cor]
-[+prim] w > [+long] ∅/ __ ( [-stres,-lo] ) [-lo]
-[+prim,+lo] w > [+long] ∅/ __ [-stres,+lo] [-syl]
+[+stres] w > [+long] ∅/ @ __ [-lo]
+[+stres,+lo] w > [+long] ∅/ @ __ [-stres,+lo] [-syl]
 [+lo,-tense,+syl] > [-lo,+tense,+long,-cons,-lat,+cont,0delrel] / [+cons,-strid] ( [-cons] ) __ [-syl] [+front]
 [-stres,-cons] > ∅ / [+syl] ( @ )* __ ɲ
 [+lo,+round,-nas] > [-lo,-tense,-cons,-lat,+cont,0delrel] / __ [+voi,+cons,-nas] [-tense,+hi,-stres]

@@ -978,7 +978,7 @@ $A2.LXXXIII .ɒ -- Slavic ɒ > o in such situations. Can be handled with i via a
 $A2.LXXXIII .eu intersonorant e rounding--  VRˈɛw(V)r/l(/z)> ˈœː . Also applies to aw in case of trabeza at least -- thus fed by A1.V 
 [-hi,+front,+prim] > [+round,+lab,-lo,-tense] / [+son,+cons] __ w ([-stres]) [+voi,+cor]
 $deletion of w across the board except if V2 is low and V1 is not, lengthening phenomena proceed. For AVA, happens if preconsonantal. 
-[+prim] w > [+long] ∅ / __ [-stres,-lo]
+[+prim] w > [+long] ∅ / __ ([-stres,-lo]) [-lo]
 [+prim,+lo] w > [+long] ∅ / __ [-stres,+lo] [-syl]
 
 $DIACLEA CORRECTION A.1 & A2.L : æ(ː?) > eː / C-strid __ C Vfront, elsewhere to a (also A1.I). Even if not long, [æ] tends to be longest vowel and this does not seem to merge with /e/ or /ɛ/ immediately assuming the raising to /i/ (/ɪ/?) phenomenon is a bit later. 
@@ -1109,10 +1109,11 @@ s > ʃ
 =Late Proto-Albanian II
 
 $TODO analyze shortenings...
+
 $ DIACLEA FIX D3.X.c length becomes diphthongization for lax long vowels. For this, diphthongization univerally arises from long lax mid vowels that reached a certain point. Unified rule with V[+hi,aplace] ə, schwa excrescence becomes the second diphthong element. This merges in with etymological schwa. 
 $ DIACLEA FIX D3.X.d -- -- in partial agreement with DV2.2.1K and 1737's 5b on diphthongized ietation, ɛː ends up as jɛ except before final ɾ lˠ; to these, I broaden these to include n too. Implemented by intervention before D3.X.c resolves.  
 $TODO probably going to have to move this.
-[+long,-tense] ∅ > [+hi,-long,+tense] ə
+[+long,-hi,-lo,-tense] ∅ > [+hi,-long,+tense] ə
 
 
 $DV3.1H2 : -rn- > -rr- / V __ V . This happens in Gheg and Tosk, but De Vaan 2018, citing Janson 1986(:97f), argues it is post-Slavic. Inasmuch as it happens in Gheg, it is also independent of Tosk rhotacism, and should thus be handled separately.

@@ -180,11 +180,11 @@ s > z / __ [+voi,+cons,-lat]
 [+lo,-round] > [+front,-back] 
 [+syl,+nas] ∅ > [-round,-lab,-nas,+tense,-cons,-lat,+cont,0delrel] n/ __ [-nas]
 [+syl,+back,+hi,-lat] > [+round,+lab] 
-ˈɒ w [+round,-stres] > ˈɔː
 [+hi,+front,-round,+prim] w [+round,-stres] > ˈɔː/ [+lab] __ [+cons]
 [+hi,+front,-round,+prim] w [+round,-stres] > ˈɔː/ [-cont] r __ [+cons]
+ˈɒ w [+round,-stres] > ˈɔː
 [-hi,+front,+prim] > [+round,+lab,-lo,-tense,-cons,-lat,+cont,0delrel] / [+son,+cons] __ w ( [-stres] ) [+voi,+cor]
-[+prim] w > [+long] ∅/ __ [-stres,-lo]
+[+prim] w > [+long] ∅/ __ ( [-stres,-lo] ) [-lo]
 [+prim,+lo] w > [+long] ∅/ __ [-stres,+lo] [-syl]
 [+lo,-tense,+syl] > [-lo,+tense,+long,-cons,-lat,+cont,0delrel] / [+cons,-strid] ( [-cons] ) __ [-syl] [+front]
 [-stres,-cons] > ∅ / [+syl] ( @ )* __ ɲ
@@ -216,7 +216,7 @@ r > rː / # __ [+round,-lo]
 [-son,acont,blab,chi] > ∅ / __ [-son,acont,blab,chi]
 s > t͡s / [+cons] __ [+cons,-cor]
 s > ʃ 
-[+long,-tense] ∅ > [+hi,-long,+tense,-splng,-cons,-lat,+cont,0delrel] ə
+[+long,-hi,-lo,-tense] ∅ > [+hi,-long,+tense,-splng,-cons,-lat,+cont,0delrel] ə
 r n > rː 
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
 ɛ > ə / w __

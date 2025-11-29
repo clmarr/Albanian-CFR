@@ -666,6 +666,7 @@ $[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ {[-syl];#}
 $DIACLEA FIX A2.XXXI.a Middle Proto-Albanian I -- stress retraction in V β ˈV-hi (ablēv-ā- > blej , arrīv-ā- > arrij, Drivastum > Drisht, lav-ā- > laj, oli̍̄vānu > ullî, etc. Including caballus > kuol, kālë for good measure. Bled by ɒ > ɔ but maybe that can be moved later? 
 $ TODO write about this in dissertation!
 $ cf. Lopuhaa 2015
+$ teh cases of pagaw-a- > paguaj (supposedly from later Italo-Romance) and gɒtɒw-ɒ- > gatuaj (from the first wave of Slavic) may be considered analogical since by that point a large number of verbs in -ˈVwV̯ɲo would have emerged. 
 $ TODO possibly broaden this to other cases of stress retraction...
 [+syl] [+lab,+voi,-syl,-nas] [+prim,+lo] > [+prim] [+lab] [-stres] / @ __
 
@@ -960,16 +961,6 @@ s > z / __ [+voi,+cons,-lat]
 $DIACLEA CORRECTION A1.V -- ɑ > a; at end of MPA II for pre-Slavic vocab, in the middle of LPA II for Slavic vocab, for which it comes after l-darkening, which it counterbleeds (mɒgɯlɑ > Mëgullë, Second layer pɒsɯlɑ > pusullë). Originally "bandaid", but moved. 
 [+lo,-round] > [+front,-back]
 
-$DIACLEA CORRECTION A2.LXXXIII -- Middle Proto-Albanian Vw(V) coalescences 
-$A2.LXXXIII .io -- íwVround > ˈɔː > ˈuə / {lab, Tr} __ C
-[+hi,+front,-round,+prim] w [+round,-stres] > ˈɔː / {[+lab];[-cont] r} __ [+cons]
-$A2.LXXXIII .eu intersonorant e rounding--  VRˈɛw(V)r/l(/z)> ˈœː . Also applies to aw in case of trabeza at least -- thus fed by A1.V 
-[-hi,+front,+prim] > [+round,+lab,-lo,-tense] / [+son,+cons] __ w ([-stres]) [+voi,+cor]
-$deletion of w across the board except if V2 is low and V1 is not, lengthening phenomena proceed. For AVA, happens if preconsonantal. 
-[+prim] w > [+long] ∅ / __ [-stres,-lo]
-[+prim,+lo] w > [+long] ∅ / __ [-stres,+lo] [-syl]
-
-
 =Late Proto-Albanian I
 $ Earliest Slavic loans here; "first Slavic wave"
 
@@ -978,6 +969,17 @@ $DIACLEA FIX A2.LI : first wave Slavic nasal vowels are unpacked to Vn, with ɑ 
 
 $DIACLEA CORRECTION A1.XVI ː ɯ handling 
 [+syl,+back,+hi,-lat] > [+round,+lab]
+
+$DIACLEA CORRECTION A2.LXXXIII -- early Late Proto-Albanian I Vw(V) coalescences . 
+$A2.LXXXIII .io -- íwVround > ˈɔː > ˈuə / {lab, Tr} __ C
+[+hi,+front,-round,+prim] w [+round,-stres] > ˈɔː / {[+lab];[-cont] r} __ [+cons]
+$A2.LXXXIII .ɒ -- Slavic ɒ > o in such situations. Can be handled with i via alpha feats but this seems to challenge memory for some reason (11/29/2025). Furthermore, with the cases with Slavic a, context seems less constriced. Could be bled by Slavic hard yer loss (A1.XXII.ʊ) -- ravʊka > ravgë -- but this is not enough evidence. 
+ˈɒ w [+round,-stres] > ˈɔː
+$A2.LXXXIII .eu intersonorant e rounding--  VRˈɛw(V)r/l(/z)> ˈœː . Also applies to aw in case of trabeza at least -- thus fed by A1.V 
+[-hi,+front,+prim] > [+round,+lab,-lo,-tense] / [+son,+cons] __ w ([-stres]) [+voi,+cor]
+$deletion of w across the board except if V2 is low and V1 is not, lengthening phenomena proceed. For AVA, happens if preconsonantal. 
+[+prim] w > [+long] ∅ / __ [-stres,-lo]
+[+prim,+lo] w > [+long] ∅ / __ [-stres,+lo] [-syl]
 
 $DIACLEA CORRECTION A.1 & A2.L : æ(ː?) > eː / C-strid __ C Vfront, elsewhere to a (also A1.I). Even if not long, [æ] tends to be longest vowel and this does not seem to merge with /e/ or /ɛ/ immediately assuming the raising to /i/ (/ɪ/?) phenomenon is a bit later. 
 [+lo,-tense,+syl] > [-lo,+tense,+long] / [+cons,-strid] ([-cons]) __ [-syl] [+front]
@@ -1000,7 +1002,6 @@ $ DIACLEA CORRECTION A2.LXVIII before palalization, reduction to schwa of unroun
 $DIACLEA CORRECTION A1.XXII.ʊ > ∅. Not in first LPA wave though -- doesn't feed p > f -- langʊsʊka >Lënckë not *Lëfckë, zambʊʃa > Zëmçë not Zëfckë . Word finally instead goes to ə (potkua etc.) 
 ʊ > ə / __ #
 ʊ > ∅
-
 
 $ incorporates DIACLEA CORRECTION A2.XXXXI - ø > œ (and o > ɔ) before it is unrounded in LPA. This comes before (bc it feeds) D3.X.b1
 [+syl,+round,-hi,-lo] > [-tense]

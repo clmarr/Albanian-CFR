@@ -178,13 +178,14 @@ j [-hi,+syl,+stres] > ∅ [-lo,-back,+front,+tense,-cons,-lat,+cont,0delrel]/ [-
 [-prim] > [+nas] / # m __ [-delrel]
 s > z / __ [+voi,+cons,-lat]
 [+lo,-round] > [+front,-back] 
+[+syl,+nas] ∅ > [-round,-lab,-nas,+tense,-cons,-lat,+cont,0delrel] n/ __ [-nas]
+[+syl,+back,+hi,-lat] > [+round,+lab] 
+ˈɒ w [+round,-stres] > ˈɔː
 [+hi,+front,-round,+prim] w [+round,-stres] > ˈɔː/ [+lab] __ [+cons]
 [+hi,+front,-round,+prim] w [+round,-stres] > ˈɔː/ [-cont] r __ [+cons]
 [-hi,+front,+prim] > [+round,+lab,-lo,-tense,-cons,-lat,+cont,0delrel] / [+son,+cons] __ w ( [-stres] ) [+voi,+cor]
 [+prim] w > [+long] ∅/ __ [-stres,-lo]
 [+prim,+lo] w > [+long] ∅/ __ [-stres,+lo] [-syl]
-[+syl,+nas] ∅ > [-round,-lab,-nas,+tense,-cons,-lat,+cont,0delrel] n/ __ [-nas]
-[+syl,+back,+hi,-lat] > [+round,+lab] 
 [+lo,-tense,+syl] > [-lo,+tense,+long,-cons,-lat,+cont,0delrel] / [+cons,-strid] ( [-cons] ) __ [-syl] [+front]
 [-stres,-cons] > ∅ / [+syl] ( @ )* __ ɲ
 [+lo,+round,-nas] > [-lo,-tense,-cons,-lat,+cont,0delrel] / __ [+voi,+cons,-nas] [-tense,+hi,-stres]

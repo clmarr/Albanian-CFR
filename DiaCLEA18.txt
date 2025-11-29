@@ -975,8 +975,14 @@ $DIACLEA CORRECTION A2.LXXI -- LPA I unstressed vowel deletions before ɲ .Fed b
 $DIACLEA CORRECTION A2.LXXX.ɔʊ -- first Slav layer ɒ > ɔ  /  @ __ [+voi,+cons,-nas] yer, before loss of Slav layer I yers, .
 [+lo,+round,-nas] > [-lo,-tense] / __ [+voi,+cons,-nas] [-tense,+hi,-stres] 
 
-$DIACLEA CORRECTION A2.LXXX.ka ː ˌɒ,ˈɒ unroudned / velar __ c-nas,-lab -nas. Bled by A2.LXXX.ɔu, feeds A2.LXXVI.ARA
+$DIACLEA CORRECTION A2.LXXX.ka ː ˌɒ,ˈɒ unrounded / velar __ c-nas,-lab -nas. Bled by A2.LXXX.ɔu.
 [+lo,+round,-nas,+stres] > [-round,-lab] / [+back,+cons] __ [+cons,-nas,-lab] [-nas]
+
+$DIACLA CORRECTION A2.LXXVI.ARA ˌɒr([-stres]) > ara in velar __ labial (counterbled by x >h ), and ɔrɔ in labial/t͡ʃ __ labial/t͡ʃ (t͡ʃ unclear tho -- only two cases Çorovodë and porosit are both ambiguous) ; quality of ɒ reflex assumed to not change. Counterbled by A2.LXVII. For now realized as the insertion of an ˌa -- later it will be assimilated in rule that spreads countertonic back round vowel qualities (also apply to trubulloj, shurukoj not *shurakoj, shuguroj, ngushulloj, Rogoveckë, etc) 
+∅ > ˌɑ / # [-cor,+cons] [+back,-hi,-prim] r __ [+lab,-syl]
+
+$ DIACLEA CORRECTION A2.LXVIII before palalization, reduction to schwa of unround countertonics in # C-nas V R/L (obstruents except coronal stops) -- TODO NOTE UNNATURAL CLASS. Needss to be in # (C) __ -- ənkˌɑrðˌulˈicjɑ > ngardhulliqe ; skˌɑrd͡ʒˈœɲɔ > shkarzej etc. 
+[-prim,+stres,-round] > ə / # [-nas,+cons] __ [+cor,+son,-nas] [-son,sstrid,scor]
 
 $DIACLEA CORRECTION A1.XXII.ʊ > ∅. Not in first LPA wave though -- doesn't feed p > f -- langʊsʊka >Lënckë not *Lëfckë, zambʊʃa > Zëmçë not Zëfckë . Word finally instead goes to ə (potkua etc.) 
 ʊ > ə / __ #
@@ -1100,9 +1106,6 @@ $DIACLEA CORRECTION C1A.IV -- now unconditioned (formerly  r n > rː / @ __ @)
 $DIACLEA CORRECTION B2.X -- moved r n > r: into much earlier proto-Albanian, because it bleeds ietation. 
 r n > rː
 
-$ DIACLEA CORRECTION A2.LXVIII before palalization, reduction to schwa of unround countertonics in # C-nas V R/L (obstruents except coronal stops) -- TODO NOTE UNNATURAL CLASS. Needss to be initial -- ənkˌɑrðˌulˈicjɑ > ngardhulliqe ; skˌɑrd͡ʒˈœɲɔ > shkarzej etc. 
-[-prim,+stres,-round] > ə / # [-nas,+cons] __ [+cor,+son,-nas] [-son,sstrid,scor]
-
 $DV4.2E & DV4.2F3 -- wave of palatalization, occurring before front vowels, including fronted former long round vowels (y, ø) but not including reduced vowels.  Absorbs /w/. 
 $ DIACLEA FIX D2.II -- absorption of w in palatalizing k removed, now redundant given earlier mass -w- loss, and lack of such sequences in any contact languages since MPA.
 $w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
@@ -1114,9 +1117,11 @@ $DIACLEA CORRECTION A1.XXII.ɛ ɛ reduced to ə, both for Slavic vocab (rrafsh, 
 $DIACLEA CORRECTION A2.LXIX -- LPA I ɪ > i / rː __ c before ɪ to schwa
 ɪ > i / rː __ c
 
+$DIACLEA CORRECTION A2.LXXII.ɪ -- LPA I ɪ > ɛ / __ C ɪ just like in LPA III, for stressed ɪ. However, this may actually just be that the relevant words are later loans from Bulgarian; caution is warranted here. 
+[+hi,-round,-tense,+stres] > [-hi] / __ [+cons] ɪ
+
 $DIACLEA CORRECTION A1.XXII.1.ɪ unstressed ɪ, ʊ > ə, ∅ for first wave Slavic and etyma inherited into LPA I after some marginal bleeding phenomena
 ɪ > ə
-
 
 $TODO, EPSILON NOTE: from this point onward, De Vaan uses *e, but the difference between *e and *ɛ is not meaningful (any longer), and the gold outcomes in ALLex feature /ɛ/, so we will have to at some point move (or merge) these to/as ɛ -- probably at the end. Counterfeeds ɛ > ie though.
 $bandaid here thus inserted
@@ -1150,12 +1155,20 @@ $DIACLEA CORRECTIONS  : not for back or low (C1b.VIII, including low given brigh
 [-prim,-back,-long,-lo] > ə / @ __ (@)* [+prim]
 [-stres,-long] > ə / @ __ (@)* [+prim]
 
-$DIACLEA CORRECTION A2.XXI -- progressive u-spreading between two unstressed syllables (u or countertonic ˌu spreading onto unstressed vowel). As of 11/11/25 however, much more restricted. TODO may actually be invalid in majority of cases, i.e. -ull endings that could be reflex of a former syllabic -l̩#. 
-	$ previous form: [-prim] > [+hi,+tense,+back,+round,+lab,-lo,-front] / [-prim,+hi,+back,+round] ([-syl])* __
-$however, basically the only secure place this happens is across lˠ. Other places it occurred may be better explained as some labial/dorsal __ lateral rounding phenomenon (see file to figure out) occurring after the excrescence rule that concerns grumbulloj and kumbull at least. 
-$ now only across lˠ; as of 11/24, [+lat]
+$ DV4.1B3 & Bonnet 1998:193 -- *Tosk* insertion of b between m and unstressed vowels
+$ DIACLEA CORRECTION C3B.XXI: the places this actually correctly happens seem to be before laterals, and not word initially. 
+$ DIACLEA CORRECTION B2.XVI -- DV4.1B3 & Bonnet 1998:193 -- "*Tosk* insertion of b between m and unstressed vowels" -- moved much earlier, making it possibly pan-Albanian, because it feeds progressive unstressed round vowel assimilation (A2.XXI). In Gheg, it can be assumed the mb > m, per regularly ND > N in Gheg, hence hte apperance of "Toskness" of this development. 
+∅ > b / @ m __ [-stres] [+lat]
+
+$DIACLEA CORRECTION A2.XXI -- progressive round unstressed vowel spreading between two unstressed syllables (u or countertonic ˌu spreading onto unstressed vowel). 
 $ bleeds A1.XX
-[-prim] > [+hi,+tense,+back,+round,+lab,-lo,-front] / [-prim,+hi,+back,+round] [+lat] __
+$As of  November 2025 however, much more restricted: across labials (many cases), across r ([-cor], and across ND, assimilating vowels not before nasals . TODO may actually be spurious in majority of word final cases reflecting as -ull, i.e. -ull endings that could be reflex of a former syllabic -l̩#. 
+	$ previous form: [-prim] > [+hi,+tense,+back,+round,+lab,-lo,-front] / [-prim,+hi,+back,+round] ([-syl])* __
+$[-prim] > [+hi,+tense,+back,+round,+lab,-lo,-front] / [-prim,+hi,+back,+round] [+lat] __
+[-prim] > [uhi,utense,+back,+round,+lab,-lo,-front] / @ [-prim,uhi,+round] [+lat] __
+[-prim] > [uhi,utense,+back,+round,+lab,-lo,-front] / @ [-prim,uhi,+round] r ([-cor,+cons]) __ @
+[-prim] > [uhi,utense,+back,+round,+lab,-lo,-front] / @ [-prim,uhi,+round] [+nas,+cons] [+cons,-cor] __ @
+
 
 $ ------- secondary cluster formation---------------
 
@@ -1227,10 +1240,11 @@ $DIACLEA CORRECTION A2.XVII: the new ʃ absorbs following t͡ʃ
 t͡ʃ > ∅ / ʃ __
 
 $ DIACLEA CORRECTION A2.LXI  [TODO THESIS -- REEXAMINE FOR EXAMPLE OF ALPHA POLARITY] LPA ˈi and ˈɪ (later from Slavic) > ˈɛ phenomena , before ʃ or t͡ʃ , after s > ʃ  (DV1744.H) but before t͡ʃ > s..
-	$A2.LXI.a  if before an affricate, needs the anteriority to mismatch lowness of final vowel, can see through one medial unstressed-- perhaps should have yers lost by now? 
-[+prim,+hi,-round] > [-hi,-tense] / __ [+delrel,!aant] ([-syl])* [alo]
+	$A2.LXI.a  if before an affricate, needs the anteriority to mismatch lowness of final vowel, can see through one medial unstressed-- perhaps should have yers lost by now? As of Nov 28, 2025, however, this is explained via hte soft yer dissimilation rule instead. 
+$[+prim,+hi,-round] > [-hi,-tense] / __ [+delrel,!aant] ([-syl])* [alo]
 	$A2.LXI.s -- for ʃ, just has to come before a vowel (this is before final vowel losses)
-[+prim,+hi,-round] > [-hi,-tense] / __ ʃ [+syl] #
+	$as of Nov 28, 2025 -- this only the latter, A2.LXI.s is active, only for t͡ʃ joining with ʃ (formerly ʃ where we have [-ant,+strid,-voi] ) 
+[+prim,+hi,-round] > [-hi,-tense] / __ [-ant,+strid,-voi] [+syl] #
 
 $ DIACLEA CORRECTION A1.VII raising of ɔ to u before palatoalveolar or palatal then vowel (requires proper syncope, dorsal palatalization, and degemination rules to work though)
 [+round,-front] > [+hi,+tense] / __ [+front,-son] [+syl]
@@ -1535,8 +1549,8 @@ $DIACLEA CORRECTION A2.LXV after second Slavic wave, k insertion in S __ l . Fee
 $DIACLEA CORRECTION A2.LXXIII LPA III ɪ̃ > Tosk ã (S Gheg ɛ̃, N Gheg ã, Lab i) : Slavic ɒbʊpɪnʊka > N/E Tosk opëngë (vs. W Tosk opingë, S Gheg opengë, N Gheg apangë); mʊʒɪnɪska > Muzhënckë; primaverë > prëndverë
 [+hi,-round,-tense,+nas] > [+tense,+lo,-hi]
 
-$DIACLEA CORRECTION A2.LXXII.ɪ -- LPA II ɪ > ɛ / __ C ɪ. However, this may actually just be that the relevant words are later loans from Bulgarian; caution is warranted here. 
-$DIACLEA CORRECTION A2.LXXII.r LPA ɪ > ɛ before r too, at least for stressed (countertonic or tonic) variants
+$DIACLEA CORRECTION A2.LXXII.ɪ -- LPA III ɪ > ɛ / __ C ɪ. However, this may actually just be that the relevant words are later loans from Bulgarian; caution is warranted here. 
+$DIACLEA CORRECTION A2.LXXII.r LPA III ɪ > ɛ before r like above, at least for stressed (countertonic or tonic) variants
 [+hi,-round,-tense] > [-hi] / __ {[+cons] ɪ;r}
 
 $DIACLEA CORRECTION A1.XXII.2 unstressed yers fall in second wave in time to feed lk > ʎk phenomenon (bælʊka >bejkë). Also bleed LPA l-darkeningː sovadlʊka > sovajkë not sovallkë; zabælʊ > zabel not zabell, etc.
@@ -1634,12 +1648,6 @@ $DIACLEA A2.LXXV.l # __ (ə) l Ccor,-nas l T  # k ( [-prim,-back,-front] ) l [-c
 k > ɡ / # __ [-prim,+back,+hi] [+cor] [-prim,-back,-front]
 k > ɡ  / # __ ([-prim,-back,-front]) [+lat] [-cont] 
 k > ɡ / # __ ([-prim,-back,-front]) [+cor] [-voi,-lab,-hi]
-
-$ DV4.1B3 & Bonnet 1998:193 -- *Tosk* insertion of b between m and unstressed vowels
-$ DIACLEA CORRECTION: the places this actually correctly happens seem to be before laterals -- grūmul-ā- > grumbulloj, meletta > (m)bletë (?), similatūra > shëmbëlltyrë
-	$ but not word initially: maledīc-œ > mallkoj, maliti-ā- > malcoj, molārem > mullar, molīnum > mullî, mulc-ē > mëlkoj  maluang-œ- > mallëngjej. 
-	$ accuracy gained with this fix: +0.8%
-∅ > b / @ m __ [-stres] [+lat]
 
 $DV3.1E -- l: passes to dark l.
 $ This is actually pan-Albanian but it is placed as a PAlb to Modern Alb change DV'18. 

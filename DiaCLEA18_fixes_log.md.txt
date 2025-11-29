@@ -157,6 +157,15 @@ A2.XX -- quality-identical vowels in hiatus merged, currently to long vowel, cur
 
 A2.XXI -- progressive u-spreading among unstressed syllables (one syllable spread) in Late Proto-Albanian, placed before Late PAlb instantiation of DV1734.1.III syncope, bleeding it; counterbled also by post-nasal voicing so placed before that too. This will also, simultaneously, feed the loss of -a > *ë, by changing  in -V́C*ula- > V́C*ull words, via DV1738, top, part 1. It does so by affecting ANY vowel. See file: "proto-Albanian u spreading"; increased accuracy by 0.4%, improved other words as well. Still need to work out chronology relative to Kul> lk and voiced stop phenomena.
 	 Revision as of 11/11/25 -- now only across lˠ . Basically the only secure place this happens is across lˠ. Other places it occurred may be better explained as some labial/dorsal __ lateral rounding phenomenon (see file to figure out) occurring after the excrescence rule that concerns grumbulloj and kumbull at least. 
+		11/11 remarks however, basically the only secure place this happens is across lˠ. Other places it occurred may be better explained as some labial/dorsal __ lateral rounding phenomenon (see file to figure out) occurring after the excrescence rule that concerns grumbulloj and kumbull at least. 
+	Revision as of 11/24 -- across laterals
+	Revision as of 11/28 -- see "countertonic assimilation targets", countertonic assimilation with very similar timing found for other contexts beyond l here tho, added in. Furhtermore, it occurs for other back round vowels, not just u (which previously hid some of its contexts)
+		r - - porosit	 morovicë shurukoj
+		r [-cor] -- murmuroj ,t(ru/ur)bulloj,  turfuloj
+		ND -- shungulloj, , grumbulloj (needs to be fed by 
+		for non-post-lateral contexts at least, not assimilation of final 
+			non-final ː kavura > gavër , ɒrzɒra > llazurë 
+			(possibly also -- not before nasal: communicare > kuməngoj > kungoj, gorinitsa > gornica >gorricë )
 
 A2.XXII -- TV̯L > ləTV̯ if prior syllable has simple onset, it seems: (duplic-ā- > dulpëkoj, pavīcula > pylkë, radīcula > rilkë, conucula > konurkë, but mātrīcula > ndrikull). Two rules necessary per current DiaSim restriction against features in disjunctions. [-voi] in second row is a dummy/place filler. note that if other /l ə/ sequences arise, the functionality of this could be compromised. 
 
@@ -404,9 +413,10 @@ A2.LX: Northern Tosk pre-nasal non-back vowel deletions.
 	cases where N Tosk does this and other dialects do not --
 		kallnor vs. kallënduor < calendarju, armik vs. S Tosk arëmik / O Gheg anëmik 
 
-A2.LXI : [TODO THESIS -- REEXAMINE FOR USE OF ALPHA FEATURES] LPA ˈi and ˈɪ (later from Slavic) > ˈɛ phenomena , before ʃ or t͡ʃ , after s > ʃ  (DV1744.H) but before t͡ʃ > s..
-		$A2.LXI.a  if before an affricate, needs the anteriority to mismatch lowness of final vowel, can see through one medial unstressed-- perhaps should have yers lost by now? 	
-	$A2.LXI.s -- for ʃ, just has to come before a final vowel (this is before final vowel losses)
+A2.LXI : LPA ˈi and ˈɪ (later from Slavic) > ˈɛ phenomena , before ʃ or t͡ʃ , after s > ʃ  (DV1744.H) but before t͡ʃ > s..
+		$A2.LXI.a  if before an affricate, needs the anteriority to mismatch lowness of final vowel, can see through one medial unstressed-- perhaps should have yers lost by now?  As of Nov 28, 2025, however, this is explained via hte soft yer dissimilation rule instead. Otherwise would be case for alpha feature polarity but upon further consideration this was not necessary (unfortunately), it turned out. 	
+	
+	$A2.LXI.s -- for ʃ and as of Nov 28 2025, t͡ʃ as well, just has to come before a final vowel (this is before final vowel losses)
 
 A2.LXII LPA I merger and coalescence of ʒ, d z, d ʒ, d͡z, d͡ʒ into d͡ʒ
 
@@ -435,8 +445,8 @@ A2.LXX -- early modern Tosk nd > n post consonantally into modern North Tosk (vu
 
 A2.LXXI -- LPA I unstressed vowel deletions before ɲ .Fed by Middle Proto-Albanian stress retractoins in VwVɲ verbs, does not bleed new vocalic length formation in such cases (placed near ietation); does not happen to initial syllable countertonics, coming after aphaeresis to produce newly first syllable countertonics (Vlonjat). Feeds Cɲ > Cɟ phenomenon in LPA I, and LPA I cluster voicing assimilation (fuskinia > fuzhnjë etc). Comes after some mini-i-mutation (karmiɲ-a- > kerrnjoj; intiɲ-o-> ngjyej?, sanguiniata > sãɲɟɲäta > shëngetë). Seeː "sDeletion pre - ɲ"
 
-A2.LXXII -- .ɪ LPA II ɪ > ɛ / __ C ɪ. However, this may actually just be that the relevant words are later loans from Bulgarian; caution is warranted here. 
-			.r -- the same before r.
+A2.LXXII -- .ɪ LPA III ɪ > ɛ / __ C ɪ. However, this may actually just be that the relevant words are later loans from Bulgarian; caution is warranted here. Also happens in LPA I  to stressed at least ɪ; same applies wrt possible Bulgarian counterexplanation, tho these are more secure due to archaism and idiosyncrasy not seen in Bg (e.g. harabel < wɒrbɪlɪ) 
+			.r -- the same before r, for LPA II 
 
 A2.LXXIII LPA III ɪ̃ > Tosk ã (S Gheg ɛ̃, N Gheg ã, Lab i) : Slavic ɒbʊpɪnʊka > N/E Tosk opëngë (vs. W Tosk opingë, S Gheg opengë, N Gheg apangë); mʊʒɪnɪska > Muzhënckë; primaverë > prëndverë
 
@@ -545,7 +555,7 @@ A2.LXXVI SYLLABIFICATION formation of syllabic sonorant consonants
 					xˌɒrmˈɒwɑ > Hormovë not *Haramovë -- tho Harmovë apparently att'd in 1400. 
 
 				t͡ʃˌɒɾ(n)ɒvˈɒda > Chorovodë
-				pˌɒɾə̃sˈit > porosit  -- may be otherwise explained wrt denasalization, Slav layer 2 ɒ̃ > o in trondit etc. 
+				pˌɒɾə̃sˈit > porosit  -- may be otherwise explained wrt denasalization, Slav layer 2 ɒ̃ > o in trondit etc, lathough this is a slav layer 1 entity. 
 				mˌɔɾvˈit͡sa > morovicë 
 				mˌɔɾɔvˈina > morovinë 
 		
@@ -680,6 +690,9 @@ B2.XIII -- post-first-wave-Slavic d > ð phenomenon moved to just after first Sl
 B2.XIV -- A1.XX, early fall of unstressed (non-initial-syllable) vowels before low vowels moved further back within LPA I, for bleeding ietation, feeding rn > rr . 
 
 B2.XV -- s > ʃ moved back to LPA I > what is after 11/26, LPA II, before insertion of Greek etyma. Placed before LPA diphthongization (simmaxōro > simahuar). 
+
+B2.XVI -- DV4.1B3 & Bonnet 1998:193 -- "*Tosk* insertion of b between m and unstressed vowels" -- moved much earlier, making it possibly pan-Albanian, because it feeds progressive unstressed round vowel assimilation (A2.XXI). In Gheg, it can be assumed the mb > m, per regularly ND > N in Gheg, hence hte apperance of "Toskness" of this development. 
+
 
 ## B3 -- possible relocdations to pre-Latin to post-Latin periods out of deletions to test (TODO!) 
 
@@ -838,7 +851,7 @@ C3B.V -- raising before s/ʃ turned out to only be accurate when there was also 
 
 C3B.VI -- 4.1B3 m > mb before unstressed vowel now limited to occur non-initially and with an /l/ on the other side of the unstressed vowel (grumbulloj, shëmbëlltyrë, (m)bletë) 
 
-C3B.VII -- DV1743.B4 now only operates after non-initial vowels then oral resonants (previously: any context with an oral resonant immediately beforehand.). As of Feb 2, 2025, suppressed. 
+C3B.VII -- DV1743.B4 now only operates after non-initial vowels then oral resonants (previously: any context with an oral resonant immediately beforehand.). As of Feb 2, 2025,  this rule is suppressed, tho.
 
 C3B.VIII -- first wave of vowel drops reshaped, no longer targeting strictly posttonic elements, and now targeting the following: 
 	$ atonic (non-low) vowels in [+son] t __ k 
@@ -903,6 +916,9 @@ $DIACLEA ANALYSIS: for Latin loans at present, c [+cons] clusters are barely pre
 	$ in fact, as of Aug 15 (2023?), tʃ for ʃ was the most common confusion, with 88% of errant words having it, and the error was particularly common after the word bound (43.6%), before /t/ (36.8%) and before /k/ (30%) 
 
 C3B.XX -- ˈɛ > ˈa in DV2.2.1C5 now only after long coronals, short l hits too many wrong items, no evidence of this before lˠ either. This allows us to unify the context as [+cor,+long] rather than {rː;[+lat]}
+
+C3B.XXI (actually a much earlier change, very early in the process, but given a designator later) DV4.1B3 & Bonnet 1998:193 -- "Tosk" insertion of b between m and unstressed vowels -- only happens before laterals, and not word initially.grūmul-ā- > grumbulloj, meletta > (m)bletë (?), similatūra > shëmbëlltyrë. Not word initially: maledīc-œ > mallkoj, maliti-ā- > malcoj, molārem > mullar, molīnum > mullî, mulc-ē > mëlkoj  maluang-œ- > mallëngjej.  Accuracy gained with this fix: +0.8%
+
 
 ## C4 -- changes in both input and output
 

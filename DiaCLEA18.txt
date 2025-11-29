@@ -676,7 +676,7 @@ $ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > m
 [+round,+lo] > [-lo,-tense]
 
 $DIACLEA FIX A2.XXXVIII Middle Proto-Albanian I --bleeding regressive coloring , w > v between non-mid back vowels an ˈE. Does not happen for b (harroj, lëroj., tabelë, tryezë < trabeza, trā). If it sees through (n), as proposed on June 20, then it also feeds n-loss and bleeds nw > m phenomenon 
-w > v / {[+lo];[+hi,+back,+syl]} ([+nas]) __ [+front,-hi,+prim]
+w > v / {[+lo];[+hi,+back,+syl]} ([+nas]) __ [+front,-hi,+stres]
 
 $ DIACLEA CORRECTION A2.XXXI.b stress retraction V B-strid ˈV-hi R V; bled by w > v taverrë phenom. 
 [+syl] [+lab,-strid,+voi,-nas] [+prim,-hi] > [+prim] [+lab] [-stres] / __ [+son] [+syl]
@@ -734,7 +734,10 @@ $ This differs from the outcome for /ʊ/ from Latin or PPAlb *u, which both rais
 $ this thus implements DV2.2.1B11
 [+syl,+hi,-tense] > [-hi,+tense]
 
-$DIACLEA CORRECTION A1.IV : nw (or nβ) > m before non-primary stressed e (incl. < ɪ) and ɛ. This overpredicts in the case of invernīnum > *mërri (vërri) but that word might reflect hibernīnum instead. Motivation for this may be found in differentiating this from [ø], which in some accounts (e.g. Orel 2000) may have been [we] (note that the same sound becomes [uo] before sonorants). 
+$DIACLEA CORRECTION A2.LXXXI -- deletion of intercountertonic n in a somewhat idiosyncratic context with weird classes at play -- see file "intercountertonic denasalization.doc" # ({k,w}) [-prim,-lo] __ {k,p,t,w} [-prim] (n) {d,t,lˠ} [+prim] . Effects: convent-ā > kuvendoj, invit-ā- > ftoj, ventil-ā- > ftilloj, content-ā- > kutëndoj , comput-ā- > kupëtoj. Took way too long on this one. 
+$[+nas] > ∅ / # ([+back,-syl]) [-prim,-lo] __ [-syl,tcons,!tcont] [-prim] ([-syl]) [+cor,llat,lson] [+prim]
+
+$DIACLEA CORRECTION A1.IV : nw (or nβ) > m before non-primary stressed front vowel. Bled for invit-ā- by A2.LXXXI, removing need to make this for we (incl. from <wɪ) as opposed to wi. This overpredicts in the case of invernīnum > *mërri (vërri) but that word might reflect hibernīnum instead. Motivation for this may be found in differentiating this from [ø], which in some accounts (e.g. Orel 2000) may have been [we] (note that the same sound becomes [uo] before sonorants). 
 $ TODO maybe broaden this and have ɸ involved for cases like iūnctus ? 
 n [+lab,-syl,+voi] > m / __ [+front,-hi,-prim]
 
@@ -1214,7 +1217,6 @@ $DIACLEA CORRECTION C3A.9 -- expanded to more typical leniting contexts ː post-
 $ evidence for two separate d > ð phenomena and that htis is 
 $ bled by hard yer deletion: pɒdʊkɒwʊ > potkua. 
 d > ð / [+syl] ([+son,-nas,+cons]) __ [βlat,βcons]
-
 
 $DIACLEA CORRECTION A2.XXII -- TV̯L > ləTV̯ if prior syllable has simple onset, it seems: (duplic-ā- > dulpëkoj, pavīcula > pylkë, radīcula > rilkë, conucula > konurkë, but mātrīcula > ndrikull). Two rules necessary per current DiaSim restriction against features in disjunctions. [-voi] in second row is a dummy/place filler. note that if other /l ə/ sequences arise, the functionality of this could be compromised. 
 [-stres] [+lat] > l ə / [+syl] ([-syl,+voi]) [+hi,+syl] [-voi,-cont] __

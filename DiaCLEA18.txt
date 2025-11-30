@@ -584,7 +584,7 @@ r > lˠ / r [+syl] __ [+back]
 
 $DV1740E3 -- Lat ll > PAlb l. As [l] is a resonant, this will be totally bled by DV1740F2 if not placed before it.
 $merge with DV1740E1: PPAlb ln > PAlb l; placement for the same counterbleeding reasons.  
-$DIACLEA CORRECTION B2.VI: but this does seem to feed lambdacism -- placed before lambdacism as otherwise lambdacism for -llj- segments will be lost due to hte current formulation of rule 14 (l [+cons,+son] > lː); could specify that rule for [-lat] for the second input segment, but it is simpler to just place this rule earlier. As of 11/23/25 usurped, however -- see blow.
+$DIACLEA CORRECTION B2.VI: but this does seem to feed lambdacism -- placed before lambdacism as otherwise lambdacism for -llj- segments will be lost due to hte current formulation of rule 14 (l [+cons,+son] > lː); could specify that rule for [-lat] for the second input segment, but it is simpler to just place this rule earlier. As of 11/23/25 usurped, however -- see below.
 $ DIACLEA CORRECTION B1.VIII.n -- ll > lː aspect and some ln > lː (vulnerata >vurratë) happens in Middle Proto-Albanian II
 ${l;n} > {∅;∅} / l __ 
 l [+cor,+voi] > lː
@@ -791,10 +791,10 @@ $ DIACLEA CORRECTION B1.IV -- DV1744.C1 and C4 moved to beginning of Middle Prot
 w > β / {#;[+son,+cor]} __
 
 $ DV1744.E4 -- Latin d becomes edh after r (as with PPAlb d -- DV1744.E2) , will later be recurrent as phonotactic rule in Slavic 
-$DIACLEA CORRECTION C3A.9 -- on the basis of later outcomes with Slavic etyma inserted, expanded to more typical leniting contexts ː post-oral-sonorant, before lateral or non-consonant (j ː ogradja > ograjë). First, pre-Slavic, phenomenon does not have this happen after vocoids (clearly not w ː lawdem > lavd); no reason to assume Slavic layer is different.
+$DIACLEA CORRECTION C3A.9 -- on the basis of later outcomes with Slavic etyma inserted, expanded to more typical leniting contexts ː post-oral-sonorant, before lateral or non-consonant (j ː ogradja > ograjë). First, pre-Slavic, phenomenon does not have this happen after vocoids (clearly not w ː lawdem > lavd); no reason to assume Slavic layer is different -- however on 11/29 this is usurped as lavd is assumed to be a later loan. 
 $ DIACLEA CORRECTION A1.XI.d -- this is placed in  MIDDLE PROTO-ALBANIAN LENITION of d  to delta, post oral sonorant and pre vocoid, settinɡ staɡe for their later loss. As of 6/27/25, decoupled from b to beta -- appears to be blocked by betacism of w. 
 $ evidence for two separate d > ð phenomena aside from it happening clearly to first wave Slavic etymaː (1) different vowel outcomes, this will ultimatley contribute to lengthening and diphthong or tripthong formation not seen for Slavic etyma; 2 (weaker) feeds preservation in ādōr-a- > adhëroj etc bc a lengthens (and thus is preserved) before coronal continuants not stops here, and aphaeresis preceeds differently for first Slavic layer than that which is inherited into Middle Proto-Albanian (3) it counterfeeds (A2.LIX:) vowel nasalization in #m- that precedes Slavic input (metaxa >mëndafsh but Mɒgɯla >Mëgullë etc). 
-d > ð / [+syl] ([+son,-nas,+cons]) __ [βlat,βcons]
+d > ð / [-cons] ([+son,-nas,+cons]) __ [βlat,βcons]
 
 $ DIACLEA CORRECTION A2.XXXXII --  d > r / [-prim] __ r  (retained after stress: scodra, chersydra, quadrum)
 d r > rː / [-prim] __
@@ -1040,8 +1040,8 @@ $ usurped by DIACLEA FIX C3B.XV.l & .r
 $DIACLEA CORRECTION A2.XXXXVI -- word initial long vowels shortened. Effects e.g. a: e: < aw aj etc.
 [-prim] > [-long] / # __
 
-$DIACLEA CORRECTION A2.LXXXIV  -- in late LPA I or LPA II , pretonic atonic round vowels are preserved in some way -- becoming countertonic or lengthening -- after velar obstruents, if not before a lateral
-[+round,-prim] > [+long] / [+back,-son] __ [-lat] (@)* [+prim]
+$DIACLEA CORRECTION A2.LXXXIV  -- in late LPA I or LPA II , pretonic atonic round vowels are preserved in some way -- becoming countertonic or lengthening -- after dorsals obstruents, if not before a lateral
+[+round,-prim] > [+long] / [+hi,-son] __ [-lat] (@)* [+prim]
 
 $DIACLEA FIX D3.X.b2 -- initial ˈɔ, and initial ˌɔ, also lengthened more broadly, before non-labials.  Counterbled by initial vowel loss; counterbleeds it in the case of pre-labial examples.
 [-tense,+round,+back] > [+long] / # __ [-lab]
@@ -1159,11 +1159,28 @@ $DIACLEA CORRECTION D3.X.d-- in partial agreement with DV2.2.1K and 1737's 5b on
 $resolving DIACLEA CORRECTION D3.X.c
 ə > [-syl,+tense,afront,bback,uround,ulab] / [+hi,+syl,afront,bback,uround] __
 
-$ DV 1737's 6. ø > e; implements final parts of DV2.2.1B6-8.
-[+front,-cons,-hi] > [-round,-lab]
-
 $ resolving D3.X.d as per D4.III for now, exc in # C __ 
 $ˈi e̯ > j ˈɛ 
+
+$DIACLEA CORRECTION A2.LXXXV -- VðV̯C-son resolution
+$DIACLEA CORRECTION A2.LXXXV.ieð 	ie̯ðV̩ > jɛ̄  -- TODO CONSIDER BROADENING this
+ˈi e̯ > j ˈɛː / __ ð
+
+$DIACLEA CORRECTION A2.LXXXV.CðəC -- unstressed vowels after ð delete pre-obstruent/lateral regardless what's before, effectively feeding ohter parts of A2.LXXXV
+[-stres] > ∅ / ð __ {[-son];[+lat]}
+
+$DIACLEA CORRECTOIN A2.LXXXV..ðK	earlier assimilation with voicing for ðK in.. [-round,+stres] ([-syl])  __ ([-syl]) [+prim], before ð falls.Broadening seems unlikely: kavka > kafkë, lozuka -lɒzka > llaskë. etc; even with d (ǃ) -- podk'uo̯ > potkua. 
+[+back] > [+voi] / [-round,+stres] ([-syl]) ð __ ([-syl]) [+prim]
+
+$DIACLEA CORRECTION .yð -- long vowels lengthen for primary and secondayr stressd cases stressed . However this is seems unnecessary at present bc is it handled all relative cases are counterexplained by A2.LXXXIV -- vurkollak, gjykatë, gjykoj , possibly mushtëkoj, etc. 
+$DIACLEA CORRECTION A2.LXXXV.eð -- ˈV¹ðV̯² > ˈV¹ː before an obstruent or lateral-- which now is just V1ð obstr  bc that is when A2.LXXXV.CðəC acts to feed this. Implementing other postvocalic lengthenings and deletions here too. Resolves in A2.LXXXV.ðC . Broaden? 
+[+prim] > [+long] / __ ð [+cons]
+
+$DIACLEA CORRECTION A2.LXXXV.ðC -- ð deletes before consonants, after lengthening phenomena resolve.
+ð >∅ / __ [+cons]
+
+$ DV 1737's 6. ø/œ > e/ɛ; implements final parts of DV2.2.1B6-8.
+[+front,-cons,-hi] > [-round,-lab]
 
 $ DV 1737's 7. Unstressed word-internal vowels to schwa, unstressed initial to zero-- include in _- VOWEL DROP WAVE -_
 

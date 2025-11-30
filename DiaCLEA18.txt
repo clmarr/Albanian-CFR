@@ -1116,6 +1116,19 @@ $TODO analyze shortenings...
 $DIACLEA CORRECTION D3.X.a.11/29/25 rather than diphthongization of ɔː > u, initial countertonic ɔː > uː, before it happens in what is now LPA II. 
 ˌɔː > ˌuː / # __
 
+$DIACLEA CORRECTION A2.LXXXV..ɛðit > ɛjt , ˈɛðit ː shpejtoj, mejtoj, shpejt. Arguably happens after ˈi too, before other coronals and finally, tho this is debatable {see fixes_log on this for examples}  -- still, allows for simpler rule.  Counterbled by .CðəC
+ð [+front,-lo,-stres] > j / [+stres,+front,-lo] __ {[+cor];#} 
+
+$DIACLEA CORRECTION A2.LXXXV.CðəC -- unstressed vowels after ð delete pre-obstruent/lateral regardless what's before, effectively feeding ohter parts of A2.LXXXV
+[-stres] > ∅ / ð __ {[-son];[+lat]}
+
+$DIACLEA CORRECTION A2.LXXXV..ðK	earlier assimilation with voicing for ðK in.. [-round,+stres] ([-syl])  __ ([-syl]) [+prim], before ð falls.Broadening seems unlikely: kavka > kafkë, lozuka -lɒzka > llaskë. etc; even with d (ǃ) -- podk'uo̯ > potkua. 
+[+back] > [+voi] / [-round,+stres] ([-syl]) ð __ ([-syl]) [+prim]
+
+$DIACLEA CORRECTION .yð -- long vowels lengthen for primary and secondayr stressd cases stressed . However this is seems unnecessary at present bc is it handled all relative cases are counterexplained by A2.LXXXIV -- vurkollak, gjykatë, gjykoj , possibly mushtëkoj, etc. 
+$DIACLEA CORRECTION A2.LXXXV.eð -- ˈV¹ðV̯² > ˈV¹ː before an obstruent or lateral-- which now is just V1ð obstr  bc that is when A2.LXXXV.CðəC acts to feed this. Implementing other postvocalic lengthenings and deletions here too. Resolves in A2.LXXXV.ðC . Has to feed dipthongization rule D3.X.c, placed before it. Broaden? 
+[+prim] > [+long] / __ ð [+cons]
+
 $ DIACLEA FIX D3.X.c length becomes diphthongization for primary stressed lax long vowels. For this, diphthongization univerally arises from long lax mid vowels that reached a certain point. Unified rule with V[+hi,aplace] ə, schwa excrescence becomes the second diphthong element. This merges in with etymological schwa. 
 $ DIACLEA FIX D3.X.d -- -- in partial agreement with DV2.2.1K and 1737's 5b on diphthongized ietation, ɛː ends up as jɛ except before final ɾ lˠ; to these, I broaden these to include n too. Implemented by intervention before D3.X.c resolves.  
 $TODO probably going to have to move this.
@@ -1165,16 +1178,6 @@ $ˈi e̯ > j ˈɛ
 $DIACLEA CORRECTION A2.LXXXV -- VðV̯C-son resolution
 $DIACLEA CORRECTION A2.LXXXV.ieð 	ie̯ðV̩ > jɛ̄  -- TODO CONSIDER BROADENING this
 ˈi e̯ > j ˈɛː / __ ð
-
-$DIACLEA CORRECTION A2.LXXXV.CðəC -- unstressed vowels after ð delete pre-obstruent/lateral regardless what's before, effectively feeding ohter parts of A2.LXXXV
-[-stres] > ∅ / ð __ {[-son];[+lat]}
-
-$DIACLEA CORRECTOIN A2.LXXXV..ðK	earlier assimilation with voicing for ðK in.. [-round,+stres] ([-syl])  __ ([-syl]) [+prim], before ð falls.Broadening seems unlikely: kavka > kafkë, lozuka -lɒzka > llaskë. etc; even with d (ǃ) -- podk'uo̯ > potkua. 
-[+back] > [+voi] / [-round,+stres] ([-syl]) ð __ ([-syl]) [+prim]
-
-$DIACLEA CORRECTION .yð -- long vowels lengthen for primary and secondayr stressd cases stressed . However this is seems unnecessary at present bc is it handled all relative cases are counterexplained by A2.LXXXIV -- vurkollak, gjykatë, gjykoj , possibly mushtëkoj, etc. 
-$DIACLEA CORRECTION A2.LXXXV.eð -- ˈV¹ðV̯² > ˈV¹ː before an obstruent or lateral-- which now is just V1ð obstr  bc that is when A2.LXXXV.CðəC acts to feed this. Implementing other postvocalic lengthenings and deletions here too. Resolves in A2.LXXXV.ðC . Broaden? 
-[+prim] > [+long] / __ ð [+cons]
 
 $DIACLEA CORRECTION A2.LXXXV.ðC -- ð deletes before consonants, after lengthening phenomena resolve.
 ð >∅ / __ [+cons]

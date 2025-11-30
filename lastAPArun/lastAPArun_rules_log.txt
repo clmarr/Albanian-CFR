@@ -357,6 +357,12 @@ x > h
 k > ɡ / # __ [-prim,+back,+hi] [+cor] [-prim,-back,-front]
 k > ɡ / # __ ( [-prim,-back,-front] ) [+lat] [-cont]
 k > ɡ / # __ ( [-prim,-back,-front] ) [+cor] [-voi,-lab,-hi]
+[+strid,+cor] > [-cont,+delrel,+cons,0tense] / [+lat] __ #
+[+strid,+cor] > [-cont,+delrel,+cons,0tense] / [+lat] __ [-cons]
+[+strid,+cor] > [-cont,+delrel,+cons,0tense] / k ( [+syl,aback,afront] ) [-cont,+son] __ #
+[+strid,+cor] > [-cont,+delrel,+cons,0tense] / k ( [+syl,aback,afront] ) [-cont,+son] __ [-cons]
+[+strid,+cor] > [-cont,+delrel,+cons,0tense] / [+nas,+cons] ( [-cont,-son] ) __ #
+[+strid,+cor] > [-cont,+delrel,+cons,0tense] / [+nas,+cons] ( [-cont,-son] ) __ [-cons]
 [+nas,+cons] > [-long,-splng] 
 ɾ̃ > ɾ 
 [+lo,+nas,+syl,-long] > [-lo,-back,-front,0tense,-lab,-round] 

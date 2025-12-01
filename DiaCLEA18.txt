@@ -676,8 +676,12 @@ w [+syl,αhi,αfront,-long]> ∅ [+round,+lab,+long] / {[-voi,-cont] ([-prim]); 
 $ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër, but via PPAlb *ā) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. DIACLEA CORRECTION C1A.VIII: to handle the current implementation of A2.VIII, broadened to include short ɒ too. 
 [+round,+lo] > [-lo,-tense]
 
-$DIACLEA FIX A2.XXXVIII Middle Proto-Albanian I --bleeding regressive coloring , w > v between non-mid back vowels an ˈE. Does not happen for b (harroj, lëroj., tabelë, tryezë < trabeza, trā). If it sees through (n), as proposed on June 20, then it also feeds n-loss and bleeds nw > m phenomenon 
-w > v / {[+lo];[+hi,+back,+syl]} ([+nas]) __ [+front,-hi,+stres]
+
+$DIACLEA CORRECTION A2.LXXXI -- deletion of intercountertonic n in a somewhat idiosyncratic context with weird classes at play -- see file "intercountertonic denasalization.doc" # ({k,w}) [-prim,-lo] __ {k,p,t,w} [-prim] (n) {d,t,lˠ} [+prim] . Effects: convent-ā > kuvendoj, invit-ā- > ftoj, ventil-ā- > ftilloj, content-ā- > kutëndoj , comput-ā- > kupëtoj. Took way too long on this one. Bleeds A1.IV.
+[+nas] > ∅ / # ([+back,-syl]) [-prim,-lo] __ [-syl,tcons,!tcont] [-prim] ([-syl]) [+cor,llat,lcont] [+prim]
+
+$DIACLEA FIX A2.XXXVIII Middle Proto-Albanian I --bleeding regressive coloring , w > v between non-mid vowels and ˈE. Does not happen for b (harroj, lëroj., tabelë, tryezë < trabeza, trā). If it sees through (n), as proposed on June 20, then it also feeds n-loss and bleeds nw > m phenomenon 
+w > v / {[+lo];[+hi,+syl]} ([+nas]) __ [+front,-hi,+stres]
 
 $ DIACLEA CORRECTION A2.XXXI.b stress retraction V B-strid ˈV-hi R V; bled by w > v taverrë phenom. 
 [+syl] [+lab,-strid,+voi,-nas] [+prim,-hi] > [+prim] [+lab] [-stres] / __ [+son] [+syl]
@@ -735,9 +739,6 @@ $ This differs from the outcome for /ʊ/ from Latin or PPAlb *u, which both rais
 $ this thus implements DV2.2.1B11
 [+syl,+hi,-tense] > [-hi,+tense]
 
-$DIACLEA CORRECTION A2.LXXXI -- deletion of intercountertonic n in a somewhat idiosyncratic context with weird classes at play -- see file "intercountertonic denasalization.doc" # ({k,w}) [-prim,-lo] __ {k,p,t,w} [-prim] (n) {d,t,lˠ} [+prim] . Effects: convent-ā > kuvendoj, invit-ā- > ftoj, ventil-ā- > ftilloj, content-ā- > kutëndoj , comput-ā- > kupëtoj. Took way too long on this one. 
-[+nas] > ∅ / # ([+back,-syl]) [-prim,-lo] __ [-syl,tcons,!tcont] [-prim] ([-syl]) [+cor,llat,lcont] [+prim]
-
 $DIACLEA CORRECTION A1.IV : nw (or nβ) > m before non-primary stressed front vowel. Bled for invit-ā- by A2.LXXXI, removing need to make this for we (incl. from <wɪ) as opposed to wi. This overpredicts in the case of invernīnum > *mërri (vërri) but that word might reflect hibernīnum instead. Motivation for this may be found in differentiating this from [ø], which in some accounts (e.g. Orel 2000) may have been [we] (note that the same sound becomes [uo] before sonorants). 
 $ TODO maybe broaden this and have ɸ involved for cases like iūnctus ? 
 n [+lab,-syl,+voi] > m / __ [+front,-hi,-prim]
@@ -782,6 +783,9 @@ $ DIACLEA CORRECTION C1B.XI -- w- prosthesis before o doesn't happen if there is
 $ DIACLEA CORRECTION B1.IV -- DV1744.C1 and C4 moved to beginning of Middle Proto-Albanian II. 
 $ DIACLEA CORRECTION D3.X -- now interpreted as part of initial lengthening feeding diphthongization. 
 $∅ > w / # __ [-hi,+round] [-lab]
+
+$DIACLEA CORRECTION  bleeding DV1744.C1 w > β, A2.LXXXXII remaining nw clusters to n. Bled by A1.IV nw > m phenom and A2.XXXVIII early w > v in a/i/u {n} __ ˈE. 
+w > ∅ / n __
 
 $ DV1744.C1 : Lat. w- > β. 
 $ this is redundant with the earlier rule doing the exact same thing to PIE u̯ > PPAlb β (DV1746.F1 = DV4.3L1) effectively merged these
@@ -1651,6 +1655,12 @@ $DIACLEA CORRECTION A1.XXIV  r > ɾ, r: > r (as that is how the lexicon is coded
 r > ɾ
 rː > r
 
+$DIACLEA CORRECTION A2.LXXXXI LPA III nasal cluster simplifications -- largley pan-Albanian in nature
+$TODO HERE
+
+$less pan-Albanian section beginning here... 
+$TODO move actual breaking point for LPA III here -- Slavic {and Greek?} insertions earlier? 
+
 $DIACLEA CORRECTION A2.LXXVI._V -- unstressed vowels are deleted after relevant sonorants to feed Late Proto-Albanian syllabification. Does not happen to a medially at all, or a finally (that is a that hasn't yet been reduced already) after nasals (cermë, skromë, qazhnë) or after laterals (rraqe < rakla, sabje < sabʎe -- needs to remain a to trigger relevant phenomena). Doesn't happen to nasal vowels. 
 $ part 1 : reducing final -a to schwa to feed in relevant contexts
 [+lo,-stres] > ə / [+cons] [+son,+cons,-nas,-lat] __ #
@@ -1674,6 +1684,8 @@ u [+lat] > l̩ / [+nas] [+back,-cont] __ ([+syl]) #
 $TODO : consider instead the following though: 
 $lˠ > lˠ̩ / {[-son];j;m} __ {#;[-son]}
 $lˠ̩ > l̩ / [+nas] [+back,-cont] __ ([+syl]) #
+
+
 
 
 $DV4.1V3 -- lk > jk -- some variation (bujk/ bulk for "peasant", OAlb attests ulk) but seems (??) pan-Albanian in nature? 

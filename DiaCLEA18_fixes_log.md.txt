@@ -382,10 +382,11 @@ A2.LIII : Late Proto-Albanian initial r > rr phenomena
 
 		non-round instinaces not rounded -- Radhimë, rashë, regj (< regius, later loan), ræzika > rezhgë, rɛ̃dʊ >rend
 
-A2.LIV LPA I early nasalization in V-prim n V-stres (> ãɾ̃V; in most cases later to ə̃ɾ̃V). Happens also after high vowels (?). Explains anëmik < inimicus, ministrare > marshtroj; also why we end up with -ër/n for demone > djemër etc where elsewhere unstresseds ɔ and u survive as u. 
+A2.LIV LPA I early nasalization in V-prim n V-stres (> ãɾ̃V; in most cases later to ə̃ɾ̃V). Happens also after high vowels (?). Explains anëmik < inimicus, ministrare > marshtroj; also why we end up with -ër/n for demone > djemër etc where elsewhere unstresseds ɔ and u survive as u. As of Dec 1, produces nasal vowels on both sides of the flap. 
 	bleeds aphaeresisː inimicu > ˌenemˈikʊ > arëmik , anëmik. -- rule 203. 
 	bleeds NVT >NT LPA phenomena ː ministr-a- > marshtroj, depërtoj, murgeshë (<*mërgeshë?), 
-		
+			
+
 	doesn't bleed palatalization ː TODO either use æ or move palatalization back. 
 		rriqër, virgjër, margjër, mështekër, mëngjër
 
@@ -473,7 +474,14 @@ A2.LXIX -- Late Proto-Albanian I ɪ > i / rː __ c before ɪ to schwa
 
 A2.LXX -- early modern Tosk nd > n post consonantally into modern North Tosk (vullëndet > vullndet > vullnet; calendarius > kallënduor > kallnuor -- but open to possibility this isn't just for l. In Ghegː sanitōsus > shëndosh > shnosh; sanitatem > shëndet > shnet) 
 
-A2.LXXI -- LPA I unstressed vowel deletions before ɲ .Fed by Middle Proto-Albanian stress retractoins in VwVɲ verbs, does not bleed new vocalic length formation in such cases (placed near ietation); does not happen to initial syllable countertonics, coming after aphaeresis to produce newly first syllable countertonics (Vlonjat). Feeds Cɲ > Cɟ phenomenon in LPA I, and LPA I cluster voicing assimilation (fuskinia > fuzhnjë etc). Comes after some mini-i-mutation (karmiɲ-a- > kerrnjoj; intiɲ-o-> ngjyej?, sanguiniata > sãɲɟɲäta > shëngetë). Seeː "sDeletion pre - ɲ"
+A2.LXXI -- LPA I unstressed vowel deletions before nasals. 
+	For ɲ, fed by Middle Proto-Albanian stress retractoins in VwVɲ verbs, does not bleed new vocalic length formation in such cases (placed near ietation); does not happen to initial syllable countertonics, coming after aphaeresis to produce newly first syllable countertonics (Vlonjat). Feeds Cɲ > Cɟ phenomenon in LPA I, and LPA I cluster voicing assimilation (fuskinia > fuzhnjë etc). Comes after some mini-i-mutation (karmiɲ-a- > kerrnjoj; intiɲ-o-> ngjyej?, sanguiniata > sãɲɟɲäta > shëngetë). Seeː "Deletion pre - ɲ"
+	On December 1, extended from ɲ to cover all nasals, with new conditions ː
+		[-stres,-cons,-nas,-lo] > ∅ / [+syl] (@)* __ [+nas,+cont,+cons] [-cons]
+		
+		doesn't hit unstressed nasals including results of the VnV > ãɾ̃ə̃ rule {on either side}. 
+		Massive increase in accuracy from this. 
+		Feeds various phenomena such as LPA bn > m etc. 
 
 A2.LXXII -- .ɪ LPA III ɪ > ɛ / __ C ɪ. However, this may actually just be that the relevant words are later loans from Bulgarian; caution is warranted here. Also happens in LPA I  to stressed at least ɪ; same applies wrt possible Bulgarian counterexplanation, tho these are more secure due to archaism and idiosyncrasy not seen in Bg (e.g. harabel < wɒrbɪlɪ) 
 			.r -- the same before r, for LPA II 
@@ -804,7 +812,9 @@ A2.LXXXIX -- lengthening to bleed reduction to schwa via DV2.2.2b in LPA II for 
 	
 	{krishterë is probs just analogy off of krisht- tho, despite being tempting}
 
-		
+A2.LXXXX -- LPA I {or II?} pre nasal deletion
+	-- feeds DV3.1H2 {in LPA II}  -- gɒrɪnica > gorricë , farinata -- fërratë etc. 
+	
 
 # B Rule relocdation
 
@@ -917,7 +927,7 @@ C1A.II -- DV3.1B2 degemination/shortening of nː (nn) to n is broadened to other
 
 C1A.III -- deletion of final -s after unstressed vowel in Early Proto-Albanian broadened to include other obstruent coronals, thus hitting the 3SG final -t. 
 
-C1A.IV -- rn > rː becomes unconditioned. 
+C1A.IV -- rn > rː becomes unconditioned; also rː n > rː. 
 
 C1A.V -- final -n also deleted with final -m for DV1738, top, part 1. 
 
@@ -932,6 +942,7 @@ C1A.IX : k>p> f phenomena now broadened to all non-coronal voiceless segments be
 C1A.X ː second wave of n j > ɲ phenomena (A1.XVII.2) expanded to include ðj and lj > ʎ. 
 
 C1A.XI ː CPA lj > ʎ phenom (DV1740G2) broadened from just lj  >ʎ to [+lat] (l) > j
+
 
 ### C1B -- input made narrower
 

@@ -670,7 +670,7 @@ $ teh cases of pagaw-a- > paguaj (supposedly from later Italo-Romance) and gɒt�
 $ TODO possibly broaden this to other cases of stress retraction...
 [+syl] [+lab,+voi,-syl,-nas] [+prim,+lo] > [+prim] [+lab] [-stres] / @ __
 
-$DIACLEA CORRECTION A2.XXXIII -- coalescence of w with following ɪ i or short a in two contexts: T-voi (V-prim) __ and # (V)* liquid __. Long round vowels seem to be the result (in asmuch as y doesn't fall, at least). Feeds ɒ > ɔ tho
+$DIACLEA CORRECTION A2.XXXIII -- coalescence of w with following ɪ i or short a in two contexts: T-voi (V-prim) __ and # (V)* liquid __. Long round vowels seem to be the result (inasmuch as y doesn't fall, at least). Feeds ɒ > ɔ tho. If not for the matter of length, merger of the w A aspect with A1.XXV.a much later may be worth considering. 
 w [+syl,αhi,αfront,-long]> ∅ [+round,+lab,+long] / {[-voi,-cont] ([-prim]); # ([-cons])* [+son,+cons,-nas]} __ 
 
 $ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër, but via PPAlb *ā) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. DIACLEA CORRECTION C1A.VIII: to handle the current implementation of A2.VIII, broadened to include short ɒ too. 
@@ -1539,6 +1539,10 @@ $ Resolving DIACLEA CORRECTION D4.III -- remaining ie̯ except in _R# to jɛ
 $other bandaid -- handling of β. D3.F w goes to v when not in a diphthong; also of SLav ʝ (> ɟ)
 {β;ʝ} > {v;ɟ}
 w > v / [+cons] __
+
+$DIACLEA CORRECTION A1.XXV after second slavic wave, loss of w/v/β in occlusive __ V; coalescence with low vowels to ɔ after velar stops 
+[+lo] > [-lo,-tense,+lab,+round,-front,+back] / [-cont,+back] v __ 
+v > ∅  / [-cont] __ [+syl]
 
 $DIACLEA CORRECTION A2.LXXXVIII -- initial s elision-- after second Slavic wave {sʊverstnikʊ > vərsnik} initial s-elision: s deleted if next consonant is a labial spirant, with the next obstruent being another coronal strident
 {s;ʃ} > {∅;∅} / __ ([-prim]) [+lab,+cont,-son] ( [+son] )* [+cor,+strid]

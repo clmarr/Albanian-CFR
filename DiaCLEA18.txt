@@ -1124,7 +1124,7 @@ $DIACLEA CORRECTION A2.LXXXV..ɛðit > ɛjt , ˈɛðit ː shpejtoj, mejtoj, shpe
 $DIACLEA CORRECTION A2.LXXXV.CðəC -- unstressed vowels after ð delete pre-obstruent/lateral regardless what's before, effectively feeding ohter parts of A2.LXXXV
 [-stres] > ∅ / ð __ {[-son];[+lat]}
 
-$DIACLEA CORRECTION A2.LXXXV..ðK	earlier assimilation with voicing for ðK in.. [-round,+stres] ([-syl])  __ ([-syl]) [+prim], before ð falls.Broadening seems unlikely: kavka > kafkë, lozuka -lɒzka > llaskë. etc; even with d (ǃ) -- podk'uo̯ > potkua. 
+$DIACLEA CORRECTION A2.LXXXV..ðK	earlier assimilation with voicing for ðK in.. [-round,+stres] ([-syl])  __ ([-syl]) [+prim], before ð falls. Broadening seems unlikely: kavka > kafkë, lozuka -lɒzka > llaskë. etc; even with d (ǃ) -- podk'uo̯ > potkua. This rule's separate existence also can be justified in terms of bleeding the same progressive devoicing seen in these, such as potkua, which differs from what happens with the second wave of Slavic loans, which see progressive voicing from coronals {e.g. Rezhgë}. 
 [+back] > [+voi] / [-round,+stres] ([-syl]) ð __ ([-syl]) [+prim]
 
 $DIACLEA CORRECTION .yð -- long vowels lengthen for primary and secondayr stressd cases stressed . However this is seems unnecessary at present bc is it handled all relative cases are counterexplained by A2.LXXXIV -- vurkollak, gjykatë, gjykoj , possibly mushtëkoj, etc. 
@@ -1182,7 +1182,7 @@ $DIACLEA CORRECTION A2.LXXXV.ieð 	ie̯ðV̩ > jɛ̄  -- TODO CONSIDER BROADENIN
 ˈi e̯ > j ˈɛː / __ ð
 
 $DIACLEA CORRECTION A2.LXXXV.ðC -- ð deletes before consonants, after lengthening phenomena resolve.
-ð >∅ / __ [+cons]
+ð > ∅ / __ [+cons]
 
 $ DV 1737's 6. ø/œ > e/ɛ; implements final parts of DV2.2.1B6-8.
 [+front,-cons,-hi] > [-round,-lab]
@@ -1610,6 +1610,11 @@ $DIACLEA CORRECTION A1.XXII.2 unstressed yers fall in second wave in time to fee
 
 $DIACLEA CORRECTION A2.LXIV.u -- remaining stressed ʊ to u.  Rope in ɪ not covered by other rules to i here
 [+hi,+syl] > [+tense]
+
+$DIACLEA CORRECTION A1.XXVI -- LPA III cluster voicing assimilations
+[-son] > [+voi] / [+cor,-son,+voi] __
+[-son,+lab] > [-voi] / __ [-lab,-voi]
+
 
 $DIACLEA CORRECTION A1.XXIII.ʌ l darkening in V (not glide!) __ Vback
 			$bled by hard yer elision A1.XXII.2 (bërcel, sovajkë, kopil, kaçul, etc.); Slavic final -ɑ still back. (mˈælɑ > mellë; pˌɒsˈɯlɑ > posullë, sˈilɑ > sillë, etc.) ; fed by loss of d/ð/r (bullog, toçillë, cepallë, vurkollak) 

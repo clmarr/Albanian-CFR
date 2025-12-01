@@ -306,6 +306,10 @@ n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ #
 [wround,cprim,+stres] [-syl,-cons,-hi] > [wback,wlab,!wfront,-syl,0stres,0prim] [cprim,-tense,-cons,-lat,+cont,0delrel]/ # __
 [wround,cprim,+stres] [-syl,-cons,-hi] > [wback,wlab,!wfront,-syl,0stres,0prim] [cprim,-tense,-cons,-lat,+cont,0delrel]/ [-cons] __
 [-round,+hi,cprim,+stres] [-syl,-cons,-hi] > j [cprim,-tense,-cons,-lat,+cont,0delrel]/ [+syl] ( @ )* __
+[+round,+back,+nas,+syl] ∅ > [+hi,-lo,+tense,-cons,-lat,+cont,0delrel] m/ [+cor,-son] __ [-cont,+lab]
+[+nas,+syl] ∅ > [-nas] n/ __ [-cont,-nas]
+n > m / __ [+lab,-cont]
+n > ŋ / __ [+back,-cont]
 [-voi,+cor,-cont] j > c
 [-round,+hi,cprim,+stres] [-syl,-cons,-hi] > j [cprim,-tense,-cons,-lat,+cont,0delrel]/ __ [+son] @
 [-round,+hi,cprim,+stres] [-syl,-cons,-hi] > j [cprim,-tense,-cons,-lat,+cont,0delrel]/ __ [-son]

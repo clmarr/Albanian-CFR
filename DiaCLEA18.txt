@@ -964,7 +964,7 @@ $DIACLEA CORRECTION A1.V -- ɑ > a; at end of MPA II for pre-Slavic vocab, in th
 =Late Proto-Albanian I
 $ Earliest Slavic loans here; "first Slavic wave"
 
-$DIACLEA FIX A2.LI : first wave Slavic nasal vowels are unpacked to Vn, with ɑ for ɒ̃ and e for ɛ. Except if before a nasal. Weak of evidence of word final case. Bleeds d > ð
+$DIACLEA FIX A2.LI : first wave Slavic nasal vowels are unpacked to Vn, with ɑ for ɒ̃ and e for ɛ. Except if before a nasal. Weak of evidence of word final case. Bleeds d > ð. Recurs in LPA III with more specific outcomes. 
 [+syl,+nas] ∅ > [-round,-lab,-nas,+tense] n / __ [-nas]
 
 $DIACLEA CORRECTION A1.XVI ː ɯ handling 
@@ -1537,6 +1537,14 @@ $ Previously: [+round,cprim,dstres] [-syl,-cons] > w [cprim,dstres,-tense] / # _
 $ SECOND SLAV WAVE HERE !! 
 $ placement per DIACLEA CORRECTION B5.I
 
+$DIACLEA CORRECTION A2.LI.III second wave Slavic nasal unpacking, with different special conditioned outcomes. 
+	$A2.LI.IIIdub -- ɒ̃/ɔ̃ > um / cor obs. __ lab
+[+round,+back,+nas,+syl] ∅ > [+hi,-lo,+tense] m / [+cor,-son] __ [-cont,+lab]
+	$A2.IIIon > oN elsewhere before stops -- can just treat as denasalization; likewise for e; followed by place assimilation. 
+[+nas,+syl] ∅ > [-nas] n / __ [-cont,-nas]
+n > m / __ [+lab,-cont] 
+n > ŋ / __ [+back,-cont]
+
 $ DIACLEA CORRECTION A2.LXVI tj > c in Tosk after second Slavic input and after ie > je in non-initial syllables, but before ie > je in initial syllables (tegula > tjegull vs. rastellum > rashqel). Rope in also ts j etc. 
 [-voi,+cor,-cont] j > c
 
@@ -1754,6 +1762,7 @@ $ A2.LX.ʎ and .t , .a--- broadest cases, can happen before CC
 
 $ cases that need to happen before NV -- initially; general internal VC- case. 
 [-prim,-back,-cons] > ∅ / [-cons] [+syl] __ [+nas] [-syl]
+
 
 $loss of vocalic nasalization: DV2.1A2, C2, completing E1, F3
 [-cons,+nas] > [-nas]

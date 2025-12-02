@@ -1657,6 +1657,12 @@ $DIACLEA FIX C1B.VI: doesnt happen before coronals as there are exceptions for a
 $DIACLEA CORRECTION A1.XXII.2 unstressed yers fall in second wave in time to feed lk > ʎk phenomenon (bælʊka >bejkë). Also bleed LPA l-darkeningː sovadlʊka > sovajkë not sovallkë; zabælʊ > zabel not zabell, etc.
 [+hi,-tense,-stres,-cons] > ∅
 
+$DIACLEA CORRECTION A2.LXXXXIV extra unstressed voewl deletions that at least feed A2.LXXXXI.Tn -- in turn feeding later sh to ç phenom-  towards the end of the period of common development in LPA III.   Doesn't happen to or after high tense segments though {Tunçan preserved, tingëlloj, timua ; ɲ is not +tense though. The non-tense high vowels have already just been deleted in A1.XXII.2 across the board so they dont need to be handled here} nor after the apparently long {vowel} segment in kutendoj altho this aspect is hacky {TODO revise}.  Doesn't happen before ɾ̃ -- tër endings from tãɾ̃ə̃, shtëroj from extenuare. 
+[-prim,-hi,-long] > ∅ / {[-long];#} t __ [+nas,+cont]
+
+$DIACLEA CORRECTION 2.LXXXXI.Tn-- if not at word onset stops before nasals deleted -- this time including coronals -- in time to feed A2.LXXXXI.nn for shëndre. 
+[-cont] > ∅ / @ __ [+nas,+cons] 
+
 $DIACLEA CORRECTION A2.LXXXXI.nn -- nasal nasal clusters other than ŋɲ {.ɲ bleeds this above} resolve in favor of second element. Fed by A1.XXII.2. -- TODO do this with existing A2.VII? 
 [+nas,+cons] [+nas,+cons] > ∅ [+long]
 
@@ -1709,9 +1715,6 @@ u [+lat] > l̩ / [+nas] [+back,-cont] __ ([+syl]) #
 $TODO : consider instead the following though: 
 $lˠ > lˠ̩ / {[-son];j;m} __ {#;[-son]}
 $lˠ̩ > l̩ / [+nas] [+back,-cont] __ ([+syl]) #
-
-
-
 
 $DV4.1V3 -- lk > jk -- some variation (bujk/ bulk for "peasant", OAlb attests ulk) but seems (??) pan-Albanian in nature? 
 $$ dialectal evidence suggests that this originally first passed to ʎ: Huld 1976 p 197 for ujk shows that uʎk- forms in Arvanitika and Arbereshe (Sal, Vacc, Falc), and Huld reasonably asserts proto-Albanian had either or uʎk- or ulk- when it split. This is perfectly compatible with hte rest of De Vaan 2018 (which has ʎ go to j later), and is not a new conclusion, so the version supported by Huld is implemented here for now.
@@ -1804,7 +1807,7 @@ $TODO FOR LAB,CHAM,ARB-,ARV- : y > i here -- DV2.1A3
 
 $DIACLEA CORRECTION A2.LX: Northern Tosk pre-nasal non-back vowel deletions. 
 $ A2.LX.ʎ and .t , .a--- broadest cases, can happen before CC 
-[-prim,-back,-cons] > ∅ / {# (t);[-cons] [+lat];t} __ [+nas]
+[-prim,-back,-cons] > ∅ / {#;[-cons] [+lat]} __ [+nas]
 
 $ cases that need to happen before NV -- initially; general internal VC- case. 
 [-prim,-back,-cons] > ∅ / [-cons] [+syl] __ [+nas] [-syl]

@@ -341,10 +341,13 @@ j > ∅ / [+front,+cons] __
 [+hi,-round,-tense] > [-hi] / __ r
 [+lab,-syl] > m / [+back] ( [+son,+cor] ) __ [+nas,+cons] [+stres]
 [+lab,-son] [+nas,+cons] > m
-[-cont] > ∅ / __ [+nas,+cons]
+[-cont,-cor] > ∅ / __ [+nas,+cons]
 [+nas,+cons] ɲ > ɲ ɟ
 ʃ > ʒ / __ [+cons,+voi,-cor]
 [+hi,-tense,-stres,-cons] > ∅ 
+[-prim,-hi,-long] > ∅ / [-long] t __ [+nas,+cont]
+[-prim,-hi,-long] > ∅ / # t __ [+nas,+cont]
+[-cont] > ∅ / @ __ [+nas,+cons]
 [+nas,+cons] [+nas,+cons] > ∅ [+long]
 [+hi,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
 [-son] > [+voi] / [+cor,-son,+voi] __
@@ -386,9 +389,8 @@ k > ɡ / # __ ( [-prim,-back,-front] ) [+cor] [-voi,-lab,-hi]
 [+nas,+cons] > [-long,-splng] 
 ɾ̃ > ɾ 
 [+lo,+nas,+syl,-long] > [-lo,-back,-front,0tense,-lab,-round] 
-[-prim,-back,-cons] > ∅ / # ( t ) __ [+nas]
+[-prim,-back,-cons] > ∅ / # __ [+nas]
 [-prim,-back,-cons] > ∅ / [-cons] [+lat] __ [+nas]
-[-prim,-back,-cons] > ∅ / t __ [+nas]
 [-prim,-back,-cons] > ∅ / [-cons] [+syl] __ [+nas] [-syl]
 [-cons,+nas] > [-nas] 
 [+lat] > ʎ / [+syl,uhi,uback] [+nas] [+back,-cont] __

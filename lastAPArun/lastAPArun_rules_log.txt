@@ -352,6 +352,12 @@ j > ∅ / [+front,+cons] __
 [+hi,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
 [-son] > [+voi] / [+cor,-son,+voi] __
 [-son,+lab] > [-voi] / __ [-lab,-voi]
+ə > ∅ / [+cor,-son,-strid] __ rː ( [+syl] ) ( [+cons] ) [-cont]
+ə > ∅ / [-cor,-son] __ rː ( [+syl] ) ( [+cons] ) [-cont,+hi]
+[-prim,-round,-hi] > ə / rː __ [-cont,+hi]
+ə > ∅ / @ rː __ [-cont,+hi]
+rː > r / [+cons] __
+rː > ɾ / __ [+cons]
 l > lˠ / [+syl] __ [+syl,+back]
 {r j;ɾ j} > {rː;rː} 
 r > ɾ 

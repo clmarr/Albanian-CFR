@@ -1801,10 +1801,6 @@ $DIACLEA CORRECTION C1A.VI: expand this to the shortening of all long nasals.
 $nː > n
 [+nas,+cons] > [-long]
 
-$BANDAID fix-- since the notation of the data uses ɾ and r not r and rː, this is implemented here, even though DV2018 has a modern Alb r and rː . This now includes implementation of Tosk rhotacism [DV3.1G1]
-$Other parts now moved after P-Tosk
-ɾ̃ > ɾ 
-
 $ ã raises to ə in Tosk (ultimately denasalizing to ë outside of some Lab subdialects which may (or may not) have preserved nasality, maybe for this item) 
 $ DIACLEA CORRECTION C3B.XII -- in Proto-Tosk, it is only short ã that becomes ə̃; long ãː actually reflects as -a- (shpërlaj, etc.). However it effects labials too per DIACLEA CORRECTION C2.III.
 [+lo,+nas,+syl,-long] > [-lo,-back,-front,0tense,-lab,-round]
@@ -1812,9 +1808,23 @@ $ DIACLEA CORRECTION C3B.XII -- in Proto-Tosk, it is only short ã that becomes
 $TODO FOR LAB,CHAM,ARB-,ARV- : y > i here -- DV2.1A3 
 
 
-
 =Proto-Tosk
 
+$loss of vocalic nasalization: DV2.1A2, C2, completing E1, F3
+[-cons,+nas] > [-nas]
+ˌə > ə
+
+$DIACLEA CORRECTION A2.LXXXXVI -- Proto-Tosk to ONT -- e.g. not seen in Buzuku, Bardhi, Budi etc often, also not in Arbereshe -- but loss of ə in : non-palatal stop __ ˈV. Tentatively: the fact that this DOES NOT happen to ɾ̃ speaks to ɾ̃ denasalizing AFTER {?!} breakup of Tosk!  mashtroj, pashtrak vs. shteroj 
+	$ evidence: ˌɑdiˌuːnˈɑːnioː > PTosk aɟə̃ɾ̃ˈɔ̃ > agjëroj
+ə > ∅ / [-cont,-front] __ ɾ [+stres]
+
+$BANDAID fix-- since the notation of the data uses ɾ and r not r and rː, this is implemented here, even though DV2018 has a modern Alb r and rː . This now includes implementation of Tosk rhotacism [DV3.1G1]
+$Other parts now moved after P-Tosk
+ɾ̃ > ɾ 
+
+	$LXXXXVI.nr limited effect on ɾ̃ and ɾ alike in +son -cont __  and # {lab} __ ɛ,a
+[-stres] > ∅ / [+cont,+son,-lat] ([-cont,-front])+ __ ɾ [+stres]
+[-stres] > ∅ / # ([+lab,+voi])* __ ɾ [-hi,-round,+syl]
 
 $DIACLEA CORRECTION A2.LX: Northern Tosk pre-nasal non-back vowel deletions. 
 $ A2.LX.ʎ and .t , .a--- broadest cases, can happen before CC 
@@ -1823,9 +1833,6 @@ $ A2.LX.ʎ and .t , .a--- broadest cases, can happen before CC
 $ cases that need to happen before NV -- initially; general internal VC- case. 
 [-prim,-back,-cons] > ∅ / [-cons] [+syl] __ [+nas] [-syl]
 
-
-$loss of vocalic nasalization: DV2.1A2, C2, completing E1, F3
-[-cons,+nas] > [-nas]
 
 $DV4.1R2 -- final devoicing of -z
 $ DIACLEA: suppressed. Correct only for medius > mes, which has a doublet medius>mjez ; mes may have evolved that way for syntactic reasons anyways. 

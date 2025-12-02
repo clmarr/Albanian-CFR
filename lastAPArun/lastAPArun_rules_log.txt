@@ -393,12 +393,16 @@ k > ɡ / # __ ( [-prim,-back,-front] ) [+cor] [-voi,-lab,-hi]
 [+strid,+cor] > [-cont,+delrel,+cons,0tense] / [+nas,+cons] ( [-cont,-son] ) __ #
 [+strid,+cor] > [-cont,+delrel,+cons,0tense] / [+nas,+cons] ( [-cont,-son] ) __ [-cons]
 [+nas,+cons] > [-long,-splng] 
-ɾ̃ > ɾ 
 [+lo,+nas,+syl,-long] > [-lo,-back,-front,0tense,-lab,-round] 
+[-cons,+nas] > [-nas] 
+ˌə > ə 
+ə > ∅ / [-cont,-front] __ ɾ [+stres]
+ɾ̃ > ɾ 
+[-stres] > ∅ / [+cont,+son,-lat] [-cont,-front] ( [-cont,-front] )* __ ɾ [+stres]
+[-stres] > ∅ / # ( [+lab,+voi] )* __ ɾ [-hi,-round,+syl]
 [-prim,-back,-cons] > ∅ / # __ [+nas]
 [-prim,-back,-cons] > ∅ / [-cons] [+lat] __ [+nas]
 [-prim,-back,-cons] > ∅ / [-cons] [+syl] __ [+nas] [-syl]
-[-cons,+nas] > [-nas] 
 [+lat] > ʎ / [+syl,uhi,uback] [+nas] [+back,-cont] __
 ʎ > j 
 [+back,-cont] j > [-back,+front] ∅

@@ -1638,7 +1638,7 @@ $DIACLEA CORRECTION A2.LXXXXI LPA III nasal cluster simplifications -- seem pan-
 	$A2.LXXXXI.wn -- asyllabic labials > m in a/o{/lˠ?} {R/L} __ n ˈi. Using [+back] for context. Bleeds .Bn, feeds .nn {goes to n: > n}:  Slav I ɡˌɒlwɪnˈikʊ > ɡ{lˠɑ/ɑlˠ}Bnˈik > gllanik, Slav II ɡlˌɑβɪnˈit͡sɑ > glaβnitsa > gjanicë ; pˌɒmɪnˈitɪ  > pˌɔmnˈit > ponit. Not after front: plˌɛβɪnˈit͡sɑ > plevicë not plenicë. The clear out of domain cases are either not after a back segment {wˌɪrbɪnˈikʊ >wəɾbnˈik > vërmik}  is simply before non-stressed vowel {dɾˈɔbnit͡sɑ > Dromcə, skɾˈɔvnɑ > Skromə}...  tho so just condition on stress -- no data yet for +stres,-prim]. 
 [+lab,-syl] > m / [+back] ([+son,+cor]) __ [+nas,+cons] [+stres]
 	$A2.LXXXXI.bn  -- Bn > m -- first part in n > m here. Tempting to have second part accomplished by {feeding} Tn below : Slav I drˈɒbɪnit͡sɑ > Dromcë, wˌɪrbɪnˈikʊ > Vërmik. However, also skrovna > skromë, and except for maybe transmediare > tramëzoj, tentatively, spirants not deleted in this position {zmojle, gazmend, krezëm, krezmoj} .Tn doesn't cover fricatives {mahnit, etc.}. Not mn though -- this is handled in .nn, goes to nː > n. Tentatively having this happen to all nasals after all laterals for maximal hypothesis given lack of evidence either way. 
-[+lab,-son] [+nas,+cons] > m
+[+lab,-son] [+nas,+cons] > mː
 	$A2.LXXXXI.Kn and Tn -- stops deleted before nasals, regardless of what comes before. Feeds DV4.1U2.	$Post vocalic: see examples for .bn. also Lat to CPA tˈeɡminem > LPA tˈiɡmãɾ̃ɪ̃ > timër. 
 		$Post consonantal: cf examples for .ɲ. Also 
 		$Not sonorants {many words make this obvious}, not spirants {mahnit, Dëshnicë, Leshnjë, prozhmoj ,etc. }
@@ -1796,6 +1796,13 @@ $ TODO consider moving it earlier, or doing away with l: entirely and instead wo
 $ DIACLEA CORRECTION: deleted. Consolidated as the /l:/ stage never happens now. 
 $lː > lˠ
 
+$DIACLEA CORRECTION A2.LXXXXVII -- early denasalization of ã into Proto-Tosk to block raising in certain conditionsː 
+	$.aNV -- for stressed a; after non-coronal obstruents, possible liquid intermediary, followed by N V, or {.aNG} followed by a non coronal N{D} cluster then the word bound. {same post-non-coronal conditioning} 
+$ˈã > ˈa / [-cor,-son] ( [+cor,+son] ) __ {[+nas,+cont,+cons] [+syl];[+nas,-cor,+cons] ([-cont,-cor]) #}
+	$.aCu -- stressed a, with u on the other side of hte cons cluster -- trangull, fam{b}ull, shkandull ; mendull. This one makes more sense as being from denasalization. 
+$ˈã > ˈa / __ [+nas] [-cont] [+hi,+back]
+
+
 $DV3.1B2 n: to n
 $DIACLEA CORRECTION C1A.VI: expand this to the shortening of all long nasals. 
 $nː > n
@@ -1805,10 +1812,13 @@ $ ã raises to ə in Tosk (ultimately denasalizing to ë outside of some Lab s
 $ DIACLEA CORRECTION C3B.XII -- in Proto-Tosk, it is only short ã that becomes ə̃; long ãː actually reflects as -a- (shpërlaj, etc.). However it effects labials too per DIACLEA CORRECTION C2.III.
 [+lo,+nas,+syl,-long] > [-lo,-back,-front,0tense,-lab,-round]
 
+=Proto-Tosk
+
+
 $TODO FOR LAB,CHAM,ARB-,ARV- : y > i here -- DV2.1A3 
 
 
-=Proto-Tosk
+
 
 $loss of vocalic nasalization: DV2.1A2, C2, completing E1, F3
 [-cons,+nas] > [-nas]

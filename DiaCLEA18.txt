@@ -965,7 +965,7 @@ s > z / __ [+voi,+cons,-lat]
 $DIACLEA CORRECTION A1.V -- ɑ > a; at end of MPA II for pre-Slavic vocab, in the middle of LPA II for Slavic vocab, for which it comes after l-darkening, which it counterbleeds (mɒgɯlɑ > Mëgullë, Second layer pɒsɯlɑ > pusullë). Originally "bandaid", but moved. 
 [+lo,-round] > [+front,-back]
 
-$DIACLEA CORRECTION A2.LXXXXI early tapping of n to avoid prenasal deletion in -son -stres __ V-hi,+prim -- arbëreshë, ngashërej, urdhëroj, urdhëratë, ngjëroj  , sˌerkɪnˈoru > sher/lqeruar, kullumb{ë}ri -- but not bræstɪnˈiku , no sʊwɪrstɪniku , fˌarɪnˈoɲo... overall needs to be after an obstruent, and happens to native, not Slavic, vocab --> placed at end of MPA II. 
+$DIACLEA CORRECTION A2.LXXXXIII early tapping of n to avoid prenasal deletion in -son -stres __ V-hi,+prim -- arbëreshë, ngashërej, urdhëroj, urdhëratë, ngjëroj  , sˌerkɪnˈoru > sher/lqeruar, kullumb{ë}ri -- but not bræstɪnˈiku , no sʊwɪrstɪniku , fˌarɪnˈoɲo... overall needs to be after an obstruent, and happens to native, not Slavic, vocab --> placed at end of MPA II. 
 n > ɾ̃ / [-son] [-stres] __ [+prim] 
 
 =Late Proto-Albanian I
@@ -1461,6 +1461,7 @@ $DIACLEA CORRECTION A2.VI; final nasal clusters not starting in n resolve in fav
 
 $DIACLEA CORRECTION A2.VII. pretonically primary and secondary sequences of nasals alike resolve to the second element; at least when it is /n/ the result is a long /nː/. It seems there are two rounds of this. Examples: carmināre (> karmini-ā- due to ina - inia phenomena) > kernjoj; (gn = ŋn remember) sign-āre > shënoj, cognatus > kunat, damn-āre > dënoj, communic-āre > kungoj. This will also potentially handle homorganic nasals, if they have emerged. 
 $ Since all other cases have been handled by the above rule concerning final nasal clusters, there is no need for a context, but if there was one it would be -- / __ ([-stres])* [+prim]
+$ TODO MOVE TO AFTER LXXXXI or have it recur there?
 [+nas,+cons] [+nas,+cons,+cont] > ∅ [+long] 
 [+nas,+cons] [+nas,+cons,+cont] > ∅ [+long] 
 
@@ -1633,8 +1634,31 @@ $DIACLEA CORRECTION A2.LXXII.ɪ -- LPA III ɪ > ɛ / __ C ɪ. However, this may 
 $DIACLEA CORRECTION A2.LXXII.r LPA III ɪ > ɛ before r like above, at least for stressed (countertonic or tonic) variants
 [+hi,-round,-tense] > [-hi] / __ {[+cons] ɪ;r}
 
+$DIACLEA CORRECTION A2.LXXXXI LPA III nasal cluster simplifications -- seem pan-Albanian in nature
+	$A2.LXXXXI.wn -- asyllabic labials > m in a/o{/lˠ?} {R/L} __ n ˈi. Using [+back] for context. Bleeds .Bn, feeds .nn {goes to n: > n}:  Slav I ɡˌɒlwɪnˈikʊ > ɡ{lˠɑ/ɑlˠ}Bnˈik > gllanik, Slav II ɡlˌɑβɪnˈit͡sɑ > glaβnitsa > gjanicë ; pˌɒmɪnˈitɪ  > pˌɔmnˈit > ponit. Not after front: plˌɛβɪnˈit͡sɑ > plevicë not plenicë. The clear out of domain cases are either not after a back segment {wˌɪrbɪnˈikʊ >wəɾbnˈik > vërmik}  is simply before non-stressed vowel {dɾˈɔbnit͡sɑ > Dromcə, skɾˈɔvnɑ > Skromə}...  tho so just condition on stress -- no data yet for +stres,-prim]. 
+[+lab,-syl] > m / [+back] ([+son,+cor]) __ [+nas,+cons] [+stres]
+	$A2.LXXXXI.bn  -- Bn > m -- first part in n > m here. Tempting to have second part accomplished by {feeding} Tn below : Slav I drˈɒbɪnit͡sɑ > Dromcë, wˌɪrbɪnˈikʊ > Vërmik. However, also skrovna > skromë, and except for maybe transmediare > tramëzoj, tentatively, spirants not deleted in this position {zmojle, gazmend, krezëm, krezmoj} .Tn doesn't cover fricatives {mahnit, etc.}. Not mn though -- this is handled in .nn, goes to nː > n. Tentatively having this happen to all nasals after all laterals for maximal hypothesis given lack of evidence either way. 
+[+lab,-son] [+nas,+cons] > m
+	$A2.LXXXXI.Kn and Tn -- stops deleted before nasals, regardless of what comes before. Feeds DV4.1U2.	$Post vocalic: see examples for .bn. also Lat to CPA tˈeɡminem > LPA tˈiɡmãɾ̃ɪ̃ > timër. 
+		$Post consonantal: cf examples for .ɲ. Also 
+		$Not sonorants {many words make this obvious}, not spirants {mahnit, Dëshnicë, Leshnjë, prozhmoj ,etc. }
+		$placed before A1.XXIV so as to not be fed by r > ɾ. 
+		$Two rounds of this. For coronals {Tn} it comes later and therefore doesn't feed voicing phenomena: castanettu > LPA kˌaʃtə̃ɲˈɛt > Kashnjet, ˌae̯stimˈɑːnioː > ʃtə̃mˈɔ̃ɲ > çmoj , testimonio > ... > dëshmoj... for at least some dorsals {fuzhnja etc. } it does- - go with all non-coronals for the earlier .Kn 
+	$A2.LXXXXI.Kn -- non-coronal sotps deleted before nasals, regardless of what comes before. 
+[-cont,-cor] > ∅ / __ [+nas,+cons]
+	$A2.LXXXXI.ɲ -- ŋɲ > ɲɟ. As formulated currently, fed by .Tn: Latin to CPA sˌɑnɡuiniˈɑːtɑ > LPA ʃˌãŋɡɲˈatə > shëngjetë , ˌinkonɡˌyːrˈɑːnioː > ə̃ŋɡɲərˈɔ̃ɲ > ngjëroj. Tentatively using any nasal ɲ cluster.
+[+nas,+cons] ɲ > ɲ ɟ
+	
+
+$DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced asyllabic consonants to modern ʒ -- has to be before end of the fall of lenited stops (in this case β). In reality this may be morphological though, as it only seems to happen to the prefix sh- "dis, un" ; was ʃ > [+voi] / __ [+cons,+voi,-son]. 
+$DIACLEA FIX C1B.VI: doesnt happen before coronals as there are exceptions for at least /l/ and /n/ {Dëshnicë, Plashnik, Bishnicë, Leshnice}. Happens before g  ː riʒgɔj vəʒgɔj. Probably m -- prozhëm prozhmoj krezhëm krezhmoj vs dëshmoj. Would be challenging with ɲː fuʒɲə fuʒɲar  vs viʃɲə lɛʃɲə. However Vishnjë and Leshnjë stand alone as later Slavic loans, and testimoniare could have later time of coalescence -- təʃtəmɲɔ́ɲ with mɲ > mː. Therefore DIACLEA CORRECTION B2.XVII -- DV4.1U2 ʃ voicing assimilation moved to before second Slavic wave's yers fall -- thus counterfed bz A1.XXII.2. The context diff is acutally a time diff. This is the zone that is not quite pan-Albanian anymore though: note Budi's fushqinë for fuzhnjë, as well as attested doublets like rishgoj/rizhgoj, vëshgoj/vëzhgoj etc. 
+ʃ > [+voi] / __ [+cons,+voi,-cor] 
+
 $DIACLEA CORRECTION A1.XXII.2 unstressed yers fall in second wave in time to feed lk > ʎk phenomenon (bælʊka >bejkë). Also bleed LPA l-darkeningː sovadlʊka > sovajkë not sovallkë; zabælʊ > zabel not zabell, etc.
 [+hi,-tense,-stres,-cons] > ∅
+
+$DIACLEA CORRECTION A2.LXXXXI.nn -- nasal nasal clusters other than ŋɲ {.ɲ bleeds this above} resolve in favor of second element. Fed by A1.XXII.2. -- TODO do this with existing A2.VII? 
+[+nas,+cons] [+nas,+cons] > ∅ [+long]
 
 $DIACLEA CORRECTION A2.LXIV.u -- remaining stressed ʊ to u.  Rope in ɪ not covered by other rules to i here
 [+hi,+syl] > [+tense]
@@ -1651,12 +1675,13 @@ l > lˠ / [+syl] __ [+syl,+back]
 $DIACLEA CORRECTION A2.LXVI post-Slavic r/ɾj > rːj -- pɯrjɪ > purrë, caries > qerre, dɪbrjʊ > dibërr. Earlierː {r j;ɾ j} > {rː;rː} / # ([-syl])* [+syl] ([-syl])* __; simplified by deleting context. Hinges on ʃˌatˈʊrja > shatorre and pˌɔtˈɛrja> potere; later is only case after e, notably. 
 {r j;ɾ j} > {rː;rː}
 
+
 $DIACLEA CORRECTION A1.XXIV  r > ɾ, r: > r (as that is how the lexicon is coded), before syllabification of resonants. 
 r > ɾ
 rː > r
 
-$DIACLEA CORRECTION A2.LXXXXI LPA III nasal cluster simplifications -- largley pan-Albanian in nature
-$TODO HERE
+
+$TODO HERE DEC 1
 
 $less pan-Albanian section beginning here... 
 $TODO move actual breaking point for LPA III here -- Slavic {and Greek?} insertions earlier? 
@@ -1848,11 +1873,6 @@ $ TODO consider restoring old version when possible.
 
 $DIACLEA CORRECTION A2.LXXVII dissolution of syllabic sonorant consonants R̩ > əR. Comes after ʃ > ʒ / __ Cvoi (counterbleeds for prozhëm, krezhëm), also after ʃ > t͡ʃ. Different outcomes in Arbëreshë than std. Tosk. 
 ∅ [+cons,+syl] > ə [-syl]
-
-$DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced asyllabic consonants to modern ʒ -- has to be before end of the fall of lenited stops (in this case β) 
-$DIACLEA FIX C1B.VI: now only happens before obstruents as there are exceptions for at least /l/ and possibly other resonants. In reality this may be morphological though, as it only seems to happen to the prefix sh- "dis, un" ; was ʃ > [+voi] / __ [+cons,+voi,-son]
-$DIACLEA FIX B1.IX -- now treated as the rule to handle apparent ʃ > ʒ cases -- proximu > prozhëm, quadresima > krezhëm, resurgere > rizhgoj, vestigare > vëzhgoj; all with attested older forms in -sh-. Also prozhmoj, krezhmoj but these may be due to anlaogical reulations. Done so by moving this into Old North Tosk. Note that prozhëm and krezhëm suggest it occurs at a point when there are syllabic resonants. Also broadened to occur also before sonorants. 
-ʃ > [+voi] / __ [+cons,+voi,mlab,mnas] 
 
 $DV4.1K1 -- Old Alb ʃ > t͡ʃ before a consonant 
 $ DIACLEA CORRECTION C3B.XIX: posterior context changed from [+cons] to [+cons,+nas], and also not postvocalically (not Leshnjë, dëshnicë, pashnik; still balçëm)

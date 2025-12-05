@@ -1141,6 +1141,13 @@ $DIACLEA CORRECTION A2.LXXXIX -- lengthening to bleed reduction to schwa via DV2
 $DIACLEA CORRECTION A2.LXXXV..ɛðit > ɛjt , ˈɛðit ː shpejtoj, mejtoj, shpejt. Arguably happens after ˈi too, before other coronals and finally, tho this is debatable {see fixes_log on this for examples}  -- still, allows for simpler rule.  Counterbled by .CðəC
 ð [+front,-lo,-stres] > j / [+stres,+front,-lo] __ {[+cor];#} 
 
+$DIACLEA CORRECTION A2.LXXXXVIII -- LPA II (e.g., from Greek) ɣ > j / __ i,ɪ,j, ultimately resulting in deletion of ɣ. May be worth it to look at handling ɣ l /l ɣ combos around A1.XVII. 
+[+hi,+cont,-son,+voi] > j / __ [+front,+hi]
+
+$DIACLEA CORRECTION A2.LXXXI.g -- other ɣ > g, and (.x) after obstruents x > k, both feeding palatalization 
+[+hi,+cont,-son] > [-delrel] / [-son] __
+ɣ > ɡ
+
 $DIACLEA CORRECTION A2.LXXXV.CðəC -- unstressed vowels after ð delete pre-obstruent/lateral regardless what's before, effectively feeding ohter parts of A2.LXXXV
 [-stres] > ∅ / ð __ {[-son];[+lat]}
 
@@ -1175,6 +1182,9 @@ $DIACLEA CORRECTION A2.LXIX -- LPA I ɪ > i / rː __ c before ɪ to schwa
 
 $DIACLEA CORRECTION A2.LXXII.ɪ -- LPA I ɪ > ɛ / __ C ɪ just like in LPA III, for stressed ɪ. However, this may actually just be that the relevant words are later loans from Bulgarian; caution is warranted here. 
 [+hi,-round,-tense,+stres] > [-hi] / __ [+cons] ɪ
+
+$DIACLEA CORRECTION A2.LXXXXVIII -- deletion of j in [-cons] __ [+hi,+front] before ɪ lost in LPA II 
+j > ∅ / [-cons] __ [+hi,+front,-cons]
 
 $DIACLEA CORRECTION A1.XXII.1.ɪ unstressed ɪ, ʊ > ə, ∅ for first wave Slavic and etyma inherited into LPA I after some marginal bleeding phenomena
 ɪ > ə
@@ -1426,9 +1436,6 @@ $ this causes memory error somehow: [+cont,+cor,+voi,-strid,ʎlat,ʎson] j> ʎ
 {ð j;l j;lː j} > {ʎ;ʎ;ʎ}
 [+cor,+nas,+son] j > ɲ
 
-$DIACLEA CORRECTION A2.LXXXII -- deletion of ɣ in LPA II. May be worth it to look at handling ɣ l /l ɣ combos around A1.XVII above. 
-ɣ > ∅
-
 $DV1738, top, part 3: final -ja(s) to e, clearly bleeding part DV1738 part 2.
 $form prior to 8/5/23 was: j a (s) > e / __ #
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
@@ -1656,6 +1663,9 @@ $DIACLEA FIX C1B.VI: doesnt happen before coronals as there are exceptions for a
 
 $DIACLEA CORRECTION A1.XXII.2 unstressed yers fall in second wave in time to feed lk > ʎk phenomenon (bælʊka >bejkë). Also bleed LPA l-darkeningː sovadlʊka > sovajkë not sovallkë; zabælʊ > zabel not zabell, etc.
 [+hi,-tense,-stres,-cons] > ∅
+
+$DIACLEA CORRECTION A2.LXXXXVIII.2 -- recurrence of j loss in LPA II before all i-like segments, regardless of prior context, this time AFTER yer loss. 
+j > ∅ / __ [+hi,+front,-cons]
 
 $DIACLEA CORRECTION A2.LXXXXIV extra unstressed vowel deletions that at least feed A2.LXXXXI.Tn -- in turn feeding later sh to ç phenom-  towards the end of the period of common development in LPA III.   Doesn't happen to or after high tense segments though {Tunçan preserved, tingëlloj, timua ; ɲ is not +tense though. The non-tense high vowels have already just been deleted in A1.XXII.2 across the board so they dont need to be handled here} nor after the apparently long {vowel} segment in kutendoj altho this aspect is hacky {TODO revise}.  Doesn't happen before ɾ̃ -- tër endings from tãɾ̃ə̃, shtëroj from extenuare. 
 [-prim,-hi,-long] > ∅ / {[-long];#} t __ [+nas,+cont]

@@ -494,6 +494,9 @@ $ DIACLEA CORRECTION C1B.III: does not seem to affect low-vowels at this point -
 $ DIACLEA CORRECTION D3.III: moved to (originally) second _VOWEL DROP WAVE_, although some of the effects placed not long after this at the beginning of Middle Proto-Albanian. There may still be some justification for vowel elision at this time, but that remains to be seen.
 $[-stres,-lo] > ə / [+prim] (@)* __ @ 
 
+$DIACLEA CORRECTION A2.LXXXXIX - unstressed vowels to ʊ between b and a stop. Doesn't happen to Christian vocab (i.e. priftër vs kut, det-oj etc.). TODO RECONSIDER THIS-- too early for schwa?
+[-stres] > ʊ / b __ [-cont]
+
 $--------------------Middle Proto-Albanian-------------------
 =Middle Proto-Albanian I
 $ main wave of contact with Proto-Romanian (temporarily?) complete now
@@ -663,12 +666,16 @@ $ DIACLEA CORRECTION C3B.II: this does not happen prevocalically (perhaps becaus
 $ DIACLEA CORRECTION D3.IV -- this is consolidated into the resolution of i-mutation. Commented out. 
 $[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ {[-syl];#}
 
+$DIACLEA CORRECTION A1.VI.w : limited early i-mutation-like phenomenon across w, for tonic and (!!) countertonic. Counterfed by stress retraction. Consider/write about rel chron of this in relation to A2.XXXI.a and A2.XXXIII and the 'main' i-mutation 
+[-hi,+stres,afront] > [-back,+front,ahi,-lo] / {#;[-lat,-lab]} ([+lat]) __ ([+lab,-syl])+ ([+son,+cons]) [+front,-stres]
+
 $DIACLEA FIX A2.XXXI.a Middle Proto-Albanian I -- stress retraction in V β ˈV-hi (ablēv-ā- > blej , arrīv-ā- > arrij, Drivastum > Drisht, lav-ā- > laj, oli̍̄vānu > ullî, etc. Including caballus > kuol, kālë for good measure. Bled by ɒ > ɔ but maybe that can be moved later? 
 $ TODO write about this in dissertation!
 $ cf. Lopuhaa 2015
 $ teh cases of pagaw-a- > paguaj (supposedly from later Italo-Romance) and gɒtɒw-ɒ- > gatuaj (from the first wave of Slavic) may be considered analogical since by that point a large number of verbs in -ˈVwV̯ɲo would have emerged. 
 $ TODO possibly broaden this to other cases of stress retraction...
 [+syl] [+lab,+voi,-syl,-nas] [+prim,+lo] > [+prim] [+lab] [-stres] / @ __
+
 
 $DIACLEA CORRECTION A2.XXXIII -- coalescence of w with following ɪ i or short a in two contexts: T-voi (V-prim) __ and # (V)* liquid __. Long round vowels seem to be the result (inasmuch as y doesn't fall, at least). Feeds ɒ > ɔ tho. If not for the matter of length, merger of the w A aspect with A1.XXV.a much later may be worth considering. 
 w [+syl,αhi,αfront,-long]> ∅ [+round,+lab,+long] / {[-voi,-cont] ([-prim]); # ([-cons])* [+son,+cons,-nas]} __ 
@@ -837,12 +844,14 @@ $it can be assumed this is intended as a law targeting stressed vowels, because 
 $DIACLEA CORRECTION C8.I: I-mutation now realized via evanescent ɪ̯ which coalesces with the target vowels.
 $ FORMER I-MUT {ˈɑ;ˈu;ˈo;ˈe;ˈɛ} > {ˈe;ˈy;ˈø;ˈi;ˈi} / [-lab] __ ([-syl])* [+front,-round,-cons]
 
-$DIACLEA CORRECTION C3B.III: I-mutation is BLOCKED by preceding labials, and also no evidence it occurs word-initially. This can be captured by specifying [-lab] for a prior for the i-mutation trigger because requiring a specification excludes the word boundary being there. 
+$DIACLEA CORRECTION C3B.III: I-mutation is BLOCKED by preceding labials [seeing through lateral], and also no evidence it occurs word-initially, plenty of evidence it doesn't. This can be captured by specifying [-lab] for a prior for the i-mutation trigger because requiring a specification excludes the word boundary being there. 
 $DIACLEA CORRECTION C1B.VII: ɔ > œ phenomena no longer a regular part of i-mutation, simply participating in the later coalescence (E1.I) with yod (georgius > Gjergj; ratiōnem > arësye -- these are caused by *prior* yod! Cases like 2/3SG sheh for shoh are analogical). 
 $ implementing i-mutation ignition for a ɛ e, separated from that of /u/ per E1.II. 
-$DIACLEA CORRECTION C3B.X -- now requires at least one initial consonantal to come between. 
+$DIACLEA CORRECTION C3B.X -- now requires at least one initial consonantal to come between, does not happen in labial-lateral.
+$ per A1.VI.w, now only happens here for lab j among labials; otherwise, handled earlier. 
 $TODO -- maybe make this triggered by reduction of unstressed front vowels to yod... 
-∅ > ɪ̯ / [-lab] __ [-round,-hi,+prim]  [+cons] ([-syl])* [+front,-round,-cons]
+$∅ > ɪ̯ / [-lab] __ [-round,-hi,+prim]  [+cons] ([-syl])* [+front,-round,-cons]
+∅ > ɪ̯ / [-lab] __ [-round,-hi,+prim] {[+cons,-lab] ([-syl])* [+front,-round,-cons];[+cons,+lab] ([-syl])* j}
 
 $DIACLEA CORRECTION A1.V1: i-mutation also occurs for countertonic a in S __ liquid
 $ ultimately ˌɑ > ˌe / s __ [+cor,-nas,+son] ([+cons])* [+front,-cons,-lo,-round]
@@ -864,7 +873,7 @@ $DIACLEA FIX A2.XVIII.* -- however, j is preserved before a tonic vowel after t�
 $ DIACLEA CORRECTION D3.VII --  j before final unstressed a becomes iota before loss of yod after labials (A2.II), allowing this, too, to join with i-mutation. (Exception ːrubia > rrojbë; may require separate explanation; this may however be a loan. ). 
 j > ɪ̯ / __ ɑ
 
-$ DIACLEA CORRECTION A2.II -- disappearance of j after labials, except before unstressed -a, whic his handled above in D3.VII. As of June 26, it's now labial *consonantals*, can see through (V) r. 
+$ DIACLEA CORRECTION A2.II -- disappearance of j after labials, except before unstressed -a, whic his handled above in D3.VII. As of June 26, it's now labial *consonantals*, can see through (V) r. As of Dec 5, also sees across laterals to any sort of labial.
 	$ w:  laqueum > lak, quiētus > qetë, salviella > shërbelë ; perhaps also alveolu > nullë "gum" if we believe in that etymology. Seems apparent in Romanian too : quiētus > (in-)cet, although this may be independent (note the difference between laqueum > laț and quiētus > in-cet.. curious.). As of June 24, this is moved from being between DV1740H2 and DV1743.B4 to right after i-mutation, because the latter appears to occur for the countertonic a in salviella > sherbelë, which is nevertheless affected by this. 
 	$ mj : gremium > gremb, 
 		$ NOT in unstressed final -ja : amia > ame "brown meagre"  (i-mutation otherwise blocked)
@@ -881,7 +890,7 @@ $ DIACLEA CORRECTION A2.II -- disappearance of j after labials, except before un
 			$ difficult case : rubia > rrojbë 
 			$ maybe..>? : subiug-āre > shuaj
 	$ the cases of capreum > qepër and salviella > sherbelë suggest this happened AFTER the beginning of i-mutation in the emergence of iota, but gremium > gremb and manubrium > mëru may suggest the opposite as concerns ɛ and u... As of July 2024, though, /u/ i-mutation is handled ohterwise, so this can be placed after the emergence of iota but before the resolution in terms of coalescence, and before the merge of iota with j. 
-j > ∅ / [+lab,-son] ( ([+syl]) r) __
+j > ∅ / {[+lab,-son] ( ([+syl]) r);[+lab] [+lat]} __
 
 $ De Vaan p1743-4 -- w dropped between k (DV1743.G2) or g (DV1744.A2), and vowels. This will eventually feed the palatalization of these velars before i/e/y (p1743) but this feeding does not have to be explicitly coded in. 
 $ form prior to 8/5/23 was: {[-cont,+back] w;[-cont,+back,+round]} > {[-round] ∅;[-round]} / __ [-cons] 
@@ -982,8 +991,8 @@ $A2.LXXXIII .io -- íwVround > ˈɔː > ˈuə / {lab, Tr} __ C
 [+hi,+front,-round,+prim] w [+round,-stres] > ˈɔː / {[+lab];[-cont] r} __ [+cons]
 $A2.LXXXIII .ɒ -- Slavic ɒ > o in such situations. Can be handled with i via alpha feats but this seems to challenge memory for some reason (11/29/2025). Furthermore, with the cases with Slavic a, context seems less constriced. Could be bled by Slavic hard yer loss (A1.XXII.ʊ) -- ravʊka > ravgë -- but this is not enough evidence. 
 ˈɒ w [+round,-stres] > ˈɔː
-$A2.LXXXIII .eu intersonorant e rounding--  VRˈɛw(V)r/l(/z)> ˈœː . Also applies to aw in case of trabeza at least -- thus fed by A1.V 
-[-hi,+front,+prim] > [+round,+lab,-lo,-tense] / [+son,+cons] __ w ([-stres]) [+voi,+cor]
+$A2.LXXXIII .eu intersonorant e rounding--  VRˈɛw(V)r/l(/z)> ˈœː . Not necessary to apply to aw in case of trabeza -- it's now handled in A1.VI. 
+[-hi,-lo,+front,+prim] > [+round,+lab,-lo,-tense] / [+son,+cons] __ w ([-stres]) [+voi,+cor]
 $deletion of w across the board except if V2 is low and V1 is not, lengthening phenomena proceed. For AVA, happens if preconsonantal.  Happens to countertonics too. 
 [+stres] w > [+long] ∅ / @ __ [-lo]
 [+stres,+lo] w > [+long] ∅ / @  __ [-stres,+lo] [-syl]
@@ -1723,11 +1732,11 @@ $DIACLEA CORRECTION A2.LXXVI.V_ -- like above, but for prior vowels. Doesn't hap
 [-hi,-stres] > ∅ / [+cons] __ [+son,+cons,-nas] {#;[+cons]}
 
 $DIACLEA CORRECTION A2.LXXVI ANTERIOR SONORANT SYLLABIFICATION formation of syllabic sonorant consonants -- ɾ, r, m, n -- not ŋ ɲ, on lˠ special conditions only... so [-hi] 
-	$ prior contxt -- at least for word finally -- after j , p, b, g, k , t, d, ð, v, m, g, c, f --- but not after ɾ and ɾ̃, unclear if after lˠ and l, no data for r and n. Fed by A2.LXVI but not A1.XXI
+	$ prior contxt -- at least for word finally -- after j (lot for laterals it seems? TODO examine this, write about it in fixes log), p, b, g, k , t, d, ð, v, m, g, c, f --- but not after ɾ and ɾ̃, unclear if after lˠ and l, no data for r and n. Fed by A2.LXVI but not A1.XXI
 $internally for round vowels unimplemented as causes too many problems -- see notes currently stored in fixes log (as of 11/24/25).
 $11/26/25 for now being conservative in implementation as separately vowel deletion rules should feed it rahter than be part of it, unless it turns out its better that way. 
 $bleeds l > ʎ // k,g : ascla > ashkël, clausūra > Këlçyrë , vehicula > vegël, calcaria > gëlqere. But not if low vowels involved: rakla > rraqe. 
-[+cons,+son,-nas] > [+syl,-stres,-prim] / j __ #
+[+cons,+son,-nas,-lat] > [+syl,-stres,-prim] / j __ #
 [+cons,+son,-nas] > [+syl,-stres,-prim] / {[-son];m} __ {#;[+cons]}
 
 $DIACLEA CORRECTION A2.LXXVI.ŋu -- special case for u after NK . TODO may need to modify if prenasal stops have formed before this pointǃ
@@ -1842,9 +1851,9 @@ $Other parts now moved after P-Tosk
 [-stres] > ∅ / [+cont,+son,-lat] ([-cont,-front])+ __ ɾ [+stres]
 [-stres] > ∅ / # ([+lab,+voi])* __ ɾ [-hi,-round,+syl]
 
-$DIACLEA CORRECTION A2.LX: Northern Tosk pre-nasal non-back vowel deletions. 
+$DIACLEA CORRECTION A2.LX: Northern Tosk pre-nasal non-round vowel deletions. 
 $ A2.LX.ʎ and .t , .a--- broadest cases, can happen before CC 
-[-prim,-back,-cons] > ∅ / {#;[-cons] [+lat]} __ [+nas]
+[-prim,-round,-cons] > ∅ / {#;[-cons] [+lat]} __ [+nas]
 
 $ cases that need to happen before NV -- initially; general internal VC- case. 
 [-prim,-back,-cons] > ∅ / [-cons] [+syl] __ [+nas] [-syl]

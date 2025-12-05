@@ -204,7 +204,7 @@ n > ɾ̃ / [-son] [-stres] __ [+prim]
 [-tense,+lo] > [-long,-splng] 
 [+prim,-tense] > [+long] / # __
 [+lo,+syl,-long,-tense] > [+tense,-front,+back,-cons,-lat,+cont,0delrel] 
-[+syl,+tense,-lo,+long] > [+hi] / [ason] __ [ason]
+[+syl,+tense,-lo,+long] > [+hi] / [ason,+cons] __ [ason,+cons]
 ˈɛ > ˈɛː / s t __ [+lat]
 ˈɛ > ˈɛː / [-cons] [+cor,-lat,-nas,+son] __ [+cor,-lat,-nas] s [+son]
 ˈɛ > ˈɛː / [-cons] [+cor,-lat,-nas,+son] __ ( [+cor,-lat,-nas] ) [-delrel,-back,-voi] [+son]
@@ -218,6 +218,7 @@ s > t͡s / [+cons] __ [+cons,-cor]
 [+round,-prim] > [+long] / [+hi,-son] __ [-lat] ( @ )* [+prim]
 [-tense,+round,+back] > [+long] / # __ [-lab]
 ð > ∅ / [-prim] __ [+prim]
+∅ > j / [+hi,+front,-round,-prim] __ [-hi,+stres]
 [+stres,-prim] [+syl] > ə [+long,+stres,+syl,+son]
 [+prim] > [+long] / __ lˠ ( [-lo,-cons] ) #
 [+prim] > [+long] / __ n ( [-lo,-cons] ) #
@@ -276,8 +277,11 @@ t͡ʃ > ∅ / ʃ __
 ˈɛ > ˈɑ / k __ [+cor,+long,-nas,+son]
 ˈɛ > ˈɑ / [+cor,-lab,+cont] __ [+cor,+long,-nas,+son]
 [+lab,-son] > ∅ / [+lab,+cons] ( ( [+son,+cons] ) [+syl] ) __ [-son,-lab]
-[-prim] [+prim] > ∅ [+long]/ @ __ @
-[+prim] [-prim] > [+long] ∅/ @ __ @
+[-stres] [+syl,aprim] > ∅ [along]
+[+stres] [+prim] > ∅ [+long]
+[+prim] [-prim] > [+long] ∅
+[+stres] [-stres] > [+long] ∅
+[-stres] > ∅ / [+syl] ( [-hi,+voi,-cons,-syl] ) __
 [+prim] > [+long] / __ [+cons,+son,-long,-back] ə [-cont]
 ə > ∅ / [+cons,+son,-long,-back] __ [-cont]
 [+prim] > [+long] / __ [+cons,+son,-nas]

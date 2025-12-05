@@ -1028,9 +1028,9 @@ $DIACLEA CORRECTION A2.L.b other æ not effected by the e phenomenon or the init
 [+lo,+syl,-long,-tense] > [+tense,-front,+back]
 
 $DIACLEA CORRECTION A2.L.a.ii -- eː reflecting æ(ː) raises to ɪ between same sonorance consonants. 
-[+syl,+tense,-lo,+long] > [+hi] / [ason] __ [ason]
+[+syl,+tense,-lo,+long] > [+hi] / [ason,+cons] __ [ason,+cons]
 
-$DIACLEA FIX  A2.XXXIX.c -- initial lax mid vowel  lengthening phenomena. (D3.X.b1 the tonic  ones). 
+$DIACLEA FIX  A2.XXXIX.c -- initial lax mid vowel  lengthening phenomena. (D3.X.b1 the tonic ones). 
 
 $ DV1736's 5a.1 : *ɛ > jɛ ietation (my word)
 $ = DV2.2.1B2 
@@ -1078,7 +1078,10 @@ $DIACLEA FIX D3.X.b2 -- initial ˈɔ, and initial ˌɔ, also lengthened more bro
 $DIACLEA CORRECTION A2.LXXXVI -- (ˌ)V¹ðˈV² > V²ː  -- done by feeding established coalescence phenomenon formalized A1.XIV {in LPA I}. Doesn't happen if V2 isn't unstressed {excaudicare > shkagoj likewise mëgashtër etc, iudicata > gjykatë} or secondary stressed { adur-o- to adhuroj /adhëroj }. 
 ð > ∅ / [-prim] __ [+prim]
 
-$DIACLEA CORRECTION A1.XIV -- seeding of secondary length starts to emerge -- A1.XIV just before i-mutation and loss of post-labial-continuant j, hiatus vowels with the first element countertonic has the second element attain length and countertonic stress (primary remains primary though), and the first element to schwa for now (will seed length).
+$DIACLEA CORRECTION A1.XXVII -- before A1.XIV, i/ɪ ejects a j in hiatus with a non hi vowel 
+∅ > j / [+hi,+front,-round,-prim] __ [-hi,+stres]
+
+$DIACLEA CORRECTION A1.XIV -- seeding of secondary length starts to emerge -- A1.XIV just before i-mutation and loss of post-labial-continuant j, hiatus vowels with the first element countertonic has the second element attain length and countertonic stress (primary remains primary though), and the first element to schwa for now; length useful here for feeding later phenomena. 
 [+stres,-prim] [+syl] > ə [+long,+stres]
 
 
@@ -1086,7 +1089,6 @@ $DIACLEA CORRECTION A2.XXXIX.a length emerges for tonic and countertonic element
 $TODO implement. 
 
 $ TODO draw in vowel coalescence phenomena.  Now partially done. 
-
 $ h ejected by initial ˌe, ˌa -- TODO! IMPLEMENT  -- TODO name this!
 
 
@@ -1354,8 +1356,15 @@ $	[-prim,-lo,-front,-back] [+syl] > ∅ [+long] / @ __ @
 $	[-prim,αhi,βlo,ɣround,ðfront] [+prim,αhi,βlo,ɣround,ðfront] > ∅ [+long] / @ __ @
 $	[+syl] [-prim,-lo,-front,-back] > [+long] ∅ / @ __ @
 $	[+prim,αhi,βlo,ɣround,ðfront] [-prim,αhi,βlo,ɣround,ðfront] > [+long] ∅ / @ __ @
-[-prim] [+prim] > ∅ [+long] / @ __ @
-[+prim] [-prim] > [+long] ∅ / @ __ @
+
+$[-prim] [+prim] > ∅ [+long] / @ __ @
+$[+prim] [-prim] > [+long] ∅ / @ __ @
+$ DIACLEA CORRECTION D4.IV deletion with compensatory lengthening in mismatching +/-prim segments expanded: all unstressed vowels after vocoids other than j/w are deleted; lengthening happens if surviving segment was stressed. Does not need to be word internal anymore. 
+[-stres] [+syl,aprim] > ∅ [along] 
+[+stres] [+prim] > ∅ [+long]
+[+prim] [-prim] > [+long] ∅
+[+stres] [-stres] > [+long] ∅
+[-stres] > ∅ / [+syl] ([-hi,+voi,-cons,-syl]) __
 
 $DV1734.1.III compensatory lengthening
 $ based on examples in DV2.2.2b and 2.2.2c, posttonic vowels seem to be lost at this point in the context R __ T, with lengthening of a prior vowel if it is stressed. (amita > emtë, manica > mëngë, veritātem > vërtet , spīritus > shpirt; vs. orphanus > varfër, epíscopus > peshkëp, contrā > kundër, tjetër < -étero-, sherbëtuor...
@@ -1370,6 +1379,8 @@ $syncope aspect of DV1734.1.III implemented below; this is also DV1734.4
 $DV1734.1.IV -- 'lengthening before nasals, liquids, sibilants'.
 $DIACLEA CORRECTION C3B.XI -- major change, remark in diss. (TODO!). C3B.XI.n Lengthening of vowels no longer occurs before nasals. C3B.XI.c lengthening 
 [+prim] > [+long] / __ {[+cons,+son,-nas];[+strid]}
+
+$DIACLEA CORRECT
 
 $   ------------- INTERVOCALIC STOP EFFACEMENT (AND CLUSTER SIMPLIFICATION?) -----------
 $ TODO figure out how to handle this in the base cascade? -- probably have it here after the fall of schwa in R __ T, with a (more concise) explanation

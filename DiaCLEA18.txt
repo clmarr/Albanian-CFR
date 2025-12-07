@@ -780,8 +780,8 @@ $ much of the Christian vocab is integrated around (at, or by) this point, inclu
 $DIACLEA CORRECTION E1.V.a kw, gw > kʷ, gʷ; later to be derounded
 {k w;ɡ w} > {kʷ;ɡʷ}
 
-$DIACLEA CORRECTION A2.XXXVI --  unstressed front vowels made high, treating as ɪ provisionally. This will (TODO!) ultimately be related to i-mutation by principle. 
-[-stres,+front] > [+hi,-tense] / [+cons] __
+$DIACLEA CORRECTION A2.XXXVI --  unstressed (non-low? if it matters?) front vowels made high, treating as ɪ provisionally. This will (TODO!) ultimately be related to i-mutation by principle. 
+[-stres,+front,-lo] > [+hi,-tense] / [+cons] __
 
 $ DV1744.C4 -- emergence of PAlb β before Latin long ō and the reflex of Alb long-ā, but PPAlb ō is not listed. PAlb β itself is the reflex of initial Latin w- and PPAlb β, itself from a PIE u̯. Treat as w for now, betacize later, as then merge them here, with a single rule. In order to impact PPAlb ā and Latin ō but not PPAlb ō, PPAlb ō must have a different reflex at this stage. But De Vaan 2018 does not seem to PPAlb ō and Latin  differently otherwise, in fact they are typically handled together (cf. DV1736G1, DV2.2.1B7 & DV2.2.1B8) except when i-mutation is concerned (DV1736H1, which can simply be handled by placing it in the post-Greek but pre-Latin area of PAlb). So unless there are issues that emerge upon later examination, we will be treating PPAlb ō as potentially a trigger as well.
 $ although is not explicitly stated, the examples all concern initial vowels. 
@@ -987,8 +987,8 @@ $DIACLEA CORRECTION A1.XVI ː ɯ handling
 [+syl,+back,+hi,-lat] > [+round,+lab]
 
 $DIACLEA CORRECTION A2.LXXXIII -- early Late Proto-Albanian I Vw(V) coalescences . 
-$A2.LXXXIII .io -- íwVround > ˈɔː > ˈuə / {lab, Tr} __ C
-[+hi,+front,-round,+prim] w [+round,-stres] > ˈɔː / {[+lab];[-cont] r} __ [+cons]
+$A2.LXXXIII.iu r ˈiwV > uə ? / lab/ son,-long __ Cvoi,cont -stres -- based on liberu > li:r-ë, /r/ may not be considered continuant here (ǃǃ) but incluear based on this alone
+[+hi,+front,-round,+prim] w [-stres] > ˈɔː / {[+lab];[+son,-long]} __ [+cons,+voi,+cont] [-stres]
 $A2.LXXXIII .ɒ -- Slavic ɒ > o in such situations. Can be handled with i via alpha feats but this seems to challenge memory for some reason (11/29/2025). Furthermore, with the cases with Slavic a, context seems less constriced. Could be bled by Slavic hard yer loss (A1.XXII.ʊ) -- ravʊka > ravgë -- but this is not enough evidence. 
 ˈɒ w [+round,-stres] > ˈɔː
 $A2.LXXXIII .eu intersonorant e rounding--  VRˈɛw(V)r/l(/z)> ˈœː . Not necessary to apply to aw in case of trabeza -- it's now handled in A1.VI. 

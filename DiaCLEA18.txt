@@ -1621,6 +1621,9 @@ $ Previously: [+round,cprim,dstres] [-syl,-cons] > w [cprim,dstres,-tense] / # _
 [wround,cprim,+stres] [-syl,-cons,-hi] > [wback,wlab,!wfront,-syl] [cprim,-tense] / {#;[-cons]} __ 
 [-round,+hi,cprim,+stres] [-syl,-cons,-hi] > j [cprim,-tense] / [+syl] (@)* __
 
+$DIACLEA CORRECTION A2.CII.1 LPA II deletion of initial unstressed nonconsontal vowel between homorganic consonants, plus deletion of first homorganic cons.
+[+cons,dcor,blab,tson,nnas,llat,scont] [-stres,-cons] [+cons,dcor,blab,tson,nnas,llat,scont]> ∅ ∅ [+cons] / # __ 
+
 =Late Proto-Albanian III
 $ SECOND SLAV WAVE HERE !! 
 $ placement per DIACLEA CORRECTION B5.I
@@ -1870,14 +1873,10 @@ k > ɡ / # __ [-prim,+back,+hi] [+cor] [-prim,-back,-front]
 k > ɡ  / # __ ([-prim,-back,-front]) [+lat] [-cont] 
 k > ɡ / # __ ([-prim,-back,-front]) [+cor] [-voi,-lab,-hi]
 
-
-$DIACLEA CORRECTION A2.CII LPA III deletion of unstressed nonconsontal vowel between homorganic consonants, plus deletion of first homorganic cons. Does not bleed k > g phenomena. 
-[-stres,-cons] > ∅ / [dcor,blab,tson,nnas,llat,scont]  __ [dcor,blab,tson,nnas,llat,scont]
-
-$DIACLEA CORRECTION A2.CII.cc -- later deletion of first element of homorganic clusters. Does not bleed k > g phenomena.
-[+cons,dcor,llat,blab,scont,nnas,rson] > ∅ / __ [+cons,dcor,llat,blab,scont,nnas,rson]
-
-
+$DIACLEA CORRECTION A2.CII.2 Proto-Tosk deletion of internal unstressed nonconsontal vowel between homorganic consonants, plus deletion of first homorganic cons. Does not bleed k > g phenomena. 
+[-stres,-cons] > ∅ / [+cons,dcor,blab,tson,nnas,llat,scont] __ [+cons,dcor,blab,tson,nnas,llat,scont]
+	$DIACLEA CORRECTION A2.CII.cc -- possibly later (?) later deletion of first element of homorganic clusters. Does not bleed k > g phenomena.
+ [+cons,dcor,llat,blab,scont,nnas,rson] > ∅ / __ [+cons,dcor,llat,blab,scont,nnas,rson]
 
 $DIACLEA CORRECTION A2.LXXXVII -- post-sonorant strident affrication -- 
 	$ not in Buzuku {balshëm etc.} but is in Bardhi {nalcoj etc}

@@ -494,7 +494,7 @@ $ DIACLEA CORRECTION C1B.III: does not seem to affect low-vowels at this point -
 $ DIACLEA CORRECTION D3.III: moved to (originally) second _VOWEL DROP WAVE_, although some of the effects placed not long after this at the beginning of Middle Proto-Albanian. There may still be some justification for vowel elision at this time, but that remains to be seen.
 $[-stres,-lo] > ə / [+prim] (@)* __ @ 
 
-$DIACLEA CORRECTION A2.LXXXXIX - unstressed vowels to ʊ between b and a stop. Doesn't happen to Christian vocab (i.e. priftër vs kut, det-oj etc.). TODO RECONSIDER THIS-- too early for schwa?
+$DIACLEA CORRECTION A2.IC - unstressed vowels to ʊ between b and a stop. Doesn't happen to Christian vocab (i.e. priftër vs kut, det-oj etc.). TODO RECONSIDER THIS-- too early for schwa?
 [-stres] > ʊ / b __ [-cont]
 
 $--------------------Middle Proto-Albanian-------------------
@@ -1181,8 +1181,17 @@ $DIACLEA CORRECTION C1A.IV -- now unconditioned (formerly  r n > rː / @ __ @), 
 $DIACLEA CORRECTION B2.X -- moved r n > r: into much earlier proto-Albanian, because it bleeds ietation. 
 {r n;rː n} > {rː;rː}
 
+$DIACLEA CORRECTION A2.LXXXXVIII.i -- reduction of i/ɪ like segments in obs __ j V,Also: Gjergj, djall. 
+[+front,+hi,-long,-prim] > ∅ / [-son] __ j [+syl]
+
+$DIACLEA CORRECTION A2.C -- limited progressive palatalizationǃ--  j t͡ʃ > k j -- around time of (?) (or feeding?) palatalization in LPA II 
+j [+front,+cons,+delrel] > ∅ [-cor,-delrel,+hi,-strid]
+
+$DIACLEA CORRECTION A2.LXXXXVIII.ij -- after A2.C (which bleeds it), deletion of j in Vhi __ C. Tentatively happening for uj too : fluctul-a-  > fluturoj ? 
+j > ∅ / [+hi,+syl] __ [+cons]
+
 $DV4.2E & DV4.2F3 -- wave of palatalization, occurring before front vowels, including fronted former long round vowels (y, ø) but not including reduced vowels.  Absorbs /w/. 
-$ DIACLEA FIX D2.II -- absorption of w in palatalizing k removed, now redundant given earlier mass -w- loss, and lack of such sequences in any contact languages since MPA.
+$ DIACLEA CORRECTION D2.II -- absorption of w in palatalizing k removed, now redundant given earlier mass -w- loss, and lack of such sequences in any contact languages since MPA.
 $w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
 

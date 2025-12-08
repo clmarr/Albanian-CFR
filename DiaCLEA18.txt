@@ -1229,6 +1229,9 @@ $DIACLEA CORRECTION A2.LXXXV.ðC -- ð deletes before consonants, after lengthen
 $ DV 1737's 6. ø/œ > e/ɛ; implements final parts of DV2.2.1B6-8.
 [+front,-cons,-hi] > [-round,-lab]
 
+$ DIACLEA CORRECTION A2.XXIX -- early wave of x > h in son __ non final V, to bleed certain types of pretonic u loss in Late Proto-Albanian. DV4.2p x > h~f when pretonic and word final has diff outcomes in Gheg vs Tosk tho, so it happens later (e.g. njoh/njof etc.); also diff outcomes initially (fllad)
+$x > h / [+son] __ [+syl] @ 
+
 $ DV 1737's 7. Unstressed word-internal vowels to schwa, unstressed initial to zero-- include in _- VOWEL DROP WAVE -_
 
 $ --- Second wave (as originally written) of early vowel reduction phenomena here --- 
@@ -1238,10 +1241,36 @@ $ TODO: currently considering moving the initial syncope wave to this area (curr
 $ DV2.2.2b -- internal pretonic vowels "including *au" (now > *a per DV2.2.1C3) to schwa, some of these to fall soon. "These reductions also affected the oldest layers of loanwords from Middle Greek, Italian, and Slavic" -- so will be repeated later just after the point for Old Northern Tosk Albanian. 
 $DIACLEA CORRECTIONS  : not for back or low (C1b.VIII, including low given brightening relocdation per A1.V) countertonics, or (C1.B.XIIIb) unstressed long vowels (in practice, mostly countertonic) not reduced to ə by DV2.2.2b. 
 $ pre dec 7 vsn of first part 
-[-prim,-back,-long,-lo] > ə / @ __ (@)* [+prim]
-$ TODO NAME THIS as of Dec 7 this is now restricted to internal vowels except u before sonornats. TODO below
-$[-prim,-back,-long,-lo] > ə / [+syl] (@)* __ (@)* [+prim]
-[-stres,-long] > ə / @ __ (@)* [+prim]
+$[-prim,-back,-long,-lo] > ə / @ __ (@)* [+prim]
+$ TODO NAME THIS as of Dec 7 this is now restricted to specific situations: 
+	$ short pretonic internal vowels other than u reduced. Only likely counterexamples are likely analogy: kuv(e/ə)ndoj, shigetar as shigjetë-tar. U also reduced except in  {[+cor,-son,-strid];[-cor]} Cson C* ˈV 
+[-prim,+front,-long,-lo] > ə / [+syl] (@)* __ (@)* [+prim]
+[-prim,+back,-lo,-hi,-long] > ə / [+syl] (@)* __ (@)* [+prim]
+[-prim,+round,+hi,-long] > ə / [+syl] (@)* [+cor,rson,-rstrid] __ (@)* [+prim]
+[-prim,+round,+hi,-long] > ə / [+syl] (@)* __ [βcons,-βson] (@)* [+prim]
+	$reduction of low voweles - unstressed. TODO NAME
+[-stres,+lo,-long] >  ə / @ __ (@)* [+prim]
+$ obsolete below
+$ [-stres,-long] > ə / @ __ (@)* [+prim]
+	$reduction in m/l/r __ Cson,-front (@)* [+prim] . TODO NAME
+[-prim,+front,-long] > ə / [+cons,+son,mnas,mlab] __ [+cons,+son,-front] (@)* [+prim]
+	$ TODO NAME THIS: lengthening of e in b,v __ l  -- velenxë, Belbicë ; but plengë , lso dëliroj , shëllij, shëllinë . Too specific, not done. 
+	$ TODO NAME THIS ˌɛ lengthens between lab (son) __ t ˈV and p __ obs (C) ˈV 
+$ˌɛ > ˌɛː / [+lab,+cons] __ t [+prim]
+$ˌɛ > ˌɛː / p __ [-son] ([+cons]) [+prim]
+	$TODO NAME HTIS post non-dorsals -- reduction (for non-long, non-round,non-low) in C-hi,-son __ Cson,-nas. Actually, in fact, the same happens for non-sonorants too. 
+[-prim,+front,-lo,-long] > ə / [-son,-hi] __ [+son,+cons,-nas] (@)* [+prim]
+$[-prim,+front,-lo,-long] > ə / [-son,-hi] __ [+cons,-nas] (@)* [+prim]
+		$ TODO NAME THIS : and for non-low  before N cont ː fjeshtër, shënoj, vërer, tmerr, shtëroj
+[-prim,+front,-lo,-long] > ə / [-son,-hi] __ [+nas,+cons] ([+cont] (@)*) [+prim]
+		$ TODO NAME HTIS for low vowels: reduced in lab,cont __ Cson: vlej, vlerë, vjej, fërroj, fërratë , and p __ Lat: pleng, plengë, pëllumb, pëllas, -- but not parmend, parriz, përparoj -- nor tsalik tsaruqe 
+[+lo,-prim,-long] > ə / [+lab,-son,+cont] __ [+cor,+son] (@)* [+prim]
+[+lo,-prim,-long] > ə / p __ [+lat] (@)* [+prim]
+	$ TODO NAME THIS dorsals: only in # __ Cson,-long (t/n) ˈVː ɟˌɛmˈɔɲɔ > gjëmoj , cˌɛrtˈɔɲɔ : qërtoj , kˌarːjˈoʃu - qëroz, cˌɛrˈɔɲɔ : qëroj ; qëlloj; glasë ; kllandë; kllogjër ; 
+[-prim,+front,-long] > ə / # [-son,+hi] __ [+son,+cons] ([+cor]) [+prim]
+
+
+
 
 $ DV4.1B3 & Bonnet 1998:193 -- *Tosk* insertion of b between m and unstressed vowels
 $ DIACLEA CORRECTION C3B.XXI: the places this actually correctly happens seem to be before laterals, and not word initially. 
@@ -1256,7 +1285,7 @@ $[-prim] > [+hi,+tense,+back,+round,+lab,-lo,-front] / [-prim,+hi,+back,+round] 
 [-prim] > [uhi,utense,+back,+round,+lab,-lo,-front] / @ [-prim,uhi,+round] [+lat] __
 [-prim] > [uhi,utense,+back,+round,+lab,-lo,-front] / @ [-prim,uhi,+round] r ([-cor,+cons]) __ @
 [-prim] > [uhi,utense,+back,+round,+lab,-lo,-front] / @ [-prim,uhi,+round] [+nas,+cons] [+cons,-cor] __ @
-
+	
 
 $ ------- secondary cluster formation---------------
 

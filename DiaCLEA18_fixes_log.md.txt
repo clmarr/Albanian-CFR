@@ -197,6 +197,7 @@ A2.V -- yod deleted after palatals and postalveolars in Late Proto-Albanian.
 A2.VI -- final nasal sequences not starting in n resolve in favor of the first element: scamnum > ... >> shkëmb, stamnum > ... > (Gheg?) shtam, damnum > ... > dëm, pignus > ... > peng, terminum > *tjɛrəmənə > tjermn (cf. A1.I) > ... > qerm, signus (insignē?) > ... > sheng. There seems to be an alternate outcome for mn in -më, and for ŋn in -ɲə (një), but the conditions are unclear except that it only happens after vowels, and this is not implemented for now (exāmen > shemë, flāmen (or flāminem?) > flamë, dignus > denjë...) 
 
 A2.VII -- two rounds of pretonic nasal cluster simplification. Pretonically, nasal sequences resolve to the second element, and at least in the case of /n/, a long variant is what emerges -- sign-āre > shënoj, cognatus > kunat, damn-āre > dënoj, communic-āre > kungoj, carminare > karmini-ā- > kernjoj
+	.m special handling for m-initial clusters: resolve to m if before unround vowel; otherwise follow general pattern
 
 A2.VIII -- o and o: > u when unstressed, and before (r) nasal (unstresesd vowel) stop in Ealry Proto-Albanian, largely shared with Vlacho-Romance. Before June 2024, was stipulated as before non-palatal sonorants in pre-penultimate syllables, with some finer grained distinctions, the only which that is retained is the raising before l, in a modified form (A2.VIIIa). Occurs after gliding and the formation of ɲ and ʎ.
 
@@ -983,8 +984,11 @@ A2.CI -- monophthongizations in -uar > -or, -ar
 		bˌiːnˈɑːrium	bˌĩːɲˈuo̯ɾ					binjar
 		fˌuskinˈɑːrium	fˌuʒɲˈuo̯ɾ					fuznjar
 		
-
-
+A2.CII 
+	.1 LPA III deletion of unstressed item between initial homorganic consonants.
+	.2 Proto-Tosk deletion of internal unstressed nonconsonantal vowel between homoorganic consonants. Does not bleed k >g phenomena. 
+	.cc -- later deletion of first element of homorganic clusters, for both cases
+		
 # B Rule relocdations
 
 Rules that were moved to different points in the cascade. 

@@ -419,6 +419,8 @@ x > h
 k > ɡ / # __ [-prim,+back,+hi] [+cor] [-prim,-back,-front]
 k > ɡ / # __ ( [-prim,-back,-front] ) [+lat] [-cont]
 k > ɡ / # __ ( [-prim,-back,-front] ) [+cor] [-voi,-lab,-hi]
+[-stres,-cons] > ∅ / [dcor,blab,tson,nnas,llat,scont] __ [dcor,blab,tson,nnas,llat,scont]
+[+cons,dcor,llat,blab,scont,nnas,rson] > ∅ / __ [+cons,dcor,llat,blab,scont,nnas,rson]
 [+strid,+cor] > [-cont,+delrel,+cons,0tense] / [+lat] __ #
 [+strid,+cor] > [-cont,+delrel,+cons,0tense] / [+lat] __ [-cons]
 [+strid,+cor] > [-cont,+delrel,+cons,0tense] / k ( [+syl,aback,afront] ) [-cont,+son] __ #

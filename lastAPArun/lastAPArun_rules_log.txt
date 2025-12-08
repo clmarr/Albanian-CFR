@@ -363,8 +363,12 @@ l > lˠ / [+stres,-front,-hi] __ [-son,βvoi,βcont] #
 j > ∅ / [+front,+cons] __
 ∅ > k / [-voi,+cor,+strid] __ [+lat]
 [+hi,-round,-tense,+nas] > [+tense,+lo,-hi,-cons,-lat,+cont,0delrel] 
-[+hi,-round,-tense] > [-hi] / __ [+cons] ɪ
-[+hi,-round,-tense] > [-hi] / __ r
+[+hi,-round,-tense] > [-hi,+stres,+syl,+son] / __ [+cons] ɪ
+[+hi,-round,-tense] > [-hi,+stres,+syl,+son] / __ r
+[-stres] [-syl] [-stres] > ∅ [-syl,0stres,0prim] ∅/ @ [+cons] [+cons] __ [+cons] [+prim]
+[-stres] > ∅ / __ [-cont,-son] [-stres] #
+[-stres] > ∅ / # [+cons] [-stres] [+cons] __ [+cons] ( @ )* [+prim]
+[-stres] > ∅ / [+nas,+cons] [+cons] [-stres] [+cons] __ [+cons] ( @ )* [+prim]
 [+lab,-syl] > m / [+back] ( [+son,+cor] ) __ [+nas,+cons] [+stres]
 [+lab,-son] [+nas,+cons] > mː
 [-cont,-cor] > ∅ / __ [+nas,+cons]

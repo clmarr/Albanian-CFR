@@ -1703,7 +1703,21 @@ $DIACLEA CORRECTION A2.LXXIII LPA III ɪ̃ > Tosk ã (S Gheg ɛ̃, N Gheg ã, 
 
 $DIACLEA CORRECTION A2.LXXII.ɪ -- LPA III ɪ > ɛ / __ C ɪ. However, this may actually just be that the relevant words are later loans from Bulgarian; caution is warranted here. 
 $DIACLEA CORRECTION A2.LXXII.r LPA III ɪ > ɛ before r like above, at least for stressed (countertonic or tonic) variants
-[+hi,-round,-tense] > [-hi] / __ {[+cons] ɪ;r}
+[+hi,-round,-tense] > [-hi,+stres] / __ {[+cons] ɪ;r}
+
+
+$DIACLEA CORRECTION A1.XXX.3 deletion of both unstressed V1 and V2 - C C V1 C1 V2 C2 ˈV
+[-stres] [-syl] [-stres] > ∅ [-syl] ∅ / @ [+cons] [+cons] __ [+cons] [+prim] 
+
+$DIACLEA CORRECTION A1.XXX.1 deletion of first unstressed element in V1-stres T V2 #
+[-stres] > ∅ / __ [-cont,-son] [-stres] #
+
+
+$DIACLEA CORRECTION A1.XXX.2 deletion of second element in #/N C V1-stres C V2-stres C (@)* ˈV
+[-stres] > ∅ / {#;[+nas,+cons]} [+cons] [-stres] [+cons] __ [+cons] (@)* [+prim] 
+
+
+
 
 $DIACLEA CORRECTION A2.LXXXXI LPA III nasal cluster simplifications -- seem pan-Albanian in nature
 	$A2.LXXXXI.wn -- asyllabic labials > m in a/o{/lˠ?} {R/L} __ n ˈi. Using [+back] for context. Bleeds .Bn, feeds .nn {goes to n: > n}:  Slav I ɡˌɒlwɪnˈikʊ > ɡ{lˠɑ/ɑlˠ}Bnˈik > gllanik, Slav II ɡlˌɑβɪnˈit͡sɑ > glaβnitsa > gjanicë ; pˌɒmɪnˈitɪ  > pˌɔmnˈit > ponit. Not after front: plˌɛβɪnˈit͡sɑ > plevicë not plenicë. The clear out of domain cases are either not after a back segment {wˌɪrbɪnˈikʊ >wəɾbnˈik > vërmik}  is simply before non-stressed vowel {dɾˈɔbnit͡sɑ > Dromcə, skɾˈɔvnɑ > Skromə}...  tho so just condition on stress -- no data yet for +stres,-prim]. 
@@ -1725,7 +1739,7 @@ $DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced asyllabic conson
 $DIACLEA FIX C1B.VI: doesnt happen before coronals as there are exceptions for at least /l/ and /n/ {Dëshnicë, Plashnik, Bishnicë, Leshnice}. Happens before g  ː riʒgɔj vəʒgɔj. Probably m -- prozhëm prozhmoj krezhëm krezhmoj vs dëshmoj. Would be challenging with ɲː fuʒɲə fuʒɲar  vs viʃɲə lɛʃɲə. However Vishnjë and Leshnjë stand alone as later Slavic loans, and testimoniare could have later time of coalescence -- təʃtəmɲɔ́ɲ with mɲ > mː. Therefore DIACLEA CORRECTION B2.XVII -- DV4.1U2 ʃ voicing assimilation moved to before second Slavic wave's yers fall -- thus counterfed bz A1.XXII.2. The context diff is acutally a time diff. This is the zone that is not quite pan-Albanian anymore though: note Budi's fushqinë for fuzhnjë, as well as attested doublets like rishgoj/rizhgoj, vëshgoj/vëzhgoj etc. 
 ʃ > [+voi] / __ [+cons,+voi,-cor] 
 
-$DIACLEA CORRECTION A1.XXII.2 unstressed yers fall in second wave in time to feed lk > ʎk phenomenon (bælʊka >bejkë). Also bleed LPA l-darkeningː sovadlʊka > sovajkë not sovallkë; zabælʊ > zabel not zabell, etc.
+$DIACLEA CORRECTION A1.XXII.2 remaining unstressed yers fall in second wave in time to feed lk > ʎk phenomenon (bælʊka >bejkë). Also bleed LPA l-darkeningː sovadlʊka > sovajkë not sovallkë; zabælʊ > zabel not zabell, etc.
 [+hi,-tense,-stres,-cons] > ∅
 
 $DIACLEA CORRECTION A2.LXXXXVIII.2 -- recurrence of j loss in LPA II before all i-like segments, regardless of prior context, this time AFTER yer loss. 

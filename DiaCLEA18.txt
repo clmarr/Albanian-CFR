@@ -940,20 +940,21 @@ $DIACLEA CORRECTION A2.LIV LPA I early flapping and nasalization in V-prim n V-s
 $ DV2.2.2a -- APHAERESIS BLOCK
 $ DIACLEA CORRECTION B2.XII -- aphaeresis block relocdated back from Late Proto-Albanian I into Middle Proto-Albanian I to precede β/w merger (ablev-ā- > blej, but awlona > vlorë); the relevant words indicate there is a difference between the first Slavic layer nad some relevant phenomena.
 
-$ DIACLEA FIX C1.B.XVI -- aphaeresis blocked by lengthening for round vowel.  
+$ DIACLEA CORRECTIOn C1.B.XVI -- aphaeresis blocked by lengthening for round vowel.  
 [-prim,+round] > [+long] / # __ [-lab]
 
 $DIACLEA CORRECTION A2.LV lengthening to block aphaeresis for low vowels in... # __ [+cor,anas,-acont,-lat] , EXCEPT if it is also __ C C ˈV
 [+lo] > [+long] / # __ [+cor,anas,-acont,-lat] (([-syl])* [-prim] ([-syl])*)* [+prim]
 
 $ DV2.2.2a -- APHAERESIS -- in absolute initial position, all vowels reduce to schwa, on their way to zero (except in __ RC in Buzuku) 
-$ DIACLEA FIX C1.B.XIII -- long vowels are not reduced.
-$ DIACLEA FIX C3A.8 -- aphaeresis now happens regardless of whether a consonant or nonconsonantal comes afterward
+$ DIACLEA CORRECTION C1.B.XIII -- long vowels are not reduced.
+$ DIACLEA CORRECTION C3A.8 -- aphaeresis now happens regardless of whether a consonant or nonconsonantal comes afterward
+$ tempting to have this only happen if there is a later stressed vowel, but tradeoff between two somewhat dubious etyma: eccum > kë vs. et > e.
 $ TODO FOR DIA consider suppressing the Buzuku rule here. 
 [-prim,-long,-cons] > ∅ / # __
 ∅ > ə / # __ [+son,+cons] [+cons]
 
-$ DIACLEA FIX D3.XII -- INCORPORATING aw > a: here too now. per DIACLEA FIX C1.B.XVII -- no more for non-low back vowels here.
+$ DIACLEA CORRECTION D3.XII -- INCORPORATING aw > a: here too now. per DIACLEA FIX C1.B.XVII -- no more for non-low back vowels here.
 [+lo,+syl] [efront,aback,-cons,-syl] > [alo,aback,efront,+long] ∅ / __ [+cons]
 [+syl,αround,αtense,-back] [-syl,-cons,+front,+hi,+tense] > [+hi,-lo,+tense] ∅
 
@@ -987,7 +988,7 @@ $DIACLEA CORRECTION A1.XVI ː ɯ handling
 [+syl,+back,+hi,-lat] > [+round,+lab]
 
 $DIACLEA CORRECTION A2.LXXXIII -- early Late Proto-Albanian I Vw(V) coalescences . 
-$A2.LXXXIII.iu r ˈiwV > uə ? / lab/ son,-long __ Cvoi,cont -stres -- based on liberu > li:r-ë, /r/ may not be considered continuant here (ǃǃ) but incluear based on this alone
+$A2.LXXXIII.iu ˈiwV > uə ? / lab/ son,-long __ Cvoi,cont -stres -- based on liberu > li:r-ë, /r/ may not be considered continuant here (ǃǃ) but incluear based on this alone
 [+hi,+front,-round,+prim] w [-stres] > ˈɔː / {[+lab];[+son,-long]} __ [+cons,+voi,+cont] [-stres]
 $A2.LXXXIII .ɒ -- Slavic ɒ > o in such situations. Can be handled with i via alpha feats but this seems to challenge memory for some reason (11/29/2025). Furthermore, with the cases with Slavic a, context seems less constriced. Could be bled by Slavic hard yer loss (A1.XXII.ʊ) -- ravʊka > ravgë -- but this is not enough evidence. 
 ˈɒ w [+round,-stres] > ˈɔː

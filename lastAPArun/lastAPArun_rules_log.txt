@@ -269,7 +269,6 @@ d > ð / [+syl] ( [+son,-nas,+cons] ) __ [βlat,βcons]
 [-stres] [+lat] > l ə/ [+syl] ( [-syl,+voi] ) [+hi,+syl] [-voi,-cont] __
 ∅ ∅ [-voi,-cont] l > l ə [-voi] ∅/ [+hi,+syl] __ ə
 {u;ˌu} > {ə;ˌə} / [+stres] ( [-syl] ( [-stres] ) )* __ ( [-syl] )* [-voi]
-{n t;m p;n k} > {n d;m b;n ɡ} 
 θ > f / [+cons] __
 t͡ʃ > ∅ / ʃ __
 [+prim,+hi,-round] > [-hi,-tense,-cons,-lat,+cont,0delrel] / __ [-ant,+strid,-voi] [+syl] #
@@ -305,11 +304,12 @@ a j > ∅ / __ [+lo,-round,+stres,-prim] #
 [+nas,+cor] > [-long,+cont,dcor,βlab,ɣback,ðant,ɩfront,χhi,-splng,0delrel] / __ [-delrel,dcor,βlab,ɣback,ðant,ɩfront,χhi]
 [+syl] [-prim,-round,-lo] > [+long] ∅/ __ #
 [-cons] > [+nas] / __ [+nas,+cons]
-n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ [+strid,+cons]
-n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ #
 [+lab,-son,+cont] > [+strid] 
 [+strid,+cor,+voi] > d͡ʒ 
 [-ant,+distr,+delrel] > [+ant,-distr,+cont,-front,+cor,0delrel] 
+n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ [+strid,+cont]
+n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ #
+[-cont,mlab,jfront] > [+voi] / [mlab,jfront,+nas,+cons] __
 [-prim] > ə / # ( ( [-syl] )* [-prim] ( [-syl] )* )* [-syl] __ [-syl] ( ( [-syl] )* [-prim] ( [-syl] )* )* #
 ə > ∅ / [+syl] __
 ə > ∅ / __ [+syl]

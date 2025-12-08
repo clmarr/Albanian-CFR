@@ -1236,8 +1236,11 @@ $_- VOWEL DROP WAVE -_
 $ TODO: currently considering moving the initial syncope wave to this area (currently rule 35, resolving in rule 38); make a note if you do.  
 
 $ DV2.2.2b -- internal pretonic vowels "including *au" (now > *a per DV2.2.1C3) to schwa, some of these to fall soon. "These reductions also affected the oldest layers of loanwords from Middle Greek, Italian, and Slavic" -- so will be repeated later just after the point for Old Northern Tosk Albanian. 
-$DIACLEA CORRECTIONS  : not for back or low (C1b.VIII, including low given brightening relocdatio nper A1.V) countertonics, or (C1.B.XIIIb) unstressed long vowels (in practice, mostly countertonic) not reduced to ə by DV2.2.2b.
+$DIACLEA CORRECTIONS  : not for back or low (C1b.VIII, including low given brightening relocdation per A1.V) countertonics, or (C1.B.XIIIb) unstressed long vowels (in practice, mostly countertonic) not reduced to ə by DV2.2.2b. 
+$ pre dec 7 vsn of first part 
 [-prim,-back,-long,-lo] > ə / @ __ (@)* [+prim]
+$ TODO NAME THIS as of Dec 7 this is now restricted to internal vowels except u before sonornats. TODO below
+$[-prim,-back,-long,-lo] > ə / [+syl] (@)* __ (@)* [+prim]
 [-stres,-long] > ə / @ __ (@)* [+prim]
 
 $ DV4.1B3 & Bonnet 1998:193 -- *Tosk* insertion of b between m and unstressed vowels
@@ -1306,15 +1309,6 @@ $DIACLEA CORRECTION A2.XXII -- TV̯L > ləTV̯ if prior syllable has simple onse
 
 $DIACLEA CORRECTION A1.IX -- reduction of u before voiceless stops or clusters containing them. Occurs right after (and is fed by) progressive u-spreading (A2.XXI), and before post-nasal stop voicing (co(n)tentāre > kutëndoj, conventāre > kuvendoj... etc.). Not for first countertonic vowel. 
 {u;ˌu} > {ə;ˌə} / [+stres] ([-syl] ([-stres]))* __ ([-syl])* [-voi]
-
-$ post-nasal stop voicing. De Vaan attributes this to Proto-Albanian, for Latin and native words alike for -p- (DV1743.B2, .B4) and -t- (1743.D2 = 4.2D2), while treating Latin loans alone for k > g / n __ (DV1744.A1, .A3)
-	$ De Vaan's handling of /p/ is given the same time betweeen native and Latin strata, but not the
-		$ same conditioning environment. 
-	$ TODO need step to preserve Latin/non-Latin differences if this if expanded for PIE > Alb run.
-$ he handles nt > nd together for native and Latin, with the conditioning "n __ in  a pretonic or stressed syllable"; his examples also include cases where it is the coda of a stressed syllable (dhëndër, kundër), and those where it is the onset
-$ This is placed into the period before the earliest Slavic loans enter as benefit of the doubt, since that's still Proto-Albanian for De Vaan. (except by technicality the proposed precocious pre-rhotic Slavic loans, if they are considered to be a legitimate layer) 
-$ DIACLEA CORRECTION C3A.7 -- restrictions on nt > nd phenomena in De vaan (that it must be pretonic or in (hte coda, apparently) of a stressed syllable) deleted. 
-{n t;m p;n k}> {n d;m b;n ɡ}
 
 $DV4.1N (=DV1742I) OAlb f < PAlb θ / C __, including OAlb ënfle -- cf Matzinger 2006: 71 -- Matzinger, Joachim. 2006.  Altalbanische Text Mbsuame e Kreshterë (Dottrina cristiana) des Lekë Matrënga von 1592. Eine Einführing in die albanische Sprachwissenschaft. Seems to be in all dialects? 
 θ > f / [+cons] __
@@ -1514,11 +1508,6 @@ $ DIACLEA CORRECTION: this also seems to happen word finally, including after uo
 $ [+syl] > [+nas] / __ [+nas,+cons] -- BaseCLEA18 version
 [-cons] > [+nas] / __ [+nas,+cons]
 
-$ Nasal vowel + nasal consonants become simple nasal vowels at some point. This does not seem to be explicated by De Vaan 2018, but it is implicit in some examples -- gju / Gheg gjû < glun-; Gheg lĩ < līnum, fqĩ < vicīnum, frẽ < frenum. Native vocab also show a pre-sibilant coalescence (mëz/mãz, pesë/pẽsë -- unclear if that z is still an affricate or not, so just do this in terms of stridents?). So we insert that here for now. These all concern only n, so only n is used in the formulation of this rule. Given the case of ftua < cotoneum one can generously allow this to happen not just for syllabics but also after nasalized glides, or glides after a nasal vowle (however uo's nasalized incarnation ends up being realized here, it is intended to be captured with this following rule formulation) 
-$ DIACLEA TODO NOTE: after uo and perhpas a, this does not happen word finally in monosyllabic words... but there are only two examples luan and plënd. IF intend to implement it this way, use: 
-	$n > ∅ / [+syl,+nas] __ #
-	$ n > ∅ / [+syl] ([-syl])* [+syl] [-cons,+nas] __ #
-n > ∅ / [-cons,+nas] ([-cons,+nas]) __ {[+strid,+cons];#}
 
 $DV3.1A2 -- "PAlb. β" to m before "VN$". 
 $Some ambiguity of dating of this rule -- this is placed between Proto-Albanian and modern Albanian, but the wording of this rule assumes beta has emerged but has not yet passed to /v/ (all the cases listed are where beta reflects Latin /w/), and it also assumes the /n/ is still present in this ve:nsi:ca despite nasal-spirant stuff that happened quite early... unless this word was loaned in another wave? Some examination may be necessary.
@@ -1538,6 +1527,26 @@ $DIACLEA CORRECTION A2.LXII LPA I merger and coalescence of ʒ, d z, d ʒ, d͡z 
 $ dʒ and tʃ pass to z and s -- whether from PPAlb dʒ/tʃ or from reflexes of Latin loans in dj-, tj (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3)
 $ This effects also the earliest Slavic loanwords : e.g. poroçit > porosit "to request", sul "small boat" , etc. 
 [-ant,+distr,+delrel] > [+ant,-distr,+cont,-front]
+
+$ Nasal vowel + nasal consonants become simple nasal vowels at some point. This does not seem to be explicated by De Vaan 2018, but it is implicit in some examples -- gju / Gheg gjû < glun-; Gheg lĩ < līnum, fqĩ < vicīnum, frẽ < frenum. Native vocab also show a pre-sibilant coalescence (mëz/mãz, pesë/pẽsë -- unclear if that z is still an affricate or not, so just do this in terms of stridents?). So we insert that here for now. These all concern only n, so only n is used in the formulation of this rule. Given the case of ftua < cotoneum one can generously allow this to happen not just for syllabics but also after nasalized glides, or glides after a nasal vowle (however uo's nasalized incarnation ends up being realized here, it is intended to be captured with this following rule formulation) 
+$ DIACLEA TODO NOTE: after uo and perhpas a, this does not happen word finally in monosyllabic words... but there are only two examples luan and plënd. IF intend to implement it this way, use: 
+	$n > ∅ / [+syl,+nas] __ #
+	$ n > ∅ / [+syl] ([-syl])* [+syl] [-cons,+nas] __ #
+$ DIACLEA CORRECTION C3B.XXII -- prestrident nasal loss now only before continuants -- not affricates. However this is fed by t͡ʃ -- moved to after it. Bleeds post nasal stop voicing, however. 
+n > ∅ / [-cons,+nas] ([-cons,+nas]) __ {[+strid,+cont];#}
+
+$ post-nasal stop voicing. De Vaan attributes this to Proto-Albanian, for Latin and native words alike for -p- (DV1743.B2, .B4) and -t- (1743.D2 = 4.2D2), while treating Latin loans alone for k > g / n __ (DV1744.A1, .A3)
+	$ De Vaan's handling of /p/ is given the same time betweeen native and Latin strata, but not the
+		$ same conditioning environment. 
+	$ TODO need step to preserve Latin/non-Latin differences if this if expanded for PIE > Alb run.
+$ he handles nt > nd together for native and Latin, with the conditioning "n __ in  a pretonic or stressed syllable"; his examples also include cases where it is the coda of a stressed syllable (dhëndër, kundër), and those where it is the onset
+$ This is placed into the period before the earliest Slavic loans enter as benefit of the doubt, since that's still Proto-Albanian for De Vaan. (except by technicality the proposed precocious pre-rhotic Slavic loans, if they are considered to be a legitimate layer) 
+$ DIACLEA CORRECTION C3A.7 -- restrictions on nt > nd phenomena in De vaan (that it must be pretonic or in (hte coda, apparently) of a stressed syllable) deleted;
+$DIACLEA CORRECTION C1A.X: post nasal stop voicing unified to single rule with alpha features rather than input listing. Effectively this means nts  >ndz wrapped into postnasal voicing, but will hit others if they occur. 
+$DIACLEA CORRECTION B1.X -- pre-strident n-deletion moved to after  t͡ʃ , d͡ʒ >  s, z -- fed by it
+${n t;n t͡s;m p;n k}> {n d;n d͡z;m b;n ɡ}
+[-cont,mlab,jfront] > [+voi] / [mlab,jfront,+nas,+cons] __
+
 
 $DV3.1G1 : Tosk rhotacism -- "dated 800-1000 CE, Janson 1986: 190-211". 
 $ TODO NOTE FOR DIA : note that this may have to precede some vowel drops though -- note the example inimīcvs > armik (which is given by DV'18: 1739), though maybe ə was retained between n-m (note cited form anëmik)

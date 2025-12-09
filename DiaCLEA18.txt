@@ -967,7 +967,8 @@ $DIACLEA CORRECTION A2.LIX: initial m nasalizes a following non-primary-stressed
 	$ after nw > m (138 -- late in MPA I, near MPA II) : inwigilia > mëngjill  
 	$ before Slavic input: magɯla > Mëgullë (first layer), mɒtɯka > matukë 
 		$ further support for relatively early date - the doublet mëngji/magji; not mëtrik < matricus. 
-[-prim] > [+nas] / # m __ [-delrel]
+	$ tentatively, not before tonic oː mˌeɡrˈoɲo > mërgoj, mˌɛtˈoxɪo > meteh ; matrik/mëtrik not explained in this way 
+[-prim] > [+nas] / # m __ [-delrel] ([-syl])* [+syl,uhi,-ulo]
 
 $DIACLEA CORRECTION A2.XIV. Latin /s/ voices to /z/ rather than going to /ʃ/ before at least m and z (exmulgia > zmojle, crisma > krezëm, crismāre > krezmoj, exvigilāre > zgjoj, scabies >zgjebe, scoria > zgjyrë) but not /l/ (slucus > shluk). Right now maximally assume it happens before all voiced consonants. Has to happen after i-mutation (if that's source of hte voicing scabies and scoria) and the syncope ofthe -i- exvigilare. Vs. proximus > prɔzɪmu > prɔʒm̩ > prozhëm. Doesn't happen to Slavic vocab tho -- placed just before LPA I (11/26). 
 s > z / __ [+voi,+cons,-lat]
@@ -997,6 +998,9 @@ $A2.LXXXIII .eu intersonorant e rounding--  VRˈɛw(V)r/l(/z)> ˈœː . Not nece
 $deletion of w across the board except if V2 is low and V1 is not, lengthening phenomena proceed. For AVA, happens if preconsonantal.  Happens to countertonics too. 
 [+stres] w > [+long] ∅ / @ __ [-lo]
 [+stres,+lo] w > [+long] ∅ / @  __ [-stres,+lo] [-syl]
+
+$DIACLEA CORRECTION A2.CIII -- i/e/ɪ becomes j between Cback __ V and Vback=round __ Cson -- in mny places but not after œ (for tryezë, krye etc it instead feeds dipthhongizatoin by going to schwa). Feed by Vw coalescence: liber-a- > li:roj. 
+[+front,-lo,-prim,-round] > j / [-cor,uhi,-ulo,asyl] __ [+son,-asyl]
 
 $DIACLEA CORRECTION A.1 & A2.L : æ(ː?) > eː / C-strid __ C Vfront, elsewhere to a (also A1.I). Even if not long, [æ] tends to be longest vowel and this does not seem to merge with /e/ or /ɛ/ immediately assuming the raising to /i/ (/ɪ/?) phenomenon is a bit later. 
 [+lo,-tense,+syl] > [-lo,+tense,+long] / [+cons,-strid] ([-cons]) __ [-syl] [+front]
@@ -1079,11 +1083,12 @@ $DIACLEA FIX D3.X.b2 -- initial ˈɔ, and initial ˌɔ, also lengthened more bro
 $DIACLEA CORRECTION A2.LXXXVI -- (ˌ)V¹ðˈV² > V²ː  -- done by feeding established coalescence phenomenon formalized A1.XIV {in LPA I}. Doesn't happen if V2 isn't unstressed {excaudicare > shkagoj likewise mëgashtër etc, iudicata > gjykatë} or secondary stressed { adur-o- to adhuroj /adhëroj }. 
 ð > ∅ / [-prim] __ [+prim]
 
-$DIACLEA CORRECTION A1.XXVII -- before A1.XIV, i/ɪ ejects a j in hiatus with a non hi vowel 
+$DIACLEA CORRECTION A1.XXVII -- before A1.XIV, i/ɪ ejects a j in hiatus with a non hi vowel;
 ∅ > j / [+hi,+front,-round,-prim] __ [-hi,+stres]
 
-$DIACLEA CORRECTION A1.XIV -- seeding of secondary length starts to emerge -- A1.XIV just before i-mutation and loss of post-labial-continuant j, hiatus vowels with the first element countertonic has the second element attain length and countertonic stress (primary remains primary though), and the first element to schwa for now; length useful here for feeding later phenomena. 
-[+stres,-prim] [+syl] > ə [+long,+stres]
+$DIACLEA CORRECTION A1.XIV -- seeding of secondary length starts to emerge -- A1.XIV just before i-mutation and loss of post-labial-continuant j, hiatus vowels with the first element countertonic has the second element attain length and countertonic stress (primary remains primary though), and the first element to schwa for now; length useful here for feeding later phenomena. Doesn't happen if first element is long and non-low, though. 
+[+stres,-prim,+lo] > [-long] / __ [+syl]
+[+stres,-prim,-long] [+syl] > ə [+long,+stres]
 
 
 $DIACLEA CORRECTION A2.XXXIX.a length emerges for tonic and countertonic elements followed by an voiced consonantal other than m (b~β,d~ð,g,z,ʒ,r,ɾ,l,lˠ,ʎ ; n, ɲ) and then an unstressed vowel. 
@@ -1165,8 +1170,8 @@ $DIACLEA CORRECTION A2.LXXXXVIII.i -- reduction of i/ɪ like segments in obs __ 
 $DIACLEA CORRECTION A2.C -- limited progressive palatalizationǃ--  j t͡ʃ > k j -- around time of (?) (or feeding?) palatalization in LPA II 
 j [+front,+cons,+delrel] > ∅ [-cor,-delrel,+hi,-strid]
 
-$DIACLEA CORRECTION A2.LXXXXVIII.ij -- after A2.C (which bleeds it), deletion of j in Vhi __ C. Tentatively happening for uj too : fluctul-a-  > fluturoj ? 
-j > ∅ / [+hi,+syl] __ [+cons]
+$DIACLEA CORRECTION A2.LXXXXVIII.ij -- after A2.C (which bleeds it), deletion of j in I __ C. Tempting to have it happening for uj too : fluctul-a-  > fluturoj ? -- but this is probably explained otherwise.
+j > ∅ / [+hi,+syl,+front] __ [+cons]
 
 $DV4.2E & DV4.2F3 -- wave of palatalization, occurring before front vowels, including fronted former long round vowels (y, ø) but not including reduced vowels.  Absorbs /w/. 
 $ DIACLEA CORRECTION D2.II -- absorption of w in palatalizing k removed, now redundant given earlier mass -w- loss, and lack of such sequences in any contact languages since MPA.
@@ -1351,7 +1356,6 @@ $DIACLEA CORRECTION A1.IX -- reduction of u before voiceless stops or clusters c
 $DV4.1N (=DV1742I) OAlb f < PAlb θ / C __, including OAlb ënfle -- cf Matzinger 2006: 71 -- Matzinger, Joachim. 2006.  Altalbanische Text Mbsuame e Kreshterë (Dottrina cristiana) des Lekë Matrënga von 1592. Eine Einführing in die albanische Sprachwissenschaft. Seems to be in all dialects? 
 θ > f / [+cons] __
 
-
 $DIACLEA CORRECTION A2.XVII: the new ʃ absorbs following t͡ʃ
 t͡ʃ > ∅ / ʃ __
 
@@ -1445,7 +1449,7 @@ $changed to sidestep then-current input-side issues in DiaSim. TODO consider res
 $ note that -stres implies a vowel if we are using the default feature definitions and implications (as is intended for this cascade), as the feature [stres] is unspecified unless it is [+syl] 
 $DIACLEA CORRECTION C1A.V/A1.II: final -n also deleted. 
 $DIACLEA CORRECTION C2.II  non-low final vowels first to ə, in time to allow Tosk-rhotacism in V̯nV̯# but not many cases of V́nV̯#.  
-$ DIACLEA CORRECTION C1.B.XIV -- ɛ no longer deleted word finall
+$ DIACLEA CORRECTION C1.B.XIV -- ɛ no longer deleted word final
 {m;n;s} > {∅;∅;∅} / __ #
 [-stres,+round] > ə / __ #
 [-stres,+hi] > ə / __ #

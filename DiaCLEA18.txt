@@ -575,10 +575,10 @@ $ DIACLEA CORRECTION C3B.IV : in the V-stres [t] condition, the unstressed vowel
 $ DIACLEA CORRECTION B2.V -- moved. this aspect to before MPA I vowel drops of C3B.VIII
 [+back,+cons] > j / [-cons,-front] __ [-stres,+front] t
 $ second part -- prior conditioning
-$ DIACLEA CORRECTION C3B.IV* -- nasal conditioning removed here. Instead nkt > ɲt after stressed nonround (ma(n)jtë, shenjtë, strenjtë)
+$ DIACLEA CORRECTION C3B.IV* -- nasal conditioning removed here. Instead nkt > ɲt after stressed nonround (ma(n)jtë, shenjtë, strenjtë). As of Dec 1o 2o25, needs to be adjacent on one side or the other to the primary stressed vowel -- not in countertonic __ atonic as seen in the sanctu- compound words. 
 $ DIACLEA CORRECTION C3B.IV.r, b-- in hte immediate contact position (i.e. not the above, rather than merely after front vowels, iotation happens after  (C3B.IV.r) voiced coronals preceded by other coronals (perhaps across a nonprimary vowel) and (C3B.IV.b) labials on the other side of the vowel perhaps with l intervening. (formerly: [+back,+cons] > j / [+front] __ t) 
 [+back,+cons] > j / {[+lab] ([+lat]);[+cor] ([-prim]) [+cor,+cont]} [+syl] __ t
-n [+back,+cons] > ɲ / [-round] __ t
+n [+back,+cons] > ɲ / [-round,aprim] __ t [+syl,-aprim]
 
 $DIACLEA CORRECTION A1.XI.b b > beta. 
 b > β / [-cons] __ ([+son,+cons]) [+syl]
@@ -761,7 +761,10 @@ $ DIACLEA CORRECTION C3A.4: broadened to all nasals
 $[+syl] n > [+long] ∅ / __ [-son,+cont]
 [+nas,+cons] > ∅ / __ [+strid]
 
-$DIACLEA CORRECTION A2.XXIII.ɣ ː Later MPA I cluster simplification. C1 C2 C-son > C1 C-son	-- must be later than other losses. -- now placed right before marker for MPA II. Bled by A2.XIII.α (and A2.XXII.β if it exists). 
+$-----------------------Middle Proto-Albanian II---------------------
+=Middle Proto-Albanian II
+
+$DIACLEA CORRECTION A2.XXIII.ɣ ː Later MPA I cluster simplification. C1 C2 C-son > C1 C-son	-- must be later than other losses. -- now placed right after marker for MPA II. Bled by A2.XIII.α (and A2.XXII.β if it exists). 
 $TODO -- after some place assimilation has occurred iūnctus > ɟyŋt-ə . > ɟymt-ə
 $		$R T1 T2 > R T2 ː excarpt-ā- > shkartoj , canticellum > këngjel, 
 		$		culcitra > kultër 
@@ -769,6 +772,7 @@ $		$R T1 T2 > R T2 ː excarpt-ā- > shkartoj , canticellum > këngjel,
 		$		ūnctūra > yndyrë , cunct-ā- > kundoj 
 	$	C S1 S2 > C S2 ː capiss-o- > kafshoj 
 	$	S T1  T2 -- ōscit-ā- > ushtoj 
+	$ handles sanctu words as well. 
 [+cons] > ∅ / [+cons] __ [-son]
 
 $DIACLEA CORRECTION A1.XV-- reduction in # ([-son])* [-delrel,-voi] __ r ([-syl]) [+prim]... 
@@ -777,9 +781,6 @@ $DIACLEA CORRECTION A1.XV-- reduction in # ([-son])* [-delrel,-voi] __ r ([-syl]
 
 $DIACLEA CORRECTION A2.XXXXV.a right before MPA II, j > ∅ / s __ V́ 
 {j;k j} > {∅;c} / s __ 
-
-$-----------------------Middle Proto-Albanian II---------------------
-=Middle Proto-Albanian II
 
 $ much of the Christian vocab is integrated around (at, or by) this point, including kristjān-u > krishter.-ë Also cases of non-palatalization like lëpjetë likely do too. 
 
@@ -1516,9 +1517,9 @@ $DV1738, top, part 5 -- final countertonic -is, -ei (def article, msg) to >i, bu
 $DV1738, top, part 6: final -i without primary stress (effectively countertonic) > -u after velars. (but in practice this will be mainly be the (secondarily stressed?) -u of the definite masculine nominative?) 
 [+hi,+front,-prim] > [-front,+back,+round,+lab] / [+back,-cont] __ #
 
-$DIACLEA CORRECTION A2.CV  ɾ̃ V̯ {C}{C} t ɾ > ɾ / __ @+ [-delrel] ɾ  : marshtoj, depertoj . Using dummy, but phonetically reaosnable, r̥
-ɾ > ɾ̥ / ɾ̃ ([-prim]) ([-syl])* t __ 
-ɾ̃ > ɾ / __  ɾ̥
+$DIACLEA CORRECTION A2.CV movement of ɾ across t-final dental sequences via attraction to non-initial labial, coalesces with ɾ̃ to simple ɾ, deleted after nasals . marshtoj, depërtoj, qumësht, këpresh. Using dummy, but phonetically reasonable ɾ̥. Before round element -- not sanctudimitrium. 
+ɾ > ɾ̥ / {[+lab,+cons] [+syl] ɾ̃ ([-prim]);@ [+lab,+cons] [+syl]} ([-syl])* t __ [+round]
+{ɾ̃;p} > {ɾ;p ɾ} / __ [+syl] ([-syl])* t r̥
 ɾ̥ > ∅
 
 

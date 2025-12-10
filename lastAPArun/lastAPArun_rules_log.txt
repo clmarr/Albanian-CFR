@@ -103,7 +103,7 @@ h > ∅ / [+syl] __
 [+back,+cons] > j / [-cons,-front] __ [-stres,+front] t
 [+back,+cons] > j / [+lab] ( [+lat] ) [+syl] __ t
 [+back,+cons] > j / [+cor] ( [-prim] ) [+cor,+cont] [+syl] __ t
-n [+back,+cons] > ɲ/ [-round] __ t
+n [+back,+cons] > ɲ/ [-round,aprim] __ t [+syl,!aprim]
 b > β / [-cons] __ ( [+son,+cons] ) [+syl]
 r > lˠ / r [+syl] __ [+back]
 l [+cor,+voi] > lː
@@ -318,8 +318,9 @@ j [-stres] > ɛ/ [+syl] ( [-syl] )* [-lo] __ #
 {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
 a j > ∅ / __ [+lo,-round,+stres,-prim] #
 [+hi,+front,-prim] > [-front,+back,+round,+lab] / [+back,-cont] __ #
-ɾ > ɾ̥ / ɾ̃ ( [-prim] ) ( [-syl] )* t __
-ɾ̃ > ɾ / __ ɾ̥
+ɾ > ɾ̥ / [+lab,+cons] [+syl] ɾ̃ ( [-prim] ) ( [-syl] )* t __ [+round]
+ɾ > ɾ̥ / @ [+lab,+cons] [+syl] ( [-syl] )* t __ [+round]
+{ɾ̃;p} > {ɾ;p ɾ} / __ [+syl] ( [-syl] )* t r̥
 ɾ̥ > ∅ 
 [+nas,+cons] > ∅ / [+nas,+cons,-cor] __ #
 m [+nas,+cons,+cont] > mː/ __ [+syl,-round]

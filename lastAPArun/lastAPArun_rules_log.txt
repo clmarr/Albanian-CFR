@@ -297,7 +297,7 @@ j > ∅ / [-cons] __ [+hi,+front,-cons]
 [+back,+hi,-prim,-long] > [-back,-hi,0tense,-round,-lab] / [+stres] ( [-syl] ( [-stres] ) )* __ ( [-syl] )* [-voi]
 θ > f / [+cons] __
 t͡ʃ > ∅ / ʃ __
-[+prim,+hi,-round] > [-hi,-tense,-cons,-lat,+cont,0delrel] / __ [-ant,+strid,-voi] [+syl] #
+[+prim,+hi,-round,+tense] > [-hi,-tense,-cons,-lat,+cont,0delrel] / __ [-ant,+strid,-voi] [+syl] #
 ˈɛ > ˈɑ / k __ [+cor,+long,-nas,+son]
 ˈɛ > ˈɑ / [+cor,-lab,+cont] __ [+cor,+long,-nas,+son]
 [+lab,-son] > ∅ / [+lab,+cons] ( ( [+son,+cons] ) [+syl] ) __ [-son,-lab]

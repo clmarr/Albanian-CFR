@@ -998,6 +998,9 @@ $DIACLEA FIX A2.LI : first wave Slavic nasal vowels are unpacked to Vn, with ɑ 
 $DIACLEA CORRECTION A1.XVI ː ɯ handling 
 [+syl,+back,+hi,-lat] > [+round,+lab]
 
+$DIACLEA CORRECTION A2.CVII Slav layer I {to LPA I} initial tʃ to ts -- 
+t͡ʃ > t͡s / # __
+
 $DIACLEA CORRECTION A2.LXXXIII -- early Late Proto-Albanian I Vw(V) coalescences . 
 $A2.LXXXIII.iu ˈiwV > uə ? / lab/ son,-long __ Cvoi,cont -stres -- based on liberu > li:r-ë, /r/ may not be considered continuant here (ǃǃ) but incluear based on this alone
 [+hi,+front,-round,+prim] w [-stres] > ˈɔː / {[+lab];[+son,-long]} __ [+cons,+voi,+cont] [-stres]

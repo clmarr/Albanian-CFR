@@ -627,10 +627,6 @@ $DIACLEA CORRECTION A1.XII -- in earlier Middle Proto-Albanian, early loss of vo
 
 $CLUSTER PHENOMENA IN PROGRESS.
 
-$ DIACLEA CORRECTION A2.XXIII.α  [-son] s T2 > sT2 ː brōtascu > breshk, potest-ā- > pushtoj, potestātem > pushtet; trumpisc-ā- > trushkyej [this is an error. tho.] -- feeds pre-fricative nasal loss [this happens later so it can be fed later.]ǃ
-	$ also fabrica etc. cases, magistericus... 
-[-son] > ∅ / __ [+cont,-syl] [-cont,-son]
-
 $part I of DV1736.G1 / DV2.2.1L1 has PPAlb ō and Lat ō, as well as Lat o, ultimately becoming *uo before word-final {ɫ,n,r,j}. For this to happen, the ō instances cannot be fronted to ø -- as will happen to long oː otherwise. At the same time, De Vaan does not list a *ɫ in Proto-Albanian or Proto-Albanian, though its sources are clear, coming from a PAlb *lː (DV1739~3.1E), itself with identifiable Pre-Proto-Albanian and Latin sources (DV1740~3.2F, cf. also -E). Makes sense to gather these as /lː/ for now, for the baseline cascade, before this rule. The *Rl aspect of it seems to come after consonantal reductionsː see De Vaan's listing of Latin PARABOLA > përrallë for DV1740~3.2F2. 
 $note that this is not listed for the reflex of PPAlb *ā, which is currently *ɒː, but alas this item *does* get fronted to ø under i-mutation in DV2.2.1B7.
 $TODO make sure the relevant rules concerning laterals are all placed before this! -- can remove when that is done. 
@@ -711,6 +707,11 @@ $[-lo,+syl,-long] > [-tense]
 $then distinctive length is lost in vowels
 $this effectively implements: DV2.2.1A2, part of DV2.2.1A4, DV2.2.1A6, DV2.2.1B3, part of DV2.2.1B4-8, DV2.2.1B10, part of DV2.2.1C4, part of DV2.2.1E1, DV2.2.1E3, part of DV2.2.1F1 & F3. 
 [+syl] > [-long]
+
+$ DIACLEA CORRECTION A2.XXIII.α  [-son] s T2 > sT2 ː brōtascu > breshk, potest-ā- > pushtoj, potestātem > pushtet; trumpisc-ā- > trushkyej [this is an error. tho.] -- feeds pre-fricative nasal loss [this happens later so it can be fed later.]ǃ Causes compensatory lengthening for nonrounds, as seen in non-reduction for farkoj, mashtroj, , and ultimate diphthohngization for mjeshtër. Counterfeeds loss of primary length. Doesn't feed round vowel lengtheningː breshkë not bryeshkë. 
+[+syl,-round] > [+long] / __ [-son] [+cont,-syl] [-cont,-son]
+[-son] > ∅ / __ [+cont,-syl] [-cont,-son]
+
 
 $DV2.2.1A4.II -- resolving raising before "sh" (which might still be [s] in this cascade) for Latin ē and PPAlb *e in this position (earlier lengthened to feed this, now both to [e] as the short variants are now [ɛ]) 
 $TODO FOR DIA: note above that this may be more accurately captured as __ ʃj than simply __ ʃ , given eshkë, kreshmë, rrjesht and veshk. 
@@ -1080,6 +1081,12 @@ $DIACLEA CORRECTION A2.XXXXVI -- word initial oral long vowels shortened. Effect
 $A1.XX -- early fall of unstressed (non-initial-syllable) vowels before low vowels. Feeds s > t͡s phenomena. Currently suppressed.
 $[-stres] > ∅ / [+syl] ([-syl])* __ ([-syl])+ [+lo]
 
+$DIACLEA CORRECTION A2.CXI -- lengthening of countertonics in N __ cor,-delrel. Bleeds A2.CX. 
+[+stres,-prim] > [+long] / [+nas] __ [+cor,-delrel]
+
+$DIACLEA CORRECTION A2.CX.ɐT -- reduction of unround countertonic a to ɐ before stops if not after dorsals. natyrë, matukë cases bled by A2.CXI. tentatively counterfed by degemination ː sappare > shapoj 
+[+stres,-prim,+lo,-round,-nas,-long] > ɐ / [-back] __ [-cont,-voi] [+cont]
+
 $DIACLEA CORRECTION A2.XXX Middle Proto-Albanian II -- degemination of obstruents. They count as geminates if they share place of articulation and continuancy (so homorganic plosive - affricate is a geminate). Broad place of articulation considered -- labials as one category, coronals as one category, dorsals as one category. Second element is the one kept. TODO may need to move this around
 [-son,acont,blab,chi] > ∅ / __ [-son,acont,blab,chi]
 
@@ -1259,6 +1266,11 @@ $ DIACLEA CORRECTION B2.XVIII.vn -- vowel nasalization moved back to late LPA I,
 $DIACLEA CORRECTION A2.CX.ɐ LPA I reduction of unstressed non-final a across the board to ɐ, around time that final a > ɐ, which will ultimately pass to ə, surviving various deletions, resolving as ɐ > ə in LPA II or LPA III. Different behavior than final a, which goes to ə, later. TODO later consolidate these. 
 [+lo,-stres,-long,-round] > ɐ / __ (@)* [+syl]
 
+$DIACLEA CORRECTION A2.CX.BɐG countertonic a > ɐ between labials or ʃ and dorsal stop ː shëgjetëtar, shëgjetë, mëgullë, pëgërë, pëgëj, bëgatë. See fixes log for reasoning for formalisms
+[+lo,-long,-round,-prim,+stres,-nas] > ɐ / [+lab] __ [+hi,-cont] [+prim,+tense]
+[+lo,-long,-round,-prim,+stres,-nas] > ɐ / [+cor,+strid] __ [+hi,-cont]
+
+
 =Late Proto-Albanian II
 $TODO analyze shortenings...
 
@@ -1386,6 +1398,9 @@ $ DIACLEA CORRECTION C1.B.XIX -- in MPA I, aspect of DV2.2.2b.iii in having kə 
 $ DIACLEA CORRECTION C1A.IX : k>p> f phenomena now broadened to all non-coronal voiceless segments before voiceless coronals; consolidated into single rule in the process. Previously: p > k / __ t ; k > f / __ {t;s} . Not fed by ʊ > ∅ -- langʊsʊka >Lënckë not *Lëfckë, zambʊʃa > Zëmçë not Zëfckë-- so that must be afterward or, as present, this must be conditioned on following a vocoid
 [-voi,-cor] > f / {#;[-cons]} __ [-voi,+cor]
 
+$DIACLEA CORRECTION A2.CX.ðD countertonic a > ɐ  after anything not long {not r:} and before ST followed by ˈV. Can see through n after ST 
+[+lo,-long,-round,-prim,+stres,-nas] > ɐ / [-long] __ [+cont,-son] [-cont] ([+nas]) [+prim]
+
 $DIACLEA CORRECTION A2.XXII -- TV̯L > ləTV̯ if prior syllable has simple onset, it seems: (duplic-ā- > dulpëkoj, pavīcula > pylkë, radīcula > rilkë, conucula > konurkë, but mātrīcula > ndrikull). Two rules necessary per current DiaSim restriction against features in disjunctions. [-voi] in second row is a dummy/place filler. note that if other /l ə/ sequences arise, the functionality of this could be compromised. 
 [-stres] [+lat] > l ə / [+syl] ([-syl,+voi]) [+hi,+syl] [-voi,-cont] __
 ∅ ∅ [-voi,-cont] l > l ə [-voi] ∅ / [+hi,+syl] __ ə
@@ -1428,8 +1443,9 @@ $ --not near -ll- it seems so -long,-back to be safe :  maledicere > mallëkoj 
 $TODO reexamine this? 
 [+prim] > [+long] / __ [+cons,+son,-long,-back] ə [-cont,-son]
 
-$syncope aspect of DV1734.1.III implemented below; this is also DV1734.4
-ə > ∅ / [+cons,+son,-long,-back] __ [-cont,-son]
+$syncope aspect of DV1734.1.III implemented below; this is also DV1734.4. 
+$ C3B.XXIII syncope aspect of DV1734.4/.1.III needs to happen after a V C __
+ə > ∅ / [+syl] [+cons,+son,-long,-back] __ [-cont,-son]
 
 $DV1734.1.IV -- 'lengthening before nasals, liquids, sibilants'.
 $DIACLEA CORRECTION C3B.XI -- major change, remark in diss. (TODO!). C3B.XI.n Lengthening of vowels no longer occurs before nasals. C3B.XI.c lengthening 
@@ -1818,7 +1834,7 @@ $TODO move actual breaking point for LPA III here -- Slavic {and Greek?} inserti
 $DIACLEA CORRECTION A2.LXXVI._V -- unstressed vowels are deleted after relevant sonorants to feed Late Proto-Albanian syllabification. Does not happen to a medially at all, or a finally (that is a that hasn't yet been reduced already) after nasals (cermë, skromë, qazhnë) or after laterals (rraqe < rakla, sabje < sabʎe -- needs to remain a to trigger relevant phenomena). Doesn't happen to nasal vowels. 
 $ part 1 : reducing final -a to schwa to feed in relevant contexts
 [+lo,-stres] > ə / [+cons] [+son,+cons,-nas,-lat] __ #
-ɐ > ə / [+cons] [+cons] __ #
+ɐ > ə / [+cons] [+cons] __ 
 $ part 2 : deletion of unstressed final and preconsonantal medial oral vowels to feed anterior sonorant syllabification. Doesn't include the j case (ajër). Doesn't happen after nasals (well, at least not m).
 [-lo,-stres,-nas] > ∅ / [+cons] [+son,+cons,-nas] __ {#;[+cons]}
 
@@ -2031,8 +2047,8 @@ $DIACLEA CORRECTION C1B.IX -- low vowels also not mass reduced if countertonic.
 $ Jan 13 2025 -- bandaid to include also countertonics in words with no tonic tonic stress at all -- assumed to be no more than two syllables.
 $DIACLEA CORRECTION C1.B.XIIIb unstressed long vowels (in practice, mostly countertonic) not reduced to ə by DV2.2.2b.
 $DIACLEA CORRECTION B2.XI -- pretonic vowel reductions moved to before second slavic wave. Retaining post nasal deletions. Placed provisionally after s >  ʃ and t͡ʃ > s.  :$[-prim,-back,-lo,-long] > ə / @ __ (@)* [+prim]; [-prim,-back,-lo,-long] > ə / # ([-syl])* ([-prim]) ([-syl])+ __; [-stres,-long] > ə / # ([-prim])+ __
-$D4.II -- what was left of the second wave of pretonic (DV2.2.2b) reductions in terms of ə > ∅ / @ n __ [-cont] in LPA II reinterpreted as more general deletion rule
-ə > ∅ / [+nas] __ [-son,+cons]
+$D4.II -- what was left of the second wave of pretonic (DV2.2.2b) reductions in terms of ə > ∅ / N __ [-voi] {V;#} in LPA II reinterpreted as more general deletion rule
+ə > ∅ / [+nas] __ [-voi,+cons] {[-cons];#}
 
 $ DIACLEA FIX A1.XIX -- another round of voicing of (non-affricate) stops in homorganic NT clusters into Old Northern Tosk. No evidence of a distinction between (ŋ/ɲ)(k/c) tho. 
 [-delrel,ŋhi,mlab] > [+voi] / [+nas,ŋhi,mlab] __

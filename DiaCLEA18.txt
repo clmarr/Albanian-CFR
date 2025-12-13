@@ -930,6 +930,11 @@ $ For this, first, the (stressed) front mid round vowels raise as they coalesce 
 j [+front,-lo,+stres] > ∅ [+hi,+tense] / [-lab] __
 j [-hi,+syl,+stres] > ∅ [-lo,-back,+front,+tense] / [-lab] __
 
+$DIACLEA CORRECTION A2.XIV. Latin /s/ voices to /z/ rather than going to /ʃ/ before at least m and z (exmulgia > zmojle, crisma > krezëm, crismāre > krezmoj, exvigilāre > zgjoj, scabies >zgjebe, scoria > zgjyrë) but not /l/ (slucus > shluk). Right now maximally assume it happens before all voiced consonants. Has to happen after i-mutation (if that's source of hte voicing scabies and scoria) and the syncope ofthe -i- exvigilare > zgjoj, altho this case may be explained otherwise, since there is no zhg- in Alb? Vs. prozhëm which voices later, in a way that doesnt bleed s > ʃ in LPA I. Doesn't happen to Slavic vocab tho -- placed just before LPA I (11/26). {note that zgjoj does not have h-prosthesis, which does suggest a different fate than exrimare > hermoj}. 
+s > z / __ [+voi,+cons,-lat]
+
+$DIACLEA CORRECTION A2.CVIII h-prosthesis. See fixes log for justification of formalism. 
+∅ > h / # __ [-prim,-round] [+voi,+cons,-lat,-nas] ([-syl]) [+front,-prim] (@)* [+prim]
 
 $ DIACLEA CORRECTION A2.XXXXIII regressive beta-coloring for initial or soon-to-be initial front vowels, becomes round and takes backness of following vocoid, before [+lab,-son,+voi] ([-cons] ) [+voi,-syl]. Soon to be initial -- seeing through (([-son]) [-son] (([-cons] ) r )) . Maybe move after vowel falls to make this a simpler rule (or move htem before)
 $ TODO in progress!!
@@ -977,8 +982,6 @@ $DIACLEA CORRECTION A2.LIX -- POSTMIMETIC NASALIZATION: initial m nasalizes a fo
 	$ tentatively, not before tonic oː mˌeɡrˈoɲo > mërgoj, mˌɛtˈoxɪo > meteh ; matrik/mëtrik not explained in this way 
 [-prim] > [+nas] / # m __ [-delrel] ([-syl])* [+syl,uhi,-ulo]
 
-$DIACLEA CORRECTION A2.XIV. Latin /s/ voices to /z/ rather than going to /ʃ/ before at least m and z (exmulgia > zmojle, crisma > krezëm, crismāre > krezmoj, exvigilāre > zgjoj, scabies >zgjebe, scoria > zgjyrë) but not /l/ (slucus > shluk). Right now maximally assume it happens before all voiced consonants. Has to happen after i-mutation (if that's source of hte voicing scabies and scoria) and the syncope ofthe -i- exvigilare. Vs. proximus > prɔzɪmu > prɔʒm̩ > prozhëm. Doesn't happen to Slavic vocab tho -- placed just before LPA I (11/26). 
-s > z / __ [+voi,+cons,-lat]
 
 $DIACLEA CORRECTION A1.V -- ɑ > a; at end of MPA II for pre-Slavic vocab, in the middle of LPA II for Slavic vocab, for which it comes after l-darkening, which it counterbleeds (mɒgɯlɑ > Mëgullë, Second layer pɒsɯlɑ > pusullë). Originally "bandaid", but moved. Not for nasal vowels yet though, as in early LPA I they pattern with ɑ/ɒ but not a from the oral vowel cases-- see A2.LXXVI.ARA2. 
 [+lo,-round,-nas] > [+front,-back]

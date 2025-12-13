@@ -416,8 +416,9 @@ rː > r
 [+lo,-stres] > ə / [+cons] [+son,+cons,-nas,-lat] __ #
 [-lo,-stres,-nas] > ∅ / [+cons] [+son,+cons,-nas] __ #
 [-lo,-stres,-nas] > ∅ / [+cons] [+son,+cons,-nas] __ [+cons]
-[-hi,-stres] > ∅ / [+cons] __ [+son,+cons,-nas] #
-[-hi,-stres] > ∅ / [+cons] __ [+son,+cons,-nas] [+cons]
+[-hi,-stres] > ∅ / [-syl] __ [+son,+cons,-nas] #
+[-hi,-stres] > ∅ / [-syl] __ [+son,+cons,-nas] [+cons]
+[-cont,-son,-strid] ɾ > r/ # __
 [+cons,+son,-nas,-lat] > [+syl,-stres,-prim,+son] / j __ #
 [+cons,+son,-nas] > [+syl,-stres,-prim,+son] / [-son] __ #
 [+cons,+son,-nas] > [+syl,-stres,-prim,+son] / [-son] __ [+cons]

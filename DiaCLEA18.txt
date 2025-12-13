@@ -1819,8 +1819,10 @@ $ part 2 : deletion of unstressed final and preconsonantal medial oral vowels to
 [-lo,-stres,-nas] > ∅ / [+cons] [+son,+cons,-nas] __ {#;[+cons]}
 
 $DIACLEA CORRECTION A2.LXXVI.V_ -- like above, but for prior vowels. Doesn't happen to high round vowels it seems. Not having it happen before 
-[-hi,-stres] > ∅ / [+cons] __ [+son,+cons,-nas] {#;[+cons]}
+[-hi,-stres] > ∅ / [-syl] __ [+son,+cons,-nas] {#;[+cons]}
 
+$DIACLEA CORRECTION A2.CIX initial xɾ, hɾ > r 
+[-cont,-son,-strid] ɾ > r / # __
 
 $DIACLEA CORRECTION A2.LXXVI ANTERIOR SONORANT SYLLABIFICATION formation of syllabic sonorant consonants -- ɾ, r, m, n -- not ŋ ɲ, on lˠ special conditions only... so [-hi] 
 	$ prior contxt -- at least for word finally -- after j (lot for laterals it seems? TODO examine this, write about it in fixes log), p, b, g, k , t, d, ð, v, m, g, c, f --- but not after ɾ and ɾ̃, unclear if after lˠ and l, no data for r and n. Fed by A2.LXVI but not A1.XXI

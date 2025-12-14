@@ -4,7 +4,7 @@ import UTILS
 # they will be organized (quasi phonemically alphabetized) by reflex form, unless modern reflex is obsolesced,
 # ... in which case the last stage with content will be used.
 # Source language and the point from which it exists in the lexicon are marked in the comment, surrounded by
-    # the "circumfix" STAGE_CIRCUMFIX
+    # the "circumfix" : STAGE_CIRCUMFIX
 
 
 OUTPUT ="gjALex.txt"

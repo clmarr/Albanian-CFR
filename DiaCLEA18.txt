@@ -993,6 +993,9 @@ n > ɾ̃ / [-son] [-stres] __ [+prim]
 $DIACLEA CORRECTION A2.CVI post-vocalic gr metathesis 
 ɡ r > r ɡ / [+syl] __
 
+$DIACLEA CORRECTION A2.LXXVI.Tl  just before Slaivic loans enter, reduction of unround countertonics, even long ones in T L __ C, where C != r. 
+[-prim,+stres,-round] > ə / [-cont] [+lat] __ [mnas,mson,+cons]
+
 =Late Proto-Albanian I
 $ Earliest Slavic loans here; "first Slavic wave"
 
@@ -1780,6 +1783,10 @@ $DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced asyllabic conson
 $DIACLEA FIX C1B.VI: doesnt happen before coronals as there are exceptions for at least /l/ and /n/ {Dëshnicë, Plashnik, Bishnicë, Leshnice}. Happens before g  ː riʒgɔj vəʒgɔj. Probably m -- prozhëm prozhmoj krezhëm krezhmoj vs dëshmoj. Would be challenging with ɲː fuʒɲə fuʒɲar  vs viʃɲə lɛʃɲə. However Vishnjë and Leshnjë stand alone as later Slavic loans, and testimoniare could have later time of coalescence -- təʃtəmɲɔ́ɲ with mɲ > mː. Therefore DIACLEA CORRECTION B2.XVII -- DV4.1U2 ʃ voicing assimilation moved to before second Slavic wave's yers fall -- thus counterfed bz A1.XXII.2. The context diff is acutally a time diff. This is the zone that is not quite pan-Albanian anymore though: note Budi's fushqinë for fuzhnjë, as well as attested doublets like rishgoj/rizhgoj, vëshgoj/vëzhgoj etc. 
 ʃ > [+voi] / __ [+cons,+voi,-cor] 
 
+
+$DIACLEA CORRECTION A1.XXXIV Ln, Ld clusters to l: . Bled by metathesis for fllad, gllanik. Counterfed by vowel deletion for Chelnik.
+[+lat] [+voi,+cor,-lat] > lː
+
 $DIACLEA CORRECTION A1.XXII.2 remaining unstressed yers fall in second wave in time to feed lk > ʎk phenomenon (bælʊka >bejkë). Also bleed LPA l-darkeningː sovadlʊka > sovajkë not sovallkë; zabælʊ > zabel not zabell, etc.
 [+hi,-tense,-stres,-cons] > ∅
 
@@ -1817,6 +1824,7 @@ rː > ɾ / __ [+cons]
 $DIACLEA CORRECTION A2.XXXII -- LPA III dl > l j before final o, else > l . Feeds lambdacism and final -e formation
 ∅ > j / d l __ ɔ
 d > ∅ / __ l
+
 
 $DIACLEA CORRECTION A2.LXVI post-Slavic r/ɾj > rːj -- pɯrjɪ > purrë, caries > qerre, dɪbrjʊ > dibërr. Earlierː {r j;ɾ j} > {rː;rː} / # ([-syl])* [+syl] ([-syl])* __; simplified by deleting context. Hinges on ʃˌatˈʊrja > shatorre and pˌɔtˈɛrja> potere; later is only case after e, notably. 
 {r j;ɾ j} > {rː;rː}

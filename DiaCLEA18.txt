@@ -1837,6 +1837,8 @@ $ part 1 : reducing final -a to schwa to feed in relevant contexts
 ɐ > ə / [+cons] [+cons] __ 
 $ part 2 : deletion of unstressed final and preconsonantal medial oral vowels to feed anterior sonorant syllabification. Doesn't include the j case (ajër). Doesn't happen after nasals (well, at least not m).
 [-lo,-stres,-nas] > ∅ / [+cons] [+son,+cons,-nas] __ {#;[+cons]}
+[-prim,-round,-long] > ∅ / [+cons] [+son,+cons,-nas] __ [+cons]
+
 
 $DIACLEA CORRECTION A2.LXXVI.V_ -- like above, but for prior vowels. Doesn't happen to high round vowels it seems. Not having it happen before 
 [-hi,-stres] > ∅ / [-syl] __ [+son,+cons,-nas] {#;[+cons]}
@@ -2102,6 +2104,9 @@ $DV4.1V5 -- ɲ to j "often between vowels and in final position". This is a pret
 $ in final position there are two cases where it survives in ALLex : CVNEVM > kunj "spike", VĪCĪNVM > fqinj "neighbor" -- these are both after high vowels, but leave that for the Dia- cascade 
 $ DIACLEA CORRECTION A1.III -- this DOES occur word finally after i (case of vicinum > fqinj could be analogical based on the plurals) 
 ɲ > j / {[-hi];[+hi,+front]} __ #
+
+$DIACLEA CORRECTOIN A2.CXII : ʃc > sc before stressed high round vowel in modern Albː scyt, scufur
+ʃ > s / # __ c [+prim,+round,+hi]
 
 $bandaid -- loss of countertonic stress
 [-prim] > [-stres]

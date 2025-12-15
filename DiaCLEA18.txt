@@ -1837,7 +1837,9 @@ $ part 1 : reducing final -a to schwa to feed in relevant contexts
 ɐ > ə / [+cons] [+cons] __ 
 $ part 2 : deletion of unstressed final and preconsonantal medial oral vowels to feed anterior sonorant syllabification. Doesn't include the j case (ajër). Doesn't happen after nasals (well, at least not m).
 [-lo,-stres,-nas] > ∅ / [+cons] [+son,+cons,-nas] __ {#;[+cons]}
-[-prim,-round,-long] > ∅ / [+cons] [+son,+cons,-nas] __ [+cons]
+
+$DIACLEA CORRECTION A2.LXXVI..FnT -- happens -- needign vowel loss to feed it -- for unround short countertonics in CR__{f:STOP}  -- TODO NOTE unnatural class! 
+$[-prim,-round,-long,-lo] > ∅ / [+cons] [+son,+cons,-nas] __ [+cons]
 
 
 $DIACLEA CORRECTION A2.LXXVI.V_ -- like above, but for prior vowels. Doesn't happen to high round vowels it seems. Not having it happen before 

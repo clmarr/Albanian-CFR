@@ -1186,8 +1186,12 @@ $DIACLEA CORRECTION A2.LXXXV..ɛðit > ɛjt , ˈɛðit ː shpejtoj, mejtoj, shpe
 $DIACLEA CORRECTION A2.LXXXV.CðəC -- unstressed vowels after ð delete pre-obstruent/lateral regardless what's before, effectively feeding ohter parts of A2.LXXXV
 [-stres] > ∅ / ð __ {[-son];[+lat]}
 
+$DIACLEA CORRECTION A2.CXIII : before the merger of k and p before coronals {DV1744.B5} but after the stopping of single r, b & p > ð before stops. Feeds voicing in lˌupekkˈɑːtum > ... > lugat (as also in medicastrum > mëgashtër etc: A2.LXXXV..ðK)
+[+lab,-cont] > ð / [+round] __ [-cont]
+
+
 $DIACLEA CORRECTION A2.LXXXV..ðK	earlier assimilation with voicing for ðK in.. [-round,+stres] ([-syl])  __ ([-syl]) [+prim], before ð falls. Broadening seems unlikely: kavka > kafkë, lozuka -lɒzka > llaskë. etc; even with d (ǃ) -- podk'uo̯ > potkua. This rule's separate existence also can be justified in terms of bleeding the same progressive devoicing seen in these, such as potkua, which differs from what happens with the second wave of Slavic loans, which see progressive voicing from coronals {e.g. Rezhgë}. 
-[+back] > [+voi] / [-round,+stres] ([-syl]) ð __ ([-syl]) [+prim]
+[+back] > [+voi] / [alo,+stres] ([-syl]) ð __ ([-syl]) [+prim,-alo]
 
 $DIACLEA CORRECTION .yð -- long vowels lengthen for primary and secondary stressd cases stressed . However this is seems unnecessary at present bc is it handled all relative cases are counterexplained by A2.LXXXIV -- vurkollak, gjykatë, gjykoj , possibly mushtëkoj, etc. 
 $DIACLEA CORRECTION A2.LXXXV.eð -- ˈV¹ðV̯² > ˈV¹ː before an obstruent or lateral-- which now is just V1ð obstr  bc that is when A2.LXXXV.CðəC acts to feed this. Implementing other postvocalic lengthenings and deletions here too. Resolves in A2.LXXXV.ðC . Has to feed dipthongization rule D3.X.c, placed before it. Broaden? 
@@ -1210,6 +1214,17 @@ $ evidence for two separate d > ð phenomena and that htis is
 $ bled by hard yer deletion: pɒdʊkɒwʊ > potkua. 
 	$ feeds ð j > ʎ phenomena.
 d > ð / [+syl] ([+son,-nas,+cons]) __ [βlat,βcons]
+
+$DIACLEA CORRECTION D4.V.ɐæ bleeding .eCu, ɐ > ˌæ in Vfront __ . Counterfed by .eCu , also bleeds eCu if not using ɐ
+ɐ > ˌæ / [+syl,+front,-lo] ([-syl])* __
+
+$DIACLEA CORRECTION D4.V.eCu -- short round vowels after countertonic nonlow front vowels reduce to ə. Counterbled by .eCe as seen in përdëllej but also does not feed it. Therefore operates in tandem or {current policy} have it pass to ɐ
+[-prim,+back,-long,-nas] > ɐ / @ [+front,-lo,-prim] ( [-syl] )* [-syl] __ [-syl] ( @ )* [+prim]
+
+$DIACLEA COR eCE early loss of non-back vowel in ˌECT and ˌECN 
+
+[-prim,-long,-back,-lo] > ∅ / @  [+front,-lo,-prim] [-syl] {[-cont];[+nas,+cons]} __ [-syl] ( @ )* [+prim]
+
 
 $DV4.2E & DV4.2F3 -- wave of palatalization, occurring before front vowels, including fronted former long round vowels (y, ø) but not including reduced vowels.  Absorbs /w/. 
 $ DIACLEA CORRECTION D2.II -- absorption of w in palatalizing k removed, now redundant given earlier mass -w- loss, and lack of such sequences in any contact languages since MPA.
@@ -1805,6 +1820,9 @@ $DIACLEA CORRECTION A2.LXXXXI.nn -- nasal nasal clusters other than ŋɲ {.ɲ bl
 $DIACLEA CORRECTION A2.LXIV.u -- remaining stressed ʊ to u.  Rope in ɪ not covered by other rules to i here
 [+hi,+syl] > [+tense]
 
+$DIACLEA CORRECTION A2.CXIV
+[-cont] > ∅ / [+cons] __ [-son]
+
 $DIACLEA CORRECTION A1.XXVI -- LPA III cluster voicing assimilations
 [-son] > [+voi] / [+cor,-son,+voi] __
 [-son,+lab] > [-voi] / __ [-lab,-voi]
@@ -1848,7 +1866,6 @@ $ part 2 : deletion of unstressed final and preconsonantal medial oral vowels to
 
 $DIACLEA CORRECTION A2.LXXVI..FnT -- happens -- needign vowel loss to feed it -- for unround short countertonics in CR__{f:STOP}, with R not a lateral -- those are handled elsewhere. -- TODO NOTE unnatural class f and stop
 [-prim,-back,-long,+stres] > ∅ / [+cons] [+son,+cons,-lat] __ {f;[-cont]}
-
 
 $DIACLEA CORRECTION A2.LXXVI.V_ -- like above, but for prior vowels. Doesn't happen to high round vowels it seems. Not having it happen before 
 [-hi,-stres] > ∅ / [-syl] __ [+son,+cons,-nas] {#;[+cons]}

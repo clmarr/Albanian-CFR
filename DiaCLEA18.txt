@@ -1792,7 +1792,15 @@ $DIACLEA CORRECTION A2.LXXXXI LPA III nasal cluster simplifications -- seem pan-
 [-cont,-cor] > ∅ / __ [+nas,+cons]
 	$A2.LXXXXI.ɲ -- ŋɲ > ɲɟ. As formulated currently, fed by .Tn: Latin to CPA sˌɑnɡuiniˈɑːtɑ > LPA ʃˌãŋɡɲˈatə > shëngjetë , ˌinkonɡˌyːrˈɑːnioː > ə̃ŋɡɲərˈɔ̃ɲ > ngjëroj. Tentatively using any nasal ɲ cluster.
 [+nas,+cons] ɲ > ɲ ɟ
+
+$DIACLEA CORRECTION A2.LXXXXVII -- early denasalization of ã to block raising in certain conditions. Counterfed by A2.CXIV
+	$.aNV -- for stressed a; after non-coronal obstruents, possible liquid intermediary, followed by N V, or {.aNG} followed by a non coronal N{D} cluster then the word bound. {same post-non-coronal conditioning} 
+ˈã > ˈa / [-cor,-son] ( [+cor,+son] ) __ {[+nas,+cont,+cons] [+syl];[+nas,-cor,+cons] ([-cont,-cor]) #}
+	$.aCu -- stressed a, with u on the other side of hte cons cluster -- trangull, fam{b}ull, shkandull ; mendull. This one makes more sense as being from denasalization. 
+ˈã > ˈa / __ [+nas] [-cont] [+hi,+back,-lat]
 	
+$DIACLEA CORRECTION A2.CXIV LPA III cluster medial stop deletion in C T -son. Feeds DV4.1U2
+[-delrel] > ∅ / [+cons] __ [-son]
 
 $DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced asyllabic consonants to modern ʒ -- has to be before end of the fall of lenited stops (in this case β). In reality this may be morphological though, as it only seems to happen to the prefix sh- "dis, un" ; was ʃ > [+voi] / __ [+cons,+voi,-son]. 
 $DIACLEA FIX C1B.VI: doesnt happen before coronals as there are exceptions for at least /l/ and /n/ {Dëshnicë, Plashnik, Bishnicë, Leshnice}. Happens before g  ː riʒgɔj vəʒgɔj. Probably m -- prozhëm prozhmoj krezhëm krezhmoj vs dëshmoj. Would be challenging with ɲː fuʒɲə fuʒɲar  vs viʃɲə lɛʃɲə. However Vishnjë and Leshnjë stand alone as later Slavic loans, and testimoniare could have later time of coalescence -- təʃtəmɲɔ́ɲ with mɲ > mː. Therefore DIACLEA CORRECTION B2.XVII -- DV4.1U2 ʃ voicing assimilation moved to before second Slavic wave's yers fall -- thus counterfed bz A1.XXII.2. The context diff is acutally a time diff. This is the zone that is not quite pan-Albanian anymore though: note Budi's fushqinë for fuzhnjë, as well as attested doublets like rishgoj/rizhgoj, vëshgoj/vëzhgoj etc. 
@@ -1819,9 +1827,6 @@ $DIACLEA CORRECTION A2.LXXXXI.nn -- nasal nasal clusters other than ŋɲ {.ɲ bl
 
 $DIACLEA CORRECTION A2.LXIV.u -- remaining stressed ʊ to u.  Rope in ɪ not covered by other rules to i here
 [+hi,+syl] > [+tense]
-
-$DIACLEA CORRECTION A2.CXIV
-[-cont] > ∅ / [+cons] __ [-son]
 
 $DIACLEA CORRECTION A1.XXVI -- LPA III cluster voicing assimilations
 [-son] > [+voi] / [+cor,-son,+voi] __
@@ -1997,13 +2002,6 @@ $ This is actually pan-Albanian but it is placed as a PAlb to Modern Alb change 
 $ TODO consider moving it earlier, or doing away with l: entirely and instead work with dark l
 $ DIACLEA CORRECTION: deleted. Consolidated as the /l:/ stage never happens now. 
 $lː > lˠ
-
-$DIACLEA CORRECTION A2.LXXXXVII -- early denasalization of ã into Proto-Tosk to block raising in certain conditionsː 
-	$.aNV -- for stressed a; after non-coronal obstruents, possible liquid intermediary, followed by N V, or {.aNG} followed by a non coronal N{D} cluster then the word bound. {same post-non-coronal conditioning} 
-ˈã > ˈa / [-cor,-son] ( [+cor,+son] ) __ {[+nas,+cont,+cons] [+syl];[+nas,-cor,+cons] ([-cont,-cor]) #}
-	$.aCu -- stressed a, with u on the other side of hte cons cluster -- trangull, fam{b}ull, shkandull ; mendull. This one makes more sense as being from denasalization. 
-ˈã > ˈa / __ [+nas] [-cont] [+hi,+back,-lat]
-
 
 $DV3.1B2 n: to n
 $DIACLEA CORRECTION C1A.VI: expand this to the shortening of all long nasals. 

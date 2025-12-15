@@ -1363,9 +1363,9 @@ $_- VOWEL DROP WAVE -_
 $ TODO: currently considering moving the initial syncope wave to this area (currently rule 35, resolving in rule 38); make a note if you do.  
 
 $ DV4.1B3 & Bonnet 1998:193 -- *Tosk* insertion of b between m and unstressed vowels
-$ DIACLEA CORRECTION C3B.XXI: the places this actually correctly happens seem to be before laterals, and not word initially. 
+$ DIACLEA CORRECTION C3B.XXI: the places this actually correctly happens seem to be afer stressed vowels, and before unstressed followed by resonant. 
 $ DIACLEA CORRECTION B2.XVI -- DV4.1B3 & Bonnet 1998:193 -- "*Tosk* insertion of b between m and unstressed vowels" -- moved much earlier, making it possibly pan-Albanian, because it feeds progressive unstressed round vowel assimilation (A2.XXI). In Gheg, it can be assumed the mb > m, per regularly ND > N in Gheg, hence hte apperance of "Toskness" of this development. 
-∅ > b / @ m __ [-stres] [+lat]
+{m;n;ɾ̃;ŋ;ɲ} > {m b;n d;n d;ŋ ɡ;ɲ ɟ} / [-prim] __ [-stres] [+cor,+son,-nas]
 
 $DIACLEA CORRECTION A2.XXI -- progressive round unstressed vowel spreading between two unstressed syllables (u or countertonic ˌu spreading onto unstressed vowel). 
 $ bleeds A1.XX
@@ -1587,9 +1587,6 @@ $[+nas,+cons] [+nas,+cons,+cont] > ∅ [+long]
 [+cons,dcor,blab,tson,nnas,llat,scont] [+cons,dcor,blab,tson,nnas,llat,scont] > ∅ [+cons,+long]
 [+nas,+cons] [+nas,+cons,+cont] > ∅ [+long] 
 
-$DIACLEA CORRECTION A2.LVIII: n-like segments before a stop assimilates to its place of articulation and become simple nasal segments 
-	$ This happens to long nː too -- hinnicul-ā- > LPA I hinːə̯kəlˠɔ́ɲ > hingëlloj 
-[+nas,+cor] > [-long,+cont,dcor,βlab,ɣback,ðant,ɩfront,χhi] / __ [-delrel,dcor,βlab,ɣback,ðant,ɩfront,χhi]
 
 $------- continued rise of long vowels -------------
 
@@ -1802,6 +1799,11 @@ $DIACLEA CORRECTION A2.LXXXXVII -- early denasalization of ã to block raising 
 $DIACLEA CORRECTION A2.CXIV LPA III cluster medial stop deletion in C T -son. Feeds DV4.1U2
 [-delrel] > ∅ / [+cons] __ [-son]
 
+
+$DIACLEA CORRECTION A2.LVIII: n-like segments before a stop assimilates to its place of articulation and become simple nasal segments 
+	$ This happens to long nː too -- hinnicul-ā- > LPA I hinːə̯kəlˠɔ́ɲ > hingëlloj . Fed by A2.CXIV
+[+nas,+cor] > [-long,+cont,dcor,βlab,ɣback,ðant,ɩfront,χhi] / __ [-delrel,dcor,βlab,ɣback,ðant,ɩfront,χhi]
+
 $DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced asyllabic consonants to modern ʒ -- has to be before end of the fall of lenited stops (in this case β). In reality this may be morphological though, as it only seems to happen to the prefix sh- "dis, un" ; was ʃ > [+voi] / __ [+cons,+voi,-son]. 
 $DIACLEA FIX C1B.VI: doesnt happen before coronals as there are exceptions for at least /l/ and /n/ {Dëshnicë, Plashnik, Bishnicë, Leshnice}. Happens before g  ː riʒgɔj vəʒgɔj. Probably m -- prozhëm prozhmoj krezhëm krezhmoj vs dëshmoj. Would be challenging with ɲː fuʒɲə fuʒɲar  vs viʃɲə lɛʃɲə. However Vishnjë and Leshnjë stand alone as later Slavic loans, and testimoniare could have later time of coalescence -- təʃtəmɲɔ́ɲ with mɲ > mː. Therefore DIACLEA CORRECTION B2.XVII -- DV4.1U2 ʃ voicing assimilation moved to before second Slavic wave's yers fall -- thus counterfed bz A1.XXII.2. The context diff is acutally a time diff. This is the zone that is not quite pan-Albanian anymore though: note Budi's fushqinë for fuzhnjë, as well as attested doublets like rishgoj/rizhgoj, vëshgoj/vëzhgoj etc. 
 ʃ > [+voi] / __ [+cons,+voi,-cor] 
@@ -1847,7 +1849,6 @@ rː > ɾ / __ [+cons]
 $DIACLEA CORRECTION A2.XXXII -- LPA III dl > l j before final o, else > l . Feeds lambdacism and final -e formation
 ∅ > j / d l __ ɔ
 d > ∅ / __ l
-
 
 $DIACLEA CORRECTION A2.LXVI post-Slavic r/ɾj > rːj -- pɯrjɪ > purrë, caries > qerre, dɪbrjʊ > dibërr. Earlierː {r j;ɾ j} > {rː;rː} / # ([-syl])* [+syl] ([-syl])* __; simplified by deleting context. Hinges on ʃˌatˈʊrja > shatorre and pˌɔtˈɛrja> potere; later is only case after e, notably. 
 {r j;ɾ j} > {rː;rː}
@@ -2079,6 +2080,9 @@ $D4.II -- what was left of the second wave of pretonic (DV2.2.2b) reductions in 
 
 $ DIACLEA FIX A1.XIX -- another round of voicing of (non-affricate) stops in homorganic NT clusters into Old Northern Tosk. No evidence of a distinction between (ŋ/ɲ)(k/c) tho. 
 [-delrel,ŋhi,mlab] > [+voi] / [+nas,ŋhi,mlab] __
+
+$DIACLEA CORRECTION A2.CXV ː Proto-Northern Tosk mb > m in # (V) __ V̯ C-lat. Nnot in Matrenga (South Tosk) ː mbëshoj , mbëkat. Fed by A1.XIX
+b > ∅ / # ([-prim]) m __ [-prim] [+cons,-lat]
 
 $gleaned from DV1738, unstressed final -o(n) and -a(s) in loans from early Slavic, Italian and Greek are reduced to -ë
 $ TODO FOR DIA : consider retracting this just to -o, and have the passage of unstressed -a to -ë only here, as the -o > -ë phenomena in Byzantine/Bulgarian/Italian seem limited to feminines, in which it could be analogical.

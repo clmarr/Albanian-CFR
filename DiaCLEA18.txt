@@ -1204,8 +1204,8 @@ $w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
 $DIACLEA CORRECTION A2.LXXXV..ɛðit > ɛjt , ˈɛðit ː shpejtoj, mejtoj, shpejt. Arguably happens after ˈi too, before other coronals and finally, tho this is debatable {see fixes_log on this for examples}  -- still, allows for simpler rule.  Counterbled by .CðəC. Counterbled by DV2.2.2b
 ð [+front,-lo,-stres] > j / [+stres,+front,-lo] __ {[+cor];#} 
 
-$DIACLEA CORRECTION A2.LXXXXVIII.ij -- after A2.C (which bleeds it), deletion of j in I __ C. Tempting to have it happening for uj too : fluctul-a-  > fluturoj ? -- but this is probably explained otherwise. Fed by A2.LXXXV>ɛðit
-j > ∅ / [+hi,+syl,+front] __ [+cons]
+$DIACLEA CORRECTION A2.LXXXXVIII.ij -- after A2.C (which bleeds it), deletion of j in I __ C,#. Tempting to have it happening for uj too : fluctul-a-  > fluturoj ? -- but this is probably explained otherwise. Fed by A2.LXXXV>ɛðit
+j > ∅ / [+hi,+syl,+front] __ {[+cons];#}
 
 $ DV2.2.2b -- internal pretonic vowels "including *au" (now > *a per DV2.2.1C3) to schwa, some of these to fall soon. "These reductions also affected the oldest layers of loanwords from Middle Greek, Italian, and Slavic" -- so will be repeated later just after the point for Old Northern Tosk Albanian. 
 $DIACLEA CORRECTIONS  : not for back or low (C1b.VIII, including low given brightening relocdation per A1.V) countertonics, or (C1.B.XIIIb) unstressed long vowels (in practice, mostly countertonic) not reduced to ə by DV2.2.2b. 
@@ -1387,14 +1387,13 @@ $ DIACLEA CORRECTION C3B.XXI: the places this actually correctly happens to be a
 $ DIACLEA CORRECTION B2.XVI -- DV4.1B3 & Bonnet 1998:193 -- "*Tosk* insertion of b between m and unstressed vowels" -- moved much earlier, making it possibly pan-Albanian, because it feeds progressive unstressed round vowel assimilation (A2.XXI). In Gheg, it can be assumed the mb > m, per regularly ND > N in Gheg, hence the apperance of "Toskness" of this development. 
 {m;n;ɾ̃;ŋ;ɲ} > {m b;n d;n d;ŋ ɡ;ɲ ɟ} / [-prim] __ [-stres] [+cor,+son,-nas]
 
-$DIACLEA CORRECTION A2.XXI -- progressive round unstressed vowel spreading between two unstressed syllables (u or countertonic ˌu spreading onto unstressed vowel). 
+$DIACLEA CORRECTION A2.XXI -- progressive round unstressed vowel spreading between two unstressed syllables (u or countertonic ˌu spreading onto unstressed vowel). As of Dec 2o25, at least the translateral one has to be coming from a round vowel after a consonant {tullë, përrallë }; doesnt' cross long l
 $ bleeds A1.XX
-$As of  November 2025 however, much more restricted: across labials (many cases), across r ([-cor], and across ND, assimilating vowels not before nasals . TODO may actually be spurious in majority of word final cases reflecting as -ull, i.e. -ull endings that could be reflex of a former syllabic -l̩#. 
+$As of  November 2025 however, much more restricted: across short laterals (many cases), across r ([-cor], and across ND, assimilating vowels not before nasals . TODO may actually be spurious in majority of word final cases reflecting as -ull, i.e. -ull endings that could be reflex of a former syllabic -l̩#. As of Dec '25, ND aspect surpressed: not worth it. Cross ɾ one still relevant. 
 	$ previous form: [-prim] > [+hi,+tense,+back,+round,+lab,-lo,-front] / [-prim,+hi,+back,+round] ([-syl])* __
-$[-prim] > [+hi,+tense,+back,+round,+lab,-lo,-front] / [-prim,+hi,+back,+round] [+lat] __
-[-prim] > [uhi,utense,+back,+round,+lab,-lo,-front] / @ [-prim,uhi,+round] [+lat] __
-[-prim] > [uhi,utense,+back,+round,+lab,-lo,-front] / @ [-prim,uhi,+round] ɾ ([-cor,+cons]) __ @
-[-prim] > [uhi,utense,+back,+round,+lab,-lo,-front] / @ [-prim,uhi,+round] [+nas,+cons] [+cons,-cor] __ @
+$[-prim] > [+hi,+tense,+back,+round,+lab,-lo,-front] / [-prim,+hi,+back,+round] [+lat,-long] __
+[-prim] > [uhi,utense,+back,+round,+lab,-lo,-front] / [+cons] [-prim,uhi,+round] {[+lat,-long];ɾ ([-cor,+cons])} __
+$[-prim] > [uhi,utense,+back,+round,+lab,-lo,-front] / @ [-prim,uhi,+round] [+nas,+cons] [+cons,-cor] __ @
 	
 
 $ ------- secondary cluster formation---------------

@@ -629,8 +629,6 @@ $DIACLEA CORRECTION A1.XII -- in earlier Middle Proto-Albanian, early loss of vo
 	$  A1.XII.b and of i in [+back] n __ [-cont] [+back] ( communic-ā- > kungoj; manica > mëngë, manic-ā- > mëngoj, manipul-ā- > mbuloj 
 ɪ > ∅ / [+back,-cons] n __ [-cont] [+back,-cons] 
 
-$CLUSTER PHENOMENA IN PROGRESS.
-
 $part I of DV1736.G1 / DV2.2.1L1 has PPAlb ō and Lat ō, as well as Lat o, ultimately becoming *uo before word-final {ɫ,n,r,j}. For this to happen, the ō instances cannot be fronted to ø -- as will happen to long oː otherwise. At the same time, De Vaan does not list a *ɫ in Proto-Albanian or Proto-Albanian, though its sources are clear, coming from a PAlb *lː (DV1739~3.1E), itself with identifiable Pre-Proto-Albanian and Latin sources (DV1740~3.2F, cf. also -E). Makes sense to gather these as /lː/ for now, for the baseline cascade, before this rule. The *Rl aspect of it seems to come after consonantal reductionsː see De Vaan's listing of Latin PARABOLA > përrallë for DV1740~3.2F2. 
 $note that this is not listed for the reflex of PPAlb *ā, which is currently *ɒː, but alas this item *does* get fronted to ø under i-mutation in DV2.2.1B7.
 $TODO make sure the relevant rules concerning laterals are all placed before this! -- can remove when that is done. 
@@ -691,8 +689,8 @@ $DIACLEA CORRECTION A2.LXXXI -- deletion of intercountertonic n in a somewhat id
 $DIACLEA FIX A2.XXXVIII Middle Proto-Albanian I --bleeding regressive coloring , w > v between non-mid vowels and ˈE. Does not happen for b (harroj, lëroj., tabelë, tryezë < trabeza, trā). If it sees through (n), as proposed on June 20, then it also feeds n-loss and bleeds nw > m phenomenon 
 w > v / {[+lo];[+hi,+syl]} ([+nas]) __ [+front,-hi,+stres]
 
-$ DIACLEA CORRECTION A2.XXXI.b stress retraction V B-strid ˈV-hi R V; bled by w > v taverrë phenom. 
-[+syl] [+lab,-strid,+voi,-nas] [+prim,-hi] > [+prim] [+lab] [-stres] / __ [+son] [+syl]
+$ DIACLEA CORRECTION A2.XXXI.b stress retraction V B-strid ˈV-hi R Vocoid; bled by w > v taverrë phenom. 
+[+syl] [+lab,-strid,+voi,-nas] [+prim,-hi] > [+prim] [+lab] [-stres] / __ [-syl] [-cons]
 
 $ 4 NEW VOWEL SYSTEM. loss of distinctive vowel length leading to "system"
 $the following system will emerge per chart at bottom of 1736 -- filling changes not already handled before this point.
@@ -1110,7 +1108,7 @@ $DIACLEA CORRECTION A2.LXIV s in C __ C-cor goes to t͡s, blocking retraction to
 s > t͡s / [+cons] __ [+cons,-cor]
 
 
-$ DIACLEA CORRECTION A2.LIII  -- lengthening of r before initial round vowels (perhaps via a phonetic w) and before low before non-coronal cons
+$ DIACLEA CORRECTION A2.LIII  -- lengthening of r before initial non-low round vowels (perhaps via a phonetic w), and before low before non-coronal cons
 r > rː / # __ {[+lo] [+cons,-cor];[+round,-lo]}
 
 $DIACLEA CORRECTION A1.XXIV.ar-- early r > ɾ also in LPA I; tho it still happens again in LPA III. Counterbleeds A2.LIII, feeds A2.LXXVI.ARA2.
@@ -1163,7 +1161,7 @@ s > ʃ
 
 
 $DIACLEA CORRECTION D3.X.a.11/29/25 rather than diphthongization of ɔː > u, initial countertonic ɔː > uː, before it happens in what is now LPA II. 
-ˌɔː > ˌuː / # __
+ˌɔː > ˌuː / # __ [-syl]
 
 $DIACLEA CORRECTION A2.LXXXIX -- lengthening to bleed reduction to schwa via DV2.2.2b in LPA II for high front vowels in certain conditions
 	$A2.LXXXIX.k POSTDORSAL CASES {some mediated by rhotic content} and {immediately} .s post-s/ʃ cases have same posterior conditioning... 

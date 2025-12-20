@@ -654,7 +654,7 @@ $ handling now the fork in the fate of ēɲ[round] -- alternatively, could do t
 [+lo,+round] > [-front,+back]
 
 $DIACLEA FIX A2.XXXXVIII -- early MPA II shortening of long round vowels before continuant consonantal labials 
-[+round] > [-long] / __ [+lab,+cont,+cons] [-lo]
+[+round] > [-long] / __ [+lab,+cont,-syl] [-lo]
 
 $ De Vaan 1736 "1." + DV1736~A1&A3 (on Lat & PPAlb ū) + DV1735~A7&A8 (on Lat & PPAlb ō) - long back vowels fronted -- listing only the round ones and not including ɒː (incl. from PIE & AGk aː)-- in effect, he seems to mean the non-low long back vowels ones. 
 [+back,+long,+syl,-lo] > [+front,-back]
@@ -1294,8 +1294,6 @@ j > ∅ / [-cons] __ [+hi,+front,-cons]
 $ resolving D3.XIII. counterfed by A1.XXII.1.ɪ, also counterfed by formation of ðL clusters A2.LXXXV
 l > lˠ / [-cons] __ {[-front,+syl];[+lo]}
 
-
-
 $DIACLEA CORRECTION A2.LXXXV.CðəC -- unstressed vowels after ð delete pre-obstruent/lateral regardless what's before, effectively feeding ohter parts of A2.LXXXV
 [-stres] > ∅ / ð __ {[-son];[+lat]}
 
@@ -1338,8 +1336,12 @@ $DIACLEA CORRECTION A2.CXIII : before the merger of k and p before coronals {DV1
 $DIACLEA CORRECTION A2.LXXXV..ðK	earlier assimilation with voicing for ðK in.. [-round,+stres] ([-syl])  __ ([-syl]) [+prim], before ð falls. Broadening seems unlikely: kavka > kafkë, lozuka -lɒzka > llaskë. etc; even with d (ǃ) -- podk'uo̯ > potkua. This rule's separate existence also can be justified in terms of bleeding the same progressive devoicing seen in these, such as potkua, which differs from what happens with the second wave of Slavic loans, which see progressive voicing from coronals {e.g. Rezhgë}. 
 [+back] > [+voi] / [alo,+stres] ([-syl]) ð __ ([-syl]) [+prim,-alo]
 
+$DIACLEA CORRECTION A2.CXX LPA III deletion of soft yer in hiatus with ə so that it doesn't feed dipthong formation is not fed by this. 
+[+hi,-tense,-stres] > ∅ / [-hi,+son,-cons] __ 
+
 $DIACLEA CORRECTION A1.XXII.1.ɪ unstressed ɪ, ʊ > ə, ∅ for first wave Slavic and etyma inherited into LPA I after some marginal bleeding phenomena. As of Dec 17, handling this for nasalized varieties too. 
 {ɪ;ɪ̃} > {ə;ə̃}
+
 
 $TODO, EPSILON NOTE: from this point onward, De Vaan uses *e, but the difference between *e and *ɛ is not meaningful (any longer), and the gold outcomes in ALLex feature /ɛ/, so we will have to at some point move (or merge) these to/as ɛ -- probably at the end. Counterfeeds ɛ > ie though.
 $bandaid here thus inserted
@@ -1414,8 +1416,6 @@ $DIACLEA CORRECTION A2.LVI : schwa deleted in R/N m ə N (qerm, kungoj, kernjoj,
 [-back,-front,-stres] > ∅ / [+son,+cons] m __ [+nas,+cons]
 
 $ end of this wave of vowel drops _- VOWEL DROP WAVE -_
-
-
 
 $ regressive obstruent devoicing assimilation on v (< De Vaan's PAlb β < w- DV1744.B6 = DV4.2I6 -- vicinus > fqinj) but simpler to handle this way without an unnecessary β step). Can be broadened for others that this is implied for (praebyter > prift, etc)
 $ will be reversed by post-nasal stop voicing below. 
@@ -1542,6 +1542,11 @@ $ DIACLEA CORRECTION C1.B.XIV -- ɛ no longer deleted word final
 {m;n;s} > {∅;∅;∅} / __ #
 [-stres,+round] > ə / __ #
 [-stres,+hi] > ə / __ #
+
+$DIACLEA CORRECTION A2.CIX LPA III interjecting DV1738, formation of oe diphthong from uoV̯ 
+[-stres] > e̯ / [-hi,-cons,-syl,+son] __
+
+$resolution of DV1738 apocope
 [-back,-front,-stres] > ∅ / [+stres] ([-syl])* __ #
 
 $DIACLEA CORRECTION A2.CI.nar and .tar: -ˈuor > -ar in (nar) ˌV (C) N __ and (tar) C-voi ([-stres]) t __ : Both are apparently pan Albanian (bardhi shëgjetëtar etc.), earlier than the later Tosk -uar > or phenom. 
@@ -1708,7 +1713,7 @@ $o̯ > ∅ / # ˌu __
 
 $ DIACLEA CORRECTION D3.X.e -- before Late Proto-Albanian II finishes, initial uo- ye- to vɔ-, vɛ- via w . Includes primary and secondary stressed uo-. Does not rope in etymological -vo-. Apparently it's now at late LPA I going into LPA II. As of Nov 17, 2025, ie̯ > je except in all contexts except # C __ , and both ie and the round dipthhongs uo and ye undergo this prevocalically elsewhere
 $ Previously: [+round,cprim,dstres] [-syl,-cons] > w [cprim,dstres,-tense] / # __
-[wround,cprim,+stres] [-syl,-cons,-hi] > [wback,wlab,!wfront,-syl] [cprim,-tense] / {#;[-cons]} __ 
+[wround,cprim,+stres] [-syl,-cons,-hi] > [wback,wlab,!wfront,-syl] [cprim,-tense] / {[-cons];#} __ 
 [-round,+hi,cprim,+stres] [-syl,-cons,-hi] > j [cprim,-tense] / [+syl] (@)* __
 
 =Late Proto-Albanian III
@@ -2115,7 +2120,10 @@ $DV1734.3 -- loss of length in Northern Tosk (and much elsewhere except much of 
 =Old North Tosk
 $ circa 1250-- layers added after this point incl. Old Italian II, Old Venetian, Old Angevin, Byzantine II, Ottoman I, Old Serbian. 
 
-$DIACLEA CORRECTION A1.XXXIII early modern Tosk loss of ə in V Cson __ obs,  and V obs __ obs if they hae matching voicing. obs __ obs handled below. 
+$DIACLEA CORRECTION A2.CXVIII Old North Tosk ae {from oe̯} goes to modern Tosk ˈɛ  
+[+lo] e̯ > [-lo,-tense] ∅
+
+$DIACLEA CORRECTION A1.XXXIII early modern Tosk loss of ə in V Cson __ obs,  and V obs __ obs if they have matching voicing. obs __ obs handled below. 
 ə > ∅ / [-cons] [+son,+cons] __ [-cont,-son]
 
 $DIACLEA CORRECTION A1.XXXIII.gt further loss in going with obs __ obs,-voi for now, with regressive devoicing assimilation. 

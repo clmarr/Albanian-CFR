@@ -119,7 +119,7 @@ l [+cor,+voi] > lː
 [+round,+syl,-hi,-lo,+long] > [+lo] / [-cont] __ r ( [-stres] ( [+nas] ) ) #
 [+front,+lo,+round] > [-round,-lab,-lo] / [+cor] __
 [+lo,+round] > [-front,+back] 
-[+round] > [-long,-splng] / __ [+lab,+cont,+cons] [-lo]
+[+round] > [-long,-splng] / __ [+lab,+cont,-syl] [-lo]
 [+back,+long,+syl,-lo] > [+front,-back] 
 [-hi,+stres,afront] > [-back,+front,ahi,-lo] / # ( [+lat] ) __ [+lab,-syl] ( [+lab,-syl] )* ( [+son,+cons] ) [+front,-stres]
 [-hi,+stres,afront] > [-back,+front,ahi,-lo] / [-lat,-lab] ( [+lat] ) __ [+lab,-syl] ( [+lab,-syl] )* ( [+son,+cons] ) [+front,-stres]
@@ -296,6 +296,7 @@ l > lˠ / [-cons] __ [+lo]
 [+long,-hi,-lo,-tense,+prim] ∅ > [+hi,-long,+tense,-splng,-cons,-lat,+cont,0delrel] ə
 [+lab,-cont] > ð / [+round] __ [-cont]
 [+back] > [+voi] / [alo,+stres] ( [-syl] ) ð __ ( [-syl] ) [+prim,!alo]
+[+hi,-tense,-stres] > ∅ / [-hi,+son,-cons] __
 {ɪ;ɪ̃} > {ə;ə̃} 
 [+front,+syl,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
 [-back,-front,-cons] > [-syl,+tense,afront,bback,uround,ulab,0stres,0prim,-cons,-lat,+cont,0delrel] / [+hi,+syl,afront,bback,uround] __
@@ -330,6 +331,7 @@ t͡ʃ > ∅ / ʃ __
 {m;n;s} > {∅;∅;∅} / __ #
 [-stres,+round] > ə / __ #
 [-stres,+hi] > ə / __ #
+[-stres] > e̯ / [-hi,-cons,-syl,+son] __
 [-back,-front,-stres] > ∅ / [+stres] ( [-syl] )* __ #
 ˈu [-hi,-syl,-cons,+son] > ˈa/ [+stres] ( [-syl] ) [+nas,+cons] __ ɾ #
 ˈu [-hi,-syl,-cons,+son] > ˈa/ [-voi,+cons] ( [-stres] ) t __ ɾ #
@@ -369,8 +371,8 @@ n > ∅ / [-cons,+nas] ( [-cons] ) __ #
 [+syl,+prim,αlo,ɣhi,βround,ɩfront,ʊback] [+syl,αlo,ɣhi,βround,ɩfront,ʊback] > ∅ [+long,+prim,+stres,+syl,+son]
 [+syl,αlo,ɣhi,βround,ɩfront,ʊback] [+syl,+stres,αlo,ɣhi,βround,ɩfront,ʊback] > ∅ [+long]
 [+syl,+stres,αlo,ɣhi,βround,ɩfront,ʊback] [+syl,αlo,ɣhi,βround,ɩfront,ʊback] > ∅ [+long,+stres,+syl,+son]
-[wround,cprim,+stres] [-syl,-cons,-hi] > [wback,wlab,!wfront,-syl,0stres,0prim] [cprim,-tense,-cons,-lat,+cont,0delrel]/ # __
 [wround,cprim,+stres] [-syl,-cons,-hi] > [wback,wlab,!wfront,-syl,0stres,0prim] [cprim,-tense,-cons,-lat,+cont,0delrel]/ [-cons] __
+[wround,cprim,+stres] [-syl,-cons,-hi] > [wback,wlab,!wfront,-syl,0stres,0prim] [cprim,-tense,-cons,-lat,+cont,0delrel]/ # __
 [-round,+hi,cprim,+stres] [-syl,-cons,-hi] > j [cprim,-tense,-cons,-lat,+cont,0delrel]/ [+syl] ( @ )* __
 r > ɾ 
 [+round,+back,+nas,+syl] ∅ > [+hi,-lo,+tense,-cons,-lat,+cont,0delrel] m/ [+cor,-son] __ [-cont,+lab]
@@ -507,6 +509,7 @@ c > k / __ [+syl] ʃ
 b > ∅ / # ( [-prim] ) m __ [-prim] [+cons,-lat]
 {o;ɔ;a} > {ə;ə;ə} / __ #
 [+long] > [-long,-splng] 
+[+lo] e̯ > [-lo,-tense,-cons,-lat,+cont,0delrel] ∅
 ə > ∅ / [-cons] [+son,+cons] __ [-cont,-son]
 [-son,+cons] ə > [-voi] ∅/ [-cons] __ [-voi,-cont]
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]

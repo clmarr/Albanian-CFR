@@ -126,7 +126,7 @@ l [+cor,+voi] > lː
 w [+syl,αhi,αfront,-long] > ∅ [+round,+lab,+long]/ [-voi,-cont] ( [-prim] ) __
 w [+syl,αhi,αfront,-long] > ∅ [+round,+lab,+long]/ # ( [-cons] )* [+son,+cons,-nas] __
 [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
-[+nas] > ∅ / # ( [+back,-syl] ) [-prim,-lo] __ [-syl,tcons,!tcont] [-prim] ( [-syl] ) [+cor,llat,lcont] [+prim]
+[+nas] > ∅ / # ( [+back,-syl] ) [-prim,-lo] __ [-syl,tcons,!tcont,!tvoi] [-prim] ( [-syl] ) [+cor,llat,lcont] [+prim]
 w > v / [+lo] ( [+nas] ) __ [+front,-hi,+stres]
 w > v / [+hi,+syl] ( [+nas] ) __ [+front,-hi,+stres]
 [+syl] [+lab,-strid,+voi,-nas] [+prim,-hi] > [+prim,+stres,+syl,+son] [+lab] [-stres,-prim,+syl,+son]/ __ [+son] [+syl]

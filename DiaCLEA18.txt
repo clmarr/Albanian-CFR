@@ -1047,7 +1047,7 @@ $DIACLEA CORRECTION A2.LXXX.ka ː ˌɒ,ˈɒ unrounded / velar __ c-nas,-lab -nas
 $DIACLA CORRECTION A2.LXXVI.ARA ˌɒr([-stres]) > ara in velar __ labial (counterbled by x >h ), and ɔrɔ in labial/t͡ʃ __ labial/t͡ʃ (t͡ʃ unclear tho -- only two cases Çorovodë and porosit are both ambiguous) ; quality of ɒ reflex assumed to not change. Counterbled by A2.LXVII. For now realized as the insertion of an ˌa -- later it will be assimilated in rule that spreads countertonic back round vowel qualities (also apply to trubulloj, shurukoj not *shurakoj, shuguroj, ngushulloj, Rogoveckë, etc) . Stress will spread via .ARA2. 
 ∅ > ɑ / # [-cor,+cons] [+back,-hi,-prim] r __ [+lab,-syl]
 
-$ DIACLEA CORRECTION A2.LXVIII before palalization, reduction to schwa of unround countertonics in # C-nas V R/L (obstruents except coronal stops) -- TODO NOTE UNNATURAL CLASS. Needss to be in # (C) __ -- ənkˌɑrðˌulˈicjɑ > ngardhulliqe ; skˌɑrd͡ʒˈœɲɔ > shkarzej etc. 
+$ DIACLEA CORRECTION A2.LXVIII before palalization, reduction to schwa of unround countertonics in # C-nas V R/L (obstruents except coronal stops) -- TODO NOTE UNNATURAL CLASS. Needs to be in # (C) __ -- ənkˌɑrðˌulˈicjɑ > ngardhulliqe ; skˌɑrd͡ʒˈœɲɔ > shkarzej etc. 
 [-prim,+stres,-round] > ə / # [-nas,+cons] __ [+cor,+son,-nas] [-son,sstrid,scor]
 
 $DIACLEA CORRECTION A1.XXII.ʊ > ∅. Not in first LPA wave though -- doesn't feed p > f -- langʊsʊka >Lënckë not *Lëfckë, zambʊʃa > Zëmçë not Zëfckë . Word finally instead goes to ə (potkua etc.) 
@@ -1187,7 +1187,7 @@ $DIACLEA CORRECTION D4.V.ɐæ bleeding .eCu, ɐ > ˌæ in Vfront __ . Counterfed
 ɐ > ˌæ / [+syl,+front,-lo] ([-syl])* __
 
 $DIACLEA CORRECTION D4.V.eCu -- short round vowels after countertonic nonlow front vowels reduce to ə. Counterbled by .eCe as seen in përdëllej but also does not feed it. Therefore operates in tandem or {current policy} have it pass to ɐ
-[-prim,+back,-long,-nas] > ɐ / @ [+front,-lo,-prim] ( [-syl] )* [-syl] __ [-syl] ( @ )* [+prim]
+[-prim,+back,-long,-nas,-hi] > ɐ / @ [+front,-lo,-prim] ( [-syl] )* [-syl] __ [-syl] ( @ )* [+prim]
 
 $DIACLEA COR eCE early loss of non-back vowel in ˌECT and ˌECN 
 [-prim,-long,-back,-lo] > ∅ / @  [+front,-lo,-prim,+stres] [-syl] {[-cont];[+nas,+cons]} __ [-syl] ( @ )* [+prim]
@@ -1355,9 +1355,11 @@ $DIACLEA CORRECTION D3.X.d-- in partial agreement with DV2.2.1K and 1737's 5b on
 $resolving DIACLEA CORRECTION D3.X.c
 [-back,-front,-cons] > [-syl,+tense,afront,bback,uround,ulab] / [+hi,+syl,afront,bback,uround] __
 
+$DIACLEA CORRECTION A2.CXVI Late Proto-Albanian II l-darkening in {v;labial vowel}__ V-back, and in {b,p,ʃ} __ V-back. Note UNNATURAL CLASS, ʃ with labials -- β is EXCLUDED in both cases (vlerë, vlesë etc.; avlëmend -- and yet avlli). Fed by D3.X.d in terms of uə̯ > uo̯ (buollicë). 
+l > lˠ / {[+lab,+cont,vstrid,-vson];[blab,!bcor,ǃbcont] [-front,+syl]} __ [-back,-lo,-cons]
+
 $ resolving D3.X.d as per D4.III for now, exc in # C __ 
 $ˈi e̯ > j ˈɛ 
-
 $DIACLEA CORRECTION A2.LXXXV -- VðV̯C-son resolution
 $DIACLEA CORRECTION A2.LXXXV.ieð 	ie̯ðV̩ > jɛ̄  -- TODO CONSIDER BROADENING this
 ˈi e̯ > j ˈɛː / __ ð
@@ -1378,8 +1380,8 @@ $_- VOWEL DROP WAVE -_
 $ TODO: currently considering moving the initial syncope wave to this area (currently rule 35, resolving in rule 38); make a note if you do.  
 
 $ DV4.1B3 & Bonnet 1998:193 -- *Tosk* insertion of b between m and unstressed vowels
-$ DIACLEA CORRECTION C3B.XXI: the places this actually correctly happens seem to be afer stressed vowels, and before unstressed followed by resonant. 
-$ DIACLEA CORRECTION B2.XVI -- DV4.1B3 & Bonnet 1998:193 -- "*Tosk* insertion of b between m and unstressed vowels" -- moved much earlier, making it possibly pan-Albanian, because it feeds progressive unstressed round vowel assimilation (A2.XXI). In Gheg, it can be assumed the mb > m, per regularly ND > N in Gheg, hence hte apperance of "Toskness" of this development. 
+$ DIACLEA CORRECTION C3B.XXI: the places this actually correctly happens to be after stressed vowels, and before unstressed followed by resonant
+$ DIACLEA CORRECTION B2.XVI -- DV4.1B3 & Bonnet 1998:193 -- "*Tosk* insertion of b between m and unstressed vowels" -- moved much earlier, making it possibly pan-Albanian, because it feeds progressive unstressed round vowel assimilation (A2.XXI). In Gheg, it can be assumed the mb > m, per regularly ND > N in Gheg, hence the apperance of "Toskness" of this development. 
 {m;n;ɾ̃;ŋ;ɲ} > {m b;n d;n d;ŋ ɡ;ɲ ɟ} / [-prim] __ [-stres] [+cor,+son,-nas]
 
 $DIACLEA CORRECTION A2.XXI -- progressive round unstressed vowel spreading between two unstressed syllables (u or countertonic ˌu spreading onto unstressed vowel). 
@@ -1552,8 +1554,12 @@ n > ɾ̃ / [+syl,-hi] __ [+syl]
 $ TODO consider merging this with vowel drops in more elegant way. 
 ə > ∅ / __ #
 
+$DIACLEA CORRECTION A2.CXVII, counterbleeding A2.CXVI, əlˠ > ulˠ before unround stressed vowel, or, if after final ə < a apocope, any unround vowel, if not after syllable with round vowel or labial consonant. Needs to have at least one coronal {not including ʃ} consonant between his nad word onset. Does not happen if there are labial consonants beforehand -- and ʃ is treated as labialǃ -- note UNNATURAL CLASS or fix by making ʃ labial. Currently treating as fed by apocope C3B.XIV. 
+[-prim,+round,+syl] > [-back,-front,-lab,-round,-hi,0tense,-lo] / {# ([-syl,-lab])* [+cor,+ant];[-round,+syl]} ([-syl,-lab])* __ lˠ @
+
 $DIACLEA CORRECTION A2.XXIX -- final schwa insertion in etyma that end up assyllabic and stop-final (doesn't seem to happen effectively to z-, s-, zh-, sh-; unclear: n-/në-)
 ∅ > ə / # ([-syl])* [-cont,-son] __ #
+
 
 $DV1738, top, part 3: final -ja(s) to e, clearly bleeding part DV1738 part 2.
 $form prior to 8/5/23 was: j a (s) > e / __ #

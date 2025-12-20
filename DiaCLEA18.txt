@@ -440,6 +440,9 @@ $DIACLEA CORRECTION A2.XXXI.ð stress retraction across coronals :
 $DIACLEA CORRECTION A2.VIII new version -- o  raising exception when after labial-sonorant (florīnum > flori, proximare > prozhëm, prodāre > prodhoj, maybe prōmitt-o > premtoj) or onset sonorant (rosalia > rrëshajë -- albeit dialectal rrushajë, rōmānus > remër/rëmër, notoj, rozhponjë...), if the following wherein it goes to ɔ instead. Exceptions handled by falling to (ˌɔ). Use ɒ (later ɔ) for these exceptions. Not necessarily unstressed o -- daemonem > djemër not djemu/-ũ, consobrinus > kushëri not kushuri, etc. 
 [+round,-prim,-hi] > [+lo,+tense] / {#;[+lab,-son]} [+son,+cor] __
 
+$DIACLEA CORRECTION A2.XXXI.nn stress retraction across nn from antepenultimates. TODO reexamine, only two cases {tingël, hingël}, one especially prone to analogy {tingëlloj derived from tingël, or the reverse? Tinnunculus also meant kestrel, not 'ring' -- somewhat reach-y semantics...}
+[-prim] n n [+prim] > [+prim] n n [-prim,-stres] / __ ([-syl])* [+syl] ([-syl])* [+syl] 
+
 $now the actual internal non-primary o > u rule A2.VIII. Apparently doesn't happen word initially.
 [+round,-lo,-prim,+stres,-hi] > [+hi,-long] / @ __
 
@@ -1116,7 +1119,7 @@ r > ɾ
 $DIACLEA CORRECTION A2.LXXVI.ARA2 -- countertonic stress applied from ˌɑ/ˌɒ/ˌɑ̃ low back variations, across ɾ and ɾ̃, blocking this wave of vowel deletions: arëmik, murgeshë not mungeshë, marshtroj ; harabel?, porosit, rogoveckë, etc.
 [+syl] > [+stres] / [+lo,+back,+stres,-prim] [+son,-cont] __
 
-$DIACLEA CORRECTION A2.LXXI -- LPA I unstressed vowel deletions before ɲ .Fed by Middle Proto-Albanian stress retractoins in VwVɲ verbs, does not bleed new vocalic length formation in such cases (placed near ietation); does not happen to initial syllable countertonics, coming after aphaeresis to produce newly first syllable countertonics (Vlonjat). Feeds Cɲ > Cɟ phenomenon in LPA I, and LPA I cluster voicing assimilation (fuskinia > fuzhnjë etc). Comes after some mini-i-mutation (karmiɲ-a- > kerrnjoj; intiɲ-o-> ngjyej?, sanguiniata > sãɲɟɲäta > shëngetë). As of Dec 1, expanded to other prenasal deletions, of which there are many -- not targeting before [-cont,+nas] /ɾ̃/ and seemingly not for established nasal vowels tho {the ãɾ̃V phenom.},must come before a nonconsonanal. Does not feed s > ts {proximu - prozhem not proftsem} -- placed after it. @ before first [+syl] because arëmik.
+$DIACLEA CORRECTION A2.LXXI -- LPA I unstressed vowel deletions before ɲ .Fed by Middle Proto-Albanian stress retractions in VwVɲ verbs, does not bleed new vocalic length formation in such cases (placed near ietation); does not happen to initial syllable countertonics, coming after aphaeresis to produce newly first syllable countertonics (Vlonjat). Feeds Cɲ > Cɟ phenomenon in LPA I, and LPA I cluster voicing assimilation (fuskinia > fuzhnjë etc). Comes after some mini-i-mutation (karmiɲ-a- > kerrnjoj; intiɲ-o-> ngjyej?, sanguiniata > sãɲɟɲäta > shëngetë). As of Dec 1, expanded to other prenasal deletions, of which there are many -- not targeting before [-cont,+nas] /ɾ̃/ and seemingly not for established nasal vowels tho {the ãɾ̃V phenom.},must come before a nonconsonanal. Does not feed s > ts {proximu - prozhem not proftsem} -- placed after it. @ before first [+syl] because arëmik.
 $[-stres,-cons] > ∅ / [+syl] (@)* __ ɲ
 [-stres,-cons,-nas,-lo] > ∅ / [+syl] (@)* __ [+nas,+cont,+cons] [-cons]
 

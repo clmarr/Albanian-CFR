@@ -79,6 +79,7 @@ s > h / [+lo,-prim] ( [-cons,-syl] ) __ [-stres] [-son]
 [+syl] [+cor,-nas,-lat] [+prim,-long] > [+prim,+stres,+syl,+son] [+cor] [-stres,-prim,+syl,+son]/ __ [-cont,-voi] ( j ) [+syl,+hi] #
 [+round,-prim,-hi] > [+lo,+tense,-cons,-lat,+cont,0delrel] / # [+son,+cor] __
 [+round,-prim,-hi] > [+lo,+tense,-cons,-lat,+cont,0delrel] / [+lab,-son] [+son,+cor] __
+[-prim] n n [+prim] > [+prim,+stres,+syl,+son] n n [-prim,-stres,+syl,+son]/ __ ( [-syl] )* [+syl] ( [-syl] )* [+syl]
 [+round,-lo,-prim,+stres,-hi] > [+hi,-long,-splng] / @ __
 [+round,-lo,-stres] > [+hi] / __ [+son,+cor,-nas] [-stres]
 [-hi,+long,+prim] > [+round,+lab,+lo] / __ [+cons,+son] j [+round]

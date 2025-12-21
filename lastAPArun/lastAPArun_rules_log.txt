@@ -144,7 +144,8 @@ i > j / __ [+stres]
 ∅ > j / [+front,+syl] __ [-round,-hi,+syl]
 [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
 n [+lab,-syl,+voi] > m/ __ [+front,-hi,-prim]
-[+nas,+cons] > ∅ / __ [+strid]
+[-stres] > ∅ / [+prim] [+son,+cons] __ s
+[mnas,!mlat,!mfront] > ∅ / __ [+strid]
 [+cons] > ∅ / [+cons] __ [-son]
 [-prim,-hi] > ə / # ( [-son] )* [-delrel,-voi] __ r ( [+syl] ) [+prim]
 {j;k j} > {∅;c} / s __

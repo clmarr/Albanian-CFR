@@ -758,10 +758,13 @@ $DIACLEA CORRECTION A1.IV : nw (or nβ) > m before non-primary stressed front vo
 $ TODO maybe broaden this and have ɸ involved for cases like iūnctus ? 
 n [+lab,-syl,+voi] > m / __ [+front,-hi,-prim]
 
+$DIACLEA CORRECTION A2.CXXII.VRəS late MPA I after oral  resonants {m,n,ʎ seen} -after seondary or primary stress, atonic vowels before s delete via ə, bleeding i-mutation {genistra >gjeshter}. Feeds VNS> VS phenom B1.I. Happens even to low vowel {oleaster >vashter} 
+[-stres] > ∅ / [+prim] [+son,+cons] __ s
+
 $DIACLEA RELOCDATION B1.I: moved nasal-fricative phenomenon to after the pre-penultimate o/o:>u phenomena. As of June 17 -- reverted, returned to normal position. As of June 24 2024 (or 2023?), moved to right after new location of dj/tj affrication, which appears to feed this; furthermore (, lengthening aspect removed -- that was Latin internal; condition is now stridents. As of Dec 2o '25 -- moved to beginning of MPA II. 
-$ DIACLEA CORRECTION C3A.4: broadened to all nasals
+$ DIACLEA CORRECTION C3A.4: broadened to all nasals plus ʎ - - but excluding r, l {UNNATURAL CLASS!} 
 $[+syl] n > [+long] ∅ / __ [-son,+cont]
-[+nas,+cons] > ∅ / __ [+strid]
+[mnas,-mlat,-mfront] > ∅ / __ [+strid]
 
 $-----------------------Middle Proto-Albanian II---------------------
 =Middle Proto-Albanian II
@@ -999,8 +1002,10 @@ n > ɾ̃ / [-son] [-stres] __ [+prim]
 $DIACLEA CORRECTION A2.CVI post-vocalic gr metathesis 
 ɡ r > r ɡ / [+syl] __
 
-$DIACLEA CORRECTION A2.LXXVI.Tl  just before Slaivic loans enter, reduction of unround countertonics, even long ones in T L __ C, where C != r. 
+$DIACLEA CORRECTION A2.LXXVI.Tl  just before Slavic loans enter, reduction of unround countertonics, even long ones in T L __ C, where C != r. 
 [-prim,+stres,-round] > ə / [-cont] [+lat] __ [mnas,mson,+cons]
+
+
 
 =Late Proto-Albanian I
 $ Earliest Slavic loans here; "first Slavic wave"

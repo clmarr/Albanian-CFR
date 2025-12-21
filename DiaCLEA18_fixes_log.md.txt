@@ -881,6 +881,9 @@ A2.LXXXV -- VðV̯C-son resolutions -- see "hopefully final delta analysis", "de
 	before unrounding of œ in LPA II rule 230
 
 	.CðəC -- unstressed vowels after ð delete pre-obstruent/lateral regardless what's before, effectively feeding ohter parts of A2.LXXXV. TODO maybe move this around and/or broaden {merge with post w schwa deletoin? But that's later.}
+		.CðəC.ʎ for laterals, hapens if hte lateral is short {not fëlej < fall-e- etc.} and just before voewl. {tonic -- fjeshtër, vlesë, vlerë, mo-dh-lit, vlej; before atonic -- nodulus > nyell} . Needs to be immediately before {fajkua not fëlkua'}; doesn't happen after  ʃ -- shëllij, shllirë 
+		.ðəCC -- before two consonantal clusters, deletion of ɪ after ʃ {shkret} and ð {hetoj, mushtëkoj} -- i.e. coronals
+		.ðəSW -- after ð,z,β,f -- but not ʃ, ʒ -- before voiceless obstruent followed by vocoid. Deletion of yer in cases like rːˈɔʒɪkɑ > rozge comes later.
 
 	.uð trigger lengthening that bleeds DV2.2.2b LPA III vowel reduction -- rule 231
 		
@@ -1470,13 +1473,11 @@ C2.IV various LPA I front vowel reductions go to ɪ not ə
 
 C2.V git > ʎit instead of jit -- rule instead goes to ʎ, evidence from OAlb kultonj < cogitare
 
-C2.VI -- LPA II 
-
 ## C3 -- changes in context conditioning. Many things that should be in this section are in C1 though because "input" may have been interpreted broadly...
 
 ### C3A -- context made broader 
 
-C3A.1 -- the first wave of syncope between n and stops (DV2.2.2b) extended to all nasals as prior context. . Dec 17, 2025 -- extended to hit ɪ
+C3A.1 -- the first wave of syncope between n and stops (DV2.2.2b) extended to all nasals as prior context. . Dec 17, 2025 -- extended to hit ɪ. As of Dec 2o, '25, doesn't happen word initially, at least to m -- nepotia > mbesë is a potential exception for n. On the other hand mëgashtër, mëkoj
 
 C3A.2 -- first wave of syncope after nasals, seen above for DV2.2.2b/C3a.1, broadened to apply between nasals in pretonic position if there is a consonant somewhere beforehand. Dec nine 2o25 -- extended to hit ə̃ as well. Dec 17, 2025 -- extended to hit ɪ.. 
 
@@ -1538,7 +1539,7 @@ C3B.VII -- DV1743.B4 now only operates after non-initial vowels then oral resona
 C3B.VIII -- first wave of vowel drops reshaped, no longer targeting strictly posttonic elements, and now targeting the following: 
 	$ atonic (non-low) vowels in [+son] t __ k 
 			$ d excluded as it seems there are secondary -dk- clusters with voicing involved, to yet be resolved.
-	$ (β) atonic (non-low) vowels in +voi r  __ [-son,-lab] V
+	$ (β) atonic (non-low) vowels in r  __ [-son,-lab] V
 	$ non-primary (non-low) vowels in in k/g __ t/k(/d/g) V
 	$atonic (non-low) vowels in V b/p/g/k __ [-voi,-lab] 
 		$ [ɛ] as of Jan 29, 2025, another one added coming first, on the basis of cluster behavior: 
@@ -1654,6 +1655,8 @@ D1.V -- m > mb in word-final position is suppressed. Too many errors. Consider r
 D1.VI -- second round of DV2.2.2b pretonic (or rather non-posttonic) vowel reductions deleted except for limited case in first or seocnd syllables, regardless of if actually pretonic (just simply not posttonic -- cases of për, ndër). 
 
 D1.VII -- DV1740G1 deleted. 
+
+D1.VIII -- deleted schwa loss in N __ C-voi in the repeat of pretonic vowel reductions in Old North Tosk
 
 ##D2 -- rules deleted as they were redundant
 

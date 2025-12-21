@@ -191,7 +191,10 @@ s > z / __ [+voi,+cons,-lat]
 [+lo,+syl] [efront,aback,-cons,-syl] > [alo,aback,efront,+long] ∅/ __ [+cons]
 [+syl,αround,αtense,-back] [-syl,-cons,+front,+hi,+tense] > [+hi,-lo,+tense,-cons,-lat,+cont,0delrel] ∅
 [-prim] > [+nas] / # m __ [-delrel] ( [-syl] )* [+syl,uhi,!ulo]
+[+stres,-prim,-back,-long] > ɪ / # [+son,+cor,-nas,-lab] __ [+strid] [vsyl,vson]
+[+stres,-prim,-back,-long] > ɪ / [-voi] [+son,+cor,-nas,-lab] __ [+strid] [vsyl,vson]
 [+lo,-round,-nas] > [+front,-back] 
+[+stres,-prim,-back,-long] > ɪ / # [+cons,mnas,mlab,!mlat] __ [+strid] [vsyl,vson]
 n > ɾ̃ / [-son] [-stres] __ [+prim]
 ɡ r > r ɡ / [+syl] __
 [-prim,+stres,-round] > ə / [-cont] [+lat] __ [mnas,mson,+cons]

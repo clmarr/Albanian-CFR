@@ -812,6 +812,7 @@ $ DIACLEA CORRECTION D3.IX -- now w > b stuff after coronal sonorant consonants 
 $ DIACLEA CORRECTION B1.IV -- DV1744.C1 and C4 moved to beginning of Middle Proto-Albanian II. 
 w > β / {#;[+son,+cor]} __
 
+
 $ DV1744.E4 -- Latin d becomes edh after r (as with PPAlb d -- DV1744.E2) , will later be recurrent as phonotactic rule in Slavic 
 $DIACLEA CORRECTION C3A.9 -- on the basis of later outcomes with Slavic etyma inserted, expanded to more typical leniting contexts ː post-oral-sonorant, before lateral or non-consonant (j ː ogradja > ograjë). First, pre-Slavic, phenomenon does not have this happen after vocoids (clearly not w ː lawdem > lavd); no reason to assume Slavic layer is different -- however on 11/29 this is usurped as lavd is assumed to be a later loan. 
 $ DIACLEA CORRECTION A1.XI.d -- this is placed in  MIDDLE PROTO-ALBANIAN LENITION of d  to delta, post oral sonorant and pre vocoid, settinɡ staɡe for their later loss. As of 6/27/25, decoupled from b to beta -- appears to be blocked by betacism of w. 
@@ -943,6 +944,9 @@ j [-hi,+syl,+stres] > ∅ [-lo,-back,+front,+tense] / [-lab] __
 $DIACLEA CORRECTION A2.XIV. Latin /s/ voices to /z/ rather than going to /ʃ/ before at least m and z (exmulgia > zmojle, crisma > krezëm, crismāre > krezmoj, exvigilāre > zgjoj, scabies >zgjebe, scoria > zgjyrë) but not /l/ (slucus > shluk). Right now maximally assume it happens before all voiced consonants. Has to happen after i-mutation (if that's source of hte voicing scabies and scoria) and the syncope ofthe -i- exvigilare > zgjoj, altho this case may be explained otherwise, since there is no zhg- in Alb? Vs. prozhëm which voices later, in a way that doesnt bleed s > ʃ in LPA I. Doesn't happen to Slavic vocab tho -- placed just before LPA I (11/26). {note that zgjoj does not have h-prosthesis, which does suggest a different fate than exrimare > hermoj}. 
 s > z / __ [+voi,+cons,-lat]
 
+$DIACLEA CORRECTION A2.I.dj TENTATIVE ʎ > ðj dissimilation if there is an l later in the word; feeds A2.LIX postmimetic nasalization for mënjollë; counterfeeds assibilation of dj. Counterfeeds i-mutation.
+ʎ > ð j / __ (@)* [+lat]
+
 $DIACLEA CORRECTION A2.CVIII h-prosthesis. See fixes log for justification of formalism. 
 ∅ > h / # __ [-prim,-round] [+voi,+cons,-lat,-nas] ([-syl]) [+front,-prim] (@)* [+prim]
 
@@ -954,7 +958,7 @@ $DIACLEA CORRECTION A2.XIII: before diphthongization/ietation (of the round elem
 [+front,+round] > [-front,+back] / [-front] __ [+nas,-lab,-back]
 	$TODO: however, note that of hte 13 cases here (not counting arsye which ends up fronted otherwise), 3 are cases where the fronting would be due to i-mutation that could be blocked by labials ( cāpōnem > kapua, pāvōnem > pallua, timōnem > timua), 1 is probably in a later layer (īconem > korë), 3 are possibly velars bleeding i-mutation (falcōnem drancōnem lacōnem > fajkua, drangua, lëkua), and one has an apparent resuffixation (rōsupōne > rozhponjë). Of the remainder, only leōnem is originally with [ˈo] at this stage; the mere four  that remain (immūne > mu , luntrem > lundër, sanguisungia > shushunjë, axungia > ashunjë) are all with u. Consider reformulating this. 
 
-$TODO NOTE FOR DIA: although phonemic nasalization is assigned a later point in the relative chronology (DV1737, number 8), it may be necessary here at least for /e/ and/or /ɛ/, to block ietation and allow the merger of DV2.2.1K with DV2.2.1L1 & DV2.2.1M (aka the merger of 5b.1 with 5b.2 and 5b.3)
+$TODO NOTE FOR DIA: although phonemic nasalization is assigned a later point in the relative chronology (DV1737, number 8), it may be necessary here at least for /e/ and/or /ɛ/, to block ietation and allow the merger of DV2.2.1K with DV2.2.1L1 & DV2.2.1M (aka the merger of 5b.1 with 5b.2 and 5b.3) -- TODO, almost certainly outdated here.
 
 $DIACLEA CORRECTION A2.LIV LPA I early flapping and nasalization in V-prim n V-stres (> ãɾ̃V; in most cases later to ə̃ɾ̃V). Happens also after high vowels (?). Explains anëmik < inimicus, ministrare > marshtroj; also why we end up with -ër/n for demone > djemër etc where elsewhere unstresseds ɔ and u survive as u. As of Dec 9.
 [-prim] n [-stres] > [+lo,-hi,+nas,-front,+back,+tense,-round,-lab] ɾ̃ [-stres]
@@ -981,18 +985,24 @@ $ DIACLEA CORRECTION D3.XII -- INCORPORATING aw > a: here too now. per DIACLEA F
 [+lo,+syl] [efront,aback,-cons,-syl] > [alo,aback,efront,+long] ∅ / __ [+cons]
 [+syl,αround,αtense,-back] [-syl,-cons,+front,+hi,+tense] > [+hi,-lo,+tense] ∅
 
-$TODO REGRESSIVE BETA COLORING! - + LOSS -- WORK HERE! TODO REMOVE WHEN ACCOUNTED FOR, OR DEEMED UNNECESSARY. 
+$TODO REGRESSIVE BETA COLORING! - + LOSS -- WORK HERE! TODO REMOVE WHEN ACCOUNTED FOR, OR DEEMED UNNECESSARY.  -- bprobably accounted for now tho.
 
-$DIACLEA CORRECTION A2.LIX -- POSTMIMETIC NASALIZATION: initial m nasalizes a following non-primary-stressed vowel before a stop (NOT fricative, excluding ð, not affricate). The result is treated like a Slavic ṼT cluster, but actual Slavic etyma are not included. 
+$DIACLEA CORRECTION A2.CVI post-vocalic gr metathesis. May bleed postmimetic nasalization.
+ɡ r > r ɡ / [+syl] __
+
+
+$DIACLEA CORRECTION A2.LIX -- POSTMIMETIC NASALIZATION: initial m nasalizes a following pretonic vowel before a stop (NOT fricative, excluding ð, not affricate). The result is treated like a Slavic ṼT cluster, but actual Slavic etyma are not included. As of Dec 21, 2o25 it is nonstrident obstruents more broadly, and needs to be immediatley pretonic.
 	$ metaxum > mëndafsh, matricula > (më-?)ndrikull
 	$ in -st- , doesn't survive due to perspirant n-deletion, but causes length: m
 	$ however it does eject a place-assimilating -n- initially before non-sonorants t (mataxum > mëndafsh, matricula > (më-?)ndrikull) and maybe ɟ (magia > mëngji?) ... or just things that aren't ð which will soon disappear (perhaps generalize to β, maybe even ɣ...)
 	$ after nw > m (138 -- late in MPA I, near MPA II) : inwigilia > mëngjill  
 	$ before Slavic input: magɯla > Mëgullë (first layer), mɒtɯka > matukë 
 		$ further support for relatively early date - the doublet mëngji/magji; not mëtrik < matricus. 
-	$ tentatively, not before tonic oː mˌeɡrˈoɲo > mërgoj, mˌɛtˈoxɪo > meteh ; matrik/mëtrik not explained in this way 
-[-prim] > [+nas] / # m __ [-delrel] ([-syl])* [+syl,uhi,-ulo]
-
+	$ tentatively, not before tonic oː mˌeɡrˈoɲo > mërgoj, mˌɛtˈoxɪo > meteh ; matrik/mëtrik not explained in this way 	
+	$ happens if after the stop there is a high or low VOCOID - -case of mënjollë
+	$ case of mënjollë -- fed by A2.I.dj, counterbled by d to ð
+$[-prim] > [+nas] / # m __ [-delrel] ([-syl])* [-cons,uhi,-ulo]
+[-prim] > [+nas] / # m __ [-son,-strid] ([-syl])* [+prim]
 
 $DIACLEA CORRECTION A2.CXXII.RVS.r -- late MPA II, tentatively, reduction of nonback countertonics in {r,l,m} __ S to ɪ. For, r, counterfed by ɑ > a { A1.V } . Not after n, rː -- UNNATURAL CLASS! Not if strident followed by a sonorant cons. R must be initial or after a voiceless segment {i.e. not arësye} -- not hte case for l, m -- RULE CROSSING! 
 [+stres,-prim,-back,-long] > ɪ / {#;[-voi]} [+son,+cor,-nas,-lab] __ [+strid] [vsyl,vson]
@@ -1005,9 +1015,6 @@ $DIACLEA CORRECTION A2.CXXII.RVS.lm -- .RVS for LM. For l and m, fed by ɑ > a {
 
 $DIACLEA CORRECTION A2.LXXXXIII early tapping of n to avoid prenasal deletion in -son -stres __ V-hi,+prim -- arbëreshë, ngashërej, urdhëroj, urdhëratë, ngjëroj  , sˌerkɪnˈoru > sher/lqeruar, kullumb{ë}ri -- but not bræstɪnˈiku , no sʊwɪrstɪniku , fˌarɪnˈoɲo... overall needs to be after an obstruent, and happens to native, not Slavic, vocab --> placed at end of MPA II. 
 n > ɾ̃ / [-son] [-stres] __ [+prim] 
-
-$DIACLEA CORRECTION A2.CVI post-vocalic gr metathesis 
-ɡ r > r ɡ / [+syl] __
 
 $DIACLEA CORRECTION A2.LXXVI.Tl  just before Slavic loans enter, reduction of unround countertonics, even long ones in T L __ C, where C != r. 
 [-prim,+stres,-round] > ə / [-cont] [+lat] __ [mnas,mson,+cons]
@@ -1132,7 +1139,7 @@ r > ɾ
 $DIACLEA CORRECTION A2.LXXVI.ARA2 -- countertonic stress applied from ˌɑ/ˌɒ/ˌɑ̃ low back variations, across ɾ and ɾ̃, blocking this wave of vowel deletions: arëmik, murgeshë not mungeshë, marshtroj ; harabel?, porosit, rogoveckë, etc.
 [+syl] > [+stres] / [+lo,+back,+stres,-prim] [+son,-cont] __
 
-$DIACLEA CORRECTION A2.LXXI -- LPA I unstressed vowel deletions before ɲ .Fed by Middle Proto-Albanian stress retractions in VwVɲ verbs, does not bleed new vocalic length formation in such cases (placed near ietation); does not happen to initial syllable countertonics, coming after aphaeresis to produce newly first syllable countertonics (Vlonjat). Feeds Cɲ > Cɟ phenomenon in LPA I, and LPA I cluster voicing assimilation (fuskinia > fuzhnjë etc). Comes after some mini-i-mutation (karmiɲ-a- > kerrnjoj; intiɲ-o-> ngjyej?, sanguiniata > sãɲɟɲäta > shëngetë). As of Dec 1, expanded to other prenasal deletions, of which there are many -- not targeting before [-cont,+nas] /ɾ̃/ and seemingly not for established nasal vowels tho {the ãɾ̃V phenom.},must come before a nonconsonanal. Does not feed s > ts {proximu - prozhem not proftsem} -- placed after it. @ before first [+syl] because arëmik.
+$DIACLEA CORRECTION A2.LXXI -- LPA I unstressed vowel deletions before nasals .Fed by Middle Proto-Albanian stress retractions in VwVɲ verbs, does not bleed new vocalic length formation in such cases (placed near ietation); does not happen to initial syllable countertonics, coming after aphaeresis to produce newly first syllable countertonics (Vlonjat). Feeds Cɲ > Cɟ phenomenon in LPA I, and LPA I cluster voicing assimilation (fuskinia > fuzhnjë etc). Comes after some mini-i-mutation (karmiɲ-a- > kerrnjoj; intiɲ-o-> ngjyej?, sanguiniata > sãɲɟɲäta > shëngetë). As of Dec 1, expanded to other prenasal deletions, of which there are many -- not targeting before [-cont,+nas] /ɾ̃/ and seemingly not for established nasal vowels tho {the ãɾ̃V phenom.},must come before a nonconsonanal. Does not feed s > ts {proximu - prozhem not proftsem} -- placed after it. @ before first [+syl] because arëmik.
 $[-stres,-cons] > ∅ / [+syl] (@)* __ ɲ
 [-stres,-cons,-nas,-lo] > ∅ / [+syl] (@)* __ [+nas,+cont,+cons] [-cons]
 
@@ -1238,7 +1245,7 @@ $ [-stres,-long] > ə / @ __ (@)* [+prim]
 {ˌɛ;ˌe} > {ˌɛː;ˌɛː} / p __ [-son] ([+cons]) [+prim]
 	$.de post non-dorsals -- reduction (for non-long, non-round,non-low) in C-hi,-son __ Cson,-nas. Actually, in fact, the same happens for non-sonorants too. As of Dec 17, now sending these to ɪ
 [-prim,+front,-lo,-long] > ɪ / [-son,-hi] __ [+cons,-nas] (@)* [+prim]
-		$ .den  and for non-low  before N cont ː fjeshtër, shënoj, vërer, tmerr, shtëroj
+		$ .den  and for non-low  before N cont : shënoj, vërer, tmerr, shtëroj
 [-prim,+front,-lo,-long] > ɪ / [-son,-hi] __ [+nas,+cons] ([+cont] (@)*) [+prim]
 		 $ .βal for low vowels: reduced in lab,cont __ Cson: vlej, vlerë, vjej, fërroj, fërratë ,
 	$.pal and p __ Lat: pleng, plengë, pëllumb, pëllas, -- but not parmend, parriz, përparoj -- nor tsalik tsaruqe 
@@ -1250,10 +1257,10 @@ $ [-stres,-long] > ə / @ __ (@)* [+prim]
 $DIACLEA CORRECTION A1.XXII.ɛ ɛ reduced to ə, both for Slavic vocab (rrafsh, Zvarisht) and inherited to this point (turp, ëngjëll, bulbër, lavd, etc.). Does not occur after j however (scabies > zgjebe, caries >qerre ) 
 ɛ > ə / {w;[+cons]} __
 
-$DIACLEA CORRECTION A1.XVII.2 Late Proto-Albanian II has a second wave of the n j > ɲ and also l/lː/ð (r) j > ʎ that at least bleeds final ja > ɛ phenomena. for ð(r)j > hudrio > ujë, Slav ogradja > ograjë.  However Greek livadhja > livadhe; also mandilja > mandile.
+$DIACLEA CORRECTION A1.XVII.2 Late Proto-Albanian II has a second wave of the n j > ɲ and also l/lː/ð (r) j > ʎ that at least bleeds final ja > ɛ phenomena. for ð(r)j > hudrio > ujë, Slav ogradja > ograjë.  However Greek livadhja > livadhe; also mandilja > mandile.. 
 $ this causes memory error somehow: [+cont,+cor,+voi,-strid,ʎlat,ʎson] j> ʎ
 {ð j;l j;lː j} > {ʎ;ʎ;ʎ}
-[+cor,+nas,+son] j > ɲ
+[+cor,+nas,+son] [+front,+son,-syl] > ɲ
 
 $DIACLEA CORRECTION A2.CII.1 LPA I deletion of initial unstressed nonconsontal vowel between homorganic consonants, plus deletion of first homorganic cons. .cc now being handled in tandem with A2.VII.
 [-stres,-cons] > ∅ / # [+cons,dcor,blab,tson,nnas,llat,scont] __ [+cons,dcor,blab,tson,nnas,llat,scont]

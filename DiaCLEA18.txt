@@ -1025,7 +1025,7 @@ $DIACLEA CORRECTION A2.LXXVI.Tl  just before Slavic loans enter, reduction of un
 $ Earliest Slavic loans here; "first Slavic wave"
 
 $DIACLEA FIX A2.LI : first wave Slavic nasal vowels are unpacked to Vn, with ɑ for ɒ̃ and e for ɛ. Except if before a nasal. Weak of evidence of word final case. Bleeds d > ð. Recurs in LPA III with more specific outcomes. 
-[+syl,+nas] ∅ > [-round,-lab,-nas,+tense] n / __ [-nas]
+[+syl,+nas] ∅ > [-round,-lab,-nas,+tense] n / __ {[-nas];#}
 
 $DIACLEA CORRECTION A1.XVI ː ɯ handling 
 [+syl,+back,+hi,-lat] > [+round,+lab]
@@ -1254,8 +1254,6 @@ $ [-stres,-long] > ə / @ __ (@)* [+prim]
 	$.car dorsals: only in # __ Cson,-long (t/n) ˈVː ɟˌɛmˈɔɲɔ > gjëmoj , cˌɛrtˈɔɲɔ : qërtoj , kˌarːjˈoʃu - qëroz, cˌɛrˈɔɲɔ : qëroj ; qëlloj; glasë ; kllandë; kllogjër . COUNTERBLEEDS PALATALIZATION -- palatalization produces differences based on this distinction -- kllandë, kllogjër vs. qëlloj, qëroj, qërtoj. This one still goes to ə, not ɪǃ 
 [-prim,+front,-long] > ə / # [-son,+hi] __ [+son,+cons] ([+cor]) [+prim]
 
-$DIACLEA CORRECTION A1.XXII.ɛ ɛ reduced to ə, both for Slavic vocab (rrafsh, Zvarisht) and inherited to this point (turp, ëngjëll, bulbër, lavd, etc.). Does not occur after j however (scabies > zgjebe, caries >qerre ) 
-ɛ > ə / {w;[+cons]} __
 
 $DIACLEA CORRECTION A1.XVII.2 Late Proto-Albanian II has a second wave of the n j > ɲ and also l/lː/ð (r) j > ʎ that at least bleeds final ja > ɛ phenomena. for ð(r)j > hudrio > ujë, Slav ogradja > ograjë.  However Greek livadhja > livadhe; also mandilja > mandile.. 
 $ this causes memory error somehow: [+cont,+cor,+voi,-strid,ʎlat,ʎson] j> ʎ
@@ -1281,12 +1279,34 @@ $DIACLEA CORRECTION A2.CX.BɐG countertonic a > ɐ between labials or ʃ and dor
 [+lo,-long,-round,-prim,+stres,-nas] > ɐ / [+lab] __ [+hi,-cont] [+prim,+tense]
 [+lo,-long,-round,-prim,+stres,-nas] > ɐ / [+cor,+strid] __ [+hi,-cont]
 
+$DIACLEA CORRECTION A2.XVII: the new ʃ absorbs following t͡ʃ
+t͡ʃ > ∅ / ʃ __
+
+$ DIACLEA CORRECTION A2.LXI  [TODO THESIS -- REEXAMINE FOR EXAMPLE OF ALPHA POLARITY] LPA ˈi and ˈɪ (later from Slavic) > ˈɛ phenomena , before ʃ or t͡ʃ , after s > ʃ  (DV1744.H) but before t͡ʃ > s..
+	$A2.LXI.a  if before an affricate, needs the anteriority to mismatch lowness of final vowel, can see through one medial unstressed-- perhaps should have yers lost by now? As of Nov 28, 2025, however, this is explained via hte soft yer dissimilation rule instead. 
+$[+prim,+hi,-round] > [-hi,-tense] / __ [+delrel,!aant] ([-syl])* [alo]
+	$A2.LXI.s -- for ʃ, just has to come before a vowel (this is before final vowel losses)
+	$as of Nov 28, 2025 -- this only the latter, A2.LXI.s is active, only for t͡ʃ joining with ʃ (formerly ʃ where we have [-ant,+strid,-voi] ) 
+[+prim,+hi,-round,+tense] > [-hi,-tense] / __ [-ant,+strid,-voi] [+syl] #
+
+$DIACLEA CORRECTION A2.CXIII : before the merger of k and p before coronals {DV1744.B5} but after the stopping of single r, b & p > ð before stops. Feeds voicing in lˌupekkˈɑːtum > ... > lugat (as also in medicastrum > mëgashtër etc: A2.LXXXV..ðK)
+[+lab,-cont] > ð / [+round] __ [-cont]
+
+$DIACLEA CORRECTION A2.LXII LPA I merger and coalescence of ʒ, d z, d ʒ, d͡z into d͡ʒ. Whether z and d͡ʒ are included or not is not clear since d͡ʒ > z separately. Loss of segmentality of d handled below (TODO)
+[+strid,+cor,+voi] > d͡ʒ
+
+$ dʒ and tʃ pass to z and s -- whether from PPAlb dʒ/tʃ or from reflexes of Latin loans in dj-, tj (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3)
+$ This effects also the earliest Slavic loanwords : e.g. poroçit > porosit "to request", sul "small boat" , etc. 
+[-ant,+distr,+delrel] > [+ant,-distr,+cont,-front]
 
 =Late Proto-Albanian II
 $TODO analyze shortenings...
 
 $DIACLEA CORRECTION A2.LXXXXVIII -- LPA II (e.g., from Greek) ɣ > j / __ i,ɪ,j, ultimately resulting in deletion of ɣ. May be worth it to look at handling ɣ l /l ɣ combos around A1.XVII. 
 [+hi,+cont,-son,+voi] > j / __ [+front,+hi]
+
+$DIACLEA CORRECTION A1.XXII.ɛ ɛ reduced to ə, both for Slavic vocab (rrafsh, Zvarisht) and inherited to this point (turp, ëngjëll, bulbër, lavd, etc.). Does not occur after j however (scabies > zgjebe, caries >qerre ) . Applies to naslas as well - kuç, kut, etc. 
+[+front,-stres,-lo,-hi] > ə / {w;[+cons]} __
 
 $DIACLEA CORRECTION A2.LXXXI.g -- other ɣ > g, and (.x) after obstruents x > k, both feeding palatalization 
 [+hi,+cont,-son] > [-delrel] / [-son] __
@@ -1353,10 +1373,6 @@ $ DIACLEA FIX D3.X.c length becomes diphthongization for primary stressed lax lo
 $ DIACLEA FIX D3.X.d -- -- in partial agreement with DV2.2.1K and 1737's 5b on diphthongized ietation, ɛː ends up as jɛ except before final ɾ lˠ; to these, I broaden these to include n too. Implemented by intervention before D3.X.c resolves.  
 $TODO probably going to have to move this.
 [+long,-hi,-lo,-tense,+prim] ∅ > [+hi,-long,+tense] ə
-
-
-$DIACLEA CORRECTION A2.CXIII : before the merger of k and p before coronals {DV1744.B5} but after the stopping of single r, b & p > ð before stops. Feeds voicing in lˌupekkˈɑːtum > ... > lugat (as also in medicastrum > mëgashtër etc: A2.LXXXV..ðK)
-[+lab,-cont] > ð / [+round] __ [-cont]
 
 $DIACLEA CORRECTION A2.LXXXV..ðK	earlier assimilation with voicing for ðK in.. [-round,+stres] ([-syl])  __ ([-syl]) [+prim], before ð falls. Broadening seems unlikely: kavka > kafkë, lozuka -lɒzka > llaskë. etc; even with d (ǃ) -- podk'uo̯ > potkua. This rule's separate existence also can be justified in terms of bleeding the same progressive devoicing seen in these, such as potkua, which differs from what happens with the last early wave of Slavic loans, which see progressive voicing from coronals {e.g. Rezhgë}. 
 [+back] > [+voi] / [alo,+syl] ([-syl]) ð __ ([-syl]) [+prim,-alo]
@@ -1471,16 +1487,6 @@ ${u;ˌu} > {ə;ˌə} / [+stres] ([-syl] ([-stres]))* __ ([-syl])* [-voi]
 
 $DV4.1N (=DV1742I) OAlb f < PAlb θ / C __, including OAlb ënfle -- cf Matzinger 2006: 71 -- Matzinger, Joachim. 2006.  Altalbanische Text Mbsuame e Kreshterë (Dottrina cristiana) des Lekë Matrënga von 1592. Eine Einführing in die albanische Sprachwissenschaft. Seems to be in all dialects? 
 θ > f / [+cons] __
-
-$DIACLEA CORRECTION A2.XVII: the new ʃ absorbs following t͡ʃ
-t͡ʃ > ∅ / ʃ __
-
-$ DIACLEA CORRECTION A2.LXI  [TODO THESIS -- REEXAMINE FOR EXAMPLE OF ALPHA POLARITY] LPA ˈi and ˈɪ (later from Slavic) > ˈɛ phenomena , before ʃ or t͡ʃ , after s > ʃ  (DV1744.H) but before t͡ʃ > s..
-	$A2.LXI.a  if before an affricate, needs the anteriority to mismatch lowness of final vowel, can see through one medial unstressed-- perhaps should have yers lost by now? As of Nov 28, 2025, however, this is explained via hte soft yer dissimilation rule instead. 
-$[+prim,+hi,-round] > [-hi,-tense] / __ [+delrel,!aant] ([-syl])* [alo]
-	$A2.LXI.s -- for ʃ, just has to come before a vowel (this is before final vowel losses)
-	$as of Nov 28, 2025 -- this only the latter, A2.LXI.s is active, only for t͡ʃ joining with ʃ (formerly ʃ where we have [-ant,+strid,-voi] ) 
-[+prim,+hi,-round,+tense] > [-hi,-tense] / __ [-ant,+strid,-voi] [+syl] #
 
 $DV2.2.1C5: Latin short e > a in "q, sh" __ "rr, l". No explicit word on the dating of this except that it is between post-Latin PPAlb, and PAlb; the forms used (q, sh,... rr, l) suggest a later date but at first inspection it seems to precede the merger of ae to short e (caelum > qiell) which certainly must have been before k > q (=[c]). So it is placed right after "rr, l" emerged (with what would become dark l now being long l, and rr being long r)
 $Per its current placement after ietation, a j is imposed, and ˈɛ is used. 
@@ -1680,13 +1686,6 @@ $ incorporating ɸ here too.
 $ placed between PAlb and modern Alb by DV´18 but could probably be placed earlier as this does seem to be pan-Albanian? 
 $ Furthermore, earlier placement may be warranted in case the reflex of *β seems to pattern with /f/ in terms of -kt- clusters, where /f/ seems to pattern differently than /p m/...
 [+lab,-son,+cont] > [+strid]
-
-$DIACLEA CORRECTION A2.LXII LPA I merger and coalescence of ʒ, d z, d ʒ, d͡z into d͡ʒ. Whether z and d͡ʒ are included or not is not clear since d͡ʒ > z separately. Loss of segmentality of d handled below (TODO)
-[+strid,+cor,+voi] > d͡ʒ
-
-$ dʒ and tʃ pass to z and s -- whether from PPAlb dʒ/tʃ or from reflexes of Latin loans in dj-, tj (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3)
-$ This effects also the earliest Slavic loanwords : e.g. poroçit > porosit "to request", sul "small boat" , etc. 
-[-ant,+distr,+delrel] > [+ant,-distr,+cont,-front]
 
 $ Nasal vowel + nasal consonants become simple nasal vowels at some point. This does not seem to be explicated by De Vaan 2018, but it is implicit in some examples -- gju / Gheg gjû < glun-; Gheg lĩ < līnum, fqĩ < vicīnum, frẽ < frenum. Native vocab also show a pre-sibilant coalescence (mëz/mãz, pesë/pẽsë -- unclear if that z is still an affricate or not, so just do this in terms of stridents?). So we insert that here for now. These all concern only n, so only n is used in the formulation of this rule. Given the case of ftua < cotoneum one can generously allow this to happen not just for syllabics but also after nasalized glides, or glides after a nasal vowle (however uo's nasalized incarnation ends up being realized here, it is intended to be captured with this following rule formulation) 
 $ DIACLEA TODO NOTE: after uo and perhpas a, this does not happen word finally in monosyllabic words... but there are only two examples luan and plënd. IF intend to implement it this way, use: 

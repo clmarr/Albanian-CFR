@@ -1570,6 +1570,9 @@ $ DIACLEA CORRECTION C1.B.XIV -- ɛ no longer deleted word final
 $DIACLEA CORRECTION A2.CIX LPA III interjecting DV1738, formation of oe diphthong from uoV̯ 
 [-stres] > e̯ / [-hi,-cons,-syl,+son] __
 
+$DIACLEA CORRECTION B1.XII aj > ɛ moved toward end of Late Proto-Albanian, as resulting ɛ does not delete with Slavic -e, and Slavic wave 2 feeds it in at least one case {Dõbraj > Dumre}. Could also have it go to long ē. Currently doing both. Only seems to be operating word finally. Counterfed by DV1738 LPA II apocope
+[+lo,+syl,-round] j > [-lo,+front,-back,-tense,+long] ∅ / __ #
+
 $resolution of DV1738 apocope
 [-back,-front,-stres] > ∅ / [+stres] ([-syl])* __ #
 
@@ -1906,9 +1909,6 @@ j [+lo,-prim] > ɛ / [+cons] __ #
 
 $DIACLEA CORRECTION A1.XXIV.rr  rr: > r (as that is how the lexicon is coded), before syllabification of resonants. 
 rː > r
-
-$DIACLEA CORRECTION B1.XII aj > ɛ moved toward end of Late Proto-Albanian, as resulting ɛ does not delete with Slavic -e, and Slavic wave 2 feeds it in at least one case {Dõbraj > Dumre}. Could also have it go to long ē. Currently doing both. Only seems to be operating word finally. 
-$[+lo,+syl] j > [-lo,+front,-back,-tense,+long] ∅ / __ #
 
 $less pan-Albanian section beginning here... 
 

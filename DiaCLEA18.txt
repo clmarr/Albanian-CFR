@@ -891,8 +891,8 @@ $DIACLEA FIX A2.XVIII.* -- however, j is preserved before a tonic vowel after t�
 $ DIACLEA CORRECTION D3.VII --  j before final unstressed a becomes iota before loss of yod after labials (A2.II), allowing this, too, to join with i-mutation. (Exception ːrubia > rrojbë; may require separate explanation; this may however be a loan. ). 
 j > ɪ̯ / __ ɑ
 
-$ DIACLEA CORRECTION A2.II -- disappearance of j after labials, except before unstressed -a, whic his handled above in D3.VII. As of June 26, it's now labial *consonantals*, can see through (V) r. As of Dec 5, also sees across laterals to any sort of labial.
-	$ w:  laqueum > lak, quiētus > qetë, salviella > shërbelë ; perhaps also alveolu > nullë "gum" if we believe in that etymology. Seems apparent in Romanian too : quiētus > (in-)cet, although this may be independent (note the difference between laqueum > laț and quiētus > in-cet.. curious.). As of June 24, this is moved from being between DV1740H2 and DV1743.B4 to right after i-mutation, because the latter appears to occur for the countertonic a in salviella > sherbelë, which is nevertheless affected by this. 
+$ DIACLEA CORRECTION A2.II -- disappearance of j after labials, except before unstressed -a, whic his handled above in D3.VII. As of June 26, it's now labial *obstruents*, can see through (V) r. 
+	$ w >β >b, kw:  laqueum > lak, quiētus > qetë, salviella > shërbelë ; perhaps also alveolu > nullë "gum" if we believe in that etymology. Seems apparent in Romanian too : quiētus > (in-)cet, although this may be independent (note the difference between laqueum > laț and quiētus > in-cet.. curious.). As of June 24, this is moved from being between DV1740H2 and DV1743.B4 to right after i-mutation, because the latter appears to occur for the countertonic a in salviella > sherbelë, which is nevertheless affected by this. 
 	$ mj : gremium > gremb, 
 		$ NOT in unstressed final -ja : amia > ame "brown meagre"  (i-mutation otherwise blocked)
 	$ prj : capreolum > kaprjɔ́lˠu > kapruall , 
@@ -907,8 +907,8 @@ $ DIACLEA CORRECTION A2.II -- disappearance of j after labials, except before un
 			$ (unlike in N-boreānus > murâǃ) 
 			$ difficult case : rubia > rrojbë 
 			$ maybe..>? : subiug-āre > shuaj
-	$ the cases of capreum > qepër and salviella > sherbelë suggest this happened AFTER the beginning of i-mutation in the emergence of iota, but gremium > gremb and manubrium > mëru may suggest the opposite as concerns ɛ and u... As of July 2024, though, /u/ i-mutation is handled ohterwise, so this can be placed after the emergence of iota but before the resolution in terms of coalescence, and before the merge of iota with j. 
-j > ∅ / {[+lab,-son] ( ([+syl]) r);[+lab] [+lat]} __
+	$ the cases of capreum > qepër and salviella > sherbelë suggest this happened AFTER the beginning of i-mutation in the emergence of iota, but gremium > gremb and manubrium > mëru may suggest the opposite as concerns ɛ and u... As of July 2024, though, /u/ i-mutation is handled otherwise, so this can be placed after the emergence of iota but before the resolution in terms of coalescence, and before the merge of iota with j. 
+j > ∅ / [+lab,-son] ( ([+syl]) r) __
 
 $ De Vaan p1743-4 -- w dropped between k (DV1743.G2) or g (DV1744.A2), and vowels. This will eventually feed the palatalization of these velars before i/e/y (p1743) but this feeding does not have to be explicitly coded in. 
 $ form prior to 8/5/23 was: {[-cont,+back] w;[-cont,+back,+round]} > {[-round] ∅;[-round]} / __ [-cons] 
@@ -1300,8 +1300,6 @@ $ This effects also the earliest Slavic loanwords : e.g. poroçit > porosit "to 
 [-ant,+distr,+delrel] > [+ant,-distr,+cont,-front]
 
 =Late Proto-Albanian II
-$TODO analyze shortenings...
-
 $DIACLEA CORRECTION A2.LXXXXVIII -- LPA II (e.g., from Greek) ɣ > j / __ i,ɪ,j, ultimately resulting in deletion of ɣ. May be worth it to look at handling ɣ l /l ɣ combos around A1.XVII. 
 [+hi,+cont,-son,+voi] > j / __ [+front,+hi]
 

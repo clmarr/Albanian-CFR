@@ -302,10 +302,10 @@ l > lˠ / [-cons] __ [+lo]
 [-stres,-lo] > ∅ / [-son,+cor,+cont] __ [-son] [+cons] [-cons]
 [-prim,-lo,-long] > ∅ / [-son,+cons,+cont,-front] __ [-voi] [-cons]
 [+prim] > [+long] / __ ð [+cons]
-[+prim] > [+long] / __ lˠ ( [-lo,-cons] ) #
-[+prim] > [+long] / __ n ( [-lo,-cons] ) #
-[+prim] > [+long] / __ ɾ ( [-lo,-cons] ) #
-[+prim] > [+long] / __ ɾ̃ ( [-lo,-cons] ) #
+[+prim,-hi,-lo] > [+long] / __ lˠ ( [-lo,-cons] ) #
+[+prim,-hi,-lo] > [+long] / __ n ( [-lo,-cons] ) #
+[+prim,-hi,-lo] > [+long] / __ ɾ ( [-lo,-cons] ) #
+[+prim,-hi,-lo] > [+long] / __ ɾ̃ ( [-lo,-cons] ) #
 [+long,-hi,-lo,-tense,+prim] ∅ > [+hi,-long,+tense,-splng,-cons,-lat,+cont,0delrel] ə
 [+back] > [+voi] / [alo,+syl] ( [-syl] ) ð __ ( [-syl] ) [+prim,!alo]
 [+hi,-tense,-stres] > ∅ / [-hi,+son,-cons] __

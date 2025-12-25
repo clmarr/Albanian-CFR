@@ -1357,9 +1357,9 @@ $ TODO check this^ IMPLEMENT FOR DIA -- remove the (j), because this is better h
 $ regarding the word-finality, same factors apply as above in DV1737~5b.1
 $ DIACLEA FIX: now using lˠ not lː {just formalism, not noted in fixes log}
 ${ˈo;j ˈœ;ˈœ} > {ˈu o̯;j ˈy e̯;ˈy e̯} / __ {lˠ;n;r} ([-lo,-stres] (m)) # 
-$ DIACLEA CONSOLIDATION D3.X.b: now roped into lengthening as diphthongization, formulated appropriately, with e included. Heck actually just make it all tonic vowels. (former versoin below)
+$ DIACLEA CONSOLIDATION D3.X.b: now roped into lengthening as diphthongization, formulated appropriately, with e included. Heck actually just make it all non-low tonic vowels. (former versoin below)
 $ DIACLEA CORRECTION B1.XI -- pre lateral lengthening moved to after emergence of lˠ later in LPA II 
-[+prim,-hi,-lo] > [+long] / __ {lˠ;n;ɾ;ɾ̃} ([-lo,-cons]) #
+[+prim,-lo] > [+long] / __ {lˠ;n;ɾ;ɾ̃} ([-lo,-cons]) #
 
 $DV1737's 5b.iv: *o > *uo/# __ {r,lj},
 $this is also DV2.2.1L2 as concerns Latin o
@@ -1581,18 +1581,18 @@ $DIACLEA CORRECTION A2.CIX LPA III interjecting DV1738, formation of oe diphthon
 $DIACLEA CORRECTION B1.XII aj > ɛ moved toward end of Late Proto-Albanian, as resulting ɛ does not delete with Slavic -e, and Slavic wave 2 feeds it in at least one case {Dõbraj > Dumre}. Could also have it go to long ē. Currently doing both. Only seems to be operating word finally. Counterfed by DV1738 LPA II apocope
 [+lo,+syl,-round] j > [-lo,+front,-back,-tense,+long] ∅ / __ #
 
-$resolution of DV1738 apocope
-[-back,-front,-stres] > ∅ / [+stres] ([-syl])* __ #
-
-$DIACLEA CORRECTION A2.CI.nar and .tar: -ˈuor > -ar in (nar) ˌV (C) N __ and (tar) C-voi ([-stres]) t __ : Both are apparently pan Albanian (bardhi shëgjetëtar etc.), earlier than the later Tosk -uar > or phenom. 
-ˈu [-hi,-syl,-cons,+son] > ˈa / {[+stres] ([-syl]) [+nas,+cons];[-voi,+cons] ([-stres]) t} __ ɾ #
-
-$ DIACLEA CORRECTION E1.III: Tosk rhotacism is now split into two stages: n > ɾ̃, and ɾ̃ > ɾ. First part happens before split, actually. Then final non-low vowels are lost at last. 
+$ DIACLEA CORRECTION E1.III: Tosk rhotacism is now split into two stages: n > ɾ̃, and ɾ̃ > ɾ. First part happens before split, actually. Then final non-low vowels are lost at last. As of Dec 25 '25, first stage happens before apocope, which counterbleeds it for at least a handful of words; others handled by E1.VI
 $ og: n > ɾ̃ / [+syl] __ [+syl]
 $ DIACLEA CORRECTION C3B.XIV -- Tosk rhotacism doesn't happen after penultimate high tense vowels. As of 10/2/25, including this as a context conditioning on this 'reversal' rule [rather than a separate rule ~ ɾ̃ > n / [+hi,+prim] __ [-stres] #]. No evidence it's just penultimates.
 n > ɾ̃ / [+syl,-hi] __ [+syl]
-$ TODO consider merging this with vowel drops in more elegant way. 
-ə > ∅ / __ #
+
+$resolution of DV1738 apocope
+$ pre Dec 25 C3A.X vsn: [-back,-front,-stres] > ∅ / [+stres] ([-syl])* __ #
+$ DIACLEA CORRECTION C3A.X DV1738 schwa-apocope extended to all final unstressed nonlow vowels, not just those after a stressed syllable. 	
+[-back,-front,-stres] > ∅ / __ #
+
+$DIACLEA CORRECTION A2.CI.nar and .tar: -ˈuor > -ar in (nar) ˌV (C) N __ and (tar) C-voi ([-stres]) t __ : Both are apparently pan Albanian (bardhi shëgjetëtar etc.), earlier than the later Tosk -uar > or phenom. 
+ˈu [-hi,-syl,-cons,+son] > ˈa / {[+stres] ([-syl]) [+nas,+cons];[-voi,+cons] ([-stres]) t} __ ɾ #
 
 $DIACLEA CORRECTION A2.CXVII, counterbleeding A2.CXVI, əlˠ > ulˠ before unround stressed vowel, or, if after final ə < a apocope, any unround vowel, if not after syllable with round vowel or labial consonant. Needs to have at least one coronal {not including ʃ} consonant between his nad word onset. Does not happen if there are labial consonants beforehand -- and ʃ is treated as labialǃ -- note UNNATURAL CLASS or fix by making ʃ labial. Currently treating as fed by apocope C3B.XIV. 
 [-prim,+round,+syl] > [-back,-front,-lab,-round,-hi,0tense,-lo] / {# ([-syl,-lab])* [+cor,+ant];[-round,+syl]} ([-syl,-lab])* __ lˠ @
@@ -1689,12 +1689,19 @@ $ placed between PAlb and modern Alb by DV´18 but could probably be placed earl
 $ Furthermore, earlier placement may be warranted in case the reflex of *β seems to pattern with /f/ in terms of -kt- clusters, where /f/ seems to pattern differently than /p m/...
 [+lab,-son,+cont] > [+strid]
 
-$ Nasal vowel + nasal consonants become simple nasal vowels at some point. This does not seem to be explicated by De Vaan 2018, but it is implicit in some examples -- gju / Gheg gjû < glun-; Gheg lĩ < līnum, fqĩ < vicīnum, frẽ < frenum. Native vocab also show a pre-sibilant coalescence (mëz/mãz, pesë/pẽsë -- unclear if that z is still an affricate or not, so just do this in terms of stridents?). So we insert that here for now. These all concern only n, so only n is used in the formulation of this rule. Given the case of ftua < cotoneum one can generously allow this to happen not just for syllabics but also after nasalized glides, or glides after a nasal vowle (however uo's nasalized incarnation ends up being realized here, it is intended to be captured with this following rule formulation) 
+$ Nasal vowel + nasal consonants become simple nasal vowels at some point. This does not seem to be explicated by De Vaan 2018, but it is implicit in some examples -- gju / Gheg gjû < glun-; Gheg lĩ < līnum, fqĩ < vicīnum, frẽ < frenum. Native vocab also show a pre-sibilant coalescence (mëz/mãz, pesë/pẽsë -- unclear if that z is still an affricate or not, so just do this in terms of stridents?). So we insert that here for now. These all concern only n, so only n is used in the formulation of this rule. Given the case of ftua < cotoneum one can generously allow this to happen not just for syllabics but also after nasalized glides, or glides after a nasal vowel (however uo's nasalized incarnation ends up being realized here, it is intended to be captured with this following rule formulation) 
 $ DIACLEA TODO NOTE: after uo and perhpas a, this does not happen word finally in monosyllabic words... but there are only two examples luan and plënd. IF intend to implement it this way, use: 
 	$n > ∅ / [+syl,+nas] __ #
 	$ n > ∅ / [+syl] ([-syl])* [+syl] [-cons,+nas] __ #
-$ DIACLEA CORRECTION C3B.XXII -- prestrident nasal loss now only before continuants -- not affricates. However this is fed by t͡ʃ -- moved to after it. Bleeds post nasal stop voicing, however. 
-n > ∅ / [-cons,+nas] ([-cons]) __ {[+strid,+cont];#}
+$ DIACLEA CORRECTION C3B.XXII -- prestrident nasal loss now only before continuants -- not affricates. However this is fed by t͡ʃ -- moved to after it. Bleeds post nasal stop voicing, however. Dec 25, '25 -- fixed to include ɾ̃ in input; minor change, not really remarkable. 
+$ pre-Dec '25 form, before separation: [+nas,+cor,-long] > ∅ / [-cons,+nas] ([-cons]) __ {[+strid,+cont];#}
+$ DIACLEA CORRECTION E1.VI -- LPA II prestrident nasal deletion decoupled from final nasal deletion, and final nasal deletion broken up to rules that occur at different points. See file "LPA II-Vnə sequence outcomes.docx". 
+[+nas,+cor,-long] > ∅ / [-cons,+nas] ([-cons]) __ [+strid,+cont]
+$DIACLEA CORRECTION E1.VI.1 FIrst LPA II final nasal deletion for "only" {although these form a vast majority of potential cases} after non-low vowels after non-labial Cs, and after u and its diphthongs. Later deletions seem to be after breakup of Tosk and Gheg. Occasional cases of -nj outcomes are likely analogical, from plurals. 
+[+nas,+cor,-long] > ∅ / {[+round,+syl,-lo];[-lab,-nas] [-cons,-lo,+nas]} ([-cons]) __ #
+
+$DIACLEA CORRECTION E1.VI.2 LPA II also has deletion of n after coronal sonorant then stressed low vowel sequences {solānum> shúllë ~ shullã; n-boreānus > múrrë ~ murrã́} but not palatals yet {fijë~fijan}.
+[+nas,+cor,-long] > ∅ / [+son,-front,-lab] [+lo] __ #
 
 $ post-nasal stop voicing. De Vaan attributes this to Proto-Albanian, for Latin and native words alike for -p- (DV1743.B2, .B4) and -t- (1743.D2 = 4.2D2), while treating Latin loans alone for k > g / n __ (DV1744.A1, .A3)
 	$ De Vaan's handling of /p/ is given the same time betweeen native and Latin strata, but not the
@@ -2034,6 +2041,8 @@ w > v
 $ DV4.2P *x to *h -- this is listed as a PPAlb to PAlb change, but it is placed here as it also seems to effect Slavic loans as well, and has somewhat different outcomes in (some) Gheg where Tosk -h ends up corresponding to Gheg -f  
 x > h 
 
+$DIACLEA CORRECTION E1.VI.3 Tosk deletion of final ɾ̃ after labial-palatal sonorant sequences: fijë, shkëmbi etc. Not in Gheg: fijan, Shkumbin, etc. TODO perhaps overfit, reconsider? -- Tosk may also have Shkumbin and Kurbin... 
+[+nas,+cor,-long] > ∅ / [+lab] ([+hi,+front])+ ([+lo]) __ #
 
 $DIACLEA CORRECTION A2.LXXV two onset k-voicing rules 
 $DIACLEA A2.LXXV.u -- k > g / # __ ˌu Ccor ə  ; .ə # __ ə Ccor Cc'ons V 
@@ -2143,6 +2152,11 @@ $ DIACLEA CORRECTION A1.XIX -- another round of voicing of (non-affricate) stops
 $DIACLEA CORRECTION A2.CXV ː Proto-Northern Tosk mb > m in # (V) __ V̯ C-lat. Nnot in Matrenga (South Tosk) ː mbëshoj , mbëkat. Fed by A1.XIX
 b > ∅ / # ([-prim]) m __ [-prim] [+cons,-lat]
 
+$DIACLEA CORRECTION A2.XXXI.VCVn stress retraction in Proto-Tosk after ã > ə̃, stress attracted to prior  syllable. Fed by Tosk ã > ə̃. Happens only in final syllable, before at most one consonant, which cannot be ɲ but can be ɾ̃. Counterfeeds A2.CXV
+[-prim] > [+prim,+stres] / __ ([-syl])* [-back,-front,+prim] ([-front,-syl]) #
+[+prim] > [-prim,-stres] / [+prim] (@)* __
+
+
 $gleaned from DV1738, unstressed final -o(n) and -a(s) in loans from early Slavic, Italian and Greek are reduced to -ë
 $ TODO FOR DIA : consider retracting this just to -o, and have the passage of unstressed -a to -ë only here, as the -o > -ë phenomena in Byzantine/Bulgarian/Italian seem limited to feminines, in which it could be analogical.
 $ DIACLEA CORRECTION C5.I: reform this to just o ɔ a becoming ə ə ə as this causes too many errors
@@ -2178,7 +2192,8 @@ $ TODO consider restoring old version when possible.
 {d ʃ;d s;d θ} > {t͡ʃ;t͡s;t͡s}
 
 $DIACLEA CORRECTION A2.LXXVII dissolution of syllabic sonorant consonants R̩ > əR. Comes after ʃ > ʒ / __ Cvoi (counterbleeds for prozhëm, krezhëm), also after ʃ > t͡ʃ. Different outcomes in Arbëreshë than std. Tosk. 
-∅ [+cons,+syl] > ə [-syl]
+∅ > ə / __ [+cons,+syl]
+[+syl,-cons] [+cons,+syl,aprim,bstres] > [aprim,bstres] [-syl]
 
 $DV4.1K1 -- Old Alb ʃ > t͡ʃ before a consonant 
 $ DIACLEA CORRECTION C3B.XIX: posterior context changed from [+cons] to [+cons,+nas], and also not postvocalically (not Leshnjë, dëshnicë, pashnik; still balçëm)

@@ -232,7 +232,7 @@ $ seems to come after later (Christian) vocab added -- see evangelium > ungjill
 $ʎ > j lˠ / [+back,+voi] [+syl] __ [+syl,+round]
 $ʎ > j l / [+back,+voi] [+syl] __ [+syl]
 
-A2.II - j > ∅ disappearance of j after labial continuants, and after pr/br/V-front+round r in MPA. On the basis of qepër and on sherbelë respectively, happens after i-mutation of stressed vowels, and of countertonic a (in limited context). Appears to also happen after final -ja goes to e.  TODO rework this. 
+A2.II - j > ∅ disappearance of j after labial continuants, and after pr/br/V-front+round r in MPA. On the basis of qepër and on sherbelë respectively, happens after i-mutation of stressed vowels, and of countertonic a (in limited context). Appears to also happen after final -ja goes to e.  Always operates if before {primary, at least} stressed element, but doesn't delete before unstressed e
 
 A2.III -- ina > inia rule inserted into Classical Proto-Albanian
 
@@ -337,6 +337,21 @@ A2.XXXI Middle Proto-Albanian I -- stress retractions...
 	)
 	A2.XXXI.nn stress retraction across nn from antepenultimates. TODO reexamine, only two cases {tingël, hingël}, one especially prone to analogy {tingëlloj derived from tingël, or the reverse? Tinnunculus also meant kestrel, not 'ring' -- somewhat reach-y semantics...}
 
+	A2.XXXI.VCVn stress retraction in Proto-Tosk after ã > ə̃, stress attracted to prior  syllable. Fed by Tosk ã > ə̃. Happens only in final syllable, before at most one consonant, which cannot be ɲ but can be ɾ̃. 
+		only happens in a final syllable
+			Slav. ɒbʊpˈɪnʊkɑ ,  > ˌɔpˈə̃ŋɡə > opë́ngë
+			Lat. pˌuttˈɑːnɑ > pˌutˈə̃ɾ̃ə > putërë 
+			trˌiːmeːnsˈɑːnɑm > trʃˈə̃ɾə > {G trishanë,} T tërshërë
+		does not happen before more than one consonant
+			Slavˌɒblˈɒ̃kʊ >   ˌɔblˈə̃ŋɡ > obllë́ng
+		does not happen before ɲ : pëgëj, maybe privënj to privoj 
+		positive cases: 
+			sˌolˈɑːnum > LPA II sˌulˈãnu > Early Proto-Tosk ʃˌulˠˈə̃ > shullë
+			inbˌoreˈɑːnum > LPA II ə̃nbˌurːˈãnu > EPT murˈə̃ > murrə
+			fˌiːliˈɑːnum > ...> fijë
+			rˌoːmˈɑːnum > LPA II rəmˈãnu > EPT ɾəmˈə̃ɾ̃ > rə́mər
+			wˌirɡˈɑːnum > .. > vɾ̩ɡˈə̃ɾ̃ > várgər, vë́rgër
+			
 A2.XXXII early MPA I -- w deleted after coronal obstruents. Bleeds post-w progressive rounding in this period. 
 	
 A2.XXXIII -- progressive rounding coalescence of w with following ɪ i or short a in two contexts: T (V-stres) __  and # (Vocoid)* [+son] __ . Long round vowels seem to be the result (inasmuch as y doesn't fall, at least). Feeds ɒ > ɔ tho. If not for the matter of length, merger of the w A aspect with A1.XXV.a much later may be worth considering. 
@@ -567,6 +582,7 @@ A2.LXIV LPA I  s in C __ C-cor goes to t͡s, blocking retraction to ʃ
 A2.LXV after last early Slavic wave, k insertion in S __ l 
 
 A2.LXVI post-Slavic r/ɾj > rː -- pɯrjɪ > purrë, caries > qerre, dɪbrjʊ > dibërr
+	.1 -- Middle Proto-Albanian II foreshadowing of r/ɾj > rː, bleeding i-mutation, but bled by ja > ɪ̯a D3.VII, counterbled by post labial j loss A2.II -- inboreanus > murrâ > murrə 
 
 A2.LXVII post-last-early-wave Slavic ʎ > l if all separating it from the beginning f hte word is labial segments that are either stops or hi (w, u), or ʃ 
 	last Slav wave bʎuda > bludë, ʎ ˌu x ˈɑ t ɪ > luhat
@@ -1539,7 +1555,8 @@ C3A.8 -- aphaeresis now happens regardless of whether a consonant or nonconsonan
 
 C3A.9 -- pre- and post first slav layer d > ð expanded to more typical leniting contexts ː post-oral-sonorant, before lateral or non-consonant (j ː ogradja > ograjë). on the basis of later outcomes with Slavic etyma inserted, expanded to more typical leniting contexts ː post-oral-sonorant, before lateral or non-consonant (j ː ogradja > ograjë). First, pre-Slavic, phenomenon does not have this happen after vocoids (clearly not w ː lawdem > lavd); no reason to assume Slavic layer is different.-- however on 11/29 this is usurped as lavd is assumed to be a later loan. 
 
-		
+C3A.X DV1738 apocope in LPA II of nonlow unstressed vowels extended to all final unstressed nonlow vowels, not just those after a stressed syllable. 		
+
 ### C3B -- context made narrower
 
 C3B.I -- "preconsonantal" ʃ to t͡ʃ in most recent modern Albanian is now only pre-nasal
@@ -1642,7 +1659,7 @@ C3B.XXI (actually a much earlier change, very early in the process, but given a 
 	ə̃nkɲəɾˈɔ̃ɲɔ
 	ʃə̃ɾ̃əɾˈɔ̃ɲɔ
 	
-C3B.XXII -- prestrident nasal loss now only before continuants -- not affricates. 
+C3B.XXII -- LPA II prestrident nasal loss now only before continuants -- not affricates. 
 
 C3B.XXIII syncope aspect of DV1734.4/1.III needs to happen after a V C __ 
 
@@ -1802,12 +1819,16 @@ E1.I -- i-mutation of /ɔ/ no longer treated as regular ( C1B.VII) since it seem
 
 E1.II -- i-mutation of /u/, where licit, is now treated separately than other i-mutation, realized in the emergence of /j/ after the /u/, and the later coalescence of /uj/ to /y/. Where it is licit: posterior context is a single non-palatal consonant, and prior Tr- (incl. kryq) or ʒ- (< s-), l-... can just go with coronals for now, with ducem > duq and rudem > rrudhë taken as exceptions. Currently nothing is effected at all (June 20, 2025 
 
-E1.III -- now to two stages of rhotacismː n > ɾ̃, and ɾ̃ > ɾ, with vowel loss and certain cluster developments (notably ɾ̃T > ɾ̃D) happening in-between .
+E1.III -- now to two stages of rhotacismː n > ɾ̃, and ɾ̃ > ɾ, with vowel loss and certain cluster developments (notably ɾ̃T > ɾ̃D) happening in-between. As of Dec 25 '25, first stage happens before apocope, which counterbleeds it: rōmānum > Arv. rë́mër vs. Gheg rëmen, Sl. glænʊ > Arb gjër vs Gheg gjan-ë, virginem > vërgjër, virganum > T vargër {pl. vërgenj}, G vërgã, etc.
 
 E1.IV -- now two stages of -w- deletion. First just deleted after presonorant round vowels. Later, deleted everywhere, joining fate of β, after first Slavic wave, and some final beta coloring phenomena shared between w and b, both as beta. 
 
 E1.V -- kw gw sequences become kʷ gʷ at beginning of MPA II [E1.V.a] then later deround at its close. 
 
+E1.VI -- LPA II prestrident nasal deletion decoupled from final nasal deletion, and final nasal deletion broken up to rules that occur at different points. See file "LPA II-Vnə sequence outcomes.docx". 
+	.1 FIrst LPA II final nasal deletion, with lengthening for non-diphthongs, for "only" {although these form a vast majority of potential cases} after non-low vowels after coronal or palatal oral consonants. No relevant cases for velar consonants before non-low vowels here, so going with -lab. Always happens after u and uə̯ diphthong. Later deletions seem to be after breakup of Tosk and Gheg. Occasional cases of -nj outcomes are likely analogical, from plural forms {Lat. vicīnum > LPA II ɸcˈĩnə > Tosk fqinj, Gheg fqĩ; olivānus > Tosk ulli and ullinj, Gheg ullĩ; Lat marūnus > ... > Tosk mëru, Gheg mnuj-ë.} 
+	.2  LPA II also has deletion of n after coronal sonorant then stressed low vowel sequences {solānum> shúllë ~ shullã; n-boreānus > múrrë ~ murrã́} but not palatals yet {fijë~fijan}.
+	.3 Tosk deletion of final ɾ̃ after labial-palatal sonorant sequences: fijë, shkëmbi etc. Not in Gheg: fijan, Shkumbin, etc. TODO perhaps overfit, reconsider? -- Tosk may also have Shkumbin and Kurbin... 
 
 # F larger changes in progress, with things to consider... 
 

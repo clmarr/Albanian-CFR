@@ -686,8 +686,8 @@ $ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > m
 $DIACLEA CORRECTION A2.LXXXI -- deletion of intercountertonic n in a somewhat idiosyncratic context with weird classes at play -- see file "intercountertonic denasalization.doc" # ({k,w}) [-prim,-lo] __ {k,p,t,w} [-prim] (n) {d,t,lˠ} [+prim] . Effects: convent-ā > kuvendoj, invit-ā- > ftoj, ventil-ā- > ftilloj, content-ā- > kutëndoj , comput-ā- > kupëtoj. Took way too long on this one. Bleeds A1.IV.
 [+nas] > ∅ / # ([+back,-syl]) [-prim,-lo] __ [-syl,tcons,!tcont,!tvoi] [-prim] ([-syl]) [+cor,llat,lcont] [+prim]
 
-$DIACLEA FIX A2.XXXVIII Middle Proto-Albanian I --bleeding regressive coloring , w > v between non-mid vowels and ˈE. Does not happen for b (harroj, lëroj., tabelë, tryezë < trabeza, trā). If it sees through (n), as proposed on June 20, then it also feeds n-loss and bleeds nw > m phenomenon 
-w > v / {[+lo];[+hi,+syl]} ([+nas]) __ [+front,-hi,+stres]
+$DIACLEA FIX A2.XXXVIII Middle Proto-Albanian I --bleeding regressive coloring , w > v between non-mid vowels and ˈE; j can be before the j. If it sees through (n), as proposed on June 20, then it also feeds n-loss and bleeds nw > m phenomenon. 
+[+lab,-nas,-syl,+voi] > v / [+syl,alo,-ahi] ([+nas]) __ (j) [+front,-hi,+stres]
 
 $ DIACLEA CORRECTION A2.XXXI.b stress retraction V B-strid ˈV-hi R Vocoid; bled by w > v taverrë phenom. 
 [+syl] [+lab,-strid,+voi,-nas] [+prim,-hi] > [+prim] [+lab] [-stres] / __ [-syl] [-cons]
@@ -891,7 +891,10 @@ $DIACLEA FIX A2.XVIII.* -- however, j is preserved before a tonic vowel after t�
 $ DIACLEA CORRECTION D3.VII --  j before final unstressed a becomes iota before loss of yod after labials (A2.II), allowing this, too, to join with i-mutation. (Exception ːrubia > rrojbë; may require separate explanation; this may however be a loan. ). 
 j > ɪ̯ / __ ɑ
 
-$ DIACLEA CORRECTION A2.II -- disappearance of j after labials, except before unstressed -a, whic his handled above in D3.VII. As of June 26, it's now labial *obstruents*, can see through (V) r. 
+$DIACLEA CORRECTION A2.LXVI.1 -- Middle Proto-Albanian II foreshadowing of r/ɾj > rː, bleeding i-mutation, but bled by ja > ɪ̯a D3.VII, counterbled by post labial j loss A2.II -- inboreanus > murrâ > murrə 
+r > rː / [-cons] __ j [-cons]
+
+$ DIACLEA CORRECTION A2.II -- disappearance of j after labials before round vowels, except before unstressed -a, whic his handled above in D3.VII. As of June 26, it's now labial *obstruents*, can see through (V) r. 
 	$ w >β >b, kw:  laqueum > lak, quiētus > qetë, salviella > shërbelë ; perhaps also alveolu > nullë "gum" if we believe in that etymology. Seems apparent in Romanian too : quiētus > (in-)cet, although this may be independent (note the difference between laqueum > laț and quiētus > in-cet.. curious.). As of June 24, this is moved from being between DV1740H2 and DV1743.B4 to right after i-mutation, because the latter appears to occur for the countertonic a in salviella > sherbelë, which is nevertheless affected by this. 
 	$ mj : gremium > gremb, 
 		$ NOT in unstressed final -ja : amia > ame "brown meagre"  (i-mutation otherwise blocked)
@@ -908,7 +911,8 @@ $ DIACLEA CORRECTION A2.II -- disappearance of j after labials, except before un
 			$ difficult case : rubia > rrojbë 
 			$ maybe..>? : subiug-āre > shuaj
 	$ the cases of capreum > qepër and salviella > sherbelë suggest this happened AFTER the beginning of i-mutation in the emergence of iota, but gremium > gremb and manubrium > mëru may suggest the opposite as concerns ɛ and u... As of July 2024, though, /u/ i-mutation is handled otherwise, so this can be placed after the emergence of iota but before the resolution in terms of coalescence, and before the merge of iota with j. 
-j > ∅ / [+lab,-son] ( ([+syl]) r) __
+	$Always operates if before {primary, at least} stressed element, but doesn't delete before unstressed e
+j > ∅ / [+lab,-son] ( ([+syl]) [+cor,-nas,-lat,+son]) __ {[+prim];[-prim,+round]}
 
 $ De Vaan p1743-4 -- w dropped between k (DV1743.G2) or g (DV1744.A2), and vowels. This will eventually feed the palatalization of these velars before i/e/y (p1743) but this feeding does not have to be explicitly coded in. 
 $ form prior to 8/5/23 was: {[-cont,+back] w;[-cont,+back,+round]} > {[-round] ∅;[-round]} / __ [-cons] 

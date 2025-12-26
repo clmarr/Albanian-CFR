@@ -1247,6 +1247,12 @@ $ [-stres,-long] > ə / @ __ (@)* [+prim]
 	$ .pe ˌɛ lengthens between lab (son) __ t ˈV and p __ obs (C) ˈV 
 {ˌɛ;ˌe} > {ˌɛː;ˌɛː} / [+lab,+cons] __ t [+prim]
 {ˌɛ;ˌe} > {ˌɛː;ˌɛː} / p __ [-son] ([+cons]) [+prim]
+
+$ DIACLEA CORRECTION E1.III: Tosk rhotacism is now split into two stages: n > ɾ̃, and ɾ̃ > ɾ. First part happens well before split, in LPA I {as of Dec 25 '25}, actually: must happen before LPA II apocope, wich counterbleeds it for at least a handful of words, and doesn't happen to Middle Greek items such as manushaqe. Also counterbled by C2.IV.de in LPA I. Only afterward are non-low vowels are lost at last. Other loss of ɾ̃/n handled by E1.VI
+$ og: n > ɾ̃ / [+syl] __ [+syl]
+$ DIACLEA CORRECTION C3B.XIV -- Tosk rhotacism doesn't happen after penultimate high tense vowels. As of 10/2/25, including this as a context conditioning on this 'reversal' rule [rather than a separate rule ~ ɾ̃ > n / [+hi,+prim] __ [-stres] #]. No evidence it's just penultimates.
+n > ɾ̃ / [+syl,-hi] __ [+syl]
+
 	$.de post non-dorsals -- reduction (for non-long, non-round,non-low) in C-hi,-son __ Cson,-nas. Actually, in fact, the same happens for non-sonorants too. As of Dec 17, now sending these to ɪ
 [-prim,+front,-lo,-long] > ɪ / [-son,-hi] __ [+cons,-nas] (@)* [+prim]
 		$ .den  and for non-low  before N cont : shënoj, vërer, tmerr, shtëroj
@@ -1580,11 +1586,6 @@ $DIACLEA CORRECTION A2.CIX LPA III interjecting DV1738, formation of oe diphthon
 
 $DIACLEA CORRECTION B1.XII aj > ɛ moved toward end of Late Proto-Albanian, as resulting ɛ does not delete with Slavic -e, and Slavic wave 2 feeds it in at least one case {Dõbraj > Dumre}. Could also have it go to long ē. Currently doing both. Only seems to be operating word finally. Counterfed by DV1738 LPA II apocope
 [+lo,+syl,-round] j > [-lo,+front,-back,-tense,+long] ∅ / __ #
-
-$ DIACLEA CORRECTION E1.III: Tosk rhotacism is now split into two stages: n > ɾ̃, and ɾ̃ > ɾ. First part happens before split, actually. Then final non-low vowels are lost at last. As of Dec 25 '25, first stage happens before apocope, which counterbleeds it for at least a handful of words; others handled by E1.VI
-$ og: n > ɾ̃ / [+syl] __ [+syl]
-$ DIACLEA CORRECTION C3B.XIV -- Tosk rhotacism doesn't happen after penultimate high tense vowels. As of 10/2/25, including this as a context conditioning on this 'reversal' rule [rather than a separate rule ~ ɾ̃ > n / [+hi,+prim] __ [-stres] #]. No evidence it's just penultimates.
-n > ɾ̃ / [+syl,-hi] __ [+syl]
 
 $resolution of DV1738 apocope
 $ pre Dec 25 C3A.X vsn: [-back,-front,-stres] > ∅ / [+stres] ([-syl])* __ #

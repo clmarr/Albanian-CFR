@@ -1264,11 +1264,31 @@ n > ɾ̃ / [+syl,-hi] __ [+syl]
 	$.car dorsals: only in # __ Cson,-long (t/n) ˈVː ɟˌɛmˈɔɲɔ > gjëmoj , cˌɛrtˈɔɲɔ : qërtoj , kˌarːjˈoʃu - qëroz, cˌɛrˈɔɲɔ : qëroj ; qëlloj; glasë ; kllandë; kllogjër . COUNTERBLEEDS PALATALIZATION -- palatalization produces differences based on this distinction -- kllandë, kllogjër vs. qëlloj, qëroj, qërtoj. This one still goes to ə, not ɪǃ 
 [-prim,+front,-long] > ə / # [-son,+hi] __ [+son,+cons] ([+cor]) [+prim]
 
-
-$DIACLEA CORRECTION A1.XVII.2 Late Proto-Albanian II has a second wave of the n j > ɲ and also l/lː/ð (r) j > ʎ that at least bleeds final ja > ɛ phenomena. for ð(r)j > hudrio > ujë, Slav ogradja > ograjë.  However Greek livadhja > livadhe; also mandilja > mandile.. 
-$ this causes memory error somehow: [+cont,+cor,+voi,-strid,ʎlat,ʎson] j> ʎ
+$DIACLEA CORRECTION A1.XVII.2.dj Late Proto-Albanian II has a second wave of the n j > ɲ and also l/lː/ð (r) j > ʎ that at least bleeds final ja > ɛ phenomena. for ð(r)j > hudrio > ujë, Slav ogradja > ograjë.  However Greek livadhja > livadhe; also mandilja > mandile.. 
+$ this causes memory error somehow: [+cont,+cor,+voi,-strid,ʎlat,ʎson] j> ʎ. As of Dec 25, the ɲ forming part of this handled differently, after LPA II. 
 {ð j;l j;lː j} > {ʎ;ʎ;ʎ}
-[+cor,+nas,+son] [+front,+son,-syl] > ɲ
+
+
+$DIACLEA CORRECTION A2.XVII: the new ʃ absorbs following t͡ʃ
+t͡ʃ > ∅ / ʃ __
+
+$ DIACLEA CORRECTION A2.LXI  [TODO THESIS -- REEXAMINE FOR EXAMPLE OF ALPHA POLARITY] LPA ˈi and ˈɪ (later from Slavic) > ˈɛ phenomena , before ʃ or t͡ʃ , after s > ʃ  (DV1744.H) but before t͡ʃ > s..
+	$A2.LXI.a  if before an affricate, needs the anteriority to mismatch lowness of final vowel, can see through one medial unstressed-- perhaps should have yers lost by now? As of Nov 28, 2025, however, this is explained via hte soft yer dissimilation rule instead. 
+$[+prim,+hi,-round] > [-hi,-tense] / __ [+delrel,!aant] ([-syl])* [alo]
+	$A2.LXI.s -- for ʃ, just has to come before a vowel (this is before final vowel losses)
+	$as of Nov 28, 2025 -- this only the latter, A2.LXI.s is active, only for t͡ʃ joining with ʃ (formerly ʃ where we have [-ant,+strid,-voi] ) 
+[+prim,+hi,-round,+tense] > [-hi,-tense] / __ [-ant,+strid,-voi] [+syl] #
+
+$DIACLEA CORRECTION A2.LXII LPA I merger and coalescence of ʒ, d z, d ʒ, d͡z into d͡ʒ. Whether z and d͡ʒ are included or not is not clear since d͡ʒ > z separately. Loss of segmentality of d handled below (TODO)
+[+strid,+cor,+voi] > d͡ʒ
+
+$DIACLEA CORRECTION A2.CXIII : before the merger of k and p before coronals {DV1744.B5} but after the stopping of single r, b & p > ð before stops. Feeds voicing in lˌupekkˈɑːtum > ... > lugat (as also in medicastrum > mëgashtër etc: A2.LXXXV..ðK)
+[+lab,-cont] > ð / [+round] __ [-cont]
+
+$ dʒ and tʃ pass to z and s -- whether from PPAlb dʒ/tʃ or from reflexes of Latin loans in dj-, tj (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3)
+$ This effects also the earliest Slavic loanwords : e.g. poroçit > porosit "to request", sul "small boat" , etc. 
+[-ant,+distr,+delrel] > [+ant,-distr,+cont,-front]
+
 
 $DIACLEA CORRECTION A2.CII.1 LPA I deletion of initial unstressed nonconsontal vowel between homorganic consonants, plus deletion of first homorganic cons. .cc now being handled in tandem with A2.VII.
 [-stres,-cons] > ∅ / # [+cons,dcor,blab,tson,nnas,llat,scont] __ [+cons,dcor,blab,tson,nnas,llat,scont]
@@ -1289,29 +1309,15 @@ $DIACLEA CORRECTION A2.CX.BɐG countertonic a > ɐ between labials or ʃ and dor
 [+lo,-long,-round,-prim,+stres,-nas] > ɐ / [+lab] __ [+hi,-cont] [+prim,+tense]
 [+lo,-long,-round,-prim,+stres,-nas] > ɐ / [+cor,+strid] __ [+hi,-cont]
 
-$DIACLEA CORRECTION A2.XVII: the new ʃ absorbs following t͡ʃ
-t͡ʃ > ∅ / ʃ __
-
-$ DIACLEA CORRECTION A2.LXI  [TODO THESIS -- REEXAMINE FOR EXAMPLE OF ALPHA POLARITY] LPA ˈi and ˈɪ (later from Slavic) > ˈɛ phenomena , before ʃ or t͡ʃ , after s > ʃ  (DV1744.H) but before t͡ʃ > s..
-	$A2.LXI.a  if before an affricate, needs the anteriority to mismatch lowness of final vowel, can see through one medial unstressed-- perhaps should have yers lost by now? As of Nov 28, 2025, however, this is explained via hte soft yer dissimilation rule instead. 
-$[+prim,+hi,-round] > [-hi,-tense] / __ [+delrel,!aant] ([-syl])* [alo]
-	$A2.LXI.s -- for ʃ, just has to come before a vowel (this is before final vowel losses)
-	$as of Nov 28, 2025 -- this only the latter, A2.LXI.s is active, only for t͡ʃ joining with ʃ (formerly ʃ where we have [-ant,+strid,-voi] ) 
-[+prim,+hi,-round,+tense] > [-hi,-tense] / __ [-ant,+strid,-voi] [+syl] #
-
-$DIACLEA CORRECTION A2.CXIII : before the merger of k and p before coronals {DV1744.B5} but after the stopping of single r, b & p > ð before stops. Feeds voicing in lˌupekkˈɑːtum > ... > lugat (as also in medicastrum > mëgashtër etc: A2.LXXXV..ðK)
-[+lab,-cont] > ð / [+round] __ [-cont]
-
-$DIACLEA CORRECTION A2.LXII LPA I merger and coalescence of ʒ, d z, d ʒ, d͡z into d͡ʒ. Whether z and d͡ʒ are included or not is not clear since d͡ʒ > z separately. Loss of segmentality of d handled below (TODO)
-[+strid,+cor,+voi] > d͡ʒ
-
-$ dʒ and tʃ pass to z and s -- whether from PPAlb dʒ/tʃ or from reflexes of Latin loans in dj-, tj (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3)
-$ This effects also the earliest Slavic loanwords : e.g. poroçit > porosit "to request", sul "small boat" , etc. 
-[-ant,+distr,+delrel] > [+ant,-distr,+cont,-front]
-
 =Late Proto-Albanian II
 $DIACLEA CORRECTION A2.LXXXXVIII -- LPA II (e.g., from Greek) ɣ > j / __ i,ɪ,j, ultimately resulting in deletion of ɣ. May be worth it to look at handling ɣ l /l ɣ combos around A1.XVII. 
 [+hi,+cont,-son,+voi] > j / __ [+front,+hi]
+
+$DIACLEA CORRECTION A2.CXXV LPA II ɑnj > ãj, bleeding secondary ɲ formation, thus distinguishing LPA anj from earlier anj, which goes to əɲ. 
+[+lo] n > [+nas,+long] ∅ / __ j
+
+$Resolving DIACLEA CORRECTION A1.XVII.2.ɲ -- LPA II secondary ɲ formation.
+[+cor,+nas,+son] [+front,+son,-syl] > ɲ
 
 $DIACLEA CORRECTION A1.XXII.ɛ ɛ reduced to ə, both for Slavic vocab (rrafsh, Zvarisht) and inherited to this point (turp, ëngjëll, bulbër, lavd, etc.). Does not occur after j however (scabies > zgjebe, caries >qerre ) . Applies to naslas as well - kuç, kut, etc. 
 [+front,-stres,-lo,-hi] > ə / {w;[+cons]} __
@@ -1645,7 +1651,6 @@ $[+nas,+cons] [+nas,+cons,+cont] > ∅ [+long]
 $[+nas,+cons] [+nas,+cons,+cont] > ∅ [+long] 
 [+cons,dcor,blab,tson,nnas,llat,scont] [+cons,dcor,blab,tson,nnas,llat,scont] > ∅ [+cons,+long]
 [+nas,+cons] [+nas,+cons,+cont] > ∅ [+long] 
-
 
 $------- continued rise of long vowels -------------
 

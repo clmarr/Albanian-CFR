@@ -1582,9 +1582,9 @@ $changed to sidestep then-current input-side issues in DiaSim. TODO consider res
 $ note that -stres implies a vowel if we are using the default feature definitions and implications (as is intended for this cascade), as the feature [stres] is unspecified unless it is [+syl] 
 $DIACLEA CORRECTION C1A.V/A1.II: final -n also deleted. 
 $DIACLEA CORRECTION C2.II  non-low final vowels first to ə, in time to allow Tosk-rhotacism in V̯nV̯# but not many cases of V́nV̯#.  
-$ DIACLEA CORRECTION C1.B.XIV -- ɛ no longer deleted word final
+$ DIACLEA CORRECTION C1B.XIV -- ɛ,ɒ no longer deleted word final at this time
 {m;n;s} > {∅;∅;∅} / __ #
-[-stres,+round] > ə / __ #
+[-stres,+round,-lo] > ə / __ #
 [-stres,+hi] > ə / __ #
 
 $DIACLEA CORRECTION A2.CIX LPA III interjecting DV1738, formation of oe diphthong from uoV̯ 

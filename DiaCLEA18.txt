@@ -1250,8 +1250,12 @@ $ og: n > ɾ̃ / [+syl] __ [+syl]
 $ DIACLEA CORRECTION C3B.XIV -- Tosk rhotacism doesn't happen after penultimate high tense vowels. As of 10/2/25, including this as a context conditioning on this 'reversal' rule [rather than a separate rule ~ ɾ̃ > n / [+hi,+prim] __ [-stres] #]. No evidence it's just penultimates.
 n > ɾ̃ / [+syl,-hi] __ [+syl]
 
-	$.de post non-dorsals -- reduction (for non-long, non-round,non-low) in C-hi,-son __ Cson,-nas. Actually, in fact, the same happens for non-sonorants too. As of Dec 17, now sending these to ɪ
-[-prim,+front,-lo,-long] > ɪ / [-son,-hi] __ [+cons,-nas] (@)* [+prim]
+$DIACLEA CORRECTION A1.XVII.2.dj Late Proto-Albanian II has a second wave of the n j > ɲ and also l/lː/ð (r) j > ʎ that at least bleeds final ja > ɛ phenomena. for ð(r)j > hudrio > ujë, Slav ogradja > ograjë.  However Greek livadhja > livadhe; also mandilja > mandile.. 
+$ this causes memory error somehow: [+cont,+cor,+voi,-strid,ʎlat,ʎson] j> ʎ. As of Dec 25, the ɲ forming part of this handled differently, after LPA II. Feeds D4.V.de
+{ð j;l j;lː j} > {ʎ;ʎ;ʎ}
+
+	$D4.V.de post non-dorsals -- reduction (for non-long, non-round,non-low) in C-hi,-son __ voiced dorsals and any pretonic in C-hi,-son __ Cson=voi {unnatural class: effectively, exclusion of z and ð}. Actually, in fact, the same happens for non-sonorants too. As of Dec 17, now sending these to ɪ
+[-prim,+front,-lo,-long] > ɪ / [-son,-hi] __ {[ason,avoi,+cons,-nas];[+hi,+voi,-cont]} (@)* [+prim]
 		$ .den  and for non-low  before N cont : shënoj, vërer, tmerr, shtëroj
 [-prim,+front,-lo,-long] > ɪ / [-son,-hi] __ [+nas,+cons] ([+cont] (@)*) [+prim]
 		 $ .βal for low vowels: reduced in lab,cont __ Cson: vlej, vlerë, vjej, fërroj, fërratë ,
@@ -1261,9 +1265,7 @@ n > ɾ̃ / [+syl,-hi] __ [+syl]
 	$.car dorsals: only in # __ Cson,-long (t/n) ˈVː ɟˌɛmˈɔɲɔ > gjëmoj , cˌɛrtˈɔɲɔ : qërtoj , kˌarːjˈoʃu - qëroz, cˌɛrˈɔɲɔ : qëroj ; qëlloj; glasë ; kllandë; kllogjër . COUNTERBLEEDS PALATALIZATION -- palatalization produces differences based on this distinction -- kllandë, kllogjër vs. qëlloj, qëroj, qërtoj. This one still goes to ə, not ɪǃ 
 [-prim,+front,-long] > ə / # [-son,+hi] __ [+son,+cons] ([+cor]) [+prim]
 
-$DIACLEA CORRECTION A1.XVII.2.dj Late Proto-Albanian II has a second wave of the n j > ɲ and also l/lː/ð (r) j > ʎ that at least bleeds final ja > ɛ phenomena. for ð(r)j > hudrio > ujë, Slav ogradja > ograjë.  However Greek livadhja > livadhe; also mandilja > mandile.. 
-$ this causes memory error somehow: [+cont,+cor,+voi,-strid,ʎlat,ʎson] j> ʎ. As of Dec 25, the ɲ forming part of this handled differently, after LPA II. 
-{ð j;l j;lː j} > {ʎ;ʎ;ʎ}
+
 
 
 $DIACLEA CORRECTION A2.XVII: the new ʃ absorbs following t͡ʃ

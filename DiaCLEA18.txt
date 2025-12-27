@@ -399,8 +399,6 @@ $DV1736 "4.", moved back (DIACLEA CORRECTION B2.IV) handling the posited emergen
 $ DIACLEA CORRECTION B2.IV -- laxing moved to Early Proto-Albanian period. 
 [-lo,+syl,-long,-cons] > [-tense]
 
-$TODO WORK HERE -- FILLER AT R20 -- 6/24
-
 $DIACLEA CORRECTION A2.VIII Latin o and oː alike are changed to short u before non-palatal sonorant consonants, in syllables that are antepenultimate or earlier (i.e. those that will not be final syllables in Late Proto-Albanian)
 	$ this seems to be a change shared with Vlacho-Romance. 
 	$ originally I thought this was a specifically pretonic development, which does describe the majority of cases, and all cases before /ɫ/ and /ŋ/, but there are exceptions -- fornice > furriq, compater > kumtër, computum > kumt, cˈonsocer > krushk (Romanian cuscru), mˈonachus > murg, cˈontrā > kundër, etc... 
@@ -821,8 +819,8 @@ d > ð / [-cons] ([+son,-nas,+cons]) __ [βlat,βcons]
 $ DIACLEA CORRECTION A2.XXXXII --  d > r / [-prim] __ r  (retained after stress: scodra, chersydra, quadrum)
 d r > rː / [-prim] __
 
-$DIACLEA CORRECTION A2.LII in middle proto-Albanian, around the time of i-mutation (may be reinterpretable as related, but probs not), r > rː after an initial non-round vowels, with (w,e̯,j?) possibly coming between
-{r r;r} > {rː;rː} / # [-prim,-round] ([-cons,-syl]) __ 
+$DIACLEA CORRECTION A2.LII in middle proto-Albanian, around the time of i-mutation (may be reinterpretable as related, but probs not), prevocalic r > rː after an initial non-round vowels, with (w,e̯,j?) possibly coming between
+{r r;r} > {rː;rː} / # [-prim,-round] ([-cons,-syl]) __ [-cons]
 
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM (Rom. cetate), njerkë "stepmother" < NOVERCA
 $ DIACLEA CORRECTION B1.III -- relocdated later -- 
@@ -832,7 +830,10 @@ $ DIACLEA CORRECTION E1.IV -- now two stages of -w- deletion. First just deleted
 w > β 
 
 $DIACLEA CORRECTION D4.V.eCE early loss of non-back non-round vowel in ˌECT and ˌECN 
-[-prim,-long,-round,-lo] > ∅ / @  [+front,-lo,-prim,+stres] [-syl,+cont] {[-cont];[+nas,+cons]} __ [-syl] ( @ )* [+prim]
+[-prim,-long,-round,-lo] > ∅ / @  [+front,-lo,-prim,+stres] [-syl,+cont] [nnas,ncont] __ [-syl] ( @ )* [+prim]
+
+$DIACLEA CORRECTION A2.CXXVIII initial h-deletion before in MPA II before non-high countertonics; before raising of countertonic o {A2.VIII}
+h > ∅ / # __ [-prim,+stres]
 
 $DIACLEA CORRECTION A2.CXXI early MPA II reduction of unround vowels between labials and coronal sonorants. Prevelar handled later, not so much prelabial. Counterfed by prespirant nasal deletion.
 [+front,-prim] > ɪ / [+lab,+cons] __ ([+cor,-son,+cont]) [+cor,-son] ([+syl] ( @ )*) [+prim]
@@ -951,7 +952,7 @@ $DIACLEA CORRECTION A2.I.dj TENTATIVE ʎ > ðj dissimilation if there is an l la
 ʎ > ð j / __ (@)* [+lat]
 
 $DIACLEA CORRECTION A2.CVIII h-prosthesis. See fixes log for justification of formalism. 
-∅ > h / # __ [-prim,-round] [+voi,+cons,-lat,-nas] ([-syl]) [+front,-prim] (@)* [+prim]
+∅ > h / # __ [-prim,-round] [+voi,+cons,-lat,-nas] ([-syl,mnas,mlab]) [+front,-prim] (@)* [+prim]
 
 $ DIACLEA CORRECTION A2.XXXXIII regressive beta-coloring for initial or soon-to-be initial front vowels, becomes round and takes backness of following vocoid, before [+lab,-son,+voi] ([-cons] ) [+voi,-syl]. Soon to be initial -- seeing through (([-son]) [-son] (([-cons] ) r )) . Maybe move after vowel falls to make this a simpler rule (or move htem before)
 $ TODO in progress!!
@@ -1307,8 +1308,6 @@ $DIACLEA CORRECTION A2.CX.BɐG countertonic a > ɐ between labials or ʃ and dor
 
 =Late Proto-Albanian II
 
-
-
 $DIACLEA CORRECTION A2.LXXXXVIII -- LPA II (e.g., from Greek) ɣ > j / __ i,ɪ,j, ultimately resulting in deletion of ɣ. May be worth it to look at handling ɣ l /l ɣ combos around A1.XVII. 
 [+hi,+cont,-son,+voi] > j / __ [+front,+hi]
 
@@ -1330,6 +1329,9 @@ $DIACLEA CORRECTION A2.CIV: feeding rn > rr phenomena, loss of non-initial preto
 
 $DIACLEA CORRECTION A2.CXXVI in LPA II before rr > rː { see B1.XIII, it's now happening here}, and before ɯ > u, lowering of yer-like unstressed vowels after p ˈVunround r sonorant and t ˈVround r sonorantː purrë, pirrë, shpirrë, turrë, torrë, shturrë. 
 [+hi,-stres] > ɐ / [-delrel,-hi,plab] [+prim,-plab] [+son,+cor,-nas,-lat] [+son] __
+
+$DIACLEA CORRECTION A2.CXXVII excrescence of ə to bleed rn coalescence in LPA II -- ə inserted in +cont -cont __ N if the nasal comes before at least one obstruent then a stressed vowel
+∅ > ə / [+cont] [-cont] __ [+nas,+cons] ([-son])+ [+stres]
 
 $DV3.1H2 : -rn- > -rr- / V __ V . This happens in Gheg and Tosk, but De Vaan 2018, citing Janson 1986(:97f), argues it is post-Slavic. Inasmuch as it happens in Gheg, it is also independent of Tosk rhotacism, and should thus be handled separately.
 $DIACLEA CORRECTION B2.X -- moved r n > r: into much earlier proto-Albanian, because it bleeds ietation. 
@@ -1448,6 +1450,11 @@ $ DIACLEA CORRECTION C3B.XXI: the places this actually correctly happens to be a
 $ DIACLEA CORRECTION B2.XVI -- DV4.1B3 & Bonnet 1998:193 -- "*Tosk* insertion of b between m and unstressed vowels" -- moved much earlier, making it possibly pan-Albanian, because it feeds progressive unstressed round vowel assimilation (A2.XXI). In Gheg, it can be assumed the mb > m, per regularly ND > N in Gheg, hence the apperance of "Toskness" of this development. 
 {m;n;ɾ̃;ŋ;ɲ} > {m b;n d;n d;ŋ ɡ;ɲ ɟ} / [-prim] __ [-stres] [+cor,+son,-nas]
 
+
+$DIACLEA CORRECTION A2.XXII -- TV̯L > ləTV̯ if prior syllable has simple onset, it seems: (duplic-ā- > dulpëkoj, pavīcula > pylkë, radīcula > rilkë, conucula > konurkë, but mātrīcula > ndrikull). Two rules necessary per current DiaSim restriction against features in disjunctions. [-voi] in second row is a dummy/place filler. note that if other /l ə/ sequences arise, the functionality of this could be compromised. Doesn't happen before stress : carricul-a- > kriklloj. Bleeds A2.XXI, if we take A2.XXI seriously. 
+[-stres] [+lat] > l ə / [+syl] ([-syl,+voi]) [+hi,+syl] [-voi,-cont] __ [-stres]
+∅ ∅ [-voi,-cont] l > l ə [-voi] ∅ / [+hi,+syl] __ ə
+
 $DIACLEA CORRECTION A2.XXI -- progressive round unstressed vowel spreading between two unstressed syllables (u or countertonic ˌu spreading onto unstressed vowel). As of Dec 2o25, at least the translateral one has to be coming from a round vowel after a consonant {tullë, përrallë }; doesnt' cross long l
 $ bleeds A1.XX
 $As of  November 2025 however, much more restricted: across short laterals (many cases), across r ([-cor], and across ND, assimilating vowels not before nasals . TODO may actually be spurious in majority of word final cases reflecting as -ull, i.e. -ull endings that could be reflex of a former syllabic -l̩#. As of Dec '25, ND aspect surpressed: not worth it. Cross ɾ one still relevant. 
@@ -1496,10 +1503,6 @@ $ DIACLEA CORRECTION C1A.IX : k>p> f phenomena now broadened to all non-coronal 
 
 $DIACLEA CORRECTION A2.CX.ðD countertonic a > ɐ  after anything not long {not r:} and before ST followed by ˈV. Can see through n after ST 
 [+lo,-long,-round,-prim,+stres,-nas] > ɐ / [-long] __ [+cont,-son] [-cont] ([+nas]) [+prim]
-
-$DIACLEA CORRECTION A2.XXII -- TV̯L > ləTV̯ if prior syllable has simple onset, it seems: (duplic-ā- > dulpëkoj, pavīcula > pylkë, radīcula > rilkë, conucula > konurkë, but mātrīcula > ndrikull). Two rules necessary per current DiaSim restriction against features in disjunctions. [-voi] in second row is a dummy/place filler. note that if other /l ə/ sequences arise, the functionality of this could be compromised. Doesn't happen before stress : carricul-a- > kriklloj. 
-[-stres] [+lat] > l ə / [+syl] ([-syl,+voi]) [+hi,+syl] [-voi,-cont] __ [-stres]
-∅ ∅ [-voi,-cont] l > l ə [-voi] ∅ / [+hi,+syl] __ ə
 
 $DIACLEA CORRECTION A1.IX -- reduction of u before voiceless stops or clusters containing them. Occurs right after (and is fed by) progressive u-spreading (A2.XXI), and before post-nasal stop voicing (co(n)tentāre > kutëndoj, conventāre > kuvendoj... etc.). Not for first countertonic vowel. As of Dec Nine 2025, hits nasal u too -- but not the long one.
 ${u;ˌu} > {ə;ˌə} / [+stres] ([-syl] ([-stres]))* __ ([-syl])* [-voi] 

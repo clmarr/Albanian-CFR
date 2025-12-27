@@ -1497,8 +1497,8 @@ $ DIACLEA CORRECTION C1A.IX : k>p> f phenomena now broadened to all non-coronal 
 $DIACLEA CORRECTION A2.CX.ðD countertonic a > ɐ  after anything not long {not r:} and before ST followed by ˈV. Can see through n after ST 
 [+lo,-long,-round,-prim,+stres,-nas] > ɐ / [-long] __ [+cont,-son] [-cont] ([+nas]) [+prim]
 
-$DIACLEA CORRECTION A2.XXII -- TV̯L > ləTV̯ if prior syllable has simple onset, it seems: (duplic-ā- > dulpëkoj, pavīcula > pylkë, radīcula > rilkë, conucula > konurkë, but mātrīcula > ndrikull). Two rules necessary per current DiaSim restriction against features in disjunctions. [-voi] in second row is a dummy/place filler. note that if other /l ə/ sequences arise, the functionality of this could be compromised. 
-[-stres] [+lat] > l ə / [+syl] ([-syl,+voi]) [+hi,+syl] [-voi,-cont] __
+$DIACLEA CORRECTION A2.XXII -- TV̯L > ləTV̯ if prior syllable has simple onset, it seems: (duplic-ā- > dulpëkoj, pavīcula > pylkë, radīcula > rilkë, conucula > konurkë, but mātrīcula > ndrikull). Two rules necessary per current DiaSim restriction against features in disjunctions. [-voi] in second row is a dummy/place filler. note that if other /l ə/ sequences arise, the functionality of this could be compromised. Doesn't happen before stress : carricul-a- > kriklloj. 
+[-stres] [+lat] > l ə / [+syl] ([-syl,+voi]) [+hi,+syl] [-voi,-cont] __ [-stres]
 ∅ ∅ [-voi,-cont] l > l ə [-voi] ∅ / [+hi,+syl] __ ə
 
 $DIACLEA CORRECTION A1.IX -- reduction of u before voiceless stops or clusters containing them. Occurs right after (and is fed by) progressive u-spreading (A2.XXI), and before post-nasal stop voicing (co(n)tentāre > kutëndoj, conventāre > kuvendoj... etc.). Not for first countertonic vowel. As of Dec Nine 2025, hits nasal u too -- but not the long one.
@@ -1875,7 +1875,6 @@ $DIACLEA CORRECTION A2.LXXXXVII -- early denasalization of ã to block raising 
 	
 $DIACLEA CORRECTION A2.CXIV LPA III cluster medial stop deletion in C T -son. Feeds DV4.1U2
 [-delrel] > ∅ / [+cons] __ [-son]
-
 
 $DIACLEA CORRECTION A2.LVIII: n-like segments before a stop assimilates to its place of articulation and become simple nasal segments 
 	$ This happens to long nː too -- hinnicul-ā- > LPA I hinːə̯kəlˠɔ́ɲ > hingëlloj . Fed by A2.CXIV

@@ -229,6 +229,13 @@ $using φ  for reasons explained in formalization for DV4.3K1
 $TODO ɸ -- need to incorporate ɸ > f into any β > v shift. Can remove this note only when that is done. 
 t p > ɸ t 
 
+$ DV4.2Q4 : j inserted before word initial *e- 
+$ use of the * in the original suggests this is not Latin words targeted, and the example of jashtë suggests it precedes a-mutation (below). As no Greek words effected and it only causes problems, placed before APA as well. 
+∅ > j / # __ [-hi,-lo,+front,+syl]
+
+$DV2.2.1C2: PPAlb *e (but not Latin short E?) undergoes a-mutation, cf. De Vaan 2004: 78-83. Placed here as it apparently doesn't happen to Latin. As no Greek words effected and it only causes problems, placed before APA as well. 
+$ per De Vaan 2004(:78-83), this is actually going to ja, not simply ɑ, so that is reflected in this rule (this also supports the apparent limitation of this development to the pre-Latin stratum) 
+{j ˈe;ˈe} > {j ˈɑ;j ˈɑ} / __ ([-syl])* [+lo,+syl]
 
 $ ----------- Pre-Proto-Albanian = pre-Greek proto-Albanian. --------------
 =Archaic Proto-Albanian
@@ -243,10 +250,11 @@ $ DIACLEA FIX C1.B.XV -- ɑː > ɒː in Archaic Proto-Albanian now doesn't occur
 $ general rule for De Vaan(:1747) is no change in stress placement: by default, Latin loans have the same stress placement as in Classical Latin, "and the same goes for loanwords from later layers... Slavic, Italian... Greek... Turkish". Exceptions seem to be largely morphologically motivated (see bottom of p1747); De Vaan (1747) agrees with Matzinger 2006 that things are too complicated for Jokl 1923's treatment of PPAlb as having general penultimate accent. 
 
 $DV1744.E2 not affecting Latin words, *intervocalic* *d to edh, perhaps with ability to see through r. (later change that DV'18 asserts affects Latin words too, has r not as optional but necessary, and is thus not intervocalic, with Latin intervocalic d being lost in Albanian in this account). Since De Vaan treats the intervocalic lenition as pre-Latin and a separate sound change with no explicit mention of r (optional or not) in the context, so will it be handled here.
-d > ð / [+syl] __ [+syl]
+$D2.III -- APA d > ð and ð > j rules deleted. No reason for any of this to happen before MPA; same patterning for Latin etyma it seems.
+$d > ð / [+syl] __ [+syl]
 
 $DV1744J2 (=4.2Q2) -- some PAlb *ð < PIE d / V __ V becomes *j. But this does not seem intended to be deterministic(?) as while ujë "water" and the aorist -jt- are cited, DV1744E2 also has (-)dha "gave" and lodhet "to tire" cited. Some other sources do not have ujë "water" coming from something with an intervocalic *d though: Orel 1998 (:483) assets a PAlb *udrjā akin to Greek hydría "water bucket", in line with Camarda, Gil'ferding and Hamp 1965(:138); Huld 1976(:197) seems largely favorable to this and puts *udr-iom as his own form. Meyer 1891(:456) had *udni̯ā; Pedersen 1897(:286) and Tagliavini (1937:237) accept this but Huld 1976(:196) does not on the basis of the lack of any nasal traces in Arvanitika, a similar criticism to that voiced by Orel 1998. La Piana has ujë < ulë < ud-l-o. Demiraj 1997 (:401-2) asserts a PAlb *urjā citing Skt. vār- "water". Çabej 1967(:70-2) seems to say what De Vaan 2018 is saying here, except in that the -j- arises later in hiatus after the fall of intervocalic -d- in native words, which apparently Çabej 1967 considers more widespread than does De Vaan 2018 (?). 
-$TODO reexamine this considering the above. Also perhaps confer with De Vaan on what was intended here.
+$DIACLEA CORRECTION D2.III -- APA d > ð and ð > j rules deleted. No reason for any of this to happen before MPA; same patterning for Latin etyma it seems.
 ð > j / [+syl] __ [+syl] 
 
 $DV4.1B2 -- m to b before l -- DV'18 lists bluan "to grind" < mleh1-, bletë "bee" < *m[e]lit? (question mark in the original) -- given the second example, there may have been some vowel effacement before this point? But DV'18 does not attribute this outcome for Latin loans into Proto-Albanian, and indeed they don't seem to show it exactly (e.g. simulatūra > shëmbëlltyrë etc.) 
@@ -269,14 +277,6 @@ $DV2.2.1A4.I: PPAlb *e and Latin ē raise to ultimately *i "sometimes" when bef
 $ Way to handle this might be to lengthen PPAlb *e in this context here so that it will merge with Latin ē, and then have a second part of this rule (2.2.1A4.II) later  
 $ NOTE FOR DIA : The example given for Latin ē could instead be handled as triggered by the following glide actually, as it works for ecclesia > kishë and bestia > bish(t)ë, but not vēscus > veshk, rēstem > rrjesht, ēsca > eshkë or quadrēsima > kreshmë. 
 ˈe > ˈeː / __ [+cor,+cont,+strid]
-
-$ DV4.2Q4 : j inserted before word initial *e- 
-$ use of the * in the original suggests this is not Latin words targeted, and the example of jashtë suggests it precedes a-mutation (below). 
-∅ > j / # __ [-hi,-lo,+front,+syl]
-
-$DV2.2.1C2: PPAlb *e (but not Latin short E?) undergoes a-mutation, cf. De Vaan 2004: 78-83. Placed here as it apparently doesn't happen to Latin.
-$ per De Vaan 2004(:78-83), this is actually going to ja, not simply ɑ, so that is reflected in this rule (this also supports the apparent limitation of this development to the pre-Latin stratum) 
-{j ˈe;ˈe} > {j ˈɑ;j ˈɑ} / __ ([-syl])* [+lo,+syl]
 
 $DIACLEA CORRECTION A2.CXXXVII late APA ks , ps > x , ɸ 
 [-cont,-cor] s > [+cont] ∅

@@ -7,7 +7,7 @@ import UTILS
     # the "circumfix" : STAGE_CIRCUMFIX
 
 
-OUTPUT ="grALex.txt"
+OUTPUT ="gjALex.txt"
 STAGE_CIRCUMFIX = "_"
 NATIVE_NAMES = UTILS.STAGES + ["Albanian"]
 OUTPUT_HEADER = UTILS.STAGES
@@ -68,14 +68,14 @@ def digest_line(ln, inp_stage_names, src):
     return cmt_stage_marking(UTILS.LEX_DELIM.join(output)+" "+cmt,OUTPUT_HEADER,src)
 
 # dictionary with input stage file names as keys and the stage they are marked as as values.
-INPUTS = {#"ALLAPS.txt" : "Latin"  #various stages of Latin currently working from here, rather than ALLex or the Christian Latin file.
+INPUTS = {"ALLAPS.txt" : "Latin"  #various stages of Latin currently working from here, rather than ALLex or the Christian Latin file.
           #"APIELex.txt": "Proto-Indo-European", #PIE inheritance #TODO don't do until reasonably confident with later layers (and fulL)
           #,"APBalkLex.txt": "Proto-Balkan-Indo-European", #Balkan Indo-European formations and substrate etyma #TODO don't do until reasonably confident with later layers (and fulL)
-          #,"EPSEALLex.txt" : "Proto-Slavic" #First wave of Slavic loans -- into Late Proto-Albanian I
-          #,"MPSEALLex.txt" : "Proto-Slavic" #Middle wave of early Slavic loans -- into Late Proto-Albanian II. To be used sparingly
-          #,"LPSEALLex.txt" : "Proto-Slavic" #Last early wave of Slavic loans -- into Late Proto-Albanian III
+          ,"EPSEALLex.txt" : "Proto-Slavic" #First wave of Slavic loans -- into Late Proto-Albanian I
+          ,"MPSEALLex.txt" : "Proto-Slavic" #Middle wave of early Slavic loans -- into Late Proto-Albanian II. To be used sparingly
+          ,"LPSEALLex.txt" : "Proto-Slavic" #Last early wave of Slavic loans -- into Late Proto-Albanian III
 
-           "MGrALAPS.txt" : "Middle Greek" #later waves of Greek.
+          , "MGrALAPS.txt" : "Middle Greek" #later waves of Greek.
           ,"ADoLex.txt" : "Doric Greek dialects" #Doric loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc.
           ,"AAttLex.txt" : "Attic Greek dialects" #Attic loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc.
           ,"AMacLex.txt" : "Macedonian, per Huld, " #Macedonian loans into Archaic Proto-Albanian (a likely later time than above tho),

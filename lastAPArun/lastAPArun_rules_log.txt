@@ -505,6 +505,7 @@ x > h
 k > ɡ / # __ ( [-prim,-lo] ) [+lat,-hi] ( [-prim,-lo] ) ( [+son,-syl] ) [-son,-cont] [+prim]
 k > ɡ / # __ [-prim,+back,+hi] [+cor] [-prim,-back,-front] ( [+son] ) [-son,-cont]
 k > ɡ / # __ ( [-prim,-back,-front] ) [+cor] [-voi,-lab,-hi] [+lo,+prim]
+ˈã > ˈɛ̃ / [+cor] __ ɲ
 [-stres,-cons] > ∅ / [+cons,dcor,blab,tson,nnas,llat,scont] __ [+cons,dcor,blab,tson,nnas,llat,scont]
 [+cons,dcor,llat,blab,scont,nnas,rson] > ∅ / __ [+cons,dcor,llat,blab,scont,nnas,rson]
 [+strid,+cor] > [-cont,+delrel,+cons,0tense] / [+lat] __ #
@@ -529,7 +530,9 @@ k > ɡ / # __ ( [-prim,-back,-front] ) [+cor] [-voi,-lab,-hi] [+lo,+prim]
 [+lat] > ʎ / [+syl,uhi,uback] [+nas] [+back,-cont] __
 ʎ > j 
 [+back,-cont] j > [-back,+front] ∅
-z > d͡z / n __
+ə > ∅ / # [+lab,+cons,+cont] __ [-distr,llat,lson,zcont,zvoi,-hi]
+ə > ∅ / [-cons] [-delrel,-son,-front,aback] __ [+lat,aback] [+prim]
+z > d͡z / [+nas,+cons] __
 c > k / __ [+syl] ʃ
 [-delrel,ŋhi,mlab] > [+voi] / [+nas,ŋhi,mlab] __
 b > ∅ / # ( [-prim] ) m __ [-prim] [+cons,-lat]

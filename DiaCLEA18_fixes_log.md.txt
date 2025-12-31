@@ -188,17 +188,16 @@ A1.XXX LPA III (?) deletions in V-stres C V-stres sequences
 [-stres] > ∅ / {#;[+nas,+cons]} [+cons] [-stres] [+cons] __ [+cons] (@)* [+prim] 
 
 A1.XXXI -- like r deleted before l (to feed > ll), syllabified r̩ > ə ...
-	... in # lab __ l -- 
+	... .bel in # lab __ l -- 
 	.	mˌerulˈɑːneɑ > mëllënjë ( pullënd, bullog -- different outcome of STRESSED ˌɾ̩ -- but essentially INCORPORATED -- see A2.LXXVI.erul ) 
-	... in # C __ ʃC ː kështerë , Vëshnik -- but kundërshtar -- must be initial.
+	... .eS in # C __ ʃCV ː kështerë , Vëshnik -- but kundërshtar -- must be initial. needs vowel afterwards if not stressed: kërshëndel; also before f : taftar; continuancy = voicing for prior for unstressed case: bërshnik
 
 	... A1.XXXI.ʊr -- these are both fed by STRESSED ˈər > ˈɾ̩ (.1), which resolves in both cases to >ɾˈu, otherwise to ˈəɾ
-
 
 A1.XXXII LPA III final o > a, feeding final (jo > ja) > e 
 
 A1.XXXIII early modern Tosk loss of ə in V Cson __ obs,  and V obs __ T if they have matching voicing. 
-	without matching oviing -- unclear : liktyrë, bakti vs. trashëgoj ( pagëtyrë, shigjetar  -- likely analogical)
+	without matching voicing -- unclear : liktyrë, bakti vs. trashëgoj ( pagëtyrë, shigjetar  -- likely analogical)
 	
 	.gt further loss in going with obs __ T-voi for now, with regressive devoicing assimilation. 
 
@@ -967,7 +966,7 @@ A2.LXXXV -- VðV̯C-son resolutions -- see "hopefully final delta analysis", "de
 		does happen before lˠ -- rule 230
 			nˈœðulˠu > nyell 
 
-	.ðC -- ð deletes before consonants, after lengthening phenomena resolve.
+	.ðC -- ð deletes before consonants, after lengthening phenomena resolve. As of Dec 3o, 2o25, takes medial schwa with it. 
 
 	TODO Merge this with existig aðr > aːrː stuff ?ǃ  Probably not, actually, since htat lenghtens the rː? 
 
@@ -1319,13 +1318,19 @@ A2.CXXVII excrescence of ə to bleed rn coalescence in LPA II -- ə inserted in 
 
 A2.CXXVIII initial h-deletion before in MPA II before non-high countertonics; before raising of countertonic o  {A2.VIII}
 
-A2.CXXIX deletion of non-low, non-back initial vowels in # -syl,-lab __ [coronal continuant] C+ V-prim 
+A2.CXXIX deletion of non-low, non-back initial vowels in # -syl,-lab __ [coronal continuant] C+ V-prim. Feeds A2.CXXX
 548,  | ...                | *#ʃə̃ndəɾˈɔ̃ɲ#     | *#ʃəndɾˈɔj#        | #t͡ʃndəɾˈɔj#
 638,  | ...                | *#dəʃkˌalːəkˈɔ̃ɲ#  | *#dəʃkalkˈɔj#      | #ʃkalkˈɔj#
 640,  | ...                | *#dəʃkˌaɾkˈɔ̃ɲ#    | *#dəʃkaɾkˈɔj#      | #ʃkaɾkˈɔj#
 693,  | ...                | *#dəʃcˌyːɾtˈɔ̃ɲ#   | *#dəʃcyɾtˈɔj#      | #ʃcyɾtˈɔj#
 959,  | ...                | *#jˌɪzbɑβˈitɪ#     | *#izbavˈit#        | #zbavˈit#
 960,  | ...                | *#dəzbəlˠˈɔ̃ɲ#     | *#dəzbəlˠˈɔj#      | #zbulˈɔj#
+
+A2.CXXX deletion of voiced first element of clusters ending in nonsonorant if its sonorance mismatches its consonantality. Does not appear to be fed by A1.XXX syncope wave at present. 
+
+A2.CXXXI LPA II deletion of initial stop in pretonic obstruent clusters if there are two full syllables before the tonic vowel afterward. Counterbled by A2.LXXXV. h-edictare > hetoj; conscriptare > kushtroj; decaptare > dikëtoj, etc.
+
+A2.CXXXII LPA II coalescence of TS clusters to affricates, before loss of hard yer. Bleeds A2.CXXXI
 
 # B Rule relocdations
 
@@ -1553,7 +1558,7 @@ C2.V git > ʎit instead of jit -- rule instead goes to ʎ, evidence from OAlb ku
 
 C3A.1 -- the first wave of syncope between n and stops (DV2.2.2b) extended to all nasals as prior context. . Dec 17, 2025 -- extended to hit ɪ. As of Dec 2o, '25, doesn't happen word initially, at least to m -- nepotia > mbesë is a potential exception for n. On the other hand mëgashtër, mëkoj
 
-C3A.2 -- first wave of syncope after nasals, seen above for DV2.2.2b/C3a.1, broadened to apply between nasals in pretonic position if there is a consonant somewhere beforehand. Dec nine 2o25 -- extended to hit ə̃ as well. Dec 17, 2025 -- extended to hit ɪ.. 
+C3A.2 -- first wave of syncope after nasals, seen above for DV2.2.2b/C3a.1, broadened to apply between nasals in pretonic position if there is a consonant somewhere beforehand. Dec nine 2o25 -- extended to hit ə̃ as well. Dec 17, 2025 -- extended to hit ɪ.
 
 C3A.3 -- (formerly A1.I before April 16) -- first wave of syncope after nasals extended: later Middle Proto-Albanian deletion of schwa in R m __ N 
 
@@ -1672,7 +1677,7 @@ C3B.XVIII -- ō > uo rather than ø phenom, when before r, now needs t ocome af
 C3B.XIX -- : fr Old Alb ʃ > t͡ʃ bfeore a consonant posterior context changed from [+cons] to [+cons,+nas]; as of Nov 24, 2025 also not postvocalic (Leshnjë, vishnjë, Vishnjë, Pashnik etc.) 
 $DIACLEA ANALYSIS: for Latin loans at present, c [+cons] clusters are barely present (at the pivot point at this rule, only one was detected -- and it was an error), while "ʃ [+cons]" sequences... overwhelmingly don't go to "t͡ʃ ..." 
 	$ in fact, as of Aug 15 (2023?), tʃ for ʃ was the most common confusion, with 88% of errant words having it, and the error was particularly common after the word bound (43.6%), before /t/ (36.8%) and before /k/ (30%) 
-
+	$ as of Dec 3o, 2o25, post consonantal case abrogated. case of balçëm currently explained otherwise, via an earlier rule in Proto-Tosk operating after laterals. 
 C3B.XX -- ˈɛ > ˈa in DV2.2.1C5 now only after long coronals, short l hits too many wrong items, no evidence of this before lˠ either. This allows us to unify the context as [+cor,+long] rather than {rː;[+lat]}
 
 C3B.XXI (actually a much earlier change, very early in the process, but given a designator later) DV4.1B3 & Bonnet 1998:193 -- "Tosk" insertion of b between m and unstressed vowels -- only happens before laterals, and not word initially.grūmul-ā- > grumbulloj, meletta > (m)bletë (?), similatūra > shëmbëlltyrë. Not word initially: maledīc-œ > mallkoj, maliti-ā- > malcoj, molārem > mullar, molīnum > mullî, mulc-ē > mëlkoj  maluang-œ- > mallëngjej.  Accuracy gained with this fix: +0.8%

@@ -390,10 +390,10 @@ m [+nas,+cons,+cont] > mː/ __ [+syl,-round]
 [wround,cprim,+stres] [-syl,-cons,-hi] > [wback,wlab,!wfront,-syl,0stres,0prim] [cprim,-tense,-cons,-lat,+cont,0delrel]/ # __
 [-round,+hi,cprim,+stres] [-syl,-cons,-hi] > j [cprim,-tense,-cons,-lat,+cont,0delrel]/ [+syl] ( @ )* __
 r > ɾ 
+[-prim,-lo,-back] > ∅ / # [-syl,-lab] __ [+cor,+cont] [-syl] ( [-syl] )* [-prim]
 [+round,+back,+nas,+syl] ∅ > [+hi,-lo,+tense,-cons,-lat,+cont,0delrel] m/ [+cor,-son] __ [-cont,+lab]
 [+nas,+syl] ∅ > [-nas] n/ __ [-cont,-son]
 n > m / __ [+lab,-cont]
-n > ŋ / __ [+back,-cont]
 [-voi,+cor,-cont] j > c
 [-round,+hi,cprim,+stres] [-syl,-cons,-hi] > j [cprim,-tense,-cons,-lat,+cont,0delrel]/ __ [+son] @
 [-round,+hi,cprim,+stres] [-syl,-cons,-hi] > j [cprim,-tense,-cons,-lat,+cont,0delrel]/ __ [-son]
@@ -422,6 +422,7 @@ j > ∅ / [+front,+cons] __
 [+hi,-round,-tense,+nas] > [+tense,+lo,-hi,-cons,-lat,+cont,0delrel] 
 [+hi,-round,-tense] > [-hi,+stres,+syl,+son] / __ [+cons] ɪ
 [+hi,-round,-tense] > [-hi,+stres,+syl,+son] / __ ɾ
+[-syl,ason,!acons,+voi] > ∅ / __ [+cons] [-son]
 [-stres] [-syl] [-stres] > ∅ [-syl,0stres,0prim] ∅/ @ [+cons] [+cons] __ [+cons] [+prim]
 [-stres] > ∅ / __ [-cont,-son] [-stres] #
 [-stres] > ∅ / # [+cons] [-stres] [+cons] __ [+cons] ( @ )* [+prim]
@@ -431,7 +432,7 @@ j > ∅ / [+front,+cons] __
 [-cont,-cor] > ∅ / __ [+nas,+cons]
 [+nas,+cons] ɲ > ɲ ɟ
 ˈã > ˈa / [-cor,-son] ( [+cor,+son] ) __ [+nas,+cont,+cons] [+syl]
-ˈã > ˈa / [-cor,-son] ( [+cor,+son] ) __ [+nas,-cor,+cons] ( [-cont,-cor] ) #
+ˈã > ˈa / [-cor,-son] ( [+cor,+son] ) __ ( [+nas] ) [+cons,-cor] ( [+cons,-cor] )* #
 ˈã > ˈa / __ [+nas] [-cont] [+hi,+back,-lat]
 [-delrel,-nas] > ∅ / [+cons] __ [-son]
 [+nas,+cor] > [-long,+cont,dcor,βlab,ɣback,ðant,ɩfront,χhi,-splng,0delrel] / __ [-delrel,dcor,βlab,ɣback,ðant,ɩfront,χhi]
@@ -540,7 +541,7 @@ b > ∅ / # ( [-prim] ) m __ [-prim] [+cons,-lat]
 ʃ > t͡ʃ / # __ [+cons,+nas]
 ʃ > t͡ʃ / [+cons] __ [+cons,+nas]
 c > t͡ʃ / __ [+cons]
-{n d;ⁿd} > {n;n} / [+cons] __
+{n d;ⁿd} > {n;n} / [+cons] __ [+syl]
 ˈu a̯ > ˈɔ / [+syl] ( @ )* [+son,+cons,-nas] ( [+cons] ) ( [-stres] ) [+cons] __ ɾ #
 ɲ > j / [-hi] __ #
 ɲ > j / [+hi,+front] __ #

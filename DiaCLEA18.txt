@@ -1768,13 +1768,16 @@ $ placement per DIACLEA CORRECTION B5.I
 $DIACLEA CORRECTION A1.XXIV.r  r > ɾ immediately as it informs other rules; rː > r later (as that is how the lexicon is coded). In terms of relative chronology beyond just how it is formalized, this must be before syllabification of resonants. 
 r > ɾ
 
+$DIACLEA CORRECTION A2.CXXIX deletion of initial vowels in # -syl,-lab __ [coronal continuant] C+ V-prim 
+[-prim,-lo,-back] > ∅ / # [-syl,-lab] __ [+cor,+cont] [-syl] ( [-syl] )* [-prim]
+
 $DIACLEA CORRECTION A2.LI.III last early wave Slavic nasal unpacking, with different special conditioned outcomes. 
 	$A2.LI.IIIdub -- ɒ̃/ɔ̃ > um / cor obs. __ lab
 [+round,+back,+nas,+syl] ∅ > [+hi,-lo,+tense] m / [+cor,-son] __ [-cont,+lab]
 	$A2.IIIon > oN elsewhere before stops -- can just treat as denasalization; likewise for e; followed by place assimilation. 
 [+nas,+syl] ∅ > [-nas] n / __ [-cont,-son]
 n > m / __ [+lab,-cont] 
-n > ŋ / __ [+back,-cont]
+$n > ŋ / __ [+back,-cont]
 
 $ DIACLEA CORRECTION A2.LXVI tj > c in Tosk after last early Slavic input and after ie > je in non-initial syllables, but before ie > je in initial syllables (tegula > tjegull vs. rastellum > rashqel). Rope in also ts j etc. 
 [-voi,+cor,-cont] j > c
@@ -1840,16 +1843,17 @@ $DIACLEA CORRECTION A2.LXXII.ɪ -- LPA III ɪ > ɛ / __ C ɪ. However, this may 
 $DIACLEA CORRECTION A2.LXXII.r LPA III ɪ > ɛ before r like above, at least for stressed (countertonic or tonic) variants
 [+hi,-round,-tense] > [-hi,+stres] / __ {[+cons] ɪ;ɾ}
 
+$DIACLEA CORRECTION A2.CXXX deletion of voiced first element of clusters ending in nonsonorant if its sonorance mismatches its consonantality.  Does not appear to be fed by A1.XXX syncope wave at present. 
+[-syl,ason,-acons,+voi] > ∅ / __ [+cons] [-son]
+
 $DIACLEA CORRECTION A1.XXX.3 deletion of both unstressed V1 and V2 - C C V1 C1 V2 C2 ˈV
 [-stres] [-syl] [-stres] > ∅ [-syl] ∅ / @ [+cons] [+cons] __ [+cons] [+prim] 
 
 $DIACLEA CORRECTION A1.XXX.1 deletion of first unstressed element in V1-stres T V2 #
 [-stres] > ∅ / __ [-cont,-son] [-stres] #
 
-
 $DIACLEA CORRECTION A1.XXX.2 deletion of second element in #/N C V1-stres C V2-stres C (@)* ˈV
 [-stres] > ∅ / {#;[+nas,+cons]} [+cons] [-stres] [+cons] __ [+cons] (@)* [+prim] 
-
 
 $DIACLEA CORRECTION A2.LXXXXI LPA III nasal cluster simplifications -- seem pan-Albanian in nature
 	$A2.LXXXXI.wn -- asyllabic labials > m in a/o{/lˠ?} {R/L} __ n ˈi. Using [+back] for context. Bleeds .Bn, feeds .nn {goes to n: > n}:  Slav I ɡˌɒlwɪnˈikʊ > ɡ{lˠɑ/ɑlˠ}Bnˈik > gllanik, Slav II ɡlˌɑβɪnˈit͡sɑ > glaβnitsa > gjanicë ; pˌɒmɪnˈitɪ  > pˌɔmnˈit > ponit. Not after front: plˌɛβɪnˈit͡sɑ > plevicë not plenicë. The clear out of domain cases are either not after a back segment {wˌɪrbɪnˈikʊ >wəɾbnˈik > vërmik}  is simply before non-stressed vowel {dɾˈɔbnit͡sɑ > Dromcə, skɾˈɔvnɑ > Skromə}...  tho so just condition on stress -- no data yet for +stres,-prim]. 
@@ -1868,7 +1872,7 @@ $DIACLEA CORRECTION A2.LXXXXI LPA III nasal cluster simplifications -- seem pan-
 
 $DIACLEA CORRECTION A2.LXXXXVII -- early denasalization of ã to block raising in certain conditions. Counterfed by A2.CXIV
 	$.aNV -- for stressed a; after non-coronal obstruents, possible liquid intermediary, followed by N V, or {.aNG} followed by a non coronal N{D} cluster then the word bound. {same post-non-coronal conditioning} 
-ˈã > ˈa / [-cor,-son] ( [+cor,+son] ) __ {[+nas,+cont,+cons] [+syl];[+nas,-cor,+cons] ([-cont,-cor]) #}
+ˈã > ˈa / [-cor,-son] ( [+cor,+son] ) __ {[+nas,+cont,+cons] [+syl];([+nas]) ([+cons,-cor])+ #}
 	$.aCu -- stressed a, with u on the other side of hte cons cluster -- trangull, fam{b}ull, shkandull ; mendull. This one makes more sense as being from denasalization. 
 ˈã > ˈa / __ [+nas] [-cont] [+hi,+back,-lat]
 	
@@ -2226,7 +2230,7 @@ c > t͡ʃ / __ [+cons]
 
 
 $ DIACLEA CORRECTION A2.LXX -- early modern Tosk nd > n post consonantally into modern North Tosk (vullëndet > vullndet > vullnet; calendarius > kallënduor > kallnuor -- but open to possibility this isn't just for l. In Ghegː sanitōsus > shëndosh > shnosh; sanitatem > shëndet > shnet) 
-{n d;ⁿd} > {n;n} / [+cons] __
+{n d;ⁿd} > {n;n} / [+cons] __ [+syl]
 
 $DIACLEA CORRECTION A2.CI.or -uar to -or V (@)* Cson,-nas (C) (ə) C __ # -- relatively recent; Tosk forms harmëshuar, shelqëruar attested.
 ˈu a̯ > ˈɔ / [+syl] (@)* [+son,+cons,-nas] ([+cons]) ([-stres]) [+cons] __ ɾ #

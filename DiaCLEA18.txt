@@ -278,11 +278,16 @@ $DV2.2.1C2: PPAlb *e (but not Latin short E?) undergoes a-mutation, cf. De Vaan 
 $ per De Vaan 2004(:78-83), this is actually going to ja, not simply ɑ, so that is reflected in this rule (this also supports the apparent limitation of this development to the pre-Latin stratum) 
 ˈe > j ˈɑ / __ ([-syl])* [+lo,+syl]
 
+$DIACLEA CORRECTION A2.CXXXVII late APA ks , ps > x , ɸ 
+[-cont,-cor] s > [+cont] ∅
+
 $DV2.2.1A1: PPAlb *i, unlike Latin i, reflects as PAlb *i without qualifications, as do PPAlb *ī and Latin ī (2.2.1A2,A6), but not Latin I, which reflects as PAlb *e generally (2.2.1B11) except when under i-mutation (2.2.1A5), wherein it behaves quite similarly to Latin E and PPAlb *e (2.2.1A3)
 $The best way to handle this for now, without changing all the Latin inputs (but: note that based on Classical Latin and Romance phonology, these short I-s plausibly *could* be either [ɪ] or [e])... is to lengthen all PPAlb *i just before Latin. This is no issue because there does not seem to be any difference in the behavior of PPAlb *ī and *i anyways
 $note that for this to work, the *i present as the second element of diphthongs must already be [j] by now. 
 $note that this is NOT a proposed sound change, but a temporary solution to the issue. (and even replacing the Latin short I instances with [ɪ] or [e] might not work to fix it, because even though it does have a basis in both Classical Latin and Romance phonology, it still might cause issues regarding this short I's role as a trigger of i-mutation -- TODO consider that and make remarks here) 
-[+hi,+front,+syl] > [+long]
+$ DIACLEA CORRECTION C3B.XXIV late APA i lengthening blocked before stops: míto > mjetë not mitë, mastíkhino > məshtekər, thiphjeːn > tepə not tipe
+[+hi,+front,+syl] > [+long] / __ [+cont]
+
 
 $--------------------Classical Proto-Albanian----------------------
 =Classical Proto-Albanian

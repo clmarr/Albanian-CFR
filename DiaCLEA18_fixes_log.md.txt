@@ -266,7 +266,7 @@ A2.XII -- h deleted before non-stressed syllables and after any vowels.
 
 A2.XIII -- y and ø retract to u and o before n and ɲ (though not m and ŋ) in Middle Proto-Albanian, before the diphthongization of ø and o. 
 
-A2.XIV -- Latin s > z rather than ʃ before m and ɟ (crisma > krezëm, exmulgia > zmojle, scabies > zgjebe, exvigilare > zgjoj, scoria > zgjyrë) but not l (slucus > shluk). Right now generalizing to all non-lateral consonants. 
+A2.XIV -- Latin s > z rather than ʃ before m and g/ɟ (crisma > krezëm, exmulgia > zmojle, scabies > zgjebe, , scoria > zgjyrë), and non-initial w ~ β ~ b {exvigilare > zgjoj} but not l (slucus > shluk). 
 
 A2.XV -- Latin onset ex- [eks-] to [es-], seemingly across Romance, so placed into Latin input handling. 
 	A2.XV.α -- as of June 10, 2025, broadened: all k in ˌV __ s deleted.
@@ -354,7 +354,7 @@ A2.XXXI Middle Proto-Albanian I -- stress retractions...
 			rˌoːmˈɑːnum > LPA II rəmˈãnu > EPT ɾəmˈə̃ɾ̃ > rə́mər
 			wˌirɡˈɑːnum > .. > vɾ̩ɡˈə̃ɾ̃ > várgər, vë́rgër
 			
-A2.XXXII early MPA I -- w deleted after coronal obstruents. Bleeds post-w progressive rounding in this period. 
+A2.XXXII MPA II -- w~β deleted after voiceless non-velar obstruents. Bleeds post-w progressive rounding in this period. Bled by A2.XIV
 	
 A2.XXXIII -- progressive rounding coalescence of w with following ɪ i or short a in two contexts: T (V-stres) __  and # (Vocoid)* [+son] __ . Long round vowels seem to be the result (inasmuch as y doesn't fall, at least). Feeds ɒ > ɔ tho. If not for the matter of length, merger of the w A aspect with A1.XXV.a much later may be worth considering. 
 
@@ -528,7 +528,7 @@ A2.LVIII: n-like segments before a non-coronal stop assimilates to its place of 
 
 	Fed/bled by L2.CXIVː Lënckë, etc. 
 	
-A2.LIXː $initial m nasalizes a following vowel before a stop (NOT fricative, excluding ð). The result is treated like a Slavic ṼT cluster, but actual Slavic etyma are not included. 
+A2.LIXː $initial m nasalizes a following vowel before a stop (NOT fricative, excluding ð). The result is treated like a Slavic ṼT cluster, but actual Slavic etyma are not included. It also raises it from low position and fronts back vowels as applicable.
 	$ metaxum > mëndafsh, matricula > (më-?)ndrikull
 	$ in -st- , doesn't survive due to perspirant n-deletion, but causes length: m
 	$ however it does eject a place-assimilating -n- initially before non-sonorants t (mataxum > mëndafsh, matricula > (më-?)ndrikull) and maybe ɟ (magia > mëngji?) ... or just things that aren't ð which will soon disappear (perhaps generalize to β, maybe even ɣ...)
@@ -652,17 +652,21 @@ A2.LXXIV LPA tonic and countertonic yer resolution
 			kˈʊlbɑ > kulbë 
 		Rope in remaining ɪ (stressed) > i 
 
-A2.LXXV two onset k-voicing rules 
+A2.LXXV  onset k-voicing rules 
 	.u -- k > g / # __ ˌu Ccor V-prim 
-		Lat collīmit-ā- > MPA kulːɩmɩt-ɔ- > klːəmt-o- > gjëmtoj "to gather" 
-		Lat collect-ā- > MPA kulːɩjt-ɔ > kulːət-ɔ- > gultoj (variant kultoj)
-		Lat. collecti-ā- > MPA kulːɩjtj-ɔ > kulːət͡ʃ-ɔ > gulçoj (var. kulçoj)
+			 ; kˌuːtə̃ndˈɔ̃ɲ kutëndoj should be bled by nd being prenasalized stop n͡d TODO 
+
 		Lat cottid͡z-ā- > MPA kuttɩd͡z-ɔ- > kutəd͡z-ɔ- > guxoj (var. kuxoj) 
 
 	.l # __ (ə) l Ccor,-nas l T  # k ( [-prim,-back,-front] ) l [-cont]
 	.								LPA kl̩bazə > gëlbazë 
 			 calcāria >  MPA kˌɑlkˈɑrjɑ > LPA kl̩ca̋rɛ > gëlqere
-	.r # __ (ə) r/ʃ {t; t͡ʃ; x > h ; ʃ} -- not k, b, c 
+
+		Lat collīmit-ā- > MPA kulːɩmɩt-ɔ- > klːəmt-o- > gjëmtoj "to gather" 
+		Lat collect-ā- > MPA kulːɩjt-ɔ > kulːət-ɔ- > gultoj (variant kultoj)
+		Lat. collecti-ā- > MPA kulːɩjtj-ɔ > kulːət͡ʃ-ɔ > gulçoj (var. kulçoj)
+
+	.r # __ (ə) r/ʃ {t; t͡ʃ; x > h ; ʃ} ˈA  -- not k, b, c 
 		
 		Gk kˌorsɔːtˈos >MPA kʊrsœ́tʊ >LPA kr̩ʃœ́t > gërshet
 		     Lat carsān(i)a > MPA kˌɑrsˈɑnɑ > LPA kr̩ʃã́ɾ̃ə > gërshëre, gërshanë
@@ -1154,8 +1158,7 @@ A2.CIII -- i/e/ɪ becomes j between Cback __ V and Vback=round __ Cson -- in mny
  
 A2.CIV feeding rn > rr phenomena, loss of non-initial pretonic ə̃ -- Shutrri, përdëllej, Shëntëritat
 
-A2.CV ː ɾ̃ > ɾ / __ @+ [-delrel] ɾ  : marshtoj, depertoj -- tentatively in LPA II, before 
-	
+A2.CV ː ɾ̃ > ɾ / __ @+ [-delrel] ɾ  : marshtoj, depertoj -- tentatively in LPA II, before final -u reduction DV1738, which counterbleeds it. Also counterbled by C3A.I, deletion of V̯ in N __ T. Occurs before round element -- not sanctudimitrium. 	
 A2.CVI  .gr metathesis of gr - mërgoj ndërgoj -- before Slavic items enter 
 
 A2.CVII Slav layer I {to LPA I} initial tʃ to ts -- 
@@ -1170,7 +1173,7 @@ A2.CVII Slav layer I {to LPA I} initial tʃ to ts --
 920,  | ...                | #t͡ʃˈitɑ#          | *#sˈitə#           | #t͡sˈitə#
 921,  | ...                | #t͡ʃˈubʊ#          | *#sˈub#            | #t͡sˈub#
 
-A2.CVIII -- MPA II h-prosthesis in # __ V2-rnd,-stres C+voi (C)* V2-prim,front
+A2.CVIII -- MPA II h-prosthesis in # __ V2-rnd,-stres C+voi (C)* V2-prim,front ... ˈV+back
 	Lat> CPA ˌɑdrˌenˌowˈɑːnioː > MPA II ˌɑdrˌɛnˈuwoɲo > arnoj,harnoj 
 			ˌɑbˌerrˈɑːnioː > MPA II ˌɑβˌɛrːˈoɲo > harroj 
 			ˌɑrmˌissˈɑːrium > MPA II ˌɑrmˌessˈoru > OAlb harmëshor > hamshor
@@ -1182,6 +1185,7 @@ A2.CVIII -- MPA II h-prosthesis in # __ V2-rnd,-stres C+voi (C)* V2-prim,front
 	first C needs to be consonantal : ˌewˌitˈoɲo - ftoj 
 	first C needs to be voiced : ˌɛskˌɑwðɪkˈoɲo > shkagoj, ˌɛsonorˈoɲo > shndërroj 
 	first C can[t be lat or nas:  ˌɛlɪmˈusɪnɑ - lëmoshtër,  ˌilɪkˈetu - Ilqet, ˌɑlbɑnˈɛsu : arbër; ˌemˌed͡ʒˈoɲo - mxoj , ˌemˌessˈikɑ - mëshikë  etc. 
+	prim vowel needs to be backː ˌɑrːˌɛnˈuoɲo > harnoj , ˌɑvˌɛrrˈoɲo > harroj, harmëshuar, hetoj, ˌɛzrˌimˈoɲo ot hermoj, vs.  ˌɛrːɪmˈitu to rrëmit, ˌevˌɛrnˈid͡ʒɑ to Vrrizë, also verrin -- this aspect may be most dubious, TODO possibly reconsider. 
 
 A2.CIX # xr, hr > r -- LPA III rranicë, rrap, rrapat from Slavic, plus rrëmit . Undoes h-insertion (A2.CVIII) for rrëmit. 
 
@@ -1357,6 +1361,8 @@ B1.XII -- aj > ɛ moved later, into LPA II, after final vowel resolutions in Sla
 
 B1.XIII -- rr > rː moved from CPA to LPA I, just next to rn > rr
 
+B1.XIV -- sr > r , og Cr > r, moved from CPA to MPA II, counterfeeding r lengthening via A2.LII. 
+
 ## B2 -- rule moved to an earlier time 
 
 B2.I - DV1740E3, ln and ll > l, moved to before lambdacism (moved from rule instant 13 to 10), as it seems to feed it. 
@@ -1519,7 +1525,7 @@ C1B.XVIII -- (what is left of it -- cf. D1.VI) second round of DV2.2.2b countert
 
 C1B.XIX -- in MPA I, aspect of DV2.2.2b.iii in having kə >f before t is removed-- no longer necessary, handled by proper vowel elision phenomena. 
 
-
+C1B.X -- CPA, now MPA II, rC, Cr > r {revived and} narrowed to strident r > r. 
 
 ## C2 -- changes in output 
 
@@ -1595,7 +1601,7 @@ C3B.V -- raising before s/ʃ turned out to only be accurate when there was also 
 
 C3B.VI -- 4.1B3 m > mb before unstressed vowel now limited to occur non-initially and with an /l/ on the other side of the unstressed vowel (grumbulloj, shëmbëlltyrë, (m)bletë) 
 
-C3B.VII -- DV1743.B4 now only operates after non-initial vowels then oral resonants (previously: any context with an oral resonant immediately beforehand.). As of Feb 2, 2025,  this rule is suppressed, tho.
+C3B.VII -- DV1743.B4, β > b, now only operates after oral coronal continuants, only if there is an non-initial vowel beforehand somewhere (previously: any context with an oral resonant immediately beforehand.). 
 
 C3B.VIII -- first wave of vowel drops reshaped, no longer targeting strictly posttonic elements, and now targeting the following: 
 	$ atonic (non-low) vowels in [+son] t __ k 

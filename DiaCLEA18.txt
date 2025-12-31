@@ -255,7 +255,7 @@ $d > ð / [+syl] __ [+syl]
 
 $DV1744J2 (=4.2Q2) -- some PAlb *ð < PIE d / V __ V becomes *j. But this does not seem intended to be deterministic(?) as while ujë "water" and the aorist -jt- are cited, DV1744E2 also has (-)dha "gave" and lodhet "to tire" cited. Some other sources do not have ujë "water" coming from something with an intervocalic *d though: Orel 1998 (:483) assets a PAlb *udrjā akin to Greek hydría "water bucket", in line with Camarda, Gil'ferding and Hamp 1965(:138); Huld 1976(:197) seems largely favorable to this and puts *udr-iom as his own form. Meyer 1891(:456) had *udni̯ā; Pedersen 1897(:286) and Tagliavini (1937:237) accept this but Huld 1976(:196) does not on the basis of the lack of any nasal traces in Arvanitika, a similar criticism to that voiced by Orel 1998. La Piana has ujë < ulë < ud-l-o. Demiraj 1997 (:401-2) asserts a PAlb *urjā citing Skt. vār- "water". Çabej 1967(:70-2) seems to say what De Vaan 2018 is saying here, except in that the -j- arises later in hiatus after the fall of intervocalic -d- in native words, which apparently Çabej 1967 considers more widespread than does De Vaan 2018 (?). 
 $DIACLEA CORRECTION D2.III -- APA d > ð and ð > j rules deleted. No reason for any of this to happen before MPA; same patterning for Latin etyma it seems.
-ð > j / [+syl] __ [+syl] 
+$ð > j / [+syl] __ [+syl] 
 
 $DV4.1B2 -- m to b before l -- DV'18 lists bluan "to grind" < mleh1-, bletë "bee" < *m[e]lit? (question mark in the original) -- given the second example, there may have been some vowel effacement before this point? But DV'18 does not attribute this outcome for Latin loans into Proto-Albanian, and indeed they don't seem to show it exactly (e.g. simulatūra > shëmbëlltyrë etc.) 
 m > b / __ l
@@ -270,13 +270,17 @@ $DV1740C4 = DV3.2C4 : PPAlb -nd- > -nn- ; implemented like above.
 $This is not intended to affect Latin loans, clearly.
 d > n / n __
 
+$DIACLEA CORRECTION A2.CXXXVIII  APA c , ɟ from late APA > tʃ dʒ. Counterfed by j ʒ > ɟ etc word initially. Counterfed by DV1743.F2, so still in APA for now. 
+{c;ɟ} > {t͡ʃ;d͡ʒ}
+
 $DV1743.F2 : PPAlb *j before a stressed vowel -- but not the *j that is a glided Latin initial i or e. 
 j > ɟ / __ [+stres]
 
 $DV2.2.1A4.I: PPAlb *e and Latin ē raise to ultimately *i "sometimes" when before sh -- Latin short e not listed, even though PPAlb *e patterns with Latin short e elsewhere (general outcome: 2.2.1B2; i-mutation outcomes: 2.2.1A3; in CL_ : 2.2.1B1).
 $ Way to handle this might be to lengthen PPAlb *e in this context here so that it will merge with Latin ē, and then have a second part of this rule (2.2.1A4.II) later  
 $ NOTE FOR DIA : The example given for Latin ē could instead be handled as triggered by the following glide actually, as it works for ecclesia > kishë and bestia > bish(t)ë, but not vēscus > veshk, rēstem > rrjesht, ēsca > eshkë or quadrēsima > kreshmë. 
-ˈe > ˈeː / __ [+cor,+cont,+strid]
+$ DIACLEA CORRECTION: suppressed for now, Latin etyma effected are now conditioned in a different way by A1.V1.esj. 
+$ˈe > ˈeː / __ [+cor,+cont,+strid]
 
 $DIACLEA CORRECTION A2.CXXXVII late APA ks , ps > x , ɸ 
 [-cont,-cor] s > [+cont] ∅
@@ -352,6 +356,7 @@ $ symbol defs and the IPA don't (most typically) use *tɕ *dʝ, these are expres
 $ needs to come after the nasal-spirant law in Latin input handling so as not to feed it. 
 $ However, in light of the fact that Proto-Albanian loans reflecting PIE palatovelars reflect as ts dz in Aromanian and various ts s z in Romanian (unlike PAlb ð < PPAlb *d, which reflects with d in Romanian and Aromanian), this is indeed split in two, with the affricate stage first, and the spirantization only after Middle Proto-Albanian (when De Vaan assigns the contact between Proto-Albanian and Proto-Vlach)
 {c͡ç;ɟ͡ʝ} > {t͡s;d͡z}
+
 
 
 $ DIACLEA CORRECTION A2.XXXVIV o unrounds (and fronts?) before m then unround vowel; may need to rethink placement. Going to e for now. Doesn't seem to happen after back elements which supports fronting as the mechanism. (promitt-o- > premtoj "promise"; pōma > pemë "tree" [otherwise would be effeected by shortening]; ? rōmānu- > Arvanite/Arbëreshë/Cham rëmër  & Gheg/Arbanasi remën "shepherd, peasant; Vlach" + dialectal Rëmenj (, Pogradec) < rōmān-ī ; glomerata > grëmëratë "biestlings, curds" ( > Greek gramenada) ... not coma > komë etc.)
@@ -818,6 +823,9 @@ $ This one is likely very bugged and needs either suppression or massive fixes--
 $ DIACLEA CORRECTION C1B.X -- CPA, now MPA II, rC, Cr > r {revived and} narrowed to strident r > r. 
 $ DIACLEA CORRECTION B1.XIV -- sr > r , og Cr > r, moved from CPA to MPA II, counterfeeding r lengthening via A2.LII. 
 [+strid,+cor] > ∅ / __ r
+
+$DIACLEA CORRECTION A1.VI.esj limited i-mutation of e by specifically yod across s {strid} , hitting cases after labial consonantals and one lateral. Counterfed by w > β
+ˈe > ˈi / [+cons,blab,-blat] __ s ([+strid]) j
 
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM (Rom. cetate), njerkë "stepmother" < NOVERCA
 $ DIACLEA CORRECTION B1.III -- relocdated later -- 

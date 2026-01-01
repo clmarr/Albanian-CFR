@@ -253,11 +253,16 @@ $DV1744J2 (=4.2Q2) -- some PAlb *ð < PIE d / V __ V becomes *j. But this does n
 $DIACLEA CORRECTION D2.III -- APA d > ð and ð > j rules deleted. No reason for any of this to happen before MPA; same patterning for Latin etyma it seems.
 $ð > j / [+syl] __ [+syl] 
 
-$DIACLEA CORRECTION A2.XXXIX APA reduction of non-primary {non-low} non-final front vowels in C __ C . Bleeds i-mutation -- diˈaːmeron > zëmër not zimër, skˈaripʰa > shkarp- not zgjerp-,stˈeripʰa > shterp- not shtirp- , mastíkhino > meshteker etc; also feeds m> b in meletta > bletə. Only happens to initials if separated from word onset by sonorant {bletë, lëken vs. qershi, përrua}. Doesnt happen to finals : dranin > dre. Doesn't happen in strong syllables. 
+$DIACLEA CORRECTION A2.CXXXXVIII.e APA reduction of non-primary {non-low} non-final front vowels in C __ C . Bleeds i-mutation -- diˈaːmeron > zëmër not zimër, skˈaripʰa > shkarp- not zgjerp-,stˈeripʰa > shterp- not shtirp- , mastíkhino > meshteker etc; also feeds m> b in meletta > bletə. Only happens to initials if separated from word onset by sonorant {bletë, lëken vs. qershi, përrua}. Doesnt happen to finals : dranin > dre. Doesn't happen in strong syllables. 
 [-prim,+front,-lo] > ə / {@ [-syl];# [+son,-syl]} __ [+cons] ([+syl] ([-syl])* ) [+syl]
 
-$DV4.1B2 -- m to b before l -- DV'18 lists bluan "to grind" < mleh1-, bletë "bee" < *m[e]lit? (question mark in the original) -- given the second example, there may have been some vowel effacement before this point? But DV'18 does not attribute this outcome for Latin loans into Proto-Albanian, and indeed they don't seem to show it exactly (e.g. simulatūra > shëmbëlltyrë etc.) 
-m > b / __ l
+$DIACLEA CORRECTION A2.CXXXXVIII.o pretonic short APA round vowels reduce to ə if after a voiceless element. Not long: gershet. 
+[-prim,+round,-long] > ə / [-voi] __ (@)* [+prim]
+
+$DV4.1B2 -- m to b before l -- DV'18 lists bluan "to grind" < mleh1-, bletë "bee" < *m[e]lit? (question mark in the original) -- given the second example, there may have been some vowel effacement before this point? But DV'18 does not attribute this outcome for Latin loans into Proto-Albanian, and indeed they don't seem to show it exactly (e.g. simulatūra > shëmbëlltyrë etc.)
+$DIACLEA CORRECTION C3A.XIII D4.1B2 can see through an unstressed vowel 
+$DIACLEA CORRECTION D4.VI APA ml > bl reinteprreted as ml > mbl
+∅ > b / m __ ([-stres]) l
 
 $DV1740.C5 = DV3.2C5 : PPAlb *-nt- > PAlb -n:- (ultimately) in apparently uncertain conditions: "-nt- (3pl., acc.sg.) in post-tonic syllable (?) or retention of the cluster (Janson 1986: 96,154)" -- implementing the post-tonic part here since it was listed, 
 $ -- actually post-tonic means anything after the primary stress (meeting @Aug 9, and is okay with having this as baseline)
@@ -476,8 +481,6 @@ $DIACLEA CORRECTION A2.VIII new version -- o  raising exception when after labia
 
 $DIACLEA CORRECTION A2.XXXI.nn stress retraction across nn from antepenultimates. TODO reexamine, only two cases {tingël, hingël}, one especially prone to analogy {tingëlloj derived from tingël, or the reverse? Tinnunculus also meant kestrel, not 'ring' -- somewhat reach-y semantics...}
 [-prim] n n [+prim] > [+prim] n n [-prim,-stres] / __ ([-syl])* [+syl] ([-syl])* [+syl] 
-
-
 
 $DIACLEA CORRECTOIN A2.VII now the actual internal non-primary o > u rule . Apparently doesn't happen word initially.
 [+round,-lo,-prim,+stres,-hi] > [+hi,-long] / @ __
@@ -839,7 +842,7 @@ $		$R T1 T2 > R T2 ː excarpt-ā- > shkartoj , canticellum > këngjel,
 $DIACLEA CORRECTION A1.XV-- reduction in # ([-son])* [-delrel,-voi] __ r ([-syl]) [+prim]... 
 [-prim,-hi] > ə / # ([-son])* [-delrel,-voi] __ r ([+syl]) [+prim]
 
-$DIACLEA CORRECTION A2.CXXXXVII mini-a-mutation : Vback R É > ʊ̯? R ˈæ? / __ N C* a : arena > Standard Tosk rërë, Lab rërë, Gheg ranë, North Tosk renë; . Blocks r-rounding by making prior a round on basis of arena. Also polenta to pullëndë, olena to llërë. templa > tëmpla may be related but unclear. Restriction to sonorant consonants not clearly necessary as no exceptions except ɟuvenka > gjuvengə, so just doing +cor for now.  æ makes sense givne the N Tosk form for sand rerë, but it triggers errors, so going with 'a for now. 
+$DIACLEA CORRECTION A2.CXXXXVII mini-a-mutation : Vback R É > ʊ̯? R ˈæ? / __ N C* a : arena > Standard Tosk rërë, Lab rërë, Gheg ranë, North Tosk renë; . Blocks r-rounding by making prior a round on basis of arena. Also polenta to pullëndë, olena to llërë. templa > tëmpla may be related but unclear. Restriction to sonorant consonants not clearly necessary as no exceptions except ɟuvenka > gjuvengə, so just doing +cor for now.  æ makes sense givne the N Tosk form for sand rerë, but it triggers errors, so going with 'a for now. The "ʊ̯" remains u unless word initially, where it deletes at hte same time as Slavic wave I hard yer.
 [+back,-prim] [+cor] [+front,-hi,+prim] > ˌʊ [+cor] ˈa / __ [+nas] ([-syl])* [+lo]
 ˌʊ > ʊ / # __
 
@@ -2183,7 +2186,7 @@ k > ɡ / # __  [-prim,+back,+hi] [+cor] [-prim,-back,-front] ([+son]) [-son,-con
 $ .ə # __ ə Ccor Cc'ons V ( [-prim,-lo] ) [+lat,-hi] ( [-prim,-lo] ) ( [+son,-syl] ) [-son,-cont] [+prim] $ CURRENTLY SUPPRESSED -- overpredictive
 
 	$ .r # __ (ə) r/ʃ {t; t͡ʃ; x > h ; ʃ} ˈA  -- not k, b, c  -- per current formulation, fed by x > h to hit x>h words. Seem to all happen before low vowels -- gërhat, gërçak, 
-k > ɡ / # __ ([-prim,-back,-front]) [+cor] [-voi,-lab,-hi] [+lo,+prim]
+k > ɡ / # __ ([-prim,-back,-front]) [+cor] [-voi,-lab,-hi] [-hi,-round,+prim]
 
 $DIACLEA CORRECTION A2.CXXXVI ã > ɛ̃ between coronals and ɲ, tentativelyː mëllenjë, shenjt, këlshenjt, gështenjë 
 ˈã > ˈɛ̃ / [+cor] __ ɲ
@@ -2198,7 +2201,7 @@ $DIACLEA CORRECTION A2.LXXXVII -- post-sonorant strident affrication --
 	$.l post lateral -- #sˈɛlɪt͡ʃɑ#       >  *#ʃˈɛːlsa#       > Shelcë ;   #ˌinˌɑltiˈɑːnioː# :  *#nˌalsˈɔ̃ɲ#   : nalcoj , etc.-- malcoj, Balçëm , Këlcyrë/Këlçyrë 
 	$.kr after kër: -- kërc, kërcû, kërcat 
 	$.ns -- in N{T}S 
-[+strid,+cor] > [-cont,+delrel] / {[+lat];k ( [+syl,aback,afront] ) [-cont,+son];[+nas,+cons] ( [-cont,-son] )} __ {#;[-cons]}
+[+strid,+cor] > [+delrel] / {[+lat];k ( [+syl,aback,afront] ) [-cont,+son];[+nas,+cons] ( [-cont,-son] )} __ {#;[-cons]}
 
 
 $DV3.1E -- l: passes to dark l.

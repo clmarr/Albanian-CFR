@@ -49,7 +49,8 @@ t p > ɸ t
 [+lo,+syl] > [+back,-front] 
 [-prim,+front,-lo] > ə / @ [-syl] __ [+cons] ( [+syl] ( [-syl] )* ) [+syl]
 [-prim,+front,-lo] > ə / # [+son,-syl] __ [+cons] ( [+syl] ( [-syl] )* ) [+syl]
-m > b / __ l
+[-prim,+round,-long] > ə / [-voi] __ ( @ )* [+prim]
+∅ > b / m __ ( [-stres] ) l
 t > n / [+prim] ( @ )* n __
 d > n / n __
 n > ∅ / m __
@@ -534,16 +535,16 @@ x > h
 [+nas,+cor,-long] > ∅ / [+lab] [+hi,+front] ( [+hi,+front] )* ( [+lo] ) __ #
 k > ɡ / # __ ( [-prim,-lo] ) [+lat,-hi] ( [-prim,-lo] ) ( [+son,-syl] ) [-son,-cont] [+prim]
 k > ɡ / # __ [-prim,+back,+hi] [+cor] [-prim,-back,-front] ( [+son] ) [-son,-cont]
-k > ɡ / # __ ( [-prim,-back,-front] ) [+cor] [-voi,-lab,-hi] [+lo,+prim]
+k > ɡ / # __ ( [-prim,-back,-front] ) [+cor] [-voi,-lab,-hi] [-hi,-round,+prim]
 ˈã > ˈɛ̃ / [+cor] __ ɲ
 [-stres,-cons] > ∅ / [+cons,dcor,blab,tson,nnas,llat,scont] __ [+cons,dcor,blab,tson,nnas,llat,scont]
 [+cons,dcor,llat,blab,scont,nnas,rson] > ∅ / __ [+cons,dcor,llat,blab,scont,nnas,rson]
-[+strid,+cor] > [-cont,+delrel,+cons,0tense] / [+lat] __ #
-[+strid,+cor] > [-cont,+delrel,+cons,0tense] / [+lat] __ [-cons]
-[+strid,+cor] > [-cont,+delrel,+cons,0tense] / k ( [+syl,aback,afront] ) [-cont,+son] __ #
-[+strid,+cor] > [-cont,+delrel,+cons,0tense] / k ( [+syl,aback,afront] ) [-cont,+son] __ [-cons]
-[+strid,+cor] > [-cont,+delrel,+cons,0tense] / [+nas,+cons] ( [-cont,-son] ) __ #
-[+strid,+cor] > [-cont,+delrel,+cons,0tense] / [+nas,+cons] ( [-cont,-son] ) __ [-cons]
+[+strid,+cor] > [+delrel,-cont,+cons,0tense] / [+lat] __ #
+[+strid,+cor] > [+delrel,-cont,+cons,0tense] / [+lat] __ [-cons]
+[+strid,+cor] > [+delrel,-cont,+cons,0tense] / k ( [+syl,aback,afront] ) [-cont,+son] __ #
+[+strid,+cor] > [+delrel,-cont,+cons,0tense] / k ( [+syl,aback,afront] ) [-cont,+son] __ [-cons]
+[+strid,+cor] > [+delrel,-cont,+cons,0tense] / [+nas,+cons] ( [-cont,-son] ) __ #
+[+strid,+cor] > [+delrel,-cont,+cons,0tense] / [+nas,+cons] ( [-cont,-son] ) __ [-cons]
 [+nas,+cons] > [-long,-splng] 
 [+lo,+nas,+syl,-long] > [-lo,-back,-front,0tense,-lab,-round] 
 [-back,-front,-prim] > ∅ / [-prim] [+son,-syl] __ #

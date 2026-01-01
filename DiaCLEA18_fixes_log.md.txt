@@ -232,7 +232,6 @@ A1.XXXVII pre-Latin hiatus front vowel reduction -- different outcomes evident a
 
 A1.XXXVIII APA pʰ from Greek > p. Take the other aspirates with it for good measure since it's clear for kh at least. Does not feed DV1740.C5 nt > nn though. 
 
-A2.XXXIX APA reduction of non-primary {non-low} front vowels in R __ C . Bleeds i-mutation -- diˈaːmeron > zëmër not zimër, skˈaripʰa > shkarp- not zgjerp-,stˈeripʰa > shterp- not shtirp- ; also feeds m> b in meletta > bletə. Doesnt happen to finals : dranin > dre. 
 
 ## A2 Insertion of phenomena that are something new under the sun from the perspective of the baseline. 
 
@@ -749,7 +748,7 @@ A2.LXXV  onset k-voicing rules
 		Lat collect-ā- > MPA kulːɩjt-ɔ > kulːət-ɔ- > gultoj (variant kultoj)
 		Lat. collecti-ā- > MPA kulːɩjtj-ɔ > kulːət͡ʃ-ɔ > gulçoj (var. kulçoj)
 
-	.r # __ (ə) r/ʃ {t; t͡ʃ; x > h ; ʃ} ˈA  -- not k, b, c 
+	.r # __ (ə) r/ʃ {t; t͡ʃ; x > h ; ʃ} ˈA/'E  -- not k, b, c 
 		
 		Gk kˌorsɔːtˈos >MPA kʊrsœ́tʊ >LPA kr̩ʃœ́t > gërshet
 		     Lat carsān(i)a > MPA kˌɑrsˈɑnɑ > LPA kr̩ʃã́ɾ̃ə > gërshëre, gërshanë
@@ -1481,6 +1480,17 @@ A2.CXXXXVI tentative mn > m in APA, feeding stress retraction in CPA.
 A2.CXXXXVII mini-a-mutation : Vback R É > ʊ̯? R ˈæ? / __ N C* a : arena > Standard Tosk rërë, Lab rërë, Gheg ranë, North Tosk renë; . Blocks r-rounding by making prior a round on basis of arena. Also polenta to pullëndë, olena to llërë. templa > tëmpla may be related but unclear. Restriction to sonorant consonants not clearly necessary as no exceptions except ɟuvenka > gjuvengə, so just doing +cor for now.  æ makes sense givne the N Tosk form for sand rerë, but it triggers errors, so going with 'a for now. The "ʊ̯" remains u unless word initially, where it deletes at hte same time as Slavic wave I hard yer.
 
 
+A2.CXXXXVIII.e  APA reduction of non-primary {non-low} front vowels in R __ C . Bleeds i-mutation -- diˈaːmeron > zëmër not zimër, skˈaripʰa > shkarp- not zgjerp-,stˈeripʰa > shterp- not shtirp- ; also feeds m> b in meletta > bletə. Doesnt happen to finals : dranin > dre. 
+
+A2.CXXXXVIII.o pretonic APA round vowels reduce to ə if after a voiceless element. 
+	294,  | ...                | #kˌokkˈumalon#     | *#kukˈuməlˠ#       | #kˈumbulˠ#
+	347,  | ...                | #kˌorsɔːtˈon#      | *#kuɾʃˈɛt#         | #ɡəɾʃˈɛt#
+	598,  | ...                | #sˌyrˈitioː#       | *#ʃiɾˈɛs#          | #ʃəɾˈis#
+
+not if voiced -- tho both these cases will see stress retraction 
+	369,  | ...                | #ɡˌɔːleˈon#        | *#ɡˈɔj#            | #ɡˈɔlˠ#
+	925,  | ...                | #dˌurrhˈacum#      | *#dˈurəs#          | #dˈurəs#
+
 # B Rule relocdations
 
 Rules that were moved to different points in the cascade. 
@@ -1742,6 +1752,9 @@ C3A.X DV1738 apocope in LPA II of nonlow unstressed vowels extended to all final
 C3A.XI DV4.1J : Proto-Tosk z > dz after n , expanded to being after all nasal consonants
 
 C3A.XII aja > a now happens regardless of stress of final a. 
+
+C3A.XIII D4.1B2 ml > {m}bl can see through an unstressed vowel 
+
 ### C3B -- context made narrower
 
 C3B.I -- "preconsonantal" ʃ to t͡ʃ in most recent modern Albanian is now only pre-nasal
@@ -2005,6 +2018,9 @@ D4.V DV2.2.2b syncope broken up into different rules.
 		βˌɛʃtɪɡˈɔɲɔ
 			mazbe ? - ʃˌeɡɪlˠˈɔɲɔ - zgjoj tɾˌimɪʃˈana - trishanë, tërshanë
 			not -- pˌɛʃɪkˈɔɲɔ lˌeɡatˈyɾa lˌepɪtˈyɾa ʃˌemɪlˠˈɔɲɔ ʃˌemɪlˠatˈyɾa
+
+D4.VI APA ml > bl reinteprreted as ml > mbl
+
 # E rule separation
 
 E1 -- rules broken off of single rules to be treated separately 

@@ -61,6 +61,8 @@ j > ɟ / __ [+stres]
 [+prim] > [-prim,+syl,+son] / __ ( @ )* [+prim]
 [+hi,+front,+syl] > [+long] / __ [+cont,-syl]
 h > ∅ / [+cons] __
+r > r r / # [+lab,-syl] [+stres] __ [+syl]
+r > r r / [+syl] [+lab,-syl] [+stres] __ [+syl]
 pʰ > f 
 [+front,+syl] > [-round,-lab] 
 ɡ > ŋ / __ n
@@ -144,6 +146,7 @@ w [+syl,αhi,αfront,-long] > ∅ [+round,+lab,+long]/ # ( [-cons] )* [+son,+con
 [+lab,-nas,-syl,+voi] > v / [+syl,alo,!ahi] ( [+nas] ) __ ( j ) [+front,-hi,+stres]
 [+syl] [+lab,-strid,+voi,-nas] [+prim,-hi] > [+prim,+stres,+syl,+son] [+lab] [-stres,-prim,+syl,+son]/ __ [-syl] [-cons]
 [+syl] > [-long,-splng] 
+[+lo] [-stres,+round] > [+round,+lab,+long,+back,-front,-tense,-lo,-cons,-lat,+cont,0delrel] ∅
 [+syl,-round] > [+long] / __ [-son] [+cont,-syl] [-cont,-son]
 [-son] > ∅ / __ [+cont,-syl] [-cont,-son]
 [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 

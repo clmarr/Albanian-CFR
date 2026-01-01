@@ -288,7 +288,7 @@ $DIACLEA CORRECTION A2.CXXXVII late APA ks , ps > x , ɸ
 $DIACLEA CORRECTION A1.XXXVII pre-Latin hiatus front vowel reduction -- different outcomes evident at least in feeding rj > ʎ here. 
 [+front,-lo,-prim] > j / __ [+syl]
 
-$DIACLEA CORRECTION A2.XXXI.e APA stress advancement, like the later stress retraction under influence of Latin, from short/weak antepenult to long penult {Tomorr} and from stressed syllable fourth {or more} from end to antepenult. Again it seems stress before a lateral is protected: oleaster > vashter not ulléshter; . Tentatively seems to be after DV1740G3 based on outcome for lepuj -- bleeding. Also doesn't go onto a vowel in hiatus: cichórēa > kore not krejë. Short vowels followed by 2+ consonants do not seem to be "strong" in the sense of getting the stress: génistra > gjeshtər, accípitrem > qiftər, cúlcitra > kultər , dríwasto > Drisht, brˈōtasca > breshkə; but it does happen for pre-Latin Greek items : márathrion > merraje etc. .Counterfed by A2.III
+$DIACLEA CORRECTION A2.CXXXXI APA stress advancement from short/weak antepenult to long penult {Tomorr} and from stressed syllable fourth {or more} from end to antepenult. Again it seems stress before a lateral is protected: oleaster > vashter not ulléshter; . Tentatively seems to be after DV1740G3 based on outcome for lepuj -- bleeding. Also doesn't go onto a vowel in hiatus: cichórēa > kore not krejë. Short vowels followed by 2+ consonants do not seem to be "strong" in the sense of getting the stress: génistra > gjeshtər, accípitrem > qiftər, cúlcitra > kultər , dríwasto > Drisht, brˈōtasca > breshkə; but it does happen for pre-Latin Greek items : márathrion > merraje etc. .Counterfed by A2.III
 [+syl] > [+prim] / [+prim] ([-lat] (@)*) __ (@)* [+syl] (@)* [+syl]
 [+syl,+long] > [+prim] / [+prim] [-syl,-lat] __ ([-syl])+ [+syl]
 [+syl] > [+prim] / [+prim] [-syl,-lat] __ [-syl]  ([-syl])+ [+syl]
@@ -303,6 +303,9 @@ $ DIACLEA CORRECTION C3B.XXIV late APA i lengthening blocked before stops: mít
 
 $DIACLEA CORRECTION A1.XXXVI h deleted after consonants in APA. Not quite for CPA: perhōra > pərherə. 
 h > ∅ / [+cons] __
+
+$DIACLEA CORRECTION A2.CXXXXII APA r > rr across a primary or secondary stressed vowel to a labial that is not postconsonantal
+r > r r / {#;[+syl]} [+lab,-syl] [+stres] __ [+syl]
 
 $--------------------Classical Proto-Albanian----------------------
 =Classical Proto-Albanian
@@ -739,6 +742,9 @@ $[-lo,+syl,-long] > [-tense]
 $then distinctive length is lost in vowels
 $this effectively implements: DV2.2.1A2, part of DV2.2.1A4, DV2.2.1A6, DV2.2.1B3, part of DV2.2.1B4-8, DV2.2.1B10, part of DV2.2.1C4, part of DV2.2.1E1, DV2.2.1E3, part of DV2.2.1F1 & F3. 
 [+syl] > [-long]
+
+$DIACLEA CORRECTION A2.CXXXXIII early MPA ao > ɒ. Does not feed length loss. Does not happen to stressed round vowels. 
+[+lo] [-stres,+round] > [+round,+lab,+long,+back,-front,-tense,-lo] ∅
 
 $ DIACLEA CORRECTION A2.XXIII.α  [-son] s T2 > sT2 ː brōtascu > breshk, potest-ā- > pushtoj, potestātem > pushtet; trumpisc-ā- > trushkyej [this is an error. tho.] -- feeds pre-fricative nasal loss [this happens later so it can be fed later.]ǃ Causes compensatory lengthening for nonrounds, as seen in non-reduction for farkoj, mashtroj, , and ultimate diphthohngization for mjeshtër. Counterfeeds loss of primary length. Doesn't feed round vowel lengtheningː breshkë not bryeshkë. 
 [+syl,-round] > [+long] / __ [-son] [+cont,-syl] [-cont,-son]

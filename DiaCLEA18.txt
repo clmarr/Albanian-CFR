@@ -288,6 +288,12 @@ $DIACLEA CORRECTION A2.CXXXVII late APA ks , ps > x , ɸ
 $DIACLEA CORRECTION A1.XXXVII pre-Latin hiatus front vowel reduction -- different outcomes evident at least in feeding rj > ʎ here. 
 [+front,-lo,-prim] > j / __ [+syl]
 
+$DIACLEA CORRECTION A2.XXXI.e APA stress advancement, like the later stress retraction under influence of Latin, from short/weak antepenult to long penult {Tomorr} and from stressed syllable fourth {or more} from end to antepenult. Again it seems stress before a lateral is protected: oleaster > vashter not ulléshter; . Tentatively seems to be after DV1740G3 based on outcome for lepuj -- bleeding. Also doesn't go onto a vowel in hiatus: cichórēa > kore not krejë. Short vowels followed by 2+ consonants do not seem to be "strong" in the sense of getting the stress: génistra > gjeshtər, accípitrem > qiftər, cúlcitra > kultər , dríwasto > Drisht, brˈōtasca > breshkə; but it does happen for pre-Latin Greek items : márathrion > merraje etc. .Counterfed by A2.III
+[+syl] > [+prim] / [+prim] ([-lat] (@)*) __ (@)* [+syl] (@)* [+syl]
+[+syl,+long] > [+prim] / [+prim] [-syl,-lat] __ ([-syl])+ [+syl]
+[+syl] > [+prim] / [+prim] [-syl,-lat] __ [-syl]  ([-syl])+ [+syl]
+[+prim] > [-prim] / __ (@)* [+prim]
+
 $DV2.2.1A1: PPAlb *i, unlike Latin i, reflects as PAlb *i without qualifications, as do PPAlb *ī and Latin ī (2.2.1A2,A6), but not Latin I, which reflects as PAlb *e generally (2.2.1B11) except when under i-mutation (2.2.1A5), wherein it behaves quite similarly to Latin E and PPAlb *e (2.2.1A3)
 $The best way to handle this for now, without changing all the Latin inputs (but: note that based on Classical Latin and Romance phonology, these short I-s plausibly *could* be either [ɪ] or [e])... is to lengthen all PPAlb *i just before Latin. This is no issue because there does not seem to be any difference in the behavior of PPAlb *ī and *i anyways
 $note that for this to work, the *i present as the second element of diphthongs must already be [j] by now. 
@@ -297,7 +303,6 @@ $ DIACLEA CORRECTION C3B.XXIV late APA i lengthening blocked before stops: mít
 
 $DIACLEA CORRECTION A1.XXXVI h deleted after consonants in APA. Not quite for CPA: perhōra > pərherə. 
 h > ∅ / [+cons] __
-
 
 $--------------------Classical Proto-Albanian----------------------
 =Classical Proto-Albanian
@@ -368,11 +373,6 @@ $ DIACLEA CORRECTION A2.XXXVIV o unrounds (and fronts?) before m then unround vo
 $DV1740G3 -- PPAlb *-rj- to ʎ. E.g. marathrion > maraj (Rom. marariu). Does not seem (?) intended to be fed by gliding of Latin i,e in hiatus to j, which is below (GLIDING) -- Latin to PAlb etyma listed by De Vaan are clearly unaffected (altarivm p1737; febrvārivs p1745...). Cited to Bonnet 1998: 208ff; Matzinger 2006: 74. 
 $ can be put here before the gliding of Latin i and e.  
 r j > ʎ / @ __ @
-
-$DIACLEA CORRECTION A2.XXXI.e CPA stress advancement, like the later stress retraction under influence of Latin, from short/weak antepenult to long penult {Tomorr} and from stressed syllable fourth {or more} from end to antepenult. Again it seems stress before a lateral is protected: oleaster > vashter not ulléshter; . Tentatively seems to be after DV1740G3 based on outcome for lepuj -- bleeding. Also doesn't go onto a vowel in hiatus: cichórēa > kore not krejë. Short vowels followed by 2+ consonants do not seem to be "strong" in the sense of getting the stress: génistra > gjeshtər, accípitrem > qiftər, cúlcitra > kultər , dríwasto > Drisht, brˈōtasca > breshkə. Tentatively does not happen initially. Counterfed by A2.III
-[+syl] > [+prim] / @ [+prim] ([-lat] (@)*) __ (@)* [+syl] (@)* [+syl]
-[+syl,+long] > [+prim] / @ [+prim,-long] [-syl,-lat] __ ([-syl])+ [+syl]
-[+prim] > [-prim] / __ (@)* [+prim]
 
 $ DIACLEA CORRECTION A2.III : in-metathesis or i-insertion in -- -Cina-/-Cinia rule (or -ina- metathesis?) Jan 28, 2025 -- expanded to cover countertonics. 
 	$ the "maybe-metathesis" rule? (see below), occurring after back elements or strings of non-front elements that include at least one voiced labial element not separated by an obstruent from the target 

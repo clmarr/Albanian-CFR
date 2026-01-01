@@ -55,6 +55,10 @@ d > n / n __
 j > ɟ / __ [+stres]
 [-cont,-cor] s > [+cont,0delrel] ∅
 [+front,-lo,-prim] > j / __ [+syl]
+[+syl] > [+prim,+stres,+syl,+son] / [+prim] ( [-lat] ( @ )* ) __ ( @ )* [+syl] ( @ )* [+syl]
+[+syl,+long] > [+prim,+stres,+syl,+son] / [+prim] [-syl,-lat] __ [-syl] ( [-syl] )* [+syl]
+[+syl] > [+prim,+stres,+syl,+son] / [+prim] [-syl,-lat] __ [-syl] [-syl] ( [-syl] )* [+syl]
+[+prim] > [-prim,+syl,+son] / __ ( @ )* [+prim]
 [+hi,+front,+syl] > [+long] / __ [+cont,-syl]
 h > ∅ / [+cons] __
 pʰ > f 
@@ -68,9 +72,6 @@ k > ∅ / [+stres,-prim] __ s
 {c͡ç;ɟ͡ʝ} > {t͡s;d͡z} 
 [-hi,+round] > [-round,-lab,-back,+front] / [-back] __ m [-cons,-round]
 r j > ʎ / @ __ @
-[+syl] > [+prim,+stres,+syl,+son] / @ [+prim] ( [-lat] ( @ )* ) __ ( @ )* [+syl] ( @ )* [+syl]
-[+syl,+long] > [+prim,+stres,+syl,+son] / @ [+prim,-long] [-syl,-lat] __ [-syl] ( [-syl] )* [+syl]
-[+prim] > [-prim,+syl,+son] / __ ( @ )* [+prim]
 {i n;ˌiː n;ˈiː n} > {i n i;ˌiː n i;i n ˈiː} / # ( [-front] )* [+lab,+voi] ( [+cor,+cont] )* ( [+back] ) __ [+lo]
 [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
 [-lo,+syl,-long,-cons] > [-tense,-cons,-lat,+cont,0delrel] 

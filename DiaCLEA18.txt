@@ -269,6 +269,9 @@ $DV1740C4 = DV3.2C4 : PPAlb -nd- > -nn- ; implemented like above.
 $This is not intended to affect Latin loans, clearly.
 d > n / n __
 
+$DIACLEA CORRECTION A2.CXXXXVI tentative mn > m in APA, feeding stress retraction in CPA.
+n > ∅ / m __
+
 $DIACLEA CORRECTION A1.XXXVIII APA pʰ from Greek > p. Take the other aspirates with it for good measure since it's clear for kh at least. Does not feed DV1740.C5 nt > nn though. 
 [-cont] > [-sg]
 
@@ -1715,13 +1718,15 @@ $ DIACLEA CORRECTIONS C3B.XVII.a & .b & .c and C3A.6 : broadened to tentatively 
 $ DIACLEA CORRECTION B1.VII -- jV > ɛ moved past last early slav wave, after secondary n j > ɲ (A1.XVII)
 j [-stres,-back] > ɛ / [+syl] ([-syl])* [-lo] __ #
 
+$DV1738, top, part 4: final -a + jˌa (def FSG) > a. Broadened to hit ɐ as well. 
+$DIACLEA CORRECTION C3A.XII aja > a now happens regardless of stress of final a. 
+$DIACLEA CORRECTION B2.XX -- DV1DV1738 part 4 aja > a moved to before part 2 a > ə; part 2 counterbleeeds part 4
+[+lo,-stres] j > ∅ / __ [+lo,-round] #
+
 $DV1738, top, part 2: final -a(m/n)(s) to ë 
 $form prior to 8/5/23 was: a ([+nas,+cons]) (s) > ə / __ #
 $changed to sidestep then-current input-side issues in DiaSim.
 {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ # 
-
-$DV1738, top, part 4: final -a + jˌa (def FSG) > a 
-a j > ∅ / __ [+lo,-round,+stres,-prim] #
 
 $DV1738, top, part 5 -- final countertonic -is, -ei (def article, msg) to >i, but it appears this is accomplished by other rules. TODO check this if necessary. 
 

@@ -524,6 +524,12 @@ ${s l;l} > {lˠ;lˠ} / [+syl] __ [+syl,-front]
 $DIACLEA CORRECTION D3.XIII -- Middle Proto-Albanian l-split to l and lˠ no longer. Handled in Late Proto-Albanian I, in tandem with early Slavic.
 $l > lˠ / [+syl] __ [+syl,-front] 
 
+
+$ DIACLEA CORRECTION A2.CXXXIX  fork in the fate of ēɲ[round] -- alternatively, could do this by unrounding the unstressed final vowel trigger of this, and that is maybe more parsimonious (one less rule), but may not really be "kosher" so to speak as it is kind of hacky, perhaps. Can see through j : fallienio > fëjej vs. MPA I faʎoɲo > fyej 
+[+front,+lo,+round] > [-round,-lab,-lo] / [+cor] (j) __
+[+lo,+round] > [-front,+back]
+
+
 $DIACLEA CORRECTION D3.XIII -- Middle Proto-Albanian l-split to l and lˠ no longer. Handled in Late Proto-Albanian I, in tandem with early Slavic.
 
 $ DIACLEA CORRECTION A2.I - lj and llj phenomena bleeding ʎ in Middle Proto-Albanian I
@@ -644,10 +650,6 @@ $ other relevant cases:
 		$ cases where fronting does appear to occur: ratiōnem > arsye "reason" 
 	$ in practice it doesn't seem this happens much before -ll and -r at this stage for the long oː but were going with this for now out of faithfulness .
 		$TODO: remove this commentary from baseline 18 cascade once decisions are made for DiaCLEA, move it there. 
-
-$ handling now the fork in the fate of ēɲ[round] -- alternatively, could do this by unrounding the unstressed final vowel trigger of this, and that is maybe more parsimonious (one less rule), but may not really be "kosher" so to speak as it is kind of hacky, perhaps. 
-[+front,+lo,+round] > [-round,-lab,-lo] / [+cor] __
-[+lo,+round] > [-front,+back]
 
 $DIACLEA FIX A2.XXXXVIII -- early MPA II shortening of long round vowels before continuant consonantal labials 
 [+round] > [-long] / __ [+lab,+cont,-syl] [-lo]
@@ -1321,6 +1323,9 @@ $DIACLEA CORRECTION A2.CX.BɐG countertonic a > ɐ between labials or ʃ and dor
 [+lo,-long,-round,-prim,+stres,-nas] > ɐ / [+lab] __ [+hi,-cont] [+prim,+tense]
 [+lo,-long,-round,-prim,+stres,-nas] > ɐ / [+cor,+strid] __ [+hi,-cont]
 
+$DIACLEA CORRECTION A2.LXXXXI.Rɲ -- resonants deleted before ɲ ː balnea > banje, refernio > rrefej. Happens before LPA IIIː pa/lnja > palnjë
+[+son,+cor,-nas] > ∅ / __  ɲ
+
 =Late Proto-Albanian II
 
 $DIACLEA CORRECTION A2.LXXXXVIII -- LPA II (e.g., from Greek) ɣ > j / __ i,ɪ,j, ultimately resulting in deletion of ɣ. May be worth it to look at handling ɣ l /l ɣ combos around A1.XVII. 
@@ -1783,6 +1788,8 @@ $ Previously: [+round,cprim,dstres] [-syl,-cons] > w [cprim,dstres,-tense] / # _
 [wround,cprim,+stres] [-syl,-cons,-hi] > [wback,wlab,!wfront,-syl] [cprim,-tense] / {[-cons];#} __ 
 [-round,+hi,cprim,+stres] [-syl,-cons,-hi] > j [cprim,-tense] / [+syl] (@)* __
 
+$DIACLEA CORRECTION 
+
 =Late Proto-Albanian III
 $ LAST EARLY SLAV WAVE HERE !! 
 $ placement per DIACLEA CORRECTION B5.I
@@ -1887,7 +1894,7 @@ $DIACLEA CORRECTION A2.LXXXXI LPA III nasal cluster simplifications -- seem pan-
 		$Not sonorants {many words make this obvious}, not spirants {mahnit, Dëshnicë, Leshnjë, prozhmoj ,etc. }
 		$placed before A1.XXIV so as to not be fed by r > ɾ. 
 		$Two rounds of this. For coronals {Tn} it comes later and therefore doesn't feed voicing phenomena: castanettu > LPA kˌaʃtə̃ɲˈɛt > Kashnjet, ˌae̯stimˈɑːnioː > ʃtə̃mˈɔ̃ɲ > çmoj , testimonio > ... > dëshmoj... for at least some dorsals {fuzhnja etc. } it does- - go with all non-coronals for the earlier .Kn 
-	$A2.LXXXXI.Kn -- non-coronal sotps deleted before nasals, regardless of what comes before. 
+	$A2.LXXXXI.Kn -- non-coronal stops deleted before nasals, regardless of what comes before. 
 [-cont,-cor] > ∅ / __ [+nas,+cons]
 	$A2.LXXXXI.ɲ -- ŋɲ > ɲɟ. As formulated currently, fed by .Tn: Latin to CPA sˌɑnɡuiniˈɑːtɑ > LPA ʃˌãŋɡɲˈatə > shëngjetë , ˌinkonɡˌyːrˈɑːnioː > ə̃ŋɡɲərˈɔ̃ɲ > ngjëroj. Tentatively using any nasal ɲ cluster.
 [+nas,+cons] ɲ > ɲ ɟ

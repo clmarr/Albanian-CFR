@@ -411,15 +411,62 @@ A2.XXXXV -- right before MPA II, j deleted in various places
 
 A2.XXXXVI -- word initial long vowels shortened. Counterfed by D3.X.b2 for pre-non-labial ˌɔ . Effects e.g. a: e: < aw aj etc. Oral not nasal nec. for armik. 
 
-A2.XXXXVII -- MPA I insertion of j before tonic low vowel, essentially metathetic though it's hard to write it that way. 
+A2.XXXXVII -- MPA  insertion of j after tonic low vowel if preceded by a front vowel, including y < ū {trūs-a- > .. .> turshej}. Does not feed A2.XVI k > g/ __ ɪ̯ 
 	The way this is written looks janky but it makes sense theoretically.
 	The j is the palatal articulation of a reducing pretonic front vowel moving forward, away from a prior labial.
-	The j appears after a k lˠ r or n -- that is, consonants that are licit to palatalization
+	The j appears after a {s}k s r or n -- that is, consonants that are licit to palatalization
 	The prior context can "see through" the more quickly articulated consonantal material
 		that is voiceless non-labial non-palatal material i.e. k sk rk 
 		and lenis/singleton sonorants (exc. we don't code lenis at this point or ever) lˠ (ɽˠ) l (ɽ) r (ɾ) n (ɾ̃) 
 	it is specifically DODGING likely blocking material or hte more slowly articulated voiced stops. Patterning of s/l/r is bc they are alveolar, vs. dental (n, d..) 
 	So the complication is only apparent. 
+	See MPA progressive iotation file for redone work on this at end of Dec '25. 
+	Doesn't happen after voiced stops : excaudicare > shkagoj
+	
+	.sk	{s}{k} cases -- [+lab,+cont] ( [elat,econt,evoi] ) [-prim,-lo,+front] ( s ) k [+back,-hi,+prim] @ R115
+		
+		435,  | ...                | *#wˌɛskˈɔɲɔ#       | *#vəʃkˈɔj#         | #uʃcˈɛj#
+877,  | ...                | *#trˌumpiskˈɒːɲøː# | *#tɾuʃkˈɔj#        | #tɾuʃkˈye̯j#
+1122, | ...                | *#lˌɑwɪkˈɑːrʊ#     | *#lɛkˈaɾ#          | #lifcˈɛɾ#
+1387, | ...                | *#pˌʊlːɪkˈɑːrɛ#    | *#pulcˈɛɾ#         | #pulcˈɛɾ#
+1388, | ...                | *#pˌʊlːɪkˈɒːrʊ#    | *#pulkˈɔɾ#         | #pulcˈye̯ɾ#
+Or, in case of trus-a-, the labial continuant and the front vowel triggering it are both gestures of hte same segment. 
+841,  | ...                | #trˌuːsˈɑːnioː#    | *#trˌuːsˈɒːnjɔ#    | *#trˌysˈoɲo#       | *#trɪsˈoɲo#        | *#tɾɪʃˈɔ̃ɲɔ#       | *#tɾəʃˈɔ̃ɲ#        | *#tɾ̩ʃˈɔ̃ɲ#        | *#tɾ̩ʃˈɔ̃ɲ#        | *#tɾ̩ʃˈɔɲ#         | *#təɾʃˈɔj#         | #tuɾʃˈɛj#
+		-- howeer this is more likley to come from tortiare; the whole ˌy aspect is therfore suppressed for now. 
+	
+			
+	.pR -- triggered by non-primary pretonic vowel in between a non-post-vocalic labial and a coronal sonorant. S counts as a "labial" -- TODO note UNNATURAL CLASS. 
+			R115 in MPA II 
+needs to beb bled	1301, | ...                | *#pˌɛrˈɑʊ̯ɔ#       | *#pɾˈaʊ̯#          | #pərˈua̯#
+1774, | ...                | *#mˌirˈɒːɲɔ#       | *#məɾˈɔj#          | #məɾˈɛj#
+1869, | ...                | *#mˌiːrˈɑːkulu#    | *#mɾˈakulˠ#        | #mɾˈɛkulˠ#
+
+404,  | ...                | *#ˌɪnkˌɑwsɪnˈɒːɲɔ# | *#ŋɡaʃəɾˈɔj#       | #ŋɡaʃəɾˈɛj#
+769,  | ...                | *#spˌeːrˈɒːɲɔ#     | *#ʃpɾˈɔj#          | #ʃpəɾˈɛj#
+needs to be bled 774,  | ...                | *#ˌɑspɛlːˈɔn#      | *#aʃpəlˈua̯#       | #ʃpˈɛl#
+needs to be bled 776,  | ...                | *#spˌirˈɒːɲɔ#      | *#ʃpiɾˈɔj#         | #ʃpirˈɔj#
+ is correct with or wiht out this 784,  | ...                | *#spˌɛrˈɑntjɑ#     | *#ʃpɾˈɛsə#         | #ʃpɾˈɛsə#
+1879, | ...                | *#ˌɪmpɛrˈɑːtʊ#     | *#mbɾˈat#          | #mbɾˈɛt#
+1880, | ...                | *#ˌɪmpɛrˈɑːtɔr#    | *#mbɾˈatəɾ#        | #mbɾˈɛtəɾ#
+
+	.wʎɒj -- jˈɒː ʎɒː > ˈɛː ˈœː after labial (unround vowel) , before ɲ, or more broadly nasals. Not implementing ɲ aspect as only relevant word is ngjyej -- too lexical. Going via aj and ɒːj for now for consistency with rest of this block, and also to not cause unintended feeding effects.
+			{R115 in MPA II} 
+169,  | ...                | *#kˌɑmbjˈɒːɲɔ#     | *#kəmbˈɔj#         | #kəmbˈɛj#
+677,  | ...                | *#ˌɛskˌɑmbjˈɒːɲɔ#  | *#ʃkəmbˈɔj#        | #ʃkəmbˈɛj#
+82,   | ...                | *#ˌeːwɪʎˈɒːɲøː#    | *#vəjˈɔj#          | #ˈye̯j#
+1570, | ...                | *#fˌɑʎˈɒːɲøː#      | *#fajˈɔj#          | #fˈye̯j#
+1685, | ...                | *#wˌɑʎˈɒːɲøː#      | *#vajˈɔj#          | #vˈye̯j#
+
+unɲˈɒːɲɔ > ngjyej
+
+needs to be bled through sending it backwards to make karr- to kerr- 1882, | ...                | *#kˌɑrmɪɲˈɒːɲɔ#    | *#kaɾɲˈɔj#         | #kɛɾɲˈɔj#
+			evidence that medial vowel can't be round
+240,  | ...                | *#kˌʊɲˈɒːɲɔ#       | *#kuɲˈɔj#          | #kuɲˈɔj#
+410,  | ...                | *#ˌɪnkˌʊɲˈɒːɲɔ#    | *#ŋɡuɲˈɔj#         | #ŋɡujˈɔj#
+		needs to be before ɲ , or at least nasal
+1475, | ...                | *#bˌiɲˈɒːrʊ#       | *#biɲˈaɾ#          | #biɲˈaɾ#
+
+	.iy resulting ɪ̯ ʏ̯ to ɪ ʊ
 
 A2.XXXXVIII -- MPA I shortening of long round vowels before continuant consonantal labials (b>β by now, m f ; not p and not w), at latest in time to bleed fronting  (buf, puk, pukë/Pukë, grumbull, grumbulloj, umb). Happens in more closed syllables, which are those not followed by a low vowel, in somewhat of a sign that the gliding of non-low vowels may have begun at this point... 
 
@@ -1383,6 +1430,21 @@ A2.CXXXVII late APA ks , ps > x , ɸ
 A2.CXXXVIII late APA c , ɟ > tʃ dʒ 
 
 A2.CXXXIX {actually a much earlier fix but not explicitly annotated till very end of 2o25} fork in the fate of ēɲ[round] -- alternatively, could do this by unrounding the unstressed final vowel trigger of this, and that is maybe more parsimonious (one less rule), but may not really be "kosher" so to speak as it is kind of hacky, perhaps. Can see through j : fallienio > fëjej vs. MPA I faʎoɲo > fyej 
+
+A2.CXXXX -- before loss of distinctness of ɒ́ː, ˈɒːj > ˈoe̯ {later ye} after vowels and k, and to aj after coronals and labials. Can treat the "vowels + k" case as elsewhere condition. 
+		coronals: mˌɪrˈɒːjɲɔ > məɾˈɛj
+				spˌɪrˈɒːjɲɔ > shərɛj
+				sˌɪmɪ̊lˈɒːjɲɔ > shëmbëllej -- note l must become dark! 
+				ˌɪnkˌɑwsɪnˈɒːjɲɔ > ngashërej
+		otherwise : 
+				ˌeːwɪˈɒːjɲøː > yej 
+				trˌumpi̊skˈɒːjɲøː > trushkyej 
+				pˌʊlːɪ̊kˈɒːjrʊ > pulqyer
+				wˌɑˈɒːjɲøː > vyej
+				fˌɑˈɒːjɲøː	 > fyej
+
+	.2oe resolution of oe > ye after LPA palatalization. Designed to also sweep up ue cases like Shyec from Slavic. 
+	.2oj resolution of {MPA II oj >} LPA ɔj > ɛj, counterbleeding l-darkening
 
 
 # B Rule relocdations

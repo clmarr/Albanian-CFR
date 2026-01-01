@@ -285,12 +285,15 @@ $ˈe > ˈeː / __ [+cor,+cont,+strid]
 $DIACLEA CORRECTION A2.CXXXVII late APA ks , ps > x , ɸ 
 [-cont,-cor] s > [+cont] ∅
 
+$DIACLEA CORRECTION A1.XXXVII pre-Latin hiatus front vowel reduction -- different outcomes evident at least in feeding rj > ʎ here. 
+[+front,-lo,-prim] > j / __ [+syl]
+
 $DV2.2.1A1: PPAlb *i, unlike Latin i, reflects as PAlb *i without qualifications, as do PPAlb *ī and Latin ī (2.2.1A2,A6), but not Latin I, which reflects as PAlb *e generally (2.2.1B11) except when under i-mutation (2.2.1A5), wherein it behaves quite similarly to Latin E and PPAlb *e (2.2.1A3)
 $The best way to handle this for now, without changing all the Latin inputs (but: note that based on Classical Latin and Romance phonology, these short I-s plausibly *could* be either [ɪ] or [e])... is to lengthen all PPAlb *i just before Latin. This is no issue because there does not seem to be any difference in the behavior of PPAlb *ī and *i anyways
 $note that for this to work, the *i present as the second element of diphthongs must already be [j] by now. 
 $note that this is NOT a proposed sound change, but a temporary solution to the issue. (and even replacing the Latin short I instances with [ɪ] or [e] might not work to fix it, because even though it does have a basis in both Classical Latin and Romance phonology, it still might cause issues regarding this short I's role as a trigger of i-mutation -- TODO consider that and make remarks here) 
-$ DIACLEA CORRECTION C3B.XXIV late APA i lengthening blocked before stops: míto > mjetë not mitë, mastíkhino > məshtekər, thiphjeːn > tepə not tipe
-[+hi,+front,+syl] > [+long] / __ [+cont]
+$ DIACLEA CORRECTION C3B.XXIV late APA i lengthening blocked before stops: míto > mjetë not mitë, mastíkhino > məshtekər, thiphjeːn > tepə not tipe. Also before {tonic} vowels: manía  > məri 
+[+hi,+front,+syl] > [+long] / __ [+cont,-syl]
 
 $DIACLEA CORRECTION A1.XXXVI h deleted after consonants in APA. Not quite for CPA: perhōra > pərherə. 
 h > ∅ / [+cons] __
@@ -360,13 +363,16 @@ $ needs to come after the nasal-spirant law in Latin input handling so as not to
 $ However, in light of the fact that Proto-Albanian loans reflecting PIE palatovelars reflect as ts dz in Aromanian and various ts s z in Romanian (unlike PAlb ð < PPAlb *d, which reflects with d in Romanian and Aromanian), this is indeed split in two, with the affricate stage first, and the spirantization only after Middle Proto-Albanian (when De Vaan assigns the contact between Proto-Albanian and Proto-Vlach)
 {c͡ç;ɟ͡ʝ} > {t͡s;d͡z}
 
-
-
 $ DIACLEA CORRECTION A2.XXXVIV o unrounds (and fronts?) before m then unround vowel; may need to rethink placement. Going to e for now. Doesn't seem to happen after back elements which supports fronting as the mechanism. (promitt-o- > premtoj "promise"; pōma > pemë "tree" [otherwise would be effeected by shortening]; ? rōmānu- > Arvanite/Arbëreshë/Cham rëmër  & Gheg/Arbanasi remën "shepherd, peasant; Vlach" + dialectal Rëmenj (, Pogradec) < rōmān-ī ; glomerata > grëmëratë "biestlings, curds" ( > Greek gramenada) ... not coma > komë etc.)
 [-hi,+round] > [-round,-lab,-back,+front] / [-back] __ m [-cons,-round]
+$DV1740G3 -- PPAlb *-rj- to ʎ. E.g. marathrion > maraj (Rom. marariu). Does not seem (?) intended to be fed by gliding of Latin i,e in hiatus to j, which is below (GLIDING) -- Latin to PAlb etyma listed by De Vaan are clearly unaffected (altarivm p1737; febrvārivs p1745...). Cited to Bonnet 1998: 208ff; Matzinger 2006: 74. 
+$ can be put here before the gliding of Latin i and e.  
+r j > ʎ / @ __ @
 
-$ DIACLEA CORRECTION A2.XXXX -- non-primary oː loses length. Bled by A2.XXXVIV.
-[-hi,+round,-prim] > [-long]
+$DIACLEA CORRECTION A2.XXXI.e CPA stress advancement, like the later stress retraction under influence of Latin, from short/weak antepenult to long penult {Tomorr} and from stressed syllable fourth {or more} from end to antepenult. Again it seems stress before a lateral is protected: oleaster > vashter not ulléshter; . Tentatively seems to be after DV1740G3 based on outcome for lepuj -- bleeding. Also doesn't go onto a vowel in hiatus: cichórēa > kore not krejë. Short vowels followed by 2+ consonants do not seem to be "strong" in the sense of getting the stress: génistra > gjeshtər, accípitrem > qiftər, cúlcitra > kultər , dríwasto > Drisht, brˈōtasca > breshkə. Tentatively does not happen initially. Counterfed by A2.III
+[+syl] > [+prim] / @ [+prim] ([-lat] (@)*) __ (@)* [+syl] (@)* [+syl]
+[+syl,+long] > [+prim] / @ [+prim,-long] [-syl,-lat] __ ([-syl])+ [+syl]
+[+prim] > [-prim] / __ (@)* [+prim]
 
 $ DIACLEA CORRECTION A2.III : in-metathesis or i-insertion in -- -Cina-/-Cinia rule (or -ina- metathesis?) Jan 28, 2025 -- expanded to cover countertonics. 
 	$ the "maybe-metathesis" rule? (see below), occurring after back elements or strings of non-front elements that include at least one voiced labial element not separated by an obstruent from the target 
@@ -377,10 +383,6 @@ $ results when the /i/ is stressed are unclear -- which is why this is a "maybe 
 	$ merged into one rule, back optional, but has to come after labials as it does in all cases (fuscina, fuscinārius, marrūcīna -- not sarcināriu). 
 $TODO ... is this rule *really* worth its cost in complication? Consider removing it. Or just getting rid of hte ìːn >iníː aspect? 
 {i n;ˌiː n;ˈiː n} > {i n i;ˌiː n i;i n ˈiː} / # ([-front])* [+lab,+voi] ([+cor,+cont])* ([+back])  __ [+lo]
-
-$DV1740G3 -- PPAlb *-rj- to ʎ. E.g. marathrion > maraj (Rom. marariu). Does not seem (?) intended to be fed by gliding of Latin i,e in hiatus to j, which is below (GLIDING) -- Latin to PAlb etyma listed by De Vaan are clearly unaffected (altarivm p1737; febrvārivs p1745...). Cited to Bonnet 1998: 208ff; Matzinger 2006: 74. 
-$ can be put here before the gliding of Latin i and e.  
-r j > ʎ / @ __ @
 
 $$ De Vaan 2018 has the change in vowel length to quality only come after major PPAlb to PAlb developments -- see p1736 -- namely long round vowel fronting, ai > ē, and aː > ɔː. -- will be handled in next stage
 
@@ -434,9 +436,13 @@ s > h / [+lo,-prim] ([-cons,-syl]) __ [-stres] [-son]
 $DIACLEA CORRECTION A1.XIII length lost in i early. TODO revise?
 [+syl,+front,+hi] > [-long]
 
+
 $DIACLEA CORRECTION A2.XXXI.o stress retraction away from final syllables, attraction to syllable favored by Latin stress rules: penultimate if long, else antepenult. Albanian has a special rule that favors pre-lateral penults for stress even if short and open. However, stress from short penults does not retract -- over 2o cases show this.
-[+syl] > [+prim] / __ ([-syl])* [-prim] [-syl,-lat] [+syl] ([-syl])* #
+[+syl] > [+prim] / __ ([-syl])* [-prim,-long] [-syl,-lat] [+syl] ([-syl])* #
 [+syl] > [+prim] / __ ([-syl])* [+prim] ([-syl])* #
+
+$ DIACLEA CORRECTION A2.XXXX -- non-primary oː loses length. Bled by A2.XXXVIV. Bled by A2.XXXI.o {gërshet}, but not A2.XXXI.ð ̪{detorës}. RULE CROSSINGǃ 
+[-hi,+round,-prim] > [-long]
 
 $DIACLEA CORRECTION A2.XXXI.ð stress retraction across coronals : 
 [+syl] > [+prim] / __ [+cor,-nas,-lat] ([+son,-syl,-lab]) [+prim,-long] [-cont,-voi] (j) [+syl,+hi] #
@@ -448,6 +454,8 @@ $DIACLEA CORRECTION A2.VIII new version -- o  raising exception when after labia
 
 $DIACLEA CORRECTION A2.XXXI.nn stress retraction across nn from antepenultimates. TODO reexamine, only two cases {tingël, hingël}, one especially prone to analogy {tingëlloj derived from tingël, or the reverse? Tinnunculus also meant kestrel, not 'ring' -- somewhat reach-y semantics...}
 [-prim] n n [+prim] > [+prim] n n [-prim,-stres] / __ ([-syl])* [+syl] ([-syl])* [+syl] 
+
+
 
 $DIACLEA CORRECTOIN A2.VII now the actual internal non-primary o > u rule . Apparently doesn't happen word initially.
 [+round,-lo,-prim,+stres,-hi] > [+hi,-long] / @ __

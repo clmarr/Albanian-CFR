@@ -434,6 +434,10 @@ s > h / [+lo,-prim] ([-cons,-syl]) __ [-stres] [-son]
 $DIACLEA CORRECTION A1.XIII length lost in i early. TODO revise?
 [+syl,+front,+hi] > [-long]
 
+$DIACLEA CORRECTION A2.XXXI.o stress retraction away from final syllables, attraction to syllable favored by Latin stress rules: penultimate if long, else antepenult. Albanian has a special rule that favors pre-lateral penults for stress even if short and open. However, stress from short penults does not retract -- over 2o cases show this.
+[+syl] > [+prim] / __ ([-syl])* [-prim] [-syl,-lat] [+syl] ([-syl])* #
+[+syl] > [+prim] / __ ([-syl])* [+prim] ([-syl])* #
+
 $DIACLEA CORRECTION A2.XXXI.ð stress retraction across coronals : 
 [+syl] > [+prim] / __ [+cor,-nas,-lat] ([+son,-syl,-lab]) [+prim,-long] [-cont,-voi] (j) [+syl,+hi] #
 [+prim] > [-stres] / [+prim] (@)* __

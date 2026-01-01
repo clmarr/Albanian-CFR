@@ -243,10 +243,6 @@ $ ----------- Pre-Proto-Albanian = pre-Greek proto-Albanian. --------------
 $ bandaid, essentially: a > ɑ everywhere. 
 [+lo,+syl] > [+back,-front]
 
-$ rule to capture movement of native and Greek aː to ɔː -- for benefit of the doubt, borrowing Orel's usage of ɒː to allow this to not to pattern with Latin aː while respecting the chronology of vocalic developments on De Vaan p1736. So here we have aː(/ɑː)> ɒː. Note also DV1739.A4 where Doric mākhānā is listed here. 
-$ DIACLEA FIX C1.B.XV -- ɑː > ɒː in Archaic Proto-Albanian now doesn't occur in final syllables.
-[+long,+lo] > [+round,+lab] / __ ([-syl])* [+syl]
-
 $ general rule for De Vaan(:1747) is no change in stress placement: by default, Latin loans have the same stress placement as in Classical Latin, "and the same goes for loanwords from later layers... Slavic, Italian... Greek... Turkish". Exceptions seem to be largely morphologically motivated (see bottom of p1747); De Vaan (1747) agrees with Matzinger 2006 that things are too complicated for Jokl 1923's treatment of PPAlb as having general penultimate accent. 
 
 $DV1744.E2 not affecting Latin words, *intervocalic* *d to edh, perhaps with ability to see through r. (later change that DV'18 asserts affects Latin words too, has r not as optional but necessary, and is thus not intervocalic, with Latin intervocalic d being lost in Albanian in this account). Since De Vaan treats the intervocalic lenition as pre-Latin and a separate sound change with no explicit mention of r (optional or not) in the context, so will it be handled here.
@@ -273,10 +269,8 @@ $DV1740C4 = DV3.2C4 : PPAlb -nd- > -nn- ; implemented like above.
 $This is not intended to affect Latin loans, clearly.
 d > n / n __
 
-
 $DIACLEA CORRECTION A1.XXXVIII APA pʰ from Greek > p. Take the other aspirates with it for good measure since it's clear for kh at least. Does not feed DV1740.C5 nt > nn though. 
 [-cont] > [-sg]
-
 
 $DIACLEA CORRECTION A2.CXXXVIII  APA c , ɟ from late APA > tʃ dʒ. Counterfed by j ʒ > ɟ etc word initially. Counterfed by DV1743.F2, so still in APA for now. 
 {c;ɟ} > {t͡ʃ;d͡ʒ}
@@ -294,7 +288,7 @@ $DIACLEA CORRECTION A2.CXXXVII late APA ks , ps > x , ɸ
 [-cont,-cor] s > [+cont] ∅
 
 $DIACLEA CORRECTION A1.XXXVII pre-Latin hiatus front vowel reduction -- different outcomes evident at least in feeding rj > ʎ here. 
-[+front,-lo,-prim] > j / __ [+syl]
+[+front,-prim] > j / __ [+syl]
 
 $DIACLEA CORRECTION A2.CXXXXI APA stress advancement from short/weak antepenult to long penult {Tomorr} and from stressed syllable fourth {or more} from end to antepenult. Again it seems stress before a lateral is protected: oleaster > vashter not ulléshter; . Tentatively seems to be after DV1740G3 based on outcome for lepuj -- bleeding. Also doesn't go onto a vowel in hiatus: cichórēa > kore not krejë. Short vowels followed by 2+ consonants do not seem to be "strong" in the sense of getting the stress: génistra > gjeshtər, accípitrem > qiftər, cúlcitra > kultər , dríwasto > Drisht, brˈōtasca > breshkə; but it does happen for pre-Latin Greek items : márathrion > merraje etc. .Counterfed by A2.III
 [+syl] > [+prim] / [+prim] ([-lat] (@)*) __ (@)* [+syl] (@)* [+syl]
@@ -302,15 +296,28 @@ $DIACLEA CORRECTION A2.CXXXXI APA stress advancement from short/weak antepenult 
 [+syl] > [+prim] / [+prim] [-syl,-lat] __ [-syl]  ([-syl])+ [+syl]
 [+prim] > [-prim] / __ (@)* [+prim]
 
+$DIACLEA CORRECTION A2.CXXXXV after APA stress advancement -- which this counterbleeds -- unstressed APA aː > a. 
+ɑː > ɑ
+
+$ rule to capture movement of native and Greek aː to ɔː -- for benefit of the doubt, borrowing Orel's usage of ɒː to allow this to not to pattern with Latin aː while respecting the chronology of vocalic developments on De Vaan p1736. So here we have aː(/ɑː)> ɒː. Note also DV1739.A4 where Doric mākhānā is listed here. 
+$ DIACLEA CORRECTION C1.B.XV -- ɑː > ɒː in Archaic Proto-Albanian now doesn't occur in final syllables.
+$ DIACLEA CORRECTION B1.XV -- within APA, aː > ɒː moved to after stress advancement and A2.CXXXXV which counterbleeds stress advancement, but bleeds this. 
+[+long,+lo] > [+round,+lab] / __ ([-syl])* [+syl]
+
+$DIACLEA CORRECTION A2.CXXXXIV bleeding DV2.2.1A1 late APA i lengthening, tonic i > e before stops: míto > mjetë not mitë, mastíkhino > məshtekər, thiphjeːn > tepə not tipe. Not countertonic at leastː ˌisˈamnon > Ishëm {after stress shift}, unless this is eis-amnon. No data for stressed ˈi in hiatus. 
+ˈi > ˈe / __ [-cont] 
+
 $DV2.2.1A1: PPAlb *i, unlike Latin i, reflects as PAlb *i without qualifications, as do PPAlb *ī and Latin ī (2.2.1A2,A6), but not Latin I, which reflects as PAlb *e generally (2.2.1B11) except when under i-mutation (2.2.1A5), wherein it behaves quite similarly to Latin E and PPAlb *e (2.2.1A3)
 $The best way to handle this for now, without changing all the Latin inputs (but: note that based on Classical Latin and Romance phonology, these short I-s plausibly *could* be either [ɪ] or [e])... is to lengthen all PPAlb *i just before Latin. This is no issue because there does not seem to be any difference in the behavior of PPAlb *ī and *i anyways
 $note that for this to work, the *i present as the second element of diphthongs must already be [j] by now. 
 $note that this is NOT a proposed sound change, but a temporary solution to the issue. (and even replacing the Latin short I instances with [ɪ] or [e] might not work to fix it, because even though it does have a basis in both Classical Latin and Romance phonology, it still might cause issues regarding this short I's role as a trigger of i-mutation -- TODO consider that and make remarks here) 
-$ DIACLEA CORRECTION C3B.XXIV late APA i lengthening blocked before stops: míto > mjetë not mitë, mastíkhino > məshtekər, thiphjeːn > tepə not tipe. Also before {tonic} vowels: manía  > məri 
-[+hi,+front,+syl] > [+long] / __ [+cont,-syl]
+$ DIACLEA CORRECTION C3B.XXIV late APA i lengthening doesn't happen to tonic vowels in hiatus with following : manía  > məri. Also, bled by A2.CXXXXIV.
+[+hi,+front,+syl] > [+long] / __ [-syl]
 
 $DIACLEA CORRECTION A1.XXXVI h deleted after consonants in APA. Not quite for CPA: perhōra > pərherə. 
 h > ∅ / [+cons] __
+$DIACLEA CORRECTION A1.XXXVI.ɦ Greek spirit, currently coded as ɦ, deleted everywhere. 
+ɦ > ∅
 
 $DIACLEA CORRECTION A2.CXXXXII APA r > rr across a primary or secondary stressed vowel to a labial that is not postconsonantal
 r > r r / {#;[+syl]} [+lab,-syl] [+stres] __ [+syl]

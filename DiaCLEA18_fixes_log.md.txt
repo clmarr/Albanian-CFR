@@ -226,6 +226,7 @@ A1.XXXV another round of hiatus i gliding in LPA III
 
 
 A1.XXXVI h deleted after consonants in APA. Not quite for CPA: perhōra > pərherə. 
+	.ɦ Greek spirit, currently coded as ɦ, deleted everywhere. 
 
 A1.XXXVII pre-Latin hiatus front vowel reduction -- different outcomes evident at least in feeding rj > ʎ here. 
 
@@ -1473,6 +1474,8 @@ A2.CXXXXIII early MPA ao > ɒ ː nikolao, perao. Does not feed MPA length loss -
 
 A2.CXXXXIV bleeding DV2.2.1A1 late APA i lengthening, tonic i > e before stops: míto > mjetë not mitë, mastíkhino > məshtekər, thiphjeːn > tepə not tipe. Not countertonic at leastː ˌisˈamnon > Ishëm {after stress shift}, unless this is eis-amnon. mito- mjetë, tipha to tepë. 
 
+A2.CXXXXV after APA stress advancement -- which this counterbleeds -- unstressed APA aː > a. 
+
 # B Rule relocdations
 
 Rules that were moved to different points in the cascade. 
@@ -1516,6 +1519,8 @@ B1.XII -- aj > ɛ moved later, into LPA II, after final vowel resolutions in Sla
 B1.XIII -- rr > rː moved from CPA to LPA I, just next to rn > rr
 
 B1.XIV -- sr > r , og Cr > r, moved from CPA to MPA II, counterfeeding r lengthening via A2.LII. 
+
+B1.XV -- within APA, aː > ɒː moved to after stress advancement and A2.CXXXXV which counterbleeds stress advancement, but bleeds this. 
 
 ## B2 -- rule moved to an earlier time 
 
@@ -1837,6 +1842,7 @@ C3B.XXIII syncope aspect of DV1734.4/1.III needs to happen after a V C __
 
  C3B.XXIV  DV2.2.1A1  late APA i lengthening doesn't happen to tonic vowels in hiatus with following : manía  > məri 
 
+C3B.XXV CPA laxing doesn't happen to ə from APA reductions. 
 ## C4 -- changes in both input and output
 
  C4.I: reanalyzed -- output of DV1740F2, now moved into LPA II (per B1.VIII.r), is just l, whether it becomes lˠ to be hanlded elsewhere; APPLIES TO VOICED CORONALS THEN L. 

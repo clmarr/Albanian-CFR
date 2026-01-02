@@ -38,7 +38,7 @@ SORT_ORDER = ["a̯","a","ã","aː","ãː","ˌa","ˌã","ˌaː","ˌãː","ˈa
 PH_ORDERING = {String: index for index, String in enumerate(SORT_ORDER)}
 
 def linesort(lines):
-    return sorted(lines, key=lambda ln : [SORT_ORDER.index(str) for str in last_content_col_in_line(ln).split(PH_DELIM)])
+    return sorted(lines, key=lambda ln : [SORT_ORDER.index(str) for str in last_content_col_in_line(ln).split(PH_DELIM).strip()])
 
 def last_content_col_in_line(line):
 

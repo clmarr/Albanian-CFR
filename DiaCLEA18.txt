@@ -468,7 +468,7 @@ $DIACLEA CORRECTION A2.XXXI.o stress retraction away from final syllables, attra
 $ DIACLEA CORRECTION A2.XXXX -- non-primary oː loses length. Bled by A2.XXXVIV. Bled by A2.XXXI.o {gërshet}, but not A2.XXXI.ð ̪{detorës}. RULE CROSSINGǃ 
 [-hi,+round,-prim] > [-long]
 
-$DIACLEA CORRECTION A2.XXXI.ð stress retraction across coronals : 
+$DIACLEA CORRECTION A2.XXXI.ð stress retraction across coronals. TODO consider retaining secondary stress.
 [+syl] > [+prim] / __ [+cor,-nas,-lat] ([+son,-syl,-lab]) [+prim,-long] [-cont,-voi] (j) [+syl,+hi] #
 [+prim] > [-stres] / [+prim] (@)* __
 $[+syl] [+cor,-nas,-lat] [+prim,-long] > [+prim] [+cor] [-stres] / __ [-cont,-voi] (j) [+syl,+hi] #
@@ -705,8 +705,6 @@ $DIACLEA CORRECTION A1.XII -- in earlier Middle Proto-Albanian, early loss of vo
 	$  A1.XII.b and of i in [+back] n __ [-cont] [+back] ( communic-ā- > kungoj; manica > mëngë, manic-ā- > mëngoj, manipul-ā- > mbuloj 
 ɪ > ∅ / [+back,-cons] n __ [-cont] [+back,-cons] 
 
-
-
 $ De Vaan p1736 "2." +DV1735~A1&A2: PPAlb & Lat ai (not "ae" -- handled in earlier rule) > ē
 $ based on treatment of Lat. ae elsewhere, where it falls in with Latin *short* e, it seems not, but this is bled already anyways so no need to change this rule at the moment (as of Aug. 1 2023) 
 $ DIACLEA CORRECTION C3B.II: this does not happen prevocalically (perhaps because the -j- is seen as an onset?) 
@@ -714,7 +712,7 @@ $ DIACLEA CORRECTION D3.IV -- this is consolidated into the resolution of i-muta
 $[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ {[-syl];#}
 
 $DIACLEA CORRECTION A1.VI.w : limited early i-mutation-like phenomenon across w, for tonic and (!!) countertonic. Counterfed by stress retraction. Consider/write about rel chron of this in relation to A2.XXXI.a and A2.XXXIII and the 'main' i-mutation 
-[-hi,+stres,afront] > [-back,+front,ahi,-lo] / {#;[-lat,-lab]} ([+lat]) __ ([+lab,-syl])+ ([+son,+cons]) [+front,-stres]
+[-hi,+stres,afront] > [-back,+front,ahi,-lo] / [-lat,-lab] ([+lat]) __ ([+lab,-syl])+ ([+son,+cons]) [+front,-stres]
 
 $DIACLEA FIX A2.XXXI.a Middle Proto-Albanian I -- stress retraction in V β ˈV-hi (ablēv-ā- > blej , arrīv-ā- > arrij, Drivastum > Drisht, lav-ā- > laj, oli̍̄vānu > ullî, etc. Including caballus > kuol, kālë for good measure. Bled by ɒ > ɔ but maybe that can be moved later? 
 $ TODO write about this in dissertation!
@@ -927,7 +925,6 @@ $ DIACLEA CORRECTION C3B.VII -- DV1743.B4, β > b, now only operates after non-i
 β > b / @ [+syl] ([-syl])* [+cont,-nas,+cor] __
 
 $DIACLEA CORRECTION A1.VIII: mid front vowels e œ ɛ before r or s then j become i-mutanda, via the ɪ̯. In these cases, the j is then deleted. 
-$TODO revisit. (TODO remark obsolete?)
 ∅ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] j > ɪ̯ [+prim] [+cont] ∅
 
 $I-MUTATION HERE, since it can feed ietation/diphthongizations (in case of PPAlb a: > ɒː > ... > ye) and also bleed them. 
@@ -947,6 +944,9 @@ $ per A1.VI.w, now only happens here for lab j among labials; otherwise, handled
 $TODO -- maybe make this triggered by reduction of unstressed front vowels to yod... 
 $∅ > ɪ̯ / [-lab] __ [-round,-hi,+prim]  [+cons] ([-syl])* [+front,-round,-cons]
 ∅ > ɪ̯ / [-lab] __ [-round,-hi,+prim] {[+cons,-lab] ([-syl])* [+front,-round,-cons];[+cons,+lab] ([-syl])* j}
+
+$DIACLEA CORRECTION C1A.XIX: i-mutation now hits initial vowels if trigger is non-final. DOES happen to at least one round vowel -- opɩra > vepər 
+∅ > ɪ̯ / # __ [+prim,-hi] ([-syl])* [+front,-round,-cons] (@)* [+syl]
 
 $DIACLEA CORRECTION A1.VI.s: lmited countertonic i-mutation also occurs for countertonic a in S __ liquid
 $ ultimately ˌɑ > ˌe / s __ [+cor,+son] ([+cons])* [+front,-cons,-lo,-round]
@@ -1001,9 +1001,9 @@ $β > ∅ / [-cont,+back] __
 $ DIACLEA FIX E1.V.b -- reinterpreted as delabialization of single segment.
 [-son,+back] > [-lab,-round]
 
-$ now ɪ̯ can merge into j, as part of C8.I. 
-ɪ̯ > j 
-$I-MUTATION
+$ inherited jV joins with fate of i-mutation if valid targets, not initial and not postlabial, as part of C8.I. 
+j > ɪ̯ / [-lab] __ [+stres,-hi]
+
 
 $DIACLEA CORRECTION D3.IV -- coalescence of etymological ui/uj, ai/aj, ei/ej, ɛi/ɛj > y e i i all roped into the resolution of i-mutation, 
 
@@ -1014,13 +1014,17 @@ $ DIACLEA CORRECTION B2.VII -- as of June 20, 2025 -- happening before regressiv
 $ DIACLEA CORRECTION C1B.XII -- no longer effects e of any stress level. Does effect u and ɛ still. This can be expressed as αround,αtens
 $[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ [+cons]
 
+$ ---- ACTUAL I-MUTATION HERE---- 
+
 $DIACLEA CORRECION D3.V -- i-mutation resolution combined with (E1.I) includes jɔ > œ (/ ø) and (A1.VIII) ɪ̯œ > y. 
 $ DIACLEA CORRECTION D3.V: likewise, unification of ɪ̯ a & j a (christiān-u > krishter-ë). This does not happen after labials (lapathia > lëpjetë, pastica > bjeshkë etc.) (and no evidence of D3.V happening after labials either.). As a bonus, final -ja to -e is accounted for. 
 $ First part unifies the outcomes for iota/yod + V sequences, not occurring after labials {ɪ̯;j} {ˈɑ;ˌɑ} > e, Jø > y , Jɔ > ø at least -- and if the current handling of i-mut is right, also J e/ɛ > i 
 $ For this, first, the (stressed) front mid round vowels raise as they coalesce (j e, j ɛ, j ø > i i y), then the back and round vowels front (and raise, in the case of a) to (tense?) mid or high front vowels. U is not included here, it'll be covered in the next part. Second part doesn't happen to unstressed either. 
-j [+front,-lo,+stres] > ∅ [+hi,+tense] / [-lab] __
-j [-hi,+syl,+stres] > ∅ [-lo,-back,+front,+tense] / [-lab] __
+ɪ̯ [+front,-lo,+stres] > ∅ [+hi,+tense]
+ɪ̯ [-hi,+stres] > ∅ [-lo,-back,+front,+tense]
 
+$RESOLVING DIACLEA CORRECTION C8.I : remaining ɪ̯ > j
+ɪ̯ > j
 
 $DIACLEA CORRECTION A2.XIV. Latin /s/ voices to /z/ rather than going to /ʃ/ before at least m  (exmulgia > zmojle, crisma > krezëm, crismāre > krezmoj}, and β if not initial {exvigilāre > zgjoj}, and g including if initial {scabies >zgjebe, scoria > zgjyrë} but not /l/ (slucus > shluk). Right now maximally assume it happens before all voiced consonants. Has to happen after i-mutation (if that's source of hte voicing scabies and scoria) and the syncope ofthe -i- exvigilare > zgjoj, altho this case may be explained otherwise, since there is no zhg- in Alb? Vs. prozhëm which voices later, in a way that doesnt bleed s > ʃ in LPA I. Doesn't happen to Slavic vocab tho -- placed just before LPA I (11/26). {note that zgjoj does not have h-prosthesis, which does suggest a different fate than exrimare > hermoj}. 
 $s > z / __ [+voi,+cons,-lat]

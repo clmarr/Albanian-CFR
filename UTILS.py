@@ -38,27 +38,22 @@ SORT_ORDER = ["a̯","a","ã","aː","ãː","ˌa","ˌã","ˌaː","ˌãː","ˈa
 PH_ORDERING = {String: index for index, String in enumerate(SORT_ORDER)}
 
 def linesort(lines):
-    return sorted(lines, key=lambda ln : [SORT_ORDER.index(str) for str in last_content_col_in_line(ln).split(PH_DELIM).strip()])
+    return sorted(lines, key=lambda ln : [SORT_ORDER.index(str) for str in last_content_col_in_line(ln).split(PH_DELIM)])
 
 def last_content_col_in_line(line):
-
-    #TODO debugging
-    if "MPL" in line:
-        print("MPL in "+line)
-
     cmt_start = line.find(CMT_FLAG)
     content = line+""
     if cmt_start != -1:
         content = content[:cmt_start].strip()
     if LEX_DELIM not in content:
-        return content
+        return content.strip()
     content = content.split(LEX_DELIM)
 
     for ci in range(1, len(content)):
         if content[-ci] not in [ABSENT_ETYM,UNATTD_ETYM]:
-           return content[-ci]
+           return content[-ci].strip()
 
-    return content[0]
+    return content[0].strip()
 
 
 def col_check(file_loc, numcols=False):

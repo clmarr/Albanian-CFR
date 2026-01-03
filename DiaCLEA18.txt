@@ -190,7 +190,9 @@ $DV4.3L1 frication and develarization of w to De Vaan 2018's PPAlb *β
 $TODO note for DIA though: there is no need for this to happen twice, as it also occurs later (DV1744.C1) 
 $ however this is clearly not intended to affect the [w] in what De Vaan notates as *au diphthongs, so this is fixed with a bandaid. 
 w > ʊ̯ / [+lo,+syl] __ [-syl]
-w > β
+$w > β
+$w > β here SUPPRESSED -- DIACLEA CORRECTION D3.IX -- DV1743.B4 (Lw > Lb) now considered to be part of general MPA II betacism; betacism of Pre-Proto-Alb and Latin w-  {e.g. DV1744.CI} now treated as same single phenomenon as the general MPA II betacism, in MPA II -- see E1.IV
+
 
 $DV4.3K1 *sp > *f,-- cf also Kortlandt 1987 p220 s5i
 $merge with DV4.3L2 *sw (now *sβ per my sequencing here, since DV4.3L1 is placed beforehand) > *β -- cf. also Kortlandt 1987 p220 s3.
@@ -862,13 +864,20 @@ $∅ > w / # __ [-hi,+round] [-lab]
 $DIACLEA CORRECTION  bleeding DV1744.C1 w > β, A2.LXXXXII remaining nw clusters to n. Bled by A1.IV nw > m phenom and A2.XXXVIII early w > v in a/i/u {n} __ ˈE. 
 w > ∅ / n __
 
-$ DV1744.C1 : Lat. w- > β. 
+$ DV1744.C1 : Lat. w- > β begin here. 
 $ this is redundant with the earlier rule doing the exact same thing to PIE u̯ > PPAlb β (DV1746.F1 = DV4.3L1) effectively merged these
 $ note that the dating of this shift in Latin is quite old -- 1st century, case of <nerβa> in a Latin inscription (otherwise from β?) -- though that is in the West. 
-$ DIACLEA CORRECTION D3.IX -- now w > b stuff after coronal sonorant consonants handled as part of this too.  
 $ DIACLEA CORRECTION B1.IV -- DV1744.C1 and C4 moved to beginning of Middle Proto-Albanian II. 
-w > β / {#;[+son,+cor]} __
+$ DIACLEA CORRECTION D3.IX  betacism of Pre-Proto-Alb and Latin w-  {e.g. DV1744.CI} now treated as same single phenomenon as the general MPA II betaicsm, in MPA II
+$w > β / {#;[+son,+cor]} __
 
+$ DIACLEA CORRECTION D3.IX -- w and original b > β, to b after l,r. ( incorping DIACLEA fix C3B.VII: now only after a non-initial vowel. (e.g. not eruilla > rrylë, alveolus > unatt. llullë > nullë... -- but as of Feb 2, 2025, this is suppressed.)
+$C3B.VII fix: β > b / @ [+syl] ([-syl])* [+son,-nas,+cor] __
+$ DIACLEA CORRECTION C3B.VII -- DV1743.B4, β > b, now only operates after non-initial vowels then oral coronal continuants (previously: any context with an oral resonant immediately beforehand.). 
+{β;w} > {b;b} / @ [+syl] ([-syl])* [+cont,-nas,+cor] __
+
+$DIACLEA CORECTION A2.CXXXXVIII Middle Proto-Albanian rounding of countertonic ˌe between CONSONANTAL labial and lateral , fed by D3.IX postcoronal w fortition
+ˌe > ˌo / [+lab,+cons] __ [+lat] 
 
 $ DV1744.E4 -- Latin d becomes edh after r (as with PPAlb d -- DV1744.E2) , will later be recurrent as phonotactic rule in Slavic 
 $DIACLEA CORRECTION C3A.9 -- on the basis of later outcomes with Slavic etyma inserted, expanded to more typical leniting contexts ː post-oral-sonorant, before lateral or non-consonant (j ː ogradja > ograjë). First, pre-Slavic, phenomenon does not have this happen after vocoids (clearly not w ː lawdem > lavd); no reason to assume Slavic layer is different -- however on 11/29 this is usurped as lavd is assumed to be a later loan. 
@@ -918,11 +927,6 @@ $β > w / [+round] __
 
 $now continuing with E1.IV
 w > ∅ / [+syl,+round] __ [+son]
-
-$ DIACLEA CORRECTION D3.IX -- w and original b, both now beta, to b after l,r. ( incorping DIACLEA fix C3B.VII: now only after a non-initial vowel. (e.g. not eruilla > rrylë, alveolus > unatt. llullë > nullë... -- but as of Feb 2, 2025, this is suppressed.)
-$C3B.VII fix: β > b / @ [+syl] ([-syl])* [+son,-nas,+cor] __
-$ DIACLEA CORRECTION C3B.VII -- DV1743.B4, β > b, now only operates after non-initial vowels then oral coronal continuants (previously: any context with an oral resonant immediately beforehand.). 
-β > b / @ [+syl] ([-syl])* [+cont,-nas,+cor] __
 
 $DIACLEA CORRECTION A1.VIII: mid front vowels e œ ɛ before r or s then j become i-mutanda, via the ɪ̯. In these cases, the j is then deleted. 
 ∅ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] j > ɪ̯ [+prim] [+cont] ∅
@@ -2121,11 +2125,11 @@ $ l [+cons,+son] > lˠ
 
 $DIACLEA CORRECTION A1.XXXI early sonorant desyllabification like r deleted before l (to feed > ll), syllabified ɾ̩ vocalizes in certain conditionsː .bel -- # lab __ l -- ,; .eʃ -- in # C __ ʃ/f C ː
 	$ incorporates A2.LXXVI.erul -- > r̩l > ulˠ after labials ː perlavantem, bəɾlog > pullënd, bullog ; > lˠ is accomplished by feeding A1.XXIII.ʌ; doesn't need to be explicit. 
-	$	... .eS in # C __ ʃCV ː kështerë , Vëshnik -- but kundërshtar -- must be initial. needs vowel afterwards if not stressed: kërshëndel; also before f : taftar; continuancy = voicing for prior for unstressed case: bërshnik
+	$	... .eS in # C __ ʃC{hi or low} ː kɾ̩ʃtãɾ > kështërë , Vëshnik -- but kɾ̩ʃtɛ̃ɾə > kërshterë, etc; cf kundërshtar -- must be initial. needs vowel afterwards if not stressed: kërshëndel; also before f : taftar; continuancy = voicing for prior for unstressed case: bërshnik
 	$.ʊr -- these are fed by STRESSED ˈər > ˈɾ̩ (.1), which resolves in both cases to >ɾˈu, otherwise to ˈəɾ : grusht, vrull 
 {ˈɾ̩;ˌɾ̩;ɾ̩} > {ɾ ˈu;ˌu;ə} / # [+lab] __ [+lat] 
 ˈɾ̩> ɾ ˈu / # [+cons] __ [+strid] [+cons] 
-{ˌɾ̩;ɾ̩} > {ˌə;ə} / # [+cons,ʋvoi,ʋcont] __ [+strid,afront,-alab] [+cons] [-cons]
+{ˌɾ̩;ɾ̩} > {ˌə;ə} / # [+cons,ʋvoi,ʋcont] __ [+strid,afront,-alab] [+cons] [-cons,alo,-ahi]
 {ˈɾ̩;ˌɾ̩} > {ˈə ɾ;ɾ̩}
 
 $DIACLEA CORRECTION A1.XXIII.ʌ l darkening in V (not glide!) __ Vback
@@ -2199,7 +2203,7 @@ s > [+delrel] / k ( [+syl,aback,afront] ) [-cont,+son] __
 [+strid,+cor] > [+delrel] / {[+lat];[+nas,+cons] ( [-cont,-son] )} __ [+syl]
 
 $ DIACLEA CORRECTION A2.LXXV.r # __ (ə) r/ʃ {t; t͡ʃ; x > h ; ʃ -- but not ts kërcat ǃ not c --kërqellë etc, not k kërkat; since t is only seen with gështenjë --vs. kështër kërshtër "CHristian", dont use t either -- makes feat matrix easier} ˈA  -- not k, b, c, ts, tentatively not t  -- per current formulation, fed by x > h to hit x>h words. Seem to all happen before nonround, nonhigh vowels -- gërhat, gërçak, gërshet, etc.
-k > ɡ / # __ ([-prim,-back,-front]) [+cor] [-voi,hcons,-hcor,-hfront] [-hi,-round,+prim]
+k > ɡ / # __ ([-prim,-back,-front]) [+cor] [-voi,ʃcons,ʃcor,ʃfront] [-hi,-round,+prim]
 
 $DIACLEA A2.LXXV.u -- k > g / # __ ˌu Ccor ə {R} -son,-cont  --  kˌuːtədzˈɔ̃ɲ guxoj ; kˌuːtə̃ndˈɔ̃ɲ kutëndoj should be bled by nd being prenasalized stop n͡d TODO 
 k > ɡ / # __  [-prim,+back,+hi] [+cor] [-prim,-back,-front] ([+son]) [-son,-cont]

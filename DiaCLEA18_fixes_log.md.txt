@@ -760,18 +760,24 @@ A2.LXXV  onset k-voicing rules
 
 A2.LXXVI SYLLABIFICATION formation of syllabic sonorant consonants 
 	bleeds l > ʎ // k,g : ascla > ashkël, clausūra > Këlçyrë , vehicula > vegël, calcaria > gëlqere
-	posterior context: clearly at least # and [-son], going iwth that for now. 
+
+	posterior context: clearly at least # and [-son], going with that for now. 
+
 	targets -- ɾ, r, m, ɾ̃, -- not ŋ ɲ so [-hi] ; word finally -- j , p, b, g, k , t, d, ð, v, m, g, c, f ----- so [-son] || [-syl,mlab,mcons] . Fed by A2.LXVI but not A1.XXI. See word file "Arguments for Late Proto-Albanian syllabic resonants". Clear cases of lˠ reduction occur next to u in certain conditions (see below .ŋu), otherwise not included. UNNATURAL CLASS of consonatns + j - ɾ/ɾ̃. 
+
 	[{j;m;[-son]} __ 
 		constext for word final -- seems to be basically all consonantal minus ɾ plus no evidence for ɾ̃, plus j
 		data below 
 		suggesting it doesn't happen for n eihter -- - ˈcaʒnë ( does for m -- prozhəm, krezhəm
 
-	not after ɾ (for m) at least) --  arma > armë, not arëm; 
+	not after ɾ (for m at least) --  arma > armë, not arëm; 
 		final reduction when not low is more ambiguous -- also eremum > jerm not *jerëm , jarɪmʊ > jarm not jarëm (even though older forms have this merely as schwa retention) 
 		(internally likewise : trimēnsana > LPA trəmʃˈãɾə > tr̩(m >∅)ʃˈãɾ̃ə , not trm̩ʃãɾ̃ə > trëmshërë. Similar deletion also arguably seen for nasal in pəɾə̃ndəlɡˈɔ̃ɲ however this could actually be something else going on given sˌaɲtatrˌintˈatɪ > Buzuku shëntëritat (?) unclear.) 
+
 	yes after j ː ajër 
+
 	ɾɲ -- cluster reduction instead -- refernio > rrëfej
+
 	after m ... 
 		may actually be əɾ̃ə ? -- emër , femër , timër etc.
 			other behavior: terminem > qerm -- cluster reduction? 
@@ -782,11 +788,11 @@ A2.LXXVI SYLLABIFICATION formation of syllabic sonorant consonants
 					but skalma > shkallëm ?
 		also issue ː kulm 
 
-	.Tl -- just before Slaivic loans enter, reduction of unround countertonics, even long ones in T L __ C
+	.Tl -- just before Slavic loans enter, reduction of unround countertonics, even long ones in T L __ C
 		not round -- qumesht, arguably flori 
 		not reduced before r {clar-a- > qëroj }-- reduction seen before n k m s tho  --- 
 
-	.FnT -- happens -- needign vowel loss to feed it -- for nonback short countertonics in CR__{f:STOP}  -- TODO NOTE unnatural class! 
+	.FnT -- happens -- needign vowel loss to feed it -- for nonback short countertonics in CR__{f,s or STOP of any voicing} -- NOT ʃ, trashëgoj etc. -- TODO NOTE unnatural class! 
 		doesn't happen here if R is lateral; those are covered elsewhere
 		prykia  >pərqi -- happens to round front 
 		mërmërit -- when countertonic 
@@ -795,11 +801,24 @@ A2.LXXVI SYLLABIFICATION formation of syllabic sonorant consonants
 
 	.erul -- > r̩l > ulˠ after labials : perlavantem, bəɾlog > pullënd, bullog ;
 
-	A2.LXXVI._V -- unstressed vowels are deleted after relevant sonorants to feed Late Proto-Albanian syllabification. Does not happen to a medially, or a finally (that is a that hasn't yet been reduced already) after nasals (cermë, skromë, qazhnë) or after laterals (rraqe < rakla, sabje < sabʎe -- needs to remain a to trigger relevant phenomena). Doesn't happen to nasal vowels (string-o- > strëngoj etc.) 
+	A2.LXXVI._V -- unstressed vowels are deleted after relevant sonorants to feed Late Proto-Albanian syllabification. 
+		conditions where this doens't happen to /a/ {/a/ that has not yet been reduced: 
+			Does not happen to medial /a/ . 
+			Does not happen to final /a/ after j {mborja} 
+			Does not happen to final /a/ after nasals  (cermë, skromë, qazhnë)
+			Does not happen to final /a/ after laterals (rraqe < rakla, sabje < sabʎe -- needs to remain a to trigger relevant phenomena). 
+		Generally does not happen to nasal vowels, which proceed nasals, generally (string-o- > strëngoj etc.) 
 
 	.V_ -- the same happens BEFORE the relevant sonorants, both near hte word boundary and internally (not initially?). Doesn't happen to u (all the -ull endings, for now at least; also kullumbri). 
 		Other high vowels are unclear -- no clear case for -y- but scrūt-o- > shqyrtoj seems to suggest that a (metathesized) (countertonic) y could survive in such a position. For -i-, hte case of Slavic kɒzilɪca > kɔzilt͡sa > kocë suggests maybe i falls though. No data for ɔ and ɒ internally; but near the boundary they fall (topër, lakëm, mbretër, katër). 
 	
+	.Vm# -- deletions of vowels next to an m that becomes final as they delete, feeding its syllabification, do occur -- if an obstruent lies beforehand.
+
+	.N -- syllabification of nasal consonants in -son or lat __ #,C , if another sonorant lies earlier in hte word {alternatively, if another syllable does, gbut then it has to be fed by the syllabification of other sonorants earlier -- e.g. kërshëndell from kɾʃndˈɛːl -- not ʃndəɾˈɔɲ > çndëroj . 
+		kɾʃndˈɛːl - kërshëndell 
+		malˠɲɟˈɛɲ -  mallëngjej 
+		finally -- prozhëm krezhëm krezëm lakëm ajazëm ballçëm etc. 
+
 	.Tɔ -- for round vowels that aren't u (see below), it seems tentatively they and a sonorant go to a syl son if afte rstops (katër (?), mbretër, topër, vokull..? , lakëm) ; exception is after m and somewhat dubious (Tomorr).  
 
 		word initernally , similar pattern 
@@ -1057,9 +1076,9 @@ A2.LXXXVI -- (ˌ)V¹ðˈV² > V²ː  -- done by feeding established coalescence 
 
 A2.LXXXVII -- post-sonorant strident affrication -- 
 	$ not in Buzuku {balshëm etc.} but is in Bardhi {nalcoj etc}
-	$.l post lateral -- #sˈɛlɪt͡ʃɑ#       >  *#ʃˈɛːlsa#       > Shelcë ;   #ˌinˌɑltiˈɑːnioː# :  *#nˌalsˈɔ̃ɲ#   : nalcoj , etc.-- malcoj, Balçëm , Këlcyrë/Këlçyrë 
-	$.kr after kër: -- kërc, kërcû, kërcat 
-	$.ns -- in N{T}S 
+	$.l post lateral prevocalic -- #sˈɛlɪt͡ʃɑ#       >  *#ʃˈɛːlsa#       > Shelcë ;   #ˌinˌɑltiˈɑːnioː# :  *#nˌalsˈɔ̃ɲ#   : nalcoj , etc.-- malcoj, Balçëm , Këlcyrë/Këlçyrë 
+	$.kr after kër, to specifically s, seems to have no posterior context: -- kërc, kërcû, kërcat 
+	$.ns -- in N{T}S syl
 
 A2.LXXXVIII -- initial s-elision-- after last early Slavic wave {sʊverstnikʊ > vərsnik} initial s-elision: s deleted if next consonant is a labial spirant, with the next obstruent being another s or ʃ -- vajzë < swes-, Lat supsirit-o- > ʃˌufʃɛrət- > psherëtij , supsiri-u > ʃˌufʃˈiːrə > pshirë { via ɸ actually?} , Slav wave 1 sʊvɪrstɪnikʊ > ʃvərʃtə̃ɾ̃ˈik > vərʃnik, in wave 2 > vərsnik. Needs the later later coronal srident : ʃˌufərˈĩɲ > shfrej not frej, sovadlʊka > sovajkë.
 
@@ -1765,6 +1784,8 @@ C3A.XI DV4.1J : Proto-Tosk z > dz after n , expanded to being after all nasal co
 C3A.XII aja > a now happens regardless of stress of final a. 
 
 C3A.XIII D4.1B2 ml > {m}bl can see through an unstressed vowel 
+
+C3A.XIV LPA l-darkening, specifically when triggered by following back vowel, can now see through following m: shkallëm, kallm, kullm. 
 
 ### C3B -- context made narrower
 

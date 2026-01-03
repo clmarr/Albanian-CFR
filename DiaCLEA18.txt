@@ -1440,7 +1440,8 @@ $DIACLEA CORRECTION A2.LXXXXVIII -- deletion of j in [-cons] __ [+hi,+front] bef
 j > ∅ / [-cons] __ [+hi,+front,-cons]
 
 $ resolving D3.XIII. counterfed by A1.XXII.1.ɪ, also counterfed by formation of ðL clusters A2.LXXXV
-l > lˠ / [-cons] __ {[-front,+syl];[+lo]}
+	$ C3A.XIV LPA l-darkening, specifically when triggered by following back vowel, can now see through following m: shkallëm, kallm, kullm. 
+l > lˠ / [-cons] __ (m) {[-front,+syl];[+lo]}
 
 $ DIACLEA CORRECTION A2.CXXXX.2oj resolution of {MPA II oj >} LPA ɔj > ɛj, counterbleeding l-darkening
 {ˈɔ j;ˈɔ j̃} > {ˈɛ;ˈɛ̃}
@@ -2047,18 +2048,22 @@ $less pan-Albanian section beginning here...
 
 $TODO move actual breakup point for LPA III here -- Slavic {and Greek?} insertions earlier? 
 
-$DIACLEA CORRECTION A2.LXXVI._V -- unstressed vowels are deleted after relevant sonorants to feed Late Proto-Albanian syllabification. Does not happen to a medially at all, or a finally (that is a that hasn't yet been reduced already) after nasals (cermë, skromë, qazhnë) or after laterals (rraqe < rakla, sabje < sabʎe -- needs to remain a to trigger relevant phenomena). Doesn't happen to nasal vowels. 
+$DIACLEA CORRECTION A2.LXXVI._V -- unstressed vowels are deleted after relevant sonorants to feed Late Proto-Albanian syllabification. Does not happen to /a/ medially at all, or /a/ finally (that is a that hasn't yet been reduced already) if it is after nasals (cermë, skromë, qazhnë) or after laterals (rraqe < rakla, sabje < sabʎe -- needs to remain a to trigger relevant phenomena). Doesn't happen to nasal vowels. 
 $ part 1 : reducing final -a to schwa to feed in relevant contexts
 [+lo,-stres] > ə / [+cons] [+son,+cons,-nas,-lat] __ #
 ɐ > ə / [+cons] [+cons] __ 
-$ part 2 : deletion of unstressed final and preconsonantal medial oral vowels to feed anterior sonorant syllabification. Doesn't include the j case (ajër). Doesn't happen after nasals (well, at least not m).
+$ part 2 : deletion of unstressed final and preconsonantal medial oral vowels to feed anterior sonorant syllabification. Doesn't include the j case (ajër). Doesn't happen generally after nasals (well, at least not m if it is before the sonorant in question that will be syllabified).
 [-lo,-stres,-nas] > ∅ / [+cons] [+son,+cons,-nas] __ {#;[+cons]}
 
-$DIACLEA CORRECTION A2.LXXVI..FnT -- happens -- needign vowel loss to feed it -- for unround short countertonics in CR__{f:STOP}, with R not a lateral -- those are handled elsewhere. -- TODO NOTE unnatural class f and stop
-[-prim,-back,-long,+stres] > ∅ / [+cons] [+son,+cons,-lat] __ {f;[-cont]}
+$DIACLEA CORRECTION A2.LXXVI..FnT -- syllabification is fed -- via vowel loss -- for unround short countertonics in CR__{f;s;STOP}, with R not a lateral -- those are handled elsewhere. -- TODO NOTE unnatural class f and stop
+[-prim,-back,-long,+stres] > ∅ / [+cons] [+son,+cons,-lat] __ {[+cont,-voi,-front];[-cont]}
 
-$DIACLEA CORRECTION A2.LXXVI.V_ -- like above, but for prior vowels. Doesn't happen to high round vowels it seems. Not having it happen before 
+$DIACLEA CORRECTION A2.LXXVI.V_ -- like above, but for vowels prior to the sonorant to be syllabified, both near hte word boundary and internally (not initially?). Doesn't happen to u (all the -ull endings, for now at least; also kullumbri). Other high vowels unclear; not having it happen to hgh vowels. 
 [-hi,-stres] > ∅ / [-syl] __ [+son,+cons,-nas] {#;[+cons]}
+
+$DIACLEA CORRECTION A2.LXXVI.Vm# -- deletions of vowels next to an m that becomes final as they delete, feeding its syllabification, do occur -- if an obstruent lies beforehand.
+[-stres] > ∅ / [-son] ([-stres]) m __ #
+[-stres] > ∅ / [-son] __ m #
 
 $DIACLEA CORRECTION A2.CIX initial xɾ, hɾ > r 
 [+cont,-son,-strid] ɾ > r / # __
@@ -2078,7 +2083,11 @@ $bleeds l > ʎ // k,g : ascla > ashkël, clausūra > Këlçyrë , vehicula >
 [+cons,+son,-nas,-lat] > [+syl,-stres,-prim] / j __ #
 [+cons,+son,-nas] > [+syl,-stres,-prim] / {[-son];m} __ {#;[+cons]}
 
-$DIACLEA CORRECTION A2.LXXVI.ŋu -- special case for u after NK . TODO may need to modify if prenasal stops have formed before this pointǃ
+$DIACLEA CORRECTION A2.LXXVI.N -- syllabification of nasal consonants in -son or lateral __ #,C , if another sonorant lies earlier in hte word {alternatively, if another syllable does, gbut then it has to be fed by the syllabification of other sonorants earlier -- e.g. kërshëndell from kɾʃndˈɛːl -- not ʃndəɾˈɔɲ > çndëroj . Somewhat unclear but doesn't seem to happen post laterally if final {shkallmë or shkallëm? kullm}
+[+nas,+cons] > [+syl,-stres,-prim] / [+son] (@)* [llat,lson] __ [+cons]
+[+nas,+cons] > [+syl,-stres,-prim] / [-son] __ #
+
+$DIACLEA CORRECTION A2.LXXVI.ŋu -- special case for u after NK . TODO may need to modify if prenasal stops have formed before this pointǃ TODO revise possibly
 u [+lat] > l̩ / [+nas] [+back,-cont] __ ([+syl]) #
 
 $DIACLEA CORRECTION A2.LXXVI.er -- syllabification also happens to ˌər, ˌɛr:  stˌɛɾvˈinɑ > stërvinë, vˌɛɾʃnˈik > Vëshnik, wˌɛɾtˈiːt > vërtit, vˌɛɾsnˈik > Vërsnik etc. Functions to bleed DV1740F2 now that it has been relocdated. 
@@ -2181,12 +2190,21 @@ $ former. l:   # k ( [-prim,-back,-front] ) l [-cont]
 $ former .l k > ɡ  / # __ ([-prim,-back,-front]) [+lat] [-cont] 
 k > ɡ / #  __ ( [-prim,-lo] ) [+lat,-hi] ( [-prim,-lo] ) ( [+son,-syl] ) [-son,-cont] [+prim]
 
+$DIACLEA CORRECTION A2.LXXXVII -- post-sonorant strident affrication. RULE CROSSING with k > g phenomena:  krs > krts aspect counterfeeds A2.LXXV.l , but bleeds A2.LXXV.r
+	$ not in Buzuku {balshëm etc.} but is in Bardhi {nalcoj etc}
+	$.l post lateral -- #sˈɛlɪt͡ʃɑ#       >  *#ʃˈɛːlsa#       > Shelcë ;   #ˌinˌɑltiˈɑːnioː# :  *#nˌalsˈɔ̃ɲ#   : nalcoj , etc.-- malcoj, balçëm -- thus, hits syllabic m̩ , Këlcyrë/Këlçyrë 
+	$.kr after kër, to s specifically : -- kërc, kërcû, kërcat -- no posterior context specifications. Doesn't happen to ʃ here: kërshëndel.
+	$.ns -- in N{T}S 
+s > [+delrel] / k ( [+syl,aback,afront] ) [-cont,+son] __ 
+[+strid,+cor] > [+delrel] / {[+lat];[+nas,+cons] ( [-cont,-son] )} __ [+syl]
+
+$ DIACLEA CORRECTION A2.LXXV.r # __ (ə) r/ʃ {t; t͡ʃ; x > h ; ʃ -- but not ts kërcat ǃ not c --kërqellë etc, not k kërkat; since t is only seen with gështenjë --vs. kështër kërshtër "CHristian", dont use t either -- makes feat matrix easier} ˈA  -- not k, b, c, ts, tentatively not t  -- per current formulation, fed by x > h to hit x>h words. Seem to all happen before nonround, nonhigh vowels -- gërhat, gërçak, gërshet, etc.
+k > ɡ / # __ ([-prim,-back,-front]) [+cor] [-voi,hcons,-hcor,-hfront] [-hi,-round,+prim]
+
 $DIACLEA A2.LXXV.u -- k > g / # __ ˌu Ccor ə {R} -son,-cont  --  kˌuːtədzˈɔ̃ɲ guxoj ; kˌuːtə̃ndˈɔ̃ɲ kutëndoj should be bled by nd being prenasalized stop n͡d TODO 
 k > ɡ / # __  [-prim,+back,+hi] [+cor] [-prim,-back,-front] ([+son]) [-son,-cont]
 $ .ə # __ ə Ccor Cc'ons V ( [-prim,-lo] ) [+lat,-hi] ( [-prim,-lo] ) ( [+son,-syl] ) [-son,-cont] [+prim] $ CURRENTLY SUPPRESSED -- overpredictive
 
-	$ .r # __ (ə) r/ʃ {t; t͡ʃ; x > h ; ʃ} ˈA  -- not k, b, c  -- per current formulation, fed by x > h to hit x>h words. Seem to all happen before nonround, nonhigh vowels -- gërhat, gërçak, gërshet, etc.
-k > ɡ / # __ ([-prim,-back,-front]) [+cor] [-voi,-lab,-hi] [-hi,-round,+prim]
 
 $DIACLEA CORRECTION A2.CXXXVI ã > ɛ̃ between coronals and ɲ, tentativelyː mëllenjë, shenjt, këlshenjt, gështenjë 
 ˈã > ˈɛ̃ / [+cor] __ ɲ
@@ -2195,14 +2213,6 @@ $DIACLEA CORRECTION A2.CII.2 Proto-Tosk deletion of internal unstressed nonconso
 [-stres,-cons] > ∅ / [+cons,dcor,blab,tson,nnas,llat,scont] __ [+cons,dcor,blab,tson,nnas,llat,scont]
 	$DIACLEA CORRECTION A2.CII.cc -- possibly later (?) later deletion of first element of homorganic clusters. Does not bleed k > g phenomena.
  [+cons,dcor,llat,blab,scont,nnas,rson] > ∅ / __ [+cons,dcor,llat,blab,scont,nnas,rson]
-
-$DIACLEA CORRECTION A2.LXXXVII -- post-sonorant strident affrication -- 
-	$ not in Buzuku {balshëm etc.} but is in Bardhi {nalcoj etc}
-	$.l post lateral -- #sˈɛlɪt͡ʃɑ#       >  *#ʃˈɛːlsa#       > Shelcë ;   #ˌinˌɑltiˈɑːnioː# :  *#nˌalsˈɔ̃ɲ#   : nalcoj , etc.-- malcoj, Balçëm , Këlcyrë/Këlçyrë 
-	$.kr after kër: -- kërc, kërcû, kërcat 
-	$.ns -- in N{T}S 
-[+strid,+cor] > [+delrel] / {[+lat];k ( [+syl,aback,afront] ) [-cont,+son];[+nas,+cons] ( [-cont,-son] )} __ {#;[-cons]}
-
 
 $DV3.1E -- l: passes to dark l.
 $ This is actually pan-Albanian but it is placed as a PAlb to Modern Alb change DV'18. 

@@ -41,7 +41,7 @@ def linesort(lines):
     return sorted(lines, key=lambda ln : [SORT_ORDER.index(str) for str in last_content_col_in_line(ln).split(PH_DELIM)])
 
 def last_content_col_in_line(line):
-    cmt_start = line.find(CMT_FLAG)
+    (cmt_start = line.find(CMT_FLAG)
     content = line+""
     if cmt_start != -1:
         content = content[:cmt_start].strip()

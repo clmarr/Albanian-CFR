@@ -864,6 +864,9 @@ $∅ > w / # __ [-hi,+round] [-lab]
 $DIACLEA CORRECTION  bleeding DV1744.C1 w > β, A2.LXXXXII remaining nw clusters to n. Bled by A1.IV nw > m phenom and A2.XXXVIII early w > v in a/i/u {n} __ ˈE. 
 w > ∅ / n __
 
+$DIACLEA CORRECTION D4.V.eCE early loss of non-back non-round vowel in ˌECT and ˌECN. Counterfed by Rw > Rb aspect of D3.IX. 
+[-prim,-long,-round,-lo] > ∅ / @  [+front,-lo,-prim,+stres] [-syl,+cont] [nnas,ncont] __ [-syl] ( @ )* [+prim]
+
 $ DV1744.C1 : Lat. w- > β begin here. 
 $ this is redundant with the earlier rule doing the exact same thing to PIE u̯ > PPAlb β (DV1746.F1 = DV4.3L1) effectively merged these
 $ note that the dating of this shift in Latin is quite old -- 1st century, case of <nerβa> in a Latin inscription (otherwise from β?) -- though that is in the West. 
@@ -876,8 +879,8 @@ $C3B.VII fix: β > b / @ [+syl] ([-syl])* [+son,-nas,+cor] __
 $ DIACLEA CORRECTION C3B.VII -- DV1743.B4, β > b, now only operates after non-initial vowels then oral coronal continuants (previously: any context with an oral resonant immediately beforehand.). 
 {β;w} > {b;b} / @ [+syl] ([-syl])* [+cont,-nas,+cor] __
 
-$DIACLEA CORECTION A2.CXXXXVIII Middle Proto-Albanian rounding of countertonic ˌe between CONSONANTAL labial and lateral , fed by D3.IX postcoronal w fortition
-ˌe > ˌo / [+lab,+cons] __ [+lat] 
+$DIACLEA CORECTION A2.CXXXXVIII Middle Proto-Albanian labiovelarization of countertonic ˌe between CONSONANTAL labial and lateral , fed by D3.IX postcoronal w fortition. Doesn't happen before ʎ. Seems to lengthen l too -- lˠ is not outcome, but rather l. 
+ˌe l > ˌu lː / [+lab,+cons] __
 
 $ DV1744.E4 -- Latin d becomes edh after r (as with PPAlb d -- DV1744.E2) , will later be recurrent as phonotactic rule in Slavic 
 $DIACLEA CORRECTION C3A.9 -- on the basis of later outcomes with Slavic etyma inserted, expanded to more typical leniting contexts ː post-oral-sonorant, before lateral or non-consonant (j ː ogradja > ograjë). First, pre-Slavic, phenomenon does not have this happen after vocoids (clearly not w ː lawdem > lavd); no reason to assume Slavic layer is different -- however on 11/29 this is usurped as lavd is assumed to be a later loan. 
@@ -911,9 +914,6 @@ $TODO W phenomena including coloring stuff where this matters happen much later,
 $ Note -- should come before i-mutation ~ ovatia > voesë. 
 $ DIACLEA CORRECTION E1.IV -- now two stages of -w- deletion. First just deleted after presonorant round vowels. Later, deleted everywhere, joining fate of β, after first Slavic wave, and some final beta coloring phenomena shared between w and b, both as beta in some places, w in others.. 
 w > β 
-
-$DIACLEA CORRECTION D4.V.eCE early loss of non-back non-round vowel in ˌECT and ˌECN 
-[-prim,-long,-round,-lo] > ∅ / @  [+front,-lo,-prim,+stres] [-syl,+cont] [nnas,ncont] __ [-syl] ( @ )* [+prim]
 
 $DIACLEA CORRECTION A2.CXXVIII initial h-deletion before in MPA II before non-high countertonics; before raising of countertonic o {A2.VIII}
 h > ∅ / # __ [-prim,+stres]
@@ -2129,7 +2129,7 @@ $DIACLEA CORRECTION A1.XXXI early sonorant desyllabification like r deleted befo
 	$.ʊr -- these are fed by STRESSED ˈər > ˈɾ̩ (.1), which resolves in both cases to >ɾˈu, otherwise to ˈəɾ : grusht, vrull 
 {ˈɾ̩;ˌɾ̩;ɾ̩} > {ɾ ˈu;ˌu;ə} / # [+lab] __ [+lat] 
 ˈɾ̩> ɾ ˈu / # [+cons] __ [+strid] [+cons] 
-{ˌɾ̩;ɾ̩} > {ˌə;ə} / # [+cons,ʋvoi,ʋcont] __ [+strid,afront,-alab] [+cons] [-cons,alo,-ahi]
+{ˌɾ̩;ɾ̩} > {ˌə;ə} / # [+cons,ʋvoi,ʋcont] __ [+strid,afront,-alab] [+cons] [-cons,+tense]
 {ˈɾ̩;ˌɾ̩} > {ˈə ɾ;ɾ̩}
 
 $DIACLEA CORRECTION A1.XXIII.ʌ l darkening in V (not glide!) __ Vback

@@ -1168,14 +1168,30 @@ $DIACLEA CORRECTION A2.LXXX.ka ː ˌɒ,ˈɒ unrounded / velar __ c-nas,-lab -nas
 $DIACLA CORRECTION A2.LXXVI.ARA ˌɒr([-stres]) > ara in velar __ labial (counterbled by x >h ), and ɔrɔ in labial/t͡ʃ __ labial/t͡ʃ (t͡ʃ unclear tho -- only two cases Çorovodë and porosit are both ambiguous) ; quality of ɒ reflex assumed to not change. Counterbled by A2.LXVII. For now realized as the insertion of an ˌa -- later it will be assimilated in rule that spreads countertonic back round vowel qualities (also apply to trubulloj, shurukoj not *shurakoj, shuguroj, ngushulloj, Rogoveckë, etc) . Stress will spread via .ARA2. 
 ∅ > ɑ / # [-cor,+cons] [+back,-hi,-prim] r __ [+lab,-syl]
 
-$DIACLEA CORRECTION A2.CIL Late Proto-Albanian I lengthening of front countertonics in labial __ lateral if the lateral is not immediately followed by the tonic vowel. S patterns with labials for this. NOTE UNNATURAL CLASS. maludic-o- ... mallkoj, malitiola ... macollë, salvantia -- TODO IMPLEMENT 
+$DIACLEA CORRECTION A1.XXII.ʊ > ∅. Not in first LPA wave though -- doesn't feed p > f -- langʊsʊka >Lënckë not *Lëfckë, zambʊʃa > Zëmçë not Zëfckë . Word finally instead goes to ə (potkua etc.) 
+ʊ > ə / __ #
+ʊ > ∅
+
+$DIACLEA CORRECTION A2.LXIV s in C __ C-cor goes to t͡s, blocking retraction to ʃ. Counterbled by  DV1744.H s > ʃ. 
+s > t͡s / [+cons] __ [+cons,-cor]
+
+$ DV1744.H ~ s becomes ʃ -- for s in reflexes of Old Greek (presh < prason), Latin, and the earliest Slavic loans (grusht, shkrap) becomes ʃ (1744.H) -- but this is not fed by tʃ becoming s (DV1744.F and 1744.G) 
+$DIACLEA CORRECTION B2.XV -- s > ʃ moved back to LPA I > what is after 11/26, LPA II, before insertion of Greek etyma. Placed before LPA diphthongization (simmaxōro > simahuar), and before vowel losses. A2.CIL vowel lengthening phenomenon appears to treat s as palatal, further supporting this placement. 
+s > ʃ
+
+$DIACLEA CORRECTION A2.L.b other æ not effected by the e phenomenon or the initial lengthening all merges to ɑ. Does not effect ɐ which may soon emerge.
+[+lo,+syl,-long,-tense] > [+tense,-front,+back]
+
+$DIACLEA CORRECTION A2.CIL.bɟ countertonic al > əl reduced early between labials and palatals. Fed by s > ʃ. Bleeds A2.CIL. -ʎV also counts as the front gesture to contrast a prior labial. This schwa survives into Old Albanian but not modern Albanian -- using ˌə as ə will disappear in LPA II before ʎ here, and ɐ will not last much longer either. Consider ˌɐ perhaps. 
+ˌa > ˌɐ / [+lab] __ [+lat,yfront] [+front,-ycons]
+ˌa > ˌɐ / [+front] __ [+lat] [+lab] 
+
+$DIACLEA CORRECTION A2.CIL Late Proto-Albanian I lengthening of front countertonics in labial __ lateral if the lateral is not immediately followed by the tonic vowel. S patterns with labials for this. NOTE UNNATURAL CLASS. maludic-o- ... mallkoj, malitiola ... macollë, falcōne > fajkua, Belbice, etc.
+$[+front,+stres] > [+long] / [sfront,-slab] __ [+lat] [mlab,-mfront]
 
 $ DIACLEA CORRECTION A2.LXVIII before palalization, reduction to schwa of unround countertonics in # C-nas V R/L (obstruents except coronal stops) -- TODO NOTE UNNATURAL CLASS. Needs to be in # (C) __ -- ənkˌɑrðˌulˈicjɑ > ngardhulliqe ; skˌɑrd͡ʒˈœɲɔ > shkarzej etc. 
 [-prim,+stres,-round] > ə / # [-nas,+cons] __ [+cor,+son,-nas] [-son,sstrid,scor]
 
-$DIACLEA CORRECTION A1.XXII.ʊ > ∅. Not in first LPA wave though -- doesn't feed p > f -- langʊsʊka >Lënckë not *Lëfckë, zambʊʃa > Zëmçë not Zëfckë . Word finally instead goes to ə (potkua etc.) 
-ʊ > ə / __ #
-ʊ > ∅
 
 $ incorporates DIACLEA CORRECTION A2.XXXXI - ø > œ (and o > ɔ) before it is unrounded in LPA. This comes before (bc it feeds) D3.X.b1
 [+syl,+round,-hi,-lo] > [-tense]
@@ -1183,9 +1199,6 @@ $ incorporates DIACLEA CORRECTION A2.XXXXI - ø > œ (and o > ɔ) before it is u
 $D3.X.b1 For ɛ œ it occurs initially when each is stressed (after ø > œ, for convenience) and before a sonorant (or hiatus, but that counts as sonorant). As of Nov 11, 2025, sonorance restriction relaxed too as only exception is eshkë. As of Nov 11, 2025, this also now happens to æ, before becoming ɑ.
 [-tense,+lo] > [-long]
 [+prim,-tense] > [+long] / # __ 
-
-$DIACLEA CORRECTION A2.L.b other æ not effected by the e phenomenon or the initial lengthening all merges to ɑ.
-[+lo,+syl,-long,-tense] > [+tense,-front,+back]
 
 $DIACLEA CORRECTION A2.L.a.ii -- eː reflecting æ(ː) raises to ɪ between same sonorance consonants. 
 [+syl,+tense,-lo,+long] > [+hi] / [ason,+cons] __ [ason,+cons]
@@ -1201,9 +1214,9 @@ $∅ > j / {[-cons] [+cor,-lat,-nas,+son];[rson,rnas]} __ ˈɛ [-nas]
 	$ reformulated per C1.B.XVI 
 $ all of the below furthermore reformulated per D4.III to be included in iotation. 
 $C1.B.XVI.ʎ
-ˈɛ > ˈɛː / s t __ [+lat]
+ˈɛ > ˈɛː / [+strid] t __ [+lat]
 $ C1.B.XVI.t
-ˈɛ > ˈɛː / {[-cons] [+cor,-lat,-nas,+son];[rson,rnas]} __  {[+cor,-lat,-nas] s;([+cor,-lat,-nas]) [-delrel,-back,-voi]} [+son]
+ˈɛ > ˈɛː / {[-cons] [+cor,-lat,-nas,+son];[rson,rnas]} __  {[+cor,-lat,-nas] [+strid,+cont];([+cor,-lat,-nas]) [-delrel,-back,-voi]} [+son]
 $ C1.B.XVI.d
 [+prim,-lo,-hi,-round] > [+long,-tense] / [nson,nnas] __   (r) [+voi,+cons,-son] ([+hi,-back,-nas]) [+back]
 
@@ -1225,9 +1238,6 @@ $DIACLEA CORRECTION A2.CX.ɐT -- reduction of unround countertonic a to ɐ befor
 
 $DIACLEA CORRECTION A2.XXX Middle Proto-Albanian II -- degemination of obstruents. They count as geminates if they share place of articulation and continuancy (so homorganic plosive - affricate is a geminate). Broad place of articulation considered -- labials as one category, coronals as one category, dorsals as one category. Second element is the one kept. TODO may need to move this around
 [-son,acont,blab,chi] > ∅ / __ [-son,acont,blab,chi]
-
-$DIACLEA CORRECTION A2.LXIV s in C __ C-cor goes to t͡s, blocking retraction to ʃ. 
-s > t͡s / [+cons] __ [+cons,-cor]
 
 $ DIACLEA CORRECTION A2.LIII  -- lengthening of r before initial non-low round vowels (perhaps via a phonetic w), and before low before non-coronal cons
 r > rː / # __ {[+lo] [+cons,-cor];[+round,-lo]}
@@ -1275,10 +1285,6 @@ $ DIACLEA FIX: now using lˠ not lː {This is just about formalism; not noted in
 $ DIACLEA CONSOLIDATION D3.X.b: now roped into initial lengthening.
 $ TODO 2025 -- implement, make this about length
 $ [+front,-hi,-lo,-round,+prim] > ˈi e̯ / __ {lˠ;ɾ} ([-lo,-stres] (m)) #
-
-$ DV1744.H ~ s becomes ʃ -- for s in reflexes of Old Greek (presh < prason), Latin, and the earliest Slavic loans (grusht, shkrap) becomes ʃ (1744.H) -- but this is not fed by tʃ becoming s (DV1744.F and 1744.G) 
-$DIACLEA CORRECTION B2.XV -- s > ʃ moved back to LPA I > what is after 11/26, LPA II, before insertion of Greek etyma. Placed before LPA diphthongization (simmaxōro > simahuar). 
-s > ʃ
 
 
 $DIACLEA CORRECTION D3.X.a.11/29/25 rather than diphthongization of ɔː > u, initial countertonic ɔː > uː, before it happens in what is now LPA II. 
@@ -2162,7 +2168,7 @@ $ DV1743.F5 -- -c(u)l- > c > ɟ if after nasals in ungj < avunculus -- effective
 l > ʎ / [-cont,+hi] __
 
 $Resolution of DIACLEA CORRECTOIN A2.CX.ɐ
-ɐ > ə 
+{ɐ;ˌɐ} > {ə;ˌə} 
 
 $A2.LXVII post-last-early-wave Slavic ʎ > l if all separating it from the beginning f hte word is labial segments that are either stops or hi (w, u), or ʃ 
 ʎ > l / # (ʃ) ([+lab,uhi,ucont])* __ 

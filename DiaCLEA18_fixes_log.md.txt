@@ -1513,7 +1513,7 @@ A2.CXXXXVIII Middle Proto-Albanian II labiovelarization of countertonic ˌe betw
 
 A2.CIL Late Proto-Albanian I lengthening of front countertonics in labial __ lateral if the lateral is not immediately followed by the tonic vowel. S patterns with labials for this. NOTE UNNATURAL CLASS. See "LPA I preservation " section within LPA syllabic L outcomes {originally this was thought to be an outcome of syllabic L, before it became clear that the outcomes preserved specifically the LPA I vowel quality at a suspiciously high rate}. TODO IMPLEMENT
 
-	.bɟ -- ˌa does however reduce, ultimatley leading to LPA l̩ , if between a labial element and a front element: falcinea > LPA I fˌalkˈiɲa > fëlqinjë, salvantia ... LPA I ʃˌalbˈat͡ʃa ... shëlbasë, salv-a- ... ʃˌalbˈoɲo ... shëlboj etc. s/sh is counting as front. TODO IMPLEMENT
+	.bɟ -- countertonic ˌa does however reduce, ultimatley leading to LPA l̩ , if between a labial element and a front element: falcinea > LPA I fˌalkˈiɲa > fëlqinjë, salvantia ... LPA I ʃˌalbˈat͡ʃa ... shëlbasë, salv-a- ... ʃˌalbˈoɲo ... shëlboj etc. s/sh is counting as front. Conveniently, fəjej and vəjej also came out right when this was implemented, although they weren't noticed beforehand -- advantage of broad conditioning. 
 
 A2.CL Proto-Tosk-Gheg final l̩, lˠ̩ > ulˠ after labial continuants 
 		{Koine kˈɛfɑlɔn > LPA III cɛ́ːflˠ̩ > qefull; Lat ˌinˈoffulɑm > LPA III nˈɔːfl̩ > nofull};
@@ -1531,8 +1531,9 @@ A2.CL Proto-Tosk-Gheg final l̩, lˠ̩ > ulˠ after labial continuants
 		trade off forː 
 	velātia > βˌelɪ̯ˈɑt͡ʃɑ > not vllasə, but vlesə 
 	 -- since the lateral positive cases are dubious and there's one it def doesn't work, go for C-lat. 
-	doesn't apply to mˌɛrɪd͡ʒɪ̯ˈoɲo either -- unclear if that's because it's after an obstr, that it's round, or before ɲ. Going with the vowel for now. 
-	
+	needs to be after nonfront: 
+	creantia > krˌɛjɪ̯ˈɑt͡ʃɑ > not kresə but krijesə
+	meridi-a- > mˌɛrɪd͡ʒɪ̯ˈoɲo > not mərzoj, but mərzej 
 
 
 # B Rule relocdations
@@ -1612,7 +1613,7 @@ B2.XIII -- post-first-wave-Slavic d > ð phenomenon moved to just after first Sl
 
 B2.XIV -- A1.XX, early fall of unstressed (non-initial-syllable) vowels before low vowels moved further back within LPA I, for bleeding ietation, feeding rn > rr . 
 
-B2.XV -- s > ʃ moved back to LPA I > what is after 11/26, LPA II, before insertion of Greek etyma. Placed before LPA diphthongization (simmaxōro > simahuar). 
+B2.XV -- s > ʃ moved back to LPA I > what is after 11/26, LPA II, before insertion of Greek etyma. Placed before LPA diphthongization (simmaxōro > simahuar), and before vowel losses. A2.CIL vowel lengthening phenomenon appears to treat s as palatal, further supporting this placement. 
 
 B2.XVI -- DV4.1B3 & Bonnet 1998:193 -- "*Tosk* insertion of b between m and unstressed vowels" -- moved much earlier, making it possibly pan-Albanian, because it feeds progressive unstressed round vowel assimilation (A2.XXI). In Gheg, it can be assumed the mb > m, per regularly ND > N in Gheg, hence hte apperance of "Toskness" of this development. 
 

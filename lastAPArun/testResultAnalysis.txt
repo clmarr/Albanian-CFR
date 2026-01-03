@@ -1,18 +1,18 @@
 Analysis for Result
 
 ACCURACY REPORT:
-Overall accuracy:                        0.63856069
+Overall accuracy:                        0.63909774
 Accuracy within 1 phone:                 0.82169710
 Accuracy within 2 phones:                0.93125671
-Average edit distance from gold:         0.12984204
-Average feature edit distance from gold: 0.16312071
+Average edit distance from gold:         0.12966302
+Average feature edit distance from gold: 0.16287284
 
 Performance associated with each phone in Result
 Phone in Result	Associated final miss likelihood	Mean Associated Normalized Lev.Dist.	Mean Associated Feat Edit Dist
 a	|	0.37777777777777777	|	0.6818181818181818	|	0.17722902097902085
-j	|	0.4339622641509434	|	0.7567567567567568	|	0.20156870156870152
-ˈa	|	0.3253731343283582	|	0.5850746268656717	|	0.1436854190585535
-z	|	0.31746031746031744	|	0.5483870967741935	|	0.1761786600496278
+j	|	0.4329411764705882	|	0.7549019607843137	|	0.20107466063348411
+ˈa	|	0.32238805970149254	|	0.582089552238806	|	0.1423076923076924
+z	|	0.30158730158730157	|	0.532258064516129	|	0.1687344913151365
 ə	|	0.373568281938326	|	0.6403162055335968	|	0.15823578595317717
 m	|	0.3352272727272727	|	0.659942363112392	|	0.17512746619374872
 h	|	0.36585365853658536	|	0.925	|	0.2629807692307692

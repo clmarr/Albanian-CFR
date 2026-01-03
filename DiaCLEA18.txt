@@ -601,7 +601,7 @@ h > ∅ / __ [-stres]
 h > ∅ / [+syl] __
 
 
-$ see "kt outcomes" file, nad the more recent (Nov 17 2025) "MPA f obstruent cluster formation redux" 
+$ see "kt outcomes" file, and the more recent (Nov 17 2025) "MPA f obstruent cluster formation redux" 
 $ k becoming yod before /t/ if next to front vowel -- De Vaan 2018(:1744)  -- DV1744.J3
 	$ potentially IMPORTANT: what frontness should we treat /a/ as having at this point? For the inputs to Gallo-Romance, Pope 1934 treats Latin /a/ and /aː/ as originally backed, but becoming fronted... what should they be here?  
 	$ given that he lists SANCTVS > shenjtë "holy, saint", this either ...
@@ -619,7 +619,8 @@ $ DIACLEA CORRECTION C2.V cogitare rule instead goes to ʎ, evidence from OAlb.
 $ second part -- prior conditioning
 $ DIACLEA CORRECTION C3B.IV* -- nasal conditioning removed here. Instead nkt > ɲt after stressed nonround (ma(n)jtë, shenjtë, strenjtë). As of Dec 1o 2o25, needs to be adjacent on one side or the other to the primary stressed vowel -- not in countertonic __ atonic as seen in the sanctu- compound words. 
 $ DIACLEA CORRECTION C3B.IV.r, b-- in hte immediate contact position (i.e. not the above, rather than merely after front vowels, iotation happens after  (C3B.IV.r) voiced coronals preceded by other coronals (perhaps across a nonprimary vowel) and (C3B.IV.b) labials on the other side of the vowel perhaps with l intervening. (formerly: [+back,+cons] > j / [+front] __ t) 
-[+back,+cons] > j / {[+lab] ([+lat]);[+cor] ([-prim]) [+cor,+cont]} [+syl] __ t
+$DIACLEA CORRECTION E1.VII -- Middle Proto-Albanian k > j DV1744.J3 is no longer a single process, but rather passes first to ç in MPA I, because it does not feed aj coalescence to eː in MPA II. This [ç] seems to have become ʎ at some point as attested in OALb kuʎtonj > kujtoj < cogitare, in at least that case, but unclear how much this generalizes. It doesn't seem likely to have become ʎ immediately, for both phonetic and diachronic reasons {doing so errantly feeds a ʎ deletion rule near hte end of MPA I for collucti-a- > gulçoj, other problems for ndërtoj, pliq, vetyrë, etc.}
+[+back,+cons] > ç / {[+lab] ([+lat]);[+cor] ([-prim]) [+cor,+cont]} [+syl] __ t
 n [+back,+cons] > ɲ / [-round,aprim] __ t [+syl,-aprim]
 
 $DIACLEA CORRECTION A1.XI.b b > beta. 
@@ -969,6 +970,9 @@ j > ∅ / [+cons,+front] __
 $DIACLEA FIX A2.XVIII.* -- however, j is preserved before a tonic vowel after t͡ʃ and d͡ʒ if the prior consonantal is r (arësye, shkarzej, mërzej, kursej). 
 ∅ > j / [+son,+cor,-lat,-nas] ([-cons])* [+delrel] __ [+prim]
 
+$DIACLEA CORRECTION A2.CLI -- i-mutatory iota absorbed in V C-lat,-front __ V́-round Cfront. For conditioning, cf fixes log. UNNATURAL CLASS, RECURRENT -- laterals and palatals patterning together 
+ɪ̯ > ∅ / [-cons] [-syl,-lat,-front] __ [+syl] [+front]
+
 $ DIACLEA CORRECTION D3.VII --  j before final unstressed a becomes iota before loss of yod after labials (A2.II), allowing this, too, to join with i-mutation. (Exception ːrubia > rrojbë; may require separate explanation; this may however be a loan. ). 
 j > ɪ̯ / __ ɑ
 
@@ -1072,9 +1076,16 @@ $ TODO FOR DIA consider suppressing the Buzuku rule here.
 [-cons,-syl] > ∅ / # __ [+cons]
 ∅ > ə / # __ [+son,+cons] [+cons,nnas,nson]
 
+$DV1735.A diphthong coalescence part 1 
 $ DIACLEA CORRECTION D3.XII -- INCORPORATING aw > a: here too now. per DIACLEA FIX C1.B.XVII -- no more for non-low back vowels here.
 [+lo,+syl] [efront,aback,-cons,-syl] > [alo,aback,efront,+long] ∅ / __ [+cons]
+
+$RESOLUTION OF DIACCLEA CORRECTION E1.VII after diphthong coalescence. Although, this ç likely goes to ʎ for some words, as it is attested for cogitare > kuʎtonj. It opens in time to feed coalescence of hte mid vowels {collect-a- > kulit-ɔ- > gultoj} but not hte low vowels {trajtoj, pajt not tretoj pet etc.} 
+ç > j
+
+$diphthong coalescence part II -- DV1735.A.... -- but cf D3.XII. For mid vowels, fed by ç > j
 [+syl,αround,αtense,-back] [-syl,-cons,+front,+hi,+tense] > [+hi,-lo,+tense] ∅
+
 
 $TODO REGRESSIVE BETA COLORING! - + LOSS -- WORK HERE! TODO REMOVE WHEN ACCOUNTED FOR, OR DEEMED UNNECESSARY.  -- bprobably accounted for now tho.
 
@@ -1282,8 +1293,8 @@ $DIACLEA CORRECTION A2.LXXXIX -- lengthening to bleed reduction to schwa via DV2
 $DIACLEA CORRECTION A2.LXXXXVIII.i -- reduction of i/ɪ like segments in obs __ j V,Also: Gjergj, djall. 
 [+front,+hi,-long,-prim] > ∅ / [-son] __ j [+syl]
 
-$DIACLEA CORRECTION A2.C -- limited progressive palatalizationǃ--  j t͡ʃ > k j -- around time of (?) (or feeding?) palatalization in LPA II 
-j [+front,+cons,+delrel] > ∅ [-cor,-delrel,+hi,-strid]
+$DIACLEA CORRECTION A2.C -- limited progressive palatalizationǃ--  j/ç/ʎ t͡ʃ > k j -- around time of (?) (or feeding?) palatalization in LPA II 
+[+front,+hi,+cont,-syl] [+front,+cons,+delrel] > ∅ [-cor,-delrel,+hi,-strid]
 
 $ DV1744.E4 -- Latin d becomes edh after r (as with PPAlb d -- DV1744.E2) , RECURRENT here as part of Slavic handling. 
 $DIACLEA CORRECTION D3.VIII -- reinterpreted as lenition outcomes , more broadly post vocalic (reinstated here to cover Slavic items Nov 18, 2025). 

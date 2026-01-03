@@ -1187,7 +1187,7 @@ $DIACLEA CORRECTION A2.CIL.bɟ countertonic al > əl reduced early between labia
 ˌa > ˌɐ / [+front] __ [+lat] [+lab] 
 
 $DIACLEA CORRECTION A2.CIL Late Proto-Albanian I lengthening of front countertonics in labial __ lateral if the lateral is not immediately followed by the tonic vowel. S patterns with labials for this. NOTE UNNATURAL CLASS. maludic-o- ... mallkoj, malitiola ... macollë, falcōne > fajkua, Belbice, etc.
-$[+front,+stres] > [+long] / [sfront,-slab] __ [+lat] [mlab,-mfront]
+[-round,+stres,-prim] > [+long] / [sfront,-slab] __ [+lat] {[-prim];[-syl]}
 
 $ DIACLEA CORRECTION A2.LXVIII before palalization, reduction to schwa of unround countertonics in # C-nas V R/L (obstruents except coronal stops) -- TODO NOTE UNNATURAL CLASS. Needs to be in # (C) __ -- ənkˌɑrðˌulˈicjɑ > ngardhulliqe ; skˌɑrd͡ʒˈœɲɔ > shkarzej etc. 
 [-prim,+stres,-round] > ə / # [-nas,+cons] __ [+cor,+son,-nas] [-son,sstrid,scor]
@@ -2120,8 +2120,8 @@ $TODO : consider instead the following though:
 $lˠ > lˠ̩ / {[-son];j;m} __ {#;[-son]}
 $lˠ̩ > l̩ / [+nas] [+back,-cont] __ ([+syl]) #
 
-$DIACLEA CORRECTION A2.CXXIII LPA III /c/-fronting after ASYLLABIC coronal sonorants. Fed by LPA I regressive {A2.LXVI: collucti-ā- > MPA I kʊ̀llʊ̀ktjɒ́ːɲɔ > LPA I kùlːùjt͡ʃɔ́ɲɔ > LPA III kùlːəcɔ̃́ɲ > gulçoj } and progressive {e.g. bubulcensem > Bulqesh} palatalizations. Also fed by LPA III tj and tsj > c { tɯ̀nʊt͡sjɑ́nɪ > tɯ̀nʊcɑ́nɪ >  tɯ̀ncɑ́nɪ > Tunçan, kˈɒɾɪt͡sjɑ > kˈɔɾɪcɑ > kˈɔɾcɑ > Korçë}. Bled by sonorant syllabification, therefore constituting evidence of LPA III syllabic sonorants. 
-c > t͡ʃ / [-syl,+cor,+son] __ [+syl]
+$DIACLEA CORRECTION A2.CXXIII LPA III /c/-fronting after ASYLLABIC coronal sonorants. Fed by LPA I regressive {A2.LXVI: collucti-ā- > MPA I kʊ̀llʊ̀ktjɒ́ːɲɔ > LPA I kùlːùjt͡ʃɔ́ɲɔ > LPA III kùlːəcɔ̃́ɲ > gulçoj } and progressive {e.g. bubulcensem > Bulqesh} palatalizations. Also fed by LPA III tj and tsj > c { tɯ̀nʊt͡sjɑ́nɪ > tɯ̀nʊcɑ́nɪ >  tɯ̀ncɑ́nɪ > Tunçan, kˈɒɾɪt͡sjɑ > kˈɔɾɪcɑ > kˈɔɾcɑ > Korçë}. Bled by sonorant syllabification, therefore constituting evidence of LPA III syllabic sonorants. Comes after round vowelː not Shelqet, ilqe, Ilqet, gëlqere etc.
+c > t͡ʃ / [+lab] [-syl,+cor,+son] __ [+syl]
 
 $DV1740F2 -- l and a nearby resonant (Rl, lR) merge to become *l:. De Vaan lists parabola -> përrallë as his third example wihch would imply a treatment of /β/ (perhaps? if not /b/?) as a resonant, which could cause problems, but actually parabola > përrallë can be perfectly handled if it is placed before the fall of unstressed vowels.
 $ but this must be placed after DV1740E3 and DV1740E1 as otherwise it would completely bleed them.
@@ -2208,6 +2208,10 @@ x > h
 $DIACLEA CORRECTION E1.VI.3 Tosk deletion of final ɾ̃ after labial-palatal sonorant sequences: fijë, shkëmbi etc. Not in Gheg: fijan, Shkumbin, etc. TODO perhaps overfit, reconsider? -- Tosk may also have Shkumbin and Kurbin... 
 [+nas,+cor,-long] > ∅ / [+lab] ([+hi,+front])+ ([+lo]) __ #
 
+$DIACLEA CORRECTION A1.XXVIII -- Proto-Tosk-SGheg deletions of ə in V-prim Cson __ {#, C-son V}. Counterbleeds A2.LXXV, bled by D4.2P. Feeds s > ts A2.LXXXVII
+[-back,-front,-prim] > ∅ / [-prim] [+son,-syl] __ {#;[+cons,ason,anas] [-cons]}
+
+
 $DIACLEA CORRECTION A2.LXXV  onset k-voicing rules 
 $DIACLEA A2.LXXV.l # __ (ə/u) l (ə/u) R T ˈV -- kˌulːətˈɔ̃ɲ to gultoj, kˌulːəcˈɔ̃ɲ to gulçoj , kˌulːə̃mtˈɔ̃ɲ to gjëmtoj , calcāria > kl̩cˈɛːɾɛ > gëlqere, kˌʊlbˈɑzɑ to kˌəlbˈaːza to gëlbazë 
 $ former. l:   # k ( [-prim,-back,-front] ) l [-cont] 
@@ -2216,11 +2220,13 @@ k > ɡ / #  __ ( [-prim,-lo] ) [+lat,-hi] ( [-prim,-lo] ) ( [+son,-syl] ) [-son,
 
 $DIACLEA CORRECTION A2.LXXXVII -- post-sonorant strident affrication. RULE CROSSING with k > g phenomena:  krs > krts aspect counterfeeds A2.LXXV.l , but bleeds A2.LXXV.r
 	$ not in Buzuku {balshëm etc.} but is in Bardhi {nalcoj etc}
-	$.l post lateral -- #sˈɛlɪt͡ʃɑ#       >  *#ʃˈɛːlsa#       > Shelcë ;   #ˌinˌɑltiˈɑːnioː# :  *#nˌalsˈɔ̃ɲ#   : nalcoj , etc.-- malcoj, balçëm -- thus, hits syllabic m̩ , Këlcyrë/Këlçyrë 
+	$.l post lateral -- #sˈɛlɪt͡ʃɑ#       >  *#ʃˈɛːlsa#       > Shelcë ;   #ˌinˌɑltiˈɑːnioː# :  *#nˌalsˈɔ̃ɲ#   : nalcoj , etc.-- malcoj, balçëm -- thus, hits syllabic m̩ , Këlcyrë/Këlçyrë, malcollë. Not këlshenjt -kˌalʃˈãɲt at that time --- tentatively not before low, therefore. Unclear with Shelcë time of reduction of final. 
 	$.kr after kër, to s specifically : -- kërc, kërcû, kërcat -- no posterior context specifications. Doesn't happen to ʃ here: kërshëndel.
 	$.ns -- in N{T}S 
 s > [+delrel] / k ( [+syl,aback,afront] ) [-cont,+son] __ 
-[+strid,+cor] > [+delrel] / {[+lat];[+nas,+cons] ( [-cont,-son] )} __ [+syl]
+[+strid,+cor] > [+delrel] / [+lat] __ [+syl,-lo]
+[+strid,+cor] > [+delrel] / [+nas,+cons] ( [-cont,-son] ) __ [+syl]
+
 
 $ DIACLEA CORRECTION A2.LXXV.r # __ (ə) r/ʃ {t; t͡ʃ; x > h ; ʃ -- but not ts kërcat ǃ not c --kërqellë etc, not k kërkat; since t is only seen with gështenjë --vs. kështër kërshtër "CHristian", dont use t either -- makes feat matrix easier} ˈA  -- not k, b, c, ts, tentatively not t  -- per current formulation, fed by x > h to hit x>h words. Seem to all happen before nonround, nonhigh vowels -- gërhat, gërçak, gërshet, etc.
 k > ɡ / # __ ([-prim,-back,-front]) [+cor] [-voi,ʃcons,ʃcor,ʃfront] [-hi,-round,+prim]
@@ -2253,10 +2259,6 @@ $ ã raises to ə in Tosk (ultimately denasalizing to ë outside of some Lab s
 $ DIACLEA CORRECTION C3B.XII -- in Proto-Tosk, it is only short ã that becomes ə̃; long ãː actually reflects as -a- (shpërlaj, etc.). However it effects labials too per DIACLEA CORRECTION C2.III.
 [+lo,+nas,+syl,-long] > [-lo,-back,-front,0tense,-lab,-round]
 
-$DIACLEA CORRECTION A1.XXVIII -- Proto-Tosk-SGheg deletions of ə in V-prim Cson __ {#, C-son V}. Counterbleeds A2.LXXV, bled by D4.2P 
-[-back,-front,-prim] > ∅ / [-prim] [+son,-syl] __ {#;[+cons,ason,anas] [-cons]}
-
-
 ~Proto-Tosk
 
 $TODO FOR LAB,CHAM,ARB-,ARV- : y > i here -- DV2.1A3 
@@ -2277,9 +2279,10 @@ $Other parts now moved after P-Tosk
 [-stres] > ∅ / [+cont,+son,-lat] ([-cont,-front])+ __ ɾ [+stres]
 [-stres] > ∅ / # ([+lab,+voi])* __ ɾ [-hi,-round,+syl]
 
-$DIACLEA CORRECTION A2.LX: Northern Tosk pre-nasal non-round vowel deletions. 
+$DIACLEA CORRECTION A2.LX: Northern Tosk pre-nasal non-round vowel deletions. Doesn't happen before ɲ {mallëngjej} except initially.
 $ A2.LX.ʎ and .t , .a--- broadest cases, can happen before CC 
-[-prim,-round,-cons] > ∅ / {#;[-cons] [+lat]} __ [+nas]
+[-prim,-round,-cons] > ∅ / # __ [+nas]
+[-prim,-round,-cons] > ∅ / [-cons] [+lat] __ [+nas,-front]
 
 $ cases that need to happen before NV -- initially; general internal VC- case. 
 [-prim,-back,-cons] > ∅ / [-cons] [+syl] __ [+nas] [-syl]

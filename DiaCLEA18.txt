@@ -1191,15 +1191,12 @@ s > ʃ
 $DIACLEA CORRECTION A2.L.b other æ not effected by the e phenomenon or the initial lengthening all merges to ɑ. Does not effect ɐ which may soon emerge.
 [+lo,+syl,-long,-tense] > [+tense,-front,+back]
 
-$DIACLEA CORRECTION A2.CIL.bɟ countertonic al > əl reduced early between labials and palatals. Fed by s > ʃ. Bleeds A2.CIL. -ʎV also counts as the front gesture to contrast a prior labial. This schwa survives into Old Albanian but not modern Albanian -- using ˌə as ə will disappear in LPA II before ʎ here, and ɐ will not last much longer either. Consider ˌɐ perhaps. 
-ˌa > ˌɐ / [+lab] __ [+lat,yfront] [+front,-ycons]
-ˌa > ˌɐ / [+front] __ [+lat] [+lab] 
 
 $DIACLEA CORRECTION A2.CIL Late Proto-Albanian I lengthening of front countertonics in labial __ lateral if the lateral is not immediately followed by the tonic vowel. S patterns with labials for this. NOTE UNNATURAL CLASS. maludic-o- ... mallkoj, malitiola ... macollë, falcōne > fajkua, Belbice, etc.
 [-round,+stres,-prim] > [+long] / [sfront,-slab] __ [+lat] {[-prim];[-syl]}
 
-$ DIACLEA CORRECTION A2.LXVIII before palalization, reduction to schwa of unround countertonics in # C-nas V R/L (obstruents except coronal stops) -- TODO NOTE UNNATURAL CLASS. Needs to be in # (C) __ -- ənkˌɑrðˌulˈicjɑ > ngardhulliqe ; skˌɑrd͡ʒˈœɲɔ > shkarzej etc. 
-[-prim,+stres,-round] > ə / # [-nas,+cons] __ [+cor,+son,-nas] [-son,sstrid,scor]
+$ DIACLEA CORRECTION A2.LXVIII before palalization, reduction to schwa of unround short countertonics in # C-nas V R/L (obstruents except coronal stops) -- TODO NOTE UNNATURAL CLASS. Needs to be in # (C) __ -- ənkˌɑrðˌulˈicjɑ > ngardhulliqe ; skˌɑrd͡ʒˈœɲɔ > shkarzej etc. 
+[-prim,+stres,-round,-long] > ə / # [-nas,+cons] __ [+cor,+son,-nas] [-son,sstrid,scor]
 
 
 $ incorporates DIACLEA CORRECTION A2.XXXXI - ø > œ (and o > ɔ) before it is unrounded in LPA. This comes before (bc it feeds) D3.X.b1
@@ -1335,6 +1332,11 @@ $DV4.2E & DV4.2F3 -- wave of palatalization, occurring before front vowels, incl
 $ DIACLEA CORRECTION D2.II -- absorption of w in palatalizing k removed, now redundant given earlier mass -w- loss, and lack of such sequences in any contact languages since MPA.
 $w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
+
+
+$DIACLEA CORRECTION A2.CIL.bɟ countertonic a{:}l > əl reduced early between labials and palatals. Fed by s > ʃ. Undoes A2.CIL. -ʎV also counts as the front gesture to contrast a prior labial. This schwa survives into Old Albanian and in some cases into modern Albanian -- using ˌə as ə will disappear in LPA II before ʎ here, and ɐ will not last much longer either. Using short ˌɐ. 
+[+lo,-round,-prim] > [-tense,+back,-front,-long] / [+lab] __ [+lat,yfront] [+front,-ycons]
+[+lo,-round,-prim] > [-tense,+back,-front,-long] / [+front] __ [+lat] [+lab] 
 
 $DIACLEA CORRECTION A2.CXXXX.2oe resolution of oe̯ > ye̯, counterfeeding DV4.2E/F LPA dorsal palatalization. Designed to also sweep up ue cases like Shyec from Slavic. 
 [+prim,+back,+round] e̯ > ˈœː 
@@ -2181,7 +2183,7 @@ $DV4.1E2 & DV4.1F2 -- iotation of l after velar stops. This does not occur in so
 $ DV1743.F5 -- -c(u)l- > c > ɟ if after nasals in ungj < avunculus -- effectively (originally) handled here and with the earlier voicing of k > g in the earlier Middle Proto-Albanian post-nasal voicing shift.
 l > ʎ / [-cont,+hi] __
 
-$Resolution of DIACLEA CORRECTOIN A2.CX.ɐ
+$Resolution of DIACLEA CORRECTION A2.CX.ɐ
 {ɐ;ˌɐ} > {ə;ˌə} 
 
 $A2.LXVII post-last-early-wave Slavic ʎ > l if all separating it from the beginning f hte word is labial segments that are either stops or hi (w, u), or ʃ 

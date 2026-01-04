@@ -2022,15 +2022,19 @@ $DIACLEA CORRECTION A2.LXXXXVII -- early denasalization of ã to block raising 
 $DIACLEA CORRECTION A2.CXIV LPA III cluster medial stop deletion in C T -son. Feeds DV4.1U2
 [-delrel,-nas] > ∅ / [+cons] __ [-son]
 
-$DIACLEA CORRECTION A2.LVIII: n-like segments before a stop assimilates to its place of articulation and become simple nasal segments. Does not happen yet to ng, nk, except post tonically -- this feeds postnasal voicing: see penge hingell tingel vs benkoj Shenkoll konkol
+$DIACLEA CORRECTION A2.LVIII: second round of nasal assimilation -- n-like segments before a stop assimilates to its place of articulation and become simple nasal segments rather than nː ɾ̃. However n, ɾ̃ etc doesn't completely go to ŋ here before dorsals but rahter just n for now. Happens to nk only if post tonic
 	$ This happens to long nː too -- hinnicul-ā- > LPA I hinːə̯kəlˠɔ́ɲ > hingëlloj . Fed by A2.CXIV
-[+nas,+cor] > [-long,+cont,dcor,βlab,ðant,ɩfront,χhi] / __ [-delrel,-back,dcor,βlab,ðant,ɩfront,χhi]
-
+$ previous version, before Jan 3 '26 : [+nas,+cor] > [-long,+cont,βlab,-βcor] / __ [-delrel,βlab]
+$ DIACLEA CORRECTION D4.VII -- handling prestop-nasal-assimilation and prenasal stop voicing in one rule here. 
+	$exception for nk when not post tonic {UNNATURAL CLASS}; established ŋk, a primary rather than secondary such cluster, IS included.
+		$ previously was going to do formation of prenasalized stops here, but it caused too many problems, see fixes log
+	$ handling posttonic nk, then having only established ŋk 
+[+nas,+cons,-lab,-front] > ŋ / [+prim] __ k
+{ɾ̃ b;ɾ̃ p;ɾ̃ d;ɾ̃ t;ɾ̃ ɟ;ɾ̃ c;ɾ̃ ɡ;n b;n p;n d;n t;n ɟ;n c;n ɡ;nː b;nː p;nː d;nː t;nː ɟ;nː c;nː ɡ;m b;m p;ɲ ɟ;ɲ c;ŋ ɡ;ŋ k} > {m b;m b;n d;n d;ɲ ɟ;ɲ ɟ;ŋ ɡ;m b;m b;n d;n d;ɲ ɟ;ɲ ɟ;ŋ ɡ;m b;m b;n d;n d;ɲ ɟ;ɲ ɟ;ŋ ɡ;m b;m b;ɲ ɟ;ɲ ɟ;ŋ ɡ;ŋ ɡ}
 
 $DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced asyllabic consonants to modern ʒ -- has to be before end of the fall of lenited stops (in this case β). In reality this may be morphological though, as it only seems to happen to the prefix sh- "dis, un" ; was ʃ > [+voi] / __ [+cons,+voi,-son]. 
 $DIACLEA FIX C1B.VI: doesnt happen before coronals as there are exceptions for at least /l/ and /n/ {Dëshnicë, Plashnik, Bishnicë, Leshnice}. Happens before g  ː riʒgɔj vəʒgɔj. Probably m -- prozhëm prozhmoj krezhëm krezhmoj vs dëshmoj. Would be challenging with ɲː fuʒɲə fuʒɲar  vs viʃɲə lɛʃɲə. However Vishnjë and Leshnjë stand alone as later Slavic loans, and testimoniare could have later time of coalescence -- təʃtəmɲɔ́ɲ with mɲ > mː. Therefore DIACLEA CORRECTION B2.XVII -- DV4.1U2 ʃ voicing assimilation moved to before last early  Slavic wave's yers fall -- thus counterfed bz A1.XXII.2. The context diff is acutally a time diff. This is the zone that is not quite pan-Albanian anymore though: note Budi's fushqinë for fuzhnjë, as well as attested doublets like rishgoj/rizhgoj, vëshgoj/vëzhgoj etc. 
 ʃ > [+voi] / __ [+cons,+voi,-cor] 
-
 
 $DIACLEA CORRECTION A1.XXXIV Ln, Ld clusters to l: . Bled by metathesis for fllad, gllanik. Counterfed by vowel deletion for Chelnik.
 [+lat] [+voi,+cor,-lat] > lː
@@ -2232,7 +2236,6 @@ $DIACLEA CORRECTION E1.VI.3 Tosk deletion of final ɾ̃ after labial-palatal son
 $DIACLEA CORRECTION A1.XXVIII -- Proto-Tosk-SGheg deletions of ə in V-prim Cson __ {#, C-son V}. Counterbleeds A2.LXXV, bled by D4.2P. Feeds s > ts A2.LXXXVII
 [-back,-front,-prim] > ∅ / [-prim] [+son,-syl] __ {#;[+cons,ason,anas] [-cons]}
 
-
 $DIACLEA CORRECTION A2.LXXV  onset k-voicing rules 
 $DIACLEA A2.LXXV.l # __ (ə/u) l (ə/u) R T ˈV -- kˌulːətˈɔ̃ɲ to gultoj, kˌulːəcˈɔ̃ɲ to gulçoj , kˌulːə̃mtˈɔ̃ɲ to gjëmtoj , calcāria > kl̩cˈɛːɾɛ > gëlqere, kˌʊlbˈɑzɑ to kˌəlbˈaːza to gëlbazë 
 $ former. l:   # k ( [-prim,-back,-front] ) l [-cont] 
@@ -2252,10 +2255,9 @@ s > [+delrel] / k ( [+syl,aback,afront] ) [-cont,+son] __
 $ DIACLEA CORRECTION A2.LXXV.r # __ (ə) r/ʃ {t; t͡ʃ; x > h ; ʃ -- but not ts kërcat ǃ not c --kërqellë etc, not k kërkat; since t is only seen with gështenjë --vs. kështër kërshtër "CHristian", dont use t either -- makes feat matrix easier} ˈA  -- not k, b, c, ts, tentatively not t  -- per current formulation, fed by x > h to hit x>h words. Seem to all happen before nonround, nonhigh vowels -- gërhat, gërçak, gërshet, etc.
 k > ɡ / # __ ([-prim,-back,-front]) [+cor] [-voi,ʃcons,ʃcor,ʃfront] [-hi,-round,+prim]
 
-$DIACLEA A2.LXXV.u -- k > g / # __ ˌu Ccor ə {R} -son,-cont  --  kˌuːtədzˈɔ̃ɲ guxoj ; kˌuːtə̃ndˈɔ̃ɲ kutëndoj should be bled by nd being prenasalized stop n͡d TODO 
-k > ɡ / # __  [-prim,+back,+hi] [+cor] [-prim,-back,-front] ([+son]) [-son,-cont]
+$DIACLEA CORRECTION A2.LXXV.u -- k > g / # __ ˌu Ccor ə -son,-cont  --  kˌuːtədzˈɔ̃ɲ guxoj ;
+k > ɡ / # __  [-prim,+back,+hi] [+cor] [-prim,-back,-front] [-son,-cont]
 $ .ə # __ ə Ccor Cc'ons V ( [-prim,-lo] ) [+lat,-hi] ( [-prim,-lo] ) ( [+son,-syl] ) [-son,-cont] [+prim] $ CURRENTLY SUPPRESSED -- overpredictive
-
 
 $DIACLEA CORRECTION A2.CXXXVI ã > ɛ̃ between coronals and ɲ, tentativelyː mëllenjë, shenjt, këlshenjt, gështenjë 
 ˈã > ˈɛ̃ / [+cor] __ ɲ
@@ -2308,7 +2310,6 @@ $ A2.LX.ʎ and .t , .a--- broadest cases, can happen before CC
 $ cases that need to happen before NV -- initially; general internal VC- case. 
 [-prim,-back,-cons] > ∅ / [-cons] [+syl] __ [+nas] [-syl]
 
-
 $DV4.1R2 -- final devoicing of -z
 $ DIACLEA: suppressed. Correct only for medius > mes, which has a doublet medius>mjez ; mes may have evolved that way for syntactic reasons anyways. 
 $ z > s / __ # 
@@ -2354,8 +2355,9 @@ $DIACLEA CORRECTION D1.VIII -- deleted schwa loss in N __ C-voi in the repeat of
 $ə > ∅ / [+nas] __ [-voi,+cons] {[-cons];#}
 
 $ DIACLEA CORRECTION A1.XIX -- another round of voicing of (non-affricate) stops in homorganic NT clusters into Old Northern Tosk. nk only voices posttonically here: penge hingel tingel vs. konkol shenkoll benkoj
-[-delrel,-back] > [+voi] / [+nas] __
-[-delrel,+back] > [+voi] / [+prim] [+nas] __
+$ as of Jan 3, this is combined per D4.VII with nasal place assimilation in Proto-Tosk-Gheg
+${m p;n t;ɲ c} > {m b;n d;ɲ ɟ} 
+${n k;ŋ k} > {ŋ ɡ;ŋ ɡ} / [+prim] __ 
 
 $DIACLEA CORRECTION A2.CXV ː Proto-Northern Tosk mb > m in # (V) __ V̯ C-lat. Nnot in Matrenga (South Tosk) ː mbëshoj , mbëkat. Fed by A1.XIX
 b > ∅ / # ([-prim]) m __ [-prim] [+cons,-lat]
@@ -2391,6 +2393,9 @@ $DIACLEA CORRECTION A1.XXXIII.kl loss of ə after initial velar stops, and befor
 $DV4.1E / F -- further palatalization, this time occuring before front vowels -- and affecting Turkish loans as well. This happens in all northern Tosk but that it affected Turkish loans implies a later placement in the relative chronology (in Gheg it dodges some parts of the northwest zone) 
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
 
+$DIACLEA CORRECTION A2.LVIII.2: non-labial nasal segments segments assimilates to voiced dorsals for another round in modern Tosk, although these might be phonetic pronunciations; still the lexica generally show them. Voiced dorsals onlyː shənkoll, bənkoj, konkol, gjinkalle, Tunçan. 
+[+nas,-lab,+cons] > [-cor,-ant,+hi,kback,cfront] / __ [-delrel,+hi,kback,cfront,+voi]
+
 $DV4.1I : Old Albanian d + s & d + th > ts 
 $merge also DV4.1K2 : OAlb d + sh > ç
 $ version before 8/5/23 was : d [+cont,+cor,βant] > ∅ [+delrel,-βdistr,+strid]
@@ -2410,8 +2415,6 @@ $ DIACLEA CORRECTION C3B.XIX: posterior context changed from [+cons] to [+cons,+
 $DV4.1K3 partially implemented here -- Tosk standard does not have c > t͡ʃ everywhere, but does seem to have it when praeconsonantal (çfarë, etc.) 
 c > t͡ʃ / __ [+cons] 
 
-$DIACLEA CORRECTION A2.LVIII.2: n-like segments assimilates to dorsals for another round in modern Tosk, although these might be phonetic pronunciations; still the lexica generally show them. TODO may need revision, either in lexicon or here. Cases of Shənkoll, bənkoj?
-[+nas,+cor] > [-cor,-ant,+hi,kback,cfront] / __ [-delrel,+hi,kback,cfront]
 
 $ DIACLEA CORRECTION A2.LXX -- early modern Tosk nd > n post consonantally into modern North Tosk (vullëndet > vullndet > vullnet; calendarius > kallënduor > kallnuor -- but open to possibility this isn't just for l. In Ghegː sanitōsus > shëndosh > shnosh; sanitatem > shëndet > shnet) 
 {n d;ⁿd} > {n;n} / [+cons] __ [+syl]

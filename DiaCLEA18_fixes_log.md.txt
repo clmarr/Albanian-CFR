@@ -604,11 +604,15 @@ A2.LVI : schwa deleted in R/N m ə N (qerm, kungoj, kernjoj, kulm -- not elsewhe
 
 A2.LVII: postalveolars and palatals absorb following yod
 
-A2.LVIII: LPA III n-like segments before a non-coronal stop assimilates to its place of articulation (and shortens if long). Does not happen to m (kumt etc) or ɲ (shenjtë etc), no reason to assume for ŋ. n does not become ŋ yet at this time either. 
+A2.LVIII: LPA III another round whereby n-like segments before a non-coronal stop assimilates to its place of articulation (and shortens if long). Does not happen to m (kumt etc) or ɲ (shenjtë etc), no reason to assume for ŋ. n does not become ŋ yet at this time either. 
 	This happens to long nː too -- hinnicul-ā- > MPA I hɩnːɩ̯kəlˠ-ɔ́- > hingëlloj , convent-ā- > kʊmɩ̯nt-ɔ- > kunːt-ɔ - >kundoj
 	what happens to r.̃ unclear. depenetr-o- > dëpërtoj vs. communic-o- > kungoj 
 
 	Fed/bled by L2.CXIVː Lënckë, etc. 
+
+	As of Jan 3, this is reinterpreted under D4.VII to be the formation of prenasalized stops, which unpack in Proto-Tosk. 
+
+	.2 -- another round of nasal-assimilation to dorsals happens much more recently in North Tosk, after last palatalizations. Although technically these may actually be phonemic /n/, they are notated ohterwise...  TODO may need revision, either in lexicon or here. Voiced dorsals onlyː shənkoll, bənkoj, konkol, gjinkalle, Tunqan > tunçan. 
 	
 A2.LIXː $initial m nasalizes a following vowel before a stop (NOT fricative, excluding ð). The result is treated like a Slavic ṼT cluster, but actual Slavic etyma are not included. It also raises it from low position and fronts back vowels as applicable.
 	$ metaxum > mëndafsh, matricula > (më-?)ndrikull
@@ -735,9 +739,8 @@ A2.LXXIV LPA tonic and countertonic yer resolution
 		Rope in remaining ɪ (stressed) > i 
 
 A2.LXXV  onset k-voicing rules 
-	.u -- k > g / # __ ˌu Ccor V-prim 
-			 ; kˌuːtə̃ndˈɔ̃ɲ kutëndoj should be bled by nd being prenasalized stop n͡d TODO 
-
+	.u -- k > g / # __ ˌu Ccor V-prim -son,-cont
+			 ; kˌuːtə̃ndˈɔ̃ɲ kutëndoj should be bled by n
 		Lat cottid͡z-ā- > MPA kuttɩd͡z-ɔ- > kutəd͡z-ɔ- > guxoj (var. kuxoj) 
 
 	.l # __ (ə) l Ccor,-nas l T  # k ( [-prim,-back,-front] ) l [-cont]
@@ -1155,7 +1158,7 @@ A2.LXXXXI --  LPA nasal-final cluster phenomena
 
 A2.LXXXXII bleeding DV1744.C1 w > β, 
 
-A2.LXXXXIII early tapping of n to avoid prenasal deletion in -son -stres __ V-hi,+prim -- arbëreshë, ngashërej, urdhëroj, urdhëratë, ngjëroj  , sˌerkɪnˈoru > sher/lqeruar, kullumb{ë}ri -- but not bræstɪnˈiku , no sʊwɪrstɪniku , fˌarɪnˈoɲo... overall needs to be after an obstruent, and happens to native, not Slavic, vocab --> placed at end of MPA II. 
+A2.LXXXXIII early tapping of n to avoid pre-nasal deletion in -son -stres __ V-hi,+prim -- arbëreshë, ngashërej, urdhëroj, urdhëratë, ngjëroj  , sˌerkɪnˈoru > sher/lqeruar, kullumb{ë}ri -- but not bræstɪnˈiku , no sʊwɪrstɪniku , fˌarɪnˈoɲo... overall needs to be after an obstruent, and happens to native, not Slavic, vocab --> placed at end of MPA II. 
 
 A2.LXXXXIV extra unstressed voewl deletions that at least feed A2.LXXXXI.Tn -- in turn feeding later sh to ç phenom-  towards the end of the period of common development in LPA III: testimonio > dëshmoj; timorem - tmerr; aestimanio -- çmoj ; kˌaʃtə̃ɲˈɛt - Kashnjet; platania - pˈaltə̃ɲə - Palnjë; Vërsnik; Doesn't happen before ɾ̃ -- tër endings from tãɾ̃ə̃, shtëroj from extenuare.  
 	.ST -- t instead just deleted in C __ -stres N D -- Shëndre, Kërshëndel -- in time to feed LXXXXI.nn !
@@ -2099,6 +2102,11 @@ D4.V DV2.2.2b syncope broken up into different rules.
 			not -- pˌɛʃɪkˈɔɲɔ lˌeɡatˈyɾa lˌepɪtˈyɾa ʃˌemɪlˠˈɔɲɔ ʃˌemɪlˠatˈyɾa
 
 D4.VI APA ml > bl reinteprreted as ml > mbl
+
+D4.VII - 
+		ABORTED  original version originally:  second wave of post-nasal voicing in LPA / Proto-Tosk-Gheg reinterpreted as formation of prenasalized stops. Happens to all, including ɾ̃, except N k when N k is not posttonic. The result is a voiced prenasalized stop except in NW Gheg, which preserves voicing distinctions. 
+			Reason for avoidance: although elegant, this actually messes with the conditioning of final syllabic l > ull phenomema
+				was thought to help with the context of k>g voicing but it actually doesn't do that better upon a better analysis of the latter phenomenon
 
 # E rule separation
 

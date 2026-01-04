@@ -1300,7 +1300,7 @@ $ TODO 2025 -- implement, make this about length
 $ [+front,-hi,-lo,-round,+prim] > ˈi e̯ / __ {lˠ;ɾ} ([-lo,-stres] (m)) #
 
 
-$DIACLEA CORRECTION D3.X.a.11/29/25 rather than diphthongization of ɔː > u, initial countertonic ɔː > uː, before it happens in what is now LPA II. 
+$DIACLEA CORRECTION D3.X.ao.11/29/25 rather than diphthongization of ɔː > wɔ > u as part of və > u phenomenon, initial countertonic ɔː > uː, and it happens earlier in what is now LPA II, before diphthongization. 
 ˌɔː > ˌuː / # __ [-syl]
 
 $DIACLEA CORRECTION A2.LXXXIX -- lengthening to bleed reduction to schwa via DV2.2.2b in LPA II for high front vowels in certain conditions
@@ -1890,17 +1890,19 @@ $DIACLEA fix A2.XX -- vowels identical in (oral) quality in hiatus merged, curre
 [+syl,αlo,ɣhi,βround,ɩfront,ʊback] [+syl,+stres,αlo,ɣhi,βround,ɩfront,ʊback] > ∅ [+long]
 [+syl,+stres,αlo,ɣhi,βround,ɩfront,ʊback] [+syl,αlo,ɣhi,βround,ɩfront,ʊback] > ∅ [+long,+stres]
 
-$DV2.1F2: və > u- 
-$ this might be yet earlier considering that it also happens in Gheg? Or not. 
-$ DIACLEA FIX D3.X.a -- this is reinterpreted as βo ~ ˌuo̯)as input, and __ C as context. See D3.X(.a) on fixes lo, a nd initial lengthening in MPA II file. But as of Nov 29, 2025, nonstressed o doesn't diphthongize so, this is interpreted as ɔː > uː, before it.
-$ RELOCDATION B2.VIII -- (reformulated) DV2.1.F2 və (or rather vo-) > u phenomena moved back to before end of Late Proto-Alb I, going into LPA II. It is shared, after all. 
-${v ə;v ˌə} > {u;ˈu} / # __
-$o̯ > ∅ / # ˌu __
-
 $ DIACLEA CORRECTION D3.X.e -- before Late Proto-Albanian II finishes, initial uo- ye- to vɔ-, vɛ- via w . Includes primary and secondary stressed uo-. Does not rope in etymological -vo-. Apparently it's now at late LPA I going into LPA II. As of Nov 17, 2025, ie̯ > je except in all contexts except # C __ , and both ie and the round dipthhongs uo and ye undergo this prevocalically elsewhere
 $ Previously: [+round,cprim,dstres] [-syl,-cons] > w [cprim,dstres,-tense] / # __
 [wround,cprim,+stres] [-syl,-cons,-hi] > [wback,wlab,!wfront,-syl] [cprim,-tense] / {[-cons];#} __ 
 [-round,+hi,cprim,+stres] [-syl,-cons,-hi] > j [cprim,-tense] / [+syl] (@)* __
+
+$DV2.1F2: və > u- 
+$ this might be yet earlier considering that it also happens in Gheg? Or not. 
+$ RELOCDATION B2.VIII -- (reformulated) DV2.1.F2 və (or rather vo-) > u phenomena moved back to end of Late Proto-Alb II, going into LPA II. It is shared, after all. 
+$ DIACLEA FIX D3.X.ae -- this is reinterpreted. See D3.X(.a) on fixes log, and "initial lengthening in MPA II" and "Remnant və to u rule" files. Per .ao, βo ̃ uo̯ instead goes to u earlier, before diphthonigzation. What is left here is a rule hitting ōtu > wɛtʊ > ut , ōrdine > wɛɾðɐ̃ɾ̃ɪ > urdhër, vesc-e- > wəskɛ > ushqej and evangelio > wənɟilˠ > ungjill. It is fed by œ > yə going to wɛ in D3X.e.  The context is a necessary posterior non-labial obstruent, which can be mediated by a sonorantː hence not inwernīnum > wərːĩː> vərri, not ōrbu > wˈɛɾb > verb , not Slav ɒwɪrɑgɑ > wəɾˈɑɡɑ > vrragə, and not ōpera > wˈɛpəɾə  >vepər 
+[+syl,-back,-hi,-lo] > [+back,+hi,+tense,+round,+lab,-front] / # w __ ([+son,+cons]) [-son,-lab] 
+
+$DIACLEA CORRECTION D3.X.au  wu, whether inherited {as in avunculus > ungj, wʊpeskʊpʊ > upeshk} or fed by .ae above, goes to >u before nonlateral consonantals. Non lateral: vullnet, vulnerata > vurrate, vulkolaku > vurkollak ; consonantal: wiwere > vuoj . 
+w > ∅ / # __ [+hi,+back,+syl] [+cons,-lat]
 
 =Late Proto-Albanian III
 $ LAST EARLY SLAV WAVE HERE !! 
@@ -2020,9 +2022,10 @@ $DIACLEA CORRECTION A2.LXXXXVII -- early denasalization of ã to block raising 
 $DIACLEA CORRECTION A2.CXIV LPA III cluster medial stop deletion in C T -son. Feeds DV4.1U2
 [-delrel,-nas] > ∅ / [+cons] __ [-son]
 
-$DIACLEA CORRECTION A2.LVIII: n-like segments before a stop assimilates to its place of articulation and become simple nasal segments 
+$DIACLEA CORRECTION A2.LVIII: n-like segments before a stop assimilates to its place of articulation and become simple nasal segments. Does not happen yet to ng, nk, except post tonically -- this feeds postnasal voicing: see penge hingell tingel vs benkoj Shenkoll konkol
 	$ This happens to long nː too -- hinnicul-ā- > LPA I hinːə̯kəlˠɔ́ɲ > hingëlloj . Fed by A2.CXIV
-[+nas,+cor] > [-long,+cont,dcor,βlab,ɣback,ðant,ɩfront,χhi] / __ [-delrel,dcor,βlab,ɣback,ðant,ɩfront,χhi]
+[+nas,+cor] > [-long,+cont,dcor,βlab,ðant,ɩfront,χhi] / __ [-delrel,-back,dcor,βlab,ðant,ɩfront,χhi]
+
 
 $DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced asyllabic consonants to modern ʒ -- has to be before end of the fall of lenited stops (in this case β). In reality this may be morphological though, as it only seems to happen to the prefix sh- "dis, un" ; was ʃ > [+voi] / __ [+cons,+voi,-son]. 
 $DIACLEA FIX C1B.VI: doesnt happen before coronals as there are exceptions for at least /l/ and /n/ {Dëshnicë, Plashnik, Bishnicë, Leshnice}. Happens before g  ː riʒgɔj vəʒgɔj. Probably m -- prozhëm prozhmoj krezhëm krezhmoj vs dëshmoj. Would be challenging with ɲː fuʒɲə fuʒɲar  vs viʃɲə lɛʃɲə. However Vishnjë and Leshnjë stand alone as later Slavic loans, and testimoniare could have later time of coalescence -- təʃtəmɲɔ́ɲ with mɲ > mː. Therefore DIACLEA CORRECTION B2.XVII -- DV4.1U2 ʃ voicing assimilation moved to before last early  Slavic wave's yers fall -- thus counterfed bz A1.XXII.2. The context diff is acutally a time diff. This is the zone that is not quite pan-Albanian anymore though: note Budi's fushqinë for fuzhnjë, as well as attested doublets like rishgoj/rizhgoj, vëshgoj/vëzhgoj etc. 
@@ -2350,8 +2353,9 @@ $D4.II -- what was left of the second wave of pretonic (DV2.2.2b) reductions in 
 $DIACLEA CORRECTION D1.VIII -- deleted schwa loss in N __ C-voi in the repeat of pretonic vowel reductions in Old North Tosk
 $ə > ∅ / [+nas] __ [-voi,+cons] {[-cons];#}
 
-$ DIACLEA CORRECTION A1.XIX -- another round of voicing of (non-affricate) stops in homorganic NT clusters into Old Northern Tosk. No evidence of a distinction between (ŋ/ɲ)(k/c) tho. 
-[-delrel,ŋhi,mlab] > [+voi] / [+nas,ŋhi,mlab] __
+$ DIACLEA CORRECTION A1.XIX -- another round of voicing of (non-affricate) stops in homorganic NT clusters into Old Northern Tosk. nk only voices posttonically here: penge hingel tingel vs. konkol shenkoll benkoj
+[-delrel,-back] > [+voi] / [+nas] __
+[-delrel,+back] > [+voi] / [+prim] [+nas] __
 
 $DIACLEA CORRECTION A2.CXV ː Proto-Northern Tosk mb > m in # (V) __ V̯ C-lat. Nnot in Matrenga (South Tosk) ː mbëshoj , mbëkat. Fed by A1.XIX
 b > ∅ / # ([-prim]) m __ [-prim] [+cons,-lat]
@@ -2406,6 +2410,8 @@ $ DIACLEA CORRECTION C3B.XIX: posterior context changed from [+cons] to [+cons,+
 $DV4.1K3 partially implemented here -- Tosk standard does not have c > t͡ʃ everywhere, but does seem to have it when praeconsonantal (çfarë, etc.) 
 c > t͡ʃ / __ [+cons] 
 
+$DIACLEA CORRECTION A2.LVIII.2: n-like segments assimilates to dorsals for another round in modern Tosk, although these might be phonetic pronunciations; still the lexica generally show them. TODO may need revision, either in lexicon or here. Cases of Shənkoll, bənkoj?
+[+nas,+cor] > [-cor,-ant,+hi,kback,cfront] / __ [-delrel,+hi,kback,cfront]
 
 $ DIACLEA CORRECTION A2.LXX -- early modern Tosk nd > n post consonantally into modern North Tosk (vullëndet > vullndet > vullnet; calendarius > kallënduor > kallnuor -- but open to possibility this isn't just for l. In Ghegː sanitōsus > shëndosh > shnosh; sanitatem > shëndet > shnet) 
 {n d;ⁿd} > {n;n} / [+cons] __ [+syl]

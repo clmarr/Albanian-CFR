@@ -1080,7 +1080,7 @@ $DV1735.A diphthong coalescence part 1
 $ DIACLEA CORRECTION D3.XII -- INCORPORATING aw > a: here too now. per DIACLEA FIX C1.B.XVII -- no more for non-low back vowels here.
 [+lo,+syl] [efront,aback,-cons,-syl] > [alo,aback,efront,+long] ∅ / __ [+cons]
 
-$RESOLUTION OF DIACCLEA CORRECTION E1.VII after diphthong coalescence. Although, this ç likely goes to ʎ for some words, as it is attested for cogitare > kuʎtonj. It opens in time to feed coalescence of hte mid vowels {collect-a- > kulit-ɔ- > gultoj} but not hte low vowels {trajtoj, pajt not tretoj pet etc.} 
+$RESOLUTION OF DIACCLEA CORRECTION E1.VII after diphthong coalescence. Although, this ç likely goes to ʎ for some words, as it is attested for cogitare > kuʎtonj. It opens in time to feed coalescence of hte mid vowels {collect-a- > kulit-ɔ- > gultoj} but not hte low vowels {trajtoj, pajt not tretoj pet etc.}. Counterfeeds LPA II coda aj > ɛ 
 ç > j
 
 $diphthong coalescence part II -- DV1735.A.... -- but cf D3.XII. For mid vowels, fed by ç > j
@@ -1484,8 +1484,11 @@ $ resolving D3.XIII. counterfed by A1.XXII.1.ɪ, also counterfed by formation of
 	$ C3A.XIV LPA l-darkening, specifically when triggered by following back vowel, can now see through following m: shkallëm, kallm, kullm. 
 l > lˠ / [-cons] __ (m) {[-front,+syl];[+lo]}
 
-$ DIACLEA CORRECTION A2.CXXXX.2oj resolution of {MPA II oj >} LPA ɔj > ɛj, counterbleeding l-darkening
-{ˈɔ j;ˈɔ j̃} > {ˈɛ;ˈɛ̃}
+$ DIACLEA CORRECTION A2.CXXXX.2oj resolution of {MPA II oj >} LPA ɔj > ɛj, probalby counterbleeds l-darkening anymore given later l > lˠ / [blab,!bcor,!bcont] [-front,+syl] __ [-back,-lo,-cons]
+{ˈɔ j;ˈɔ j̃;ˈo j;ˈo j̃} > {ˈɛ;ˈɛ̃;ˈɛ;ˈɛ̃}
+
+$DIACLEA CORRECTION A2.CLIV..βUʎa  in LPA II, labcont round ʎ a > labcont nonhiround j l ɛ . folliata > fojlete, exmulgia > zmojle. Happens to u -trifolia > tərfojə, oleum > oʎu > vaj. Not yet fed by raising inthe case of ullashter. Mut be after labialː vittulea > βɪtuʎa > ftujə, kapuʎa > kəpujə. Counterfeeds ɔj > ɛ
+[+round,+hi] ∅ ʎ [+lo] > [-hi,-tense] j l [+front,-back,-tense,-lo] / [+lab,+cont] __
 
 $DIACLEA CORRRECTION A2.CXXXII LPA I coalescence of TS clusters to affricates, before loss of hard yer. Bleeds A2.CXXXI
 [-cont,-son,+cor] [+strid,+cor] > ∅ [+delrel]
@@ -1740,7 +1743,7 @@ $ DIACLEA CORRECTION C1B.XIV -- ɛ,ɒ no longer deleted word final at this time
 $DIACLEA CORRECTION A2.CIX LPA III interjecting DV1738, formation of oe diphthong from uoV̯ 
 [-stres] > e̯ / [-hi,-cons,-syl,+son] __
 
-$DIACLEA CORRECTION B1.XII aj > ɛ moved toward end of Late Proto-Albanian, as resulting ɛ does not delete with Slavic -e, and Slavic wave 2 feeds it in at least one case {Dõbraj > Dumre}. Could also have it go to long ē. Currently doing both. Only seems to be operating word finally. Counterfed by DV1738 LPA II apocope
+$DIACLEA CORRECTION B1.XII aj > ɛ moved toward Late Proto-Albanian II, as resulting ɛ does not delete with Slavic -e, and Slavic wave 2 feeds it in at least one case {Dõbraj > Dumre}. Could also have it go to long ē. Currently doing both. Seems to be operating in final position. Counterfed by DV1738 LPA II apocope. 
 [+lo,+syl,-round] j > [-lo,+front,-back,-tense,+long] ∅ / __ #
 
 $resolution of DV1738 apocope
@@ -1825,6 +1828,9 @@ $DV1734.1.II -- long vowels that arise through contraction in final position wit
 $ this rule is formulated to capture not only non-primary stressed i and ə but also e -- this is simpler and has no issues as far as I'm aware -- TODO examine this for errors if necessary though. 
 $ recurrence of DV1734.1.II
 [+syl] [-prim,-round,-lo] > [+long] ∅ / __ #
+
+$DIACLEA CORRECTION A2.CLIV.βaʎa -- in LPA II delabialization of ʎ in labcont lo __ lo with prior vowel raising. See fixes log on contexts. Fed by hiatus vowel coalescence in case of favalia. 
+[+lo,-round] ʎ > [+front,-back,-lo,-tense] lː / [+lab,+cont] __ [-front]
 
 $ DV4.1B2 : b inserted between m and the word bound.-- cf. also Bonnet 1998: 195
 $ DIACLEA: suppressed. Not worth the errors. TODO consider reinstating with finer grained conditioning.

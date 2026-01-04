@@ -878,6 +878,7 @@ $w > β / {#;[+son,+cor]} __
 $ DIACLEA CORRECTION D3.IX -- w and original b > β, to b after l,r. ( incorping DIACLEA fix C3B.VII: now only after a non-initial vowel. (e.g. not eruilla > rrylë, alveolus > unatt. llullë > nullë... -- but as of Feb 2, 2025, this is suppressed.)
 $C3B.VII fix: β > b / @ [+syl] ([-syl])* [+son,-nas,+cor] __
 $ DIACLEA CORRECTION C3B.VII -- DV1743.B4, β > b, now only operates after non-initial vowels then oral coronal continuants (previously: any context with an oral resonant immediately beforehand.). 
+$single case of Belwica > belbice isn't worht having this later where it would cause issues wiht other Slavic etyma e.g. galwa > gallve, galwiniku> gllanik. 
 {β;w} > {b;b} / @ [+syl] ([-syl])* [+cont,-nas,+cor] __
 
 $DIACLEA CORECTION A2.CXXXXVIII Middle Proto-Albanian labiovelarization of countertonic ˌe between CONSONANTAL labial and lateral , fed by D3.IX postcoronal w fortition. Doesn't happen before ʎ. Seems to lengthen l too -- lˠ is not outcome, but rather l. 
@@ -1011,7 +1012,6 @@ $ DIACLEA FIX E1.V.b -- reinterpreted as delabialization of single segment.
 
 $ inherited jV joins with fate of i-mutation if valid targets, not initial and not postlabial, as part of C8.I. 
 j > ɪ̯ / [-lab] __ [+stres,-hi]
-
 
 $DIACLEA CORRECTION D3.IV -- coalescence of etymological ui/uj, ai/aj, ei/ej, ɛi/ɛj > y e i i all roped into the resolution of i-mutation, 
 
@@ -2188,15 +2188,20 @@ $MOST FAITHFUL VERSION: l > j / __ k
 $DIACLEA CORRECTION B1.VIII..ʎ -- lk > ʎk moved from LPA I to LPA II. For reasons see doc. Nicely this puts it right next to the kl > kʎ phenom. 
 l > ʎ / __ k
 
+$DIACLEA CORRECTION: A2.CLIV -- ʎ depalatalizes in LPA III when after 2+ velar elements and before one, fed by lk > ʎ, but not kl > kʎ. 
+ʎ > l / [+back] [+back] __ [+back]
+
+
 $DV4.1E2 & DV4.1F2 -- iotation of l after velar stops. This does not occur in some southern varieties, such as Cham and some Arbereshe dialects, so it could be that it occurred after Proto-Tosk split (in the broad sense, i.e. Proto-Southern-Albanian), or that Proto-Southern-Tosk retracted *ʎ to *l after velar stops. The outcome in Arvanitika is ʎ; in Arvanitika (and the other varieties where ʎ occurs after velars?), ʎ elsewhere appears to be preserved -- cf. Arvanitika biʎë "daughter" noted in De Vaan 2018 (:1740).
 $ DV1743.F5 -- -c(u)l- > c > ɟ if after nasals in ungj < avunculus -- effectively (originally) handled here and with the earlier voicing of k > g in the earlier Middle Proto-Albanian post-nasal voicing shift.
 l > ʎ / [-cont,+hi] __
+
 
 $Resolution of DIACLEA CORRECTION A2.CX.ɐ
 {ɐ;ˌɐ} > {ə;ˌə} 
 
 $A2.LXVII post-last-early-wave Slavic ʎ > l if all separating it from the beginning f hte word is labial segments that are either stops or hi (w, u), or ʃ 
-ʎ > l / # (ʃ) ([+lab,uhi,ucont])* __ 
+ʎ > l / # (ʃ) ([+lab,uhi,ucont])* __ [-cons]
 
 $DIACLEA CORRECTION A1.I -- Slavic wave 2 æː handling
 [+syl,-tense] > [-lo] 

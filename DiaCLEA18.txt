@@ -714,7 +714,7 @@ $ DIACLEA CORRECTION C3B.II: this does not happen prevocalically (perhaps becaus
 $ DIACLEA CORRECTION D3.IV -- this is consolidated into the resolution of i-mutation. Commented out. 
 $[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ {[-syl];#}
 
-$DIACLEA CORRECTION A1.VI.w : limited early i-mutation-like phenomenon across w, for tonic and (!!) countertonic. Counterfed by stress retraction. Consider/write about rel chron of this in relation to A2.XXXI.a and A2.XXXIII and the 'main' i-mutation 
+$DIACLEA CORRECTION A1.VI.w : limited early i-mutation-like phenomenon across w, for tonic and (!!) countertonic. Counterfed by stress retraction. TODO DISSERTATION Consider/write about rel chron of this in relation to A2.XXXI.a and A2.XXXIII and the 'main' i-mutation 
 [-hi,+stres,afront] > [-back,+front,ahi,-lo] / [-lat,-lab] ([+lat]) __ ([+lab,-syl])+ ([+son,+cons]) [+front,-stres]
 
 $DIACLEA FIX A2.XXXI.a Middle Proto-Albanian I -- stress retraction in V β ˈV-hi (ablēv-ā- > blej , arrīv-ā- > arrij, Drivastum > Drisht, lav-ā- > laj, oli̍̄vānu > ullî, etc. Including caballus > kuol, kālë for good measure. Bled by ɒ > ɔ but maybe that can be moved later? 
@@ -783,7 +783,6 @@ $ DIACLEA FIX C3A.5 -- round vowel now effects /ʏ/ too
 
 $DIACLEA CORRECTION A2.X -- ɪ goes back up to i before ʎ (5 known cases for ˈɪʎ, e.g. familia > fëmijë, scantilia > shkëndijë) and j (picta > pɪjtɑ > pitë, plictum > ... > plic, arguably via > ... > vijë) and before labials (4 cases for ˈɪp and ˈɪf, ex. gripsa > grifshë). This is better not handled as part of i-mutation as some of the pre-labial cases don't work that way (gripsa > grifshë) and it appears that ʎ only triggers what looks like i-mutation for /ɪ/. Not ɲ ː tinea > tenjë, strinctum > shtrenjt-ë. 
 	$Counterfed by dj/tj assibilation (servitium > shërbes)
-$ TODO note that all cases except for grifshë can be counterexplained by i-mutation though. 
 ˈɪ > ˈi / __ {[+front,-syl,-nas];[+lab]}
 
 $ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3) 
@@ -814,7 +813,7 @@ $DIACLEA CORRECTION A1.IV : nw (or nβ) > m before non-primary stressed front vo
 $ TODO maybe broaden this and have ɸ involved for cases like iūnctus ? 
 n [+lab,-syl,+voi] > m / __ [+front,-hi,-prim]
 
-$DIACLEA CORRECTION A2.CXXII.VRəS late MPA I after oral  resonants {m,n,ʎ seen} -after seondary or primary stress, atonic vowels before s delete via ə, bleeding i-mutation {genistra >gjeshter}. Feeds VNS> VS phenom B1.I. Happens even to low vowel {oleaster >vashter} 
+$DIACLEA CORRECTION A2.CXXII.VRəS late MPA I after oral resonants {m,n,ʎ seen} -after secondary or primary stress, atonic vowels before s delete via ə, bleeding i-mutation {genistra >gjeshter}. Feeds VNS> VS phenom B1.I. Happens even to low vowel {oleaster >vashter} 
 [-stres] > ∅ / [+prim] [+son,+cons] __ s
 
 
@@ -851,7 +850,7 @@ $DIACLEA CORRECTION A2.XXXXV.a right before MPA II, j > ∅ / s __ V́
 $DIACLEA CORRECTION E1.V.a kw, gw > kʷ, gʷ; later to be derounded
 {k w;ɡ w} > {kʷ;ɡʷ}
 
-$DIACLEA CORRECTION A2.XXXVI --  unstressed (non-low? if it matters?) front vowels made high, treating as ɪ provisionally. This will (TODO!) ultimately be related to i-mutation by principle. 
+$DIACLEA CORRECTION A2.XXXVI --  unstressed (non-low? if it matters?) front vowels made high, treating as ɪ provisionally. This will (TODO!) ultimately be related to i-mutation by principle. TODO DISSERTATION
 [-stres,+front,-lo] > [+hi,-tense] / [+cons] __
 
 $ DV1744.C4 -- emergence of PAlb β before Latin long ō and the reflex of Alb long-ā, but PPAlb ō is not listed. PAlb β itself is the reflex of initial Latin w- and PPAlb β, itself from a PIE u̯. Treat as w for now, betacize later, as then merge them here, with a single rule. In order to impact PPAlb ā and Latin ō but not PPAlb ō, PPAlb ō must have a different reflex at this stage. But De Vaan 2018 does not seem to PPAlb ō and Latin  differently otherwise, in fact they are typically handled together (cf. DV1736G1, DV2.2.1B7 & DV2.2.1B8) except when i-mutation is concerned (DV1736H1, which can simply be handled by placing it in the post-Greek but pre-Latin area of PAlb). So unless there are issues that emerge upon later examination, we will be treating PPAlb ō as potentially a trigger as well.
@@ -930,28 +929,32 @@ $β > w / [+round] __
 $now continuing with E1.IV
 w > ∅ / [+syl,+round] __ [+son]
 
-$DIACLEA CORRECTION A1.VIII: mid front vowels e œ ɛ before r or s then j become i-mutanda, via the ɪ̯. In these cases, the j is then deleted. 
-∅ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] j > ɪ̯ [+prim] [+cont] ∅
-
-$I-MUTATION HERE, since it can feed ietation/diphthongizations (in case of PPAlb a: > ɒː > ... > ye) and also bleed them. 
-$this implements DV2.2.1A3,  DV2.2.1B4, DV2.2.1F2, 
-$this is also part of the implementation of DV2.2.1A5,DV2.2.1B6, DV2.2.1L1, and DV1737's 5b.II 
-$the contextual trigger for this is left somewhat vague, but examples given include __ n t ī, __ C j, __ C ɛ, __ C {ɪ/e}, and one case that will probably concern __ ʎ (DV2.2.1A5) .. so the context can be what is C j, ʎ, i e ɛ ɪ here. 
-$it can be assumed this is intended as a law targeting stressed vowels, because it is placed in 2.2.1 "The stressed vowels of PAlb". No direct statement of ɲ being implicated.
-
+$ --- I-MUTATION -- 
+$ i-mutation here, since it can feed ietation/diphthongizations (in case of PPAlb a: > ɒː > ... > ye) and also bleed them. 
 $DIACLEA CORRECTION C8.I: I-mutation now realized via evanescent ɪ̯ which coalesces with the target vowels.
 $ FORMER I-MUT {ˈɑ;ˈu;ˈo;ˈe;ˈɛ} > {ˈe;ˈy;ˈø;ˈi;ˈi} / [-lab] __ ([-syl])* [+front,-round,-cons]
 
-$DIACLEA CORRECTION C3B.III: I-mutation is BLOCKED by preceding labials [seeing through lateral], and also no evidence it occurs word-initially, plenty of evidence it doesn't. This can be captured by specifying [-lab] for a prior for the i-mutation trigger because requiring a specification excludes the word boundary being there. 
+$DIACLEA CORRECTION A1.VIII: mid front vowels e œ ɛ before r or s then j become i-mutanda, via the ɪ̯. In these cases, the j is then deleted. Must come before proper iota metathesis below, implementing DV2.2.1A3,  DV2.2.1B4, DV2.2.1F2, etc. 
+∅ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] j > ɪ̯ [+prim] [+cont] ∅
+
+$IOTA-METATHESIS that feeds i-mut. 
+$ this implements DV2.2.1A3,  DV2.2.1B4, DV2.2.1F2, his is also part of the implementation of DV2.2.1A5,DV2.2.1B6, DV2.2.1L1, and DV1737's 5b.II 
+$the contextual trigger for this is left somewhat vague, but examples given include __ n t ī, __ C j, __ C ɛ, __ C {ɪ/e}, and one case that will probably concern __ ʎ (DV2.2.1A5) .. so the context can be what is C j, ʎ, i e ɛ ɪ here. 
+$it can be assumed this is intended as a law targeting stressed vowels, because it is placed in 2.2.1 "The stressed vowels of PAlb". No direct statement of ɲ being implicated.
+
+
 $DIACLEA CORRECTION C1B.VII: ɔ > œ phenomena no longer a regular part of i-mutation, simply participating in the later coalescence (E1.I) with yod (georgius > Gjergj; ratiōnem > arësye -- these are caused by *prior* yod! Cases like 2/3SG sheh for shoh are analogical). 
 $ implementing i-mutation ignition for a ɛ e, separated from that of /u/ per E1.II. 
-$DIACLEA CORRECTION C3B.X -- now requires at least one initial consonantal to come between, does not happen in labial-lateral.
-$ per A1.VI.w, now only happens here for lab j among labials; otherwise, handled earlier. 
+$DIACLEA CORRECTION C3B.X -- i-mutation now requires at least one initial consonantal to come between, does not happen if medial cluster labial-lateral
+$ per A1.VI.w, i-mutation across labials now only happens across -lab j- medial sequences; otherwise, handled earlier. 
 $TODO -- maybe make this triggered by reduction of unstressed front vowels to yod... 
 $∅ > ɪ̯ / [-lab] __ [-round,-hi,+prim]  [+cons] ([-syl])* [+front,-round,-cons]
-∅ > ɪ̯ / [-lab] __ [-round,-hi,+prim] {[+cons,-lab] ([-syl])* [+front,-round,-cons];[+cons,+lab] ([-syl])* j}
+$∅ > ɪ̯ / [-lab] __ [-round,-hi,+prim] {[+cons,-lab] ([-syl])* [+front,-round,-cons];[+cons,+lab] ([-syl])* j}
+∅ > ɪ̯ / @ __ [-round,-hi,+prim] {[+cons,-lab] ([-syl])* [+front,-round,-cons];[+cons,+lab] ([-syl])* j}
 
-$DIACLEA CORRECTION C1A.XIX: i-mutation now hits initial vowels if trigger is non-final. DOES happen to at least one round vowel -- opɩra > vepər 
+$^ DIACLEA CORRECTION C3B.III: I-mutation is BLOCKED by preceding labials [seeing through lateral], and also no evidence it occurs word-initially, plenty of evidence it doesn't. This can be captured by specifying [-lab] for a prior for the i-mutation trigger because requiring a specification excludes the word boundary being there.  TODO CONSIDER MERGING THIS INTO A2.II  -- Jan 15 , consoldiating with A2.II 
+
+$DIACLEA CORRECTION C1A.XIX: i-mutation now hits initial vowels if trigger is non-final {aer > ajër, asper > ashpër}. DOES happen to at least one round vowel -- opɩra > vepər . {hingël, egër, engjëll, emtë, iriq, vepër}. 
 ∅ > ɪ̯ / # __ [+prim,-hi] ([-syl])* [+front,-round,-cons] (@)* [+syl]
 
 $DIACLEA CORRECTION A1.VI.s: lmited countertonic i-mutation also occurs for countertonic a in S __ liquid
@@ -980,25 +983,20 @@ j > ɪ̯ / __ ɑ
 $DIACLEA CORRECTION A2.LXVI.1 -- Middle Proto-Albanian II foreshadowing of r/ɾj > rː, bleeding i-mutation, but bled by ja > ɪ̯a D3.VII, counterbled by post labial j loss A2.II -- inboreanus > murrâ > murrə 
 r > rː / [-cons] __ j [-cons]
 
-$ DIACLEA CORRECTION A2.II -- disappearance of j after labials before round vowels, except before unstressed -a, whic his handled above in D3.VII. As of June 26, it's now labial *obstruents*, can see through (V) r. 
+$ DIACLEA CORRECTION A2.II -- disappearance of j after labials before round vowels, except before unstressed -a, whic his handled above in D3.VII. As of June 26, it's now labial *obstruents*, can see through (V) r. As of Jan 15 '26, this is hte SAME phenomenon as the blocking of i-mutation C3B.III. 
 	$ w >β >b, kw:  laqueum > lak, quiētus > qetë, salviella > shërbelë ; perhaps also alveolu > nullë "gum" if we believe in that etymology. Seems apparent in Romanian too : quiētus > (in-)cet, although this may be independent (note the difference between laqueum > laț and quiētus > in-cet.. curious.). As of June 24, this is moved from being between DV1740H2 and DV1743.B4 to right after i-mutation, because the latter appears to occur for the countertonic a in salviella > sherbelë, which is nevertheless affected by this. 
-	$ mj : gremium > gremb, 
-		$ NOT in unstressed final -ja : amia > ame "brown meagre"  (i-mutation otherwise blocked)
-	$ prj : capreolum > kaprjɔ́lˠu > kapruall , 
-			$ after i-mutation capreum > qepër, cypreum > qipër 
-	$ brj: manubrium > mëru (though some Gheg mënojë -- see Bonnet) -- but this may be excluded as per the new patterning of i-mutation of u. 
-	$ Orj ? : N-boreānus > Nbˌɔrjánʊ > Gheg murâ, Tosk murë ; corium > kua (pl. koi though); coctorium > koftor? 
-		$ NOT in unstressed final -ja : cichorea > kore , victoria > vitore ( if this etymology is to be trusted) 
-		$ languōria, scōria -- only after raisingǃ ː > lëngjyrë, zgjyrë 
-		 $ vexing case -- pistōria > pshterë... except that this is actually pistāria per Bonne
-	$ not bj directly: abiēgnus > vgjê, abiēgnea > vgjenjë 
-		$bjá > bé instead > cambiāre > këmbej, ex-cambiāre > shkëmbej
-			$ (unlike in N-boreānus > murâǃ) 
-			$ difficult case : rubia > rrojbë 
-			$ maybe..>? : subiug-āre > shuaj
-	$ the cases of capreum > qepër and salviella > sherbelë suggest this happened AFTER the beginning of i-mutation in the emergence of iota, but gremium > gremb and manubrium > mëru may suggest the opposite as concerns ɛ and u... As of July 2024, though, /u/ i-mutation is handled otherwise, so this can be placed after the emergence of iota but before the resolution in terms of coalescence, and before the merge of iota with j. 
-	$Always operates if before {primary, at least} stressed element, but doesn't delete before unstressed e
-j > ∅ / [+lab,-son] ( ([+syl]) [+cor,-nas,-lat,+son]) __ {[+prim];[-prim,+round]}
+	$ mj : gremium > gremb,  prj : capreolum > kaprjɔ́lˠu > kapruall ,  after i-mutation capreum > qepër, cypreum > qipër  Orj ? : N-boreānus > Nbˌɔrjánʊ > Gheg murâ, Tosk murë ; corium > kua (pl. koi though); coctorium > koftor? 
+		$ NOT in unstressed final -ja : cichorea > kore , victoria > vitore ( if this etymology is to be trusted)  languōria, scōria -- only after raisingǃ ː > lëngjyrë, zgjyrë .vexing case -- pistōria > pshterë... but may be suspicious etymology.
+		$bjá > bé instead > cambiāre > këmbej, ex-cambiāre > shkëmbej (unlike in N-boreānus > murâǃ) { maybe..>? : subiug-āre > shuaj} 
+	$ the cases of capreum > qepër and salviella > sherbelë suggest this happened AFTER the beginning of i-mutation in the emergence of iota...  this can be placed after the emergence of iota but before the resolution in terms of coalescence, and before the merge of iota with j. 
+	$As of Jan 15 this is in fact the same phenomenon as the blocking of i-mutation, but hte cases above, happening to /j/ that is not the metathesized iota that triggers i-mutation, constitute evidence independent of the operation of i-mutation that such a phenomenon was available, with strikingly identical contexts to the phenomenon blocking i-mutation -- Occam's razor, they are the same.
+	$ see fixes log on A2.II for more data. There are now three distinct places this seems to happen. 
+	$	A2.II.a deletions of both j and ɪ̯  in Clab __ V[prim=round] 
+[+front,-syl,-cons] > ∅ / [+cons,+lab] __ [eprim,-eround]
+	$	A2.II.b deletions of both ɪ̯ and j in Clab,-voi sonorant __ any{?} vowel
+[+front,-syl,-cons] > ∅ / [+lab,-voi] [+son] __ [+syl]
+	$	A2.II.c deletions of ɪ̯ and j in [-syl,-cor] Vback R __ V -- this time w is in the triggers. Not [j] which is son-- must be consonantal.
+[+front,-syl,-cons] > ∅ / [-cor] [-prim,+back] [+cons,+son] __ [+syl]
 
 $ De Vaan p1743-4 -- w dropped between k (DV1743.G2) or g (DV1744.A2), and vowels. This will eventually feed the palatalization of these velars before i/e/y (p1743) but this feeding does not have to be explicitly coded in. 
 $ form prior to 8/5/23 was: {[-cont,+back] w;[-cont,+back,+round]} > {[-round] ∅;[-round]} / __ [-cons] 

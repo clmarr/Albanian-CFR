@@ -5,14 +5,83 @@ $ double stress with stressed suffixes
 $ TODO to morph diachrony file
 $ TODO INTEGRATE PROPOSALS into dissertation!! 
 $ TODO proposal -- Alb aorists in -s- (and others?) augmented with material drawn from past indicative forms of PIE (x)es-: s-esm̩ B(> səsa > shë), es (> heh), [-∅, or -id?], -s-omos  [-(ː)më] (note 1PL kjeshmë "was", -sete, -sonti . This explains Gheg outcomes in 1sg -ā, 2sg -ae ... etc. 
-$ using augments in aorists, in xe-
-$ it seems there was a stress retraction that was at least still going on when the earliest Greek loanwords entered, that effected many paradigms, that was done by the point of Latin contact. 
-$ using n-j-é/ó for -nj- presents, likely from nasal infix with -e- reduced to -j-. 
-$ using -akʷyos rather than -ikʷyos -- makes more sense for -u(a/o/e)s in enlargument from o-stem verbs. Also Durrës. 
-$ -i-eh2 as source of collective/feminine derivational suffix -í, def. -ía
-$ plural -ëra/-na < -īna per Orel 2000(:229), which causes i-mutation, from a "collectivizing" PIE -īna he says. I'm treating this as from adjectivalizing -iHn(-os) + collectivizing -eχ. Since feminine of the latter is listed without accent, ot putting it on, for now. 
-$ MPL i-mutating -ër/-ën treated as from -énes, plural of PIE suffix *-éːn forming nouns of roots, more in line with De Vaan 2004: 71; Schumacher 2013(:2019) has it via -inih; Orel 2000(: 230) instead has a proposed PIE *-ino for these. 
-$ per Orel 2000 and it seems others agree, resonant final noun-stems become -o- stems.
+
+$ MAJOR MORPHEMES IN USE -- see morphemics file for more
+
+$ VERBAL INFLECTION, not including many grade changes 
+	$ preference for these forms: 
+		$ participle : generally aorist stem + -u/onm̩, -m̩, -nm̩ 
+		$ 1sg = 3sg >>> 3pl >> 2sg = 1pl ; generally exclude 2pl as it is usually replaced esp in present
+		$ 2sg imperative occasionally when most secure
+		$ present > aorist >>> past imperfect >> rest 
+		$ indic > subj , but in subj 3sg >> 1sg = 3pl >>>>>>> rest 
+		$ mediopassive only when diachronically informative
+	$ person-number notes: 
+		$ 2pl generally lost in present
+		$ 3pl -nt{i} endings often extended to -nta <  -nteχs , -ntm̩? 
+		$ 3sg: often become null or just i-mutation; unlike 2sg but like 3sg, feature secondarily grammaticalized elements
+			$PAlb -ta {-tm̩, teχ?} in singular often in subjunctive {ketë "have.3sg.subj"}, occasoinally indicative presnet {thotë "say.3sg" etc.},
+			$past.impf -te < -toi? -tōd?  {cf. imperativ3 3sg. -tōd}
+			$aor: 3smg distal pronoun may be grammaticalized in as -i; -u after i- final stems
+	̩$ present: often extended with nasal progressive -ne after thematic vowel, often reduced to nj later. 
+		$ may be extended in -i-, likely originally derivational
+			$ sporadic stem extension in -ot-i- 
+		$ 2pl nearly always secondary; from -nū imperative
+		̩$ i-mutation in 2sg and 3sg became morphologized by Late Proto-Albanian; ditto for imperative, imperfect, occasional 3sg aorist in -t- 
+	$ aorist: 
+		$ prefix augment xe- , apply when reasonable
+		$ root: lengthened grade in many cases {see Orel 2000}; 
+		$ stem suffixes:
+			$ sigmatic -es 
+			$ -v- endings ; -es + -w- as seen in Latin -ui it seems
+				$ cf. Toch -sw-?
+			$-t- aorists: decide
+			$ -r/n- aorist: just rebracketed final -n from stem
+		$ endings: typically secondary, but forms of "BE" are often grammaticalized in before they apply
+	$ imperfect: often -es-ne- + BE , but -tōd added to 3sg
+	$ mediopassive: from iterative -sceti, but EXTENDED 
+		$ for 1SG and 2SG : -sc- + PRIMARY ending + SECONDARY ending + "A" element  {see below} 
+			$ "A" : mysterious item reflected as schwa, from o or m̩ or maybe oi {cf Gk nact -omai?}
+				$ or maybe the χe from the acutal Indo-European middle?
+		$ e.g. 1sg -sc- + primary -oχ + secondary -m + A
+			$ -x-ō-m-a > xœ̄ma > Old Albanian -hemë, -emë > -hem, -em, h lost after some consonantal stems
+		$ 2sg: -sc- + e-si + s + A > -xɛ́sɩsa > -xɛ́ssa > OAlb {h}eshë > {h}esh
+			 $single s would disappear if this gemination didn't occur. 
+			 	$maybe 3SG is geminated too but we can't tell either way.
+		$ 3SG : -sc- + SECONDARY ENDING + the same "A" element
+		$ 3sg: -sc- + et + A  > .. > OAlb -hetë 
+		$ 3PL : actually just reflects -sconti with i-mutation? 
+
+		$ 1pl and 2pl : from optative -scoyme and scoyte, with some i-mutating element added at end to make the final -e become -i for both, maybe an -i or-si
+
+		$ PERHAPS all hte endings actuallz come from sc+optatives...
+	$iterative -sceti with normal forms grammaticalized in words like 1sg njoh/3sg njeh; shoh/sheh/ etc.
+
+$NOMINAL INFLECTION
+	$ per Orel 2000 and it seems others agree, resonant final noun-stems become -o- stems.
+	$ plural i-mutation grammaticalized by Late Proto-Albanian
+	$ unlike Latin, it seems nominative is often reflected: masc ∅ < -o-s, neut -ë < -a < -m̩, -óm rarely; fem -ë < a < ā < eχ
+	$ pluralizing, perhaps og collective, -ëra/-na < -ina per Orel 2000(:229), which causes i-mutation, from a "collectivizing" PIE -īna he says. I'm treating this as from adjectivalizing -iHn(-os) + collectivizing -eχ. Since feminine of the latter is listed without accent, ot putting it on, for now. 
+	$ MPL i-mutating -ër/-ën treated as from -énes, plural of PIE suffix *-éːn forming nouns of roots, more in line with De Vaan 2004: 71; Schumacher 2013(:2019) has it via -inih; Orel 2000(: 230) instead has a proposed PIE *-ino for these. 
+	$ -nj- mpl from  
+
+$ NOMINAL DERIVATION
+	$ -i-eh2 as source of collective/feminine derivational suffix -í, def. -ía
+	$ $ using -akʷyos rather than -ikʷyos -- makes more sense for -u(a/o/e)s in enlargument from o-stem verbs. Also Durrës. 
+	$ material afix -ixnos 
+	$ locative -i 
+	$ deverbal -{e/o}dhieχ
+	$ -tieχ
+	$ -trom 
+	$ deverbal -mn̩ > ma
+	$ -ulós 
+	$ -icos > th, can i-mutate
+	$ -iqos > k, can i-mutate 
+	$ -us-s > -ush, became diminutive; occasional -os-s >  ësh 
+	$ -eχ feminizing, may be redundant: mother root + this 
+	$ -ibʰ-o/m̩/eχ -- or eb-~~? 
+	$ -
+
 
 $TODO -- iterate through 
 	$ De Vaan 2017 -- curr page 1738 
@@ -102,13 +171,12 @@ $TODO -- iterate through
 		$ res > resh
 		
 $ FIRST DORSAL ROW - front dorsals. Current policy k1 g1 gh1 h1 = c ɟ ɟʰ x but this could change
-$TODO check
+$TODO check for implementation of policy
 
 
 $k1
-c x ˈo n ɡʷ l i , θ ˈɑ̃ n ɟ i lˠ , θ ˈə ɲ ɟ i lˠ $ashes, coals.  Orel 1998: 476. ts- prefix to same source as Lith anglis,OPrus anglis,Slav õglɪ, Skt ángara etc. TODO sus?
 
-c χ ˈe m b e r e χ , θ ˈæ̃ m b ɾ̩ , θ ˈɛ m b ə ɾ $heel. Gk skambós, OIR camm, Swed skimpa "to hop". Orel 1998: 474
+c χ ˈe m b e r e χ , θ ˈæ̃ m b ɾ̩ , θ ˈɛ m b ə ɾ $heel. Gk s-kambós, OIR camm, Swed skimpa "to hop". Orel 1998: 474
 
 c ˈe i q e χ , θ ˈi k ə , θ ˈi k ə $knife. Orel 1998: 477-8. Possibly loaned from CPA *t͡siːkɑ > Lat. sīca. 
 $ TODO thadër. 
@@ -117,7 +185,7 @@ c ˈe w k o χ , θ ˈɛ k , θ ˈɛ k $toast.1sg.pres.act.indic. Baric ARSt I 1
 
 c ˈo w x i l m̩ , θ ˈæ lˠ ə , θ ˈɛ lˠ ə $deep; dark {color}. couilo- per Pokorny apud Demiraj 1997: 394. -m̩ per current adjectival policy. Cf Greek koîlos. cowHilo- per Neri 2020 in DPEWA https://www.dpwa.gwi.uni-muenchen.de/dictionary/?lemmaid=14028. Orel 1998: 474.
 
-c ˈo l i b o s , θ ˈæ l b , θ ˈɛ l b $nut kernel. Orel 1998: 474, 2000: 152. 
+c ˈo l i bʰ o s , θ ˈæ l b , θ ˈɛ l b $nut kernel. Orel 1998: 474, 2000: 152. 
 
 c e r r ˈo t i o χ , θ ə r ˈa s , θ ə r ˈa s $call.1sg.pres.act.indic. Orel 1998: 477.
 c e r r ˈo t i s , θ ə r ˈæ t , θ ə r ˈɛ t $call.2sg.pres.act.indic. Orel 1998: 477.
@@ -255,6 +323,8 @@ x s ˈe n t o d s , ˈãː ʃ t ə , ˈə ʃ t ə $verb, BE.3PL.PRES. Proposal.
 χ ˈe n , ˈãː , ˈə $verb, be.3SG.PRES < preverb h2en-. Tosk ë : NE Gheg o, NW Gheg â, central and southern Gheg ô. Spelled ëë in early modern Tosk, apparently. Joseph 2016: 132. 
 x ˈe s e t ˈo d , >* , j ˈɛ t ə $verb, BE.3SG.PRES.SUBJ. PIE SUBJ.3SG *xeseti reshaped for suffix -tód. This is a proposal. 
 x s m ˈe s i , >* , j ˈɛ m i $verb, BE.1PL.PRES. This is a proposal. Form per Kapovic 2017: 93, proposal is it's directly inherited (with initial x > e, then stress shift). TODO however Joseph 2016(:135-6) sees this as analogical. 
+
+c x ˈo n ɡʷ l i , θ ˈɑ̃ n ɟ i lˠ , θ ˈə ɲ ɟ i lˠ $ashes, coals.  Orel 1998: 476. ts- prefix to same source as Lith anglis,OPrus anglis,Slav õglɪ, Skt ángara etc. TODO sus?
 
 x ˌo r ɢ ˈu s s o s , ˈa ɾ ɡ ə ʃ , ˈa ɾ ɡ ə ʃ $"crude raft made of wickerwork, bladders". Apparently connected to (an obscure source of) Sanskrit arg-ala "bolt" and English rec-ed / ræced "house, hall, building" < PWGmc *rakud. Orel 1998: 8. Variant argsh? -usso suffix per Orel 2000: 159
 
@@ -979,6 +1049,8 @@ $l
 l ˈe x d o χ , l ˈɔ ð , l ˈɔ ð $tire.1sg.pres.act.indic. Hesychius lēdeín. Demiraj 1997: 244.
 l ˈe x d m̩ , l ˈɔ ð ə , l ˈɔ ð ə $tire.1sg.aor.act.indic. Hesychius lēdeín. Demiraj 1997: 244.
 
+
+x e n ˈl̩ b l ˈo s , n ˈu lˠ ə , n ˈu lˠ ə $gum. PROPOSAL: xen "in" - zero grade of leb- "lip" + extended with diminutive -los, feminized, --seems to work for gum. Attributed to Latin alveol- by Orel 2000: 111. Orel 1998(: 302) says this was borrowed in "its later meaning as a word for dental alveole. The Albanian form implies an earlier *lullë with dissimilation of sonorants" (also supported in Matasovic 2024: 61.). Alas this word does not seem to be in Bonnet 1998 or in Vatasescu 1997. Changed from -um to -a bc feminine before Latin etymology rejected
 
 l χ p t ˈo , >* , l ˈa t ə $kind of hatchet, chisel, axe. Demiraj 1997: 234. Alternatively from (medieval?) Macedonian dlato (Curtis 2012: 107). 
 

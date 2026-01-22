@@ -732,6 +732,9 @@ $DIACLEA CORRECTION A2.CXXXX -- before loss of distinctness of ɒ́ː, ˈɒːj >
 ˈɒː > ˈɔ / [+cons,-hi] __ j 
 ˈɒː j > ˈo e̯
 
+$DIACLEA CORRECTION A2.CLV -- Middle Proto-Albanian II pretonic ɒ unrounded after k; for now applying more broadly to all velar consonants. Effectedː quadresima, quadriga, quasillum; possibly katër. Attempt to relate development nodunculum not worth it. 
+[+round,+lo,-prim] > [-round,-lab] / [+back,+cons] __
+
 $ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër, but via PPAlb *ā) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. DIACLEA CORRECTION C1A.VIII: to handle the current implementation of A2.VIII, broadened to include short ɒ too. 
 [+round,+lo] > [-lo,-tense]
 

@@ -146,6 +146,7 @@ w [+syl,αhi,αfront,-long] > ∅ [+round,+lab,+long]/ [-voi,-cont] ( [-prim] ) 
 w [+syl,αhi,αfront,-long] > ∅ [+round,+lab,+long]/ # ( [-cons] )* [+son,+cons,-nas] __
 ˈɒː > ˈɔ / [+cons,-hi] __ j
 ˈɒː j > ˈo e̯ 
+[+round,+lo,-prim] > [-round,-lab] / [+back,+cons] __
 [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
 [+nas] > ∅ / # ( [+back,-syl] ) [-prim,-lo] __ [-syl,tcons,!tcont,!tvoi] [-prim] ( [-syl] ) [+cor,llat,lcont] [+prim]
 [+lab,-nas,-syl,+voi] > v / [+syl,alo,!ahi] ( [+nas] ) __ ( j ) [+front,-hi,+stres]

@@ -1070,13 +1070,19 @@ $ {ˈi;[+prim,-round]}> {/ # (([-son]) [-son] (([-cons] ) r )) __ [+lab,-son,+vo
 
 $TODO NOTE FOR DIA: although phonemic nasalization is assigned a later point in the relative chronology (DV1737, number 8), it may be necessary here at least for /e/ and/or /ɛ/, to block ietation and allow the merger of DV2.2.1K with DV2.2.1L1 & DV2.2.1M (aka the merger of 5b.1 with 5b.2 and 5b.3) -- TODO, almost certainly outdated here.
 
-$DIACLEA CORRECTION A2.LIV LPA I early flapping and nasalization in V-prim n V-stres (> ãɾ̃V; in most cases later to ə̃ɾ̃V). Happens also after high vowels (?). Explains anëmik < inimicus, ministrare > marshtroj; also why we end up with -ër/n for demone > djemër etc where elsewhere unstresseds ɔ and u survive as u. As of Dec 9.
-[-prim] n [-stres] > [+lo,-hi,+nas,-front,+back,+tense,-round,-lab] ɾ̃ [-stres]
+$DIACLEA CORRECTION A1.XXXIX late MPA II instance of palatalization as per DV4.2E/F3, before early tapping. 
+$[+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
+
+$DIACLEA CORRECTION A1.XXXIX limited early palatalization as a secondary split due to emergence of early flapping. Not ideal but early flapping has to be before aphaeresis, and this must be before that -- but limited. 
+[+back,-son] > [-back,+front] / __ [+front,-lo,-cons] [+nas]
+
+$DIACLEA CORRECTION A2.LIV LPA I early flapping and nasalization in V-prim n V-stres (> ãɾ̃V; in most cases later to ə̃ɾ̃V). Happens also after high vowels (?). Explains anëmik < inimicus {bleeds aphaeresis}, ministrare > marshtroj; also why we end up with -ër/n for demone > djemër etc where elsewhere unstresseds ɔ and u survive as u. As of Dec 9. Counterbleeds palatalization
+[-prim] n [-stres] > [+lo,-hi,+nas,-front,+back,+tense,-round,-lab] ɾ̃ [-stres] 
 
 $ DV2.2.2a -- APHAERESIS BLOCK
 $ DIACLEA CORRECTION B2.XII -- aphaeresis block relocdated back from Late Proto-Albanian I into Middle Proto-Albanian I to precede β/w merger (ablev-ā- > blej, but awlona > vlorë); the relevant words indicate there is a difference between the first Slavic layer nad some relevant phenomena.
 
-$ DIACLEA CORRECTIOn C1.B.XVI -- aphaeresis blocked by lengthening for round vowel.  
+$ DIACLEA CORRECTION C1.B.XVI -- aphaeresis blocked by lengthening for round vowel.  
 [-prim,+round] > [+long] / # __ [-lab]
 
 $DIACLEA CORRECTION A2.LV lengthening to block aphaeresis for low vowels in... # __ [+cor,anas,-acont,-lat] , EXCEPT if it is also __ C C ˈV
@@ -1349,7 +1355,6 @@ $DV4.2E & DV4.2F3 -- wave of palatalization, occurring before front vowels, incl
 $ DIACLEA CORRECTION D2.II -- absorption of w in palatalizing k removed, now redundant given earlier mass -w- loss, and lack of such sequences in any contact languages since MPA.
 $w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
-
 
 $DIACLEA CORRECTION A2.CIL.bɟ countertonic a{:}l > əl reduced early between labials and palatals. Fed by s > ʃ. Undoes A2.CIL. -ʎV also counts as the front gesture to contrast a prior labial. This schwa survives into Old Albanian and in some cases into modern Albanian -- using ˌə as ə will disappear in LPA II before ʎ here, and ɐ will not last much longer either. Using short ˌɐ. 
 [+lo,-round,-prim] > [-tense,+back,-front,-long] / [+lab] __ [+lat,yfront] [+front,-ycons]

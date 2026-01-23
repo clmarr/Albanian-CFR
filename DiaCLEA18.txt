@@ -805,12 +805,16 @@ i > j / __ [+stres]
 $DIACLEA CORRECTION A2.XXXV -- hiatus j insertion between front vowel __ non-round non-hi vowel in Middle Proto-Albanian I, just before pre-palatal ɪ-raising (which it seems to feed)̠.  As of 11/13/25, this now only happens after stressed i/e
 ∅ > j / [+front,+syl] __ [-round,-hi,+syl] 
 
+$DIACLEA CORRECTION A2.CLVII -- Middle Proto-Albanian ɪ > i between a nasal-less cluster and a lateral followed by back vowel. Effectedː vilë, pillë, pil, tërfil, kashil, këshill, kojrilë. Not if nasal in cluster: mel, njgelë; not if followed by front vowel: filica > fejkë etc.  Fed by prespirant loss of n: consilium > këshill. Tentatively not happening to /e/ in which case it would be fed by merger of e < ē and ǐ -- vēlum > vel -- but the later may be an Angevin loan, and comes out wrong anyways as *vell. Clearly must happen to bleed ˈɛ / cor cont __ L {390}, and before ɑ becomes front {228}.
+$[+front,+hi] > [+tense] / # ((@)* [+syl]) ([-syl,-nas])* __ [+lat] [+back]
+
 $ It seems there is a difference between native and Latin *i outcomes --  DV1734~2.2A1: the former all end up as PAlb *i, but in DV1735~2.2A5 Latin /i/ only becomes PAlb *i with i-mutation, otherwise becoming *e (DV1735~2.2B11) 
 $ TODO FOR DIA -- note that the data suggests it might be more complicated here... 
 $ inasmuch as this is mainly a Latin to Albanian cascade endeavor at present, and no specific examples were given for native PPAlb *i having a different outcome from Latin I, precedence is given to the developments described for the latter.
 $ This differs from the outcome for /ʊ/ from Latin or PPAlb *u, which both raise back to /u/ (DV1735~2.2E1, -E2), as seen with /ɔ/ to /o/, handled above. 
 $ this thus implements DV2.2.1B11
 [+syl,+hi,-tense] > [-hi,+tense]
+
 
 $DIACLEA CORRECTION A1.IV : nw (or nβ) > m before non-primary stressed front vowel. Bled for invit-ā- by A2.LXXXI, removing need to make this for we (incl. from <wɪ) as opposed to wi. This overpredicts in the case of invernīnum > *mërri (vërri) but that word might reflect hibernīnum instead. Motivation for this may be found in differentiating this from [ø], which in some accounts (e.g. Orel 2000) may have been [we] (note that the same sound becomes [uo] before sonorants). 
 $ TODO maybe broaden this and have ɸ involved for cases like iūnctus ? 
@@ -819,11 +823,11 @@ n [+lab,-syl,+voi] > m / __ [+front,-hi,-prim]
 $DIACLEA CORRECTION A2.CXXII.VRəS late MPA I after oral resonants {m,n,ʎ seen} -after secondary or primary stress, atonic vowels before s delete via ə, bleeding i-mutation {genistra >gjeshter}. Feeds VNS> VS phenom B1.I. Happens even to low vowel {oleaster >vashter} 
 [-stres] > ∅ / [+prim] [+son,+cons] __ s
 
-
-$DIACLEA RELOCDATION B1.I: moved nasal-fricative phenomenon to after the pre-penultimate o/o:>u phenomena. As of June 17 -- reverted, returned to normal position. As of June 24 2024 (or 2023?), moved to right after new location of dj/tj affrication, which appears to feed this; furthermore (, lengthening aspect removed -- that was Latin internal; condition is now stridents. As of Dec 2o '25 -- moved to beginning of MPA II. 
+$DIACLEA RELOCDATION B1.I: moved nasal-fricative phenomenon to after the pre-penultimate o/o:>u phenomena. As of June 17 -- reverted, returned to normal position. As of June 24 2024 (or 2023?), moved to right after new location of dj/tj affrication, which appears to feed this; furthermore (, lengthening aspect removed -- that was Latin internal; condition is now stridents. As of Dec '25 -- moved to end of MPA I. 
 $ DIACLEA CORRECTION C3A.4: broadened to all nasals plus ʎ - - but excluding r, l {UNNATURAL CLASS!} 
 $[+syl] n > [+long] ∅ / __ [-son,+cont]
 [mnas,-mlat,-mfront] > ∅ / __ [+strid]
+
 
 $-----------------------Middle Proto-Albanian II---------------------
 =Middle Proto-Albanian II

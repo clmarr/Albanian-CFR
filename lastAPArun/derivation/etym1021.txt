@@ -1,30 +1,45 @@
 Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastAPArun'; etymon number :1021:
-... >>> *#ndəɾ# ( GOLD : #ndəɾ#) :
+... >>> *#ndəɾtˈɔj# ( GOLD : #ndəɾtˈɔj#) :
 ... 
 Proto-Balkan-Indo-European stage form : ...
 Archaic Proto-Albanian stage form : ...
 Classical Proto-Albanian stage form : ...
-*#ˌɪntɛr# | 84 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian I stage form : *#ˌɪntɛr#
-*#ˌentɛr# | 168 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#ˌentɛr#
-*#ˌentɪr# | 178 : [-stres,+front,-lo] > [+hi,-tense,-cons,-lat,+cont,0delrel] / [+cons] __
-*#ntɪr# | 222 : [-prim,-long,-cons] > ∅ / # __
-*#əntɪr# | 224 : ∅ > ə / # __ [+son,+cons] [+cons,nnas,nson]
-Late Proto-Albanian I stage form : *#əntɪr#
-*#əntɪɾ# | 281 : r > ɾ 
-*#ə̃ntɪɾ# | 328 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian II stage form : *#ə̃ntɪɾ#
-*#ə̃ntəɾ# | 365 : {ɪ;ɪ̃} > {ə;ə̃} 
-*#ə̃ndəɾ# | 431 : [-cont,mlab,jfront] > [+voi] / [mlab,jfront,+nas,+cons] __
-Late Proto-Albanian III stage form : *#ə̃ndəɾ#
-*#ə̃ndɾ# | 523 : [-hi,-stres] > ∅ / [-syl] __ [+son,+cons,-nas] #
-*#ə̃ndɾ̩# | 532 : [+cons,+son,-nas] > [+syl,-stres,-prim,+son] / [-son] __ #
-Proto-Tosk-SGheg stage form : *#ə̃ndɾ̩#
-Proto-Tosk stage form : *#ə̃ndɾ̩#
-*#əndɾ̩# | 575 : [-cons,+nas] > [-nas] 
-*#ndɾ̩# | 581 : [-prim,-round,-cons] > ∅ / # __ [+nas]
-Old North Tosk stage form : *#ndɾ̩#
-*#ndəɾ̩# | 603 : ∅ > ə / __ [+cons,+syl]
-*#ndəɾ# | 604 : [+syl,-cons] [+cons,+syl,aprim,bstres] > [aprim,bstres] [-syl,0stres,0prim]
-Final form : *#ndəɾ#
+*#ˌindˌireːktˈɑːnjoː# | 83 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+*#ˌɪndˌɪreːktˈɑːnjoː# | 84 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+*#ˌɪndˌɪreːktˈɑːnjo# | 90 : [-hi,+round,-prim] > [-long,-splng] 
+*#ˌɪndˌɪreːktˈɒːnjo# | 98 : [-hi,+long,+prim] > [+round,+lab,+lo] / __ [+cons,+son] j [+round]
+Middle Proto-Albanian I stage form : *#ˌɪndˌɪreːktˈɒːnjo#
+*#ˌɪndˌɪreːktˈɒːɲo# | 114 : {n j;nː j} > {ɲ;ɲ} 
+*#ˌɪndˌɪreːçtˈɒːɲo# | 119 : [+back,+cons] > ç / [+cor] ( [-prim] ) [+cor,+cont] [+syl] __ t
+*#ˌɪndˌɪreːçtˈɔːɲo# | 150 : [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
+*#ˌɪndˌɪreçtˈɔɲo# | 154 : [+syl] > [-long,-splng] 
+*#ˌɪndˌɪreçtˈoɲo# | 158 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+*#ˌendˌereçtˈoɲo# | 168 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#ˌendˌereçtˈoɲo#
+*#ˌendˌerɪçtˈoɲo# | 178 : [-stres,+front,-lo] > [+hi,-tense,-cons,-lat,+cont,0delrel] / [+cons] __
+*#ndˌerɪçtˈoɲo# | 222 : [-prim,-long,-cons] > ∅ / # __
+*#əndˌerɪçtˈoɲo# | 224 : ∅ > ə / # __ [+son,+cons] [+cons,nnas,nson]
+*#əndˌerɪjtˈoɲo# | 226 : ç > j 
+*#əndˌeritˈoɲo# | 227 : [+syl,αround,αtense,-back] [-syl,-cons,+front,+hi,+tense] > [+hi,-lo,+tense,-cons,-lat,+cont,0delrel] ∅
+Late Proto-Albanian I stage form : *#əndˌeritˈoɲo#
+*#əndˌeritˈɔɲɔ# | 265 : [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
+*#əndˌeɾitˈɔɲɔ# | 281 : r > ɾ 
+*#əndɪɾɪtˈɔɲɔ# | 307 : [-prim,+front,-long,-lo] > ɪ / [+syl] ( @ )* __ ( @ )* [+prim]
+*#ə̃ndɪɾɪtˈɔ̃ɲɔ# | 328 : [-cons] > [+nas] / __ [+nas,+cons]
+Late Proto-Albanian II stage form : *#ə̃ndɪɾɪtˈɔ̃ɲɔ#
+*#ə̃ndəɾətˈɔ̃ɲɔ# | 365 : {ɪ;ɪ̃} > {ə;ə̃} 
+*#ə̃ndəɾtˈɔ̃ɲɔ# | 397 : ə > ∅ / [+syl] [+cons,+son,-long,-back] __ [-cont,-son]
+*#ə̃ndəɾtˈɔ̃ɲə# | 401 : [-stres,+round,-lo] > ə / __ #
+*#ə̃ndəɾtˈɔ̃ɲ# | 405 : [-back,-front,-stres] > ∅ / __ #
+Late Proto-Albanian III stage form : *#ə̃ndəɾtˈɔ̃ɲ#
+*#ə̃ndɾtˈɔ̃ɲ# | 524 : [-hi,-stres] > ∅ / [-syl] __ [+son,+cons,-nas] [+cons]
+*#ə̃ndɾ̩tˈɔ̃ɲ# | 533 : [+cons,+son,-nas] > [+syl,-stres,-prim,+son] / [-son] __ [+cons]
+Proto-Tosk-SGheg stage form : *#ə̃ndɾ̩tˈɔ̃ɲ#
+Proto-Tosk stage form : *#ə̃ndɾ̩tˈɔ̃ɲ#
+*#əndɾ̩tˈɔɲ# | 575 : [-cons,+nas] > [-nas] 
+*#ndɾ̩tˈɔɲ# | 581 : [-prim,-round,-cons] > ∅ / # __ [+nas]
+Old North Tosk stage form : *#ndɾ̩tˈɔɲ#
+*#ndəɾ̩tˈɔɲ# | 603 : ∅ > ə / __ [+cons,+syl]
+*#ndəɾtˈɔɲ# | 604 : [+syl,-cons] [+cons,+syl,aprim,bstres] > [aprim,bstres] [-syl,0stres,0prim]
+*#ndəɾtˈɔj# | 609 : ɲ > j / [-hi] __ #
+Final form : *#ndəɾtˈɔj#

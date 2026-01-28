@@ -6,7 +6,6 @@ import UTILS
 # Source language and the point from which it exists in the lexicon are marked in the comment, surrounded by
     # the "circumfix" : STAGE_CIRCUMFIX
 
-
 OUTPUT ="gjALex.txt"
 STAGE_CIRCUMFIX = "_"
 NATIVE_NAMES = UTILS.STAGES + ["Albanian"]
@@ -76,9 +75,9 @@ INPUTS = {"ALLAPS.txt" : "Latin"  #various stages of Latin currently working fro
           ,"LPSEALLex.txt" : "Proto-Slavic" #Last early wave of Slavic loans -- into Late Proto-Albanian III
 
           , "MGrALAPS.txt" : "Middle Greek" #later waves of Greek.
-          ,"ADoLex.txt" : "Doric Greek dialects" #Doric loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc.
-          ,"AAttLex.txt" : "Attic Greek dialects" #Attic loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc.
-          ,"AMacLex.txt" : "Macedonian, per Huld, " #Macedonian loans into Archaic Proto-Albanian (a likely later time than above tho),
+          ,"ADoLex.txt" : "Doric" #Doric loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc.
+          ,"AAttLex.txt" : "Ancient Greek dialects" #Attic loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc.
+          ,"AMacLex.txt" : "Macedonian0" #Macedonian loans into Archaic Proto-Albanian (a likely later time than above tho),
                 # as assumed by Huld; TODO maybe move to later era?
           ,"AHesLex.txt" : "Classical Proto-Albanian" #Indo-European inheritance attested by Hesychius of Alexandria
                     # as loans presumably from Proto-Albanian into Greek dialects, currently attributed by me to Classical Proto-Albanian

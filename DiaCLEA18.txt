@@ -239,6 +239,14 @@ $DV2.2.1C2: PPAlb *e (but not Latin short E?) undergoes a-mutation, cf. De Vaan 
 $ per De Vaan 2004(:78-83), this is actually going to ja, not simply ɑ, so that is reflected in this rule (this also supports the apparent limitation of this development to the pre-Latin stratum) 
 {j ˈe;ˈe} > {j ˈɑ;j ˈɑ} / __ ([-syl])* [+lo,+syl]
 
+$DV1740.C5 = DV3.2C5 : PPAlb *-nt- > PAlb -n:- (ultimately) in apparently uncertain conditions: "-nt- (3pl., acc.sg.) in post-tonic syllable (?) or retention of the cluster (Janson 1986: 96,154)" -- implementing the post-tonic part here since it was listed, 
+$ -- actually post-tonic means anything after the primary stress (meeting @Aug 9, and is okay with having this as baseline)
+$likewise DV1740C4 = DV3.2C4 : PPAlb -nd- > -nn- 
+$ not intended to affect Latin loans. nn > n: later. 
+$DIACLEA CORRECTION B2.XXI -- nt and nd > nn moved to before Archaic-Proto-Albanian -- don't seem to actually effect AGk loans.
+t > n / [+prim] (@)* n __
+d > n / n __
+
 $ ----------- Pre-Proto-Albanian = pre-Greek proto-Albanian. --------------
 =Archaic Proto-Albanian
 
@@ -265,16 +273,6 @@ $DV4.1B2 -- m to b before l -- DV'18 lists bluan "to grind" < mleh1-, bletë "be
 $DIACLEA CORRECTION C3A.XIII D4.1B2 can see through an unstressed vowel 
 $DIACLEA CORRECTION D4.VI APA ml > bl reinteprreted as ml > mbl
 ∅ > b / m __ ([-stres]) l
-
-$DV1740.C5 = DV3.2C5 : PPAlb *-nt- > PAlb -n:- (ultimately) in apparently uncertain conditions: "-nt- (3pl., acc.sg.) in post-tonic syllable (?) or retention of the cluster (Janson 1986: 96,154)" -- implementing the post-tonic part here since it was listed, 
-$ -- actually post-tonic means anything after the primary stress (meeting @Aug 9, and is okay with having this as baseline)
-$ This is not intended to affect Latin loans.
-$ nn > n: later. 
-t > n / [+prim] (@)* n __
-
-$DV1740C4 = DV3.2C4 : PPAlb -nd- > -nn- ; implemented like above. 
-$This is not intended to affect Latin loans, clearly.
-d > n / n __
 
 $DIACLEA CORRECTION A1.XXXVIII APA pʰ from Greek > p. Take the other aspirates with it for good measure since it's clear for kh at least. Does not feed DV1740.C5 nt > nn though. 
 [-cont] > [-sg]

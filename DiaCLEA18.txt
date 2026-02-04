@@ -247,6 +247,12 @@ $DIACLEA CORRECTION B2.XXI -- nt and nd > nn moved to before Archaic-Proto-Alban
 t > n / [+prim] (@)* n __
 d > n / n __
 
+$DV1744.D & DV1744.E1  --*tɕ *dʝ > *θ *ð -- for De Vaan, these happen in one step, without intermediate stages in alveolar or dental affricates. 
+$ symbol defs and the IPA don't (most typically) use *tɕ *dʝ, these are expressed with c͡ç and ɟ͡ʝ for reasons discussed above in the formulation for DV4.3G1 & H1 
+$ needs to come after the nasal-spirant law in Latin input handling so as not to feed it. 
+$ However, in light of the fact that Proto-Albanian loans reflecting PIE palatovelars reflect as ts dz in Aromanian and various ts s z in Romanian (unlike PAlb ð < PPAlb *d, which reflects with d in Romanian and Aromanian), this is indeed split in two, with the affricate stage first, and the spirantization only after Middle Proto-Albanian (when De Vaan assigns the contact between Proto-Albanian and Proto-Vlach)
+{c͡ç;ɟ͡ʝ} > {t͡s;d͡z}
+
 $ ----------- Pre-Proto-Albanian = pre-Greek proto-Albanian. --------------
 =Archaic Proto-Albanian
 
@@ -280,7 +286,7 @@ $DIACLEA CORRECTION A1.XXXVIII APA pʰ from Greek > p. Take the other aspirates 
 $DIACLEA CORRECTION A2.CXXXVIII  APA c , ɟ from late APA > tʃ dʒ. Counterfed by j ʒ > ɟ etc word initially. Counterfed by DV1743.F2, so still in APA for now. 
 {c;ɟ} > {t͡ʃ;d͡ʒ}
 
-$DV1743.F2 : PPAlb *j before a stressed vowel -- but not the *j that is a glided Latin initial i or e. 
+$DV1743.F2 : PPAlb *j before a stressed vowel -- but not the *j that is a glided Latin initial i or e. Lists n-gjesh "squeeze". Does not feed fate of early Gk etyma with palatalized velars i.e. zall, shpuzë etc.
 j > ɟ / __ [+stres]
 
 $DV2.2.1A4.I: PPAlb *e and Latin ē raise to ultimately *i "sometimes" when before sh -- Latin short e not listed, even though PPAlb *e patterns with Latin short e elsewhere (general outcome: 2.2.1B2; i-mutation outcomes: 2.2.1A3; in CL_ : 2.2.1B1).
@@ -296,7 +302,7 @@ $DIACLEA CORRECTION A1.XXXVII pre-Latin hiatus front vowel reduction -- differen
 [+front,-prim] > j / __ [+syl]
 
 $DIACLEA CORRECTION A2.CXXXXI APA stress advancement from short/weak antepenult to long penult {Tomorr} and from stressed syllable fourth {or more} from end to antepenult. Again it seems stress before a lateral is protected: oleaster > vashter not ulléshter; . Tentatively seems to be after DV1740G3 based on outcome for lepuj -- bleeding. Also doesn't go onto a vowel in hiatus: cichórēa > kore not krejë. Short vowels followed by 2+ consonants do not seem to be "strong" in the sense of getting the stress: génistra > gjeshtər, accípitrem > qiftər, cúlcitra > kultər , dríwasto > Drisht, brˈōtasca > breshkə; but it does happen for pre-Latin Greek items : márathrion > merraje etc. .Counterfed by A2.III
-[+syl] > [+prim] / [+prim] ([-lat] (@)*) __ (@)* [+syl] (@)* [+syl]
+$ this part suppressed -- no effect currently: [+syl] > [+prim] / [+prim] ([-lat] (@)*) __ (@)* [+syl] (@)* [+syl]
 [+syl,+long] > [+prim] / [+prim] [-syl,-lat] __ ([-syl])+ [+syl]
 [+syl] > [+prim] / [+prim] [-syl,-lat] __ [-syl]  ([-syl])+ [+syl]
 [+prim] > [-prim] / __ (@)* [+prim]
@@ -384,12 +390,6 @@ $ DIACLEA CORRECTION C1A.III -- former s-deletion part of the rule broadened to 
 $ TODO revise this, probably deleting the first part.
 [+cor,-son] > ∅ / [-stres] ([+nas,+cons]) __ # 
 [+nas,+cons] > ∅ / [-stres] __ #
-
-$DV1744.D & DV1744.E1  --*tɕ *dʝ > *θ *ð -- for De Vaan, these happen in one step, without intermediate stages in alveolar or dental affricates. 
-$ symbol defs and the IPA don't (most typically) use *tɕ *dʝ, these are expressed with c͡ç and ɟ͡ʝ for reasons discussed above in the formulation for DV4.3G1 & H1 
-$ needs to come after the nasal-spirant law in Latin input handling so as not to feed it. 
-$ However, in light of the fact that Proto-Albanian loans reflecting PIE palatovelars reflect as ts dz in Aromanian and various ts s z in Romanian (unlike PAlb ð < PPAlb *d, which reflects with d in Romanian and Aromanian), this is indeed split in two, with the affricate stage first, and the spirantization only after Middle Proto-Albanian (when De Vaan assigns the contact between Proto-Albanian and Proto-Vlach)
-{c͡ç;ɟ͡ʝ} > {t͡s;d͡z}
 
 $ DIACLEA CORRECTION A2.XXXVIV o unrounds (and fronts?) before m then unround vowel; may need to rethink placement. Going to e for now. Doesn't seem to happen after back elements which supports fronting as the mechanism. (promitt-o- > premtoj "promise"; pōma > pemë "tree" [otherwise would be effeected by shortening]; ? rōmānu- > Arvanite/Arbëreshë/Cham rëmër  & Gheg/Arbanasi remën "shepherd, peasant; Vlach" + dialectal Rëmenj (, Pogradec) < rōmān-ī ; glomerata > grëmëratë "biestlings, curds" ( > Greek gramenada) ... not coma > komë etc.)
 [-hi,+round] > [-round,-lab,-back,+front] / [-back] __ m [-cons,-round]
@@ -649,7 +649,8 @@ $TODO make sure the relevant rules concerning laterals are all placed before thi
 $What we need to do here: ensure that the relevant words can pass to *uo, and won't be bled by fronting to *ø, and we do this by effectively merging them into *ɒː, the reflex of PPAlb *ā. Use *lː for ɫ for now. Need to do this to o:, but not to short o. Allow presence of unstressed non-low vowel (which will fall before long), and a possible nasal following it, to express what will become final position, as they might not have fallen yet by this stage. 
 $ DIACLEA FIX: now using lˠ not lː  { not listed in fixes file bc this is just really about formalism} 
 $ DIACLEA FIX C3B.XVIII: in the case of -r, this does not seem to happen after continuants (nder, tmerr, vlerë, herë, mësherë...) 
-[+round,+syl,-hi,-lo,+long] > [+lo] / __ {[+lat,-front];n;j} ([-stres] ([+nas])) #
+	$ j suppressed in disunction after locus -- cufrrently not involved. 
+[+round,+syl,-hi,-lo,+long] > [+lo] / __ {[+lat,-front];n} ([-stres] ([+nas])) #
 [+round,+syl,-hi,-lo,+long] > [+lo] / [-cont] __ r ([-stres] ([+nas])) #
 
 
@@ -1226,7 +1227,7 @@ $ incorporates DIACLEA CORRECTION A2.XXXXI - ø > œ (and o > ɔ) before it is u
 [+syl,+round,-hi,-lo] > [-tense]
 
 $D3.X.b1 For ɛ œ it occurs initially when each is stressed (after ø > œ, for convenience) and before a sonorant (or hiatus, but that counts as sonorant). As of Nov 11, 2025, sonorance restriction relaxed too as only exception is eshkë. As of Nov 11, 2025, this also now happens to æ, before becoming ɑ.
-[-tense,+lo] > [-long]
+$ this part suppressed: no effect -- [-tense,+lo] > [-long]
 [+prim,-tense] > [+long] / # __ 
 
 $DIACLEA CORRECTION A2.L.a.ii -- eː reflecting æ(ː) raises to ɪ between same sonorance consonants. 
@@ -1245,7 +1246,8 @@ $ all of the below furthermore reformulated per D4.III to be included in iotatio
 $C1.B.XVI.ʎ
 ˈɛ > ˈɛː / [+strid] t __ [+lat]
 $ C1.B.XVI.t
-ˈɛ > ˈɛː / {[-cons] [+cor,-lat,-nas,+son];[rson,rnas]} __  {[+cor,-lat,-nas] [+strid,+cont];([+cor,-lat,-nas]) [-delrel,-back,-voi]} [+son]
+	$og, before first disjunction suppressed for having no effect -- ˈɛ > ˈɛː / {[-cons] [+cor,-lat,-nas,+son];[rson,rnas]} __  {[+cor,-lat,-nas] [+strid,+cont];([+cor,-lat,-nas]) [-delrel,-back,-voi]} [+son]
+ˈɛ > ˈɛː / [rson,rnas] __  {[+cor,-lat,-nas] [+strid,+cont];([+cor,-lat,-nas]) [-delrel,-back,-voi]} [+son]
 $ C1.B.XVI.d
 [+prim,-lo,-hi,-round] > [+long,-tense] / [nson,nnas] __   (r) [+voi,+cons,-son] ([+hi,-back,-nas]) [+back]
 
@@ -1640,7 +1642,7 @@ $ DIACLEA CORRECTION C3A.1: while preserving the deletion of ə between n and T,
 $ DIACLEA CORRECTION C3A.2: also, pretonic NəN to NN if there is a consonant somewhere beforehand (i.e. not inimicus > armik). Dec nine 2o25 -- extended to hit ə̃ as well. Dec 17, 2025 -- extended to hit ɪ.
 {ə;ɪ;ə̃;ɪ̃}> {∅;∅;∅;∅} / [+cons] (@)* [+nas,+cons] __ [+nas,+cons] (@)* [+prim]
 
-$DIACLEA CORRECTION A2.LVI : schwa deleted in R/N m ə N (qerm, kungoj, kernjoj, kulm -- not elsewhere, see the flapping in femër, numëroj < nomin-ā-, djemër, timër). Dec nine 2o25 -- extended to hit ə̃ as well. 
+$DIACLEA CORRECTION A2.LVI : schwa deleted in R/N m ə N (qerm, kungoj, kernjoj, kulm -- not elsewhere, see the flapping in femër, numëroj < nomin-ā-, djemër, timër). Dec nine 2o25 -- extended to hit ə̃ as well. TODO currently no domain though-- address. 
 [-back,-front,-stres] > ∅ / [+son,+cons] m __ [+nas,+cons]
 
 $ end of this wave of vowel drops _- VOWEL DROP WAVE -_
@@ -1676,7 +1678,7 @@ $DV2.2.1C5: Latin short e > a in "q, sh" __ "rr, l". No explicit word on the dat
 $Per its current placement after ietation, a j is imposed, and ˈɛ is used. 
 $no clear way to block this for PPAlb *e, so this will need to be fixed if errors arise (TODO) 
 $ DIACLEA CORRECTION C3B.XX-- DV2.2.1C5 e > a now only after long coronals, short l hits too many wrong items, no evidence of this before lˠ either. (prev:  __ { rː;[+lat] }) 
-ˈɛ > ˈɑ / {k;[+cor,-lab,+cont]} __ [+cor,+long,-nas,+son]
+ˈɛ > ˈɑ / {c;[+cor,-lab,+cont]} __ [+cor,+long,-nas,+son]
 
 $DIACLEA CORRECTION A2.LXIII LPA I loss of labial obstruents after other labial consonants, perhaps separated from them by RV. Possibly involved in lengthening? TBD.
 [+lab,-son] > ∅ / [+lab,+cons] (([+son,+cons]) [+syl]) __ [-son,-lab]

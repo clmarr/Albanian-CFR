@@ -11,7 +11,7 @@ $ MAJOR MORPHEMES IN USE -- see morphemics file for more
 $ VERBAL INFLECTION, not including many grade changes 
 	$ preference for these forms: 
 		$ participle 
-		$ 1sg = 3sg >>> 3pl >> 2sg = 1pl ; generally exclude 2pl as it is usually replaced esp in present
+		$ 1sg = 3sg >>> 3pl >> 2sg = 1pl ; generally exclude 2pl as ffit is usually replaced esp in present
 		$ 2sg imperative occasionally when most secure
 		$ present > aorist >>> past imperfect >> rest 
 		$ indic > subj , but in subj 3sg >> 1sg = 3pl >>>>>>> rest 
@@ -108,11 +108,9 @@ $TODO -- iterate through
 $ FIRST DORSAL ROW - front dorsals. Current policy k1 g1 gh1 h1 = c ɟ ɟʰ x but this could change
 $TODO check for implementation of policy
 
-
 $k1
 
-
-$k₁-h₁-s
+$k₁-h₁-s 'say' 
 c ˈe χ s m i , θ ˈɔ m , θ ˈɔ m $say.1sg.pres.act.indic. Demiraj AE 399. De Vaan 2018: 1746.   Lat ce-n-seo, Skt śāsti. Neri 2020 @DPEWA : thotë
 c ˈe χ s e s , θ ˈu o̯ , θ ˈu a̯ $say.2sg.pres.act.indic
 c ˈe χ s o i , θ ˈu o̯ , θ ˈu a̯ $say.2sg.pres.act.indic per Schumacher '13: 262. 
@@ -144,22 +142,35 @@ c χ ˈe m b e r e χ , θ ˈæ̃ m b ɾ̩ , θ ˈɛ m b ə ɾ $heel. Gk s-kambo
 
 
 $k₁-h₃ sharp
-	$k1-e-h3{-i-} "sharp, sharpen, whet" 
+	$k1-h3-i- "sharp, sharpen, whet" 
 c xʷ i q ˈe χ , θ ˈi k ə , θ ˈi k ə $knife. Bardhyl and Imberciadori 2024: https://www.dpwa.gwi.uni-muenchen.de/dictionary/?lemmaid=28257. Orel 1998: 477-8 as from a PIE *k¹éi-, cf to Sanskrit śiśati "to whet", Armenian sur "sharp; knife". Possibly loaned from CPA *t͡siːkɑ > Lat. sīca. On the basis of the Sanskrit śā, PIE k1eh3-i- 'sharpen' -- NIL 411 -- hence Latin cō-t-em, English ho-ne, Ancient Greek kô-nos. Unique extension in -kos. 
-c xʷ e q ˈo , θ ˈa k , θ ˈa k $fringe. thekë is an i-mutated plural it seems; thekër/-n 'rye' has similar origins. Orel 1998: 473; Demiraj 1997: 393. Lith šakà 'bough, twig', Sanskrit śākhā id. 
-
-k m̩ c xʷ p ˈo s , k ə θ ˈa p , k ə θ ˈa p $claw. Root -thap may be backformed off of thep? Lat. cippus, indirect. Demiraj AE 395. 
 		$k1-e-h3-i-p peak 
 c xʷ ˈe i p o s , θ ˈɛ p , θ ˈɛ p $peak. -p- derivation a la Orel 2000: 152. Prefer this to coxʷpo of Demiraj 1997ː 395. Orel 1998: 474. Lent Romanian țeapă.
+	$k1-h3-k2 
+c xʷ e q ˈo , θ ˈa k , θ ˈa k $fringe. thekë is an i-mutated plural it seems; thekër/-n 'rye' has similar origins. Orel 1998: 473; Demiraj 1997: 393. Lith šakà 'bough, twig', Sanskrit śākhā id. 
+	$k1-h3-p
+kʷ m̩ c xʷ p ˈo s , k ə θ ˈa p , k ə θ ˈa p $claw. Root -thap may be backformed off of thep? Lat. cippus, indirect. Demiraj AE 395. 
 
-xʷ ˈe c e xʷ n o s , θ ˈu o̯ , θ ˈu a̯ $nail. Orel PA 152. Cf. Greek ákanos "thorny fruit", ákaina "tip, point" 
-xʷ ˈe c e xʷ n e bʰ o s , θ ˈu m b , θ ˈu m b $thorn. Orel PA 152. 
-
-	$k1eh3-{e}{s}tr- 
+	$k1-h3-{e}{s}tr- 
 c xʷ ˌe s t r ˈo m , θ ˈa d ɾ̩ , θ ˈa d ə ɾ $kind of double-edged axe. Orel 1998: 471 as from PAlb *tsestra cognate to Skt śastrá 'knife, sword', but PROPOSAL LARYNGEAL METATHESIS creates same outcome as o-grade gives the same Skt outcome -- PROPOSAL going with this. Demiraj 1997: 391 has ϑat(Vr)- < QIE *ḱh3-to/t(e)r-, with the -d- explained as 'dialectal'; NIL 411, 413 follows him and connects it to Latin, supposeldy from Gaulish, catanus 'cedar juniper', and Latin Catō, Catonis.  
 kʷ m̩ c xʷ ˈe t r o  m , k ə θ ˈa t ɾ̩ , k θ ˈa t ə ɾ $talons {bird of prey}. May be from same item as above. Unclear Demiraj 1997: 391. From kʷu- perhaps same as above, though Demiraj has a different reconstruction for it. Increasingly the i-mutated plural këthetër. PROPOSAL that this reflects the instrumental deverbal noun derivational affix -trom 
 
-	$k1eh3-ro-/rH to cut, prick, pierce; shatter --< development into words for milking are paralelled in many IE langs. Arm sowr 'sharp' . Gk kairos "row of thrums on floor"
+	$k1-h3-n prick , pierce?
+xʷ ˈe c e xʷ n o s , θ ˈu o̯ , θ ˈu a̯ $nail. Orel PA 152. Cf. Greek ákanos "thorny fruit", ákaina "tip, point" 
+xʷ ˈe c e xʷ n e bʰ o s , θ ˈu m b , θ ˈu m b $thorn. Orel PA 152. 
+		$k₁-h₃-n-i-d 'louse' 
+c xʷ n ˈi d s , θ ə̃ ɾ̃ ˈi , θ ə ɾ ˈi $louse. Schumacher '13ː 236-7.  Cognate to AGk konís, OHG hniz, Old Armenian anic, Old Irish sned, Middle Welsh nedd, Latvian gnīda, Czech hnida etc. TODO Ending in -s uncertain.
+		$k1_s_h3-n break? 
+c e s ˈe xʷ n i o χ , θ ˈy e̯ ɲ , θ ˈy e̯ j $break.1sg.pres.act.indic. PROPOSAL: cognate to Lat. carēō "to miss" < Proto-Italic cazēō < PIE ces-eh1yeti. Uncited on Wiktionary:  Proto-Indo-European *ḱeh₃i- (“sharpen”) (compare English hone, Persian سان (sân, “whetstone”)). TODO Sus? 
+c e s ˈe xʷ w ˈe s m̩ , θ ˈœ v ˌa , θ ˈɛ v a $break.1sg.aor.act.indic. PROPOSAL on form details. 
+kʷ m̩ c ˈe xʷ n i o χ , k ə θ ˈœ̃ ɲ , k θ ˈɛ j $turn/twist.1sg.pres.act.indic. PROPOSAL on form details. 
+kʷ m̩ c ˈe xʷ n o s , k ə θ ˈy ø̯ ɾ̃ , k θ ˈy e̯ ɾ $turn/twist.pastparticiple. PROPSOAL. 
+
+		$c-h3-rH--qos enclosure for milking -- cf Armenian sarik' ‘band, rope’
+c xʷ ˈe r x q o s , θ ˈa ɾ k , θ ˈa ɾ k $enclosure for cattle, pigs. Cabej 1986 VII: 199, 204. Orel 1998: 472. PROPOSAL of metathesis with laryngeal; otherwise c ˈo r x q o s. Borrowed to Romanian as țarc altho Latin circus may also be at play; also lent Gk. tsarkos. Armenian sarik' ‘band, rope’. cark may be reloan or see below.
+t o c xʷ ˈe r x q o s , t͡s ˈa ɾ k , t͡s ˈa ɾ k $variant of cattle pen, thark; see above. PROPOSAL of prefixation with NeP, following model of sup/cup per Demiraj 1997: 355.
+
+	$k1-h3-ro-/rH to cut, prick, pierce; shatter --< development into words for milking are paralelled in many IE langs. Arm sowr 'sharp' . Gk kairos "row of thrums on floor"
 c xʷ ˈe r o χ , θ ˈa ɾ , θ ˈa ɾ $milkferment.1sg.pres.act.indic. Common semantic development. Orel 1998: 472 connects to ther. Lith kar-tus 'bitter' etc; other synonyms listed are very dubious. Cabej 1986 VII: 225, 239. Aorist is probably analogical. PROPOSAL of metathesis with laryngeal
 c xʷ ˈr̩ x o χ , θ ˈu ɾ , θ ˈu ɾ $fence/plait/weave.1sg.pres.act.indic. Zero grade, per Orel 1998: 482. Camarda apud Orel instead had a loan from AGk thyron to furnish with doors -- TODO consider.  Orel's PAlb *thurja form is not a reconstruction that gives hte right reflexes, disregarding it therefore.
 c xʷ ˌr̩ x ˈe s m̩ , θ ˌu ɾ ˈa , θ ˈu ɾ a $fence/plait/weave.1sg.aor.act.indic. Aorist of the above. May be analogical.
@@ -170,6 +181,10 @@ c ˌo xʷ r ˈeː q e χ , θ ə ɾ ˈɔ k ə , θ ə ɾ ˈɔ k ə $"Passerina h
 c ˌo xʷ r i ˈe m e χ , θ ə r ˈi m ə , θ ə r ˈi m ə $crumb. Now sing is taken from plural in -e. Romanian s-fărîmă is a blend of this and exform-a-. Orel 1998: 477. 
 c ˌo xʷ r i e m ˈe χ n e o χ , θ ə r i m ˈɔ̃ ɲ , θ ə r m ˈɔ j $crumble.1sg.pres.act.indic. Orel 1998: 477. Form is PROPOSAL. Romanian a fărima. 
 
+	$metathetic k1-r-h3-p- -- a prickly plant? One PROPOSAL for these words
+c r̩ xʷ e p ˈo s , k ˈu ɾ p , k ˈu ɾ p $old man's beard {plant}. PROPOSAL. 
+c r̩ xʷ e p n ˈe χ n o , k u ɾ m ˈu o̯ , k u ɾ m ˈu a̯ $halt? Unclear possibly ghost word, cf Romanian a curma. Attributed to Greek kormázo but may instead be a cognate. 
+
 c xʷ ˈe r x bʰ o s , θ ˈa ɾ b , θ ˈa ɾ b $yeast. Uncited but clear -bh- > -b derivative in line with others listed by Orel 2000:152, including *tharbë.  Medial laryngeal may not be necessary but included for consistence with thark. PROPOSED laryngeal methatesis.
 c xʷ ˈe r x bʰ m̩ t m̩ , θ ˈa ɾ b ə t ə , θ ˈa ɾ b ə t $sour. Og tharbë < bh- per Orel 2000: 152, the nsuffixed in nyja -t-, using -m̩ per adjectival ending policy. Romanian sarbăd, with voicing of the -t- to -d- also seen in Beskidy mtn range from beskai tai, per Orel 1998: 472. Medial laryngeal may not be necessary but included for consistence with thark. PROPOSED laryngeal methatesis.
 c xʷ ˈe r x bʰ t m̩ , θ ˈa ɾ t ə , θ ˈa ɾ t ə $sour, related to the above. Orel 1998: 472.
@@ -177,29 +192,16 @@ c xʷ ˈe r x m o s , θ ˈa ɾ m , θ ˈa ɾ m $sourdough, yogurt ferment. Cf L
 
 c ˈo xʷ r n e χ , θ ˈɛ r ə , θ ˈɛ r ə $sting, quill, thorn. PROPOSAL. Relation to ther noted by Demiraj 1997: 396
 
-		$ceh3-rH--qos enclosure for milking -- cf Armenian sarik' ‘band, rope’
-c xʷ ˈe r x q o s , θ ˈa ɾ k , θ ˈa ɾ k $enclosure for cattle, pigs. Cabej 1986 VII: 199, 204. Orel 1998: 472. PROPOSAL of metathesis with laryngeal; otherwise c ˈo r x q o s. Borrowed to Romanian as țarc altho Latin circus may also be at play; also lent Gk. tsarkos. Armenian sarik' ‘band, rope’. cark may be reloan or see below.
-t o c xʷ ˈe r x q o s , t͡s ˈa ɾ k , t͡s ˈa ɾ k $variant of cattle pen, thark; see above. PROPOSAL of prefixation with NeP, following model of sup/cup per Demiraj 1997: 355.
 
-	$metathetic k1-r-h3-p- -- a prickly plant? One PROPOSAL for these words
-c r̩ xʷ e p ˈo s , k ˈu ɾ p , k ˈu ɾ p $old man's beard {plant}. PROPOSAL. 
-c r̩ xʷ e p n ˈe χ n o , k u ɾ m ˈu o̯ , k u ɾ m ˈu a̯ $halt? Unclear possibly ghost word, cf Romanian a curma. Attributed to Greek kormázo but may instead be a cognate. 
 
 $----$
 
-	$k1-h3-n breaking, pricking
-c e s ˈe xʷ n i o χ , θ ˈy e̯ ɲ , θ ˈy e̯ j $break.1sg.pres.act.indic. PROPOSAL: cognate to Lat. carēō "to miss" < Proto-Italic cazēō < PIE ces-eh1yeti. Uncited on Wiktionary:  Proto-Indo-European *ḱeh₃i- (“sharpen”) (compare English hone, Persian سان (sân, “whetstone”)). TODO Sus? 
-c e s ˈe xʷ w ˈe s m̩ , θ ˈœ v ˌa , θ ˈɛ v a $break.1sg.aor.act.indic. PROPOSAL on form details. 
-kʷ m̩ c ˈe xʷ n i o χ , k ə θ ˈœ̃ ɲ , k θ ˈɛ j $turn/twist.1sg.pres.act.indic. PROPOSAL on form details. 
-kʷ m̩ c ˈe xʷ n o s , k ə θ ˈy ø̯ ɾ̃ , k θ ˈy e̯ ɾ $turn/twist.pastparticiple. PROPSOAL. 
-		$k₁-h₃-n-d 'louse' 
-c xʷ n ˈi d s , θ ə̃ ɾ̃ ˈi , θ ə ɾ ˈi $louse. Schumacher '13ː 236-7.  Cognate to AGk konís, OHG hniz, Old Armenian anic, Old Irish sned, Middle Welsh nedd, Latvian gnīda, Czech hnida etc. TODO Ending in -s uncertain.
-
 
 $k1-w
-
+	k1-w-h1 dark/burnt?
 c ˈo w x i l m̩ , θ ˈæ lˠ ə , θ ˈɛ lˠ ə $deep; dark {color}. Schumacher '13 ː 252.  couilo- also per Pokorny apud Demiraj 1997: 394. -m̩ per current adjectival policy. Cf Greek koîlos. cowHilo- per Neri 2020 in DPEWA https://www.dpwa.gwi.uni-muenchen.de/dictionary/?lemmaid=14028. Orel 1998: 474.
 
+	$k1-w-k2 toast
 c ˈe w q o χ , θ ˈɛ k , θ ˈɛ k $toast.1sg.pres.act.indic. Baric ARSt I 13 apud Orel, Demiraj 1997: 393. Cf Skt socati, Avestan saok, Persian suxtan. Alternative below -- Orel 1998: 473 prefers cnk cf Greek Hesychius kénkeipeina, kankoménɛ̄s , polykankɛ̄s. 
 c ˈn̩ q o χ , θ ˈɛ k , θ ˈɛ k $toast.1sg.pres.act.indic. Alternative to the above. Orel 1998: 473 prefers cnk cf Greek Hesychius kénkeipeina, kankoménɛ̄s , polykankɛ̄s.
 
@@ -264,7 +266,8 @@ c r̩ x ˈe m o s , >* , k ˈu ɾ m $slice of meat, tree trunk, torso. PROPOSAL.
 
 χ e n c ˈe r n o χ , n d͡z ˈi e̯ r , n d͡z j ˈɛ r $bring forth. DemirajAE 303. Arm serem 
 
-c r̩ χ s e n ˈe χ , ɡ ɾ ˈæ̃ː ɾ̃ ə , ɡ ɾ ˈɛ ɾ ə $hornet. Gheg grên, ARrvanitic grəraz. Cf Latvian sirsenis. Rejected Latin etymology: $Vespa vulgaris. Attributed to Lat. crābro, crābrōnem in Jokl 1916(ː103), Bugge, Vatasescu 1997: 221, alas this is probably actually an IE cognate -- cf. Cabej 1982(:108). TODO remove once done testing this. TODO final -ë analogical?
+c r̩ χ s e n ˈe χ , ɡ ɾ ˈæ̃ː ɾ̃ ə , ɡ ɾ ˈɛ ɾ ə $hornet. Gheg grên, ARrvanitic grəraz. Cf Latvian sirsenis. Rejected Latin etymology: $Vespa vulgaris. Attributed to Lat. crābro, crābrōnem in Jokl 1916(ː103), Bugge, Vatasescu 1997: 221, alas this is probably actually an IE cognate -- cf. Cabej 1982(:108)
+
 $crm, crw 'gray'
 c ˈr̩ w o s , θ ˈi r , θ ˈi r $soot. Cf Lithuanian širv-as 'grey'. Orel 1998: 478. CHECK ETYMOLOGY
 c ˈe r u n e χ , θ ˈi e̯ r ə , θ j ˈɛ r ə $lentils. Cf however thjerə in APBalkLex -- same item? Orel 1998: 479 also makes this connection, vs. Jokl apud Orel who connects itto Lith šer-ti "to feed", which would have the same form roughly it seems. 
@@ -282,14 +285,14 @@ $g1-
 ɟ ˈe m bʰ o χ , ð ˈɛ̃ m b , ð ˈɛ m b $smart.1sg.pres.act.indic. Cf. Skt jámbhate 'snap'. Demiraj AE 156. 
 ɟ ˈo m bʰ o s , ð ˈã m b , ð ˈə m b $tooth. Gheg dhâmb. Schumacher 2013: 210, 211. Demiraj 1997: 158. Orel 1998: 82. De Vaan 2017: 1746. English comb, Greek γομφίος (gomfíos, “molar”), Serbo-Croatian zȗb “tooth" etc.
 
-$ɟ-n-x rub
+	$ɟ-n-x rub
 ɟ n ˈe x m n̩ , >* , ɲ ˈɔ m ə $tender. Cf Gothic hna-s-qus, Old English hnesce. Demiraj AE 306. Imberciadori '24 @DPEWA. 
 ɟ n ˈe x m o χ , >* , ɲ ˈɔ m $soak.1sg.pres.act.indic. Demiraj AE 306. 
 
-$ɟ-n-x "tribe"
+	$ɟ-n-x "tribe"
 ɟ ˈe n x t i s , ð ˈɛ̃ː nː , ð ˈɛ n $herd of mall cattle. may have become the plural for sheep. Variant dhən,dhənd; Gheg dhēn. Demiraj 1997: 157. NIL 140, 148. Cognates: AGk genesis, Latin gens/gentis/-em, Skt jātí, Engl/Norse kind etc. 
 
-$ɟ-n-xʷ "recognize, know", + inchoative -sc-, cf Latin gnōscō, Gk gignẃscw. Demiraj 1997: 305; Orel 1998: also 305. Per Schumacher 2013, present stem as zero grade; TODO PERHAPS revise this.
+	$ɟ-n-xʷ "recognize, know", + inchoative -sc-, cf Latin gnōscō, Gk gignẃscw. Demiraj 1997: 305; Orel 1998: also 305. Per Schumacher 2013, present stem as zero grade; TODO PERHAPS revise this.
 		$ Schumacher '13 has these with a root ɟn̩xʷ -- why not ɟnexʷ perhaps because that would give ō ? ɟnxʷex- possible -- Cf. h₁en-ɡʷʰreh₁scoh₂ > ngroh " heat up", likewise ftoh   -- but it might not solve the issue. 
 ɟ n xʷ s c ˈe t i , ɲ ˈæ x , ɲ ˈɛ h $verb, know.3sg.pres.act.ind. Regular, w i-mutation, per Schumacher 2013: 222. Central Gheg has some njef; Arbereshe has some njegh. 
 ɟ n xʷ s c ˈe s i , ɲ ˈæ x , ɲ ˈɛ h $verb, know.2sg.pres.act.ind. Regular, w i-mutation, per Schumacher 2013: 222. Central Gheg has some njef; Arbereshe has some njegh. 
@@ -297,18 +300,20 @@ $ɟ-n-xʷ "recognize, know", + inchoative -sc-, cf Latin gnōscō, Gk gignẃs
 ɟ n e xʷ s c ˈo χ , ɲ ˈɔ x , ɲ ˈɔ h $verb, know.1sg.pres.act.ind. Schumacher 2013: 231-2 -- crossed paradigm remarks. Central (Budi) Gheg njof (NW njoh -- Buzuku at least); Northeast (Bogdani) has both.
 ɟ n xʷ s c ˈo m , ɲ ˈɔ x ə , ɲ ˈɔ h ə $verb, know.1sg.impf.act.ind. njohë in Old Gheg. Schumacher 2013: 210. This is a Gheg form apparently; unclear how it would surface in Tosk. Modern imperfects now in njih(n)j-... 
 
-$ɟ-n-w knee 
+	$ɟ-n-w knee 
 ɟ n ˈu n o s , ɡ ʎ ˈũː , ɟ ˈu $knee. Proto-Alb *glũː -- Lab/Cham/Arb/Arv glū, Gheg gjû. May be loan from Celtic, but short vowel is inherited in Alb and long in Celtic making that less likely. Hyllested & Joseph 2022; Lopuhaa 2015; Demiraj 1997: 190. Arbanasi gynj, ARb glu, glunjë, occasional Gheg gũ. OIr. glún ‘knee’; Go. kniu ‘knee’. 
 
+	$g1-l-h1 
 ɟ l̩ x i r ˈo s , ɡ ʎ ˈɛ ɾ , ɟ ˈɛ ɾ  $dormouse. Related to the dormouse/sister-in-law word. NATIVE PROPOSAL, via caland -ro usurping s. Cf. AGK galéē. Rejected etymology from Latin glis, glirem: dormouse. May be native instead.  Attributed to "another stage of contacts" in which Lat ī > Alb e per Orel 2000: 34. Bonnet 1998: 380. Arbëreshë has lir and ler; these may be later Romance loans (cf. Neapolitan gliero, gliro; Fr. loir, etc.) or a separate etym/item (see below). Some Gheg has ger, and some dialects have ger instead as meaning "squirrel" (Bonnet 1998: 247). 
 
+	$g1-r-w wheat 
 ɟ r u χ n ˈe χ , ɡ ɾ ˈũ ɾ̃ ə , ɡ ɾ ˈu ɾ ə $wheat. Schuamcher '13: 238. Lat grānum,. 
 ɟ r u χ n i e χ , ɡ ɾ ˈỹ ɲ ə , ɡ ɾ ˈy ɲ ə $of wheat. Schumacher '13: 249. 
 
 $gh1- 
 ɟʰ e j m ˈo n o s , d ˈĩ m ə̃ ɾ̃ ə , d ˈi m ə ɾ $winter. PAlb *diməɾ̃ə: Buzuku dimënë, Gheg dimën. Lopuhaa 2015: 12 as ǵheimeno-, cf. Gr. kheimōn, Lit. žiemà . Orel 1998: 66. Schumacher and Matzinger 2013(:227) have a PAlb *j́īmanʉh from earlier -mōn suffix cf Greek kheimɔ́ːn. Demiraj 1997: 133 as ɟʰei-mon-. NIL 162. Intermeting this as the accusative -mónm̩ of PIE agentive -mˈō, with -os added, considering these all togehter. Schumacher '13: 227.
 
-$ɟʰew- 'voice' words, all seem to be zero grade.
+$ɟʰ-w- 'voice' words, all seem to be zero grade.
 ɟʰ w ˈo n o s , z ˈɑ̃ː , z ˈə $voice. Gheg zâ. Arb zəː. Def zëri, Gheg zâni. cf Messapic den. Schumacher 2013: 212. De Vaan '18: 1746. Demiraj 1997: 425. Initial stressed o-grade. Scr zvono-. Arm jayn etc.
 ɟʰ w l o m ˈn̩ , z ˈu l m ə , z ˈu l m ə $glory. PROPOSAL drawing from Orel 2000: 161, 1998: 526. Non-suffixed form zulë, perhpas o consider. 
 ɟʰ w ˈe χ ɢ o s , z ˈɔ ɡ , z ˈɔ ɡ $bird. Armenian jag. Schumacher '13: 239.
@@ -339,6 +344,7 @@ s w ˈe l xʷ n o , d ˈi e̯ l , d ˈi e̯ l $sunday. De Vaan 2018: 1740.
 
 $h1- 
 
+$h1-k1-w horse
 x ˈe c w o t i ˈe χ , s ˈa s ə , s ˈa s ə $horsetail. Tentative. NIL 231. 
 
 x e ɟʰ s e c e l x i ˈe n e o χ , ʃ k ʎ ˈy e̯ ɲ , ʃ c ˈy e̯ j $ verb, break.1sg.pres.act.indic. Lopuhaa 2015: 14-5. Imberciadori '24 instead as dis-k/cléx³dʰ-e/o : https://www.dpwa.gwi.uni-muenchen.de/dictionary/?lemmaid=25354
@@ -369,7 +375,7 @@ x w o s ˈe j o χ , v ˈɛ ʃ , v ˈɛ ʃ $wear.1sg.pres.act.indic. Skt vas-te,
 x w o s ˈe j e t i , v ˈɛ ʃ , v ˈɛ ʃ $wear.3sg.pres.act.indic. Schumacher '13: 253. 
 x w ˈe n o χ , v ˈæ̃ː ɾ̃ , v ˈə $put.1sg.pres.act.indic. Gheg vẽː , Arb vəː. Schumacher '13: 218
 
-x w l x s s i x , l ˈæ ʃ , l ˈɛ ʃ $wool, fleece. Demiraj AE 238
+x w l x s s ˈi x , l ˈæ ʃ , l ˈɛ ʃ $wool, fleece. Demiraj AE 238
 
 $1sg pronouns -- see literature within. 
 x ˈe m e , j ˈĩ m , ˈi m $1sg.poss.msg. Gheg jem. Orel 1998: 155 as from is me; Demiraj 1997: 206 as em- cf. Gk emós, Arm im. Hamp 1965: 135 comparison to these plus Gaulish im-. 
@@ -960,8 +966,7 @@ $gh3
 
 ɡʷʰ i x ˈe s l o s , >* , d ˈɛ lˠ $tendon. Orel 2000: 150. Cf. Lyth gýsla 'blood-vessel', Slav zhila 'tendon', Latin fīlum, Armenian ǰil 'inew'. 
 
-ɡʷʰ ˈe m b o n o s , z ˈɛ̃ m ə̃ ɾ̃ ə , z ˈɛ m ə ɾ $heart,TODO PROPOSAL until found cited somewhere TODO check. 
-ɡʷʰ ˈe n m o n o s , z ˈɛ̃ m ə̃ ɾ̃ ə , z ˈɛ m ə ɾ $heart.alternative to the above, per Neri 2011. https://www.dpwa.gwi.uni-muenchen.de/dictionary/?lemmaid=21854#kapitel6
+ɡʷʰ ˈe n m o n o s , z ˈɛ̃ m ə̃ ɾ̃ ə , z ˈɛ m ə ɾ $heart. Etymology per Neri 2011. https://www.dpwa.gwi.uni-muenchen.de/dictionary/?lemmaid=21854#kapitel6
 ɡʷʰ ˈe n m ˈe n m̩ , z ˈɛ̃ m ə̃ ɾ̃ ə , z ˈɛ m ə ɾ $heart. synthesis of the two above, with accsg of mˈēn, -mˈenm̥
 ɡʷʰ ˈe n m n̩ , z ˈɛ̃ː , z ˈɛ $will, soul, mind. Not in Standard Tosk. Insecure Gheg zê and Arbëreshë forms (Giardano 1963: 567) zë (def. zëa) and zëe (zëja), etymologically connected to zemër "heart" by various scholars (Meyer 1891: 483, Çabej 1986 III: 269 arguing for latter's suffixation in -ërë). "verbbalastraktrum" gʷʰén-m-n̩, (not) possessive adjectivge gʷʰén-m-o form per Neri & Demiraj 2022 in DPEWA cf. https://www.dpwa.gwi.uni-muenchen.de/dictionary/?lemmaid=21854.
 
@@ -977,7 +982,6 @@ x e n ɡʷʰ r ˌe x s c ˈo χ , >* , ŋ ɡ ɾ ˈɔ h $verb, to heat up, 1sg.in
 
 ɡʷʰ ˈe j d i s , z ˈiː , z ˈi $black.msg. Demiraj AE 427. Gr. φαιός ‘(dark)grey, black’; φαίδιμός ‘brilliant’
 ɡʷʰ ˈe dʰ i e χ , z ˈɛ z ə , z ˈɛ z ə $black.fsg. 
-
 
 ɡʷʰ r̩ s dʰ ˈe χ , d ɾ ˈi θ ə , d ɾ ˈi θ ə $cereals, wheat. Cf. Gr. κριθή ‘barley’, OHG gersta ‘barley’, Lat hordeum; Demiraj wonders about a wanderwart, Orel finds the sd-zd outcome here surprising but alas. Demiraj 1997: 145. Orel 1998: 75. 
 
@@ -1110,9 +1114,7 @@ w ˈe r ɟʰ o χ , w ˈi e̯ ɾ ð , v j ˈɛ ɾ ð $wind/wean?1sg.pres.act.ind
 d i s w ˈe r ɟʰ o χ , z v ˈi e̯ ɾ ð , z v j ˈɛ ɾ ð $wean.1sg.pres.act.indic. Demiraj AE 423. Secondary? 
 d i s w ˈeː r ɟʰ ˈe s m̩ , z v ˈɔ ɾ ð ˈa , z v ˈɔ ɾ ð a $wean.1sg.aor.act.indic. Demiraj AE 423. Secondary? 
 
-
 w r̩ χ d n i χ , r ˈɑ̃ ɲ ə , r ˈə ɲ ə $root. Schumacher '13: 230. De Vaan 2018: 1740. Lat rādix, Middle Welsh gwreid, Old High German wurz, Old Icelandic rot. 
-
 
 w r̩ t ˈm̩ , ˈu ɾ t ə , ˈu ɾ t ə $smart. Cf. Eng a-ware etc. Schumacher '13: 229.
 
@@ -1174,7 +1176,7 @@ p ˈu d n e χ , p ˈu n ə , p ˈu n ə $work. Gk s-peudw "hurry", LIth spausti
 $pekʷ- 'cook, ripen' 
 p ˈe kʷ o χ , p j ˈɛ k , p j ˈɛ k $roast.1sg.pres.act.indic. Rix LIV 2001: 468, Orel 1998: 329, Beekes EDG 1181, Schumacher '13: 217 . Known IE verb pekʷ-eti -- Sanskrit pacati, Greek pessw, Lat coquō, Slav pekõ, Lithuanian kepù, Welsh pob-. 
 p ˈe kʷ ˈm̩ , p j ˈɛ k ə , p j ˈɛ k ə $roast {noun}. NIL 549. Cognate maybe to Old Church Slavonic pekʊ, śva-paca "dogcooker". TODO very dubious. Also pjekje. May be secondary. 
-p ˈeː kʷ w ˈe s m̩ , p ˈɔ c ˈa , p ˈɔ c a $roast.1sg.aor.act.indic. TODO PROPOSAL from -w- aorist, cf. pekʷwo > pakvá "cooked". 
+p ˈeː kʷ w i ˈe s m̩ , p ˈɔ c ˈa , p ˈɔ c a $roast.1sg.aor.act.indic. TODO PROPOSAL from -w- aorist, cf. pekʷwo > pakvá "cooked". 
 $piq- imperfects would likely be analogy.
 
 
@@ -1910,8 +1912,6 @@ s m ˈe c r e χ , m ˈi e̯ k ɾ̩ , m j ˈɛ k ə ɾ $chin, beard. Demiraj AE 
 $shtat is rather a Latin loan not from stχtu- -- Demiraj AED 260
 
 $s-t 'stand, step' 
-
-
 	$s-t-j
 s t ˈo j ɢʰ o m , ʃ t ˈɛ ɡ , ʃ t ˈɛ ɡ $footpath. Schumacher '13: 227. Cf. Greek steíxw "march", stoixos 'row' , Gothic steigan 'go up, OHG steg 'bridge', GOthic stiaga , OHG steiga 'mountain-path', Lawtvian staiga 'course'. Beekes EDG 1395-6. 
 s t ˈo j ɢʰ i e χ s , ʃ t ˈi ɟ ɛ , ʃ t ˈi ɟ ɛ $footpaths. De Vaan 2018: 1734. 
@@ -1932,12 +1932,13 @@ s t χ ˈe n t i e χ , ʃ t ˈɑ̃ z ə , ʃ t ˈə z ə $beast. Buzuku shtans�
 
 	$s-t-l stud , coil 
 s t ˈo l o χ , ʃ t ˈa lˠ , ʃ t ˈa lˠ $coil.1sg.pres.act.indic. Greek stolizw. Demiraj AE 376
-k m̩ s t ˈo l e χ , >* , ɡ ə ʃ t ˈa lˠ ə $stalk. Unsure on prefix. Demiraj says gə-. Demiraj AE 376. 
+kʷ m̩ s t ˈo l e χ , >* , ɡ ə ʃ t ˈa lˠ ə $stalk. Unsure on prefix. Demiraj says gə-. Demiraj AE 376. 
 s t ˈo l bʰ o s , ʃ t ˈa l b , ʃ t ˈa l b $post, stud. Cf. MLG stalpen "stagnate". Demiraj AE 376. 
 s t ˈe l o χ , ʃ t ˈi e̯ lˠ , ʃ t ˈi e̯ lˠ $wind-up.1sg.pres.act.indic. Cognate to Armenian steɬ-c-anem, OCs po-stɪl-ati, OPr stallt, Greek stellw, the later from -l-n unlike Alb {Beekes mistakenly attributes alb to this n extension}. Beekes EEDG 1397-8. Demirmj AE 376 as shtjell; likewise De Vaan 2018: 1740 with meaning "throw" 
-p e r i s t ˈeː l o t , p ɾ̩ ʃ t ˈu o̯ lˠ , p ə ɾ ʃ t ˈu a̯ lˠ $wrap.1sg.aor.act.indic. Old form. Schumacher '13: 222. 
+p e r i s t ˈeː l o χ , p ɾ̩ ʃ t ˈu o̯ lˠ , p ə ɾ ʃ t ˈu a̯ lˠ $wrap.1sg.aor.act.indic. Old form. Schumacher '13: 222. 
+s t e l e i ˈe χ , ʃ t ˈi ʎ ə , ʃ t ˈi j ə $spear. PROPOSAL as related to Greek steleˈáː, also att'd as (Attic) steleɛ́ː, -eios/n, eos/n etc. -- Beekes 2010: 1396-7. Versus from Latin hastile -- Orel 1998 : 439 -- however it is still shtilë "stick, stake" in Arbëreshë - cf Demiraj 2025 @DPEWA https://www.dpwa.gwi.uni-muenchen.de/dictionary/?lemmaid=37467
 
-	$ster- spread, scatter, bring down -- Pokorny 1029 apud Demiraj 1997: 374
+	$s-t-r- spread, scatter, bring down -- Pokorny 1029 apud Demiraj 1997: 374
 s t ˈe r i o χ , ʃ t ˈi e̯ , ʃ t ˈi e̯ $insert/discard/discharge.1sg.pres.act.indic. Demiraj 1997: 374-5. Çabej 1986: 227; Orel 1998: 439. Cognate to  Slav *stɪrõ, * sterti id., Avestan star- "spread"
 s t ˈe r n e o χ , ʃ t ˈĩː ɲ , ʃ t ˈi j $alternate 1sg for shtie "discharge" attested in Old Gheg as shti {Desio}, Old Tosk as shtije tentatively, more clearly Old Arberesh as shtīnj {Chetta}. PROPOSAL as reflex of n-anlaut progressive! Forms per Demiraj '25 @DPEWA: https://www.dpwa.gwi.uni-muenchen.de/dictionary/?lemmaid=37462#kapitel6. 
 s t ˈr̩ s ˈe s m̩ , ʃ t ˈi ɾ ˌa , ʃ t ˈi ɾ a $discharge.1sg.aor.act.indic. PROPOSAL as reflex of zero-grade rooted sigmatic aorist a la Orel 1998: 194. Tosk shtira/shtyra/shtura -- -y- from shtyj "push"?, Gheg shtira. Orel 1998: 439. PROPOSAL as from stew
@@ -1957,17 +1958,15 @@ $PARTICIPLE shtjerë, shtirë? shtirë is of shtirem maybe
 $TODO shtir "pass over the river", Gheg reflex of derivation in -r- apud Demiraj 1997: 374-5 
 	$HOWEVER seems to be variant of Tosk shtyr "push, cross river" per Orel 1998; he more reasonably attributes it to shtyj from a stūdnja cf to Skt tu-n-date, Lat tundo, OIr do-tuit, Goth stuatan on p444 TODO insert this.  
 
-$TODO PROPOSAL shterpë "barren, sterile" -- from shtie rather htan as per Orel 1998: 437 ; Demiraj 1997: 373, from Gk steriphos. f Skt starī sterile cow noted by Gil'ferding apud Orel; Latin sterilis; Tagliavini notes relation to shtjerrë
+$TODO PROPOSAL shterpë "barren, sterile" -- from shtie rather than as per Orel 1998: 437 ; Demiraj 1997: 373, from Gk steriphos. f Skt starī sterile cow noted by Gil'ferding apud Orel; Latin sterilis; Tagliavini notes relation to shtjerrë
 $ TODO PROPOSAL shtërzim "labor pains", from shtërpëzim per Orel 1998: 439
 
 s t ˈe r i χ , >* , ʃ t j ˈɛ r ə $lamb. Cf Gothic stairo "infertile woman" , Latin ster-ilis, ARm sterǰ, Gk steira, Skt starī. Beekes 1394-5. Demiraj AE 376
 s t ˈe r n e χ , >* , ʃ c ˈɛ r ə $lamb. Or equal to the above. Orel 1998: 440. Or, from skerH ? -- Demiraj AE 376 
-$TODO PROPOSAL shterrë heifer "lamb, young cow, heifer"-- relation to shtjerr, shtjerre per Orel 1998 437-8
+$TODO PROPOSAL shterrë heifer "lamb, young catherow, heifer"-- relation to shtjerr, shtjerre per Orel 1998 437-8
 
-$TODO shtiaz sparks-- relatoin per Orel 1998 : 439
-$TODO shtije spear -- versus from Latin hastile -- Orel 1998 : 439 -- however it is still shtilë "stick, stake" in Arbëreshë -- cf Demiraj 2025 @DPEWA https://www.dpwa.gwi.uni-muenchen.de/dictionary/?lemmaid=37467
-$TODO shterë "mortar" -- not from Latin pistaria as per Orel 1998 : 437 and ALLAPS but rahter from shtie!
-$TODO SHTJELL TO THROW; or related to 'develop, sling' < stel? 
+$TODO shtiaz sparks-- relation per Orel 1998 : 439
+$TODO shterë "mortar" -- not from Latin pistaria as per Orel 1998 : 437 and ALLAPS but r from shtie!
 
 $TODO shtregë "pile of wood" per Orel AE 441 --reject this : PAlb *stragá related to MHG strac ‘tight’, OE strec ‘hard, strong’. 0 HOLTHAUSEN AEW 324; POKORNY I 1023 (adduces nonexistent Lith strëgti ‘to harden, to freeze’).
 $TODO shtrek "corpse carrion" -- Orel AE 441--  PAlb *streka reflecting a noun derived from IE *ster- ‘unclean liquid, manure’. Note that a similar semantic evolution is found in ORuss stbrvb ‘corpse, dead body’ belonging to the same root. The Albanian form seems to represent a case of Schwebeablaut if confronted with such derivative of *ster- as Lat stercus ‘excrements’. Note, however, Celtic forms based on *strenk-: Bret stroñk id., W trwnc id. (OREL Linguistica XXIV 434-435). 0 W ald e-H ofm an n II 589; P ok orn y I 1031-1032
@@ -1975,10 +1974,8 @@ $TODO shtrek "corpse carrion" -- Orel AE 441--  PAlb *streka reflecting a noun d
 s t ˈr̩ xʷ n e o χ , ʃ t ɾ ˈĩ ɲ , ʃ t ɾ ˈi j $stretch.1sg.pres.act.indic. Orel (1998: 442, 2000: 150) attributes it to a zero grade stem, as does Demiraj 1997: 378 as  *str̥n(e)h3-. Schumacher 2013: 999. Neri/Demiraj '21 @DPEWA : https://www.dpwa.gwi.uni-muenchen.de/dictionary/?lemmaid=18382#kapitel6. Nasal inlaut, paralelled in Skt str̥nˈāti 'spread, scatter', Gk stórnoui 'stretch' and stornymi, Lat sternō. More plausible proposal below. Beekes EDG 1409-10.
 s t ˈr̩ n e o χ , ʃ t ɾ ˈĩ ɲ , ʃ t ɾ ˈi j $stretch.1sg.pres.act.indic. Alternate PROPOSAL to above in APIELex as from more basic root ster-. 
 
-	$ster -> sterxʷ- spread, scatter, floar. 
-
-
-$TODO shtresë "layer, coating, mat, cutting board"? Absent in sources. PROPOSAL. 
+	$s-t-r -> sterxʷ- spread, scatter, floar. 
+s t e r xʷ ˈe t i e χ , ʃ t ɾ ˈæ s ə , ʃ t ɾ ˈɛ s ə $layer, coating, mat, cutting board". Absent in sources. PROPOSAL. 
 
 s t e r xʷ ˈu n ɡʰ e χ , ʃ t ɾ ˈũ n ɡ ə , ʃ t ɾ ˈu ŋ ɡ ə $milking enclosure. Cabej 1962(:192) Romanian strungă. Various theories -- see Orel 1998: 443. Via -unka per Orel 2000: 167.
 $TODO shtrengoj rather than from Latin stringere -- perhaps as cognate? OREL AE 442. 
@@ -1994,7 +1991,7 @@ s t e r xʷ ˈe dʰ i e χ , ʃ t ɾ ˈɛ z ə , ʃ t ɾ ˈɛ z ə $stern of a s
 s t r̩ xʷ t ˈo s , ʃ t ɾ ˈa t , ʃ t ɾ ˈa t $bed, layer, cf. Romanian strat; alternate to reflecting a loan from CLat strātus --- cf. ALLAPS --, PROPOSAL reviving Mann's earlier theory (apud Orel 1998: 441) as cognate from same root as AGK zero grade stratos {vs. strōtos}, Sanskrit str̩tá, Old Welsh strat, Old Irish srath. Matasovic 2009: 357; De Vaan 2008: 586. This makes more sense given the derived shtreth and plural, below. 
 $ NOT RECOGNIZED IN STROFKE s t r̩ xʷ t ˈm̩ , ʃ t ɾ ˈa t ə , ʃ t ɾ ˈa t ə $crib, shelf, seat? PROPOSAL. Check strofkë if word is legit.
 s t r̩ xʷ t ˈi n o , ʃ t ɾ ˈæ t ə̃ ɾ̃ ə , ʃ t ɾ ˈɛ t ə ɾ $beds, plural of shtrat. PROPOSAL as regular reflex of a nasal plural-- works better this way. See above. Pl. of Romanian strat is straturi.
-s t r̩ xʷ t ˈi c o s , ʃ t ɾ ˈæ θ , ʃ t ɾ ˈɛ θ $board. PROPOSAL of native etymology via derivation in -icos {cf. Orel 2000: 158}, with stress retraction; this further supports the PROPOSAL for native inheritance from PIE of the root shtrat. Connection to shtrat already made by Orel 1998: 442. Alternative etymology for this as sh "out" + dredh "turn" from Demiraj 1997: 143 is not semantically convincing, nor is being a "variant" of shtrezë {unclear if Demiraj actually said this -- may be a Wiktionary invention as shtrezë doesn't appear in his online resource at all, nad instead refers to the stern of a ship, so it is semantically suspect. Considered below however.}. 
+s t r̩ xʷ t ˈi c o s , ʃ t ɾ ˈæ θ , ʃ t ɾ ˈɛ θ $board. PROPOSAL of native etymology via derivation in -icos {cf. Orel 2000: 158}, with stress retraction; this further supports the PROPOSAL for native inheritance from PIE of the root shtrat. Connection to shtrat already made by Orel 1998: 442. Alternative etymology for this as sh "out" + dredh "turn" from Demiraj 1997: 143 is not semantically convincing, nor is being a "variant" of shtrezë {unclear if Demiraj actually said this -- may be a Wiktionary invention as shtrezë doesn't appear in his online resource at all, and instead refers to the stern of a ship, so it is semantically suspect. Considered below however.}. 
 s t ˈr̩ xʷ m n̩ , ʃ t ɾ ˈɔ m ə , ʃ t ɾ ˈɔ m ə $TENTATIVE PROPOSAL as cognate to Gk strôma , Skt stárīman, Avestan stə́rəma, Lat strāmen "mattress"; conflated if it was ever separate with stromë from Gk with many senses...  doesnt work because sterxʷmn̩ will produce a long ō after coloring... I think. More likely just loaned from Greek, not worth including since it's so simple. But eh why not try it. 
 
 		$ster- -> ster-xʷ -> strew -> strow-, o-ablaut {= sterxʷ-ew ?}, extended from sterxʷ spread, scatter floar -- GMC strawã < strowo > Eng straw, stroweyeti > ... > Eng strew;, Breton strouis, OCS struiti "spwan"; cf also stréw-e-ti > struwo > Lat struō "compose, construct", Umbrian struwi-k-ela > struhçla "sacrificial pastry". Cf De Vaan 2008ː 592-3, KRoonen '13: 11, Pokorny 1959: 1030-1.

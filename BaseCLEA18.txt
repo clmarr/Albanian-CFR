@@ -78,6 +78,8 @@ $PREVOCALIC LARYNGEAL EFFACEMENT: per general understanding of laryngeal behavio
 $This is implicit in (and thus implements aspects of) the rules DV2.3B1 (actually in this case it's the whole rule), DV2.3C1, DV2.3C2 (the other aspect being the abovehandled laryngeal vowel-coloring), 2.3E2, 2.3F1, 2.3J2 (the rest handled by laryngeal vowel-coloring), 2.3K2 (as above) 
 [-cor,-son,+cont] > ∅ / __ [+syl]
 
+=Proto-Balkan-Indo-European
+
 $DV1738~2.3A1 
 $seems intended to counterbleed DV1738~2.3C4 as formulated above (?)
 r̩ > r i 
@@ -463,7 +465,7 @@ $ the vowel reduction and falls as a whole are said to happen "in the last phase
 [-stres] > ə / [+prim] (@)* __ @ 
 
 $--------------------Middle Proto-Albanian-------------------
-=Middle Proto-Albanian
+=Middle Proto-Albanian I
 $ main wave of contact with Proto-Romanian (temporarily?) complete now
 $ evidence from the loans indicates that around this time, the reflexes of hte PIE palatovelars in Alb should be around ts/dz (evidenced mainly by Aromanian as these deaffricate in Romanian), tentatively before the merger of PPAlb a: into o is complete (cf. mazăre for Alb modhull, rață for rosë "duck"), before the passage of PPAlb tʃ dʒ to s z (ciută -- sutë etc...), after the retraction of post-vocalic s (mosh "old") but before the same impact on cluster s including in Latin loans (strunga-shtrungë; Lat fossātum > ORom fsat, Alb fshat, Lat spodium > Alb shpuzë > Rom spuza), tentatively after the emergence of some schwa (Rom nǎpârcǎ -- Alb nëpërkë "adder"), after the emergence of Albanian suffix -zë, perhaps after the emergence of the Albanian postposed article in -të (Drobeta), at a point when initial PPAlb w is in the stage of [β] (Rom abur -- Alb avull "vapor", vatra-vatër) which closes to /b/ in Romanian just like PPAlb /ð/ (< intervocalic d) goes to PVlach /d/; before ALb long u: > y (ghiuj/gjysh, buc/byk... , the -i- in ghiuj probably for ohter reasons though that is certainly interesting...) 
 
@@ -548,6 +550,8 @@ $ This differs from the outcome for /ʊ/ from Latin or PPAlb *u, which both rais
 $ this thus implements DV2.2.1B11
 [+syl,+hi,-tense] > [-hi,+tense]
 
+=Middle Proto-Albanian II
+
 $I-MUTATION HERE, since it can feed ietation/diphthongizations (in case of PPAlb a: > ɒː > ... > ye) and also bleed them. 
 $this implements DV2.2.1A3,  DV2.2.1B4, DV2.2.1F2, 
 $this is also part of the implementation of DV2.2.1A5,DV2.2.1B6, DV2.2.1L1, and DV1737's 5b.II $the contextual trigger for this is left somewhat vague, but examples given include __ n t ī, __ C j, __ C ɛ, __ C {ɪ/e}, and one case that will probably concern __ ʎ (DV2.2.1A5) .. so the context can be what is C j, ʎ i e ɛ ɪ here. 
@@ -631,6 +635,9 @@ $TODO FOR DIA -- want to handle place assimilation of the n here too -- like:  n
 
 $ end of this wave of vowel drops _- VOWEL DROP WAVE -_
 
+=Late Proto-Albanian I
+$first Slavic wave; placed for comparabitity with DiaCLEA, coming soon after aphaeresis.
+
 $ regressive obstruent devoicing assimilation on v (< De Vaan's PAlb β < w- DV1744.B6 = DV4.2I6 -- vicinus > fqinj) but simpler to handle this way without an unnecessary β step). Can be broadened for others that this is implied for (praebyter > prift, etc)
 $ will be reversed by post-nasal stop voicing below. 
 [-son] > [-voi] / __ [-voi] 
@@ -675,10 +682,24 @@ $no clear way to block this for PPAlb *e, so this will need to be fixed if error
 $ dj and tj merge into PAlb dʒ and tʃ, feeding their passage to z and s (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3) 
 [+ant,+cor,-cont] j > [-ant,+distr,+delrel] ∅
 
+
+$ dʒ and tʃ pass to z and s -- whether from PPAlb dʒ/tʃ or from reflexes of Latin loans in dj-, tj (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3)
+$ This effects also the earliest Slavic loanwords : e.g. poroçit > porosit "to request", sul "small boat" , etc. 
+[-ant,+distr,+delrel] > [+ant,-distr,-cont]
+
+
+=Late Proto-Albanian II
+$placed for comparability with DiaCLEA -- after s > ʃ, affricates to sibilants.
+
+$DV2.1F2: və > u- 
+$OG right before Proto-Tosk; relocdated in DiaCLEA -- consider doing that here too. Compromise to move it right before the "dummy" Late Proto-Albanian III 
+{v ə;v ˌə} > {u;ˈu} / # __
+
+=Late Proto-Albanian III
+$also placed for comparabilitiy but perhaps null hypoth should be there's no diff between LPA II and LPA III
+
 $bandaid -- fronting of remaining low vowels at this point, because the lexicon has modern Albanian low vowels as front. 
 [+lo] > [+front,-back]
-
-$ ---------- Pre-Slavic final vowel phenomena -- 
 
 $DV1738, top, part 1: final -V(s) and -oi (> ī ?) without stress fall 
 $in effect, this is non-low-vowel unstressed final syllables closed by inflectional endings. 
@@ -739,15 +760,6 @@ $ this rule is formulated to capture not only non-primary stressed i and ə but 
 [+syl] [-prim,-round,-lo] > [+long] ∅ / __ #
 
 
-$DV4.1V3 -- lk > jk -- some variation (bujk/ bulk for "peasant", OAlb attests ulk) but seems (??) pan-Albanian in nature? 
-$$ dialectal evidence suggests that this originally first passed to ʎ: Huld 1976 p 197 for ujk shows that uʎk- forms in Arvanitika and Arbereshe (Sal, Vacc, Falc), and Huld reasonably asserts proto-Albanian had either or uʎk- or ulk- when it split. This is perfectly compatible with hte rest of De Vaan 2018 (which has ʎ go to j later), and is not a new conclusion, so the version supported by Huld is implemented here for now.
-$MOST FAITHFUL VERSION: l > j / __ k
-l > ʎ / __ k
-
-$DV4.1E2 & DV4.1F2 -- iotation of l after velar stops. This does not occur in some southern varieties, such as Cham and some Arbereshe dialects, so it could be that it occurred after Proto-Tosk split (in the broad sense, i.e. Proto-Southern-Albanian), or that Proto-Southern-Tosk retracted *ʎ to *l after velar stops. The outcome in Arvanitika is ʎ; in Arvanitika (and the other varieties where ʎ occurs after velars?), ʎ elsewhere appears to be preserved -- cf. Arvanitika biʎë "daughter" noted in De Vaan 2018 (:1740).
-$ DV1743.F5 -- -c(u)l- > c > ɟ if after nasals in ungj < avunculus -- effectively handled here and with the earlier voicing of k > g in the earlier Middle Proto-Albanian post-nasal voicing shift.
-l > ʎ / [-cont,+hi] __
-
 $ DV4.1B2 : b inserted between m and the word bound.-- cf. also Bonnet 1998: 195 
 ∅ > b / m __ #
 
@@ -775,14 +787,21 @@ $ incorporating ɸ here too.
 $ placed between PAlb and modern Alb by DV´18 but could probably be placed earlier as this does seem to be pan-Albanian? 
 [+lab,-son,+cont] > [+strid]
 
-$DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced consonants to modern ʒ -- has to be before end of the fall of lenited stops (in this case β) 
+$DV4.1U2 = DV1742P2 -- voicing assimilation of ʃ before voiced consonants to modern ʒ -- has to be before end of the fall of lenited stops (in this case β).
 ʃ > [+voi] / __ [+cons,+voi]
 
-$ dʒ and tʃ pass to z and s -- whether from PPAlb dʒ/tʃ or from reflexes of Latin loans in dj-, tj (DV1744.F1 = 4.2M1, 1744.F2 = 4.2M2, 1744.G1 = 4.2N1, 1744.G3 = 4.2N3)
-$ This effects also the earliest Slavic loanwords : e.g. poroçit > porosit "to request", sul "small boat" , etc. 
-[-ant,+distr,+delrel] > [+ant,-distr,-cont]
 
-=Late Proto-Albanian
+$DV4.1V3 -- lk > jk -- some variation (bujk/ bulk for "peasant", OAlb attests ulk) but seems (??) pan-Albanian in nature? 
+$$ dialectal evidence suggests that this originally first passed to ʎ: Huld 1976 p 197 for ujk shows that uʎk- forms in Arvanitika and Arbereshe (Sal, Vacc, Falc), and Huld reasonably asserts proto-Albanian had either or uʎk- or ulk- when it split. This is perfectly compatible with hte rest of De Vaan 2018 (which has ʎ go to j later), and is not a new conclusion, so the version supported by Huld is implemented here for now.
+$MOST FAITHFUL VERSION: l > j / __ k
+l > ʎ / __ k
+
+$DV4.1E2 & DV4.1F2 -- iotation of l after velar stops. This does not occur in some southern varieties, such as Cham and some Arbereshe dialects, so it could be that it occurred after Proto-Tosk split (in the broad sense, i.e. Proto-Southern-Albanian), or that Proto-Southern-Tosk retracted *ʎ to *l after velar stops. The outcome in Arvanitika is ʎ; in Arvanitika (and the other varieties where ʎ occurs after velars?), ʎ elsewhere appears to be preserved -- cf. Arvanitika biʎë "daughter" noted in De Vaan 2018 (:1740).
+$ DV1743.F5 -- -c(u)l- > c > ɟ if after nasals in ungj < avunculus -- effectively handled here and with the earlier voicing of k > g in the earlier Middle Proto-Albanian post-nasal voicing shift.
+l > ʎ / [-cont,+hi] __
+
+=Proto-Tosk-SGheg
+$placed for comparability with DiaCLEA
 
 $ DV4.2P *x to *h -- this is listed as a PPAlb to PAlb change, but it is placed here as it also seems to effect Slavic loans as well, and has somewhat different outcomes in (some) Gheg where Tosk -h ends up corresponding to Gheg -f  
 x > h 
@@ -810,15 +829,13 @@ $BANDAID fix-- since the notation of the data uses ɾ and r not r and rː, this 
 r > ɾ 
 rː > r
 
+
 $ ã raises to ə in Tosk (ultimately denasalizing to ë outside of some Lab subdialects which may (or may not) have preserved nasality, maybe for this item) 
 [+lo,+nas,+syl] > [-lo,-back,-front,0tense]
 
 $DV2.1D2 -- Tosk uo > ua ; written agnostically as to the syllabic status of the a. 
 [+back,-cons,-hi] > [-back,+front,+lo,-round,-lab,+tense] / [-cons,+round,+hi,+back] __
 
-$DV2.1F2: və > u- 
-$ this might be yet earlier considering that it also happens in Gheg? Or not. 
-{v ə;v ˌə} > {u;ˈu} / # __
 
 = Proto-Tosk
 

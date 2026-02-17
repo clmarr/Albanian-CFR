@@ -1906,11 +1906,11 @@ $[-prim,-back,-lo,-long,-nas] > ə / @ __ (@)* [+prim]
 $[-prim,-back,-lo,-long,-nas] > ə / # ([-syl])* ([-prim]) ([-syl])+ __
 [-prim] > ə / # (([-syl])* [-prim] ([-syl])*)* [-syl] __ [-syl] (([-syl])* [-prim] ([-syl])*)* #
 
-$DIACLEA FIX A2.XIX -- schwa deleted in hiatus with another vowel, without lengthening. As implemented on 1/26/25, caused .4% rise in accuracy and considerable improvement elsewhere. 
+$DIACLEA CORRECTION A2.XIX -- schwa deleted in hiatus with another vowel, without lengthening. As implemented on 1/26/25, caused .4% rise in accuracy and considerable improvement elsewhere. 
 ə > ∅ / [+syl] __
 ə > ∅ / __ [+syl] 
 
-$DIACLEA fix A2.XX -- vowels identical in (oral) quality in hiatus merged, currently to long vowel. Nasality of second element retained. Maximum stress retained. As implemented on 1/26/25, caused .3% rise in accuracy and considerable improvement elsewhere. 
+$DIACLEA CORRECTION A2.XX -- vowels identical in (oral) quality in hiatus merged, currently to long vowel. Nasality of second element retained. Maximum stress retained. As implemented on 1/26/25, caused .3% rise in accuracy and considerable improvement elsewhere. 
 [+syl,αlo,ɣhi,βround,ɩfront,ʊback] [+syl,+prim,αlo,ɣhi,βround,ɩfront,ʊback] > ∅ [+long]
 [+syl,+prim,αlo,ɣhi,βround,ɩfront,ʊback] [+syl,αlo,ɣhi,βround,ɩfront,ʊback] > ∅ [+long,+prim]
 [+syl,αlo,ɣhi,βround,ɩfront,ʊback] [+syl,+stres,αlo,ɣhi,βround,ɩfront,ʊback] > ∅ [+long]

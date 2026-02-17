@@ -594,13 +594,11 @@ $TODO TESTING MOVING THIS TO MUCH LATER 11/11
 ${ŋ n j;ŋ n;ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ;ɲ;ɲ}
 {n j;nː j} > {ɲ;ɲ} 
 
-
 $ --- end of  DIACLEA CORRECTION B1.VIII.j block 
 
 $DIACLEA CORRECTION A2.XII: h is deleted after vowels and before non-stressed vowels except before stressed vowels (later insertions hard to characterize; some role of r?) 
 h > ∅ / __ [-stres]
 h > ∅ / [+syl] __
-
 
 $ see "kt outcomes" file, and the more recent (Nov 17 2025) "MPA f obstruent cluster formation redux" 
 $ k becoming yod before /t/ if next to front vowel -- De Vaan 2018(:1744)  -- DV1744.J3
@@ -1309,15 +1307,12 @@ $TODO implement.
 $ TODO draw in vowel coalescence phenomena.  Now partially done. 
 $ h ejected by initial ˌe, ˌa -- TODO! IMPLEMENT  -- TODO name this!
 
-
-$TODO REINTERPRETING IETATION AND DIPHTHONGIZATION AS DUE TO LENGTH. GOING TO HAVE TO CHANGE THE BELOW. 
 $IETATION and DIPHTHONGIZATION follows. 
 $DV2.2.1K and 1737's 5b -- diphthongized ietation -- ɛ (< PPAlb e, Lat e & ae) > ie before "word-final ɫ, r" ; he also attributes this to *e
 $his ɫ is "lː" here though and his r is simply a short r so it is a diagonal grouping in terms of length, hard to capture in a feature matrix. 
 $it says word-final but the falls of unstresesd vowels are actually assigned later (to word-internal and initial cases that is; the dating of the fall of final unstressed vowels isn't quite given in 1737-8 but one can assume this will happen to low vowels so this is added in : ([-lo,-stres] (m) ), the [m] being there to deal with the accusative (cf DV1737~2.2.2d) 
 $ DIACLEA FIX: now using lˠ not lː {This is just about formalism; not noted in fixes log}
 $ DIACLEA CONSOLIDATION D3.X.b: now roped into initial lengthening.
-$ TODO 2025 -- implement, make this about length
 $ [+front,-hi,-lo,-round,+prim] > ˈi e̯ / __ {lˠ;ɾ} ([-lo,-stres] (m)) #
 
 
@@ -1564,7 +1559,7 @@ $DIACLEA CORRECTION A2.LXXXV..ðK	earlier assimilation with voicing for ðK in..
 $DIACLEA CORRECTION A2.CXX LPA III deletion of soft yer in hiatus with ə so that it doesn't feed dipthong formation is not fed by this. 
 [+hi,-tense,-stres] > ∅ / [-hi,+son,-cons] __ 
 
-$DIACLEA CORRECTION A1.XXII.1.ɪ unstressed ɪ, ʊ > ə, ∅ for first wave Slavic and etyma inherited into LPA I after some marginal bleeding phenomena. As of Dec 17, handling this for nasalized varieties too. 
+$DIACLEA CORRECTION A1.XXII.1.ɪ unstressed ɪ, ʊ > ə, ∅ for first wave Slavic and etyma inherited into LPA I after some marginal bleeding phenomena. As of Dec 17, handling this for nasalized varieties too. Handling only soft yer here. 
 {ɪ;ɪ̃} > {ə;ə̃}
 
 $TODO, EPSILON NOTE: from this point onward, De Vaan uses *e, but the difference between *e and *ɛ is not meaningful (any longer), and the gold outcomes in ALLex feature /ɛ/, so we will have to at some point move (or merge) these to/as ɛ -- probably at the end. Counterfeeds ɛ > ie though.
@@ -1957,11 +1952,11 @@ $ DIACLEA CORRECTION A2.LXVI tj > c in Tosk after last early Slavic input and af
 $ Resolving DIACLEA CORRECTION D4.III -- remaining ie̯ except in _R# to jɛ
 [-round,+hi,cprim,+stres] [-syl,-cons,-hi] > j [cprim,-tense] / __ {[+son] @;[-son]}
 
-$other bandaid -- handling of β. D3.F w goes to v when not in a diphthong; also of SLav ʝ (> ɟ)
+$other bandaid -- handling of β. D3.F w goes to v when not in a diphthong; also of Slav ʝ (> ɟ)
 {β;ʝ} > {v;ɟ}
 w > v / [+cons] __
 
-$DIACLEA CORRECTION A1.XXV after last early slavic wave, loss of w/v/β in occlusive __ V; coalescence with low vowels to ɔ after velar stops 
+$DIACLEA CORRECTION A1.XXV after last early Slavic wave, loss of w/v/β in occlusive __ V; coalescence with low vowels to ɔ after velar stops 
 [+lo] > [-lo,-tense,+lab,+round,-front,+back] / [-cont,+back] v __ 
 v > ∅  / [-cont,-son] __ [+syl]
 

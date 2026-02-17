@@ -313,13 +313,6 @@ $	some are drawn from our knowledge of what was going on within Latin
 $	they are certainly subject to inspection and possible critique
 $	many are nonetheless clearly assumed by De Vaan 2018 in terms of how he treats the nature of the input to rules he does explicate
 
-$ Deaspiration: this may or (more probably) may not have been contemporaneous with the merger of PIE aspirate voiced stops into 
-$	simple voiced stops, but clearly Greek loanwords in Romance with aspirate voiceless stops became simple voiceless in/by the 2nd cent CE
-$		cf. Pope 1934 p226 s629
-$	however inclusion in the Albanian cascade is specifically justified by the treatment of OGr loans into Albanian by De Vaan 2018
-$		e.g. De Vaan 2018 p1739 ~ DV1739.A4 -- mokër "millstone" Doric *mākhānā
-$ corresponds to Orel 1.4.7.1 
-[+sg,-cont] > [-sg]
 
 $ 'y' becomes i, likewise for the long-variant (praebyter > prift, etc.) 
 [+front,+syl] > [-round,-lab]
@@ -468,6 +461,14 @@ $--------------------Middle Proto-Albanian-------------------
 =Middle Proto-Albanian I
 $ main wave of contact with Proto-Romanian (temporarily?) complete now
 $ evidence from the loans indicates that around this time, the reflexes of hte PIE palatovelars in Alb should be around ts/dz (evidenced mainly by Aromanian as these deaffricate in Romanian), tentatively before the merger of PPAlb a: into o is complete (cf. mazăre for Alb modhull, rață for rosë "duck"), before the passage of PPAlb tʃ dʒ to s z (ciută -- sutë etc...), after the retraction of post-vocalic s (mosh "old") but before the same impact on cluster s including in Latin loans (strunga-shtrungë; Lat fossātum > ORom fsat, Alb fshat, Lat spodium > Alb shpuzë > Rom spuza), tentatively after the emergence of some schwa (Rom nǎpârcǎ -- Alb nëpërkë "adder"), after the emergence of Albanian suffix -zë, perhaps after the emergence of the Albanian postposed article in -të (Drobeta), at a point when initial PPAlb w is in the stage of [β] (Rom abur -- Alb avull "vapor", vatra-vatër) which closes to /b/ in Romanian just like PPAlb /ð/ (< intervocalic d) goes to PVlach /d/; before ALb long u: > y (ghiuj/gjysh, buc/byk... , the -i- in ghiuj probably for ohter reasons though that is certainly interesting...) 
+
+$ Deaspiration: this may or (more probably) may not have been contemporaneous with the merger of PIE aspirate voiced stops into 
+$	simple voiced stops, but clearly Greek loanwords in Romance with aspirate voiceless stops became simple voiceless in/by the 2nd cent CE
+$		cf. Pope 1934 p226 s629
+$	however inclusion in the Albanian cascade is specifically justified by the treatment of OGr loans into Albanian by De Vaan 2018
+$		e.g. De Vaan 2018 p1739 ~ DV1739.A4 -- mokër "millstone" Doric *mākhānā
+$ corresponds to Orel 1.4.7.1 
+[+sg,-cont] > [-sg]
 
 $ resolution of DV1744.D & DV1744.E1 -- see notes on this above, this is motivated by the outcomes in Aromanian and Romanian of PPAlb ɟ͡ʝ vs. PPAlb d in cases where they both ended up as ð in Alb. 
 {t͡s;d͡z} > {θ;ð}
@@ -695,11 +696,24 @@ $DV2.1F2: və > u-
 $OG right before Proto-Tosk; relocdated in DiaCLEA -- consider doing that here too. Compromise to move it right before the "dummy" Late Proto-Albanian III 
 {v ə;v ˌə} > {u;ˈu} / # __
 
+
 =Late Proto-Albanian III
 $also placed for comparabilitiy but perhaps null hypoth should be there's no diff between LPA II and LPA III
 
 $bandaid -- fronting of remaining low vowels at this point, because the lexicon has modern Albanian low vowels as front. 
 [+lo] > [+front,-back]
+
+$ bandaid taken from DiaCLEA18 -- handling of β. D3.F w goes to v when not in a diphthong; also of Slav ʝ (> ɟ)
+{β;ʝ} > {v;ɟ}
+w > v / [+cons] __
+
+
+$bandaids for Greek and Slavic input drawn from DiaCLEA18, put in for better comparability -- Greek gamma, yer fall...
+ɣ > ɡ
+[+hi,-tense,-stres,-cons] > ∅ $yer fall. 
+[+syl,-tense] > [-lo] $yat handling
+[+syl,ɯback,+hi,-lat,-front] > [ɯround,ɯlab,-ɯfront] $ɯ/ɨ handling 
+[+lo] > [+front,-back,-round,-lab]  $ɑ/ å-fronting
 
 $DV1738, top, part 1: final -V(s) and -oi (> ī ?) without stress fall 
 $in effect, this is non-low-vowel unstressed final syllables closed by inflectional endings. 
@@ -800,7 +814,7 @@ $DV4.1E2 & DV4.1F2 -- iotation of l after velar stops. This does not occur in so
 $ DV1743.F5 -- -c(u)l- > c > ɟ if after nasals in ungj < avunculus -- effectively handled here and with the earlier voicing of k > g in the earlier Middle Proto-Albanian post-nasal voicing shift.
 l > ʎ / [-cont,+hi] __
 
-=Proto-Tosk-SGheg
+~Proto-Tosk-SGheg
 $placed for comparability with DiaCLEA
 
 $ DV4.2P *x to *h -- this is listed as a PPAlb to PAlb change, but it is placed here as it also seems to effect Slavic loans as well, and has somewhat different outcomes in (some) Gheg where Tosk -h ends up corresponding to Gheg -f  
@@ -837,7 +851,7 @@ $DV2.1D2 -- Tosk uo > ua ; written agnostically as to the syllabic status of the
 [+back,-cons,-hi] > [-back,+front,+lo,-round,-lab,+tense] / [-cons,+round,+hi,+back] __
 
 
-= Proto-Tosk
+~Proto-Tosk
 
 $loss of vocalic nasalization: DV2.1A2, C2, completing E1, F3
 [-cons,+nas] > [-nas]
@@ -873,7 +887,7 @@ $gleaned from DV1738, unstressed final -o(n) and -a(s) in loans from early Slavi
 $DV1734.3 -- loss of length in Northern Tosk (and much elsewhere except much of Lab) 
 [+long] > [-long]
 
-= Old North Tosk
+~Old North Tosk
 $ circa 1250-- layers added after this point incl. Old Italian II, Old Venetian, Old Angevin, Byzantine II, Ottoman I, Old Serbian. 
 
 $DV4.1E / F -- further palatalization, this time occuring before front vowels -- and affecting Turkish loans as well. This happens in all northern Tosk but that it affected Turkish loans implies a later placement in the relative chronology (in Gheg it dodges some parts of the northwest zone) 

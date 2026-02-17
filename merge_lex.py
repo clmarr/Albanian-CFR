@@ -6,7 +6,7 @@ import UTILS
 # Source language and the point from which it exists in the lexicon are marked in the comment, surrounded by
     # the "circumfix" : STAGE_CIRCUMFIX
 
-OUTPUT ="gjALex.txt"
+OUTPUT ="slavALex.txt"
 STAGE_CIRCUMFIX = "_"
 NATIVE_NAMES = UTILS.STAGES + ["Albanian"]
 OUTPUT_HEADER = UTILS.STAGES
@@ -67,19 +67,19 @@ def digest_line(ln, inp_stage_names, src):
     return cmt_stage_marking(UTILS.LEX_DELIM.join(output)+" "+cmt,OUTPUT_HEADER,src)
 
 # dictionary with input stage file names as keys and the stage they are marked as as values.
-INPUTS = {"ALLAPS.txt" : "Latin"  #various stages of Latin currently working from here, rather than ALLex or the Christian Latin file.
+INPUTS = {#"ALLAPS.txt" : "Latin"  #various stages of Latin currently working from here, rather than ALLex or the Christian Latin file.
           #"APIELex.txt": "Proto-Indo-European", #PIE inheritance #TODO don't do until reasonably confident with later layers (and fulL)
           #,"APBalkLex.txt": "Proto-Balkan-Indo-European", #Balkan Indo-European formations and substrate etyma #TODO don't do until reasonably confident with later layers (and fulL)
-          ,"EPSEALLex.txt" : "Proto-Slavic" #First wave of Slavic loans -- into Late Proto-Albanian I
+          "EPSEALLex.txt" : "Proto-Slavic" #First wave of Slavic loans -- into Late Proto-Albanian I
           ,"MPSEALLex.txt" : "Proto-Slavic" #Middle wave of early Slavic loans -- into Late Proto-Albanian II. To be used sparingly
           ,"LPSEALLex.txt" : "Proto-Slavic" #Last early wave of Slavic loans -- into Late Proto-Albanian III
 
-          , "MGrALAPS.txt" : "Middle Greek" #later waves of Greek.
-          ,"ADoLex.txt" : "Doric" #Doric loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc.
-          ,"AAttLex.txt" : "Ancient Greek dialects" #Attic loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc.
-          ,"AMacLex.txt" : "Macedonian" #Macedonian loans into Archaic Proto-Albanian (a likely later time than above tho),
+          #, "MGrALAPS.txt" : "Middle Greek" #later waves of Greek.
+          #,"ADoLex.txt" : "Doric" #Doric loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc.
+          #,"AAttLex.txt" : "Ancient Greek dialects" #Attic loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc.
+          #,"AMacLex.txt" : "Macedonian" #Macedonian loans into Archaic Proto-Albanian (a likely later time than above tho),
                 # as assumed by Huld; TODO maybe move to later era?
-          ,"AHesLex.txt" : "Classical Proto-Albanian" #Indo-European inheritance attested by Hesychius of Alexandria
+          #,"AHesLex.txt" : "Classical Proto-Albanian" #Indo-European inheritance attested by Hesychius of Alexandria
                     # as loans presumably from Proto-Albanian into Greek dialects, currently attributed by me to Classical Proto-Albanian
           # currently not using later Greek layers bc of ambiguities; may revise this tho.
                 #TODO not doing until more confident in later stuff etc. They're also in AMacLex.txt.

@@ -2016,7 +2016,10 @@ C3B.XIX -- : fr Old Alb ʃ > t͡ʃ bfeore a consonant posterior context changed 
 $DIACLEA ANALYSIS: for Latin loans at present, c [+cons] clusters are barely present (at the pivot point at this rule, only one was detected -- and it was an error), while "ʃ [+cons]" sequences... overwhelmingly don't go to "t͡ʃ ..." 
 	$ in fact, as of Aug 15 (2023?), tʃ for ʃ was the most common confusion, with 88% of errant words having it, and the error was particularly common after the word bound (43.6%), before /t/ (36.8%) and before /k/ (30%) 
 	$ as of Dec 3o, 2o25, post consonantal case abrogated. case of balçëm currently explained otherwise, via an earlier rule in Proto-Tosk operating after laterals. 
-C3B.XX -- ˈɛ > ˈa in DV2.2.1C5 now only after long coronals, short l hits too many wrong items, no evidence of this before lˠ either. This allows us to unify the context as [+cor,+long] rather than {rː;[+lat]}
+
+C3B.XX -- ˈɛ > ˈa in DV2.2.1C5 narrowed 
+	.i now only after long coronals, short l hits too many wrong items, no evidence of this before lˠ either. This allows us to unify the context as [+cor,+long] rather than {rː;[+lat]}
+
 
 C3B.XXI (actually a much earlier change, very early in the process, but given a designator later) DV4.1B3 & Bonnet 1998:193 -- "Tosk" insertion of b between m and unstressed vowels -- only happens before laterals, and not word initially.grūmul-ā- > grumbulloj, meletta > (m)bletë (?), similatūra > shëmbëlltyrë. Not word initially: maledīc-œ > mallkoj, maliti-ā- > malcoj, molārem > mullar, molīnum > mullî, mulc-ē > mëlkoj  maluang-œ- > mallëngjej.  Accuracy gained with this fix: +0.8%
 	
@@ -2209,6 +2212,7 @@ D4.VII - handling prestop-nasal-assimilation and prenasal stop voicing in one ru
 		ABORTED  original version originally:  second wave of post-nasal voicing in LPA / Proto-Tosk-Gheg reinterpreted as formation of prenasalized stops. Happens to all, including ɾ̃, except N k when N k is not posttonic. The result is a voiced prenasalized stop except in NW Gheg, which preserves voicing distinctions. 
 			Reason for avoidance: although elegant, this actually messes with the conditioning of final syllabic l > ull phenomema
 				was thought to help with the context of k>g voicing but it actually doesn't do that better upon a better analysis of the latter phenomenon
+D4.VIII -- cer: > car: reinterpreted as cɛ{r,ɾ} > caR only before back element -- u or k relevant -- cark, carr, carkull. The original version causes too many false positives -- luqerre not luqarre etc. 
 
 # E rule separation
 

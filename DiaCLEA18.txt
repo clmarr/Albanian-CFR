@@ -1148,18 +1148,22 @@ $DIACLEA CORRECTION A2.CLIII -- ɒ-aphaeresis early in LPA I, initial ɒ̀ delet
 ˌɒ > ∅ / # __ [+lab] [-stres,-lo] [-syl,+son]  
 
 $DIACLEA CORRECTION A2.LXXXIII -- early Late Proto-Albanian I Vw(V) coalescences . 
-$DIACLEA CORRECTION A2.LXXXIII.ariwo, bleeding .iu by feeding .iwi, iwV > ii / V R __ 
+$DIACLEA CORRECTION A2.LXXXIII.ariwo, bleeding .iu by feeding A2.LXXXIII.iwi, iwV > ii / V R __ 
 [-stres] > ɪ / [+voi] [+son,+cor] ˈi [+lab] __ @
 
 $DIACLEA CORRECTION A2.LXXXIII.iwi, bleeding .iu, feed by .ariwo iwɪ > iW   -- lˈiwɪru > līr-ë, dˌelˌiwɪrˈoɲo > dëliroj, lˌiwɪrˈoɲo > liroj, prˈiwɪtɪr (?) > priftër	, plus cases fed by .ariwo 
 ɪ > ∅ / [+hi,+front] w __
 
-$A2.LXXXIII.iu ˈiwV > uə /  __ @
-[+hi,+stres] w [-stres] > [+back,+round,+lab,-front] ∅ ə̯ / __ @
-$TODO update fixes log about this ^ 
+$DIACLEA CORRECTION A2.LXXXIII.awa, bleeding .ɒ, w between low vowels > v, in Slavic loans. Tentatively based on rawuka > ravge can see through posterior back sequences, but this is tentative; the word could also be afffected by analogy, esp as ravë and ravgë both mean "mountain path"
+w > v / [+lo] __ ([+back])* [+lo] #
 
-$A2.LXXXIII .ɒ -- Slavic ɒ > o in such situations. Can be handled with i via alpha feats but this seems to challenge memory for some reason (11/29/2025). Furthermore, with the cases with Slavic a, context seems less constriced. Could be bled by Slavic hard yer loss (A1.XXII.ʊ) -- ravʊka > ravgë -- but this is not enough evidence. 
-ˈɒ w [+round,-stres] > ˈɔː
+$A2.LXXXIII.uo ː combination of former .iu and .ɒ to broader rule forming uə̯ > uo.  high vowel initial sequences go straight to uə̯ ; ohterwise it passes through the ˈɔːə̯ scenario. 
+		$conditioning now taken care of with prior rules. 
+$[+stres,βround,-βhi] w [-stres] > [+round,+lab,+back,-front,-βtense,-βlong,-lo] ə̯ ∅
+[+stres,βround,-βhi] w [-stres] > [+round,+lab,+back,-front,-βtense,-lo] ə̯ ∅
+
+$TODO work here Mar 3
+
 $A2.LXXXIII .eu intersonorant e rounding--  VRˈɛw(V)r/l(/z)> ˈœː . Not necessary to apply to aw in case of trabeza -- it's now handled in A1.VI. 
 [-hi,-lo,+front,+prim] > [+round,+lab,-lo,-tense] / [+son,+cons] __ w ([-stres]) [+voi,+cor]
 $deletion of w across the board except if V2 is low and V1 is not, lengthening phenomena proceed. For AVA, happens if preconsonantal.  Happens to countertonics too. 
@@ -1209,10 +1213,8 @@ s > ʃ
 $DIACLEA CORRECTION D3.X.b3ː initial #ɒ́ , #ǽ > #vɔ, # jæ. Does not become va in Tosk. Happens even before labials. 
 {ˈɒ;ˈæ} > {β ˈɔ;j ˈæ} / # __
 
-
 $DIACLEA CORRECTION A2.L.b other æ not effected by the e phenomenon or the initial lengthening all merges to ɑ. Does not effect ɐ which may soon emerge.
 [+lo,+syl,-long,-tense] > [+tense,-front,+back]
-
 
 $DIACLEA CORRECTION A2.CIL Late Proto-Albanian I lengthening of front countertonics in labial __ lateral if the lateral is not immediately followed by the tonic vowel. S patterns with labials for this. NOTE UNNATURAL CLASS. maludic-o- ... mallkoj, malitiola ... macollë, falcōne > fajkua, Belbice, etc.
 [-round,+stres,-prim] > [+long] / [sfront,-slab] __ [+lat] {[-prim];[-syl]}
@@ -1267,7 +1269,6 @@ $DIACLEA CORRECTION A2.CX.ɐT -- reduction of unround countertonic a to ɐ befor
 
 $DIACLEA CORRECTION A2.XXX Middle Proto-Albanian II -- degemination of obstruents. They count as geminates if they share place of articulation and continuancy (so homorganic plosive - affricate is a geminate). Broad place of articulation considered -- labials as one category, coronals as one category, dorsals as one category. Second element is the one kept. TODO may need to move this around
 [-son,acont,blab,chi] > ∅ / __ [-son,acont,blab,chi]
-
 
 $ DIACLEA CORRECTION A2.LIII  -- lengthening of r before initial non-low round vowels (perhaps via a phonetic w), and before low before non-coronal cons
 r > rː / # __ {[+lo] [+cons,-cor];[+round,-lo]}
@@ -1338,7 +1339,7 @@ $DIACLEA CORRECTION C3A.9 -- expanded to more typical leniting contexts ː post-
 $ evidence for two separate d > ð phenomena and that htis is 
 $ bled by hard yer deletion: pɒdʊkɒwʊ > potkua. 
 	$ feeds ð j > ʎ phenomena.
-d > ð / [+syl] ([+son,-nas,+cons]) __ [βlat,βcons]
+d > ð / [-cons] ([+son,-nas,+cons]) __ [βlat,βcons]
 
 $DIACLEA CORRECTION D4.V.ɐæ bleeding .eCu, ɐ > ˌæ in Vfront __ . Counterfed by .eCu , also bleeds eCu if not using ɐ
 ɐ > ˌæ / [+syl,+front,-lo] ([-syl])* __
@@ -1348,7 +1349,7 @@ $DIACLEA CORRECTION D4.V.eCu -- short round vowels after countertonic nonlow fro
 
 $DV4.2E & DV4.2F3 -- wave of palatalization, occurring before front vowels, including fronted former long round vowels (y, ø) but not including reduced vowels.  Absorbs /w/. 
 $ DIACLEA CORRECTION D2.II -- absorption of w in palatalizing k removed, now redundant given earlier mass -w- loss, and lack of such sequences in any contact languages since MPA.
-$w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
+	$w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
 
 $DIACLEA CORRECTION A2.CIL.bɟ countertonic a{:}l > əl reduced early between labials and palatals. Fed by s > ʃ. Undoes A2.CIL. -ʎV also counts as the front gesture to contrast a prior labial. This schwa survives into Old Albanian and in some cases into modern Albanian -- using ˌə as ə will disappear in LPA II before ʎ here, and ɐ will not last much longer either. Using short ˌɐ. 
@@ -1562,10 +1563,6 @@ $DIACLEA CORRECTION A2.CXX LPA III deletion of soft yer in hiatus with ə so tha
 $DIACLEA CORRECTION A1.XXII.1.ɪ unstressed ɪ, ʊ > ə, ∅ for first wave Slavic and etyma inherited into LPA I after some marginal bleeding phenomena. As of Dec 17, handling this for nasalized varieties too. Handling only soft yer here. 
 {ɪ;ɪ̃} > {ə;ə̃}
 
-$TODO, EPSILON NOTE: from this point onward, De Vaan uses *e, but the difference between *e and *ɛ is not meaningful (any longer), and the gold outcomes in ALLex feature /ɛ/, so we will have to at some point move (or merge) these to/as ɛ -- probably at the end. Counterfeeds ɛ > ie though.
-$bandaid here thus inserted
-[+front,+syl,-hi,-lo] > [-tense] 
-
 $ a-mutation -- DV1736's 5a.2, also DV1735~ 2.2C2 + de Vaan 2004: 78--83. --  e (or ɛ it seems?) instances lower to a under the influence of /a/ in next syllable it seems. -- but per De Vaan 2004(78-83) this doesn't happen to Latin (and indeed the data largely matches this), and this is handled above in DV2.2.1C2. 
 $[-hi,-round,+syl] > [+lo,-tense] / __ ([-syl])* [+lo,+syl]
 
@@ -1573,9 +1570,13 @@ $ DV2.2.1C3 -- Lat AU and PPAlb *au (falling diphthong of either w or ʊ̯ , the
 $ per DIACLEA FIX D3.XII, now happens much earlier. 
 $[-syl,+hi,+round] > ∅ / [+lo,+syl] __
 
-$DIACLEA CORRECTION D3.X.d-- in partial agreement with DV2.2.1K and 1737's 5b on diphthongized ietation, ɛː ends up as jɛ except the primary stressed case before (to-become) final ɾ lˠ; to these, I broaden these to include n too. However, as of Nov 17, 2025,this is roped into D3.X.e except in # __ C, which is handled as per D4.III , whereby the ˈi ə > j ˈɛ doesn't happen in # C __ until much later, moved to after last early Slavic insertion and tj > c for it's tj, and furthermore the trigger is understood to be # C not {lˠ;[+cor,-lat,+son]}.  $ {ə;ə̯} > {e̯;e̯} / ˈi __ {lˠ;[+cor,-lat,+son]} ;  ˈi ə > j ˈɛ
+$DIACLEA CORRECTION D3.X.d-- in partial agreement with DV2.2.1K and 1737's 5b on diphthongized ietation, ɛː ends up as jɛ except the primary stressed case before (to-become) final ɾ lˠ; to these, I broaden these to include n too. However, as of Nov 17, 2025,this is roped into D3.X.e except in # __ C, which is handled as per D4.III , whereby the ˈi ə > j ˈɛ doesn't happen in # C __ until much later, moved to after last early Slavic insertion and tj > c for it's tj, and furthermore the trigger is understood to be # C not {lˠ;[+cor,-lat,+son]}.  $ {ə;ə̯} > {e̯;e̯} / ˈi __ {lˠ;[+cor,-lat,+son]} ;  ˈi ə > j ˈɛ. As of March 3 2026, now works in ɔə > uo̯ too. 
 $resolving DIACLEA CORRECTION D3.X.c
-[-back,-front,-cons] > [-syl,+tense,afront,bback,uround,ulab] / [+hi,+syl,afront,bback,uround] __
+[ihi,itense,+syl,afront,bback,uround] [-back,-front,-cons] > [+hi,+tense] [-syl,+tense,afront,bback,uround,ulab]
+
+$TODO, EPSILON NOTE: from this point onward, De Vaan uses *e, but the difference between *e and *ɛ is not meaningful (any longer), and the gold outcomes in ALLex feature /ɛ/, so we will have to at some point move (or merge) these to/as ɛ -- probably at the end. Counterfeeds ɛ > ie 'ietation' though.
+$bandaid here thus inserted
+[+front,+syl,-hi,-lo] > [-tense] 
 
 $DIACLEA CORRECTION A2.CXVI Late Proto-Albanian II l-darkening in {v;labial vowel}__ V-back, and in {b,p,ʃ} __ V-back. Note UNNATURAL CLASS, ʃ with labials -- β is EXCLUDED in both cases (vlerë, vlesë etc.; avlëmend -- and yet avlli). Fed by D3.X.d in terms of uə̯ > uo̯ (buollicë). 
 l > lˠ / {[+lab,+cont,vstrid,-vson];[blab,!bcor,ǃbcont] [-front,+syl]} __ [-back,-lo,-cons]
@@ -2084,7 +2085,7 @@ j > ∅ / __ [+hi,+front,-cons]
 $DIACLEA CORRECTION A2.LXXXXIV extra unstressed vowel deletions that at least feed A2.LXXXXI.Tn -- in turn feeding later sh to ç phenom-  towards the end of the period of common development in LPA III.   Doesn't happen to or after high tense segments though {Tunçan preserved, tingëlloj, timua ; ɲ is not +tense though. The non-tense high vowels have already just been deleted in A1.XXII.2 across the board so they dont need to be handled here} nor after the apparently long {vowel} segment in kutendoj altho this aspect is hacky {TODO revise}.  Doesn't happen before ɾ̃ -- tër endings from tãɾ̃ə̃, shtëroj from extenuare. 
 [-prim,-hi,-long] > ∅ / {[-long];#} t __ [+nas,+cont]
 
-$DIACLEA CORRECTION 2.LXXXXI.Tn-- if not at word onset stops before nasals deleted -- this time including coronals -- in time to feed A2.LXXXXI.nn for shëndre. 
+$DIACLEA CORRECTION 2.LXXXXI.Tn-- if not at word onset, stops before nasals deleted -- this time including coronals -- in time to feed A2.LXXXXI.nn for shëndre. 
 [-cont,-son] > ∅ / @ __ [+nas,+cons] 
 
 $DIACLEA CORRECTION A2.LXXXXI.nn -- nasal nasal clusters other than ŋɲ {.ɲ bleeds this above} resolve in favor of second element. Fed by A1.XXII.2. -- TODO do this with existing A2.VII? 
@@ -2158,7 +2159,7 @@ t > ∅ / # __ k
 [-voi,-delrel,-cor] > ∅ / @ __ ([-syl]) [-cont,-son] [+prim] 
 
 $DIACLEA CORRECTION A2.LXXVI ANTERIOR SONORANT SYLLABIFICATION formation of syllabic sonorant consonants -- ɾ, r, m, n -- not ŋ ɲ, on lˠ special conditions only... so [-hi] 
-	$ prior contxt -- at least for word finally -- after j (lot for laterals it seems? TODO examine this, write about it in fixes log), p, b, g, k , t, d, ð, v, m, g, c, f --- but not after ɾ and ɾ̃, unclear if after lˠ and l, no data for r and n. Fed by A2.LXVI but not A1.XXI
+	$ prior context -- at least for word finally -- after j (lot for laterals it seems? TODO examine this, write about it in fixes log), p, b, g, k , t, d, ð, v, m, g, c, f --- but not after ɾ and ɾ̃, unclear if after lˠ and l, no data for r and n. Fed by A2.LXVI but not A1.XXI
 $internally for round vowels unimplemented as causes too many problems -- see notes currently stored in fixes log (as of 11/24/25).
 $11/26/25 for now being conservative in implementation as separately vowel deletion rules should feed it rahter than be part of it, unless it turns out its better that way. 
 $bleeds l > ʎ // k,g : ascla > ashkël, clausūra > Këlçyrë , vehicula > vegël, calcaria > gëlqere. But not if low vowels involved: rakla > rraqe. 
@@ -2236,7 +2237,7 @@ l > ʎ / [-cont,+hi] __
 $Resolution of DIACLEA CORRECTION A2.CX.ɐ
 {ɐ;ˌɐ} > {ə;ˌə} 
 
-$A2.LXVII post-last-early-wave Slavic ʎ > l if all separating it from the beginning f hte word is labial segments that are either stops or hi (w, u), or ʃ 
+$A2.LXVII post-last-early-wave Slavic ʎ > l if all separating it from the beginning of the word is labial segments that are either stops or hi (w, u), or ʃ 
 ʎ > l / # (ʃ) ([+lab,uhi,ucont])* __ [-cons]
 
 $DIACLEA CORRECTION A1.I -- Slavic wave 2 æː handling
@@ -2256,6 +2257,7 @@ $DIACLEA CORRECTION A1.XXI: Slavic last early wave final a > ɛ after palatal so
 [+lo,-stres] > ɛ / [+cons] [+son,+front,-nas] __
 
 ~Proto-Tosk-SGheg
+
 $TODO (ǃǃ) with revisions, up to this point was Tosk + SGheg developments. Different NT developments for north Gheg, plus different outcomes of å and ä, should be handled differently
 
 $DV2.1D2 -- Tosk uo > ua ; written agnostically as to the syllabic status of the a. 

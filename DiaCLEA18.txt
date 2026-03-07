@@ -1207,7 +1207,7 @@ $DIACLA CORRECTION A2.LXXVI.ARA ˌɒr([-stres]) > ara in velar __ labial (counte
 
 
 $ DV1744.H ~ s becomes ʃ -- for s in reflexes of Old Greek (presh < prason), Latin, and the earliest Slavic loans (grusht, shkrap) becomes ʃ (1744.H) -- but this is not fed by tʃ becoming s (DV1744.F and 1744.G) 
-$DIACLEA CORRECTION B2.XV -- s > ʃ moved back to LPA I > what is after 11/26, LPA II, before insertion of Greek etyma. Placed before LPA diphthongization (simmaxōro > simahuar), and before vowel losses. A2.CIL vowel lengthening phenomenon appears to treat s as palatal, further supporting this placement. 
+$DIACLEA CORRECTION B2.XV -- s > ʃ moved back to LPA I > what is after 11/26, LPA II, before insertion of Greek etyma. Placed before LPA diphthongization (simmaxōro > simahuar), and before vowel losses. A2.CIL vowel lengthening phenomenon appears to treat s as labial or palatal, further supporting this placement. 
 s > ʃ
 
 $DIACLEA CORRECTION D3.X.b3ː initial #ɒ́ , #ǽ > #vɔ, # jæ. Does not become va in Tosk. Happens even before labials. 
@@ -1216,12 +1216,14 @@ $DIACLEA CORRECTION D3.X.b3ː initial #ɒ́ , #ǽ > #vɔ, # jæ. Does not beco
 $DIACLEA CORRECTION A2.L.b other æ not effected by the e phenomenon or the initial lengthening all merges to ɑ. Does not effect ɐ which may soon emerge.
 [+lo,+syl,-long,-tense] > [+tense,-front,+back]
 
+$DIACLEA CORRECTION A2.CX.BG Countertonic a reduces to ɐ after labials+ʃ, likely ʃ being rounded. Operates before unnatural class of either laterals, labial-or-palatal-or-velar stops (t͡ʃ counts as palatal), or labial-then-nonvelar stop (salvare > shëlboj, falcinea to fëlqinjë, but falconem to fajkua), and then a primary stressed tense vowel. Prior context fed by DV1744.H s > ʃ. Posterior context counterbled by DV1744.G/H t͡ʃ > s. Bleeds, or otherwise must undo A2.CIL. This reduced element survives into Old Albanian and in some cases into modern Albanian -- using ˌə as ə will disappear in LPA II before ʎ here, and ɐ will not last much longer either. Therefore using *ˌɐ. See 'A2.CX.BG justification' file for data. 
+[+lo,-prim,-round,+stres,-long] > [-tense,+back,-front] / [-wfront,wlab] __ ( ( [Llat,-Lcg] ) ( [-Lback,çstrid,çcor,-cont] (r) ) ) [+tense,+prim]
+
 $DIACLEA CORRECTION A2.CIL Late Proto-Albanian I lengthening of front countertonics in labial __ lateral if the lateral is not immediately followed by the tonic vowel. S patterns with labials for this. NOTE UNNATURAL CLASS. maludic-o- ... mallkoj, malitiola ... macollë, falcōne > fajkua, Belbice, etc.
-[-round,+stres,-prim] > [+long] / [sfront,-slab] __ [+lat] {[-prim];[-syl]}
+[+front,+stres,-prim] > [+long] / [sfront,-slab] __ [+lat] {[-prim];[-syl]}
 
 $ DIACLEA CORRECTION A2.LXVIII before palalization, reduction to schwa of unround short countertonics in # C-nas V R/L (obstruents except coronal stops) -- TODO NOTE UNNATURAL CLASS. Needs to be in # (C) __ -- ənkˌɑrðˌulˈicjɑ > ngardhulliqe ; skˌɑrd͡ʒˈœɲɔ > shkarzej etc. 
 [-prim,+stres,-round,-long] > ə / # [-nas,+cons] __ [+cor,+son,-nas] [-son,sstrid,scor]
-
 
 $ incorporates DIACLEA CORRECTION A2.XXXXI - ø > œ (and o > ɔ) before it is unrounded in LPA. This comes before (bc it feeds) D3.X.b1
 [+syl,+round,-hi,-lo] > [-tense]
@@ -1352,10 +1354,6 @@ $ DIACLEA CORRECTION D2.II -- absorption of w in palatalizing k removed, now red
 	$w > ∅ / [+back,-cont] __ [+front,-lo,-cons]
 [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
 
-$DIACLEA CORRECTION A2.CIL.bɟ countertonic a{:}l > əl reduced early between labials and palatals. Fed by s > ʃ. Undoes A2.CIL. -ʎV also counts as the front gesture to contrast a prior labial. This schwa survives into Old Albanian and in some cases into modern Albanian -- using ˌə as ə will disappear in LPA II before ʎ here, and ɐ will not last much longer either. Using short ˌɐ. 
-[+lo,-round,-prim] > [-tense,+back,-front,-long] / [+lab] __ [+lat,yfront] [+front,-ycons]
-[+lo,-round,-prim] > [-tense,+back,-front,-long] / [+front] __ [+lat] [+lab] 
-
 $DIACLEA CORRECTION A2.CXXXX.2oe resolution of oe̯ > ye̯, counterfeeding DV4.2E/F LPA dorsal palatalization. Designed to also sweep up ue cases like Shyec from Slavic. 
 [+prim,+back,+round] e̯ > ˈœː 
 
@@ -1430,7 +1428,6 @@ $ This effects also the earliest Slavic loanwords : e.g. poroçit > porosit "to 
 $DIACLEA CORRECTION A2.CLVIII LPA I onset t͡s dissimilates to t͡ʃ beore coronal cluster not followed by palatal. Fed by yer deletion. Fed by onset slavic wave I t͡ʃ > t͡s. But it counterfeeds t͡ʃ > s. çerdhë, çerr, Çërravë. 
 t͡s > t͡ʃ / # __ ([-cons])* [+cor] [+cor] [-front]
 
-
 $DIACLEA CORRECTION A2.CII.1 LPA I deletion of initial unstressed nonconsontal vowel between homorganic consonants, plus deletion of first homorganic cons. .cc now being handled in tandem with A2.VII.
 [-stres,-cons] > ∅ / # [+cons,dcor,blab,tson,nnas,llat,scont] __ [+cons,dcor,blab,tson,nnas,llat,scont]
 $[+cons,dcor,blab,tson,nnas,llat,scont] [+cons,dcor,blab,tson,nnas,llat,scont] > ∅ [+cons,+long]
@@ -1445,10 +1442,6 @@ $ DIACLEA CORRECTION B2.XVIII.vn -- vowel nasalization moved back to late LPA I,
 
 $DIACLEA CORRECTION A2.CX.ɐ LPA I reduction of unstressed non-final a across the board to ɐ, around time that final a > ɐ, which will ultimately pass to ə, surviving various deletions, resolving as ɐ > ə in LPA II or LPA III. Different behavior than final a, which goes to ə, later. TODO later consolidate these. 
 [+lo,-stres,-long,-round] > ɐ / __ (@)* [+syl]
-
-$DIACLEA CORRECTION A2.CX.BɐG countertonic a > ɐ between labials or ʃ and dorsal stop ː shëgjetëtar, shëgjetë, mëgullë, pëgërë, pëgëj, bëgatë. See fixes log for reasoning for formalisms
-[+lo,-long,-round,-prim,+stres,-nas] > ɐ / [+lab] __ [+hi,-cont] [+prim,+tense]
-[+lo,-long,-round,-prim,+stres,-nas] > ɐ / [+cor,+strid] __ [+hi,-cont]
 
 $DIACLEA CORRECTION A2.LXXXXI.Rɲ -- resonants deleted before ɲ ː balnea > banje, refernio > rrefej. Happens before LPA IIIː pa/lnja > palnjë
 [+son,+cor,-nas] > ∅ / __  ɲ
@@ -2007,7 +2000,7 @@ $DIACLEA CORRECTION A1.XVI ː ɯ/ɨ handling
 
 $DIACLEA CORRECTION A1.XXIII.Cː in V+back,-hi __ C V/#. UNNATURAL CLASS of posterior consonant -- exclusion of b. 
 l > lˠ / [+stres,-front,-hi] __ [+cor,+strid] [-cons]
-l > lˠ / [+stres,-front,-hi] __ [-son,βvoi,βcont] {[-cons];#}
+l > lˠ / [+stres,-front,-hi] __ [-son,βvoi,βcont,-front] {[-cons];#}
 
 $DIACLEA CORRECTION A1.XVII.3 Late Proto-Albanian II has a third wave of the n j > ɲ phenomenon that is fed by ietation > jɛ .
 [+cor,+nas,+son] j > ɲ
@@ -2373,7 +2366,7 @@ $DV4.1E / -F -- beginnings late medieval central Albanian palatalization. This e
 [+back,-cont] j > [-back,+front] ∅
 
 $ DIACLEA CORRECTION A2.CXXXV.p Old North Tosk pretonic syncope in Pcont __ l,t,z, : mlysh, flas, fli, mti, mxoj. UNNATURAL CLASS, investigate. Although, there seems to be variance with m{ë}suk and m{ë}soj.
-ə > ∅ / # [+lab,+cons,+cont] __ [-distr,llat,lson,zcont,zvoi,-hi]
+ə > ∅ / # [+lab,+cons,+cont] __ [-distr,llat,lson,zcont,zvoi,-hi] [-cons]
 
 $DIACLEA CORRECTION A2.CXXXV.ɾ ONT pretonic syncope in ʃ T __ ɾ . SUPPRESSED-- does more harm, doesn't accomplish anything. 
 $ə > ∅ / ʃ [-delrel,-son,-front] __ ɾ [+prim] 

@@ -70,13 +70,14 @@ def digest_line(ln, inp_stage_names, src):
 INPUTS = {"ALLAPS.txt" : "Latin"  #various stages of Latin currently working from here, rather than ALLex or the Christian Latin file.
           #"APIELex.txt": "Proto-Indo-European", #PIE inheritance #TODO don't do until reasonably confident with later layers (and fulL)
           #,"APBalkLex.txt": "Proto-Balkan-Indo-European", #Balkan Indo-European formations and substrate etyma #TODO don't do until reasonably confident with later layers (and fulL)
-          ,"EPSEALLex.txt" : "Proto-Slavic" #First wave of Slavic loans -- into Late Proto-Albanian I
+          ,
+          "EPSEALLex.txt" : "Proto-Slavic" #First wave of Slavic loans -- into Late Proto-Albanian I
           ,"MPSEALLex.txt" : "Proto-Slavic" #Middle wave of early Slavic loans -- into Late Proto-Albanian II. To be used sparingly
           ,"LPSEALLex.txt" : "Proto-Slavic" #Last early wave of Slavic loans -- into Late Proto-Albanian III
 
           , "MGrALAPS.txt" : "Middle Greek" #later waves of Greek.
           ,"ADoLex.txt" : "Doric" #Doric loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc.
-          ,"AAttLex.txt" : "Ancient Greek dialects" #Attic loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc. Turns out they're mostly not necessarily Attic though. 
+          ,"AAttLex.txt" : "Ancient Greek dialects" #Attic loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc. Turns out they're mostly not necessarily Attic though.
           ,"AMacLex.txt" : "Macedonian" #Macedonian loans into Archaic Proto-Albanian (a likely later time than above tho),
                 # as assumed by Huld; TODO maybe move to later era?
           ,"AHesLex.txt" : "Classical Proto-Albanian" #Indo-European inheritance attested by Hesychius of Alexandria

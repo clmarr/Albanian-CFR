@@ -548,8 +548,7 @@ x > h
 k > ɡ / # __ ( [-prim,-lo] ) [+lat,-hi] ( [-prim,-lo] ) ( [+son,-syl] ) [-son,-cont] [+prim]
 {o;ɔ;a} > {ə;ə;ə} / __ #
 s > [+delrel,-cont,+cons,0tense]/ k ( [+syl,aback,afront] ) [-cont,+son] __
-[+strid,+cor] > [+delrel,-cont,+cons,0tense] / [+lat] __ [+syl,-lo]
-[+strid,+cor] > [+delrel,-cont,+cons,0tense] / [+nas,+cons] ( [-cont,-son] ) __ [+syl]
+[+strid,+cor] > [+delrel,-cont,+cons,0tense] / [+cons,nnas,!nlat] ( [-cont,-son] ) __ [-lo]
 k > ɡ / # __ ( [-prim,-back,-front] ) [+cor] [-voi,ʃcons,ʃcor,ʃfront] [-hi,-round,+prim]
 k > ɡ / # __ [-prim,+back,+hi] [+cor] [-prim,-back,-front] [-son,-cont]
 ˈã > ˈɛ̃ / [+cor] __ ɲ

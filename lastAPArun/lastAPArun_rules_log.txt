@@ -397,6 +397,10 @@ l > lˠ / [blab,!bcor,!bcont] [-front,+syl] __ [-back,-lo,-cons]
 [-stres] > e̯ / [-hi,-cons,-syl,+son] __
 [+lo,+syl,-round] j > [-lo,+front,-back,-tense,+long,-cons,-lat,+cont,0delrel] ∅/ __ #
 [-back,-front,-stres] > ∅ / __ #
+[+nas,+cor,-long] > ∅ / [-cons,+nas] ( [-cons] ) __ [+strid,+cont]
+[+nas,+cor,-long] > ∅ / [+round,+syl,-lo] ( [-cons] ) __ #
+[+nas,+cor,-long] > ∅ / [-lab,-nas] [-cons,-lo,+nas] ( [-cons] ) __ #
+[-stres,-round,-lo] > ∅ / [+syl] ( [+cont] )* [+son,-syl,whi,!wcons] __ [+strid,+ant,-voi] @
 ˈu [-hi,-syl,-cons,+son] > ˈa/ [+stres] ( [-syl] ) [+nas,+cons] __ ɾ #
 ˈu [-hi,-syl,-cons,+son] > ˈa/ [-voi,+cons] ( [-stres] ) t __ ɾ #
 [-prim,+round,+syl] > [-back,-front,-lab,-round,-hi,0tense,-lo] / # ( [-syl,-lab] )* [+cor,+ant] ( [-syl,-lab] )* __ lˠ @
@@ -418,9 +422,6 @@ m [+nas,+cons,+cont] > mː/ __ [+syl,-round]
 [+syl] [-prim,-round,-lo] > [+long] ∅/ __ #
 [+lo,-round] ʎ > [+front,-back,-lo,-tense,-cons,-lat,+cont,0delrel] lː/ [+lab,+cont] __ [-front]
 [+lab,-son,+cont] > [+strid] 
-[+nas,+cor,-long] > ∅ / [-cons,+nas] ( [-cons] ) __ [+strid,+cont]
-[+nas,+cor,-long] > ∅ / [+round,+syl,-lo] ( [-cons] ) __ #
-[+nas,+cor,-long] > ∅ / [-lab,-nas] [-cons,-lo,+nas] ( [-cons] ) __ #
 [+nas,+cor,-long] > ∅ / [+son,-front,-lab] [+lo] __ #
 [-cont,mlab,jfront] > [+voi] / [mlab,jfront,+nas,+cons] __
 [-prim] > ə / # ( ( [-syl] )* [-prim] ( [-syl] )* )* [-syl] __ [-syl] ( ( [-syl] )* [-prim] ( [-syl] )* )* #
@@ -551,7 +552,7 @@ k > ɡ / # __ ( [-prim,-lo] ) [+lat,-hi] ( [-prim,-lo] ) ( [+son,-syl] ) [-son,-
 [+lo,+nas,+syl,-long] > [-lo,-back,-front,0tense,-lab,-round] 
 [-prim,-cons] > [-nas] 
 s > [+delrel,-cont,+cons,0tense]/ k ( [+syl,aback,afront] ) [-cont,+son] __
-[+strid,+cor,-voi] > [+delrel,-cont,+cons,0tense] / [nnas,!nlat] ( [-cont,-son] ) __ [-lo]
+[+strid,+cor,-voi] > [+delrel,-cont,+cons,0tense] / [nnas,!nlat] ( [-cont,-son] ) __
 k > ɡ / # __ ( [-prim,-back,-front] ) [+cor] [-voi,ʃcons,ʃcor,ʃfront] [-hi,-round,+prim]
 k > ɡ / # __ [-prim,+back,+hi] [+cor] [-prim,-back,-front] [-son,-cont]
 [-stres,-cons] > ∅ / [+cons,dcor,blab,tson,nnas,llat,scont] __ [+cons,dcor,blab,tson,nnas,llat,scont]

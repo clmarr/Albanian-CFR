@@ -400,7 +400,6 @@ l > lˠ / [blab,!bcor,!bcont] [-front,+syl] __ [-back,-lo,-cons]
 [+nas,+cor,-long] > ∅ / [-cons,+nas] ( [-cons] ) __ [+strid,+cont]
 [+nas,+cor,-long] > ∅ / [+round,+syl,-lo] ( [-cons] ) __ #
 [+nas,+cor,-long] > ∅ / [-lab,-nas] [-cons,-lo,+nas] ( [-cons] ) __ #
-[-stres,-round,-lo] > ∅ / [+syl] ( [+cont] )* [+son,-syl,whi,!wcons] __ [+strid,+ant,-voi] @
 ˈu [-hi,-syl,-cons,+son] > ˈa/ [+stres] ( [-syl] ) [+nas,+cons] __ ɾ #
 ˈu [-hi,-syl,-cons,+son] > ˈa/ [-voi,+cons] ( [-stres] ) t __ ɾ #
 [-prim,+round,+syl] > [-back,-front,-lab,-round,-hi,0tense,-lo] / # ( [-syl,-lab] )* [+cor,+ant] ( [-syl,-lab] )* __ lˠ @
@@ -463,6 +462,7 @@ j > ∅ / [+front,+cons] __
 [+hi,-round,-tense,+nas] > [+tense,+lo,-hi,-cons,-lat,+cont,0delrel] 
 [+hi,-round,-tense] > [-hi,+stres,+syl,+son] / __ [+cons] ɪ
 [+hi,-round,-tense] > [-hi,+stres,+syl,+son] / __ ɾ
+[-stres,-round,-lo] > ∅ / [+lo] ( [+cont] )* [+son,-syl,whi,!wcons] __ [+strid,-voi]
 [-stres] > ∅ / # [+cons] [-stres] [+cons] __ [+cons] ( @ )* [+prim]
 [-stres] > ∅ / [+nas,+cons] [+cons] [-stres] [+cons] __ [+cons] ( @ )* [+prim]
 [-syl,ason,!acons,-strid] > ∅ / __ [+cons] [-son]

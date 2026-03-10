@@ -1776,9 +1776,6 @@ $ DIACLEA CORRECTION E1.VI -- LPA II prestrident nasal deletion decoupled from f
 $DIACLEA CORRECTION E1.VI.1 FIrst LPA II final nasal deletion for "only" {although these form a vast majority of potential cases} after non-low vowels after non-labial Cs, and after u and its diphthongs. Later deletions seem to be after breakup of Tosk and Gheg. Occasional cases of -nj outcomes are likely analogical, from plurals. 
 [+nas,+cor,-long] > ∅ / {[+round,+syl,-lo];[-lab,-nas] [-cons,-lo,+nas]} ([-cons]) __ #
 
-$ DIACLEA CORRECTION A2.XXXX LPA II deletions of unround unstressed vowels in before non-final s, ts, after non-initial consonantal sonorants. Counterfeeds pre-spirant nasal deletion. Feeds Tosk affrication. 
-[-stres,-round,-lo] > ∅ / [+syl] ([+cont])* [+son,-syl,whi,-wcons] __ [+strid,+ant,-voi] @
-
 $DIACLEA CORRECTION A2.CI.nar and .tar: -ˈuor > -ar in (nar) ˌV (C) N __ and (tar) C-voi ([-stres]) t __ : Both are apparently pan Albanian (bardhi shëgjetëtar etc.), earlier than the later Tosk -uar > or phenom. 
 ˈu [-hi,-syl,-cons,+son] > ˈa / {[+stres] ([-syl]) [+nas,+cons];[-voi,+cons] ([-stres]) t} __ ɾ #
 
@@ -2019,7 +2016,10 @@ $DIACLEA CORRECTION A2.LXXII.ɪ -- LPA III ɪ > ɛ / __ C ɪ. However, this may 
 $DIACLEA CORRECTION A2.LXXII.r LPA III ɪ > ɛ before r like above, at least for stressed (countertonic or tonic) variants
 [+hi,-round,-tense] > [-hi,+stres] / __ {[+cons] ɪ;ɾ}
 
-$DIACLEA CORRECTION A1.XXX.2 deletion of second element in #/N C V1-stres C V2-stres C (@)* ˈV
+$ DIACLEA CORRECTION A1.XXXX LPA III deletions of unround unstressed vowels in syllables after low vowels, before stridents and after sonorants. Counterfeeds pre-spirant nasal deletion. Feeds Tosk affrication. 
+[-stres,-round,-lo] > ∅ / [+lo] ([+cont])* [+son,-syl,whi,-wcons] __ [+strid,-voi]
+
+$DIACLEA CORRECTION A1.XXX.2 deletion of second (V2) element in #/N C V1-stres C V2-stres C (@)* ˈV
 [-stres] > ∅ / {#;[+nas,+cons]} [+cons] [-stres] [+cons] __ [+cons] (@)* [+prim] 
 
 $DIACLEA CORRECTION A2.CXXX LPA III deletion of nonstrident first element of clusters ending in nonsonorant if its sonorance mismatches its consonantality. Counterfed by A1.XXX.3 ; either counterfed by A1.XXX.1 or bled by A2.LXXXXI.bn as fed by it. 

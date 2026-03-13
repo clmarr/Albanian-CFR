@@ -49,15 +49,15 @@ t > n / [+prim] ( @ )* n __
 d > n / n __
 {c͡ç;ɟ͡ʝ} > {t͡s;d͡z} 
 [+lo,+syl] > [+back,-front] 
-[-prim,+front,-lo] > ə / @ [-syl] __ [+cons] ( [+syl] ( [-syl] )* ) [+syl]
-[-prim,+front,-lo] > ə / # [+son,-syl] __ [+cons] ( [+syl] ( [-syl] )* ) [+syl]
+[-prim,+front] > ə / @ [-syl] __ [+cons] [+syl]
+[-prim,+front] > ə / # [+son,-syl] __ [+cons] [+syl]
 [-prim,+round,-long] > ə / [-voi] __ ( @ )* [+prim]
 ∅ > b / m __ ( [-stres] ) l
 [-cont] > [-sg] 
-{c;ɟ} > {t͡ʃ;d͡ʒ} 
-j > ɟ / __ [+stres]
-[-cont,-cor] s > [+cont,0delrel] ∅
 [+front,-prim] > j / __ [+syl]
+{c;ɟ} > {t͡ʃ;d͡ʒ} 
+j > ɟ / # __ [+stres]
+[-cont,-cor] s > [+cont,0delrel] ∅
 [+syl,+long] > [+prim,+stres,+syl,+son] / [+prim] [-syl,-lat] __ [-syl] ( [-syl] )* [+syl]
 [+syl] > [+prim,+stres,+syl,+son] / [+prim] [-syl,-lat] __ [-syl] [-syl] ( [-syl] )* [+syl]
 [+prim] > [-prim,+syl,+son] / __ ( @ )* [+prim]
@@ -315,7 +315,7 @@ n > ɾ̃ / [+syl,-hi] __ [+syl]
 [+lo,-prim,-long] > ə / p __ [+lat] ( @ )* [+prim]
 [-prim,+front,-long] > ə / # [-son,+hi] __ [+son,+cons] ( [+cor] ) [+prim]
 [+strid,+cor] > ∅ / ʃ __
-[+prim,+hi,+front,-round,+tense] > [-hi,-tense,-cons,-lat,+cont,0delrel] / __ [-ant,+strid,-voi] [+syl] #
+[+prim,+hi] > [-hi,-tense,-cons,-lat,+cont,0delrel] / [-cont,+cor] __ [-ant,+strid] [+lo]
 [+strid,+cor,+voi] > d͡ʒ 
 [+lab,-cont] > ð / [+round] __ [-cont]
 [-ant,+distr,+delrel] > [+ant,-distr,+cont,-front,+cor,0delrel] 

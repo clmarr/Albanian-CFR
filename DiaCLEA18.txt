@@ -270,7 +270,7 @@ $DIACLEA CORRECTION D2.III -- APA d > ð and ð > j rules deleted. No reason for
 $ð > j / [+syl] __ [+syl] 
 
 $DIACLEA CORRECTION A2.CXXXXVII.e APA reduction of non-primary {non-low} non-final front vowels in C __ C . Bleeds i-mutation -- diˈaːmeron > zëmër not zimër, skˈaripʰa > shkarp- not zgjerp-,stˈeripʰa > shterp- not shtirp- , mastíkhino > meshteker etc; also feeds m> b in meletta > bletə. Only happens to initials if separated from word onset by sonorant {bletë, lëken vs. qershi, përrua}. Doesnt happen to finals : dranin > dre. Doesn't happen in strong syllables. 
-[-prim,+front,-lo] > ə / {@ [-syl];# [+son,-syl]} __ [+cons] ([+syl] ([-syl])* ) [+syl]
+[-prim,+front] > ə / {@ [-syl];# [+son,-syl]} __ [+cons] [+syl]
 
 $DIACLEA CORRECTION A2.CXXXXVII.o pretonic short APA round vowels reduce to ə if after a voiceless element. Not long: gershet. 
 [-prim,+round,-long] > ə / [-voi] __ (@)* [+prim]
@@ -283,11 +283,15 @@ $DIACLEA CORRECTION D4.VI APA ml > bl reinteprreted as ml > mbl
 $DIACLEA CORRECTION A1.XXXVIII APA pʰ from Greek > p. Take the other aspirates with it for good measure since it's clear for kh at least. Does not feed DV1740.C5 nt > nn though. 
 [-cont] > [-sg]
 
-$DIACLEA CORRECTION A2.CXXXVIII  APA c , ɟ from late APA > tʃ dʒ. Counterfed by j ʒ > ɟ etc word initially. Counterfed by DV1743.F2 -- in as much as the later produces ɟ, which could be questioned --, so still in APA for now. 
+$DIACLEA CORRECTION A1.XXXVII pre-Latin hiatus front vowel reduction -- different outcomes evident at least in feeding rj > ʎ here. 
+[+front,-prim] > j / __ [+syl]
+
+
+$DIACLEA CORRECTION A2.CXXXVIII  APA c , ɟ from late APA > tʃ dʒ. Counterfed by j ʒ > ɟ etc word initially. Counterfed by DV1743.F2 -- in as much as the later produces ɟ, which could be questioned --, so still in APA for now. TODO make into Tj- merger rather than lexicalizing this. TODO REWORk into merger of -Tj- other than reflexes of *k2 series with KWJ clusters. 
 {c;ɟ} > {t͡ʃ;d͡ʒ}
 
-$DV1743.F2 : PPAlb *j before a stressed vowel -- but not the *j that is a glided Latin initial i or e. Lists n-gjesh "squeeze". Does not feed fate of early Gk etyma with palatalized velars i.e. zall, shpuzë etc.
-j > ɟ / __ [+stres]
+$DV1743.F2 : PPAlb *j before a stressed vowel -- but not the *j that is a glided Latin initial i or e. Lists n-gjesh "squeeze". Does not feed fate of early Gk etyma with palatalized velars i.e. zall, shpuzë etc. TODO almost certainly needs revision with IE etyma. Likely should be moved into CPA. Bled by -tj- phenomena and or stress retractionː x ˈe c w o t i ˈe χ > sasë, ɢ l n̩ dʰ t i ˈo χ > gjas-- unless its' only initial, which all known cases are. Fixed to reflect that 
+j > ɟ / # __ [+stres]
 
 $DV2.2.1A4.I: PPAlb *e and Latin ē raise to ultimately *i "sometimes" when before sh -- Latin short e not listed, even though PPAlb *e patterns with Latin short e elsewhere (general outcome: 2.2.1B2; i-mutation outcomes: 2.2.1A3; in CL_ : 2.2.1B1).
 $ Way to handle this might be to lengthen PPAlb *e in this context here so that it will merge with Latin ē, and then have a second part of this rule (2.2.1A4.II) later  
@@ -297,9 +301,6 @@ $ˈe > ˈeː / __ [+cor,+cont,+strid]
 
 $DIACLEA CORRECTION A2.CXXXVII late APA ks , ps > x , ɸ 
 [-cont,-cor] s > [+cont] ∅
-
-$DIACLEA CORRECTION A1.XXXVII pre-Latin hiatus front vowel reduction -- different outcomes evident at least in feeding rj > ʎ here. 
-[+front,-prim] > j / __ [+syl]
 
 $DIACLEA CORRECTION A2.CXXXXI APA stress advancement from short/weak antepenult to long penult {Tomorr} and from stressed syllable fourth {or more} from end to antepenult. Again it seems stress before a lateral is protected: oleaster > vashter not ulléshter; . Tentatively seems to be after DV1740G3 based on outcome for lepuj -- bleeding. Also doesn't go onto a vowel in hiatus: cichórēa > kore not krejë. Short vowels followed by 2+ consonants do not seem to be "strong" in the sense of getting the stress: génistra > gjeshtər, accípitrem > qiftər, cúlcitra > kultər , dríwasto > Drisht, brˈōtasca > breshkə; but it does happen for pre-Latin Greek items : márathrion > merraje etc. .Counterfed by A2.III
 $ this part suppressed -- no effect currently: [+syl] > [+prim] / [+prim] ([-lat] (@)*) __ (@)* [+syl] (@)* [+syl]
@@ -1403,12 +1404,14 @@ $ Dec 26 vsn : [-prim,+front,-lo,-long] > ɪ / [+cons,-son,-hi] __ {[ason,avoi,+
 $DIACLEA CORRECTION A2.XVII: the new ʃ absorbs following t͡ʃ. Feeds A2.LXI
 [+strid,+cor] > ∅ / ʃ __
 
-$ DIACLEA CORRECTION A2.LXI  [TODO THESIS -- REEXAMINE FOR EXAMPLE OF ALPHA POLARITY] LPA ˈi and ˈɪ (later from Slavic) > ˈɛ phenomena , before ʃ or t͡ʃ , after s > ʃ  (DV1744.H) but before t͡ʃ > s..
-	$A2.LXI.a  if before an affricate, needs the anteriority to mismatch lowness of final vowel, can see through one medial unstressed-- perhaps should have yers lost by now? As of Nov 28, 2025, however, this is explained via hte soft yer dissimilation rule instead. 
+$ DIACLEA CORRECTION A2.LXI LPA ˈi and ˈɪ (later from Slavic) > ˈɛ phenomena , before ʃ or t͡ʃ , after s > ʃ  (DV1744.H) but before t͡ʃ > s..
+	$ABROGATED -- A2.LXI.a  if before an affricate, needs the anteriority to mismatch lowness of final vowel, can see through one medial unstressed-- perhaps should have yers lost by now? As of Nov 28, 2025, however, this is explained via hte soft yer dissimilation rule instead. 
 $[+prim,+hi,-round] > [-hi,-tense] / __ [+delrel,!aant] ([-syl])* [alo]
 	$A2.LXI.s -- for ʃ, just has to come before a vowel (this is before final vowel losses)
-	$as of Nov 28, 2025 -- this only the latter, A2.LXI.s is active, only for t͡ʃ joining with ʃ (formerly ʃ where we have [-ant,+strid,-voi] ) 
-[+prim,+hi,+front,-round,+tense] > [-hi,-tense] / __ [-ant,+strid,-voi] [+syl] #
+		$as of Nov 28, 2025 -- this only the latter, A2.LXI.s is active, only for t͡ʃ joining with ʃ (formerly ʃ where we have [-ant,+strid,-voi] ) 
+	$ as of March 12, 2026, active for after coronal stops and before postalveolars then low vowels. MIsses missa > meshë and monachissa  > murgeshë (latter likely analogy or derivation anyways), but avoids causing errors for */ʃəɾˈit͡ʃɔ/ > */ʃəɾˈɛt͡ʃɔ/;           (et.560; #sˌyrˈittioː# > ... > #ʃəɾˈis#), */ʃˈit͡ʃa/ > */ʃˈɛt͡ʃa/;   (et.609; #sˈentiɑ# > ... > #ʃˈisə#), */bˈiʃa/ > */bˈɛʃa/; Also simplfied rule somewhat since other things won't be hit anyways. 
+$[+prim,+hi,+front,-round,+tense] > [-hi,-tense] / __ [-ant,+strid,-voi] [+syl] #
+[+prim,+hi] > [-hi,-tense] / [-cont,+cor] __ [-ant,+strid] [+lo]
 
 $DIACLEA CORRECTION A2.LXII LPA I merger and coalescence of ʒ, d z, d ʒ, d͡z into d͡ʒ. Whether z and d͡ʒ are included or not is not clear since d͡ʒ > z separately. Loss of segmentality of d handled below (TODO)
 [+strid,+cor,+voi] > d͡ʒ

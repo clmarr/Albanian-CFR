@@ -1,0 +1,115 @@
+To the overleaf 
+
+to -Tj- section 
+
+	
+...nah
+
+
+
+
+
+
+DECISION -- skip talking about i-lengthening in APA
+	-- also don't talk about r > rr rule 
+	
+	
+	--
+TO  (NON-)ASPIRATION SECTION
+
+One may note the following reflexes of \phi in \textit{f}. However all are likely Latinisms
+	TODO this has already been handled for pharum and orphanum  -- or maybe it hasn't.. 
+	romphaea
+		.. (some already noted)
+		The Greek may be from Thracian, cf. Bulgarian rofija \citep[390]{orel1998aed} 
+		
+Likewise, for $\khi$ [\textipa{k$\h$ $\sim$ \khi}], Lat \latingloss{cichorea}{chicory} \jandaJosephGloss \modAlbGloss{kore}{id.}, cf. Rom. \textit{cicoare}, etc. (\citet[377]{bonnet1998mots}; \citet[180]{vuatuasescu1997}). 
+	
+	--
+	
+CPA rules to discuss...
+
+To phonemics section
+
+The lack of front round vowels ... --todo talk about this or not? Unrounding could be in latin? 
+
+et rule effect 72
+9 etyma effected by rule 72, [+front,+syl] > [-round,-lab] 
+     (original form : [+front,+syl] > [-round,-lab]    ,  class SChangeFeat)
+*/kʰˌersˈydrɑ/ > */kʰˌersˈidrɑ/;             (et.233; #kʰˌersˈydrɑ# > ... > #kulʃˈɛdəɾ#)
+*/ɡrˈyːpsam/ > */ɡrˈiːpsam/;             (et.374; #ɡrˈyːpsam# > ... > #ɡrˈifʃə#)
+*/kˈypreum/ > */kˈipreum/;             (et.469; #kˈypreum# > ... > #cˈipəɾ#)
+*/kˈyːmɑ/ > */kˈiːmɑ/;             (et.472; #kˈyːmɑ# > ... > #cˈimə#)
+*/ɡˈyːrum/ > */ɡˈiːrum/;             (et.496; #ɡˈyːrum# > ... > #ɟˈiɾ#)
+*/ˌinkonɡˌyːrˈɑːnioː/ > */ˌinkonɡˌiːrˈɑːnioː/;             (et.509; #ˌinkonɡˌyːrˈɑːnioː# > ... > #ɲɟəɾˈɔj#)
+*/trˌɑntˌɑfˈyːllɔn/ > */trˌɑntˌɑfˈiːllɔn/;             (et.822; #trˌɑntˈɑfyllɔn# > ... > #tɾəndafˈil#)
+*/mˌyriːkˈiːniɑ/ > */mˌiriːkˈiːniɑ/;             (et.1717; #mˌyriːkˈiːniɑ# > ... > #məɾcˈiɲə#)
+*/mˈyrrhɑ/ > */mˈirrhɑ/;             (et.1742; #mˈyrrhɑ# > ... > #mˈɛrə#)
+
+..
+
+82 -- gliding rule 
+
+84 -- non-low round vowel raising? 
+
+86 -- high vowel shorrening -- maybe omit
+
+
+
+To CPA stress retraction
+
+\todo{didn't I already write about the similarity to Latin stress rules here and the possibility of them being due to contact?} 
+
+Just as in Classical Latin, stress ends up on the penult if it is \textit{heavy}, which is to say if it contains either a long vowel or at least one consonant in its coda, as demonstrated in Table \ref{tab:CPAstressOntoPenult} with various reflexes of earlier Greek loans. 
+The phenomenon of course would not be limited to Greek loans, but exact stress placement in etyma inherited from Proto-Indo-European at this time is less secure.
+It may also be seen in \modAlbGloss{kashtë}{thatch}, reflecting a PIE *\textit{kolH-es-t\'e\ha}, which may have been indirectly attested in a gloss of Hesychius, `kast\'on' \todo{greek letters!} (\citet[249]{huld1986strata}; \citet[213]{demiraj1997aed}).  
+Meanwhile, also as in Latin, when the penult was not strong (`weak'), stress instead moved into the antepenult, as seen in \todo{Greek gloss} \jandaJosephGloss \modAlbGloss{mok\"er}{millstone}. 
+
+\begin{table}
+	\centering
+	\begin{tabular}[c|c|c|c] 
+		Source (\S\ref{WestGrLoans}) & Tranformation & Outcome & Elsewise // \hline\hline
+		Doric \todo{gloss!} & *\textipa{kərsɔːtˈɔn} > \textipa{kərsˈɔːtɔn} & \modAlbGloss{gërshet}{plait} & *\textit{kërshtua} \\ 
+		\todo{gloss} & *\textipa{ɡˌɔːlˈoːn} > \textipa{ɡˈɔːloːn} & \modAlbGloss{goll-e}{hole} & *\textit{gullua} \\ 
+		\todo{gloss} & *\textit{aj\PAlbDj al\'on} > *\textit{aj\PAlbDj \'alon} & \modAlbGloss{zall}{riverbank} & *\textit{zëllua} \\  
+	\end{tabular} 
+	\caption{CPA stress retracction unto penultimates, shown with reflexes of earlier Greek loans.}
+	\label{tab:CPAstressOntoPenult}  
+\end{table}
+
+
+There is also some evidence in reflexes of Greek loans of stress \textit{advancement} onto heavy penults, as seen in *\textit{m\'aradrja} `fennel' (\S\ref{WestGrLoans}) > *\textit{mar\'adrja} \jandaJosephArrow \textit{mërrajë} id., rather than *\textit{marr\"ej\"e} or **\textit{marre}. 
+While these could in theory be placed into APA as they don't seem to impact Latin loans, tehre is also no reason to, and they do seem to produce adherence to a system close to the Classical Latin stress system.
+
+That is not to say all of these stress movements did, however.
+One evident stress advancement rule that does not quite align to the rules of Classical Latin is the advancement of stress from a stressed vowel followed by a prelateral /o/ onto the o.
+However, this is also seen in various Romance languages. \todo{check if this happened in Romanian and French! / remark about it. } 
+For example: 
+
+\begin{itemize}
+	\item \latingloss{capr\'eolvm}{todo gloss} \jandaJosephArrow \modAlbGloss{kapruall}{todoGloss} 
+	\item \latingloss{avre\'olvm}{todo gloss} \jandaJosephArrow \modAlbGloss{rryell}{todoGloss}
+	\item \latingloss{f\=ile\=\'olvm}{todo gloss} \jandaJosephArrow \modAlbGloss{fjoll\"e}{todo Gloss}
+	\item \latingloss{ph(r)as\'eolvm}{todo gloss} \jandaJosephARrow \modAlbGloss{f(r)ashuall){todoGloss} \todo{remove?} 
+\end{itemize} 
+
+After CPA hiatus gliding, stress also moved across coronals from weak penults to antepenults, in a rule that treated stop-/j/ sequences as onsets, rendering syllables bearing short vowels before them `weak': 
+
+\begin{itemize}
+	\item \latingloss{i\=vd\icivm}{TODO gloss} > *\textipa{jˌuːdˈɪkjʊ} > *\textipa{jˈuːdˈɪkjʊ}, feeding the fronting of long *\=u and ultimately the deletion of (the reflex of) *d. 
+	\item \latingloss{d\=ebit\=or\'icivm}{TODO gloss} > *\textipa{dˌeːbɪtˈorɪtjʊ} > \modAlbGloss{detorës}{TODO gloss} 
+	\item /dˌʊrrˈɑt͡ʃʊ/ > */dˈʊrrɑt͡ʃʊ/
+	 \item /pˌɔrrˈɪkjʊ/ > */pˈɔrrɪkjʊ/
+\end{itemize} 
+
+\todo{mention the thecases of ericium and expeditum wrt i shortening?} 
+
+\todo{put exact rule in a figure?} 
+
+--
+
+
+CPA developments with *o 
+
+
+

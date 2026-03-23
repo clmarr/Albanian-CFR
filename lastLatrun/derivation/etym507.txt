@@ -1,19 +1,24 @@
 Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :507:
-#kˈomɑ# >>> *#kˈɔmə# ( GOLD : #kˈɔmə#) :
-k ˈo m ɑ 
-*#kˈɔmɑ# | 16 : [-lo,+syl,-long,-cons] > [-tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian I stage form : *#kˈɔmɑ#
-*#kˈomɑ# | 74 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#kˈomɑ#
-*#kˈoma# | 121 : [+lo,-round] > [+front,-back] 
-Late Proto-Albanian I stage form : *#kˈoma#
-*#kˈɔma# | 138 : [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
-Late Proto-Albanian II stage form : *#kˈɔma#
-*#kˈɔmə# | 226 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-*#kˈɔ̃mə# | 234 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian III stage form : *#kˈɔ̃mə#
-Proto-Tosk-SGheg stage form : *#kˈɔ̃mə#
-Proto-Tosk stage form : *#kˈɔ̃mə#
-*#kˈɔmə# | 322 : [-cons,+nas] > [-nas] 
-Old North Tosk stage form : *#kˈɔmə#
-Final form : *#kˈɔmə#
+#kˈubitum# >>> *#kˈut# ( GOLD : #kˈut#) :
+k ˈu b i t u m 
+*#kˈubitu# | 5 : [+nas,+cons] > ∅ / [-stres] __ #
+*#kˈʊbɪtʊ# | 10 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+*#kˈʊbʊtʊ# | 31 : [-stres] > ʊ / b __ [-cont]
+Middle Proto-Albanian I stage form : *#kˈʊbʊtʊ#
+*#kˈʊβʊtʊ# | 46 : b > β / [-cons] __ ( [+son,+cons] ) [+syl]
+*#kˈuβutu# | 82 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#kˈuβutu#
+*#kˈuwutu# | 116 : β > w / [-cons] __
+*#kˈuutu# | 117 : w > ∅ / [+syl,+round] __ [+son]
+Late Proto-Albanian I stage form : *#kˈuutu#
+Late Proto-Albanian II stage form : *#kˈuutu#
+*#kˈuətu# | 310 : [+back,+hi,-prim,-long] > [-back,-hi,0tense,-round,-lab] / [+stres] ( [-syl] ( [-stres] ) )* __ ( [-syl] )* [-voi]
+*#kˈuətə# | 320 : [-stres,+round,-lo] > ə / __ #
+*#kˈuət# | 324 : [-back,-front,-stres] > ∅ / __ #
+*#kˈuːt# | 343 : [+prim] [-prim] > [+long] ∅
+Late Proto-Albanian III stage form : *#kˈuːt#
+Proto-Tosk-SGheg stage form : *#kˈuːt#
+Proto-Tosk stage form : *#kˈuːt#
+*#kˈut# | 504 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#kˈut#
+Final form : *#kˈut#

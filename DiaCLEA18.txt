@@ -1028,6 +1028,17 @@ r > rː / [-cons] __ j [-cons]
 	$	A2.II.c deletions of ɪ̯ and j in [-syl,-cor] Vback R __ V -- this time w is in the triggers. Not [j] which is son-- must be consonantal.
 [+front,-syl,-cons] > ∅ / [-cor] [-prim,+back] [+cons,+son] __ [+syl]
 
+$DIACLEA CORRECTION A1.XXXIX late MPA II instance of palatalization as per DV4.2E/F3, bleeding early tapping A2.LIV (which in turn has to be before aphaeresis), and bleeding postliquid aspect of i-mutation blocking yod-deletion (RULE CROSSING) -- A2.II.r. Doesn't seem to happen for labiovelars yet (EVIDENCE OF SEPARATE STATUS), though, and does not yet happen initially. 
+[+back,-lab,-cont] > [-back,+front] / @ __ [+front,-lo,-cons]
+
+	$ A2.II.r deletions of ɪ̯ and j in [+son,+cons,-front] __ V́ C-son,-front -- see i-mut blocking reform.
+		$ not if post-tonic consonant is voiced coronal : parentem > pərɩɛ́ntɩ > prind, fonnɩɛ́rʊ > fëner, kuerɩéðɩ > kujri 
+		$ not if post tonic consonant is front
+			$ not palatal -- BLED by A1.XXXIX -- drɩácɩ > dreq, likewise grigj, fëner, mishërier -- but maybe m -- grimb [still only one voiced cons so just excluding sorants for now]
+			$ not postalveolar -- BLED by DV1744.F1 {d;t} > {d͡ʒ;t͡ʃ} / __ j in Late MPA I -- kˌulumnɪ̯ˈɑt͡ʃɑ > kullumesë, , rɩád͡ʒa > rrezë , vlesë 
+		$ might not happen before round vowels -- no evidence of it doing so, though awrjolu > rryell is blocked because of the l being sonorant -- relation to A2.II.a in roundness ǂ stress polarity possible
+[+front,-syl,-cons] > ∅ / [+son,+cons,-front] __ [+prim] [-front,-voi]
+
 $ De Vaan p1743-4 -- w dropped between k (DV1743.G2) or g (DV1744.A2), and vowels. This will eventually feed the palatalization of these velars before i/e/y (p1743) but this feeding does not have to be explicitly coded in. 
 $ form prior to 8/5/23 was: {[-cont,+back] w;[-cont,+back,+round]} > {[-round] ∅;[-round]} / __ [-cons] 
 $ was formulated so as to handle if these are treated instead as labialized consonants (alas in practice the format in ALLex currently is always "k w" and "ɡ w", not "kʷ", "ɡʷ".) 
@@ -1080,14 +1091,7 @@ $ DIACLEA CORRECTION A2.XXXXIII regressive beta-coloring for initial or soon-to-
 $ TODO in progress!!
 $ {ˈi;[+prim,-round]}> {/ # (([-son]) [-son] (([-cons] ) r )) __ [+lab,-son,+voi] ([-cons] ) [+voi,-syl]
 
-
 $TODO NOTE FOR DIA: although phonemic nasalization is assigned a later point in the relative chronology (DV1737, number 8), it may be necessary here at least for /e/ and/or /ɛ/, to block ietation and allow the merger of DV2.2.1K with DV2.2.1L1 & DV2.2.1M (aka the merger of 5b.1 with 5b.2 and 5b.3) -- TODO, almost certainly outdated here.
-
-$DIACLEA CORRECTION A1.XXXIX late MPA II instance of palatalization as per DV4.2E/F3, before early tapping. Currently suppressed
-$[+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
-
-$DIACLEA CORRECTION A1.XXXIX limited early palatalization as a secondary split due to emergence of early flapping. Not ideal but early flapping has to be before aphaeresis, and this must be before that -- but limited. 
-[+back,-son] > [-back,+front] / __ [+front,-lo,-cons] [+nas]
 
 $DIACLEA CORRECTION A2.LIV LPA I early flapping and nasalization in V-prim n V-stres (> ãɾ̃V; in most cases later to ə̃ɾ̃V). Happens also after high vowels (?). Explains anëmik < inimicus {bleeds aphaeresis}, ministrare > marshtroj; also why we end up with -ër/n for demone > djemër etc where elsewhere unstresseds ɔ and u survive as u. As of Dec 9. Counterbleeds palatalization
 [-prim] n [-stres] > [+lo,-hi,+nas,-front,+back,+tense,-round,-lab] ɾ̃ [-stres] 
@@ -1263,7 +1267,7 @@ $C1.B.XVI.ʎ
 ˈɛ > ˈɛː / [+strid] t __ [+lat]
 $ C1.B.XVI.t
 	$og, before first disjunction suppressed for having no effect -- ˈɛ > ˈɛː / {[-cons] [+cor,-lat,-nas,+son];[rson,rnas]} __  {[+cor,-lat,-nas] [+strid,+cont];([+cor,-lat,-nas]) [-delrel,-back,-voi]} [+son]
-ˈɛ > ˈɛː / [rson,rnas] __  {[+cor,-lat,-nas] [+strid,+cont];([+cor,-lat,-nas]) [-delrel,-back,-voi]} [+son]
+ˈɛ > ˈɛː / [rson,rnas] __  {[+cor,-lat,-nas] [+strid,+cont];([+cor,-lat,-nas]) [-delrel,-hi,-voi]} [+son]
 $ C1.B.XVI.d
 [+prim,-lo,-hi,-round] > [+long,-tense] / [nson,nnas] __   (r) [+voi,+cons,-son] ([+hi,-back,-nas]) [+back]
 

@@ -350,7 +350,8 @@ $ general rule for De Vaan(:1747) is no change in stress placement: by default, 
 
 $DIACLEA CORRECTION A2.IX: pʰ > f, even if tʰ > t and kʰ > k
 	$  Aromanian has shcl'ifur but Romanian has only palanga > pǎrângǎ (like Albanian also has p- in cognat plengë). 
-pʰ > f
+$suppressed -- lexicalized. 
+$pʰ > f
 
 $ g before n is ŋ -- Pope 1934(: p75 s158, p133 s321); Allen 1978 p23; Lloyd 1987 p81)
 $ not made explicit by De Vaan -- henceforth Latin ɡn as discussed by him can be assumed to represent ŋn. In Romanian these clusters (later) become mn or m- (agnellus > miel, signum > semn, cognatus > cumnat...), but for Albanian De Vaan later assigns these as going to /ɲ/. 
@@ -856,10 +857,6 @@ $DIACLEA CORRECTION A2.CXXXXVI mini-a-mutation : Vback R É > ʊ̯? R ˈæ? / _
 [+back,-prim] [+cor] [+front,-hi,+prim] > ˌʊ [+cor] ˈa / __ [+nas] ([-syl])* [+lo]
 ˌʊ > ʊ / # __
 
-$DIACLEA CORRECTION A2.XXXXV.a right before MPA II, j > ∅ / s __ V́ 
-{j;k j} > {∅;c} / s __ 
-
-
 $DIACLEA CORRECTION E1.V.a kw, gw > kʷ, gʷ; later to be derounded
 {k w;ɡ w} > {kʷ;ɡʷ}
 
@@ -919,9 +916,6 @@ $DIACLEA CORRECTION A2.XIII: before diphthongization/ietation (of the round elem
 [+front,+round] > [-front,+back] / [-front] __ [+nas,-lab,-back]
 	$TODO: however, note that of hte 13 cases here (not counting arsye which ends up fronted otherwise), 3 are cases where the fronting would be due to i-mutation that could be blocked by labials ( cāpōnem > kapua, pāvōnem > pallua, timōnem > timua), 1 is probably in a later layer (īconem > korë), 3 are possibly velars bleeding i-mutation (falcōnem drancōnem lacōnem > fajkua, drangua, lëkua), and one has an apparent resuffixation (rōsupōne > rozhponjë). Of the remainder, only leōnem is originally with [ˈo] at this stage; the mere four  that remain (immūne > mu , luntrem > lundër, sanguisungia > shushunjë, axungia > ashunjë) are all with u. Consider reformulating this. 
 
-$DIACLEA CORRECTION A1.VI.esj limited i-mutation of e by specifically yod across s {strid} , hitting cases after labial consonantals and one lateral. Counterfed by w > β
-ˈe > ˈi / [+cons,blab,-blat] __ s ([+strid]) j
-
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM (Rom. cetate), njerkë "stepmother" < NOVERCA
 $ DIACLEA CORRECTION B1.III -- relocdated later -- 
 $TODO W phenomena including coloring stuff where this matters happen much later, still get to this (tribulum > truoll, viv-o- >v-ua-, scrib-o- > shkr-ua- ...) . TODO May have to go even later because it seems this also happens with Slavic etyma (bɯβɒl(-ʊ,-iːt͡sɑ) > buall(icë); gɒtɒβ-ɒ > gat-ua, pɒdʊkɒβʊ > patkua, pɒrɒβʊ > përua, tɒrɒβʊ> tërua, βɒlkɒβʊ > vallkua, βīrɒβʊ > virua, zɑ̄bɒjɪ > zabua )
@@ -941,6 +935,12 @@ $β > w / [+round] __
 
 $now continuing with E1.IV
 w > ∅ / [+syl,+round] __ [+son]
+
+$DIACLEA CORRECTION A1.VI.esj limited i-mutation of e by specifically yod across s {strid} , hitting cases after labial consonantals and one lateral. Counterfed by w > β
+ˈe > ˈi / [+cons,blab,-blat] __ s ([+strid]) j
+
+$DIACLEA CORRECTION A2.XXXXV.a right before MPA II, j > ∅ / s __ V́ 
+{j;k j} > {∅;c} / s __ 
 
 $ --- I-MUTATION -- 
 $ i-mutation here, since it can feed ietation/diphthongizations (in case of PPAlb a: > ɒː > ... > ye) and also bleed them. 

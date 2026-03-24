@@ -470,7 +470,7 @@ $DIACLEA CORRECTION A2.XXXI.o stress retraction away from final syllables, attra
 $ DIACLEA CORRECTION A2.XXXX -- non-primary oː loses length. Bled by A2.XXXVIV. Bled by stress retraction in A2.XXXI.o {gërshet}, but not stress retraction in A2.XXXI.ð ̪{detorës}. RULE CROSSINGǃ 
 [-hi,+round,-prim] > [-long]
 
-$DIACLEA CORRECTION A2.XXXI.ð stress retraction across coronals. TODO consider retaining secondary stress.
+$DIACLEA CORRECTION A2.XXXI.ð stress retraction across coronals.
 [+syl] > [+prim] / __ [+cor,-nas,-lat] ([+son,-syl,-lab]) [+prim,-long] [-cont,-voi] (j) [+syl,+hi] #
 [+prim] > [-stres] / [+prim] (@)* __
 $[+syl] [+cor,-nas,-lat] [+prim,-long] > [+prim] [+cor] [-stres] / __ [-cont,-voi] (j) [+syl,+hi] #
@@ -481,11 +481,13 @@ $DIACLEA CORRECTION A2.VIII new version -- o  raising exception when after labia
 $DIACLEA CORRECTION A2.XXXI.nn stress retraction across nn from antepenultimates. TODO reexamine, only two cases {tingël, hingël}, one especially prone to analogy {tingëlloj derived from tingël, or the reverse? Tinnunculus also meant kestrel, not 'ring' -- somewhat reach-y semantics...}
 [-prim] n n [+prim] > [+prim] n n [-prim,-stres] / __ ([-syl])* [+syl] ([-syl])* [+syl] 
 
-$DIACLEA CORRECTION A2.VII now the actual internal non-primary o > u rule . Apparently doesn't happen word initially.
-[+round,-lo,-prim,+stres,-hi] > [+hi,-long] / @ __
+$DIACLEA CORRECTION A2.VII now the actual internal non-primary o > u rule . Apparently doesn't happen word initially. As of Mar 24, applies to all non-primary stressed non-low non-initial round vowels. 
+$[+round,-lo,-prim,+stres,-hi] > [+hi,-long] / @ __
+[+round,-lo,-prim,-hi] > [+hi,-long] / @ __
 
 $DIACLEA CORRECTION A2.VIIIa -- unstressed o/ɔ to u/ʊ in  __ R V-stres
-[+round,-lo,-stres]> [+hi] / __ [+son,+cor,-nas] [-stres]
+	$ SUPPRESSED -- irrelevant given A2.VII 2026 policy.
+$[+round,-lo,-stres]> [+hi] / __ [+son,+cor,-nas] [-stres]
 
 $ DV1743.B4 -- w > b after r and l. I.e. the (non-nasal) (sonorant) coronals. Corvus > korb (Rom. corb), pulvere > bulbër (Rom. pulbere; but also Alb. pluhur), serv-īre > Alb. shërbej (Rom. a șerbi, also servus > Rom șerb) 
 $ DIACLEA fix C3B.VII: now only after a non-initial vowel. (e.g. not eruilla > rrylë, alveolus > unatt. llullë > nullë...) 
@@ -521,7 +523,6 @@ $ form prior to 8/5/23 was: {[+cor,+ant,-son];n;k} n > nː
 $ was formulated so as to handle if these are treated instead as labialized consonants (alas in practice the format in ALLex currently is always "k w" and "ɡ w", not "kʷ", "ɡʷ".) 
 $changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
 {s n;t n;d n;n n;k n} > {nː;nː;nː;nː;nː}
-
 
 $----- early aspects of vowel reduction and falls ----- 
 
@@ -995,9 +996,7 @@ $DIACLEA CORRECTION A2.CLI -- i-mutatory iota absorbed before it can trigger i-m
 $ DIACLEA CORRECTION D3.VII --  j before final unstressed a becomes iota before loss of yod after labials (A2.II), allowing this, too, to join with i-mutation. (Exception ːrubia > rrojbë; may require separate explanation; this may however be a loan. ). 
 j > ɪ̯ / __ ɑ
 
-
-
-$ DIACLEA CORRECTION A2.II -- disappearance of j after labials before round vowels, except before unstressed -a, whic his handled above in D3.VII. As of June 26, it's now labial *obstruents*, can see through (V) r. As of Jan 15 '26, this is hte SAME phenomenon as the blocking of i-mutation C3B.III. 
+$ DIACLEA CORRECTION A2.II -- disappearance of j/iota after labials before round vowels, except before unstressed -a, whic his handled above in D3.VII. As of June 26, it's now labial *obstruents*, can see through (V) r. As of Jan 15 '26, this is the SAME phenomenon as the blocking of i-mutation C3B.III. 
 	$ w >β >b, kw:  laqueum > lak, quiētus > qetë, salviella > shërbelë ; perhaps also alveolu > nullë "gum" if we believe in that etymology. Seems apparent in Romanian too : quiētus > (in-)cet, although this may be independent (note the difference between laqueum > laț and quiētus > in-cet.. curious.). As of June 24, this is moved from being between DV1740H2 and DV1743.B4 to right after i-mutation, because the latter appears to occur for the countertonic a in salviella > sherbelë, which is nevertheless affected by this. 
 	$ mj : gremium > gremb,  prj : capreolum > kaprjɔ́lˠu > kapruall ,  after i-mutation capreum > qepër, cypreum > qipër  Orj ? : N-boreānus > Nbˌɔrjánʊ > Gheg murâ, Tosk murë ; corium > kua (pl. koi though); coctorium > koftor? 
 		$ NOT in unstressed final -ja : cichorea > kore , victoria > vitore ( if this etymology is to be trusted)  languōria, scōria -- only after raisingǃ ː > lëngjyrë, zgjyrë .vexing case -- pistōria > pshterë... but may be suspicious etymology.
@@ -1033,6 +1032,7 @@ $DIACLEA CORRECTION A1.XXXIX late MPA II instance of palatalization as per DV4.2
 
 	$ A2.II.r deletions of ɪ̯ and j in [+son,+cons,-front] __ V́ C-son,-front -- see i-mut blocking reform.
 		$ not if post-tonic consonant is voiced coronal : parentem > pərɩɛ́ntɩ > prind, fonnɩɛ́rʊ > fëner, kuerɩéðɩ > kujri 
+		$ not if pretonic cons is front filiaster to fjeshtër 
 		$ not if post tonic consonant is front
 			$ not palatal -- BLED by A1.XXXIX -- drɩácɩ > dreq, likewise grigj, fëner, mishërier -- but maybe m -- grimb [still only one voiced cons so just excluding sorants for now]
 			$ not postalveolar -- BLED by DV1744.F1 {d;t} > {d͡ʒ;t͡ʃ} / __ j in Late MPA I -- kˌulumnɪ̯ˈɑt͡ʃɑ > kullumesë, , rɩád͡ʒa > rrezë , vlesë 
@@ -1268,6 +1268,7 @@ $C1.B.XVI.ʎ
 $ C1.B.XVI.t
 	$og, before first disjunction suppressed for having no effect -- ˈɛ > ˈɛː / {[-cons] [+cor,-lat,-nas,+son];[rson,rnas]} __  {[+cor,-lat,-nas] [+strid,+cont];([+cor,-lat,-nas]) [-delrel,-back,-voi]} [+son]
 ˈɛ > ˈɛː / [rson,rnas] __  {[+cor,-lat,-nas] [+strid,+cont];([+cor,-lat,-nas]) [-delrel,-hi,-voi]} [+son]
+
 $ C1.B.XVI.d
 [+prim,-lo,-hi,-round] > [+long,-tense] / [nson,nnas] __   (r) [+voi,+cons,-son] ([+hi,-back,-nas]) [+back]
 
@@ -1632,6 +1633,11 @@ $As of  November 2025 however, much more restricted: across short laterals (many
 $[-prim] > [+hi,+tense,+back,+round,+lab,-lo,-front] / [-prim,+hi,+back,+round] [+lat,-long] __
 [-prim] > [uhi,utense,+back,+round,+lab,-lo,-front] / [+cons] [-prim,uhi,+round] {[+lat,-long];ɾ ([-cor,+cons])} __
 $[-prim] > [uhi,utense,+back,+round,+lab,-lo,-front] / @ [-prim,uhi,+round] [+nas,+cons] [+cons,-cor] __ @
+
+$DIACLEA CORRECTION A1.IX -- reduction of u -- and, as of March 24 2026, other round vowels- - before voiceless (non-sibilant) stops or clusters containing them. Occurs right after (and is fed by) progressive u-spreading (A2.XXI), and before post-nasal stop voicing (co(n)tentāre > kutëndoj, conventāre > kuvendoj... etc.). Not for first countertonic vowel. As of Dec 9 2025, hits nasal u too -- but not the long one.
+${u;ˌu} > {ə;ˌə} / [+stres] ([-syl] ([-stres]))* __ ([-syl])* [-voi] 
+$[+back,+hi,-prim,-long] > [-back,-hi,0tense,-round,-lab] / [+stres] ([-syl] ([-stres]))* __ ([-syl])* [-voi]
+[+back,+round,-prim,-long] > [-back,-hi,0tense,-round,-lab] / [+stres] ([-syl] ([-stres]))* __ ([-syl])* [-voi,-strid]
 	
 $DIACLEA CORRECTION A2.CV movement of ɾ across t-final dental sequences via attraction to non-initial labial, coalesces with ɾ̃ to simple ɾ, deleted after nasals . marshtoj, depërtoj, qumësht, këpresh, probatin. Using dummy, but phonetically reasonable ɾ̥. Before round element -- not sanctudimitrium. Counterbled by final -u reduction DV1738, counterbled by C3A.I deletion of V̯ in N __ T.
 ɾ > ɾ̥ / {[+lab,+cons] [+syl] ɾ̃ ([-prim]);@ [+lab,+cons] [+syl]} ([-syl])* t __ [+back]
@@ -1675,9 +1681,6 @@ $ DIACLEA CORRECTION C1A.IX : k>p> f phenomena now broadened to all non-coronal 
 $DIACLEA CORRECTION A2.CX.ðD countertonic a > ɐ  after anything not long {not r:} and before ST followed by ˈV. Can see through n after ST 
 [+lo,-long,-round,-prim,+stres,-nas] > ɐ / [-long] __ [+cont,-son] [-cont] ([+nas]) [+prim]
 
-$DIACLEA CORRECTION A1.IX -- reduction of u before voiceless stops or clusters containing them. Occurs right after (and is fed by) progressive u-spreading (A2.XXI), and before post-nasal stop voicing (co(n)tentāre > kutëndoj, conventāre > kuvendoj... etc.). Not for first countertonic vowel. As of Dec Nine 2025, hits nasal u too -- but not the long one.
-${u;ˌu} > {ə;ˌə} / [+stres] ([-syl] ([-stres]))* __ ([-syl])* [-voi] 
-[+back,+hi,-prim,-long] > [-back,-hi,0tense,-round,-lab] / [+stres] ([-syl] ([-stres]))* __ ([-syl])* [-voi]
 
 
 $DV4.1N (=DV1742I) OAlb f < PAlb θ / C __, including OAlb ënfle -- cf Matzinger 2006: 71 -- Matzinger, Joachim. 2006.  Altalbanische Text Mbsuame e Kreshterë (Dottrina cristiana) des Lekë Matrënga von 1592. Eine Einführing in die albanische Sprachwissenschaft. Seems to be in all dialects? 

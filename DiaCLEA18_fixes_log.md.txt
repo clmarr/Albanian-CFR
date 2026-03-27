@@ -373,19 +373,74 @@ A2.VI -- final nasal sequences not starting in n resolve in favor of the first e
 A2.VII -- two rounds of pretonic nasal cluster simplification. Pretonically, nasal sequences resolve to the second element, and at least in the case of /n/, a long variant is what emerges -- sign-āre > shënoj, cognatus > kunat, damn-āre > dënoj, communic-āre > kungoj, carminare > karmini-ā- > kernjoj
 	.m special handling for m-initial clusters: resolve to m if before unround vowel; otherwise follow general pattern
 
+
 A2.VIII -- o and o: > u when unstressed, and before (r) nasal (unstresesd vowel) stop in Ealry Proto-Albanian, largely shared with Vlacho-Romance. Before June 2024, was stipulated as before non-palatal sonorants in pre-penultimate syllables, with some finer grained distinctions, the only which that is retained is the raising before l, in a modified form (A2.VIIIa). Occurs after gliding and the formation of ɲ and ʎ.
 
+	original writeup pre 3/27
 
-A2.VIIIa -- "part 3" of the original A2.VIII, the occurence before /l/, survives as occuring for unstressed o in r/l V-stres
+		$DIACLEA CORRECTION A2.VIII Latin o and oː alike are changed to short u before non-palatal sonorant consonants, in syllables that are antepenultimate or earlier (i.e. those that will not be final syllables in Late Proto-Albanian)
+	$ this seems to be a change shared with Vlacho-Romance. 
+	$ originally I thought this was a specifically pretonic development, which does describe the majority of cases, and all cases before /ɫ/ and /ŋ/, but there are exceptions -- fornice > furriq, compater > kumtër, computum > kumt, cˈonsocer > krushk (Romanian cuscru), mˈonachus > murg, cˈontrā > kundër, etc... 
+	$ the appearance that it was pretonic is just an artefact of Latin's stress system, that tends to put stress on the penultimate syllable.
+	$ originally thoguht -- this doesn't seem to happen to word-initial vowels; although many of these end up as /u/ (urdhër, urdhëroj, uroj, ullashtër)... it seems there are separate reasons for that. Though the case of ōrdinem is possibly part of this phenomenon. -- cf Meglenite úrdin. However this makes no difference as of March 27, so the restriction removed. 
+	$ this occurs before the nasal-fricative phenomena of Latin, which means post-dating that because...
+		$ this occurs AFTER the gliding of high vowels in hiatus, as pertains to the syllable counting for what is a valid target for this rule (pistoria > shterë, not shturë or shtyrë, etc)
+	$ there are minor differences in the conditioning wrt to the five non-palatal sonorants here... 
+		$ 1. for n and m, this also occurs in __ N C, even in penultimate syllables (concha > kungë, rombus > rrumb...) 
+		$ 2. This does not happen to long ō before m: prōmitt-ere > premtoj, rōmānus > rëmër. Based on dhuroj < dōnāre, it does seem to occur for ō before n. 
+		$ 3. In the case of items before ɫ and l, it does seem to be that this is just non-primary-stressed o/oː segments that are affected (amándola >mendull, but Volpulum > Volpull) 
+$part I: implementing the rule for __ NC -- other parts, all suppressed, can be found in fixes log. 
 
-A2.VIIIb -- but A2.VIII does not occur after labial-R/l or n/r onsets. It is sent to ˌɔ in those conditions. 
+	old notes
+$ TODO for reconsideration of the above... The listed words are: 
+	$ /o/: solum > shuall "sole" 
+	$ /oː/: cotōneus > ftua "quince", dracō (likely the accusative dracōnem) > drangue, duar (< ghesr- ...), and muaj. 
+$ Albanian duar rather seems to reflect a *ɔː (> o) from *aː, that is not at risk of merging; muaj is unclear, but Latin oː clearly needs to be handled here
+$ other relevant cases: 
+	$ in oːn- : Latin capōnem > kapua "rooster", lacōnem > lëkue "water lily", leōnem > luan "lion" (corōnam > kurorë "crown, garland; wealth" is a later loan per Orel 2000(:33)), Antōnius > Ndue "Anthony", falcōnem > fajkua.
+		$ cases where fronting does appear to occur: ratiōnem > arsye "reason" 
+	$ in practice it doesn't seem this happens much before -ll and -r at this stage for the long oː but were going with this for now out of faithfulness .
+		$TODO: remove this commentary from baseline 18 cascade once decisions are made for DiaCLEA, move it there. 
 
-	A2.IX -- Latin pʰ > f inserted into Latin input handling, contrasting with handling of kʰ and tʰ
+.nc : implementing the rule for __ NC -- other parts, all suppressed, cf fixes log. As of June 2024 -- part one conditioning broadened to (r) N (V-stres) C, the rest are collapsed into unstressed o raising, the C simply being non-sonorants
+
+
+	A2.VIII.ou now the actual internal non-primary o > u rule . Apparently doesn't happen word initially. As of Mar 24, applies to all non-primary stressed non-low non-initial round vowels.	
+		-- revise TODO 
+
+	A2.VIIIa -- "part 3" of the original A2.VIII, the occurence before /l/, survives as occuring for unstressed o in r/l V-stres -- currently suppressed
+
+			$DIACLEA CORRECTION A2.VIIIa -- unstressed o/ɔ to u/ʊ in  __ R V-stres
+	$ SUPPRESSED -- irrelevant given A2.VIII 2026 policy.
+$[+round,-lo,-stres]> [+hi] / __ [+son,+cor,-nas] [-stres]
+
+	A2.VIIIb -- but A2.VIII does not occur after labial-R/l or n/r onsets. It is sent to ˌɔ in those conditions. 
+		
+	$part II: implementing the DiaCLEA-inserted rule A2.VIII for m elsewhere, for /o/, antepenultimate or earlier. As of June 2024: suppressed.
+$[+round,-long,-lo] > [+hi] / @ __ m ([-syl])* [+syl] ([-syl])* [+syl]
+
+	$part III: non-primary-stressed o and o: are affected before ɫ and l. As of June 2024: suppressed.
+$[+round,-lo,-prim,-hi] > [+hi,-long] / @ __ [+lat,-front]
+
+	$part IV: implementing the default behavior of the rule, for the remaining (non-palatal) sonorants: rː, r, nː, n, ŋ. As of June 2024: suppressed.
+$[+round,-lo,-hi] > [+hi,-long] / @ __ [+son,+cons,-lab,-front] ([-syl])* [+syl] ([-syl])* [+syl]
+
+
+/ A2.IX -- Latin pʰ > f inserted into Latin input handling, contrasting with handling of kʰ and tʰ
 		suppressed -- lexicalized. 
 
 A2.X -- Middle Proto-Albanian /ɪ/ becomes /i/ instead of /e/ when immediately before ʎ or labials (five cases at present for ˈɪʎ; and 4 for ˈɪp and ˈɪf together; ˈɪ followed by other labials unattested). As of June 20, 2025, also for before /j/ (3 cases) but not ɲ (2 cases). 
 
-A2.XI -- long/tense non-high stressed vowels are rounded under in the influence of round vowels on the other side of ɲ. In the case of ē, this development is blocked by preceding coronals, but proceeds otherwise. As of Jan 28, 2025, expanded to also include the same effect across rj (calendārium > kallënduor, cerasiārium > qershuor... etc.) and across n (iānua > ... > gjua) 
+A2.XI -- long/tense non-high stressed vowels are rounded under in the influence of round vocoids across sonorant consonants. Before Lw and LjVround In the case of ē, this development is blocked by preceding coronals, but proceeds otherwise. As of Jan 28, 2025, expanded to also include the same effect across rj (calendārium > kallënduor, cerasiārium > qershuor... etc.) and across n (iānua > ... > gjua) 
+
+		og. text; 
+		A2.XI: aw-mutation? rounding and lowering of primary stressed unrounded long/tense (a:, o:, e:) vowels under the influence of a round vowel on the other side of a sonorant followed by j Vround, or w. As of Jan 28, 2025, this is expanded to also operate across n (iānua > ... > gjua) and rj (qershuar, fëruor etc), with deletion of the j. Unified by features -- these are consonantal sonorants (as it turns out, l ʎ m don't occur in  the right positions to trigger thisǃ So can just leave with two feature spec.). Jan 28 2025 -- also realized that +tense was not necessary. 
+$ inclusion of ō is unclear -- evidence does not point strongly either way. Excluding it would mean more conditions though. 
+$ operation on ē does not happen after dentals and perhaps not after l-velar sequences (plac-ē- > pëlqej, indulg-ē- ndjej, perindulg- përdëllej; lk uncertain given plac-ē> pëlqej but mulc-ē > mëlkoj, mulkoj, but without pëlqej; one other issue is poenitere > pend-o- though this is only seen today in the reflexive pendohem and maybe it wouldn't apply given the different suffix in that case?). For now, for the sake of simplicity, just go with the coronal; for all we know, perhaps Alb. pëlqej is actually a cognate, not a reflex, of Latin placeo/placēre (the word apparently also exists in Tocharian)
+	$ these same post coronal environments do see some -ej outcomes for the -ā- class too (simul-ā- > shëmbëllej, incausin-ā- > ngashërej, sper-ā- > shpërej ...) but only in 7 out of 76 cases.
+$ During August 2023 it was thought that ɲ also depalatalized after original ō here but in further consideration, only two items are affected (antōnius, cotōneum) and these were able to be explained otherwise in a much more general rule conditioned by nasals, so this was removed on the 29th
+$ January 28, 2025 -- moved into Middle Proto-Albanian I period -- some evidence Romanian is also implicated in related changes that postdate this. Placed just before nj > ɲ, so that r and n can be unified easily. 
+
 
 	.eo -- retraction of resultant ɶ́ to ɒ triggered by a non-coronal obstruent before this fronted vowel, seeing through a glide or perhaps liquid. Or alternatively 
 
@@ -1810,7 +1865,9 @@ B2.XX -- DV1DV1738 part 4 aja > a moved to before part 2 a > ə; part 2 counterb
 
 B2.XXI -- nt and nd to nn moved to before APA -- don't seem to actually effect Greek 
 
-B2.XXII -- final o,a > ə rules moved from Proto-Tosk back to Proto-Tosk-SGheg, as they feed ls > lts. 
+B2.XXII -- final o,a > ə rules moved from Proto-Tosk back to Proto-Tosk-SGheg, as they feed ls > lts.
+
+B2.XXIII -- presonorant lowering of o and o: moved back to before l-palatalization, at a point in CPA. 
 
 ## B3 -- possible relocdations to pre-Latin to post-Latin periods out of deletions to test (TODO!) 
 
@@ -2019,7 +2076,7 @@ C3B.V -- raising before s/ʃ turned out to only be accurate when there was also 
 
 C3B.VI -- 4.1B3 m > mb before unstressed vowel now limited to occur non-initially and with an /l/ on the other side of the unstressed vowel (grumbulloj, shëmbëlltyrë, (m)bletë) 
 
-C3B.VII -- DV1743.B4, β > b, now only operates after oral coronal continuants, only if there is an non-initial vowel beforehand somewhere (previously: any context with an oral resonant immediately beforehand.). 
+C3B.VII -- DV1743.B4, β > b, including w > b via DV1743.B4 now only operates after oral coronal continuants, only if there is an non-initial vowel beforehand somewhere (previously: any context with an oral resonant immediately beforehand.). 
 
 C3B.VIII -- first wave of vowel drops reshaped, no longer targeting strictly posttonic elements, and now targeting the following: 
 	$ atonic (non-low) vowels in [+son] t __ k 
@@ -2077,7 +2134,7 @@ C3B.XVII -- final j a (s) > ɛ new restrictions
 					c ː shoqe
 		unhandled	lus dubious probs	loans	zmuːlɟia > zmojle? 	rːobja >rrojbë; 	pəstˈɛːrja > (pë)shterë (however lëngjere etc)
 
-C3B.XVIII -- ō > uo rather than ø phenom, when before r, now needs t ocome after non-continuants
+C3B.XVIII -- ō > uo rather than ø phenom, when before r, now needs to come after t. Six cases -- could be analogy, but appears to functionally be regular. 
 
 C3B.XIX -- : fr Old Alb ʃ > t͡ʃ bfeore a consonant posterior context changed from [+cons] to [+cons,+nas]; as of Nov 24, 2025 also not postvocalic (Leshnjë, vishnjë, Vishnjë, Pashnik etc.) 
 $DIACLEA ANALYSIS: for Latin loans at present, c [+cons] clusters are barely present (at the pivot point at this rule, only one was detected -- and it was an error), while "ʃ [+cons]" sequences... overwhelmingly don't go to "t͡ʃ ..." 
@@ -2112,10 +2169,20 @@ C3B.XXV CPA laxing doesn't happen to ə from APA reductions.
 	$ ðl ː Slav layer 1 ɡˌʊrdlˈɑt͡ʃɪ > LPA II ɡˌʊrðlˈaː(t?)s > gërlac; wˌʊlkɒdlˈɑkʊ > vʊrkɒðlˈakʊ > vurkollak; mˌɛtˈɑdlɒ > mətˈaðla > mëtallë ; mˌʊdɪlˈitɪ > mˌUðlˈit >molit
 	$ dl: Slav layer 2 tˌɔt͡ʃˈidlɑ > toçilë; tˌɔpˈidlɔ > topil; mˌɔtɔβˈidlɔ > motovile
 	$ no evidence for b (Slav layer 1 ɒblangu > oblëng..), clearly some survival of adjacent v (avlëmend) tho w possible, but left out for now. 
+
+
 ## C5 -- changes in both input and context conditioning
 
 C5.I -- DV1738 final -o(n), -a(s) > schwa phenomena reformed to hitting any final o ɔ or a 
 
+C5.II : massive simplification of  DV1736.G1 / DV2.2.1L1 -- specifically early part, the lowering. Rather than occurring before hyperspecific set of posterior  consonants (n, j, ɫ, r), moved back into CPA where it occurs before all laterals and nalals for a broadened input domain of all non-high tonic round vowels 
+	before r, ō is only effected in T __ r which is now handled in C3B.XVIII 
+
+	before simplificationː
+		$[+round,+syl,-hi,-lo,+long] > [+lo] / __ {[+lat,-front];n } ( [-stres] ( [+nas] ) ) # -- then extended immediate posterior to all naslas
+		$ [+round,+syl,-hi,-lo,+long] > [+lo] / [-cont] __ r ( [-stres] ( [+nas] ) ) #
+	
+	C5.II.ao  --  o-lowering also occurs after liquids, if the liquid is after labial-obstruent (florīnum > flori, proximare > prozhëm, prodāre > prodhoj, maybe prōmitt-o > premtoj) or onset sonorant (rosalia > rrëshajë -- albeit dialectal rrushajë, rōmānus > remër/rëmër, notoj, rozhponjë...).
 
 ## C6 -- changes in both output and context conditioning
 

@@ -433,75 +433,64 @@ $ DIACLEA CORRECTION B2.IV -- laxing moved to Early Proto-Albanian period.
 $ DIACLEA CORRECTION C3B.XXV CPA laxing doesn't happen to ə from APA reductions. 
 [-lo,+syl,-long,-cons,bback,-bfront] > [-tense]
 
-$DIACLEA CORRECTION A2.VIII Latin o and oː alike are changed to short u before non-palatal sonorant consonants, in syllables that are antepenultimate or earlier (i.e. those that will not be final syllables in Late Proto-Albanian)
-	$ this seems to be a change shared with Vlacho-Romance. 
-	$ originally I thought this was a specifically pretonic development, which does describe the majority of cases, and all cases before /ɫ/ and /ŋ/, but there are exceptions -- fornice > furriq, compater > kumtër, computum > kumt, cˈonsocer > krushk (Romanian cuscru), mˈonachus > murg, cˈontrā > kundër, etc... 
-	$ the appearance that it was pretonic is just an artefact of Latin's stress system, that tends to put stress on the penultimate syllable.
-	$ this doesn't seem to happen to word-initial vowels; although many of these end up as /u/ (urdhër, urdhëroj, uroj, ullashtër)... it seems there are separate reasons for that. Though the case of ōrdinem is possibly part of this phenomenon. -- cf Meglenite úrdin. 
-	$ this occurs before the nasal-fricative phenomena of Latin, which means post-dating that because...
-		$ this occurs AFTER the gliding of high vowels in hiatus, as pertains to the syllable counting for what is a valid target for this rule (pistoria > shterë, not shturë or shtyrë, etc)
-	$ there are minor differences in the conditioning wrt to the five non-palatal sonorants here... 
-		$ 1. for n and m, this also occurs in __ N C, even in penultimate syllables (concha > kungë, rombus > rrumb...) 
-		$ 2. This does not happen to long ō before m: prōmitt-ere > premtoj, rōmānus > rëmër. Based on dhuroj < dōnāre, it does seem to occur for ō before n. 
-		$ 3. In the case of items before ɫ and l, it does seem to be that this is just non-primary-stressed o/oː segments that are affected (amándola >mendull, but Volpulum > Volpull) 
-$part I: implementing the rule for __ NC
-$ as of June 2024 -- part one conditioning broadened to (r) N (V-stres) C, the rest are collapsed into unstressed o raising, the C simply being non-sonorants
-[+round,-lo,-hi] > [+hi,-long] / @ __ (r) [+nas,+cons] ([-stres]) [-son]
-
-$part II: implementing the DiaCLEA-inserted rule A2.VIII for m elsewhere, for /o/, antepenultimate or earlier. As of June 2024: suppressed.
-$[+round,-long,-lo] > [+hi] / @ __ m ([-syl])* [+syl] ([-syl])* [+syl]
-
-$part III: non-primary-stressed o and o: are affected before ɫ and l. As of June 2024: suppressed.
-$[+round,-lo,-prim,-hi] > [+hi,-long] / @ __ [+lat,-front]
-
-$part IV: implementing the default behavior of the rule, for the remaining (non-palatal) sonorants: rː, r, nː, n, ŋ. As of June 2024: suppressed.
-$[+round,-lo,-hi] > [+hi,-long] / @ __ [+son,+cons,-lab,-front] ([-syl])* [+syl] ([-syl])* [+syl]
 
 $DIACLEA CORRECTION A2.XXXXIV: s > h in A-prim (W) __ V̯ -- tatoj < tasit-o-, before -st- cluster would be formed by early syncope. Also before o-phenomena (partly for convenience)
 s > h / [+lo,-prim] ([-cons,-syl]) __ [-stres] [-son]
 
-$DIACLEA CORRECTION A1.XIII length lost in i early. TODO revise?
+$DIACLEA CORRECTION A1.XIII length lost in i early. TODO revise? TODO do we even need this? 
 [+syl,+front,+hi] > [-long]
 
-$DIACLEA CORRECTION A2.XXXI.o stress retraction away from final syllables, attraction to syllable favored by Latin stress rules: penultimate if long, else antepenult. Albanian has a special rule that favors pre-lateral penults for stress even if short and open. However, stress from short penults does not retract -- over 2o cases show this.
+
+$DIACLEA CORRECTION A2.XXXI.o stress retraction away from final syllables, attraction to syllable favored by Latin stress rules: penultimate if long, else antepenult. Albanian has a special rule that favors pre-lateral penults for stress even if short and open. However, stress from short penults does not retract -- over 20 cases show this.
 [+syl] > [+prim] / __ ([-syl])* [-prim,-long] [-syl,-lat] [+syl] ([-syl])* #
 [+syl] > [+prim] / __ ([-syl])* [+prim] ([-syl])* #
 
-$ DIACLEA CORRECTION A2.XXXX -- non-primary oː loses length. Bled by A2.XXXVIV. Bled by stress retraction in A2.XXXI.o {gërshet}, but not stress retraction in A2.XXXI.ð ̪{detorës}. RULE CROSSINGǃ 
+$ DIACLEA CORRECTION A2.XXXX -- non-primary oː loses length rather than regular passage to ø. Bled by A2.XXXVIV. Bled by stress retraction in A2.XXXI.o {gërshet}, but not stress retraction in A2.XXXI.ð ̪{detorës}. RULE CROSSINGǃ 
 [-hi,+round,-prim] > [-long]
+
+$DIACLEA CORRECTION A2.VIII Latin o and oː -- including stressed cases -- are changed to short u before non-palatal sonorant consonants, in syllables that are antepenultimate or earlier (i.e. those that will not be final syllables in Late Proto-Albanian). Now limited to pre-nasal cases.
+	$ bleeds o-lowering in C5.II.ao : rrufe < romphaea
+	$ this seems to be a change shared with Vlacho-Romance. 
+	$ tonic lowering cases  -- fornice > furriq, compater > kumtër, computum > kumt, cˈonsocer > krushk (Romanian cuscru), mˈonachus > murg, cˈontrā > kundër, etc... 
+	$ this occurs before the nasal-fricative phenomena
+		$ this occurs AFTER the gliding of high vowels in hiatus, as pertains to the syllable counting for what is a valid target for this rule (pistoria > shterë, not shturë or shtyrë, etc)
+	$ originally wrote here that there are minor differences in the conditioning wrt to the five non-palatal sonorants here... 
+		$ 1. for n and m, this also occurs in __ N C, even in penultimate syllables (concha > kungë, rombus > rrumb...) 
+		$ 2. This does not happen to long ō before m: prōmitt-ere > premtoj, rōmānus > rëmër. Based on dhuroj < dōnāre, it does seem to occur for ō before n. 
+		$ 3. In the case of items before ɫ and l, it does seem to be that this is just non-primary-stressed o/oː segments that are affected (amándola >mendull, but Volpulum > Volpull) 
+$ .nc : implementing the rule for __ NC -- other parts, all suppressed, cf fixes log. As of June 2024 -- part one conditioning broadened to (r) N (V-stres) C, the rest are collapsed into unstressed o raising, the C simply being non-sonorants
+[+round,-lo,-hi] > [+hi,-long] / __ (r) [+nas,+cons] ([-stres]) [-son]
+
+$ {+C5.II here} early part I of DV1736.G1 / DV2.2.1L1 has PPAlb ō and Lat ō, as well as Lat o, ultimately becoming *uo before word-final {ɫ,n,r,j}. For this to happen, the ō instances cannot be fronted to ø -- as will happen to long oː otherwise. At the same time, De Vaan does not list a *ɫ in Proto-Albanian or Proto-Albanian, though its sources are clear, coming from a PAlb *lː (DV1739~3.1E), itself with identifiable Pre-Proto-Albanian and Latin sources (DV1740~3.2F, cf. also -E). Makes sense to gather these as /lː/ for now, for the baseline cascade, before this rule. The *Rl aspect of it seems to come after consonantal reductionsː see De Vaan's listing of Latin PARABOLA > përrallë for DV1740~3.2F2. 
+$note that this is not listed for the reflex of PPAlb *ā, which is currently *ɒː, but alas this item *does* get fronted to ø under i-mutation in DV2.2.1B7.
+$What we need to do here: ensure that the relevant words can pass to *uo, and won't be bled by fronting to *ø, and we do this by effectively merging them into *ɒː, the reflex of PPAlb *ā. Use *lː for ɫ for now. Need to do this to o:, but not to short o. Allow presence of unstressed non-low vowel (which will fall before long), and a possible nasal following it, to express what will become final position, as they might not have fallen yet by this stage. 
+$ DIACLEA CORRECTION: now using lˠ not lː  { not listed in fixes file bc this is just really about formalism} 
+	$ j suppressed in disjunction after locus -- currently not involved. 
+$ DIACLEA CORRECTION B2.XXIII -- presonorant lowering of o and o: moved back to before l-palatalization (using rule ordering to explain what would otherwise be a rule complication)
+$ DIACLEA CORRECTION C5.II : massive simplification of  DV1736.G1 / DV2.2.1L1 specifically early part, the lowering. Rather than occurring before hyperspecific set of posterior  consonants (n, j, ɫ, r), moved back into CPA where it occurs before all laterals and nalals for a broadened input domain of all non-high tonic round vowels. For cases before r, only case where ō is effected is in t __ r -- which now is handled in C3B.XVIII 
+[+round,+prim,-hi] > [+lo,+tense,-front,+back] / __ [nnas,-nlat]
+
+$DIACLEA CORRECTION C5.II.ao  --  o-lowering also occurs after liquids, if the liquid is after labial-obstruent (florīnum > flori, proximare > prozhëm, prodāre > prodhoj, maybe prōmitt-o > premtoj) or onset sonorant (rosalia > rrëshajë -- albeit dialectal rrushajë, rōmānus > remër/rëmër, notoj, rozhponjë...).
+[+round,-prim,-hi] > [+lo,+tense] / {#;[+lab,-son]} [+son,+cor] __
+
+$ DIACLEA CORRECTION C3B.XVIII: in the case of -r, this does not seem to happen generally (nder, tmerr, vlerë, herë, mësherë...), except in T __ r (6 cases -- perënduar, peshkatar, luftëtar, shërbëtor, detuar, taftar) -- could be analogy though. 
+ˈoː > ˈo / t __ r
 
 $DIACLEA CORRECTION A2.XXXI.ð stress retraction across coronals.
 [+syl] > [+prim] / __ [+cor,-nas,-lat] ([+son,-syl,-lab]) [+prim,-long] [-cont,-voi] (j) [+syl,+hi] #
 [+prim] > [-stres] / [+prim] (@)* __
 $[+syl] [+cor,-nas,-lat] [+prim,-long] > [+prim] [+cor] [-stres] / __ [-cont,-voi] (j) [+syl,+hi] #
 
-$DIACLEA CORRECTION A2.VIII new version -- o  raising exception when after labial-sonorant (florīnum > flori, proximare > prozhëm, prodāre > prodhoj, maybe prōmitt-o > premtoj) or onset sonorant (rosalia > rrëshajë -- albeit dialectal rrushajë, rōmānus > remër/rëmër, notoj, rozhponjë...), if the following wherein it goes to ɔ instead. Exceptions handled by falling to (ˌɔ). Use ɒ (later ɔ) for these exceptions. Not necessarily unstressed o -- daemonem > djemër not djemu/-ũ, consobrinus > kushëri not kushuri, etc. 
-[+round,-prim,-hi] > [+lo,+tense] / {#;[+lab,-son]} [+son,+cor] __
-
 $DIACLEA CORRECTION A2.XXXI.nn stress retraction across nn from antepenultimates. TODO reexamine, only two cases {tingël, hingël}, one especially prone to analogy {tingëlloj derived from tingël, or the reverse? Tinnunculus also meant kestrel, not 'ring' -- somewhat reach-y semantics...}
 [-prim] n n [+prim] > [+prim] n n [-prim,-stres] / __ ([-syl])* [+syl] ([-syl])* [+syl] 
 
-$DIACLEA CORRECTION A2.VII now the actual internal non-primary o > u rule . Apparently doesn't happen word initially. As of Mar 24, applies to all non-primary stressed non-low non-initial round vowels. 
-$[+round,-lo,-prim,+stres,-hi] > [+hi,-long] / @ __
+$DIACLEA CORRECTION A2.VIII.ou now the actual internal non-primary o > u rule . Apparently doesn't happen word initially. As of Mar 24, applies to all non-primary-stressed non-low non-initial round vowels. 
 [+round,-lo,-prim,-hi] > [+hi,-long] / @ __
 
-$DIACLEA CORRECTION A2.VIIIa -- unstressed o/ɔ to u/ʊ in  __ R V-stres
-	$ SUPPRESSED -- irrelevant given A2.VII 2026 policy.
-$[+round,-lo,-stres]> [+hi] / __ [+son,+cor,-nas] [-stres]
+		$ DIACLEA CORRECTION D3.IX -- the following is now considered part of betacism-- DV1743.B4 -- w > b after r and l. I.e. the (non-nasal) (sonorant) coronals. Corvus > korb (Rom. corb), pulvere > bulbër (Rom. pulbere; but also Alb. pluhur), serv-īre > Alb. shërbej (Rom. a șerbi, also servus > Rom șerb) 	$w > b / @ [+syl] [+cor,-nas,+son] __
 
-$ DV1743.B4 -- w > b after r and l. I.e. the (non-nasal) (sonorant) coronals. Corvus > korb (Rom. corb), pulvere > bulbër (Rom. pulbere; but also Alb. pluhur), serv-īre > Alb. shërbej (Rom. a șerbi, also servus > Rom șerb) 
-$ DIACLEA fix C3B.VII: now only after a non-initial vowel. (e.g. not eruilla > rrylë, alveolus > unatt. llullë > nullë...) 
-$ DIACLEA CORRECTION D3.IX -- now considered part of betacism
-$w > b / @ [+syl] [+cor,-nas,+son] __
-
-
-$DIACLEA CORRECTION A2.XI: aw-mutation? rounding and lowering of primary stressed unrounded long/tense (a:, o:, e:) vowels under the influence of a round vowel on the other side of an ɲ. As of Jan 28, 2025, this is expanded to also operate across n (iānua > ... > gjua) and rj (qershuar, fëruor etc), with deletion of the j. Unified by features -- these are consonantal sonorants (as it turns out, l ʎ m don't occur in  the right positions to trigger thisǃ So can just leave with two feature spec.). Jan 28 2025 -- also realized that +tense was not necessary. 
-$ inclusion of ō is unclear -- evidence does not point strongly either way. Excluding it would mean more conditions though. 
-$ operation on ē does not happen after dentals and perhaps not after l-velar sequences (plac-ē- > pëlqej, indulg-ē- ndjej, perindulg- përdëllej; lk uncertain given plac-ē> pëlqej but mulc-ē > mëlkoj, mulkoj, but without pëlqej; one other issue is poenitere > pend-o- though this is only seen today in the reflexive pendohem and maybe it wouldn't apply given the different suffix in that case?). For now, for the sake of simplicity, just go with the coronal; for all we know, perhaps Alb. pëlqej is actually a cognate, not a reflex, of Latin placeo/placēre (the word apparently also exists in Tocharian)
-	$ these same post coronal environments do see some -ej outcomes for the -ā- class too (simul-ā- > shëmbëllej, incausin-ā- > ngashërej, sper-ā- > shpërej ...) but only in 7 out of 76 cases.
-$ During August 2023 it was thought that ɲ also depalatalized after original ō here but in further consideration, only two items are affected (antōnius, cotōneum) and these were able to be explained otherwise in a much more general rule conditioned by nasals, so this was removed on the 29th
-$ January 28, 2025 -- moved into Middle Proto-Albanian I period -- some evidence Romanian is also implicated in related changes that postdate this. Placed just before nj > ɲ, so that r and n can be unified easily. 
-[-hi,+long,+prim] > [+round,+lab] / __ [+cons,+son] {j [+round];w}
+$DIACLEA CORRECTION A2.XI: aw-mutation? rounding and lowering of primary stressed unrounded long/tense (a:, o:, e:) vowels under the influence of a round vowel on the other side of a sonorant followed by j Vround, or w. See fixes log for earlier notes on this. 
+[-hi,+long,+prim] > [+round,+lab] / __ [+son,+cons] {j [+round];w}
 
 $DIACLEA CORRECTION A2.XI.eo -- retraction of resultant ɶ́ to ɒ triggered by a non-coronal obstruent before this fronted vowel, seeing through a glide or perhaps liquid.
 ˈøː > ˈɒː / [-cor,+cons] ([+son,-syl,-nas]) __
@@ -526,25 +515,19 @@ $changed to sidestep then-current input-side issues in DiaSim. TODO consider res
 
 $----- early aspects of vowel reduction and falls ----- 
 
-$ DV2.2.2c "at an early stage" internal unstressed post-tonic vowels go to schwa, some soon to be lost. 
-$ originally formulated here so as to not count items with inflectional ending consonants (e.g. accusative -m) as "internal" : [-stres] > ə / [+prim] (@)* __ ([-syl])* [+syl] -- but now this is no longer necessary(?)
-$ the vowel reduction and falls as a whole are said to happen "in the last phase of the Proto-Albanian period... after i-mutation and a-mutation" but it seems this does not apply to these early internal post-tonic reductions given the cited cases of lardh and verdh, nor to the internal pretonic vowels that are reduced to ə and/or "lost at a stage preceding PAlb" (with Latin etyma cited -- cotoneus > ftua, nepōtia > mbesë, etc.); note that APA is not strictly within De Vaan's "PAlb here". 
-$ DIACLEA CORRECTION C1B.III: does not seem to affect low-vowels at this point -- yet. In most cases it will evenutally , though. 
-$ DIACLEA CORRECTION D3.III: moved to (originally) second _VOWEL DROP WAVE_, although some of the effects placed not long after this at the beginning of Middle Proto-Albanian. There may still be some justification for vowel elision at this time, but that remains to be seen.
+$ DIACLEA CORRECTION D3.III following is combined into second vowel drop wave : DV2.2.2c "at an early stage" internal unstressed post-tonic vowels go to schwa, some soon to be lost. Originally formulated here so as to not count items with inflectional ending consonants (e.g. accusative -m) as "internal" : [-stres] > ə / [+prim] (@)* __ ([-syl])* [+syl] -- but now this is no longer necessary(?). The vowel reduction and falls as a whole are said to happen "in the last phase of the Proto-Albanian period... after i-mutation and a-mutation" but it seems this does not apply to these early internal post-tonic reductions given the cited cases of lardh and verdh, nor to the internal pretonic vowels that are reduced to ə and/or "lost at a stage preceding PAlb" (with Latin etyma cited -- cotoneus > ftua, nepōtia > mbesë, etc.); note that APA is not strictly within De Vaan's "PAlb here". 
 $[-stres,-lo] > ə / [+prim] (@)* __ @ 
 
-$DIACLEA CORRECTION A2.IC - unstressed vowels to ʊ between b and a stop. Doesn't happen to Christian vocab (i.e. priftër vs kut, det-oj etc.). TODO RECONSIDER THIS-- too early for schwa?
+$DIACLEA CORRECTION A2.IC - unstressed vowels to ʊ between b and a stop. Doesn't happen to Christian vocab (i.e. priftër vs kut, det-oj etc.). TODO RECONSIDER THIS-
 [-stres] > ʊ / b __ [-cont]
 
-$ resolution of DV1744.D & DV1744.E1 -- see notes on this above, this is motivated by the outcomes in Aromanian and Romanian of PPAlb ɟ͡ʝ vs. PPAlb d in cases where they both ended up as ð in Alb. 
+$ resolution of DV1744.D & DV1744.E1 -- see notes on further above, this is motivated by the outcomes in Aromanian and Romanian of PPAlb ɟ͡ʝ vs. PPAlb d in cases where they both ended up as ð in Alb. 
 $DIACLEA CORRECTION B2.XIX -- ts dz to θ ð moved to late CPA; MPA I greek words don't feed it, while MPA I Greek θ treated like inherited ts > θ. 
 {t͡s;d͡z} > {θ;ð}
 
+
 $--------------------Middle Proto-Albanian-------------------
 =Middle Proto-Albanian I
-$ main wave of contact with Proto-Romanian (temporarily?) complete now
-$ evidence from the loans indicates that around this time, the reflexes of hte PIE palatovelars in Alb should be around ts/dz (evidenced mainly by Aromanian as these deaffricate in Romanian), tentatively before the merger of PPAlb a: into o is complete (cf. mazăre for Alb modhull, rață for rosë "duck"), before the passage of PPAlb tʃ dʒ to s z (ciută -- sutë etc...), after the retraction of post-vocalic s (mosh "old") but before the same impact on cluster s including in Latin loans (strunga-shtrungë; Lat fossātum > ORom fsat, Alb fshat, Lat spodium > Alb shpuzë > Rom spuza), tentatively after the emergence of some schwa (Rom nǎpârcǎ -- Alb nëpërkë "adder" --though as of June 2024 this idea is set aside as the vowel reduction patterns of Rom and Alb are too different to warrant so much effort to reconcile them), after the emergence of Albanian suffix -zë, perhaps after the emergence of the Albanian postposed article in -të (Drobeta), at a point when initial PPAlb w is in the stage of [β] (Rom abur -- Alb avull "vapor", vatra-vatër) which closes to /b/ in Romanian just like PPAlb /ð/ (< intervocalic d) goes to PVlach /d/; before ALb long u: > y (ghiuj/gjysh, buc/byk... , the -i- in ghiuj probably for ohter reasons though that is certainly interesting...) 
-$ TODO possibility that Alb/Alb-Rom substrate divergence was quite earlier -- consider implementation .
 
 $ Deaspiration: this may or (more probably) may not have been contemporaneous with the merger of PIE aspirate voiced stops into 
 $	simple voiced stops, but clearly Greek loanwords in Romance with aspirate voiceless stops became simple voiceless in/by the 2nd cent CE
@@ -576,6 +559,13 @@ $[+hi,+round,-cons] > ∅ / [+nas] [-cont,+back,+voi] __ [+front,-cons,+hi]
 $DIACLEA CORRECTION 
 [+nas] [-cont,+back,+voi] > ɲ / __ [+front,-cons,+hi]
 
+$merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) ; expanded to cover ŋ n too. 
+$ DIACLEA CORRECTION (But not a significant change from baseline it seems?) decoupled these. Handling gn phenomena elsewhere, on the basis of cognatus > kunat, fuskina > fuzhnjë, etc. Furthermore in Romanian words in original -ŋn- reflect in mn or even m- (agnellus > miel) 
+$kn and gn phenomena are now to be handled either in tandem with k/g(V-stres)t phenomena, or before APA. --
+$TODO TESTING MOVING THIS TO MUCH LATER 11/11
+${ŋ n j;ŋ n;ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ;ɲ;ɲ}
+{n j;nː j} > {ɲ;ɲ} 
+
 $DIACLEA CORRECTION D3.XIII -- Middle Proto-Albanian l-split to l and lˠ no longer. Handled in Late Proto-Albanian I, in tandem with early Slavic.
 
 $ DIACLEA CORRECTION A2.I - lj and llj phenomena bleeding ʎ in Middle Proto-Albanian I
@@ -590,12 +580,7 @@ $DIACLEA CORRECTION C1A.XI ː CPA lj > ʎ phenom (DV1740G2) broadened from just 
 	$DIACLEA CORRECTION A2.I.ll : lj, llj > ʎ >  ll in remaining hi __ hi sequences not hit by A2.I.jl
 ʎ > lː / [+hi] __ [+hi]
 
-$merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- and -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (from n (i,e) V) ; expanded to cover ŋ n too. 
-$ DIACLEA CORRECTION (But not a significant change from baseline it seems?) decoupled these. Handling gn phenomena elsewhere, on the basis of cognatus > kunat, fuskina > fuzhnjë, etc. Furthermore in Romanian words in original -ŋn- reflect in mn or even m- (agnellus > miel) 
-$kn and gn phenomena are now to be handled either in tandem with k/g(V-stres)t phenomena, or before APA. --
-$TODO TESTING MOVING THIS TO MUCH LATER 11/11
-${ŋ n j;ŋ n;ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ;ɲ;ɲ}
-{n j;nː j} > {ɲ;ɲ} 
+
 
 $ --- end of  DIACLEA CORRECTION B1.VIII.j block 
 
@@ -643,27 +628,6 @@ $form prior to 8/5/23 was: (w) r > rː / # __
 $format changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
 $DIACLEA FIX B1.VI -- initial (w) r trilling moved into MPA I.
 {w r;r} > {rː;rː} / # __
-
-$part I of DV1736.G1 / DV2.2.1L1 has PPAlb ō and Lat ō, as well as Lat o, ultimately becoming *uo before word-final {ɫ,n,r,j}. For this to happen, the ō instances cannot be fronted to ø -- as will happen to long oː otherwise. At the same time, De Vaan does not list a *ɫ in Proto-Albanian or Proto-Albanian, though its sources are clear, coming from a PAlb *lː (DV1739~3.1E), itself with identifiable Pre-Proto-Albanian and Latin sources (DV1740~3.2F, cf. also -E). Makes sense to gather these as /lː/ for now, for the baseline cascade, before this rule. The *Rl aspect of it seems to come after consonantal reductionsː see De Vaan's listing of Latin PARABOLA > përrallë for DV1740~3.2F2. 
-$note that this is not listed for the reflex of PPAlb *ā, which is currently *ɒː, but alas this item *does* get fronted to ø under i-mutation in DV2.2.1B7.
-$TODO make sure the relevant rules concerning laterals are all placed before this! -- can remove when that is done. 
-$What we need to do here: ensure that the relevant words can pass to *uo, and won't be bled by fronting to *ø, and we do this by effectively merging them into *ɒː, the reflex of PPAlb *ā. Use *lː for ɫ for now. Need to do this to o:, but not to short o. Allow presence of unstressed non-low vowel (which will fall before long), and a possible nasal following it, to express what will become final position, as they might not have fallen yet by this stage. 
-$ DIACLEA FIX: now using lˠ not lː  { not listed in fixes file bc this is just really about formalism} 
-$ DIACLEA FIX C3B.XVIII: in the case of -r, this does not seem to happen after continuants (nder, tmerr, vlerë, herë, mësherë...) 
-	$ j suppressed in disunction after locus -- cufrrently not involved. 
-[+round,+syl,-hi,-lo,+long] > [+lo] / __ {[+lat,-front];n} ([-stres] ([+nas])) #
-[+round,+syl,-hi,-lo,+long] > [+lo] / [-cont] __ r ([-stres] ([+nas])) #
-
-
-$ TODO for reconsideration of the above... The listed words are: 
-	$ /o/: solum > shuall "sole" 
-	$ /oː/: cotōneus > ftua "quince", dracō (likely the accusative dracōnem) > drangue, duar (< ghesr- ...), and muaj. 
-$ Albanian duar rather seems to reflect a *ɔː (> o) from *aː, that is not at risk of merging; muaj is unclear, but Latin oː clearly needs to be handled here
-$ other relevant cases: 
-	$ in oːn- : Latin capōnem > kapua "rooster", lacōnem > lëkue "water lily", leōnem > luan "lion" (corōnam > kurorë "crown, garland; wealth" is a later loan per Orel 2000(:33)), Antōnius > Ndue "Anthony", falcōnem > fajkua.
-		$ cases where fronting does appear to occur: ratiōnem > arsye "reason" 
-	$ in practice it doesn't seem this happens much before -ll and -r at this stage for the long oː but were going with this for now out of faithfulness .
-		$TODO: remove this commentary from baseline 18 cascade once decisions are made for DiaCLEA, move it there. 
 
 $DIACLEA FIX A2.XXXXVIII -- early MPA II shortening of long round vowels before continuant consonantal labials 
 [+round] > [-long] / __ [+lab,+cont,-syl] [-lo]

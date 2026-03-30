@@ -247,6 +247,7 @@ A1.XXXX LPA III deletions of unround unstressed vowels in syllables after low vo
 ## A2 Insertion of phenomena that are something new under the sun from the perspective of the baseline. 
 
 A2.I - lj and llj phenomena bleeding ʎ in Middle Proto-Albanian I
+
 	.jl ː lj > jl metathesis in -lo Chi V́front __ . s may count as high (consilium > këshill, but perhaps not -- rosalia > rrëshajë) 
 
 	.dj ː TENTATIVE ʎ > dj dissimilation if there is an l later in the word 
@@ -254,16 +255,15 @@ A2.I - lj and llj phenomena bleeding ʎ in Middle Proto-Albanian I
 		folliola fˌʊʎˈɔlɑ fjollë
 		malleolum > mˌɑʎˈɔlʊ > mënjoll-ë not majoll-ë -- this also shows feeding of A2.LIX POSTMIMETIC NASALIZATION, and this is why d, which will trigger it, is chosen. Counterfeds dj > dʒ
 
-	.ll ʎ > lː / [+hi] __ [+hi],  inserted after the emergence of dark L and ʎ
+	.ll ʎ > lː / V-back __ [+hi],  inserted after the emergence of dark L and ʎ
 	into Middle Proto-Albanian now -- clearly divergent from Vlacho-Romance, inasmuch as that matters. 	
 
 	former version pre Dec 17 2025 saved below
 	
 		$DIACLEA rule A2I: ʎ depalatalizes to j l between high vowels
-	$ note, does not seem to happen in Vlacho-Romance: peculium > Alb. pekul but Daco-Rom (dial.) picui & păcui and Aromanian picul'iǔ; milium > Alb mel but Drom mei and Arom mel'iǔ
-$ʎ > l / [+hi] __ [+hi]
+	$ note, does not seem to happen in Vlacho-Romance: peculium > Alb. pekul but Daco-Rom (dial.) picui & păcui and Aromanian picul'iǔ; milium > Alb mel but Drom mei and Arom mel'iǔ (alas this may be an Albanian cognate?) 
 
-			$DIACLEA CORRECTION A2.XXXVII. ʎ to lɪ̯ before unround, ɫɪ̯ before round if voiced back elements (w, ɡ) are before the prior vowel (evangelium, invigilium, , vilia, Greek gɔ̄leon, galliatia, favalia, eruilium, eriulia, possibly battualia > Cham bëtalë... feeds later darkening but must be before w loses its backness.).
+\			$DIACLEA CORRECTION A2.XXXVII. ʎ to lɪ̯ before unround, ɫɪ̯ before round if voiced back elements (w, ɡ) are before the prior vowel (evangelium, invigilium, , vilia, Greek gɔ̄leon, galliatia, favalia, eruilium, eriulia, possibly battualia > Cham bëtalë... feeds later darkening but must be before w loses its backness.).
 $ counterbled by progressive beta/w coloring.
 $ i-mutatory effects but NOT blocked by prior labial (in fact, targets it in the case of w)
 $ seems to come after later (Christian) vocab added -- see evangelium > ungjill
@@ -429,7 +429,7 @@ $[+round,-lo,-hi] > [+hi,-long] / @ __ [+son,+cons,-lab,-front] ([-syl])* [+syl]
 / A2.IX -- Latin pʰ > f inserted into Latin input handling, contrasting with handling of kʰ and tʰ
 		suppressed -- lexicalized. 
 
-A2.X -- Middle Proto-Albanian /ɪ/ becomes /i/ instead of /e/ when immediately before ʎ or labials (five cases at present for ˈɪʎ; and 4 for ˈɪp and ˈɪf together; ˈɪ followed by other labials unattested). As of June 20, 2025, also for before /j/ (3 cases) but not ɲ (2 cases). 
+A2.X -- Middle Proto-Albanian /i/ becomes /iː/ instead of /ɪ/ > /e/ when immediately before ʎ or labials (five cases at present for ˈɪʎ; and 4 for ˈɪp and ˈɪf together; ˈɪ followed by other labials unattested). As of June 20, 2025, also for before /j/ (3 cases) but not ɲ (2 cases). As of March 2026, this is general pre-peripheral : before non-coronals. 
 
 A2.XI -- long/tense non-high stressed vowels are rounded under in the influence of round vocoids across sonorant consonants. Before Lw and LjVround In the case of ē, this development is blocked by preceding coronals, but proceeds otherwise. As of Jan 28, 2025, expanded to also include the same effect across rj (calendārium > kallënduor, cerasiārium > qershuor... etc.) and across n (iānua > ... > gjua) 
 
@@ -442,7 +442,7 @@ $ During August 2023 it was thought that ɲ also depalatalized after original o�
 $ January 28, 2025 -- moved into Middle Proto-Albanian I period -- some evidence Romanian is also implicated in related changes that postdate this. Placed just before nj > ɲ, so that r and n can be unified easily. 
 
 
-	.eo -- retraction of resultant ɶ́ to ɒ triggered by a non-coronal obstruent before this fronted vowel, seeing through a glide or perhaps liquid. Or alternatively 
+	.eo -- retraction of resultant ɶ́ or ǿ to ɒ triggered by a non-coronal and non-palatal consonant before this fronted vowel, seeing through a glide or perhaps liquid.
 
 A2.XI.1 -- j deleted in Vrj [round], handling the ˈārjʊ cases but also coctorium > koftor  
 
@@ -511,9 +511,9 @@ A2.XXIX Middle Proto-Albanian II -- final schwa insertion in etyma that end up a
 
 A2.XXX Middle Proto-Albanian II -- degemination of obstruents. They count as geminates if they share place of articulation and continuancy (so homorganic plosive - affricate is a geminate).
 
-A2.XXXI Middle Proto-Albanian I -- stress retractions...
-	A2.XXXI.a in V w ˈVlo (ablēv-ā- > blej , arrīv-ā- > arrij, Drivastum > Drisht, lav-ā- > laj, oli̍̄vānu > ullî, etc. As it turns out 
-	A2.XXXI.b V B-strid ˈV-hi R V; bled by w > v taverrë phenom. 
+A2.XXXI Classical Proto-Albanian and Middle Proto-Albanian I -- stress retractions...
+	A2.XXXI.a in V w ˈVlo (ablēv-ā- > blej , arrīv-ā- > arrij, Drivastum > Drisht, lav-ā- > laj, oli̍̄vānu > ullî, etc. Fed by aw-mutation. Feeds i-lengthening A2.X
+	A2.XXXI.b V B-strid ˈV-hi R V; bled by w > v taverrë phenom. In MPA I, echo of XXXI.a above but somewhat broader. Bled by taverre phenomenon. 
 	A2.XXXI.ð stress retraction for coronals - [+syl] [+cor,-nas,-lat] [+prim,-long] [-cont,-voi] ( j ) [+syl] #
 		(	 
 			$  rː -- dˌurːˈɑt͡ʃʊ > durrës,pˌɔrːˈɪkjʊ > porriq
@@ -563,15 +563,18 @@ A2.XXXVII -- ʎ to jl before unround, jɫ before round if voiced back elements (
 
 A2.XXXVIII Middle Proto-Albanian I --bleeding regressive coloring [A2.XXXXIII) , w,β,b > v between non-mid vowels and primary or secondary stressed E, j can be before the E: abiegnu > vgje. Does not happen for stresseless e: harroj, lëroj., tabelë, tryezë < trabeza, trā). If it sees through (n), as proposed on June 20, then it also feeds n-loss and bleeds nw > m phenomenon. 
 
-A2.XXXVIV -- tentatively into Classical Proto-Albanian -- may need to revise this fact... Unstressed o unrounds before m then unround vowel -- gesture retiming-- (promitt-e/o- > premtoj, nomin-á- > nëmëroj, rōmānu > rëmër, momentum > mënd, glomerāta > grëmëratë.) Going to e for now. 
-[-prim,-hi,+round] > [-round,-lab,-back,+front] 
 
 A2.XXXIX -- (MAJOR -- TODO DISCUSS IN DISS! ALSO-- UNNATURAL CLASSǃ) MPA II~III secondary length revision
 	A2.XXXIX.a -- length emerges for tonic and countertonic elements followed by an voiced consonantal other than m (b~β,d~ð,g,z,ʒ,r,ɾ,l,lˠ,ʎ ; n, ɲ) and then an unstressed vowel. 
 	A2.XXXIX.b -- length due to b/β and ð loss in V __ C (not just V __ V̯ C as above), sometimes with beta coloring in the case of beta.
 	A2.XXXIX.c -- length emerges initially for tonic lax mid vowels, and ˌɔ before non-labials. 
 	 
-A2.XXXX -- non-primary oː loses length. Bled by A2.XXXVIV. Bled by CPA stress retractions
+A2.XXXX -- ō phenomena
+	
+	A2.XXXX.o  non-primary oː loses length. Bled by A2.XXXX.em. Bled by CPA stress retractions
+
+	A2.XXXX.em -- tentatively into Classical Proto-Albanian -- may need to revise this fact... Unstressed o unrounds before m then unround vowel -- gesture retiming-- (promitt-e/o- > premtoj, nomin-á- > nëmëroj, rōmānu > rëmër, momentum > mënd, glomerāta > grëmëratë.) Going to e for now. 
+[-prim,-hi,+round] > [-round,-lab,-back,+front] 
 
 A2.XXXXI - ø > œ before it is unrounded by LPA. 
 
@@ -1794,7 +1797,7 @@ B1.VIII -- large scale relocdation of resonant and resonant cluster phenomena fr
 	.ʎ -- lk > ʎk moved from LPA I to LPA II - done. 
 		bled by formation of syllabic resonantsː mulc-o- > mëlkoj ; bled by Alb Tortː lakëm, lakmi, shluk
 		effects last early Slav layer etyma, and does so fed by fall of yers including for last early Slav layer: bælʊka > bejkë, sowadlʊka > sovajkë
-	.j -- lambdacism moved from CPA to MPA I , along with enyacism and related rules. 
+	.j -- de-lambdacism moved from CPA to MPA I , along with enyacism and related rules. Lambdacism in CPA as of March 27
 	
 B1.IX -- post-nasal stop voicing moved to after t͡ʃ , d͡ʒ >  s, z -- bled by it
 B1.X -- pre-strident n-deletion moved to after  t͡ʃ , d͡ʒ >  s, z -- fed by it
@@ -1817,6 +1820,7 @@ B2.II - DV1740F3 -- the lengthening of intervocalic l (and sl > l: (...> lˠ)) b
 
 B2.III -- DV4.2M1, M2, N1, N3 -- affrication of dj and tj--  relocdated to before post-nasal stop voicing, because ntj ends up as (n)s, not (n)z -- the affrication appears to bleed the voicing. As of June 11 2024, relocdated yet further earlier, to right between i-mutation and ietation -- dj/tj may behave differently as conditioning for i-mutation, but ietation seems to counterfeed dj/tj affrication (segull, castellam > kështjell not këshsell, daemonem > djemër not zemër, though the last could be a later loan as it is Christian terminology).  If this creates problems, another fix could be to make the j arising from hiatus into to a different element, perhaps a /ʝ/? This is currently placed after (in fact, right after) i-mutation, which may have different conditioning effects of dj/tj vs. inherited tʃ/dʒ (< kw, gw). 
 	  As of Nov 11, 2025, relocdated yet further back to come before secondary Latin hiatus i/e > j phenomenon, which counterfeeds it too. 
+	As of March 2026, relocdated back into CPA. 
 
 B2.IV moving, from the Middle Proto-Albanian to the Early/Classical Proto-Albanian period, the laxing of short non-low vowels (ɒː < PPAlb ā still counting as low) replaced by a lax/tense distinction. Although this is shared with Romance and (for front vowels at least) with, De Vaan 2018(:1736) places it after this point by placing at after ("1.") the fronting of long back vowels and ("3.") the raising of ɒː < PPAlb ā, neither of which being shared wiht Romanian, and the third of which having evidence of non-occurence in Romanian ("duck" -- Alb. rosë vs. Romanian rață, also Alb. modhull : Rom. mazăre...) 
 
@@ -1946,6 +1950,8 @@ C1A.XIX: i-mutation now hits initial vowels if trigger is non-final.  DOES happe
 			Lat ˈɑsper > MPA II áspɩr > ashpər 
 					MPA II ostɩr > vashtər 
 			 Lat ˈɑːeːr > MPA II áɩr > ajər
+
+C1A.XX Middle Proto-Albanian I ll, ln > L: expanded to nn > n: 
 
 ### C1B -- input made narrower
 

@@ -275,6 +275,9 @@ $DIACLEA CORRECTION A2.CXXXXVII.e APA reduction of non-primary {non-low} non-fin
 $DIACLEA CORRECTION A2.CXXXXVII.o pretonic short APA round vowels reduce to ə if after a voiceless element. Not long: gershet. 
 [-prim,+round,-long] > ə / [-voi] __ (@)* [+prim]
 
+$DIACLEA CORRECTION A2.IX countertonic em to um rule. Does not feed A2.CXXXXVII.o, pretonic short round vowel reductions. Shkumbin, thunder < ḱemtrom, perhaps se̍mateia > gjymësë -- last one seems to justify full raising.
+[-prim,+stres] > [+round,+lab,-front,+back,-lo,+hi] / __ m
+
 $DV4.1B2 -- m to b before l -- DV'18 lists bluan "to grind" < mleh1-, bletë "bee" < *m[e]lit? (question mark in the original) -- given the second example, there may have been some vowel effacement before this point? But DV'18 does not attribute this outcome for Latin loans into Proto-Albanian, and indeed they don't seem to show it exactly (e.g. simulatūra > shëmbëlltyrë etc.)
 $DIACLEA CORRECTION C3A.XIII D4.1B2 can see through an unstressed vowel 
 $DIACLEA CORRECTION D4.VI APA ml > bl reinteprreted as ml > mbl
@@ -1755,13 +1758,19 @@ $ pre-Dec '25 form, before separation: [+nas,+cor,-long] > ∅ / [-cons,+nas] ([
 $ DIACLEA CORRECTION E1.VI -- LPA II prestrident nasal deletion decoupled from final nasal deletion, and final nasal deletion broken up to rules that occur at different points. See file "LPA II-Vnə sequence outcomes.docx". 
 [+nas,+cor,-long] > ∅ / [-cons,+nas] ([-cons]) __ [+strid,+cont]
 $DIACLEA CORRECTION E1.VI.1 FIrst LPA II final nasal deletion for "only" {although these form a vast majority of potential cases} after non-low vowels after non-labial Cs, and after u and its diphthongs. Later deletions seem to be after breakup of Tosk and Gheg. Occasional cases of -nj outcomes are likely analogical, from plurals. 
+	$note this is ONLY happening in stressed final sylls though
 [+nas,+cor,-long] > ∅ / {[+round,+syl,-lo];[-lab,-nas] [-cons,-lo,+nas]} ([-cons]) __ #
 
 $DIACLEA CORRECTION A2.CI.nar and .tar: -ˈuor > -ar in (nar) ˌV (C) N __ and (tar) C-voi ([-stres]) t __ : Both are apparently pan Albanian (bardhi shëgjetëtar etc.), earlier than the later Tosk -uar > or phenom. 
 ˈu [-hi,-syl,-cons,+son] > ˈa / {[+stres] ([-syl]) [+nas,+cons];[-voi,+cons] ([-stres]) t} __ ɾ #
 
-$DIACLEA CORRECTION A2.CXVII, counterbleeding A2.CXVI, əlˠ > ulˠ before unround stressed vowel, or, if after final ə < a apocope, any unround vowel, if not after syllable with round vowel or labial consonant. Needs to have at least one coronal {not including ʃ} consonant between his nad word onset. Does not happen if there are labial consonants beforehand -- and ʃ is treated as labialǃ -- note UNNATURAL CLASS or fix by making ʃ labial. Currently treating as fed by apocope C3B.XIV. 
-[-prim,+round,+syl] > [-back,-front,-lab,-round,-hi,0tense,-lo] / {# ([-syl,-lab])* [+cor,+ant];[-round,+syl]} ([-syl,-lab])* __ lˠ @
+$DIACLEA CORRECTION A2.CXVII, counterbleeding A2.CXVI, which is əlˠ > ulˠ before unround stressed vowel, or, if after final ə < a apocope, any unround vowel, if not after syllable with round vowel or labial consonant. Needs to have at least one coronal {not including ʃ} consonant between his and word onset. Does not happen if there are labial consonants beforehand -- and ʃ is treated as labialǃ -- note UNNATURAL CLASS or fix by making ʃ labial. Currently treating as fed by apocope C3B.XIV. 
+	$ Pre APril 3 2026 version: [-prim,+round,+syl] > [-back,-front,-lab,-round,-hi,0tense,-lo] / {# ([-syl,-lab])* [+cor,+ant];[-round,+syl]} ([-syl,-lab])* __ lˠ @
+		$ Apr 3 -- removed overspecified first disjunct.
+	$ note, all relevant cases are verbs -- hence the ending in -ɲ -- tho this may somehow be analogical?
+		$ doesn't seem to happen otherwise 
+$̩[-prim,+round,+syl] > [-back,-front,-lab,-round,-hi,0tense,-lo] / {# ([-syl,-lab])* [+cor,+ant];[-round,+syl]} ([-syl,-lab])* __ lˠ [+prim] ɲ
+[-prim,+round,+syl] > [-back,-front,-lab,-round,-hi,0tense,-lo] / [-round,+syl] ([-syl,-lab])* __ lˠ @
 
 $DIACLEA CORRECTION A2.XXIX -- final schwa insertion in etyma that end up assyllabic and stop-final (doesn't seem to happen effectively to z-, s-, zh-, sh-; unclear: n-/në-)
 ∅ > ə / # ([-syl])* [-cont,-son] __ #
@@ -1854,8 +1863,9 @@ $ placed between PAlb and modern Alb by DV´18 but could probably be placed earl
 $ Furthermore, earlier placement may be warranted in case the reflex of *β seems to pattern with /f/ in terms of -kt- clusters, where /f/ seems to pattern differently than /p m/...
 [+lab,-son,+cont] > [+strid]
 
-$DIACLEA CORRECTION E1.VI.2 LPA II also has deletion of n after coronal sonorant then stressed low vowel sequences {solānum> shúllë ~ shullã; n-boreānus > múrrë ~ murrã́} but not palatals yet {fijë~fijan}.
-[+nas,+cor,-long] > ∅ / [+son,-front,-lab] [+lo] __ #
+$DIACLEA CORRECTION E1.VI.2 LPA II also has deletion of n after coronal sonorant then stressed low vowel sequences {solānum> shúllë ~ shullã; n-boreānus > múrrë ~ murrã́} but not palatals yet {fijë~fijan}. 
+	$As of April 2026, expanded to cover cases of deletion or ɾ in ye, note also of palatals blocking it, and necessary [-son] V̯ R - context. Prior version:[+nas,+cor,-long] > ∅ / [+son,-front,-lab] [+lo] __ #
+[+cor,-lat,-long,+son] > ∅ / [-son] [-prim] [+son,+cons,-front] [+prim,-long,-back] ( [-cons,-hi] ) __  #
 
 $ post-nasal stop voicing. De Vaan attributes this to Proto-Albanian, for Latin and native words alike for -p- (DV1743.B2, .B4) and -t- (1743.D2 = 4.2D2), while treating Latin loans alone for k > g / n __ (DV1744.A1, .A3)
 	$ De Vaan's handling of /p/ is given the same time betweeen native and Latin strata, but not the
@@ -2250,8 +2260,8 @@ w > v
 $ DV4.2P *x to *h -- this is listed as a PPAlb to PAlb change, but it is placed here as it also seems to effect Slavic loans as well, and has somewhat different outcomes in (some) Gheg where Tosk -h ends up corresponding to Gheg -f  
 x > h 
 
-$DIACLEA CORRECTION E1.VI.3 Tosk deletion of final ɾ̃ after labial-palatal sonorant sequences: fijë, shkëmbi etc. Not in Gheg: fijan, Shkumbin, etc. TODO perhaps overfit, reconsider? -- Tosk may also have Shkumbin and Kurbin... 
-[+nas,+cor,-long] > ∅ / [+lab] ([+hi,+front])+ ([+lo]) __ #
+$DIACLEA CORRECTION E1.VI.3 Tosk deletion of final ɾ̃ after labial-palatal sonorant sequences: fijë, shkëmbi etc. Not in Gheg: fijan, Shkumbin, etc. TODO perhaps overfit, reconsider? -- Tosk may also have Shkumbin and Kurbin... April 3, 2026 -- SUPPRESSED. 
+$[+nas,+cor,-long] > ∅ / [+lab] ([+hi,+front])+ ([+lo]) __ #
 
 $DIACLEA CORRECTION A1.XXVIII -- Proto-Tosk-SGheg deletions of ə in V-prim Cson __ {#,@ C-son V}. Counterbleeds A2.LXXV, bled by D4.2P. Feeds s > ts A2.LXXXVII
 $[-back,-front,-prim] > ∅ / @ [-prim] [+son,-syl] __ {#;[+cons,ason,anas] [-cons]}

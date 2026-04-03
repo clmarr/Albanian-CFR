@@ -719,6 +719,7 @@ $DIACLEA CORRECTION A2.CLV -- Middle Proto-Albanian II pretonic ɒ unrounded aft
 [+round,+lo,-prim] > [-round,-lab] / [+back,+cons] __
 
 $ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër, but via PPAlb *ā) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. DIACLEA CORRECTION C1A.VIII: to handle the current implementation of A2.VIII, broadened to include short ɒ too. 
+$ TODO examining deletion March 2o26
 [+round,+lo] > [-lo,-tense]
 
 
@@ -728,7 +729,7 @@ $DIACLEA CORRECTION A2.LXXXI -- deletion of intercountertonic n in a somewhat id
 $DIACLEA FIX A2.XXXVIII Middle Proto-Albanian I --bleeding regressive coloring , w > v between non-mid vowels and ˈE; j can be before the j. If it sees through (n), as proposed on June 20, then it also feeds n-loss and bleeds nw > m phenomenon. 
 [+lab,-nas,-syl,+voi] > v / [+syl,alo,-ahi] ([+nas]) __ (j) [+front,-hi,+stres]
 
-$ DIACLEA CORRECTION A2.XXXI.b stress retraction V B-strid ˈV-hi C/W Vocoid; bled by w > v taverrë phenom. 
+$ DIACLEA CORRECTION A2.XXXI.b MPA stress retraction V B-strid ˈV-hi C/W Vocoid; bled by w > v taverrë phenom. 
 [+syl] [+lab,-strid,+voi,-nas] [+prim,-hi] > [+prim] [+lab] [-stres] / __ [-syl] [-cons]
 
 $ 4 NEW VOWEL SYSTEM. loss of distinctive vowel length leading to "system"
@@ -763,7 +764,7 @@ $[+stres,+tense,+front,-lab] > [+hi] / __ [+cont,-lab,+strid] ([+cons]) j
 
 $ raising of ɔ to o seems implicit here as a PAlb *ɔ is not handled for following rules concerning words were it is supposed to have arisen... -- i.e. > ø under i-mutation (5a.iii on p1736; 1735DV.A6 on this for reflex of PPAlb aː), seen also in the formulation of o-breaking rules (DV1736~G1 & G2)... 
 $ This can be handled in tandem with the raising of /ʊ/ back to /u/, which occurs for the reflexes of both Latin U and PPAlb *u (DV1735~2.2E1, -E2)
-$ TODO examine whether we really want ɔ > o here.
+$ TODO March 26 examine whether we really want ɔ > o here.
 $ DIACLEA FIX C3A.5 -- round vowel now effects /ʏ/ too
 [+round,+syl] > [+tense]
 
@@ -1223,11 +1224,11 @@ $DIACLEA FIX  A2.XXXIX.c -- initial lax mid vowel  lengthening phenomena. (D3.X.
 $ DV1736's 5a.1 : *ɛ > jɛ ietation (my word)
 $ = DV2.2.1B2 
 $ DIACLEA FIX C3B.XV.n -- this doesn't happen before nasals (diff from diphthongization at this point) 
-$ DIACLEA FIX C3B.XV.l and .r -- doesn't happen after l at all, happens only after r if the r is after a vowel (Hrepa , Hreɟa , terebellum > rrjep, rrjedh, turjelë) -- handling as polarity between sonorance and nasality, since here is no post vocalic ɛ to be concerned with)
+$ DIACLEA FIX C3B.XV.l and .r -- doesn't happen after l at all, happens only after r if the r is after a vowel (Hrepa , Hreɟa , terebellum > rrjep, rrjedh, turjelë) -- handling as polarity between sonorance and nasality, since here is no post vocalic ɛ to be concerned with) -- reformulated D4.III 
 	$ (initial ietation to be handled above in D3.X.b1) 
 $∅ > j / {[-cons] [+cor,-lat,-nas,+son];[rson,rnas]} __ ˈɛ [-nas]
 	$ reformulated per C1.B.XVI 
-$ all of the below furthermore reformulated per D4.III to be included in iotation. 
+$ all of the below furthermore reformulated per D4.III to be included in ietation. 
 $C1.B.XVI.ʎ
 ˈɛ > ˈɛː / [+strid] t __ [+lat]
 $ C1.B.XVI.t
@@ -1505,16 +1506,11 @@ $DIACLEA CORRECTION A2.LXXXV.eð -- ˈV¹ðV̯² > ˈV¹ː before an obstruent o
 [+prim] > [+long] / __ ð [+cons]
 
 $ DV1737's 5b.2 & 5b.3 : ø > ye and o > uo before word final -ɫ, -n, -r
-$ these are also part II of DV2.2.1L1, L2 and 2.2.1M ... but the conditioning appears slightly different for those? 2.2.1M, generating PAlb *ye, is attriubted for "PPAlb. ō + i-mutation, Lat. jō" whereas the table earlier on 1737 treats all Lat & PPAlb ō as becoming ø̄ 
-$ the blocking of fronting of PPAlb and Lat ō is currently implemented in "part I" of DV2.2.1L1 & DV2.2.1M, above, via merger into ɒː (which before long raises)
-$ TODO check this ^
-$ per DV2.2.1M, glided j gets absorbed into ø here. 
-$ TODO check this^ IMPLEMENT FOR DIA -- remove the (j), because this is better handled via tj > tʃ > s. 
-$ regarding the word-finality, same factors apply as above in DV1737~5b.1
-$ DIACLEA FIX: now using lˠ not lː {just formalism, not noted in fixes log}
-${ˈo;j ˈœ;ˈœ} > {ˈu o̯;j ˈy e̯;ˈy e̯} / __ {lˠ;n;r} ([-lo,-stres] (m)) # 
-$ DIACLEA CONSOLIDATION D3.X.b: now roped into lengthening as diphthongization, formulated appropriately, with e included. Heck actually just make it all non-low tonic vowels. (former versoin below)
-$ DIACLEA CORRECTION B1.XI -- pre lateral lengthening moved to after emergence of lˠ later in LPA II 
+$ these are also part II of DV2.2.1L1, L2 and 2.2.1M ... but the conditioning appears slightly different for those? 2.2.1M, generating PAlb *ye, is attriubted for "PPAlb. ō + i-mutation, Lat. jō" whereas the table earlier on 1737 treats all Lat & PPAlb ō as becoming ø̄ $ the blocking of fronting of PPAlb and Lat ō is currently implemented in "part I" of DV2.2.1L1 & DV2.2.1M, above, via merger into ɒː (which before long raises)$ per DV2.2.1M, glided j gets absorbed into ø here. $ regarding the word-finality, same factors apply as above in DV1737~5b.1
+$ DIACLEA CONSOLIDATION D3.X.b: now roped into lengthening as diphthongization, formulated appropriately, with e included. Heck actually just make it all non-low tonic vowels. (former version: ${ˈo;j ˈœ;ˈœ} > {ˈu o̯;j ˈy e̯;ˈy e̯} / __ {lˠ;n;r} ([-lo,-stres] (m)) # ) $ DIACLEA FIX: now using lˠ not lː {just formalism, not noted in fixes log}
+	$D3.X.b4 :rather than immediate posterior {lˠ;n;ɾ;ɾ̃} -- all non-long coronal sonorants -- seems to work.
+$ DIACLEA CORRECTION B1.XI -- pre lateral lengthening moved to after emergence of lˠ later in LPA II . 
+$[+prim,-lo] > [+long] / __ [+cor,+son,-long] ([-lo,-cons]) #
 [+prim,-lo] > [+long] / __ {lˠ;n;ɾ;ɾ̃} ([-lo,-cons]) #
 
 $DV1737's 5b.iv: *o > *uo/# __ {r,lj},
@@ -1934,8 +1930,9 @@ $n > ŋ / __ [+back,-cont]
 $ DIACLEA CORRECTION A2.LXVI tj > c in Tosk after last early Slavic input and after ie > je in non-initial syllables, but before ie > je in initial syllables (tegula > tjegull vs. rastellum > rashqel). Rope in also ts j etc. 
 [-voi,+cor,-cont] j > c
 
-$ Resolving DIACLEA CORRECTION D4.III -- remaining ie̯ except in _R# to jɛ
+$ Resolving DIACLEA CORRECTION D4.III -- remaining ie̯ except in _R# to jɛ. 
 [-round,+hi,cprim,+stres] [-syl,-cons,-hi] > j [cprim,-tense] / __ {[+son] @;[-son]}
+
 
 $other bandaid -- handling of β. D3.F w goes to v when not in a diphthong; also of Slav ʝ (> ɟ)
 {β;ʝ} > {v;ɟ}

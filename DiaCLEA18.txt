@@ -1761,6 +1761,13 @@ $DIACLEA CORRECTION E1.VI.1 FIrst LPA II final nasal deletion for "only" {althou
 	$note this is ONLY happening in stressed final sylls though
 [+nas,+cor,-long] > ∅ / {[+round,+syl,-lo];[-lab,-nas] [-cons,-lo,+nas]} ([-cons]) __ #
 
+$DIACLEA CORRECTION E1.VI.2 LPA II also has deletion of n after coronal sonorant then stressed low vowel sequences {solānum> shúllë ~ shullã; n-boreānus > múrrë ~ murrã́} but not palatals yet {fijë~fijan}. 
+	$As of April 2026, expanded to cover cases of deletion or ɾ in ye, note also of palatals blocking it, and necessary [-son] V̯ R - context. Prior version:[+nas,+cor,-long] > ∅ / [+son,-front,-lab] [+lo] __ #
+[+cor,-lat,-long,+son] > ∅ / [-son] [-prim] [+son,+cons,-front] [+prim,-long,-back] ( [-cons,-hi] ) __  #
+
+$DIACLEA CORRECTION A1.XXXXI LPA II de-ietation in T-cor (V̯) L __ R -- partial revival of DV2.2.1B1. Bled by E1.VI.2
+[+prim,+hi] e̯ > ˈɛ / [+cons,-cor] ([-stres]) [+cor,+son] __ [+son]
+
 $DIACLEA CORRECTION A2.CI.nar and .tar: -ˈuor > -ar in (nar) ˌV (C) N __ and (tar) C-voi ([-stres]) t __ : Both are apparently pan Albanian (bardhi shëgjetëtar etc.), earlier than the later Tosk -uar > or phenom. 
 ˈu [-hi,-syl,-cons,+son] > ˈa / {[+stres] ([-syl]) [+nas,+cons];[-voi,+cons] ([-stres]) t} __ ɾ #
 
@@ -1862,10 +1869,6 @@ $ incorporating ɸ here too.
 $ placed between PAlb and modern Alb by DV´18 but could probably be placed earlier as this does seem to be pan-Albanian? 
 $ Furthermore, earlier placement may be warranted in case the reflex of *β seems to pattern with /f/ in terms of -kt- clusters, where /f/ seems to pattern differently than /p m/...
 [+lab,-son,+cont] > [+strid]
-
-$DIACLEA CORRECTION E1.VI.2 LPA II also has deletion of n after coronal sonorant then stressed low vowel sequences {solānum> shúllë ~ shullã; n-boreānus > múrrë ~ murrã́} but not palatals yet {fijë~fijan}. 
-	$As of April 2026, expanded to cover cases of deletion or ɾ in ye, note also of palatals blocking it, and necessary [-son] V̯ R - context. Prior version:[+nas,+cor,-long] > ∅ / [+son,-front,-lab] [+lo] __ #
-[+cor,-lat,-long,+son] > ∅ / [-son] [-prim] [+son,+cons,-front] [+prim,-long,-back] ( [-cons,-hi] ) __  #
 
 $ post-nasal stop voicing. De Vaan attributes this to Proto-Albanian, for Latin and native words alike for -p- (DV1743.B2, .B4) and -t- (1743.D2 = 4.2D2), while treating Latin loans alone for k > g / n __ (DV1744.A1, .A3)
 	$ De Vaan's handling of /p/ is given the same time betweeen native and Latin strata, but not the

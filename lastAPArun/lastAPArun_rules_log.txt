@@ -393,6 +393,8 @@ l > lˠ / [blab,!bcor,!bcont] [-front,+syl] __ [-back,-lo,-cons]
 [+nas,+cor,-long] > ∅ / [-cons,+nas] ( [-cons] ) __ [+strid,+cont]
 [+nas,+cor,-long] > ∅ / [+round,+syl,-lo] ( [-cons] ) __ #
 [+nas,+cor,-long] > ∅ / [-lab,-nas] [-cons,-lo,+nas] ( [-cons] ) __ #
+[+cor,-lat,-long,+son] > ∅ / [-son] [-prim] [+son,+cons,-front] [+prim,-long,-back] ( [-cons,-hi] ) __ #
+[+prim,+hi] e̯ > ˈɛ/ [+cons,-cor] ( [-stres] ) [+cor,+son] __ [+son]
 ˈu [-hi,-syl,-cons,+son] > ˈa/ [+stres] ( [-syl] ) [+nas,+cons] __ ɾ #
 ˈu [-hi,-syl,-cons,+son] > ˈa/ [-voi,+cons] ( [-stres] ) t __ ɾ #
 [-prim,+round,+syl] > [-back,-front,-lab,-round,-hi,0tense,-lo] / [-round,+syl] ( [-syl,-lab] )* __ lˠ @
@@ -413,7 +415,6 @@ m [+nas,+cons,+cont] > mː/ __ [+syl,-round]
 [+syl] [-prim,-round,-lo] > [+long] ∅/ __ #
 [+lo,-round] ʎ > [+front,-back,-lo,-tense,-cons,-lat,+cont,0delrel] lː/ [+lab,+cont] __ [-front]
 [+lab,-son,+cont] > [+strid] 
-[+cor,-lat,-long,+son] > ∅ / [-son] [-prim] [+son,+cons,-front] [+prim,-long,-back] ( [-cons,-hi] ) __ #
 [-cont,mlab,jfront] > [+voi] / [mlab,jfront,+nas,+cons] __
 [-prim] > ə / # ( ( [-syl] )* [-prim] ( [-syl] )* )* [-syl] __ [-syl] ( ( [-syl] )* [-prim] ( [-syl] )* )* #
 [wround,cprim,+stres] [-syl,-cons,-hi] > [wback,wlab,!wfront,-syl,0stres,0prim] [cprim,-tense,-cons,-lat,+cont,0delrel]/ [-cons] __

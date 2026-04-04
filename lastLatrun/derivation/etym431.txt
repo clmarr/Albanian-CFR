@@ -1,32 +1,35 @@
 Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :431:
-#kˌoeːmptˈɑːnioː# >>> *#kumtˈɔj# ( GOLD : #cəmtˈɔj#) :
-k ˌo eː m p t ˈɑː n i oː 
-*#kˌoeːmptˈɑːnjoː# | 9 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-*#kˌoeːmptˈɒːnjoː# | 12 : [-hi,+long,+prim] > [+round,+lab] / __ [+son,+cons] j [+round]
-*#kˌɔeːmptˈɒːnjoː# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-*#kˌʊeːmptˈɒːnju# | 32 : [+round,-lo,-prim,-hi] > [+hi,-long,-splng] 
-Middle Proto-Albanian I stage form : *#kˌʊeːmptˈɒːnju#
-*#kˌʊeːmptˈɒːɲu# | 47 : {n j;nː j} > {ɲ;ɲ} 
-*#kˌʊeːmptˈɔːɲu# | 76 : [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
-*#kˌʊemptˈɔɲu# | 80 : [+syl] > [-long,-splng] 
-*#kˌuemptˈoɲu# | 84 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#kˌuemptˈoɲu#
-*#kˌuemtˈoɲu# | 93 : [+cons] > ∅ / [+cons] __ [-son]
-Late Proto-Albanian I stage form : *#kˌuemtˈoɲu#
-*#kˌujmtˈoɲu# | 168 : [+front,-lo,-prim,-round] > j / [-cor,uhi,!ulo,asyl] __ [+son,!asyl]
-*#kˌujmtˈɔɲu# | 189 : [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
-*#kˌuːjmtˈɔɲu# | 205 : [+round,-prim] > [+long] / [+hi,-son] __ [-lat] ( @ )* [+prim]
-*#kˌuːj̃mtˈɔ̃ɲu# | 248 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian II stage form : *#kˌuːj̃mtˈɔ̃ɲu#
-*#kˌuːj̃mtˈɔ̃ɲə# | 319 : [-stres,+round,-lo] > ə / __ #
-*#kˌuːj̃mtˈɔ̃ɲ# | 323 : [-back,-front,-stres] > ∅ / __ #
-Late Proto-Albanian III stage form : *#kˌuːj̃mtˈɔ̃ɲ#
-*#kˌuːmtˈɔ̃ɲ# | 392 : [-syl,ason,!acons,-strid] > ∅ / __ [+cons] [-son]
-Proto-Tosk-SGheg stage form : *#kˌuːmtˈɔ̃ɲ#
-Proto-Tosk stage form : *#kˌuːmtˈɔ̃ɲ#
-*#kˌuːmtˈɔɲ# | 485 : [-cons,+nas] > [-nas] 
-*#kˌumtˈɔɲ# | 503 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#kˌumtˈɔɲ#
-*#kˌumtˈɔj# | 517 : ɲ > j / [-hi] __ #
-*#kumtˈɔj# | 520 : [-prim] > [-stres,-prim,+syl,+son] 
-Final form : *#kumtˈɔj#
+#kˌoːɡitˈɑːnioː# >>> *#kujtˈɔj# ( GOLD : #kujtˈɔj#) :
+k ˌoː ɡ i t ˈɑː n i oː 
+*#kˌoːɡitˈɑːnjoː# | 9 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+*#kˌoːɡitˈɒːnjoː# | 12 : [-hi,+long,+prim] > [+round,+lab] / __ [+son,+cons] j [+round]
+*#kˌoːɡɪtˈɒːnjoː# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+*#kˌuɡɪtˈɒːnju# | 32 : [+round,-lo,-prim,-hi] > [+hi,-long,-splng] 
+Middle Proto-Albanian I stage form : *#kˌuɡɪtˈɒːnju#
+*#kˌuɡɪtˈɒːɲu# | 47 : {n j;nː j} > {ɲ;ɲ} 
+*#kˌuʎɪtˈɒːɲu# | 48 : [+back,+cons] > ʎ / [-cons,-front] __ [-stres,+front] t
+*#kˌuʎɪtˈɔːɲu# | 76 : [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
+*#kˌuʎɪtˈɔɲu# | 80 : [+syl] > [-long,-splng] 
+*#kˌuʎɪtˈoɲu# | 84 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+*#kˌuʎetˈoɲu# | 89 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#kˌuʎetˈoɲu#
+*#kˌuʎɪtˈoɲu# | 98 : [-stres,+front,-lo] > [+hi,-tense,-cons,-lat,+cont,0delrel] / [+cons] __
+Late Proto-Albanian I stage form : *#kˌuʎɪtˈoɲu#
+*#kˌuʎɪtˈɔɲu# | 189 : [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
+*#kˌuʎɪtˈɔ̃ɲu# | 248 : [-cons] > [+nas] / __ [+nas,+cons]
+Late Proto-Albanian II stage form : *#kˌuʎɪtˈɔ̃ɲu#
+*#kˌuʎətˈɔ̃ɲu# | 280 : {ɪ;ɪ̃} > {ə;ə̃} 
+*#kˌuʎutˈɔ̃ɲu# | 292 : [-prim] > [uhi,utense,+back,+round,+lab,-lo,-front] / [+cons] [-prim,uhi,+round] [+lat,-long] __
+*#kˌuʎətˈɔ̃ɲu# | 294 : [+back,+round,-prim,-long] > [-back,-hi,0tense,-round,-lab] / [+stres] ( [-syl] ( [-stres] ) )* __ ( [-syl] )* [-voi,-strid]
+*#kˌuʎtˈɔ̃ɲu# | 312 : ə > ∅ / [+syl] [+cons,+son,-long,-back] __ [-cont,-son]
+*#kˌuʎtˈɔ̃ɲə# | 316 : [-stres,+round,-lo] > ə / __ #
+*#kˌuʎtˈɔ̃ɲ# | 320 : [-back,-front,-stres] > ∅ / __ #
+Late Proto-Albanian III stage form : *#kˌuʎtˈɔ̃ɲ#
+Proto-Tosk-SGheg stage form : *#kˌuʎtˈɔ̃ɲ#
+Proto-Tosk stage form : *#kˌuʎtˈɔ̃ɲ#
+*#kˌuʎtˈɔɲ# | 481 : [-cons,+nas] > [-nas] 
+*#kˌujtˈɔɲ# | 490 : ʎ > j 
+Old North Tosk stage form : *#kˌujtˈɔɲ#
+*#kˌujtˈɔj# | 513 : ɲ > j / [-hi] __ #
+*#kujtˈɔj# | 516 : [-prim] > [-stres,-prim,+syl,+son] 
+Final form : *#kujtˈɔj#

@@ -556,6 +556,7 @@ k > ɡ / # __ [-prim,+back,+hi] [+cor] [-prim,-back,-front] [-son,-cont]
 ɾ̃ > ɾ 
 [-stres] > ∅ / [+cont,+son,-lat] [-cont,-front] ( [-cont,-front] )* __ ɾ [+stres]
 [-stres] > ∅ / # ( [+lab,+voi] )* __ ɾ [-hi,-round,+syl]
+[-prim] > [-stres,-prim,+syl,+son] 
 [-prim,-round,-cons] > ∅ / # __ [+nas]
 [-prim,-round,-cons] > ∅ / [-cons] [+lat] __ [+nas,-front]
 [+lat] > ʎ / [+syl,uhi,uback] [+nas] [+back,-cont] __
@@ -585,4 +586,3 @@ c > t͡ʃ / __ [+cons]
 ɲ > j / [-hi] __ #
 ɲ > j / [+hi,+front] __ #
 ʃ > s / # __ c [+prim,+round,+hi]
-[-prim] > [-stres,-prim,+syl,+son] 

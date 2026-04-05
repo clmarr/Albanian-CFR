@@ -2339,13 +2339,16 @@ $DIACLEA CORRECTION A2.LXXXXVI -- Proto-Tosk to ONT -- e.g. not seen in Buzuku, 
 	$ evidence: ˌɑdiˌuːnˈɑːnioː > PTosk aɟə̃ɾ̃ˈɔ̃ > agjëroj
 ə > ∅ / [-cont,-front] __ ɾ [+stres]
 
-$BANDAID fix-- since the notation of the data uses ɾ and r not r and rː, this is implemented here, even though DV2018 has a modern Alb r and rː . This now includes implementation of Tosk rhotacism [DV3.1G1]
-$Other parts now moved after P-Tosk
+$BANDAID fix-- since the notation of the data uses ɾ and r not r and rː, this is implemented here, even though DV2018 has a modern Alb r and rː . This now includes implementation of Tosk rhotacism [DV3.1G1]. RULE CROSSING for LXXXXVI.nr 
+$Other parts now moved after P-Tosk. 
 ɾ̃ > ɾ 
 
 	$LXXXXVI.nr limited effect on ɾ̃ and ɾ alike in +son -cont __  and # {lab} __ ɛ,a
 [-stres] > ∅ / [+cont,+son,-lat] ([-cont,-front])+ __ ɾ [+stres]
 [-stres] > ∅ / # ([+lab,+voi])* __ ɾ [-hi,-round,+syl]
+
+$bandaid -- loss of countertonic stress. Counterfeeds A2.LXXXXVI.nr, counterbleeds A2.LXXXXVI
+[-prim] > [-stres]
 
 $DIACLEA CORRECTION A2.LX: Northern Tosk pre-nasal non-round vowel deletions. Doesn't happen before ɲ {mallëngjej} except initially.
 $ A2.LX.ʎ {after laterals} and .t {tVn} , .a {initial}--- broadest cases, can happen before CC 
@@ -2368,6 +2371,7 @@ $DV4.1E / -F -- beginnings late medieval central Albanian palatalization. This e
 
 $ DIACLEA CORRECTION A2.CXXXV.p Old North Tosk pretonic syncope in Pcont __ l,t,z, : mlysh, flas, fli, mti, mxoj. UNNATURAL CLASS, investigate. Although, there seems to be variance with m{ë}suk and m{ë}soj.
 ə > ∅ / # [+lab,+cons,+cont] __ [-distr,llat,lson,zcont,zvoi,-hi] [-cons]
+
 
 $DIACLEA CORRECTION A2.CXXXV.ɾ ONT pretonic syncope in ʃ T __ ɾ . SUPPRESSED-- does more harm, doesn't accomplish anything. 
 $ə > ∅ / ʃ [-delrel,-son,-front] __ ɾ [+prim] 
@@ -2466,8 +2470,7 @@ $ DIACLEA CORRECTION A1.III -- this DOES occur word finally after i (case of vic
 $DIACLEA CORRECTOIN A2.CXII : ʃc > sc before stressed high round vowel in modern Albː scyt, scufur
 ʃ > s / # __ c [+prim,+round,+hi]
 
-$bandaid -- loss of countertonic stress
-[-prim] > [-stres]
+
 
 $~ Standard Albanian
 

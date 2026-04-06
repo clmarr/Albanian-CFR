@@ -582,7 +582,7 @@ ${s l;l} > {lˠ;lˠ} / [+syl] __ [+syl,-front]
 $DIACLEA CORRECTION D3.XIII -- Middle Proto-Albanian l-split to l and lˠ no longer. Handled in Late Proto-Albanian I, in tandem with early Slavic.
 $l > lˠ / [+syl] __ [+syl,-front] 
 
-$DIACLEA CORRECTION A2.CLVIII -- countertonic stress lost on non-initial syllable ig-, early. Consider expanding this. Bleeds A2.CLVII.k
+$DIACLEA CORRECTION A2.CLVIII -- countertonic stress lost on non-initial syllable before g, early. Consider expanding this. Bleeds A2.CLVII.k
 [-prim] > [-stres] / [+syl] (@)* __ ɡ
 
 $DV1740.D4 Lat -ng(u-)>ɲ / __ V[+front]
@@ -631,8 +631,10 @@ $ DIACLEA CORRECTION B2.V -- moved. this aspect to before MPA I vowel drops of C
 $ DIACLEA CORRECTION C2.V cogitare rule instead goes to ʎ, evidence from OAlb. 
 [+back,+cons] > ʎ / [-cons,-front] __ [-stres,+front] t
 $ second part -- prior conditioning
+
 $ DIACLEA CORRECTION C3B.IV* -- nasal conditioning removed here. Instead nkt > ɲt after stressed nonround (ma(n)jtë, shenjtë, strenjtë). As of Dec 1o 2o25, needs to be adjacent on one side or the other to the primary stressed vowel -- not in countertonic __ atonic as seen in the sanctu- compound words. 
 $ DIACLEA CORRECTION C3B.IV.r, b-- in hte immediate contact position (i.e. not the above, rather than merely after front vowels, iotation happens after  (C3B.IV.r) voiced coronals preceded by other coronals (perhaps across a nonprimary vowel) and (C3B.IV.b) labials on the other side of the vowel perhaps with l intervening. (formerly: [+back,+cons] > j / [+front] __ t) 
+
 $DIACLEA CORRECTION E1.VII -- moved to CPA -- Middle Proto-Albanian k > j DV1744.J3 is no longer a single process, but rather passes first to ç in MPA I, because it does not feed aj coalescence to eː in MPA II. This [ç] seems to have become ʎ at some point as attested in OALb kuʎtonj > kujtoj < cogitare, in at least that case, but unclear how much this generalizes. It doesn't seem likely to have become ʎ immediately, for both phonetic and diachronic reasons {doing so errantly feeds a ʎ deletion rule near hte end of MPA I for collucti-a- > gulçoj, other problems for ndërtoj, pliq, vetyrë, etc.}
 [+back,+cons] > ç / {[+lab] ([+lat]);[+cor] ([-prim]) [+cor,+cont]} [+syl] __ [+cor,-voi,-cont]
 n [+back,+cons] > ɲ / [-round,aprim] __ t [+syl,-aprim]
@@ -656,7 +658,7 @@ $format changed to sidestep then-current input-side issues in DiaSim. TODO consi
 $DIACLEA FIX B1.VI -- initial (w) r trilling moved into MPA I.
 {w r;r} > {rː;rː} / # __
 
-$DIACLEA FIX A2.XXXXVIII -- early MPA II shortening of long round vowels before continuant consonantal labials 
+$DIACLEA FIX A2.XXXXVIII -- early MPA shortening of long round vowels before continuant consonantal labials 
 [+round] > [-long] / __ [+lab,+cont,-syl] [-lo]
 
 $ De Vaan 1736 "1." + DV1736~A1&A3 (on Lat & PPAlb ū) + DV1735~A7&A8 (on Lat & PPAlb ō) - long back vowels fronted, starting with y; y feeds A2.XXXXVII, ø does not.  -- listing only the round ones and not including ɒː (incl. from PIE & AGk aː)-- in effect, he seems to mean the non-low long back vowels ones. 
@@ -1562,6 +1564,9 @@ $ˈi e̯ > j ˈɛ
 $DIACLEA CORRECTION A2.LXXXV -- VðV̯C-son resolution
 $DIACLEA CORRECTION A2.LXXXV.ieð 	ie̯ðV̩ > jɛ̄  -- TODO CONSIDER BROADENING this
 ˈi e̯ > j ˈɛː / __ ð
+
+$DIACLEA CORRECTION backing of round front vowels after palatals. 
+[+round] > [-front,+back] / [+front,+cons] __ [+cons,plab,-phi] [-cons]
 
 $DIACLEA CORRECTION A2.LXXXV.ðC -- ð -- taking medial schwa with it if before anything other than a tap -- deletes before consonants, after lengthening phenomena resolve.
 [-back,-front,-stres] > ∅ / ð __ [+cons,mcont,mson]

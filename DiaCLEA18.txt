@@ -558,6 +558,11 @@ $ resolution of DV1744.D & DV1744.E1 -- see notes on further above, this is moti
 $DIACLEA CORRECTION B2.XIX -- ts dz to θ ð moved to late CPA; MPA I greek words don't feed it, while MPA I Greek θ treated like inherited ts > θ. 
 {t͡s;d͡z} > {θ;ð}
 
+$DIACLEA CORRECTION A1.XI.b b > beta. 
+b > β / [-cons] __ ([+son,+cons]) [+syl]
+
+$DIACLEA FIX A2.XXXXVIII -- early MPA shortening of long round vowels before continuant consonantal labials 
+[+round] > [-long] / __ [+lab,+cont] [-lo]
 
 $--------------------Middle Proto-Albanian-------------------
 =Middle Proto-Albanian I
@@ -639,8 +644,6 @@ $DIACLEA CORRECTION E1.VII -- moved to CPA -- Middle Proto-Albanian k > j DV1744
 [+back,+cons] > ç / {[+lab] ([+lat]);[+cor] ([-prim]) [+cor,+cont]} [+syl] __ [+cor,-voi,-cont]
 n [+back,+cons] > ɲ / [-round,aprim] __ t [+syl,-aprim]
 
-$DIACLEA CORRECTION A1.XI.b b > beta. 
-b > β / [-cons] __ ([+son,+cons]) [+syl]
 
 $DIACLEA FIX A2.XXXXIX -- rVr > rVlˠ dissimilation. Counterbled by initial r trilling. Before back element -- contrarjʊ > kundruall and rarʊ > rrall-ë, but not miserari > mishërier. As of Dec 16, to simple /l/.
 r > l / r [+syl] __ [+back]
@@ -658,8 +661,6 @@ $format changed to sidestep then-current input-side issues in DiaSim. TODO consi
 $DIACLEA FIX B1.VI -- initial (w) r trilling moved into MPA I.
 {w r;r} > {rː;rː} / # __
 
-$DIACLEA FIX A2.XXXXVIII -- early MPA shortening of long round vowels before continuant consonantal labials 
-[+round] > [-long] / __ [+lab,+cont,-syl] [-lo]
 
 $ De Vaan 1736 "1." + DV1736~A1&A3 (on Lat & PPAlb ū) + DV1735~A7&A8 (on Lat & PPAlb ō) - long back vowels fronted, starting with y; y feeds A2.XXXXVII, ø does not.  -- listing only the round ones and not including ɒː (incl. from PIE & AGk aː)-- in effect, he seems to mean the non-low long back vowels ones. 
 [+back,+long,+syl,-lo] > [+front,-back]
@@ -1565,7 +1566,7 @@ $DIACLEA CORRECTION A2.LXXXV -- VðV̯C-son resolution
 $DIACLEA CORRECTION A2.LXXXV.ieð 	ie̯ðV̩ > jɛ̄  -- TODO CONSIDER BROADENING this
 ˈi e̯ > j ˈɛː / __ ð
 
-$DIACLEA CORRECTION backing of round front vowels after palatals. 
+$DIACLEA CORRECTION A2.CLIX: backing of round front vowels after palatals. Counterfed by A2.LXXXV.ðC (deletion of ð -- gjyq etc.); bleeds DV1737.6 unrounding of œ.  
 [+round] > [-front,+back] / [+front,+cons] __ [+cons,plab,-phi] [-cons]
 
 $DIACLEA CORRECTION A2.LXXXV.ðC -- ð -- taking medial schwa with it if before anything other than a tap -- deletes before consonants, after lengthening phenomena resolve.

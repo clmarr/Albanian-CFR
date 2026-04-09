@@ -331,8 +331,8 @@ $note that this is NOT a proposed sound change, but a temporary solution to the 
 $ DIACLEA CORRECTION C3B.XXIV late APA i lengthening doesn't happen to tonic vowels in hiatus with following : manía  > məri. Also, bled by A2.CXXXXIV.
 [+hi,+front,+syl] > [+long] / __ [-syl]
 
-$DIACLEA CORRECTION A1.XXXVI h deleted after consonants in APA. Not quite for CPA: perhōra > pərherə. 
-h > ∅ / [+cons] __
+$DIACLEA CORRECTION A1.XXXVI h deleted after consonants in APA. Not quite for CPA: perhōra > pərherə. Superfluous.
+$h > ∅ / [+cons] __
 $DIACLEA CORRECTION A1.XXXVI.ɦ Greek spirit, currently coded as ɦ, deleted everywhere. 
 ɦ > ∅
 
@@ -510,6 +510,10 @@ $ DIACLEA CORRECTION C3B.XXV CPA laxing doesn't happen to ə from APA reductions
 $DIACLEA CORRECTION A1.XIII length lost in i early. Needed to feed transcoronal stress retraction 
 [+syl,+front,+hi] > [-long]
 
+$DIACLEA CORRECTION A2.XII: h is deleted after vowels and before non-stressed vowels except before stressed vowels (later insertions hard to characterize; some role of r?) 
+$[-cons,-son] > ∅ / __ [-stres]
+h > ∅ / @ __
+
 $DIACLEA CORRECTION A2.XXXI.ð stress retraction across coronals.
 [+syl] > [+prim] / __ [+cor,-nas,-lat] ([+son,-syl,-lab]) [+prim,-long] [-cont,-voi] (j) [+syl,+hi] #
 [+prim] > [-stres] / [+prim] (@)* __
@@ -538,13 +542,6 @@ $ DV4.2F4: Lat. i- merges with PPAlb *ʒ as PAlb *ɟ; PPAlb *ʒ as PAlb *ɟ as i
 	$Seems some Christian items have this though: iohannem > Gjon. Perhaps entered with ʝ or ɟ. 
 {# j;ʒ} > {# ɟ;ɟ}
 
-$ DV1740.C1 & C3 (merged) -- -Tn- and -sn- > n:. Listed only for PPAlb not Latin; since no Latin etyma loaned to Albanian have these clusters before the vowel falls start, it is placed before them. The -nn- clusters from loans and also earlier assimilations are also swept up in this on purpose. 
-$ DV1740.C2 merged in too -- -Kn- affected as well. But this should be interpreted as just targeting -kn- and not -gn-, because in DV1740D2 De Vaan notes that PPAlb and Lat gn- and -gn- clusters instead go to ɲ. Latinate loans into PPAlb have no -kn- clusters before the vowel drops, so it makes sense to implement this here. 
-$ form prior to 8/5/23 was: {[+cor,+ant,-son];n;k} n > nː
-$ was formulated so as to handle if these are treated instead as labialized consonants (alas in practice the format in ALLex currently is always "k w" and "ɡ w", not "kʷ", "ɡʷ".) 
-$changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved.
-{s n;t n;d n;n n;k n} > {nː;nː;nː;nː;nː}
-
 $----- early aspects of vowel reduction and falls ----- 
 
 $ DIACLEA CORRECTION D3.III following is combined into second vowel drop wave : DV2.2.2c "at an early stage" internal unstressed post-tonic vowels go to schwa, some soon to be lost. Originally formulated here so as to not count items with inflectional ending consonants (e.g. accusative -m) as "internal" : [-stres] > ə / [+prim] (@)* __ ([-syl])* [+syl] -- but now this is no longer necessary(?). The vowel reduction and falls as a whole are said to happen "in the last phase of the Proto-Albanian period... after i-mutation and a-mutation" but it seems this does not apply to these early internal post-tonic reductions given the cited cases of lardh and verdh, nor to the internal pretonic vowels that are reduced to ə and/or "lost at a stage preceding PAlb" (with Latin etyma cited -- cotoneus > ftua, nepōtia > mbesë, etc.); note that APA is not strictly within De Vaan's "PAlb here". 
@@ -562,7 +559,6 @@ b > β / [-cons] __ ([+son,+cons]) [+syl]
 
 $DIACLEA FIX A2.XXXXVIII -- early MPA shortening of long round vowels before continuant consonantal labials 
 [+round] > [-long] / __ [+lab,+cont] [-lo]
-
 
 $--------------------Middle Proto-Albanian-------------------
 =Middle Proto-Albanian I
@@ -612,9 +608,7 @@ $ DIACLEA CORRECTION A2.I -ʎ to jl in Middle Proto-Albanian I
 
 $ --- end of  DIACLEA CORRECTION B1.VIII.j block 
 
-$DIACLEA CORRECTION A2.XII: h is deleted after vowels and before non-stressed vowels except before stressed vowels (later insertions hard to characterize; some role of r?) 
-h > ∅ / __ [-stres]
-h > ∅ / [+syl] __
+
 
 $merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- backd -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (i,e) V) ; expanded to cover ŋ n too. 
 $ DIACLEA CORRECTION (But not a significant change from baseline it seems?) decoupled these. Handling gn phenomena elsewhere, on the basis of cognatus > kunat, fuskina > fuzhnjë, etc. Furthermore in Romanian words in original -ŋn- reflect in mn or even m- (agnellus > miel) 
@@ -650,6 +644,11 @@ n [+back,+cons] > ɲ / [-round,aprim] __ t [+syl,-aprim]
 
 $DIACLEA FIX A2.XXXXIX -- rVr > rVlˠ dissimilation. Counterbled by initial r trilling. Before back element -- contrarjʊ > kundruall and rarʊ > rrall-ë, but not miserari > mishërier. As of Dec 16, to simple /l/.
 r > l / r [+syl] __ [+back]
+
+$ DV1740.C1 & C3 (merged) -- -Tn- and -sn- > n:. Listed only for PPAlb not Latin; since no Latin etyma loaned to Albanian have these clusters before the vowel falls start, it is placed before them. The -nn- clusters from loans and also earlier assimilations are also swept up in this on purpose. 
+$ DV1740.C2 merged in too -- -Kn- affected as well. But this should be interpreted as just targeting -kn- and not -gn-, because in DV1740D2 De Vaan notes that PPAlb and Lat gn- and -gn- clusters instead go to ɲ. Latinate loans into PPAlb have no -kn- clusters before the vowel drops, so it makes sense to implement this here. 
+$ 4/8/26 -- changed to feed DV1740E3, no -gn- left due to handling in prior layer.  form prior to 8/5/23 was: {[+cor,+ant,-son];n;k} n > nː
+[-son,-lab] > n / __ n
 
 $DV1740E3 -- Lat ll > PAlb l. As [l] is a resonant, this will be totally bled by DV1740F2 if not placed before it.
 $merge with DV1740E1: PPAlb ln > PAlb l; placement for the same counterbleeding reasons.  
@@ -1370,6 +1369,7 @@ $ [-stres,-long] > ə / @ __ (@)* [+prim]
 {ˌɛ;ˌe} > {ˌɛː;ˌɛː} / [+lab,+cons] __ t [+prim]
 {ˌɛ;ˌe} > {ˌɛː;ˌɛː} / p __ [-son] ([+cons]) [+prim]
 
+$DV3.1G1 : Tosk rhotacism -- "dated 800-1000 CE, Janson 1986: 190-211". $ TODO -- og a NOTE FOR DIA : note that this may have to precede some vowel drops though -- note the example inimīcvs > armik (which is given by DV'18: 1739), though maybe ə was retained between n-m (note cited form anëmik)
 $ DIACLEA CORRECTION E1.III: Tosk rhotacism is now split into two stages: n > ɾ̃, and ɾ̃ > ɾ. First part happens well before split, in LPA I {as of Dec 25 '25}, actually: must happen before LPA II apocope, wich counterbleeds it for at least a handful of words, and doesn't happen to Middle Greek items such as manushaqe. Also counterbled by C2.IV.de in LPA I. Only afterward are non-low vowels are lost at last. Other loss of ɾ̃/n handled by E1.VI
 $ og: n > ɾ̃ / [+syl] __ [+syl]
 $ DIACLEA CORRECTION C3B.XIV -- Tosk rhotacism doesn't happen after penultimate high tense vowels. As of 10/2/25, including this as a context conditioning on this 'reversal' rule [rather than a separate rule ~ ɾ̃ > n / [+hi,+prim] __ [-stres] #]. No evidence it's just penultimates.
@@ -1762,6 +1762,7 @@ $ DIACLEA CORRECTION C3B.XXII -- prestrident nasal loss now only before continua
 $ pre-Dec '25 form, before separation: [+nas,+cor,-long] > ∅ / [-cons,+nas] ([-cons]) __ {[+strid,+cont];#}
 $ DIACLEA CORRECTION E1.VI -- LPA II prestrident nasal deletion decoupled from final nasal deletion, and final nasal deletion broken up to rules that occur at different points. See file "LPA II-Vnə sequence outcomes.docx". 
 [+nas,+cor,-long] > ∅ / [-cons,+nas] ([-cons]) __ [+strid,+cont]
+$DIACLEA CORRECTION B1.X -- pre-strident n-deletion moved to after  t͡ʃ , d͡ʒ >  s, z -- fed by it
 $DIACLEA CORRECTION E1.VI.1 FIrst LPA II final nasal deletion for "only" {although these form a vast majority of potential cases} after non-low vowels after non-labial Cs, and after u and its diphthongs. Later deletions seem to be after breakup of Tosk and Gheg. Occasional cases of -nj outcomes are likely analogical, from plurals. 
 	$note this is ONLY happening in stressed final sylls though
 [+nas,+cor,-long] > ∅ / {[+round,+syl,-lo];[-lab,-nas] [-cons,-lo,+nas]} ([-cons]) __ #
@@ -1875,20 +1876,11 @@ $ placed between PAlb and modern Alb by DV´18 but could probably be placed earl
 $ Furthermore, earlier placement may be warranted in case the reflex of *β seems to pattern with /f/ in terms of -kt- clusters, where /f/ seems to pattern differently than /p m/...
 [+lab,-son,+cont] > [+strid]
 
-$ post-nasal stop voicing. De Vaan attributes this to Proto-Albanian, for Latin and native words alike for -p- (DV1743.B2, .B4) and -t- (1743.D2 = 4.2D2), while treating Latin loans alone for k > g / n __ (DV1744.A1, .A3)
-	$ De Vaan's handling of /p/ is given the same time betweeen native and Latin strata, but not the
-		$ same conditioning environment. 
-	$ TODO need step to preserve Latin/non-Latin differences if this if expanded for PIE > Alb run.
-$ he handles nt > nd together for native and Latin, with the conditioning "n __ in  a pretonic or stressed syllable"; his examples also include cases where it is the coda of a stressed syllable (dhëndër, kundër), and those where it is the onset
-$ This is placed into the period before the earliest Slavic loans enter as benefit of the doubt, since that's still Proto-Albanian for De Vaan. (except by technicality the proposed precocious pre-rhotic Slavic loans, if they are considered to be a legitimate layer) 
-$ DIACLEA CORRECTION C3A.7 -- restrictions on nt > nd phenomena in De vaan (that it must be pretonic or in (hte coda, apparently) of a stressed syllable) deleted;
+$ post-nasal stop voicing. De Vaan attributes this to Proto-Albanian, for Latin and native words alike for -p- (DV1743.B2, .B4) and -t- (1743.D2 = 4.2D2), while treating Latin loans alone for k > g / n __ (DV1744.A1, .A3). De Vaan handles nt > nd together for native and Latin, with the conditioning "n __ in  a pretonic or stressed syllable"; his examples also include cases where it is the coda of a stressed syllable (dhëndër, kundër), and those where it is the onset. De Vaan's handling of /p/ is given the same time betweeen native and Latin strata, but not the same conditioning environment. 
+$ DIACLEA CORRECTION C3A.7 --  deleted restrictions on nt > nd phenomena in De vaan (that it must be pretonic or in (hte coda, apparently) of a stressed syllable); 
 $DIACLEA CORRECTION C1A.X: post nasal stop voicing unified to single rule with alpha features rather than input listing. Effectively this means nts  >ndz wrapped into postnasal voicing, but will hit others if they occur. 
-$DIACLEA CORRECTION B1.X -- pre-strident n-deletion moved to after  t͡ʃ , d͡ʒ >  s, z -- fed by it
 ${n t;n t͡s;m p;n k}> {n d;n d͡z;m b;n ɡ}
-[-cont,mlab,jfront] > [+voi] / [mlab,jfront,+nas,+cons] __
-
-$DV3.1G1 : Tosk rhotacism -- "dated 800-1000 CE, Janson 1986: 190-211". 
-$ TODO NOTE FOR DIA : note that this may have to precede some vowel drops though -- note the example inimīcvs > armik (which is given by DV'18: 1739), though maybe ə was retained between n-m (note cited form anëmik)
+[-cont,mlab,jfront] > [+voi] / [mlab,jfront,+nas,+cons] __ 
 
 $DIACLEA CORRECTION B2.XI -- pretonic vowel reductions moved to before last early slavic wave. Placed provisionally after s >  ʃ and t͡ʃ > s. 
 $ These DIACLEA CORRECTIONS apply still: 
@@ -2256,6 +2248,8 @@ $DIACLEA CORRECTION A1.XXI: Slavic last early wave final a > ɛ after palatal so
 
 ~Proto-Tosk-SGheg
 
+
+
 $TODO (ǃǃ) with revisions, up to this point was Tosk + SGheg developments. Different NT developments for north Gheg, plus different outcomes of å and ä, should be handled differently
 
 $DV2.1D2 -- Tosk uo > ua ; written agnostically as to the syllabic status of the a. 
@@ -2421,6 +2415,7 @@ $DV1734.3 -- loss of length in Northern Tosk (and much elsewhere except much of 
 
 ~Old North Tosk
 $ circa 1250-- layers added after this point incl. Old Italian II, Old Venetian, Old Angevin, Byzantine II, Ottoman I, Old Serbian. 
+
 
 $DIACLEA CORRECTION A2.CXVIII Old North Tosk ae {from oe̯} goes to modern Tosk ˈɛ  
 [+lo] e̯ > [-lo,-tense] ∅

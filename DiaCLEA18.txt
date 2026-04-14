@@ -2282,26 +2282,6 @@ $ DIACLEA CORRECTION C5.I: reform this to just o ɔ a becoming ə ə ə as this 
 $ DIACLEA CORRECTION B2.XXII -- final o,a > ə rules moved from Proto-Tosk back to Proto-Tosk-SGheg, as they feed ls > lts {A2.LXXXVII}
 {o;ɔ;a} > {ə;ə;ə} / __ #
 
-$DIACLEA CORRECTION A2.CXXXVI ã > ɛ̃ between coronals and ɲ, tentativelyː mëllenjë, shenjt, këlshenjt, gështenjë 
-ˈã > ˈɛ̃ / [+cor] __ ɲ
-
-$ ã raises to ə in Tosk (ultimately denasalizing to ë outside of some Lab subdialects which may (or may not) have preserved nasality, maybe for this item -- Breu 2021 also notes retained nasality in Arb\"eresh\"e). 
-$ DIACLEA CORRECTION C3B.XII -- in Proto-Tosk, it is only short ã that becomes ə̃; long ãː actually reflects as -a- (shpërlaj, etc.). However it effects labials too per DIACLEA CORRECTION C2.III (as of April 2026, no effect of this though). Counterbleeds A2.CXXXVI ã > ɛ̃ rule, so must come after that, unless it is reformatted to be in terms of ə̃ > ɛ̃. 
-[+lo,+nas,+syl,-long] > [-lo,-back,-front,0tense,-lab,-round]
-
-$DIACLEA CORRECTION E1.VIII -- Tosk denasalization broken into two rules. Denasalization of non-stressed vowels happens first, before post-sonorant affrication of *s and *ʃ. Denasalization of stressed nasal vowels happens later. Must come after Tosk ã > ə/ə̃, which it counterbleeds. 
-[-prim,-cons] > [-nas]
-
-$DIACLEA CORRECTION A2.LXXXVII -- post-sonorant strident affrication. Possible RULE CROSSING with k > g phenomena:  krs > krts aspect counterfeeds A2.LXXV.l , but bleeds A2.LXXV.r
-	$ not in Buzuku {balshëm etc.} but is in Bardhi {nalcoj etc}, Buzuku {me nalcuem}
-s > [+delrel] / k ( [+syl,aback,afront] ) [-cont,+son] __ 
-	$.kr after kër, to s specifically : -- kërc, kërcû, kërcat -- no posterior context specifications. Doesn't happen to ʃ here: kërshëndel.
-	$.lns -- united .l and .ns below. 
-		$.l post lateral -- #sˈɛlɪt͡ʃɑ#       >  *#ʃˈɛːlsa#       > Shelcë ;   #ˌinˌɑltiˈɑːnioː# :  *#nˌalsˈɔ̃ɲ#   : nalcoj , etc.-- malcoj, balçëm -- thus, hits syllabic m̩ , Këlcyrë/Këlçyrë, malcollë. Not këlshenjt -kˌalʃˈãɲt at that time --- tentatively not before low, therefore. However that's likely a Ghegism. Unclear with Shelcë time of reduction of final. 
-		$.ns -- in N{T}S -- not in Gheg ~ Zamshë vs. Zëmçë correspondence
-		$ voiceless -- not Shtëpëzë. 
-[+strid,+cor,-voi] > [+delrel] / [nnas,-nlat] ( [-cont,-son] ) __
-
 $ DIACLEA CORRECTION A2.LXXV.r # __ (ə) r/ʃ {t; t͡ʃ; x > h ; ʃ -- but not ts kërcat ǃ not c --kërqellë etc, not k kërkat; since t is only seen with gështenjë --vs. kështër kërshtër "CHristian", dont use t either -- makes feat matrix easier} ˈA  -- not k, b, c, ts, tentatively not t  -- per current formulation, fed by x > h to hit x>h words. Seem to all happen before nonround, nonhigh vowels -- gërhat, gërçak, gërshet, etc.
 k > ɡ / # __ ([-prim,-back,-front]) [+cor] [-voi,ʃcons,ʃcor,ʃfront] [-hi,-round,+prim]
 
@@ -2329,6 +2309,26 @@ $nː > n
 ~Proto-Tosk
 
 $TODO FOR LAB,CHAM,ARB-,ARV- : y > i here -- DV2.1A3 
+$DIACLEA CORRECTION A2.CXXXVI ã > ɛ̃ between coronals and ɲ, tentativelyː mëllenjë, shenjt, këlshenjt, gështenjë 
+ˈã > ˈɛ̃ / [+cor] __ ɲ
+
+$ ã raises to ə in Tosk (ultimately denasalizing to ë outside of some Lab subdialects which may (or may not) have preserved nasality, maybe for this item -- Breu 2021 also notes retained nasality in Arb\"eresh\"e). 
+$ DIACLEA CORRECTION C3B.XII -- in Proto-Tosk, it is only short ã that becomes ə̃; long ãː actually reflects as -a- (shpërlaj, etc.). However it effects labials too per DIACLEA CORRECTION C2.III (as of April 2026, no effect of this though). Counterbleeds A2.CXXXVI ã > ɛ̃ rule, so must come after that, unless A2.CXXXVI ã > ɛ̃ / cor __ ɲ is reformatted to be in terms of ə̃ > ɛ̃. Operates on word final elements regardless of length -- perhaps handle as shortening them. 
+[+lo,+nas,+syl,-long] > [-lo,-back,-front,0tense,-lab,-round]
+
+$DIACLEA CORRECTION E1.VIII -- Tosk denasalization broken into two rules. Denasalization of non-stressed vowels happens first, before post-sonorant affrication of *s and *ʃ. Denasalization of stressed nasal vowels happens later. Must come after Tosk ã > ə/ə̃, which it counterbleeds. 
+[-prim,-cons] > [-nas]
+
+$DIACLEA CORRECTION A2.LXXXVII -- post-sonorant strident affrication. Possible RULE CROSSING with k > g phenomena:  krs > krts aspect counterfeeds A2.LXXV.l , but bleeds A2.LXXV.r
+	$ not in Buzuku {balshëm etc.} but is in Bardhi {nalcoj etc}, Buzuku {me nalcuem}
+s > [+delrel] / k ( [+syl,aback,afront] ) [-cont,+son] __ 
+	$.kr after kër, to s specifically : -- kërc, kërcû, kërcat -- no posterior context specifications. Doesn't happen to ʃ here: kërshëndel.
+	$.lns -- united .l and .ns below. 
+		$.l post lateral -- #sˈɛlɪt͡ʃɑ#       >  *#ʃˈɛːlsa#       > Shelcë ;   #ˌinˌɑltiˈɑːnioː# :  *#nˌalsˈɔ̃ɲ#   : nalcoj , etc.-- malcoj, balçëm -- thus, hits syllabic m̩ , Këlcyrë/Këlçyrë, malcollë. Not këlshenjt -kˌalʃˈãɲt at that time --- tentatively not before low, therefore. However that's likely a Ghegism. Unclear with Shelcë time of reduction of final. 
+		$.ns -- in N{T}S -- not in Gheg ~ Zamshë vs. Zëmçë correspondence
+		$ voiceless -- not Shtëpëzë. 
+[+strid,+cor,-voi] > [+delrel] / [nnas,-nlat] ( [-cont,-son] ) __
+
 
 $loss of vocalic nasalization: DV2.1A2, C2, completing E1, F3
 [-cons,+nas] > [-nas]
@@ -2410,7 +2410,7 @@ $DIACLEA CORRECTION A2.XXXI.VCVn stress retraction in Proto-Tosk after ã > ə�
 [-prim] > [+prim] / __ ([-syl])* [-back,-front,+prim] ([-front,-syl]) #
 [+prim] > [-stres] / [+prim] (@)* __
 
-$DV1734.3 -- loss of length in Northern Tosk (and much elsewhere except much of Lab) 
+$DV1734.3 -- loss of length in Northern Tosk (and much elsewhere except much of Lab). From corpus data, likely concludes early 18th century though. 
 [+long] > [-long]
 
 ~Old North Tosk

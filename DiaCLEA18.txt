@@ -798,7 +798,11 @@ $ this thus implements DV2.2.1B11
 
 $DIACLEA CORRECTION A1.IV : nw (or nβ) > m before non-primary non-high stressed front vowel. Bled for invit-ā- by A2.LXXXI, removing need to make this for we (incl. from <wɪ) as opposed to wi. This overpredicts in the case of invernīnum > *mërri (vërri) but that word might reflect hibernīnum instead -- as of sprin 2026, removed. Motivation for this may be found in differentiating this from [ø], which in some accounts (e.g. Orel 2000) may have been [we] (note that the same sound becomes [uo] before sonorants). 
 $ TODO maybe broaden this and have ɸ involved for cases like iūnctus ? 
-n [+lab,-syl,+voi] > m / __ [+front,-hi,-prim]
+n [+lab,-syl,+voi] > m / __ [+front,-prim]
+
+$TODO Apr 14 tesT!!  -- having it go to mb DOESN"T WORK for postmimetic nasalization!
+$n [+lab,-syl,+cont] > m b / __ [+front,-hi,-prim]
+
 
 $DIACLEA CORRECTION A2.CXXII.VRəS late MPA I after oral resonants {m,n,ʎ seen} -after secondary or primary stress, atonic vowels before s delete via ə, bleeding i-mutation {genistra >gjeshter}. Feeds VNS> VS phenom B1.I. Happens even to low vowel {oleaster >vashter} 
 [-stres] > ∅ / [+prim] [+son,+cons] __ s

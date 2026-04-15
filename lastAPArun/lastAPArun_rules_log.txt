@@ -157,7 +157,7 @@ i > j / __ [+stres]
 [+hi,+front,+stres] > [+tense,-cons,-lat,+cont,0delrel] / [wback,!wcons] __ ( [+son,-nas] ) [+back] ( [-cons] ( @ )* ) #
 [+hi,+front,+stres] > [+tense,-cons,-lat,+cont,0delrel] / [+cor] __ [+cor] [+back]
 [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
-n [+lab,-syl,+voi] > m/ __ [+front,-hi,-prim]
+n [+lab,-syl,+voi] > m/ __ [+front,-prim]
 [-stres] > ∅ / [+prim] [+son,+cons] __ s
 [mnas,!mlat,!mfront] > ∅ / __ [+strid]
 [+cons] > ∅ / [+cons] __ [-son]

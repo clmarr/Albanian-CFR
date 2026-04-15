@@ -565,7 +565,7 @@ s > [+delrel,-cont,+cons,0tense]/ k ( [+syl,aback,afront] ) [-cont,+son] __
 ə > ∅ / [-cons] [-delrel,-son,-front,aback] __ [+lat,aback] [+prim]
 z > d͡z / [+nas,+cons] __
 c > k / __ [+syl] ʃ
-b > ∅ / # ( [-prim] ) m __ [-prim] [+cons,-lat]
+{m b;n d} > {m;d} / # ( [-prim] ) __ [-prim,-front,-cons] [+cons,-lat]
 [-prim] > [+prim,+stres,+syl,+son] / __ ( [-syl] )* [-back,-front,+prim] ( [-front,-syl] ) #
 [+prim] > [-stres,-prim,+syl,+son] / [+prim] ( @ )* __
 [+long] > [-long,-splng] 

@@ -1435,16 +1435,23 @@ $ DIACLEA CORRECTION B2.XVIII.vn -- vowel nasalization moved back to late LPA I,
 $DIACLEA CORRECTION A2.CX.ɐ LPA I reduction of unstressed non-final a across the board to ɐ, around time that final a > ɐ, which will ultimately pass to ə, surviving various deletions, resolving as ɐ > ə in LPA II or LPA III. Different behavior than final a, which goes to ə, later. TODO later consolidate these. 
 [+lo,-stres,-long,-round] > ɐ / __ (@)* [+syl]
 
-$DIACLEA CORRECTION A2.LXXXXI.Rɲ -- resonants deleted before ɲ ː balnea > banje, refernio > rrefej. Happens before LPA IIIː pa/lnja > palnjë
-[+son,+cor,-nas] > ∅ / __  ɲ
-
 =Late Proto-Albanian II
+
+$ resolving D3.XIII. counterfed by A1.XXII.1.ɪ, also counterfed by formation of ðL clusters A2.LXXXV. Also counterfed by A2.CXXXVI
+	$ C3A.XIV LPA l-darkening, specifically when triggered by following back vowel, can now see through following m: shkallëm, kallm, kullm. 
+l > lˠ / [-cons] __ (m) {[-front,+syl];[+lo]}
+
+$DIACLEA CORRECTION A2.CXXXVI ã > ( ãj >) ɛ̃ between coronals and ɲ, tentativelyː mëllenjë, shenjt, këlshenjt, gështenjë. Only for short a -- not laj which is from #lˈãːɲu at this time etc. Also not ɒ̃.  Bleeds A2.CXXV -> placement early in LPA II or v late in LPA I -- doesn't affect sanja tho, maybe vowel quality diff. Out comes in -ënjë are Lab, etc. (mëllënjë, kështënj, shënjt, etc.). Doesn't 
+ˈã > ˈɛ̃ / [+cor]   __ ɲ
 
 $DIACLEA CORRECTION A2.LXXXXVIII -- LPA II (e.g., from Greek) ɣ > j / __ i,ɪ,j, ultimately resulting in deletion of ɣ. May be worth it to look at handling ɣ l /l ɣ combos around A1.XVII. 
 [+hi,+cont,-son,+voi] > j / __ [+front,+hi]
 
-$DIACLEA CORRECTION A2.CXXV LPA II ɑnj > ãj, bleeding secondary ɲ formation, thus distinguishing LPA anj from earlier anj, which goes to əɲ. 
-[+lo] n > [+nas,+long] ∅ / __ j
+$DIACLEA CORRECTION A2.CXXV LPA II non-final ãɲ > ãːj if unaffected by A2.CXXXVI, bleeding secondary ɲ formation, thus distinguishing LPA anj from earlier anj, which goes to əɲ. 
+[+lo,-round,-long,+prim] ɲ > [+long] j / __ @
+
+$DIACLEA CORRECTION A2.LXXXXI.Rɲ -- resonants deleted before ɲ ː balnea > banje, refernio > rrefej. Happens before LPA IIIː pa/lnja > palnjë. Counterfeeds A2.CXXV (anj > ãːj), and nasalization that causes raising for a DV2.2.1 
+[+son,+cor,-nas] > ∅ / __  ɲ
 
 $Resolving DIACLEA CORRECTION A1.XVII.2.ɲ -- LPA II secondary ɲ formation.
 [+cor,+nas,+son] [+front,+son,-syl] > ɲ
@@ -1483,10 +1490,6 @@ $DIACLEA CORRECTION A2.LXXII.ɪ -- LPA I ɪ > ɛ / __ C ɪ just like in LPA III,
 
 $DIACLEA CORRECTION A2.LXXXXVIII -- deletion of j in [-cons] __ [+hi,+front] before ɪ lost in LPA II 
 j > ∅ / [-cons] __ [+hi,+front,-cons]
-
-$ resolving D3.XIII. counterfed by A1.XXII.1.ɪ, also counterfed by formation of ðL clusters A2.LXXXV
-	$ C3A.XIV LPA l-darkening, specifically when triggered by following back vowel, can now see through following m: shkallëm, kallm, kullm. 
-l > lˠ / [-cons] __ (m) {[-front,+syl];[+lo]}
 
 $ DIACLEA CORRECTION A2.CXXXX.2oj resolution of {MPA II oj >} LPA ɔj > ɛj, probalby counterbleeds l-darkening anymore given later l > lˠ / [blab,!bcor,!bcont] [-front,+syl] __ [-back,-lo,-cons]
 {ˈɔ j;ˈɔ j̃;ˈo j;ˈo j̃} > {ˈɛ;ˈɛ̃;ˈɛ;ˈɛ̃}
@@ -2046,7 +2049,7 @@ $[+lab,-syl] > m / [+back] ([+son,+cor]) __ [+nas,+cons] [+stres]
 $DIACLEA CORRECTION A2.LXXXXVII -- early denasalization of ã to block raising in certain conditions. Counterfed by A2.CXIV
 	$.aNV -- for stressed a; after non-coronal obstruents, possible liquid intermediary, followed by N V, or {.aNG} followed by a non coronal N{D} cluster then the word bound. {same post-non-coronal conditioning} 
 ˈã > ˈa / [-cor,-son] ( [+cor,+son] ) __ {[+nas,+cont,+cons] [+syl];([+nas]) ([+cons,-cor])+ #}
-	$.aCu -- stressed a, with u on the other side of hte cons cluster -- trangull, fam{b}ull, shkandull ; mendull. This one makes more sense as being from denasalization. 
+	$.aCu -- stressed a, with u on the other side of hte cons cluster -- trangull, fam{b}ull {famull is hit by the above tho}, shkandull This one makes more sense as being from denasalization. 
 ˈã > ˈa / __ [+nas] [-cont] [+hi,+back,-lat]
 	
 $DIACLEA CORRECTION A2.CXIV LPA III cluster medial stop deletion in C T -son. Feeds DV4.1U2
@@ -2313,8 +2316,7 @@ $nː > n
 ~Proto-Tosk
 
 $TODO FOR LAB,CHAM,ARB-,ARV- : y > i here -- DV2.1A3 
-$DIACLEA CORRECTION A2.CXXXVI ã > ɛ̃ between coronals and ɲ, tentativelyː mëllenjë, shenjt, këlshenjt, gështenjë 
-ˈã > ˈɛ̃ / [+cor] __ ɲ
+
 
 $ ã raises to ə in Tosk (ultimately denasalizing to ë outside of some Lab subdialects which may (or may not) have preserved nasality, maybe for this item -- Breu 2021 also notes retained nasality in Arb\"eresh\"e). 
 $ DIACLEA CORRECTION C3B.XII -- in Proto-Tosk, it is only short ã that becomes ə̃; long ãː actually reflects as -a- (shpërlaj, etc.). However it effects labials too per DIACLEA CORRECTION C2.III (as of April 2026, no effect of this though). Counterbleeds A2.CXXXVI ã > ɛ̃ rule, so must come after that, unless A2.CXXXVI ã > ɛ̃ / cor __ ɲ is reformatted to be in terms of ə̃ > ɛ̃. Operates on word final elements regardless of length -- perhaps handle as shortening them. 

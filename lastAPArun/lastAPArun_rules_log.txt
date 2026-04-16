@@ -317,9 +317,12 @@ t͡s > t͡ʃ / # __ ( [-cons] )* [+cor] [+cor] [-front]
 [-stres,-cons] > ∅ / # [+cons,dcor,blab,tson,nnas,llat,scont] __ [+cons,dcor,blab,tson,nnas,llat,scont]
 [-cons] > [+nas] / __ [+nas,+cons]
 [+lo,-stres,-long,-round] > ɐ / __ ( @ )* [+syl]
-[+son,+cor,-nas] > ∅ / __ ɲ
+l > lˠ / [-cons] __ ( m ) [-front,+syl]
+l > lˠ / [-cons] __ ( m ) [+lo]
+ˈã > ˈɛ̃ / [+cor] __ ɲ
 [+hi,+cont,-son,+voi] > j / __ [+front,+hi]
-[+lo] n > [+nas,+long] ∅/ __ j
+[+lo,-round,-long,+prim] ɲ > [+long] j/ __ @
+[+son,+cor,-nas] > ∅ / __ ɲ
 [+cor,+nas,+son] [+front,+son,-syl] > ɲ
 [+front,-stres,-lo,-hi] > ə / w __
 [+front,-stres,-lo,-hi] > ə / [+cons] __
@@ -333,8 +336,6 @@ t͡s > t͡ʃ / # __ ( [-cons] )* [+cor] [+cor] [-front]
 ɪ > i / [+cor,+son,-nas,-lat] __ c
 [+hi,-round,-tense,+stres,-nas] > [-hi] / __ [+cons] ɪ
 j > ∅ / [-cons] __ [+hi,+front,-cons]
-l > lˠ / [-cons] __ ( m ) [-front,+syl]
-l > lˠ / [-cons] __ ( m ) [+lo]
 {ˈɔ j;ˈɔ j̃;ˈo j;ˈo j̃} > {ˈɛ;ˈɛ̃;ˈɛ;ˈɛ̃} 
 [+round,+hi] ∅ ʎ [+lo] > [-hi,-tense,-cons,-lat,+cont,0delrel] j l [+front,-back,-tense,-lo,-cons,-lat,+cont,0delrel]/ [+lab,+cont] __
 [-cont,-son,+cor] [+strid,+cor] > ∅ [+delrel,-cont,+cons,0tense]
@@ -544,7 +545,6 @@ k > ɡ / # __ [-prim,+back,+hi] [+cor] [-prim,-back,-front] [-son,-cont]
 [-stres,-cons] > ∅ / [+cons,dcor,blab,tson,nnas,llat,scont] __ [+cons,dcor,blab,tson,nnas,llat,scont]
 [+cons,dcor,llat,blab,scont,nnas,rson] > ∅ / __ [+cons,dcor,llat,blab,scont,nnas,rson]
 [+nas,+cons] > [-long,-splng] 
-ˈã > ˈɛ̃ / [+cor] __ ɲ
 [+lo,+nas,+syl,-long] > [-lo,-back,-front,0tense,-lab,-round] 
 [-prim,-cons] > [-nas] 
 s > [+delrel,-cont,+cons,0tense]/ k ( [+syl,aback,afront] ) [-cont,+son] __

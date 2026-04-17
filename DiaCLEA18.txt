@@ -1761,8 +1761,10 @@ $DIACLEA CORRECTION B1.XII aj > ɛ moved toward Late Proto-Albanian II, as resul
 [+lo,+syl,-round] j > [-lo,+front,-back,-tense,+long] ∅ / __ #
 
 
-$DIACLEA CORRECTION A2.LXXXXVII -- early denasalization of ã to block raising in certain conditions. Counterfed by A2.CXIV. As of Apr 16, currently have this happening much earlier -- LPA II, blocking raising via denasalization. - formulatd into single rule. See file :"a denasalization or non-raising evidence". COUNTERBLED by LPA II apocope ǃǃ DV1738 apocope --  -- evidence of tap at that time. 
-ˈã > ˈa / [βlab,rson,rcor] (ə [+lat]) __ ([+nas]) [βlab,rhi,nson,ncont] [-cons]
+$DIACLEA CORRECTION A2.LXXXXVII -- early denasalization of ã to block raising in certain conditions. Counterfed by A2.CXIV. As of Apr 16, currently have this happening much earlier -- LPA II, blocking raising via denasalization. - formulatd into single rule. See file :"a denasalization or non-raising evidence". COUNTERBLED by LPA II apocope ǃǃ DV1738 apocope --  -- evidence of tap at that timeː non-occurence for kërëp, vargër, pëgërë
+$ˈã > ˈa / [βlab,rson,rcor] (ə [+lat]) __ ([+nas]) [βlab,rhi,nson,ncont] [-cons] -- actual version of the rule but there's a bug in diasim, so what follows is just a bandaid. 
+ˈã > ˈa / [+cor,+son] __ ([+nas]) [+hi,nson,ncont] [-cons]
+ˈã > ˈa / # ([-voi]) ([-stres]) [βlab,-βhi] __ ([+nas]) [βlab,-βcor,nson,ncont] [-cons]
 
 
 $resolution of DV1738 apocope

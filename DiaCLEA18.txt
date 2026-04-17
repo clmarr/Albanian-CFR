@@ -339,6 +339,9 @@ $DIACLEA CORRECTION A1.XXXVI.ɦ Greek spirit, currently coded as ɦ, deleted eve
 $DIACLEA CORRECTION A2.CXXXXII APA r > rr across a primary or secondary stressed vowel to a labial that is not postconsonantal
 r > r r / {#;[+syl]} [+lab,-syl] [+stres] __ [+syl]
 
+$DIACLEA CORRECTION A2.CLX -- mn > mb in APA. Shkëmb, shtëmbë
+n > b / m __
+
 $--------------------Classical Proto-Albanian----------------------
 =Classical Proto-Albanian
 
@@ -1441,14 +1444,15 @@ $ resolving D3.XIII. counterfed by A1.XXII.1.ɪ, also counterfed by formation of
 	$ C3A.XIV LPA l-darkening, specifically when triggered by following back vowel, can now see through following m: shkallëm, kallm, kullm. 
 l > lˠ / [-cons] __ (m) {[-front,+syl];[+lo]}
 
-$DIACLEA CORRECTION A2.CXXXVI ã > ( ãj >) ɛ̃ between coronals and ɲ, tentativelyː mëllenjë, shenjt, këlshenjt, gështenjë. Only for short a -- not laj which is from #lˈãːɲu at this time etc. Also not ɒ̃.  Bleeds A2.CXXV -> placement early in LPA II or v late in LPA I -- doesn't affect sanja tho, maybe vowel quality diff. Out comes in -ënjë are Lab, etc. (mëllënjë, kështënj, shënjt, etc.). Doesn't 
-ˈã > ˈɛ̃ / [+cor]   __ ɲ
+$DIACLEA CORRECTION A2.CXXXVI ã > ( ãj >) ɛ̃ between coronals and ɲ, tentativelyː mëllenjë, shenjt, këlshenjt, gështenjë. Only for short a -- not laj which is from #lˈãːɲu at this time etc. Also not ɒ̃.  Bleeds A2.CXXV -> placement early in LPA II or v late in LPA I -- doesn't affect sanja tho, maybe vowel quality diff. Out comes in -ënjë are Lab, etc. (mëllënjë, kështënj, shënjt, etc.).
+ˈã > ˈɛ̃ / [+cor] __ ɲ
 
-$DIACLEA CORRECTION A2.LXXXXVIII -- LPA II (e.g., from Greek) ɣ > j / __ i,ɪ,j, ultimately resulting in deletion of ɣ. May be worth it to look at handling ɣ l /l ɣ combos around A1.XVII. 
-[+hi,+cont,-son,+voi] > j / __ [+front,+hi]
 
 $DIACLEA CORRECTION A2.CXXV LPA II non-final ãɲ > ãːj if unaffected by A2.CXXXVI, bleeding secondary ɲ formation, thus distinguishing LPA anj from earlier anj, which goes to əɲ. 
 [+lo,-round,-long,+prim] ɲ > [+long] j / __ @
+
+$DIACLEA CORRECTION A2.LXXXXVIII -- LPA II (e.g., from Greek) ɣ > j / __ i,ɪ,j, ultimately resulting in deletion of ɣ. May be worth it to look at handling ɣ l /l ɣ combos around A1.XVII. 
+[+hi,+cont,-son,+voi] > j / __ [+front,+hi]
 
 $DIACLEA CORRECTION A2.LXXXXI.Rɲ -- resonants deleted before ɲ ː balnea > banje, refernio > rrefej. Happens before LPA IIIː pa/lnja > palnjë. Counterfeeds A2.CXXV (anj > ãːj), and nasalization that causes raising for a DV2.2.1 
 [+son,+cor,-nas] > ∅ / __  ɲ
@@ -1756,6 +1760,11 @@ $DIACLEA CORRECTION A2.CIX LPA III interjecting DV1738, formation of oe diphthon
 $DIACLEA CORRECTION B1.XII aj > ɛ moved toward Late Proto-Albanian II, as resulting ɛ does not delete with Slavic -e, and Slavic wave 2 feeds it in at least one case {Dõbraj > Dumre}. Could also have it go to long ē. Currently doing both. Seems to be operating in final position. Counterfed by DV1738 LPA II apocope. 
 [+lo,+syl,-round] j > [-lo,+front,-back,-tense,+long] ∅ / __ #
 
+
+$DIACLEA CORRECTION A2.LXXXXVII -- early denasalization of ã to block raising in certain conditions. Counterfed by A2.CXIV. As of Apr 16, currently have this happening much earlier -- LPA II, blocking raising via denasalization. - formulatd into single rule. See file :"a denasalization or non-raising evidence". COUNTERBLED by LPA II apocope ǃǃ DV1738 apocope --  -- evidence of tap at that time. 
+ˈã > ˈa / [βlab,rson,rcor] (ə [+lat]) __ ([+nas]) [βlab,rhi,nson,ncont] [-cons]
+
+
 $resolution of DV1738 apocope
 $ pre Dec 25 C3A.X vsn: [-back,-front,-stres] > ∅ / [+stres] ([-syl])* __ #
 $ DIACLEA CORRECTION C3A.X DV1738 schwa-apocope extended to all final unstressed nonlow vowels, not just those after a stressed syllable. 	
@@ -2045,12 +2054,6 @@ $[+lab,-syl] > m / [+back] ([+son,+cor]) __ [+nas,+cons] [+stres]
 [-cont,-cor] > ∅ / __ [+nas,+cons]
 	$A2.LXXXXI.ɲ -- ŋɲ > ɲɟ. As formulated currently, fed by .Tn: Latin to CPA sˌɑnɡuiniˈɑːtɑ > LPA ʃˌãŋɡɲˈatə > shëngjetë , ˌinkonɡˌyːrˈɑːnioː > ə̃ŋɡɲərˈɔ̃ɲ > ngjëroj. Tentatively using any nasal ɲ cluster.
 [+nas,+cons] ɲ > ɲ ɟ
-
-$DIACLEA CORRECTION A2.LXXXXVII -- early denasalization of ã to block raising in certain conditions. Counterfed by A2.CXIV
-	$.aNV -- for stressed a; after non-coronal obstruents, possible liquid intermediary, followed by N V, or {.aNG} followed by a non coronal N{D} cluster then the word bound. {same post-non-coronal conditioning} 
-ˈã > ˈa / [-cor,-son] ( [+cor,+son] ) __ {[+nas,+cont,+cons] [+syl];([+nas]) ([+cons,-cor])+ #}
-	$.aCu -- stressed a, with u on the other side of hte cons cluster -- trangull, fam{b}ull {famull is hit by the above tho}, shkandull This one makes more sense as being from denasalization. 
-ˈã > ˈa / __ [+nas] [-cont] [+hi,+back,-lat]
 	
 $DIACLEA CORRECTION A2.CXIV LPA III cluster medial stop deletion in C T -son. Feeds DV4.1U2
 [-delrel,-nas] > ∅ / [+cons] __ [-son]

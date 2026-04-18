@@ -726,6 +726,9 @@ $DIACLEA CORRECTION A2.CXXXX -- before loss of distinctness of ɒ́ː, ˈɒːj >
 $DIACLEA CORRECTION A2.CLV -- Middle Proto-Albanian II pretonic ɒ unrounded after k; for now applying more broadly to all velar consonants. Effectedː quadresima, quadriga, quasillum; possibly katër. Attempt to relate development nodunculum not worth it. 
 [+round,+lo,-prim] > [-round,-lab] / [+back,+cons] __
 
+$DIACLEA CORRECTION A2.XXXV -- hiatus j insertion between front vowel __ low vowel in Middle Proto-Albanian I, just before pre-palatal ɪ-raising (which it seems to feed)̠.  As of 11/13/25, this now only happens after stressed {incl. secondary stressed} i/e. Counterbled by ɒ̄ rounding
+∅ > j / [+front,+syl] __ [+lo] 
+
 $ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër, but via PPAlb *ā) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. DIACLEA CORRECTION C1A.VIII: to handle the current implementation of A2.VIII, broadened to include short ɒ too. 
 $ TODO examining deletion March 2o26
 [+round,+lo] > [-lo,-tense]
@@ -778,9 +781,6 @@ $ DIACLEA FIX C3A.5 -- round vowel now effects /ʏ/ too
 
 $DIACLEA CORRECTION A1.XVIII at least before A2.XXXV, secondary Latin layer unstressed  i in hiatus > j (christiānu > kërshter-ë , diabolus > djall , elegia > ligje for bleeding A2.XXXV; also relevant for iosephus > jozef, sanctu-iakobo > Shijak) 
 i > j / __ [+stres] 
-
-$DIACLEA CORRECTION A2.XXXV -- hiatus j insertion between front vowel __ non-round non-hi vowel in Middle Proto-Albanian I, just before pre-palatal ɪ-raising (which it seems to feed)̠.  As of 11/13/25, this now only happens after stressed i/e
-∅ > j / [+front,+syl] __ [-round,-hi,+syl] 
 
 $DIACLEA CORRECTION A2.CLVII -- Middle Proto-Albanian ɪ > i tensing before back elements. See Middle ProtoAlb i-tensing file. Large coverage here. Tentatively not happening to /e/ in which case it would be fed by merger of e < ē and ǐ -- vēlum > vel -- but the later may be an Angevin loan, and comes out wrong anyways as *vell. Clearly must happen to bleed ˈɛ / cor cont __ L {390}, and before ɑ becomes front {228}.
 
@@ -1029,7 +1029,7 @@ $ DIACLEA FIX E1.V.b -- reinterpreted as delabialization of single segment.
 [-son,+back] > [-lab,-round]
 
 $ inherited jV joins with fate of i-mutation if valid targets, not initial and not postlabial, as part of C8.I. 
-j > ɪ̯ / [-lab] __ [+stres,-hi]
+j > ɪ̯ / [-lab,-syl] __ [+stres,-hi]
 
 $DIACLEA CORRECTION D3.IV -- coalescence of etymological ui/uj, ai/aj, ei/ej, ɛi/ɛj > y e i i all roped into the resolution of i-mutation, 
 

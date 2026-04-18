@@ -78,7 +78,7 @@ INPUTS = {"ALLAPS.txt" : "Latin"  #various stages of Latin currently working fro
           ,
          "MGrALAPS.txt" : "Middle Greek" #later waves of Greek.
           ,"ADoLex.txt" : "Doric" #Doric loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc.
-          ,"AAttLex.txt" : "Ancient Greek dialects" #Attic loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc. Turns out they're mostly not necessarily Attic though.
+          ,"AGrLex.txt" : "Ancient Greek dialects" #Attic loans into Archaic Proto-Albanian, variously per Huld, Cabej, etc. Turns out they're mostly not necessarily Attic though.
           ,"AMacLex.txt" : "Macedonian" #Macedonian loans into Archaic Proto-Albanian (a likely later time than above tho),
                 # as assumed by Huld; TODO maybe move to later era?
           #,"AHesLex.txt" : "Classical Proto-Albanian" #Indo-European inheritance attested by Hesychius of Alexandria

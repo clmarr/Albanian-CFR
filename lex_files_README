@@ -4,12 +4,6 @@
 
 will be automatically compiled via merge_lex.py, used properly
 
-###merge_lex.py  -- to make gjALex
-
-TODO actually implement... 
-
-TODO fill in usage instrs
-
 for periods -- see PeriodizationPolicy (file)
 
 ##Lexica in this folder 
@@ -32,6 +26,10 @@ for periods -- see PeriodizationPolicy (file)
 ####APIELex 
 
 Proto-Indo-European etyma inherited into modern Albanian
+
+####APIECorrLEx
+
+Only the relatively secure inherited PIE lexis. 
 	
 ####APBalkLex.txt
 
@@ -40,33 +38,31 @@ from Balkan substrata into tentative common ancestor of Greek, Albanian (Armenia
 ####EPSEALLex 
 	loans from Slavic into LPA I 
 		
-	
-###TODO files to check for decisions 
+####MPSEALLex
+	loans from Slavic into LPA II
 
--"etyma to reperiodize.txt"
+####LPSEALLex
+	loans from Slavic into LPA III
+
+####MGrALAPS
+	loans from Middle Greek into MPA I and LPA II 
+	
+####ADoLex
+	Doric loans into Archaic Proto-Albanian
+
+####AMacLex
+	proposed Macedonian loans into Archaic Proto-Albanian (and Hesychius unless commented) 
+
+####AGrLex
+	general ancient Greek loans, dialect neutral. 
+
+####some decisions let over on these legacy files: 
+
 "ExclusionsFromALLex" 
 "Excluded Greek etyma.txt" 
-
+etc.
 	
 ###Multistage lexica
-
-####AncientGreekLayer.txt
-
-various layers of Greek to diff stages of Albanian... 
-
-####LatinChristianVocabToAlbanian
-
-organized by time, some certain and less certain cases of borrowings from Latin in era of Christianization and some later periods (e.g. around time of Slavic contact)
-
-consider dividnig on these grounds and then having it feed into the merged lexicon gjALex
-
-####APSlLex.txt
-includes etyma from Slavic into LPA I (identical to EPSEALLex as of 9/16) , and into, tentatively, LPA II
-
-
-####AlbMultiStageLex 
-
-abortive attempt at a manual multi stage lexicon, probably from late 2024 or 2025 
 
 
 ####ALLAPS 
@@ -89,4 +85,24 @@ largely Latin etyma, used in mid 2025, seems to differ from ALLex by 15 -- ID wh
 	(16.??) debitoːritium > detorës 
 	17 .strambinu > shtrembër
 	?? 
-		a copule things not mutually co-addressed, but long story short, should work off ALLAPSǃ 
+		a couple things not mutually co-addressed, but long story short, should work off ALLAPSǃ 
+
+(this is now outdated ^ )
+
+### Automatically merged stage lexica
+
+####created via python script merge_lex.py
+
+to run: 
+	specify name of file on line 9 : OUTPUT = {file name}
+
+	specify which lexicon files to combine to form it by commenting in or out different file names on lines 70-88 , variable INPUTS. 
+
+####gjALex.txt
+
+all layers from Greek lexis into APA onward
+
+####slavALex.txt
+
+EPSEALLex + MPSEALLex + LPSEALLex
+

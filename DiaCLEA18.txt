@@ -460,7 +460,8 @@ ${d j;t j} > {d͡ʒ;t͡ʃ}
 {d;t} > {d͡ʒ;t͡ʃ} / __ j
 
 $DIACLEA CORRECTION A2.XI: aw-mutation? rounding and lowering of primary stressed unrounded long/tense (a:, o:, e:) vowels under the influence of a round vowel on the other side of a sonorant followed by j Vround, or w. See fixes log for earlier notes on this. 
-[-hi,+long,+prim] > [+round,+lab] / __ [+son,+cons] {j [+round];w}
+$[-hi,+long,+prim] > [+round,+lab] / __ [+son,+cons] {j [+round];w}
+[-hi,+long,+prim] > [+round,+lab] / __ [+cont,+cor] {j [+round];w}
 
 $DIACLEA CORRECTION A2.XI.eo -- retraction of resultant ɶ́ to ɒ triggered by a non-coronal and non-palatal consonant before this fronted vowel, seeing through a glide or perhaps liquid.
 ˈøː > ˈɒː / [-cor,-front,+cons] ([+son,-nas]) __
@@ -893,8 +894,9 @@ $ DIACLEA CORRECTION B1.XIV -- sr > r , og Cr > r, moved from CPA to MPA II, cou
 
 
 $DIACLEA CORRECTION A2.XIII: before diphthongization/ietation (of the round elements), front round y and ø seem to retract before n and ɲ (e.g. Latin words in -ōnem > PAlb *uo, axungia > MPA ˌɑksˈyɲjɑ > ashunjë not *ashynjë and likewise in sanguisungia, words in -onju > PAlb *uo as well; ikone > korë; immūne > mû; luntrem > lundër not lyndër (via i-mutation), etc... ) but not m or ŋ (iunctura > yndyrë, iūnctus > gjymtë, pōma > pemë, brūma > brymë, etc...), and also not when in jø (ratiōnem > arësye etc.). Not fed by i-mutation overall. 
-[+front,+round] > [-front,+back] / [-front] __ [+nas,-lab,-back]
-	$TODO: however, note that of hte 13 cases here (not counting arsye which ends up fronted otherwise), 3 are cases where the fronting would be due to i-mutation that could be blocked by labials ( cāpōnem > kapua, pāvōnem > pallua, timōnem > timua), 1 is probably in a later layer (īconem > korë), 3 are possibly velars bleeding i-mutation (falcōnem drancōnem lacōnem > fajkua, drangua, lëkua), and one has an apparent resuffixation (rōsupōne > rozhponjë). Of the remainder, only leōnem is originally with [ˈo] at this stage; the mere four  that remain (immūne > mu , luntrem > lundër, sanguisungia > shushunjë, axungia > ashunjë) are all with u. Consider reformulating this. 
+[+front,+round,+prim] > [-front,+back] / [-front] __ [+nas,-lab,-back]
+	$TODO: however, note that of hte 13 cases here (not counting arsye which ends up fronted otherwise), 3 are cases where the fronting would be due to i-mutation that could be blocked by labials ( cāpōnem > kapua, pāvōnem > pallua, timōnem > timua), 1 is probably in a later layer (īconem > korë), 3 are possibly velars bleeding i-mutation (falcōnem drancōnem lacōnem > fajkua, drangua, lëkua), and one has an apparent resuffixation (rōsupōne > rozhponjë). Of the remainder, only leōnem is originally with [ˈo] at this stage; the mere four  that remain (immūne > mu , luntrem > lundër, sanguisungia > shushunjë, axungia > ashunjë) are all with u. Consider reformulating this.
+	$as of now only three words are effected, though.  
 
 $ De Vaan 2018 (: 1745 -- DV1745.A1) -- loss of Latin /w/ intervocalically: he cites qytet 'city' < CĪVITĀTEM (Rom. cetate), njerkë "stepmother" < NOVERCA
 $ DIACLEA CORRECTION B1.III -- relocdated later -- 
@@ -1355,6 +1357,12 @@ $DIACLEA CORRECTION A2.LXXXV..ɛðit > ɛjt , ˈɛðit ː shpejtoj, mejtoj, shpe
 $DIACLEA CORRECTION A2.LXXXXVIII.ij -- after A2.C (which bleeds it), deletion of j in I __ C,#. Tempting to have it happening for uj too : fluctul-a-  > fluturoj ? -- but this is probably explained otherwise. Fed by A2.LXXXV>ɛðit
 j > ∅ / [+hi,+syl,+front] __ {[+cons];#}
 
+$DV3.1G1 : Tosk rhotacism -- "dated 800-1000 CE, Janson 1986: 190-211". $ TODO -- og a NOTE FOR DIA : note that this may have to precede some vowel drops though -- note the example inimīcvs > armik (which is given by DV'18: 1739), though maybe ə was retained between n-m (note cited form anëmik)
+$ DIACLEA CORRECTION E1.III: Tosk rhotacism is now split into two stages: n > ɾ̃, and ɾ̃ > ɾ. First part happens well before split, in LPA I {as of Dec 25 '25}, actually: must happen before LPA II apocope, wich counterbleeds it for at least a handful of words, and doesn't happen to Middle Greek items such as manushaqe. Also counterbled by C2.IV.de in LPA I. Only afterward are non-low vowels are lost at last. Other loss of ɾ̃/n handled by E1.VI
+$ og: n > ɾ̃ / [+syl] __ [+syl]
+$ DIACLEA CORRECTION C3B.XIV -- Tosk rhotacism doesn't happen after penultimate high tense vowels. As of 10/2/25, including this as a context conditioning on this 'reversal' rule [rather than a separate rule ~ ɾ̃ > n / [+hi,+prim] __ [-stres] #]. No evidence it's just penultimates. Counterbled {!!} by D4.V.r reduction in m/l/r __ Cson,-front (@)* [+prim] .  -- ruinare. 
+n > ɾ̃ / [+syl,-hi] __ [+syl]
+
 $ DV2.2.2b -- internal pretonic vowels "including *au" (now > *a per DV2.2.1C3) to schwa, some of these to fall soon. "These reductions also affected the oldest layers of loanwords from Middle Greek, Italian, and Slavic" -- so will be repeated later just after the point for Old Northern Tosk Albanian. 
 $DIACLEA CORRECTIONS  : not for back or low (C1b.VIII, including low given brightening relocdation per A1.V) countertonics, or (C1.B.XIIIb) unstressed long vowels (in practice, mostly countertonic) not reduced to ə by DV2.2.2b. 
 $ pre dec 7 2025 vsn of first part -- [-prim,-back,-long,-lo] > ə / @ __ (@)* [+prim]
@@ -1375,12 +1383,6 @@ $ [-stres,-long] > ə / @ __ (@)* [+prim]
 	$ .pe ˌɛ lengthens between lab (son) __ t ˈV and p __ obs (C) ˈV 
 {ˌɛ;ˌe} > {ˌɛː;ˌɛː} / [+lab,+cons] __ t [+prim]
 {ˌɛ;ˌe} > {ˌɛː;ˌɛː} / p __ [-son] ([+cons]) [+prim]
-
-$DV3.1G1 : Tosk rhotacism -- "dated 800-1000 CE, Janson 1986: 190-211". $ TODO -- og a NOTE FOR DIA : note that this may have to precede some vowel drops though -- note the example inimīcvs > armik (which is given by DV'18: 1739), though maybe ə was retained between n-m (note cited form anëmik)
-$ DIACLEA CORRECTION E1.III: Tosk rhotacism is now split into two stages: n > ɾ̃, and ɾ̃ > ɾ. First part happens well before split, in LPA I {as of Dec 25 '25}, actually: must happen before LPA II apocope, wich counterbleeds it for at least a handful of words, and doesn't happen to Middle Greek items such as manushaqe. Also counterbled by C2.IV.de in LPA I. Only afterward are non-low vowels are lost at last. Other loss of ɾ̃/n handled by E1.VI
-$ og: n > ɾ̃ / [+syl] __ [+syl]
-$ DIACLEA CORRECTION C3B.XIV -- Tosk rhotacism doesn't happen after penultimate high tense vowels. As of 10/2/25, including this as a context conditioning on this 'reversal' rule [rather than a separate rule ~ ɾ̃ > n / [+hi,+prim] __ [-stres] #]. No evidence it's just penultimates.
-n > ɾ̃ / [+syl,-hi] __ [+syl]
 
 $DIACLEA CORRECTION A1.XVII.2.dj Late Proto-Albanian II has a second wave of the n j > ɲ and also l/lː/ð (r) j > ʎ that at least bleeds final ja > ɛ phenomena. for ð(r)j > hudrio > ujë, Slav ogradja > ograjë.  However Greek livadhja > livadhe; also mandilja > mandile.. 
 $ this causes memory error somehow: [+cont,+cor,+voi,-strid,ʎlat,ʎson] j> ʎ. As of Dec 25, the ɲ forming part of this handled differently, after LPA II. Feeds D4.V.de

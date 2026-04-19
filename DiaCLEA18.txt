@@ -1184,24 +1184,27 @@ $DIACLEA CORRECTION A1.XXII.ʊ > ∅. Not apocope in first LPA wave though -- do
 ʊ > ə / __ #
 ʊ > ∅
 
+$DIACLEA CORRECTION A2.LXXX.ɒʊ : medial ɒ > ʊ before sonorant cons. Does not feed first hard yer deletion wave (A1.XXII.ʊ) though.
+ɒ > ʊ / @ __ [+cons,+son] 
+
 $DIACLEA CORRECTION A2.CLII -- before LPA Alb-internal metathesis, lw > lˠ after a back vowel: gllanik , gallve
 l > lˠ / [+back] __ w
 
 $DIACLEA CORRECTION A2.LXIV s in C __ C-cor goes to t͡s, blocking retraction to ʃ. Counterbled by  DV1744.H s > ʃ. Counterbled by Alb-internal metathesis. 
 s > t͡s / [+cons] __ [+cons,-cor]
 
-$DIACLEA CORRECTION A2.CLIII -- Alb-internal metathesis! r, l metathesize across ɒ from Slavic if it is followed by two consonants; can see through unstressed vowels. Although this is a development resembling contemporary events in Slavic and happening to Slavic loans, the patterning seems Albanian specific. It is seeing through vowels not on the basis of if they are yers but solely per their stress -- e.g. ɒrwɛsu > Rrafsh, ɒ́lkɒmʊ > lakəm. Nasal vowels are counted as Ṽ, not VN. Doesn't happen after coronals. ɒ unrounds in the process {exception Pllockə }
-{ˌɒ l;ˌɒ lˠ;ˌɒ r;ˌɒ ɾ;ˈɒ l;ˈɒ lˠ;ˈɒ r;ˈɒ ɾ} > {l ˌa;lˠ ˌa;r ˌa;ɾ ˌa;l ˈa;lˠ ˈa;r ˈa;ɾ ˈa} / {#;[-cor]} __ ( [-stres] ) [-syl] ( [-stres] ) [-syl]
 
 $DIACLEA FIX A2.LI : first wave Slavic nasal vowels are unpacked to Vn, with ɑ for ɒ̃ and e for ɛ. Except if before a nasal. Weak of evidence of word final case. Bleeds d > ð. Recurs in LPA III with more specific outcomes. Counterbleeds Alb-internal metathesis A2.CLII. Feeds A2.LIII r > r: / #  ̠__ . Counterbled by A2.LXXI syncope.  Bleeds A2.CXI.
 [+syl,+nas] ∅ > [-round,-lab,-nas,+tense] n / __ {[-nas];#}
+
+$DIACLEA CORRECTION A2.CLIII -- Alb-internal metathesis! r, l metathesize across ɒ from Slavic if it is followed by two consonants; can see through unstressed vowels. Although this is a development resembling contemporary events in Slavic and happening to Slavic loans, the patterning seems Albanian specific. It is seeing through vowels not on the basis of if they are yers but solely per their stress -- e.g. ɒrwɛsu > Rrafsh, ɒ́lkɒmʊ > lakəm. Nasal vowels are counted as Ṽ, not VN. ɒ unrounds in the process {exception Pllockə }. Lengthening if initial and countertonic. Counterfeeds d > ð. 
+{# ˌɒ l;ˌɒ l;# ˌɒ lˠ;ˌɒ lˠ;# ˌɒ r;ˌɒ r;# ˌɒ ɾ;ˌɒ ɾ;ˈɒ l;ˈɒ lˠ;ˈɒ r;ˈɒ ɾ} > {# l ˌaː;l ˌa;# lˠ ˌaː;lˠ ˌa;# r ˌaː;r ˌa;# ɾ ˌaː;ɾ ˌa;l ˈa;lˠ ˈa;r ˈa;ɾ ˈa} / __ [-syl] {( [-stres] ) [-syl];([-stres,-lo]) #}
 
 $DIACLEA CORRECTION A2.LXXX.ka ː ˌɒ,ˈɒ unrounded / velar __ c-nas,-lab -nas. Bled by A2.LXXX.ɔu.
 [+lo,+round,-nas,+stres] > [-round,-lab] / [+back,+cons] __ [+cons,-nas,-lab] [-nas]
 
 $DIACLA CORRECTION A2.LXXVI.ARA ˌɒr([-stres]) > ara in velar __ labial (counterbled by x >h ), and ɔrɔ in labial/t͡ʃ __ labial/t͡ʃ (t͡ʃ unclear tho -- only two cases Çorovodë and porosit are both ambiguous) ; quality of ɒ reflex assumed to not change. Counterbled by A2.LXVII. For now realized as the insertion of an ˌa -- later it will be assimilated in rule that spreads countertonic back round vowel qualities (also apply to trubulloj, shurukoj not *shurakoj, shuguroj, ngushulloj, Rogoveckë, etc) . Stress will spread via .ARA2. 
 ∅ > ɑ / # [-cor,+cons] [+back,-hi,-prim] r __ [+lab,-syl]
-
 
 $ DV1744.H ~ s becomes ʃ -- for s in reflexes of Old Greek (presh < prason), Latin, and the earliest Slavic loans (grusht, shkrap) becomes ʃ (1744.H) -- but this is not fed by tʃ becoming s (DV1744.F and 1744.G) 
 $DIACLEA CORRECTION B2.XV -- s > ʃ moved back to LPA I > what is after 11/26, LPA II, before insertion of Greek etyma. Placed before LPA diphthongization (simmaxōro > simahuar), and before vowel losses. A2.CIL vowel lengthening phenomenon appears to treat s as labial or palatal, further supporting this placement. 
@@ -1289,7 +1292,7 @@ $DIACLEA CORRECTION A2.LXXXIV  -- in late LPA I or LPA II , pretonic atonic roun
 $DIACLEA CORRECTION D3.X.b2 -- initial ˈɔ, and initial ˌɔ and Slav initial ˈɒ, also lengthened more broadly, before non-labials.  Counterbled by initial vowel loss; counterbleeds it in the case of pre-labial examples. Bled by A2.
 [-hi,+round,+back] > [+long] / # __ [-lab]
 
-$DIACLEA CORRECTION A2.LXXXVI -- (ˌ)V¹ðˈV² > V²ː  -- done by feeding established coalescence phenomenon formalized A1.XIV {in LPA I}. Doesn't happen if V2 isn't unstressed {excaudicare > shkagoj likewise mëgashtër etc, iudicata > gjykatë} or secondary stressed { adur-o- to adhuroj /adhëroj }. 
+$DIACLEA CORRECTION A2.LXXXVI -- (ˌ)V¹ðV² > V²ː  -- done by feeding established coalescence phenomenon formalized A1.XIV {in LPA I}. Doesn't happen if V2 isn't unstressed {excaudicare > shkagoj likewise mëgashtër etc, iudicata > gjykatë} or secondary stressed { adur-o- to adhuroj /adhëroj }. 
 ð > ∅ / [-prim] __ [+prim]
 
 $DIACLEA CORRECTION A1.XXVII -- before A1.XIV, i/ɪ ejects a j in hiatus with a non-final non-hi vowel;
@@ -1327,6 +1330,7 @@ $DIACLEA CORRECTION A2.LXXXXVIII.i -- reduction of i/ɪ like segments in obs __ 
 
 $DIACLEA CORRECTION A2.C -- limited progressive palatalizationǃ--  j/ç/ʎ t͡ʃ > k j -- around time of (?) (or feeding?) palatalization in LPA II 
 [+front,+hi,+cont,-syl] [+front,+cons,+delrel] > ∅ [-cor,-delrel,+hi,-strid]
+
 
 $ DV1744.E4 -- Latin d becomes edh after r (as with PPAlb d -- DV1744.E2) , RECURRENT here as part of Slavic handling. 
 $DIACLEA CORRECTION D3.VIII -- reinterpreted as lenition outcomes , more broadly post vocalic (reinstated here to cover Slavic items Nov 18, 2025). 
@@ -1531,11 +1535,8 @@ $ DIACLEA CONSOLIDATION D3.X.b: now roped into lengthening as diphthongization, 
 $ DIACLEA CORRECTION B1.XI -- pre lateral lengthening moved to after emergence of lˠ later in LPA II . 
 [+prim,-lo] > [+long] / __ [+cor,+son,-long,ɣlat,ɣback] ([-lo,-cons]) #
 
-
-$APRIL 18 test!! Lengthening of n/ɾ̃ > nː in two conditions --
 $DIACLEA CORRECTION E1.VI.3  Lengthening of ɾ̃ ~ n, blocking its deletion in final position, in at least two curious contexts  -- (β) after Vlabial + Vhi, (-β) after Cpalatal + V-hi; C is either stop or lateral, V has at least secondary if not primary stress. See files "April 18 non-tapping reform", "April 18 final nasal drop reform" for more. Bleeds mid vowel lengthening DV1737 5b.2/3 , but counterbled by diphthongization of newly long vowels-- must be here.
 [+nas,+cor] > nː / [βlab,-βfront,ʟson,ʟcont,-nas] [+syl,+stres,βhi] __ ([+syl] (@)*) #
-
 
 $DV1737's 5b.iv: *o > *uo/# __ {r,lj},
 $this is also DV2.2.1L2 as concerns Latin o
@@ -1788,16 +1789,17 @@ $ DIACLEA TODO NOTE: after uo and perhpas a, this does not happen word finally i
 $ DIACLEA CORRECTION C3B.XXII -- prestrident nasal loss now only before continuants -- not affricates. However this is fed by t͡ʃ -- moved to after it. Bleeds post nasal stop voicing, however. Dec 25, '25 -- fixed to include ɾ̃ in input; minor change, not really remarkable. 
 $ pre-Dec '25 form, before separation: [+nas,+cor,-long] > ∅ / [-cons,+nas] ([-cons]) __ {[+strid,+cont];#}
 $ DIACLEA CORRECTION E1.VI -- LPA II prestrident nasal deletion decoupled from final nasal deletion, and final nasal deletion broken up to rules that occur at different points. See file "LPA II-Vnə sequence outcomes.docx". 
-[+nas,+cor,-long] > ∅ / [-cons,+nas] ([-cons]) __ [+strid,+cont]
 $DIACLEA CORRECTION B1.X -- pre-strident n-deletion moved to after  t͡ʃ , d͡ʒ >  s, z -- fed by it
+[+nas,+cor,-long] > ∅ / [-cons,+nas] ([-cons]) __ [+strid,+cont]
 
 $DIACLEA CORRECTION E1.VI.1 FIrst LPA II final nasal deletion for "only" {although these form a vast majority of potential cases} after non-low vowels after non-labial Cs, and after u and its diphthongs. Later deletions seem to be after breakup of Tosk and Gheg. Occasional cases of -nj outcomes are likely analogical, from plurals. 
 	$note this is ONLY happening in stressed final sylls though
 [+nas,+cor,-long] > ∅ / {[+round,+syl,-lo];[-lab,-nas] [-cons,-lo,+nas]} ([-cons]) __ #
 
-$DIACLEA CORRECTION E1.VI.2 LPA II also has deletion of n after coronal sonorant then stressed low vowel sequences {solānum> shúllë ~ shullã; n-boreānus > múrrë ~ murrã́} but not palatals yet {fijë~fijan}. 
+$DIACLEA CORRECTION E1.VI.2 LPA II also has deletion of n after coronal sonorant then stressed low vowel sequences {solānum> shúllë ~ shullã; n-boreānus > múrrë ~ murrã́}
 	$As of April 2026, expanded to cover cases of deletion or ɾ in ye, note also of palatals blocking it, and necessary [-son] V̯ R - context. Prior version:[+nas,+cor,-long] > ∅ / [+son,-front,-lab] [+lo] __ #
-[+cor,-lat,-long,+son] > ∅ / [-son] [-prim] [+son,+cons,-front] [+prim,-long,-back] ( [-cons,-hi] ) __  #
+[+cor,-lat,-long,+son] > ∅ / [-son] [-prim] [+son,+cons] [+prim,-long,-back] ( [-cons,-hi] ) __  #
+
 
 $DIACLEA CORRECTION A1.XXXXI LPA II de-ietation in T-cor (V̯) L __ R -- partial revival of DV2.2.1B1. Bled by E1.VI.2
 [+prim,+hi] e̯ > ˈɛ / [+cons,-cor] ([-stres]) [+cor,+son] __ [+son]
@@ -2096,8 +2098,8 @@ j > ∅ / __ [+hi,+front,-cons]
 $DIACLEA CORRECTION A2.LXXXXIV extra unstressed vowel deletions that at least feed A2.LXXXXI.Tn -- in turn feeding later sh to ç phenom-  towards the end of the period of common development in LPA III.   Doesn't happen to or after high tense segments though {Tunçan preserved, tingëlloj, timua ; ɲ is not +tense though. The non-tense high vowels have already just been deleted in A1.XXII.2 across the board so they dont need to be handled here} nor after the apparently long {vowel} segment in kutendoj altho this aspect is hacky {TODO revise}.  Doesn't happen before ɾ̃ -- tër endings from tãɾ̃ə̃, shtëroj from extenuare. 
 [-prim,-hi,-long] > ∅ / {[-long];#} t __ [+nas,+cont]
 
-$DIACLEA CORRECTION 2.LXXXXI.Tn-- if not at word onset, stops before nasals deleted -- this time including coronals -- in time to feed A2.LXXXXI.nn for shëndre. 
-[-cont,-son] > ∅ / @ __ [+nas,+cons] 
+$DIACLEA CORRECTION 2.LXXXXI.Tn-- if not at word onset, stops after non-low segments (non-low TENTATIVE: lakmi, lakm̩, dragmë) before nasals deleted -- this time including coronals -- in time to feed A2.LXXXXI.nn for shëndre. 
+[-cont,-son] > ∅ / [-lo] __ [+nas,+cons] 
 
 $DIACLEA CORRECTION A2.LXXXXI.nn -- nasal nasal clusters other than ŋɲ {.ɲ bleeds this above} resolve in favor of second element. Fed by A1.XXII.2. -- TODO do this with existing A2.VII? 
 [+nas,+cons] [+nas,+cons] > ∅ [+long]

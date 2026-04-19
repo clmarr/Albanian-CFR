@@ -242,12 +242,13 @@ w > v / [+lo] __ ( [+back] )* [+lo] #
 [+lo,+round,-nas] > [-lo,-tense,-cons,-lat,+cont,0delrel] / __ [+voi,+cons,-nas] [-tense,+hi,-stres]
 ʊ > ə / __ #
 ʊ > ∅ 
+ɒ > ʊ / @ __ [+cons,+son]
 l > lˠ / [+back] __ w
 s > t͡s / [+cons] __ [+cons,-cor]
-{ˌɒ l;ˌɒ lˠ;ˌɒ r;ˌɒ ɾ;ˈɒ l;ˈɒ lˠ;ˈɒ r;ˈɒ ɾ} > {l ˌa;lˠ ˌa;r ˌa;ɾ ˌa;l ˈa;lˠ ˈa;r ˈa;ɾ ˈa} / # __ ( [-stres] ) [-syl] ( [-stres] ) [-syl]
-{ˌɒ l;ˌɒ lˠ;ˌɒ r;ˌɒ ɾ;ˈɒ l;ˈɒ lˠ;ˈɒ r;ˈɒ ɾ} > {l ˌa;lˠ ˌa;r ˌa;ɾ ˌa;l ˈa;lˠ ˈa;r ˈa;ɾ ˈa} / [-cor] __ ( [-stres] ) [-syl] ( [-stres] ) [-syl]
 [+syl,+nas] ∅ > [-round,-lab,-nas,+tense,-cons,-lat,+cont,0delrel] n/ __ [-nas]
 [+syl,+nas] ∅ > [-round,-lab,-nas,+tense,-cons,-lat,+cont,0delrel] n/ __ #
+{# ˌɒ l;ˌɒ l;# ˌɒ lˠ;ˌɒ lˠ;# ˌɒ r;ˌɒ r;# ˌɒ ɾ;ˌɒ ɾ;ˈɒ l;ˈɒ lˠ;ˈɒ r;ˈɒ ɾ} > {# l ˌaː;l ˌa;# lˠ ˌaː;lˠ ˌa;# r ˌaː;r ˌa;# ɾ ˌaː;ɾ ˌa;l ˈa;lˠ ˈa;r ˈa;ɾ ˈa} / __ [-syl] ( [-stres] ) [-syl]
+{# ˌɒ l;ˌɒ l;# ˌɒ lˠ;ˌɒ lˠ;# ˌɒ r;ˌɒ r;# ˌɒ ɾ;ˌɒ ɾ;ˈɒ l;ˈɒ lˠ;ˈɒ r;ˈɒ ɾ} > {# l ˌaː;l ˌa;# lˠ ˌaː;lˠ ˌa;# r ˌaː;r ˌa;# ɾ ˌaː;ɾ ˌa;l ˈa;lˠ ˈa;r ˈa;ɾ ˈa} / __ [-syl] ( [-stres,-lo] ) #
 [+lo,+round,-nas,+stres] > [-round,-lab] / [+back,+cons] __ [+cons,-nas,-lab] [-nas]
 ∅ > ɑ / # [-cor,+cons] [+back,-hi,-prim] r __ [+lab,-syl]
 s > ʃ 
@@ -397,7 +398,7 @@ l > lˠ / [blab,!bcor,!bcont] [-front,+syl] __ [-back,-lo,-cons]
 [+nas,+cor,-long] > ∅ / [-cons,+nas] ( [-cons] ) __ [+strid,+cont]
 [+nas,+cor,-long] > ∅ / [+round,+syl,-lo] ( [-cons] ) __ #
 [+nas,+cor,-long] > ∅ / [-lab,-nas] [-cons,-lo,+nas] ( [-cons] ) __ #
-[+cor,-lat,-long,+son] > ∅ / [-son] [-prim] [+son,+cons,-front] [+prim,-long,-back] ( [-cons,-hi] ) __ #
+[+cor,-lat,-long,+son] > ∅ / [-son] [-prim] [+son,+cons] [+prim,-long,-back] ( [-cons,-hi] ) __ #
 [+prim,+hi] e̯ > ˈɛ/ [+cons,-cor] ( [-stres] ) [+cor,+son] __ [+son]
 ˈu [-hi,-syl,-cons,+son] > ˈa/ [+stres] ( [-syl] ) [+nas,+cons] __ ɾ #
 ˈu [-hi,-syl,-cons,+son] > ˈa/ [-voi,+cons] ( [-stres] ) t __ ɾ #
@@ -477,7 +478,7 @@ j > ∅ / [+front,+cons] __
 j > ∅ / __ [+hi,+front,-cons]
 [-prim,-hi,-long] > ∅ / [-long] t __ [+nas,+cont]
 [-prim,-hi,-long] > ∅ / # t __ [+nas,+cont]
-[-cont,-son] > ∅ / @ __ [+nas,+cons]
+[-cont,-son] > ∅ / [-lo] __ [+nas,+cons]
 [+nas,+cons] [+nas,+cons] > ∅ [+long]
 [+hi,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
 [-son] > [+voi] / [+cor,-son,+voi] __

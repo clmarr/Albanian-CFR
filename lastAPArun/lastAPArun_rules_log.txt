@@ -558,6 +558,7 @@ s > [+delrel,-cont,+cons,0tense]/ k ( [+syl,aback,afront] ) [-cont,+son] __
 [-stres] > ∅ / [+cont,+son,-lat] [-cont,-front] ( [-cont,-front] )* __ ɾ [+stres]
 [-stres] > ∅ / # ( [+lab,+voi] )* __ ɾ [-hi,-round,+syl]
 [-prim] > [-stres,-prim,+syl,+son] 
+[-back,-lo,-prim,-cons] > [+hi,+tense,+front,-cons,-lat,+cont,0delrel] / # ( [-syl] )* [+cor] __ ( [-son] )* [+hi,-syl] [+prim,-lo,-hi]
 [-prim,-round,-cons] > ∅ / # __ [+nas]
 [-prim,-round,-cons] > ∅ / [-cons] [+lat] __ [+nas,-front]
 [+lat] > ʎ / [+syl,uhi,uback] [+nas] [+back,-cont] __

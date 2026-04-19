@@ -544,7 +544,8 @@ j > ∅ / [+syl] r __ [+round]
 
 $ DV4.2F4: Lat. i- merges with PPAlb *ʒ as PAlb *ɟ; PPAlb *ʒ as PAlb *ɟ as implementing DV4.2F1. 
 	$Seems some Christian items have this though: iohannem > Gjon. Perhaps entered with ʝ or ɟ. 
-{# j;ʒ} > {# ɟ;ɟ}
+$DIACLEA CORRECTION E1.IX -- j/ʒ > ɟ, De Vaan's DV4.2.F4, is broken into a ʝ stage and a ɟ stage, with j/ʒ > ʝ in late CPA or MPA, but ʝ > ɟ not until LPA II, since it patterns as ʝ in teh n-gemination rule (alas, this is very very tentative. 
+{# j;ʒ} > {# ʝ;ʝ}
 
 $----- early aspects of vowel reduction and falls ----- 
 
@@ -806,7 +807,6 @@ n [+lab,-syl,+voi] > m / __ [+front,-prim]
 
 $TODO Apr 14 tesT!!  -- having it go to mb DOESN"T WORK for postmimetic nasalization!
 $n [+lab,-syl,+cont] > m b / __ [+front,-hi,-prim]
-
 
 $DIACLEA CORRECTION A2.CXXII.VRəS late MPA I after oral resonants {m,n,ʎ seen} -after secondary or primary stress, atonic vowels before s delete via ə, bleeding i-mutation {genistra >gjeshter}. Feeds VNS> VS phenom B1.I. Happens even to low vowel {oleaster >vashter} 
 [-stres] > ∅ / [+prim] [+son,+cons] __ s
@@ -1358,6 +1358,7 @@ $DIACLEA CORRECTION A2.LXXXXVIII.ij -- after A2.C (which bleeds it), deletion of
 j > ∅ / [+hi,+syl,+front] __ {[+cons];#}
 
 $DV3.1G1 : Tosk rhotacism -- "dated 800-1000 CE, Janson 1986: 190-211". $ TODO -- og a NOTE FOR DIA : note that this may have to precede some vowel drops though -- note the example inimīcvs > armik (which is given by DV'18: 1739), though maybe ə was retained between n-m (note cited form anëmik)
+
 $ DIACLEA CORRECTION E1.III: Tosk rhotacism is now split into two stages: n > ɾ̃, and ɾ̃ > ɾ. First part happens well before split, in LPA I {as of Dec 25 '25}, actually: must happen before LPA II apocope, wich counterbleeds it for at least a handful of words, and doesn't happen to Middle Greek items such as manushaqe. Also counterbled by C2.IV.de in LPA I. Only afterward are non-low vowels are lost at last. Other loss of ɾ̃/n handled by E1.VI
 $ og: n > ɾ̃ / [+syl] __ [+syl]
 $ DIACLEA CORRECTION C3B.XIV -- Tosk rhotacism doesn't happen after penultimate high tense vowels. As of 10/2/25, including this as a context conditioning on this 'reversal' rule [rather than a separate rule ~ ɾ̃ > n / [+hi,+prim] __ [-stres] #]. No evidence it's just penultimates. Counterbled {!!} by D4.V.r reduction in m/l/r __ Cson,-front (@)* [+prim] .  -- ruinare. 
@@ -1454,7 +1455,7 @@ $DIACLEA CORRECTION A2.CXXV LPA II non-final ãɲ > ãːj if unaffected by A2.
 [+lo,-round,-long,+prim] ɲ > [+long] j / __ @
 
 $DIACLEA CORRECTION A2.LXXXXVIII -- LPA II (e.g., from Greek) ɣ > j / __ i,ɪ,j, ultimately resulting in deletion of ɣ. May be worth it to look at handling ɣ l /l ɣ combos around A1.XVII. 
-[+hi,+cont,-son,+voi] > j / __ [+front,+hi]
+ɣ > j / __ [+front,+hi]
 
 $DIACLEA CORRECTION A2.LXXXXI.Rɲ -- resonants deleted before ɲ ː balnea > banje, refernio > rrefej. Happens before LPA IIIː pa/lnja > palnjë. Counterfeeds A2.CXXV (anj > ãːj), and nasalization that causes raising for a DV2.2.1 
 [+son,+cor,-nas] > ∅ / __  ɲ
@@ -1529,6 +1530,12 @@ $ DIACLEA CONSOLIDATION D3.X.b: now roped into lengthening as diphthongization, 
 	$D3.X.b4 :rather than immediate posterior {lˠ;n;ɾ;ɾ̃} -- all non-long coronal sonorants w. lat = back-- seems to work.
 $ DIACLEA CORRECTION B1.XI -- pre lateral lengthening moved to after emergence of lˠ later in LPA II . 
 [+prim,-lo] > [+long] / __ [+cor,+son,-long,ɣlat,ɣback] ([-lo,-cons]) #
+
+
+$APRIL 18 test!! Lengthening of n/ɾ̃ > nː in two conditions --
+$DIACLEA CORRECTION E1.VI.3  Lengthening of ɾ̃ ~ n, blocking its deletion in final position, in at least two curious contexts  -- (β) after Vlabial + Vhi, (-β) after Cpalatal + V-hi; C is either stop or lateral, V has at least secondary if not primary stress. See files "April 18 non-tapping reform", "April 18 final nasal drop reform" for more. Bleeds mid vowel lengthening DV1737 5b.2/3 , but counterbled by diphthongization of newly long vowels-- must be here.
+[+nas,+cor] > nː / [βlab,-βfront,ʟson,ʟcont,-nas] [+syl,+stres,βhi] __ ([+syl] (@)*) #
+
 
 $DV1737's 5b.iv: *o > *uo/# __ {r,lj},
 $this is also DV2.2.1L2 as concerns Latin o
@@ -1783,6 +1790,7 @@ $ pre-Dec '25 form, before separation: [+nas,+cor,-long] > ∅ / [-cons,+nas] ([
 $ DIACLEA CORRECTION E1.VI -- LPA II prestrident nasal deletion decoupled from final nasal deletion, and final nasal deletion broken up to rules that occur at different points. See file "LPA II-Vnə sequence outcomes.docx". 
 [+nas,+cor,-long] > ∅ / [-cons,+nas] ([-cons]) __ [+strid,+cont]
 $DIACLEA CORRECTION B1.X -- pre-strident n-deletion moved to after  t͡ʃ , d͡ʒ >  s, z -- fed by it
+
 $DIACLEA CORRECTION E1.VI.1 FIrst LPA II final nasal deletion for "only" {although these form a vast majority of potential cases} after non-low vowels after non-labial Cs, and after u and its diphthongs. Later deletions seem to be after breakup of Tosk and Gheg. Occasional cases of -nj outcomes are likely analogical, from plurals. 
 	$note this is ONLY happening in stressed final sylls though
 [+nas,+cor,-long] > ∅ / {[+round,+syl,-lo];[-lab,-nas] [-cons,-lo,+nas]} ([-cons]) __ #
@@ -2054,8 +2062,8 @@ $[+lab,-syl] > m / [+back] ([+son,+cor]) __ [+nas,+cons] [+stres]
 		$Not sonorants {many words make this obvious}, not spirants {mahnit, Dëshnicë, Leshnjë, prozhmoj ,etc. }
 		$placed before A1.XXIV so as to not be fed by r > ɾ. 
 		$Two rounds of this. For coronals {Tn} it comes later and therefore doesn't feed voicing phenomena: castanettu > LPA kˌaʃtə̃ɲˈɛt > Kashnjet, ˌae̯stimˈɑːnioː > ʃtə̃mˈɔ̃ɲ > çmoj , testimonio > ... > dëshmoj... for at least some dorsals {fuzhnja etc. } it does- - go with all non-coronals for the earlier .Kn 
-	$A2.LXXXXI.Kn -- non-coronal stops deleted before nasals, regardless of what comes before. 
-[-cont,-cor] > ∅ / __ [+nas,+cons]
+	$A2.LXXXXI.Kn -- non-coronal stops deleted before nasals, regardless of what comes before. Not before lowː lakmi,, dragme
+[-cont,-cor] > ∅ / [-lo] __ [+nas,+cons]
 	$A2.LXXXXI.ɲ -- ŋɲ > ɲɟ. As formulated currently, fed by .Tn: Latin to CPA sˌɑnɡuiniˈɑːtɑ > LPA ʃˌãŋɡɲˈatə > shëngjetë , ˌinkonɡˌyːrˈɑːnioː > ə̃ŋɡɲərˈɔ̃ɲ > ngjëroj. Tentatively using any nasal ɲ cluster.
 [+nas,+cons] ɲ > ɲ ɟ
 	
@@ -2276,8 +2284,6 @@ w > v
 $ DV4.2P *x to *h -- this is listed as a PPAlb to PAlb change, but it is placed here as it also seems to effect Slavic loans as well, and has somewhat different outcomes in (some) Gheg where Tosk -h ends up corresponding to Gheg -f  
 x > h 
 
-$DIACLEA CORRECTION E1.VI.3 Tosk deletion of final ɾ̃ after labial-palatal sonorant sequences: fijë, shkëmbi etc. Not in Gheg: fijan, Shkumbin, etc. TODO perhaps overfit, reconsider? -- Tosk may also have Shkumbin and Kurbin... April 3, 2026 -- SUPPRESSED. 
-$[+nas,+cor,-long] > ∅ / [+lab] ([+hi,+front])+ ([+lo]) __ #
 
 $DIACLEA CORRECTION A1.XXVIII -- Proto-Tosk-SGheg deletions of ə in V-prim Cson __ {#,@ C-son V}. Counterbleeds A2.LXXV, bled by D4.2P. Feeds s > ts A2.LXXXVII
 $[-back,-front,-prim] > ∅ / @ [-prim] [+son,-syl] __ {#;[+cons,ason,anas] [-cons]}

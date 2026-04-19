@@ -2247,7 +2247,6 @@ $DV4.1E2 & DV4.1F2 -- iotation of l after velar stops. This does not occur in so
 $ DV1743.F5 -- -c(u)l- > c > ɟ if after nasals in ungj < avunculus -- effectively (originally) handled here and with the earlier voicing of k > g in the earlier Middle Proto-Albanian post-nasal voicing shift.
 l > ʎ / [-cont,+hi] __
 
-
 $Resolution of DIACLEA CORRECTION A2.CX.ɐ
 {ɐ;ˌɐ} > {ə;ˌə} 
 
@@ -2256,6 +2255,7 @@ $A2.LXVII post-last-early-wave Slavic ʎ > l if all separating it from the begin
 
 $DIACLEA CORRECTION A1.I -- Slavic wave 2 æː handling
 [+syl,-tense] > [-lo] 
+
 
 $DIACLEA CORRECTION A1.V -- brightening of ɑ > a. Comes after l-darkening, which it counterbleeds (mɒgɯlɑ > Mëgullë, second layer pɒsɯlɑ > pusullë). 
 [+lo,-round] > [+front,-back] 
@@ -2272,8 +2272,6 @@ $DIACLEA CORRECTION A1.XXI: Slavic last early wave final a > ɛ after palatal so
 
 ~Proto-Tosk-SGheg
 
-
-
 $TODO (ǃǃ) with revisions, up to this point was Tosk + SGheg developments. Different NT developments for north Gheg, plus different outcomes of å and ä, should be handled differently
 
 $DV2.1D2 -- Tosk uo > ua ; written agnostically as to the syllabic status of the a. 
@@ -2285,7 +2283,6 @@ w > v
 
 $ DV4.2P *x to *h -- this is listed as a PPAlb to PAlb change, but it is placed here as it also seems to effect Slavic loans as well, and has somewhat different outcomes in (some) Gheg where Tosk -h ends up corresponding to Gheg -f  
 x > h 
-
 
 $DIACLEA CORRECTION A1.XXVIII -- Proto-Tosk-SGheg deletions of ə in V-prim Cson __ {#,@ C-son V}. Counterbleeds A2.LXXV, bled by D4.2P. Feeds s > ts A2.LXXXVII
 $[-back,-front,-prim] > ∅ / @ [-prim] [+son,-syl] __ {#;[+cons,ason,anas] [-cons]}
@@ -2332,6 +2329,7 @@ $nː > n
 
 $TODO FOR LAB,CHAM,ARB-,ARV- : y > i here -- DV2.1A3 
 
+$[-back,-lo,-prim] > [+hi,+tense,+front] / # ( [-syl] )* [+cor]  __ ( [-son] )* [+hi,-syl] [+prim,-lo,-lo]
 
 $ ã raises to ə in Tosk (ultimately denasalizing to ë outside of some Lab subdialects which may (or may not) have preserved nasality, maybe for this item -- Breu 2021 also notes retained nasality in Arb\"eresh\"e). 
 $ DIACLEA CORRECTION C3B.XII -- in Proto-Tosk, it is only short ã that becomes ə̃; long ãː actually reflects as -a- (shpërlaj, etc.). However it effects labials too per DIACLEA CORRECTION C2.III (as of April 2026, no effect of this though). Counterbleeds A2.CXXXVI ã > ɛ̃ rule, so must come after that, unless A2.CXXXVI ã > ɛ̃ / cor __ ɲ is reformatted to be in terms of ə̃ > ɛ̃. Operates on word final elements regardless of length -- perhaps handle as shortening them. 

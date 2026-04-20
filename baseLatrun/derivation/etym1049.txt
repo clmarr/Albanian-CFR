@@ -1,21 +1,25 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :1049:
-#trˈɑbezɑ# >>> *#tɾˈazə# ( GOLD : #tɾˈye̯zə#) :
-t r ˈɑ b e z ɑ 
-*#trˈɑezɑ# | 19 : b > ∅ / [+syl] __ ( r ) [+syl]
-*#trˈɑəzɑ# | 29 : [-stres] > ə / [+prim] ( @ )* __ @
-Middle Proto-Albanian I stage form : *#trˈɑəzɑ#
-*#trˈɑzɑ# | 32 : ə > ∅ 
-Middle Proto-Albanian II stage form : *#trˈɑzɑ#
-Late Proto-Albanian I stage form : *#trˈɑzɑ#
-Late Proto-Albanian II stage form : *#trˈɑzɑ#
-Late Proto-Albanian III stage form : *#trˈɑzɑ#
-*#trˈaza# | 89 : [+lo] > [+front,-back] 
-*#trˈazə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-*#trˈaːzə# | 108 : [+prim] > [+long] / __ [+strid]
-Proto-Tosk-SGheg stage form : *#trˈaːzə#
-*#tɾˈaːzə# | 126 : r > ɾ 
-Proto-Tosk stage form : *#tɾˈaːzə#
-*#tɾˈazə# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#tɾˈazə#
-Standard Albanian stage form : *#tɾˈazə#
-Final form : *#tɾˈazə#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :1049:
+#tˈundoː# >>> *#tˈun# ( GOLD : #tˈund#) :
+t ˈu n d oː 
+Middle Proto-Albanian I stage form : *#tˈundoː#
+*#tˈundøː# | 41 : [+back,+long,+syl,-lo] > [+front,-back] 
+*#tˈʊndøː# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#tˈʊndø# | 45 : [+syl] > [-long,-splng] 
+*#tˈundø# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#tˈundø#
+*#tˈunde# | 64 : [+front,-cons,-hi] > [-round,-lab] 
+*#tˈundɛ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+Late Proto-Albanian I stage form : *#tˈundɛ#
+Late Proto-Albanian II stage form : *#tˈundɛ#
+Late Proto-Albanian III stage form : *#tˈundɛ#
+*#tˈund# | 98 : [-stres,-lo] > ∅ / __ #
+*#tˈuːnd# | 107 : [+prim] > [+long] / __ [+cons,+son]
+*#tˈũːnd# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
+Proto-Tosk-SGheg stage form : *#tˈũːnd#
+Proto-Tosk stage form : *#tˈũːnd#
+*#tˈuːnd# | 130 : [-cons,+nas] > [-nas] 
+*#tˈund# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#tˈund#
+Standard Albanian stage form : *#tˈund#
+*#tˈun# | 146 : d > ∅ / n __
+Final form : *#tˈun#

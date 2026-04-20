@@ -1,19 +1,25 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :67:
-#brˈokkɑ# >>> *#bɾˈɔkkə# ( GOLD : #pɾˈɔkə#) :
-b r ˈo k k ɑ 
-Middle Proto-Albanian I stage form : *#brˈokkɑ#
-*#brˈɔkkɑ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-*#brˈokkɑ# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#brˈokkɑ#
-*#brˈɔkkɑ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-Late Proto-Albanian I stage form : *#brˈɔkkɑ#
-Late Proto-Albanian II stage form : *#brˈɔkkɑ#
-Late Proto-Albanian III stage form : *#brˈɔkkɑ#
-*#brˈɔkka# | 89 : [+lo] > [+front,-back] 
-*#brˈɔkkə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-Proto-Tosk-SGheg stage form : *#brˈɔkkə#
-*#bɾˈɔkkə# | 126 : r > ɾ 
-Proto-Tosk stage form : *#bɾˈɔkkə#
-Old North Tosk stage form : *#bɾˈɔkkə#
-Standard Albanian stage form : *#bɾˈɔkkə#
-Final form : *#bɾˈɔkkə#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :67:
+#brˈoːtɑskɑm# >>> *#bɾˈɛtt͡ʃkə# ( GOLD : #bɾˈɛʃkə#) :
+b r ˈoː t ɑ s k ɑ m 
+*#brˈoːtɑskɑ# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+*#brˈoːtəskɑ# | 29 : [-stres] > ə / [+prim] ( @ )* __ @
+Middle Proto-Albanian I stage form : *#brˈoːtəskɑ#
+*#brˈoːtskɑ# | 32 : ə > ∅ 
+*#brˈøːtskɑ# | 41 : [+back,+long,+syl,-lo] > [+front,-back] 
+*#brˈøtskɑ# | 45 : [+syl] > [-long,-splng] 
+Middle Proto-Albanian II stage form : *#brˈøtskɑ#
+*#brˈetskɑ# | 64 : [+front,-cons,-hi] > [-round,-lab] 
+*#brˈɛtskɑ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+Late Proto-Albanian I stage form : *#brˈɛtskɑ#
+*#brˈɛtʃkɑ# | 81 : s > ʃ 
+Late Proto-Albanian II stage form : *#brˈɛtʃkɑ#
+Late Proto-Albanian III stage form : *#brˈɛtʃkɑ#
+*#brˈɛtʃka# | 89 : [+lo] > [+front,-back] 
+*#brˈɛtʃkə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
+Proto-Tosk-SGheg stage form : *#brˈɛtʃkə#
+*#bɾˈɛtʃkə# | 126 : r > ɾ 
+Proto-Tosk stage form : *#bɾˈɛtʃkə#
+Old North Tosk stage form : *#bɾˈɛtʃkə#
+*#bɾˈɛtt͡ʃkə# | 142 : ʃ > t͡ʃ / __ [+cons]
+Standard Albanian stage form : *#bɾˈɛtt͡ʃkə#
+Final form : *#bɾˈɛtt͡ʃkə#

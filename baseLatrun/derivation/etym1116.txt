@@ -1,23 +1,24 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :1116:
-#wˌeːssˈiːkɑm# >>> *#vət͡ʃʃˈikə# ( GOLD : #fʃˈikə#) :
-w ˌeː s s ˈiː k ɑ m 
-*#βˌeːssˈiːkɑm# | 23 : w > β / # __
-*#βˌeːssˈiːkɑ# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
-Middle Proto-Albanian I stage form : *#βˌeːssˈiːkɑ#
-*#βˌessˈikɑ# | 45 : [+syl] > [-long,-splng] 
-*#βˌissˈikɑ# | 46 : [+stres,+tense,+front,-lab] > [+hi] / __ [+cont,-lab,+strid]
-Middle Proto-Albanian II stage form : *#βˌissˈikɑ#
-*#βəssˈikɑ# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
-Late Proto-Albanian I stage form : *#βəssˈikɑ#
-*#βəʃʃˈikɑ# | 81 : s > ʃ 
-Late Proto-Albanian II stage form : *#βəʃʃˈikɑ#
-Late Proto-Albanian III stage form : *#βəʃʃˈikɑ#
-*#βəʃʃˈika# | 89 : [+lo] > [+front,-back] 
-*#vəʃʃˈika# | 90 : {β;ʝ} > {v;ɟ} 
-*#vəʃʃˈikə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-Proto-Tosk-SGheg stage form : *#vəʃʃˈikə#
-Proto-Tosk stage form : *#vəʃʃˈikə#
-Old North Tosk stage form : *#vəʃʃˈikə#
-*#vət͡ʃʃˈikə# | 142 : ʃ > t͡ʃ / __ [+cons]
-Standard Albanian stage form : *#vət͡ʃʃˈikə#
-Final form : *#vət͡ʃʃˈikə#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :1116:
+#wˈoːmis# >>> *#vˈye̯mb# ( GOLD : #ˈumb#) :
+w ˈoː m i s 
+*#wˈoːmi# | 4 : [+strid,+cor,+cont] > ∅ / __ #
+*#βˈoːmi# | 23 : w > β / # __
+Middle Proto-Albanian I stage form : *#βˈoːmi#
+*#βˈøːmi# | 41 : [+back,+long,+syl,-lo] > [+front,-back] 
+*#βˈøːmɪ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#βˈømɪ# | 45 : [+syl] > [-long,-splng] 
+*#βˈøme# | 48 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#βˈøme#
+*#βˈye̯me# | 62 : ˈø > ˈy e̯ / __ ( [+lab,-syl,+cont,+voi] ) [+syl]
+*#βˈye̯mɛ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+Late Proto-Albanian I stage form : *#βˈye̯mɛ#
+Late Proto-Albanian II stage form : *#βˈye̯mɛ#
+Late Proto-Albanian III stage form : *#βˈye̯mɛ#
+*#vˈye̯mɛ# | 90 : {β;ʝ} > {v;ɟ} 
+*#vˈye̯m# | 98 : [-stres,-lo] > ∅ / __ #
+*#vˈye̯mb# | 110 : ∅ > b / m __ #
+Proto-Tosk-SGheg stage form : *#vˈye̯mb#
+Proto-Tosk stage form : *#vˈye̯mb#
+Old North Tosk stage form : *#vˈye̯mb#
+Standard Albanian stage form : *#vˈye̯mb#
+Final form : *#vˈye̯mb#

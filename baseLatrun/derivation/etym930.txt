@@ -1,22 +1,29 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :930:
-#sˈessum# >>> *#ʃjˈɛt͡ʃʃ# ( GOLD : #ʃˈɛʃ#) :
-s ˈe s s u m 
-*#sˈessu# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
-Middle Proto-Albanian I stage form : *#sˈessu#
-*#sˈɛssʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-*#sˈɛssu# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#sˈɛssu#
-*#sjˈɛssu# | 57 : ∅ > j / __ ˈɛ
-Late Proto-Albanian I stage form : *#sjˈɛssu#
-*#ʃjˈɛʃʃu# | 81 : s > ʃ 
-Late Proto-Albanian II stage form : *#ʃjˈɛʃʃu#
-Late Proto-Albanian III stage form : *#ʃjˈɛʃʃu#
-*#ʃjˈɛʃʃ# | 98 : [-stres,-lo] > ∅ / __ #
-*#ʃjˈɛːʃʃ# | 108 : [+prim] > [+long] / __ [+strid]
-Proto-Tosk-SGheg stage form : *#ʃjˈɛːʃʃ#
-Proto-Tosk stage form : *#ʃjˈɛːʃʃ#
-*#ʃjˈɛʃʃ# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#ʃjˈɛʃʃ#
-*#ʃjˈɛt͡ʃʃ# | 142 : ʃ > t͡ʃ / __ [+cons]
-Standard Albanian stage form : *#ʃjˈɛt͡ʃʃ#
-Final form : *#ʃjˈɛt͡ʃʃ#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :930:
+#ˌeksklˈoːppum# >>> *#ft͡ʃt͡ʃˈɛpp# ( GOLD : #ʃcˈɛp#) :
+ˌe k s k l ˈoː p p u m 
+*#ˌeksklˈoːppu# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#ˌeksklˈoːppu#
+*#ˌeksklˈøːppu# | 41 : [+back,+long,+syl,-lo] > [+front,-back] 
+*#ˌɛksklˈøːppʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#ˌɛksklˈøppʊ# | 45 : [+syl] > [-long,-splng] 
+*#ˌɛksklˈøppu# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#ˌɛksklˈøppu#
+*#ˌɛksklˈeppu# | 64 : [+front,-cons,-hi] > [-round,-lab] 
+*#ˌɛksklˈɛppu# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+*#ksklˈɛppu# | 66 : [-prim] > ∅ / # __
+Late Proto-Albanian I stage form : *#ksklˈɛppu#
+*#fsklˈɛppu# | 74 : {k ə;k} > {f;f} / __ s
+*#fʃklˈɛppu# | 81 : s > ʃ 
+Late Proto-Albanian II stage form : *#fʃklˈɛppu#
+Late Proto-Albanian III stage form : *#fʃklˈɛppu#
+*#fʃklˈɛpp# | 98 : [-stres,-lo] > ∅ / __ #
+*#fʃkʎˈɛpp# | 119 : l > ʎ / [-cont,+hi] __
+Proto-Tosk-SGheg stage form : *#fʃkʎˈɛpp#
+Proto-Tosk stage form : *#fʃkʎˈɛpp#
+*#fʃkjˈɛpp# | 132 : ʎ > j 
+*#fʃcˈɛpp# | 133 : [+back,-cont] j > [-back,+front] ∅
+Old North Tosk stage form : *#fʃcˈɛpp#
+*#ft͡ʃcˈɛpp# | 142 : ʃ > t͡ʃ / __ [+cons]
+Standard Albanian stage form : *#ft͡ʃcˈɛpp#
+*#ft͡ʃt͡ʃˈɛpp# | 145 : c > t͡ʃ 
+Final form : *#ft͡ʃt͡ʃˈɛpp#

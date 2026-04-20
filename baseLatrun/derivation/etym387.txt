@@ -1,21 +1,25 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :387:
-#kˈɑsinɑ# >>> *#kˈaʒnə# ( GOLD : #cˈɛʃəɾ#) :
-k ˈɑ s i n ɑ 
-*#kˈɑsənɑ# | 29 : [-stres] > ə / [+prim] ( @ )* __ @
-Middle Proto-Albanian I stage form : *#kˈɑsənɑ#
-*#kˈɑsnɑ# | 32 : ə > ∅ 
-Middle Proto-Albanian II stage form : *#kˈɑsnɑ#
-Late Proto-Albanian I stage form : *#kˈɑsnɑ#
-*#kˈɑʃnɑ# | 81 : s > ʃ 
-Late Proto-Albanian II stage form : *#kˈɑʃnɑ#
-Late Proto-Albanian III stage form : *#kˈɑʃnɑ#
-*#kˈaʃna# | 89 : [+lo] > [+front,-back] 
-*#kˈaʃnə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-*#kˈaːʃnə# | 108 : [+prim] > [+long] / __ [+strid]
-*#kˈaːʒnə# | 117 : ʃ > ʒ / __ [+cons,+voi]
-Proto-Tosk-SGheg stage form : *#kˈaːʒnə#
-Proto-Tosk stage form : *#kˈaːʒnə#
-*#kˈaʒnə# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#kˈaʒnə#
-Standard Albanian stage form : *#kˈaʒnə#
-Final form : *#kˈaʒnə#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :387:
+#kˈentiː# >>> *#t͡ʃˈin# ( GOLD : #cˈind#) :
+k ˈe n t iː 
+Middle Proto-Albanian I stage form : *#kˈentiː#
+*#kˈɛntiː# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#kˈɛnti# | 45 : [+syl] > [-long,-splng] 
+Middle Proto-Albanian II stage form : *#kˈɛnti#
+*#kˈinti# | 49 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round,-cons]
+Late Proto-Albanian I stage form : *#kˈinti#
+*#kˈindi# | 76 : t > d / [+stres] ( [-syl] )* n __
+*#cˈindi# | 80 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
+Late Proto-Albanian II stage form : *#cˈindi#
+Late Proto-Albanian III stage form : *#cˈindi#
+*#cˈind# | 98 : [-stres,-lo] > ∅ / __ #
+*#cˈiːnd# | 107 : [+prim] > [+long] / __ [+cons,+son]
+*#cˈĩːnd# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
+Proto-Tosk-SGheg stage form : *#cˈĩːnd#
+Proto-Tosk stage form : *#cˈĩːnd#
+*#cˈiːnd# | 130 : [-cons,+nas] > [-nas] 
+*#cˈind# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#cˈind#
+Standard Albanian stage form : *#cˈind#
+*#t͡ʃˈind# | 145 : c > t͡ʃ 
+*#t͡ʃˈin# | 146 : d > ∅ / n __
+Final form : *#t͡ʃˈin#

@@ -1,19 +1,28 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :155:
-... >>> *#pət͡ʃkˈɔp# ( GOLD : #pɛʃkˈɔp#) :
-... 
-Middle Proto-Albanian I stage form : ...
-Middle Proto-Albanian II stage form : ...
-*#ˌɛpˌɛskˈɔpu# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-*#pˌɛskˈɔpu# | 66 : [-prim] > ∅ / # __
-*#pəskˈɔpu# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
-Late Proto-Albanian I stage form : *#pəskˈɔpu#
-*#pəʃkˈɔpu# | 81 : s > ʃ 
-Late Proto-Albanian II stage form : *#pəʃkˈɔpu#
-Late Proto-Albanian III stage form : *#pəʃkˈɔpu#
-*#pəʃkˈɔp# | 98 : [-stres,-lo] > ∅ / __ #
-Proto-Tosk-SGheg stage form : *#pəʃkˈɔp#
-Proto-Tosk stage form : *#pəʃkˈɔp#
-Old North Tosk stage form : *#pəʃkˈɔp#
-*#pət͡ʃkˈɔp# | 142 : ʃ > t͡ʃ / __ [+cons]
-Standard Albanian stage form : *#pət͡ʃkˈɔp#
-Final form : *#pət͡ʃkˈɔp#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :155:
+#ˌeruˈiliɑ# >>> *#həɾbˈijə# ( GOLD : #rˈylˠə#) :
+ˌe r u ˈi l i ɑ 
+*#ˌerwˈiljɑ# | 9 : [-lo,+syl,-prim] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+*#ˌerwˈiʎɑ# | 11 : l j > ʎ 
+*#ˌerbˈiʎɑ# | 21 : w > b / [+cor,-nas,+son] __
+Middle Proto-Albanian I stage form : *#ˌerbˈiʎɑ#
+*#ˌɛrbˈɪʎɑ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#ˌɛrbˈeʎɑ# | 48 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#ˌɛrbˈeʎɑ#
+*#ˌɛrbˈiʎɑ# | 50 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* ʎ
+*#rbˈiʎɑ# | 66 : [-prim] > ∅ / # __
+*#ərbˈiʎɑ# | 67 : ∅ > ə / # __ [+son,+cons] [+cons]
+Late Proto-Albanian I stage form : *#ərbˈiʎɑ#
+Late Proto-Albanian II stage form : *#ərbˈiʎɑ#
+Late Proto-Albanian III stage form : *#ərbˈiʎɑ#
+*#ərbˈiʎa# | 89 : [+lo] > [+front,-back] 
+*#ərbˈiʎə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
+*#ərbˈiːʎə# | 107 : [+prim] > [+long] / __ [+cons,+son]
+*#hərbˈiːʎə# | 114 : ∅ > h / # __ [+syl]
+Proto-Tosk-SGheg stage form : *#hərbˈiːʎə#
+*#həɾbˈiːʎə# | 126 : r > ɾ 
+Proto-Tosk stage form : *#həɾbˈiːʎə#
+*#həɾbˈiːjə# | 132 : ʎ > j 
+*#həɾbˈijə# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#həɾbˈijə#
+Standard Albanian stage form : *#həɾbˈijə#
+Final form : *#həɾbˈijə#

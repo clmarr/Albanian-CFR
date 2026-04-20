@@ -1,18 +1,26 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :1086:
-#t͡sˈiːkɑm# >>> *#θˈikə# ( GOLD : #θˈikə#) :
-t͡s ˈiː k ɑ m 
-*#t͡sˈiːkɑ# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
-Middle Proto-Albanian I stage form : *#t͡sˈiːkɑ#
-*#θˈiːkɑ# | 31 : {t͡s;d͡z} > {θ;ð} 
-*#θˈikɑ# | 45 : [+syl] > [-long,-splng] 
-Middle Proto-Albanian II stage form : *#θˈikɑ#
-Late Proto-Albanian I stage form : *#θˈikɑ#
-Late Proto-Albanian II stage form : *#θˈikɑ#
-Late Proto-Albanian III stage form : *#θˈikɑ#
-*#θˈika# | 89 : [+lo] > [+front,-back] 
-*#θˈikə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-Proto-Tosk-SGheg stage form : *#θˈikə#
-Proto-Tosk stage form : *#θˈikə#
-Old North Tosk stage form : *#θˈikə#
-Standard Albanian stage form : *#θˈikə#
-Final form : *#θˈikə#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :1086:
+#ˌinwˌeːssˈiːkɑm# >>> *#nvət͡ʃʃˈikə# ( GOLD : #məʃˈikə#) :
+ˌi n w ˌeː s s ˈiː k ɑ m 
+*#ˌinwˌeːssˈiːkɑ# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#ˌinwˌeːssˈiːkɑ#
+*#ˌɪnwˌeːssˈiːkɑ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#ˌɪnwˌessˈikɑ# | 45 : [+syl] > [-long,-splng] 
+*#ˌɪnwˌissˈikɑ# | 46 : [+stres,+tense,+front,-lab] > [+hi] / __ [+cont,-lab,+strid]
+*#ˌenwˌissˈikɑ# | 48 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#ˌenwˌissˈikɑ#
+*#ˌɛnwˌissˈikɑ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+*#nwˌissˈikɑ# | 66 : [-prim] > ∅ / # __
+*#nwəssˈikɑ# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
+Late Proto-Albanian I stage form : *#nwəssˈikɑ#
+*#nwəʃʃˈikɑ# | 81 : s > ʃ 
+Late Proto-Albanian II stage form : *#nwəʃʃˈikɑ#
+Late Proto-Albanian III stage form : *#nwəʃʃˈikɑ#
+*#nwəʃʃˈika# | 89 : [+lo] > [+front,-back] 
+*#nvəʃʃˈika# | 91 : w > v / [+cons] __
+*#nvəʃʃˈikə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
+Proto-Tosk-SGheg stage form : *#nvəʃʃˈikə#
+Proto-Tosk stage form : *#nvəʃʃˈikə#
+Old North Tosk stage form : *#nvəʃʃˈikə#
+*#nvət͡ʃʃˈikə# | 142 : ʃ > t͡ʃ / __ [+cons]
+Standard Albanian stage form : *#nvət͡ʃʃˈikə#
+Final form : *#nvət͡ʃʃˈikə#

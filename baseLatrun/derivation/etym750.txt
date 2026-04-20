@@ -1,19 +1,25 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :750:
-#pˈepinem# >>> *#pˈipn# ( GOLD : #pjˈɛpəɾ#) :
-p ˈe p i n e m 
-*#pˈepine# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
-*#pˈepəne# | 29 : [-stres] > ə / [+prim] ( @ )* __ @
-Middle Proto-Albanian I stage form : *#pˈepəne#
-*#pˈepne# | 32 : ə > ∅ 
-*#pˈɛpnɛ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#pˈɛpnɛ#
-*#pˈipnɛ# | 49 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round,-cons]
-Late Proto-Albanian I stage form : *#pˈipnɛ#
-Late Proto-Albanian II stage form : *#pˈipnɛ#
-Late Proto-Albanian III stage form : *#pˈipnɛ#
-*#pˈipn# | 98 : [-stres,-lo] > ∅ / __ #
-Proto-Tosk-SGheg stage form : *#pˈipn#
-Proto-Tosk stage form : *#pˈipn#
-Old North Tosk stage form : *#pˈipn#
-Standard Albanian stage form : *#pˈipn#
-Final form : *#pˈipn#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :750:
+#pˈiɡnum# >>> *#pˈɛɲ# ( GOLD : #pˈɛŋɡ#) :
+p ˈi ɡ n u m 
+*#pˈiŋnum# | 1 : ɡ > ŋ / __ n
+*#pˈiɲum# | 16 : {ŋ n j;ŋ n;ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ;ɲ;ɲ} 
+*#pˈiɲu# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#pˈiɲu#
+*#pˈɪɲʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#pˈɪɲu# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+*#pˈeɲu# | 48 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#pˈeɲu#
+*#pˈɛɲu# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+Late Proto-Albanian I stage form : *#pˈɛɲu#
+Late Proto-Albanian II stage form : *#pˈɛɲu#
+Late Proto-Albanian III stage form : *#pˈɛɲu#
+*#pˈɛɲ# | 98 : [-stres,-lo] > ∅ / __ #
+*#pˈɛːɲ# | 107 : [+prim] > [+long] / __ [+cons,+son]
+*#pˈɛ̃ːɲ# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
+Proto-Tosk-SGheg stage form : *#pˈɛ̃ːɲ#
+Proto-Tosk stage form : *#pˈɛ̃ːɲ#
+*#pˈɛːɲ# | 130 : [-cons,+nas] > [-nas] 
+*#pˈɛɲ# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#pˈɛɲ#
+Standard Albanian stage form : *#pˈɛɲ#
+Final form : *#pˈɛɲ#

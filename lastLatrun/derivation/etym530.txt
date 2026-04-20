@@ -1,24 +1,22 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :530:
-#kwiˈeːtum# >>> *#cˈɛt# ( GOLD : #cˈɛt#) :
-k w i ˈeː t u m 
-*#kwiˈeːtu# | 4 : [+nas,+cons] > ∅ / [-stres] __ #
-*#kwjˈeːtu# | 9 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-*#kwjˈeːtʊ# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian I stage form : *#kwjˈeːtʊ#
-*#kwjˈetʊ# | 79 : [+syl] > [-long,-splng] 
-*#kwjˈetu# | 83 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#kwjˈetu#
-*#kʷjˈetu# | 96 : {k w;ɡ w} > {kʷ;ɡʷ} 
-*#kʷˈetu# | 126 : [+front,-syl,-cons] > ∅ / [+cons,+lab] __ [eprim,!eround]
-*#kˈetu# | 131 : [-son,+back] > [-lab,-round] 
-Late Proto-Albanian I stage form : *#kˈetu#
-*#cˈetu# | 219 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
-Late Proto-Albanian II stage form : *#cˈetu#
-*#cˈɛtu# | 281 : [+front,+syl,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
-*#cˈɛtə# | 316 : [-stres,+round,-lo] > ə / __ #
-*#cˈɛt# | 320 : [-back,-front,-stres] > ∅ / __ #
-Late Proto-Albanian III stage form : *#cˈɛt#
-Proto-Tosk-SGheg stage form : *#cˈɛt#
-Proto-Tosk stage form : *#cˈɛt#
-Old North Tosk stage form : *#cˈɛt#
-Final form : *#cˈɛt#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :530:
+#lˌɑpˈɑtʰiɑ# >>> *#ləpˈatɛ# ( GOLD : #ləpjˈɛtə#) :
+l ˌɑ p ˈɑ tʰ i ɑ 
+*#lˌɑpˈɑtʰjɑ# | 9 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+Middle Proto-Albanian I stage form : *#lˌɑpˈɑtʰjɑ#
+*#lˌɑpˈɑtjɑ# | 43 : [+cons] > [-sg] 
+Middle Proto-Albanian II stage form : *#lˌɑpˈɑtjɑ#
+*#lˌɑpɪ̯ˈɑtjɑ# | 115 : ∅ > ɪ̯ / @ __ [-round,-hi,+prim] [+cons,-lab] ( [-syl] )* [+front,-round,-cons]
+*#lˌɑpɪ̯ˈɑtɪ̯ɑ# | 123 : j > ɪ̯ / __ ɑ
+*#lˌɑpˈɑtɪ̯ɑ# | 126 : [+front,-syl,-cons] > ∅ / [+cons,+lab] __ [eprim,!eround]
+*#lˌɑpˈɑtjɑ# | 135 : ɪ̯ > j 
+*#lˌapˈatja# | 154 : [+lo,-round,-nas] > [+front,-back] 
+Late Proto-Albanian I stage form : *#lˌapˈatja#
+*#lɐpˈatja# | 198 : [+stres,-prim,+lo,-round,-nas,-long] > ɐ / [-back] __ [-cont,-voi] [+cont]
+*#ləpˈatja# | 231 : [-stres,+lo,-long] > ə / @ __ ( @ )* [+prim]
+Late Proto-Albanian II stage form : *#ləpˈatja#
+*#ləpˈatɛ# | 335 : j [-stres,-back] > ɛ/ [+syl] ( [-syl] )* [-lo] __ #
+Late Proto-Albanian III stage form : *#ləpˈatɛ#
+Proto-Tosk-SGheg stage form : *#ləpˈatɛ#
+Proto-Tosk stage form : *#ləpˈatɛ#
+Old North Tosk stage form : *#ləpˈatɛ#
+Final form : *#ləpˈatɛ#

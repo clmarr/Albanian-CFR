@@ -1,22 +1,24 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :569:
-#lˈiːneɑ# >>> *#lˈiɲə# ( GOLD : #lˈiɲə#) :
-l ˈiː n e ɑ 
-*#lˈiːnjɑ# | 9 : [-lo,+syl,-prim] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-*#lˈiːɲɑ# | 16 : {ŋ n j;ŋ n;ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ;ɲ;ɲ} 
-Middle Proto-Albanian I stage form : *#lˈiːɲɑ#
-*#lˈiɲɑ# | 45 : [+syl] > [-long,-splng] 
-Middle Proto-Albanian II stage form : *#lˈiɲɑ#
-Late Proto-Albanian I stage form : *#lˈiɲɑ#
-Late Proto-Albanian II stage form : *#lˈiɲɑ#
-Late Proto-Albanian III stage form : *#lˈiɲɑ#
-*#lˈiɲa# | 89 : [+lo] > [+front,-back] 
-*#lˈiɲə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-*#lˈiːɲə# | 107 : [+prim] > [+long] / __ [+cons,+son]
-*#lˈĩːɲə# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
-Proto-Tosk-SGheg stage form : *#lˈĩːɲə#
-Proto-Tosk stage form : *#lˈĩːɲə#
-*#lˈiːɲə# | 130 : [-cons,+nas] > [-nas] 
-*#lˈiɲə# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#lˈiɲə#
-Standard Albanian stage form : *#lˈiɲə#
-Final form : *#lˈiɲə#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :569:
+#lˈuːstrum# >>> *#lˈyt͡ʃtɾ# ( GOLD : #lˈyʃtəɾ#) :
+l ˈuː s t r u m 
+*#lˈuːstru# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#lˈuːstru#
+*#lˈyːstru# | 41 : [+back,+long,+syl,-lo] > [+front,-back] 
+*#lˈyːstrʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#lˈystrʊ# | 45 : [+syl] > [-long,-splng] 
+*#lˈystru# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#lˈystru#
+Late Proto-Albanian I stage form : *#lˈystru#
+*#lˈyʃtru# | 81 : s > ʃ 
+Late Proto-Albanian II stage form : *#lˈyʃtru#
+Late Proto-Albanian III stage form : *#lˈyʃtru#
+*#lˈyʃtr# | 98 : [-stres,-lo] > ∅ / __ #
+*#lˈyːʃtr# | 108 : [+prim] > [+long] / __ [+strid]
+Proto-Tosk-SGheg stage form : *#lˈyːʃtr#
+*#lˈyːʃtɾ# | 126 : r > ɾ 
+Proto-Tosk stage form : *#lˈyːʃtɾ#
+*#lˈyʃtɾ# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#lˈyʃtɾ#
+*#lˈyt͡ʃtɾ# | 142 : ʃ > t͡ʃ / __ [+cons]
+Standard Albanian stage form : *#lˈyt͡ʃtɾ#
+Final form : *#lˈyt͡ʃtɾ#

@@ -1,24 +1,27 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :471:
-#kˌoːpertˈuːrɑ# >>> *#kəpəɾtˈyɾə# ( GOLD : #kyptˈyɾə#) :
-k ˌoː p e r t ˈuː r ɑ 
-Middle Proto-Albanian I stage form : *#kˌoːpertˈuːrɑ#
-*#kˌøːpertˈyːrɑ# | 41 : [+back,+long,+syl,-lo] > [+front,-back] 
-*#kˌøːpɛrtˈyːrɑ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-*#kˌøpɛrtˈyrɑ# | 45 : [+syl] > [-long,-splng] 
-Middle Proto-Albanian II stage form : *#kˌøpɛrtˈyrɑ#
-*#kˌepɛrtˈyrɑ# | 64 : [+front,-cons,-hi] > [-round,-lab] 
-*#kˌɛpɛrtˈyrɑ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-*#kəpərtˈyrɑ# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
-Late Proto-Albanian I stage form : *#kəpərtˈyrɑ#
-Late Proto-Albanian II stage form : *#kəpərtˈyrɑ#
-Late Proto-Albanian III stage form : *#kəpərtˈyrɑ#
-*#kəpərtˈyra# | 89 : [+lo] > [+front,-back] 
-*#kəpərtˈyrə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-*#kəpərtˈyːrə# | 107 : [+prim] > [+long] / __ [+cons,+son]
-Proto-Tosk-SGheg stage form : *#kəpərtˈyːrə#
-*#kəpəɾtˈyːɾə# | 126 : r > ɾ 
-Proto-Tosk stage form : *#kəpəɾtˈyːɾə#
-*#kəpəɾtˈyɾə# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#kəpəɾtˈyɾə#
-Standard Albanian stage form : *#kəpəɾtˈyɾə#
-Final form : *#kəpəɾtˈyɾə#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :471:
+#kˌorwˈiːnum# >>> *#kəɾbˈi# ( GOLD : #kuɾbˈin#) :
+k ˌo r w ˈiː n u m 
+*#kˌorbˈiːnum# | 21 : w > b / [+cor,-nas,+son] __
+*#kˌorbˈiːnu# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#kˌorbˈiːnu#
+*#kˌɔrbˈiːnʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#kˌɔrbˈinʊ# | 45 : [+syl] > [-long,-splng] 
+*#kˌorbˈinu# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#kˌorbˈinu#
+*#kˌɔrbˈinu# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+*#kərbˈinu# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
+Late Proto-Albanian I stage form : *#kərbˈinu#
+Late Proto-Albanian II stage form : *#kərbˈinu#
+Late Proto-Albanian III stage form : *#kərbˈinu#
+*#kərbˈin# | 98 : [-stres,-lo] > ∅ / __ #
+*#kərbˈiːn# | 107 : [+prim] > [+long] / __ [+cons,+son]
+*#kərbˈĩːn# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
+*#kərbˈĩː# | 113 : n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ #
+Proto-Tosk-SGheg stage form : *#kərbˈĩː#
+*#kəɾbˈĩː# | 126 : r > ɾ 
+Proto-Tosk stage form : *#kəɾbˈĩː#
+*#kəɾbˈiː# | 130 : [-cons,+nas] > [-nas] 
+*#kəɾbˈi# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#kəɾbˈi#
+Standard Albanian stage form : *#kəɾbˈi#
+Final form : *#kəɾbˈi#

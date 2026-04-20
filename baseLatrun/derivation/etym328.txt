@@ -1,23 +1,20 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :328:
-#ˌinter# >>> *#həntəɾ# ( GOLD : #ndəɾ#) :
-ˌi n t e r 
-Middle Proto-Albanian I stage form : *#ˌinter#
-*#ˌɪntɛr# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-*#ˌentɛr# | 48 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#ˌentɛr#
-*#ˌɛntɛr# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-*#ntɛr# | 66 : [-prim] > ∅ / # __
-*#əntɛr# | 67 : ∅ > ə / # __ [+son,+cons] [+cons]
-*#əntər# | 69 : [-prim] > ə / # ( [-syl] )* ( [-prim] ) [-syl] ( [-syl] )* __
-Late Proto-Albanian I stage form : *#əntər#
-Late Proto-Albanian II stage form : *#əntər#
-Late Proto-Albanian III stage form : *#əntər#
-*#ə̃ntər# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
-*#hə̃ntər# | 114 : ∅ > h / # __ [+syl]
-Proto-Tosk-SGheg stage form : *#hə̃ntər#
-*#hə̃ntəɾ# | 126 : r > ɾ 
-Proto-Tosk stage form : *#hə̃ntəɾ#
-*#həntəɾ# | 130 : [-cons,+nas] > [-nas] 
-Old North Tosk stage form : *#həntəɾ#
-Standard Albanian stage form : *#həntəɾ#
-Final form : *#həntəɾ#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :328:
+#ˈiːrɑ# >>> *#hˈiɾə# ( GOLD : #ˈiɾə#) :
+ˈiː r ɑ 
+Middle Proto-Albanian I stage form : *#ˈiːrɑ#
+*#ˈirɑ# | 45 : [+syl] > [-long,-splng] 
+Middle Proto-Albanian II stage form : *#ˈirɑ#
+Late Proto-Albanian I stage form : *#ˈirɑ#
+Late Proto-Albanian II stage form : *#ˈirɑ#
+Late Proto-Albanian III stage form : *#ˈirɑ#
+*#ˈira# | 89 : [+lo] > [+front,-back] 
+*#ˈirə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
+*#ˈiːrə# | 107 : [+prim] > [+long] / __ [+cons,+son]
+*#hˈiːrə# | 114 : ∅ > h / # __ [+syl]
+Proto-Tosk-SGheg stage form : *#hˈiːrə#
+*#hˈiːɾə# | 126 : r > ɾ 
+Proto-Tosk stage form : *#hˈiːɾə#
+*#hˈiɾə# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#hˈiɾə#
+Standard Albanian stage form : *#hˈiɾə#
+Final form : *#hˈiɾə#

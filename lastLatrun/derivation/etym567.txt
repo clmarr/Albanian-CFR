@@ -1,17 +1,25 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :567:
-#lˈiːmɑ# >>> *#lˈimə# ( GOLD : #lˈimə#) :
-l ˈiː m ɑ 
-*#lˈimɑ# | 27 : [+syl,+front,+hi] > [-long,-splng] 
-Middle Proto-Albanian I stage form : *#lˈimɑ#
-Middle Proto-Albanian II stage form : *#lˈimɑ#
-*#lˈima# | 154 : [+lo,-round,-nas] > [+front,-back] 
-Late Proto-Albanian I stage form : *#lˈima#
-*#lˈĩma# | 247 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian II stage form : *#lˈĩma#
-*#lˈĩmə# | 332 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-Late Proto-Albanian III stage form : *#lˈĩmə#
-Proto-Tosk-SGheg stage form : *#lˈĩmə#
-Proto-Tosk stage form : *#lˈĩmə#
-*#lˈimə# | 481 : [-cons,+nas] > [-nas] 
-Old North Tosk stage form : *#lˈimə#
-Final form : *#lˈimə#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :567:
+#lˌupekkˈɑːtum# >>> *#luɡˈat# ( GOLD : #luɡˈat#) :
+l ˌu p e k k ˈɑː t u m 
+*#lˌupekkˈɑːtu# | 4 : [+nas,+cons] > ∅ / [-stres] __ #
+*#lˌʊpɛkkˈɑːtʊ# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian I stage form : *#lˌʊpɛkkˈɑːtʊ#
+*#lˌʊpkkˈɑːtʊ# | 63 : [-stres] > ∅ / [+stres] ( ( @ )* [+voi] ) [-voi,+cons] __ [-voi]
+*#lˌʊpkkˈɑtʊ# | 80 : [+syl] > [-long,-splng] 
+*#lˌupkkˈɑtu# | 84 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#lˌupkkˈɑtu#
+*#lˌupkˈɑtu# | 92 : [+cons] > ∅ / [+cons] __ [-son]
+*#lˌupkˈatu# | 154 : [+lo,-round,-nas] > [+front,-back] 
+Late Proto-Albanian I stage form : *#lˌupkˈatu#
+*#lˌuðkˈatu# | 244 : [+lab,-cont] > ð / [+round] __ [-cont]
+Late Proto-Albanian II stage form : *#lˌuðkˈatu#
+*#lˌuðɡˈatu# | 280 : [+back] > [+voi] / [alo,+syl] ( [-syl] ) ð __ ( [-syl] ) [+prim,!alo]
+*#lˌuɡˈatu# | 290 : ð > ∅ / __ [+cons]
+*#lˌuɡˈatə# | 319 : [-stres,+round,-lo] > ə / __ #
+*#lˌuɡˈat# | 325 : [-back,-front,-stres] > ∅ / __ #
+Late Proto-Albanian III stage form : *#lˌuɡˈat#
+Proto-Tosk-SGheg stage form : *#lˌuɡˈat#
+Proto-Tosk stage form : *#lˌuɡˈat#
+*#luɡˈat# | 488 : [-prim] > [-stres,-prim,+syl,+son] 
+Old North Tosk stage form : *#luɡˈat#
+Final form : *#luɡˈat#

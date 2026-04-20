@@ -1,22 +1,21 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :966:
-#sˈulkum# >>> *#ʃˈujk# ( GOLD : #ʃlˈuk#) :
-s ˈu l k u m 
-*#sˈulku# | 4 : [+nas,+cons] > ∅ / [-stres] __ #
-*#sˈʊlkʊ# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian I stage form : *#sˈʊlkʊ#
-*#sˈulku# | 83 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#sˈulku#
-Late Proto-Albanian I stage form : *#sˈulku#
-*#ʃˈulku# | 181 : s > ʃ 
-Late Proto-Albanian II stage form : *#ʃˈulku#
-*#ʃˈuːlku# | 313 : [+prim] > [+long] / __ [+cons,+son,-nas]
-*#ʃˈuːlkə# | 316 : [-stres,+round,-lo] > ə / __ #
-*#ʃˈuːlk# | 320 : [-back,-front,-stres] > ∅ / __ #
-Late Proto-Albanian III stage form : *#ʃˈuːlk#
-*#ʃˈuːʎk# | 456 : l > ʎ / __ k
-Proto-Tosk-SGheg stage form : *#ʃˈuːʎk#
-Proto-Tosk stage form : *#ʃˈuːʎk#
-*#ʃˈuːjk# | 491 : ʎ > j 
-*#ʃˈujk# | 500 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#ʃˈujk#
-Final form : *#ʃˈujk#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :966:
+#stˈɑːtiː# >>> *#ʃtˈɛt# ( GOLD : #ʃtˈɛt#) :
+s t ˈɑː t iː 
+*#stˈɑːti# | 27 : [+syl,+front,+hi] > [-long,-splng] 
+Middle Proto-Albanian I stage form : *#stˈɑːti#
+*#stˈɑti# | 80 : [+syl] > [-long,-splng] 
+Middle Proto-Albanian II stage form : *#stˈɑti#
+*#stˈɑtɪ# | 97 : [-stres,+front,-lo] > [+hi,-tense,-cons,-lat,+cont,0delrel] / [+cons] __
+*#stɪ̯ˈɑtɪ# | 115 : ∅ > ɪ̯ / @ __ [-round,-hi,+prim] [+cons,-lab] ( [-syl] )* [+front,-round,-cons]
+*#stˈetɪ# | 134 : ɪ̯ [-hi,+stres] > ∅ [-lo,-back,+front,+tense,-cons,-lat,+cont,0delrel]
+Late Proto-Albanian I stage form : *#stˈetɪ#
+*#ʃtˈetɪ# | 182 : s > ʃ 
+Late Proto-Albanian II stage form : *#ʃtˈetɪ#
+*#ʃtˈetə# | 282 : {ɪ;ɪ̃} > {ə;ə̃} 
+*#ʃtˈɛtə# | 284 : [+front,+syl,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
+*#ʃtˈɛt# | 325 : [-back,-front,-stres] > ∅ / __ #
+Late Proto-Albanian III stage form : *#ʃtˈɛt#
+Proto-Tosk-SGheg stage form : *#ʃtˈɛt#
+Proto-Tosk stage form : *#ʃtˈɛt#
+Old North Tosk stage form : *#ʃtˈɛt#
+Final form : *#ʃtˈɛt#

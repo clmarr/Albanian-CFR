@@ -1,18 +1,25 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :395:
-... >>> *#cˈɛlə# ( GOLD : #cˈɛlə#) :
-... 
-Middle Proto-Albanian I stage form : ...
-*#kˈɛlːɑ# | 55 : [+cor,nnas,!nlat] [+cor,+son] > [+long] ∅
-Middle Proto-Albanian II stage form : *#kˈɛlːɑ#
-*#kˈɛlːa# | 154 : [+lo,-round,-nas] > [+front,-back] 
-Late Proto-Albanian I stage form : *#kˈɛlːa#
-*#cˈɛlːa# | 219 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
-Late Proto-Albanian II stage form : *#cˈɛlːa#
-*#cˈɛːlːa# | 313 : [+prim] > [+long] / __ [+cons,+son,-nas]
-*#cˈɛːlːə# | 332 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-Late Proto-Albanian III stage form : *#cˈɛːlːə#
-Proto-Tosk-SGheg stage form : *#cˈɛːlːə#
-Proto-Tosk stage form : *#cˈɛːlːə#
-*#cˈɛlə# | 500 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#cˈɛlə#
-Final form : *#cˈɛlə#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :395:
+#kˈerrum# >>> *#cˈar# ( GOLD : #cˈar#) :
+k ˈe r r u m 
+*#kˈerru# | 4 : [+nas,+cons] > ∅ / [-stres] __ #
+*#kˈɛrrʊ# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian I stage form : *#kˈɛrrʊ#
+*#kˈɛrru# | 84 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#kˈɛrru#
+Late Proto-Albanian I stage form : *#kˈɛrru#
+*#kˈɛɾɾu# | 202 : r > ɾ 
+*#cˈɛɾɾu# | 220 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
+Late Proto-Albanian II stage form : *#cˈɛɾɾu#
+*#cˈɛrːu# | 265 : ɾ [+cor,-lat,+son] > rː
+*#cˈɑrːu# | 312 : ˈɛ > ˈɑ / c __ [+cor,+son,-nas,-lat] [+back]
+*#cˈɑːrːu# | 316 : [+prim] > [+long] / __ [+cons,+son,-nas]
+*#cˈɑːrːə# | 319 : [-stres,+round,-lo] > ə / __ #
+*#cˈɑːrː# | 325 : [-back,-front,-stres] > ∅ / __ #
+Late Proto-Albanian III stage form : *#cˈɑːrː#
+*#cˈɑːr# | 425 : rː > r 
+*#cˈaːr# | 464 : [+lo,-round] > [+front,-back] 
+Proto-Tosk-SGheg stage form : *#cˈaːr#
+Proto-Tosk stage form : *#cˈaːr#
+*#cˈar# | 502 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#cˈar#
+Final form : *#cˈar#

@@ -1,21 +1,24 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :239:
-#ɡˈɑlliː# >>> *#ɟˈɛl# ( GOLD : #ɟˈɛl#) :
-ɡ ˈɑ l l iː 
-*#ɡˈɑliː# | 13 : {l;n} > {∅;∅} / l __
-Middle Proto-Albanian I stage form : *#ɡˈɑliː#
-*#ɡˈɑli# | 45 : [+syl] > [-long,-splng] 
-Middle Proto-Albanian II stage form : *#ɡˈɑli#
-*#ɡˈeli# | 49 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round,-cons]
-*#ɡˈɛli# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-Late Proto-Albanian I stage form : *#ɡˈɛli#
-*#ɟˈɛli# | 80 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
-Late Proto-Albanian II stage form : *#ɟˈɛli#
-Late Proto-Albanian III stage form : *#ɟˈɛli#
-*#ɟˈɛl# | 98 : [-stres,-lo] > ∅ / __ #
-*#ɟˈɛːl# | 107 : [+prim] > [+long] / __ [+cons,+son]
-Proto-Tosk-SGheg stage form : *#ɟˈɛːl#
-Proto-Tosk stage form : *#ɟˈɛːl#
-*#ɟˈɛl# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#ɟˈɛl#
-Standard Albanian stage form : *#ɟˈɛl#
-Final form : *#ɟˈɛl#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :239:
+#ɡˈentem# >>> *#ɟˈin# ( GOLD : #ɟˈind#) :
+ɡ ˈe n t e m 
+*#ɡˈente# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#ɡˈente#
+*#ɡˈɛntɛ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#ɡˈɛntɛ#
+*#ɡˈintɛ# | 49 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round,-cons]
+Late Proto-Albanian I stage form : *#ɡˈintɛ#
+*#ɡˈindɛ# | 76 : t > d / [+stres] ( [-syl] )* n __
+*#ɟˈindɛ# | 80 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
+Late Proto-Albanian II stage form : *#ɟˈindɛ#
+Late Proto-Albanian III stage form : *#ɟˈindɛ#
+*#ɟˈind# | 98 : [-stres,-lo] > ∅ / __ #
+*#ɟˈiːnd# | 107 : [+prim] > [+long] / __ [+cons,+son]
+*#ɟˈĩːnd# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
+Proto-Tosk-SGheg stage form : *#ɟˈĩːnd#
+Proto-Tosk stage form : *#ɟˈĩːnd#
+*#ɟˈiːnd# | 130 : [-cons,+nas] > [-nas] 
+*#ɟˈind# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#ɟˈind#
+Standard Albanian stage form : *#ɟˈind#
+*#ɟˈin# | 146 : d > ∅ / n __
+Final form : *#ɟˈin#

@@ -1,22 +1,21 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :601:
-#mˈɑnniɑ# >>> *#mˈənɲə# ( GOLD : #mˈəɲə#) :
-m ˈɑ n n i ɑ 
-*#mˈɑnnjɑ# | 9 : [-lo,+syl,-prim] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-*#mˈɑnɲɑ# | 16 : {ŋ n j;ŋ n;ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ;ɲ;ɲ} 
-Middle Proto-Albanian I stage form : *#mˈɑnɲɑ#
-Middle Proto-Albanian II stage form : *#mˈɑnɲɑ#
-Late Proto-Albanian I stage form : *#mˈɑnɲɑ#
-Late Proto-Albanian II stage form : *#mˈɑnɲɑ#
-Late Proto-Albanian III stage form : *#mˈɑnɲɑ#
-*#mˈanɲa# | 89 : [+lo] > [+front,-back] 
-*#mˈanɲə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-*#mˈaːnɲə# | 107 : [+prim] > [+long] / __ [+cons,+son]
-*#mˈãːnɲə# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
-Proto-Tosk-SGheg stage form : *#mˈãːnɲə#
-*#mˈəːnɲə# | 128 : [+lo,+nas,+syl] > [-lo,-back,-front,0tense] 
-Proto-Tosk stage form : *#mˈəːnɲə#
-*#mˈəːnɲə# | 130 : [-cons,+nas] > [-nas] 
-*#mˈənɲə# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#mˈənɲə#
-Standard Albanian stage form : *#mˈənɲə#
-Final form : *#mˈənɲə#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :601:
+#mˈɑrkum# >>> *#mˈaɾk# ( GOLD : #mˈaɾk#) :
+m ˈɑ r k u m 
+*#mˈɑrku# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#mˈɑrku#
+*#mˈɑrkʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#mˈɑrku# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#mˈɑrku#
+Late Proto-Albanian I stage form : *#mˈɑrku#
+Late Proto-Albanian II stage form : *#mˈɑrku#
+Late Proto-Albanian III stage form : *#mˈɑrku#
+*#mˈarku# | 89 : [+lo] > [+front,-back] 
+*#mˈark# | 98 : [-stres,-lo] > ∅ / __ #
+*#mˈaːrk# | 107 : [+prim] > [+long] / __ [+cons,+son]
+Proto-Tosk-SGheg stage form : *#mˈaːrk#
+*#mˈaːɾk# | 126 : r > ɾ 
+Proto-Tosk stage form : *#mˈaːɾk#
+*#mˈaɾk# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#mˈaɾk#
+Standard Albanian stage form : *#mˈaɾk#
+Final form : *#mˈaɾk#

@@ -1,20 +1,23 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :551:
-... >>> *#ləvdˈɔj# ( GOLD : #ləvdˈɔj#) :
-... 
-Middle Proto-Albanian I stage form : ...
-Middle Proto-Albanian II stage form : ...
-Late Proto-Albanian I stage form : ...
-*#lˌaβdˈɔ̃ɲɔ# | 247 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian II stage form : *#lˌaβdˈɔ̃ɲɔ#
-*#lɐβdˈɔ̃ɲɔ# | 306 : [+lo,-long,-round,-prim,+stres,-nas] > ɐ / [-long] __ [+cont,-son] [-cont] ( [+nas] ) [+prim]
-*#lɐβdˈɔ̃ɲə# | 316 : [-stres,+round,-lo] > ə / __ #
-*#lɐβdˈɔ̃ɲ# | 320 : [-back,-front,-stres] > ∅ / __ #
-*#lɐvdˈɔ̃ɲ# | 345 : [+lab,-son,+cont] > [+strid] 
-Late Proto-Albanian III stage form : *#lɐvdˈɔ̃ɲ#
-*#ləvdˈɔ̃ɲ# | 459 : {ɐ;ˌɐ} > {ə;ˌə} 
-Proto-Tosk-SGheg stage form : *#ləvdˈɔ̃ɲ#
-Proto-Tosk stage form : *#ləvdˈɔ̃ɲ#
-*#ləvdˈɔɲ# | 481 : [-cons,+nas] > [-nas] 
-Old North Tosk stage form : *#ləvdˈɔɲ#
-*#ləvdˈɔj# | 514 : ɲ > j / [-hi] __ #
-Final form : *#ləvdˈɔj#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :551:
+#lˈiːlium# >>> *#lˈil# ( GOLD : #lˈil#) :
+l ˈiː l i u m 
+*#lˈiːliu# | 4 : [+nas,+cons] > ∅ / [-stres] __ #
+*#lˈiːlju# | 9 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+*#lˈiːʎu# | 10 : {l l j;l j;lː j} > {ʎ;ʎ;ʎ} 
+*#lˈiːʎʊ# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+*#lˈiʎʊ# | 27 : [+syl,+front,+hi] > [-long,-splng] 
+Middle Proto-Albanian I stage form : *#lˈiʎʊ#
+*#lˈilːʊ# | 47 : ʎ > lː / [-lo,-cons] __ [+hi]
+*#lˈilːu# | 84 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#lˈilːu#
+Late Proto-Albanian I stage form : *#lˈilːu#
+Late Proto-Albanian II stage form : *#lˈilːu#
+*#lˈiːlːu# | 316 : [+prim] > [+long] / __ [+cons,+son,-nas]
+*#lˈiːlːə# | 319 : [-stres,+round,-lo] > ə / __ #
+*#lˈiːlː# | 325 : [-back,-front,-stres] > ∅ / __ #
+Late Proto-Albanian III stage form : *#lˈiːlː#
+Proto-Tosk-SGheg stage form : *#lˈiːlː#
+Proto-Tosk stage form : *#lˈiːlː#
+*#lˈil# | 502 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#lˈil#
+Final form : *#lˈil#

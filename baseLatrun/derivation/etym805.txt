@@ -1,21 +1,21 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :805:
-... >>> *#pˈɛt͡ʃt# ( GOLD : #pˈɔʃt#) :
-... 
-Middle Proto-Albanian I stage form : ...
-Middle Proto-Albanian II stage form : ...
-*#pˈøste# | 49 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round,-cons]
-*#pˈeste# | 64 : [+front,-cons,-hi] > [-round,-lab] 
-*#pˈɛstɛ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-Late Proto-Albanian I stage form : *#pˈɛstɛ#
-*#pˈɛʃtɛ# | 81 : s > ʃ 
-Late Proto-Albanian II stage form : *#pˈɛʃtɛ#
-Late Proto-Albanian III stage form : *#pˈɛʃtɛ#
-*#pˈɛʃt# | 98 : [-stres,-lo] > ∅ / __ #
-*#pˈɛːʃt# | 108 : [+prim] > [+long] / __ [+strid]
-Proto-Tosk-SGheg stage form : *#pˈɛːʃt#
-Proto-Tosk stage form : *#pˈɛːʃt#
-*#pˈɛʃt# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#pˈɛʃt#
-*#pˈɛt͡ʃt# | 142 : ʃ > t͡ʃ / __ [+cons]
-Standard Albanian stage form : *#pˈɛt͡ʃt#
-Final form : *#pˈɛt͡ʃt#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :805:
+#pˈuːblikɑ# >>> *#pˈybjkə# ( GOLD : #pˈukə#) :
+p ˈuː b l i k ɑ 
+*#pˈuːbləkɑ# | 29 : [-stres] > ə / [+prim] ( @ )* __ @
+Middle Proto-Albanian I stage form : *#pˈuːbləkɑ#
+*#pˈuːblkɑ# | 32 : ə > ∅ 
+*#pˈyːblkɑ# | 41 : [+back,+long,+syl,-lo] > [+front,-back] 
+*#pˈyblkɑ# | 45 : [+syl] > [-long,-splng] 
+Middle Proto-Albanian II stage form : *#pˈyblkɑ#
+Late Proto-Albanian I stage form : *#pˈyblkɑ#
+Late Proto-Albanian II stage form : *#pˈyblkɑ#
+Late Proto-Albanian III stage form : *#pˈyblkɑ#
+*#pˈyblka# | 89 : [+lo] > [+front,-back] 
+*#pˈyblkə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
+*#pˈybʎkə# | 118 : l > ʎ / __ k
+Proto-Tosk-SGheg stage form : *#pˈybʎkə#
+Proto-Tosk stage form : *#pˈybʎkə#
+*#pˈybjkə# | 132 : ʎ > j 
+Old North Tosk stage form : *#pˈybjkə#
+Standard Albanian stage form : *#pˈybjkə#
+Final form : *#pˈybjkə#

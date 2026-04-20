@@ -1,24 +1,22 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :772:
-#pˈilleum# >>> *#pˈil# ( GOLD : #pˈil#) :
-p ˈi l l e u m 
-*#pˈilleu# | 4 : [+nas,+cons] > ∅ / [-stres] __ #
-*#pˈillju# | 9 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-*#pˈiʎu# | 10 : {l l j;l j;lː j} > {ʎ;ʎ;ʎ} 
-*#pˈiːʎu# | 16 : ˈi > ˈiː / __ [-syl,-cor,-nas]
-*#pˈiːʎʊ# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-*#pˈiʎʊ# | 27 : [+syl,+front,+hi] > [-long,-splng] 
-Middle Proto-Albanian I stage form : *#pˈiʎʊ#
-*#pˈilːʊ# | 47 : ʎ > lː / [-lo,-cons] __ [+hi]
-*#pˈilːu# | 83 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#pˈilːu#
-Late Proto-Albanian I stage form : *#pˈilːu#
-Late Proto-Albanian II stage form : *#pˈilːu#
-*#pˈiːlːu# | 313 : [+prim] > [+long] / __ [+cons,+son,-nas]
-*#pˈiːlːə# | 316 : [-stres,+round,-lo] > ə / __ #
-*#pˈiːlː# | 320 : [-back,-front,-stres] > ∅ / __ #
-Late Proto-Albanian III stage form : *#pˈiːlː#
-Proto-Tosk-SGheg stage form : *#pˈiːlː#
-Proto-Tosk stage form : *#pˈiːlː#
-*#pˈil# | 500 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#pˈil#
-Final form : *#pˈil#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :772:
+#plˈiktum# >>> *#plˈit# ( GOLD : #plˈic#) :
+p l ˈi k t u m 
+*#plˈiktu# | 4 : [+nas,+cons] > ∅ / [-stres] __ #
+*#plˈiːktu# | 16 : ˈi > ˈiː / __ [-syl,-cor,-nas]
+*#plˈiːktʊ# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+*#plˈiktʊ# | 27 : [+syl,+front,+hi] > [-long,-splng] 
+Middle Proto-Albanian I stage form : *#plˈiktʊ#
+*#plˈiçtʊ# | 50 : [+back,+cons] > ç / [+lab] ( [+lat] ) [+syl] __ [+cor,-voi,-cont]
+*#plˈiçtu# | 84 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#plˈiçtu#
+*#plˈijtu# | 148 : ç > j 
+Late Proto-Albanian I stage form : *#plˈijtu#
+*#plˈitu# | 224 : j > ∅ / [+hi,+syl,+front] __ [+cons]
+Late Proto-Albanian II stage form : *#plˈitu#
+*#plˈitə# | 319 : [-stres,+round,-lo] > ə / __ #
+*#plˈit# | 325 : [-back,-front,-stres] > ∅ / __ #
+Late Proto-Albanian III stage form : *#plˈit#
+Proto-Tosk-SGheg stage form : *#plˈit#
+Proto-Tosk stage form : *#plˈit#
+Old North Tosk stage form : *#plˈit#
+Final form : *#plˈit#

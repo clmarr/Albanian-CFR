@@ -1,19 +1,24 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :944:
-#skˈɑːlɑː# >>> *#ʃkˈalˠə# ( GOLD : #ʃkˈalˠə#) :
-s k ˈɑː l ɑː 
-Middle Proto-Albanian I stage form : *#skˈɑːlɑː#
-*#skˈɑlɑ# | 79 : [+syl] > [-long,-splng] 
-Middle Proto-Albanian II stage form : *#skˈɑlɑ#
-*#skˈala# | 154 : [+lo,-round,-nas] > [+front,-back] 
-Late Proto-Albanian I stage form : *#skˈala#
-*#ʃkˈala# | 181 : s > ʃ 
-Late Proto-Albanian II stage form : *#ʃkˈala#
-*#ʃkˈalˠa# | 266 : l > lˠ / [-cons] __ ( m ) [+lo]
-*#ʃkˈaːlˠa# | 313 : [+prim] > [+long] / __ [+cons,+son,-nas]
-*#ʃkˈaːlˠə# | 332 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-Late Proto-Albanian III stage form : *#ʃkˈaːlˠə#
-Proto-Tosk-SGheg stage form : *#ʃkˈaːlˠə#
-Proto-Tosk stage form : *#ʃkˈaːlˠə#
-*#ʃkˈalˠə# | 500 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#ʃkˈalˠə#
-Final form : *#ʃkˈalˠə#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :944:
+#sˈokiɑ# >>> *#ʃˈɔcɛ# ( GOLD : #ʃˈɔcɛ#) :
+s ˈo k i ɑ 
+*#sˈokjɑ# | 9 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+*#sˈɔkjɑ# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+*#sˈɒkjɑ# | 34 : {ˈo;ˈɔ} > {ˈɒ;ˈɒ} 
+Middle Proto-Albanian I stage form : *#sˈɒkjɑ#
+*#sˈɔkjɑ# | 76 : [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
+*#sˈokjɑ# | 84 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#sˈokjɑ#
+*#sˈokɪ̯ɑ# | 123 : j > ɪ̯ / __ ɑ
+*#sˈocɪ̯ɑ# | 129 : [+back,-lab,-cont] > [-back,+front] / @ __ [+front,-lo,-cons]
+*#sˈocjɑ# | 135 : ɪ̯ > j 
+*#sˈocja# | 154 : [+lo,-round,-nas] > [+front,-back] 
+Late Proto-Albanian I stage form : *#sˈocja#
+*#ʃˈocja# | 182 : s > ʃ 
+*#ʃˈɔcja# | 189 : [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
+Late Proto-Albanian II stage form : *#ʃˈɔcja#
+*#ʃˈɔcɛ# | 335 : j [-stres,-back] > ɛ/ [+syl] ( [-syl] )* [-lo] __ #
+Late Proto-Albanian III stage form : *#ʃˈɔcɛ#
+Proto-Tosk-SGheg stage form : *#ʃˈɔcɛ#
+Proto-Tosk stage form : *#ʃˈɔcɛ#
+Old North Tosk stage form : *#ʃˈɔcɛ#
+Final form : *#ʃˈɔcɛ#

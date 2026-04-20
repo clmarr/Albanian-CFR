@@ -1,21 +1,25 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :67:
-#brˈokkɑ# >>> *#bɾˈɔkə# ( GOLD : #pɾˈɔkə#) :
-b r ˈo k k ɑ 
-*#brˈɔkkɑ# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-*#brˈɒkkɑ# | 34 : {ˈo;ˈɔ} > {ˈɒ;ˈɒ} 
-Middle Proto-Albanian I stage form : *#brˈɒkkɑ#
-*#brˈɔkkɑ# | 75 : [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
-*#brˈokkɑ# | 83 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#brˈokkɑ#
-*#brˈokka# | 154 : [+lo,-round,-nas] > [+front,-back] 
-Late Proto-Albanian I stage form : *#brˈokka#
-*#brˈɔkka# | 188 : [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
-*#brˈɔka# | 198 : [-son,acont,blab,chi] > ∅ / __ [-son,acont,blab,chi]
-*#bɾˈɔka# | 201 : r > ɾ 
-Late Proto-Albanian II stage form : *#bɾˈɔka#
-*#bɾˈɔkə# | 332 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-Late Proto-Albanian III stage form : *#bɾˈɔkə#
-Proto-Tosk-SGheg stage form : *#bɾˈɔkə#
-Proto-Tosk stage form : *#bɾˈɔkə#
-Old North Tosk stage form : *#bɾˈɔkə#
-Final form : *#bɾˈɔkə#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :67:
+#brˈoːtɑskɑm# >>> *#bɾˈɛʃkə# ( GOLD : #bɾˈɛʃkə#) :
+b r ˈoː t ɑ s k ɑ m 
+*#brˈoːtɑskɑ# | 4 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#brˈoːtɑskɑ#
+*#brˈøːtɑskɑ# | 42 : [+back,+long,+syl,-lo] > [+front,-back] 
+*#brˈøːtskɑ# | 63 : [-stres] > ∅ / [+stres] ( ( @ )* [+voi] ) [-voi,+cons] __ [-voi]
+*#brˈøtskɑ# | 80 : [+syl] > [-long,-splng] 
+*#brˈøskɑ# | 83 : [-son] > ∅ / __ [+cont,-syl] [-cont,-son]
+Middle Proto-Albanian II stage form : *#brˈøskɑ#
+*#brˈøska# | 154 : [+lo,-round,-nas] > [+front,-back] 
+Late Proto-Albanian I stage form : *#brˈøska#
+*#brˈøʃka# | 182 : s > ʃ 
+*#brˈœʃka# | 189 : [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
+*#bɾˈœʃka# | 202 : r > ɾ 
+Late Proto-Albanian II stage form : *#bɾˈœʃka#
+*#bɾˈɛʃka# | 291 : [+front,-cons,-hi] > [-round,-lab] 
+*#bɾˈɛːʃka# | 317 : [+prim] > [+long] / __ [+strid]
+*#bɾˈɛːʃkə# | 337 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
+Late Proto-Albanian III stage form : *#bɾˈɛːʃkə#
+Proto-Tosk-SGheg stage form : *#bɾˈɛːʃkə#
+Proto-Tosk stage form : *#bɾˈɛːʃkə#
+*#bɾˈɛʃkə# | 502 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#bɾˈɛʃkə#
+Final form : *#bɾˈɛʃkə#

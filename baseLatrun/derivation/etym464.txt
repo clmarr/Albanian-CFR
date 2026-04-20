@@ -1,31 +1,26 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :464:
-#kˌontˌentˈɑːnioː# >>> *#kəntənˈəɲ# ( GOLD : #kutəndˈɔj#) :
-k ˌo n t ˌe n t ˈɑː n i oː 
-*#kˌontˌentˈɑːnjoː# | 9 : [-lo,+syl,-prim] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-*#kˌontˌentˈɑːɲoː# | 16 : {ŋ n j;ŋ n;ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ;ɲ;ɲ} 
-Middle Proto-Albanian I stage form : *#kˌontˌentˈɑːɲoː#
-*#kˌontˌentˈɑːɲøː# | 41 : [+back,+long,+syl,-lo] > [+front,-back] 
-*#kˌɔntˌɛntˈɑːɲøː# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-*#kˌɔntˌɛntˈɑɲø# | 45 : [+syl] > [-long,-splng] 
-*#kˌontˌɛntˈɑɲø# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#kˌontˌɛntˈɑɲø#
-*#kˌontˌɛntˈɑɲe# | 64 : [+front,-cons,-hi] > [-round,-lab] 
-*#kˌɔntˌɛntˈɑɲɛ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-*#kəntəntˈɑɲɛ# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
-Late Proto-Albanian I stage form : *#kəntəntˈɑɲɛ#
-*#kəntəndˈɑɲɛ# | 75 : t > d / n __ ( [-syl] )* [+stres]
-Late Proto-Albanian II stage form : *#kəntəndˈɑɲɛ#
-Late Proto-Albanian III stage form : *#kəntəndˈɑɲɛ#
-*#kəntəndˈaɲɛ# | 89 : [+lo] > [+front,-back] 
-*#kəntəndˈaɲ# | 98 : [-stres,-lo] > ∅ / __ #
-*#kəntəndˈaːɲ# | 107 : [+prim] > [+long] / __ [+cons,+son]
-*#kə̃ntə̃ndˈãːɲ# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
-Proto-Tosk-SGheg stage form : *#kə̃ntə̃ndˈãːɲ#
-*#kə̃ntə̃ndˈəːɲ# | 128 : [+lo,+nas,+syl] > [-lo,-back,-front,0tense] 
-Proto-Tosk stage form : *#kə̃ntə̃ndˈəːɲ#
-*#kəntəndˈəːɲ# | 130 : [-cons,+nas] > [-nas] 
-*#kəntəndˈəɲ# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#kəntəndˈəɲ#
-Standard Albanian stage form : *#kəntəndˈəɲ#
-*#kəntənˈəɲ# | 146 : d > ∅ / n __
-Final form : *#kəntənˈəɲ#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :464:
+#kˌornˈikulum# >>> *#kərˈɛklˠ# ( GOLD : #kɾɔɲɟˈilˠ#) :
+k ˌo r n ˈi k u l u m 
+*#kˌornˈikulːum# | 12 : {s l;l} > {lː;lː} / [+syl] __ [+syl]
+*#kˌornˈikulːu# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+*#kˌornˈikəlːu# | 29 : [-stres] > ə / [+prim] ( @ )* __ @
+Middle Proto-Albanian I stage form : *#kˌornˈikəlːu#
+*#kˌornˈiklːu# | 32 : ə > ∅ 
+*#kˌɔrnˈɪklːʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#kˌornˈɪklːu# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+*#kˌornˈeklːu# | 48 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#kˌornˈeklːu#
+*#kˌɔrnˈɛklːu# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+*#kərnˈɛklːu# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
+Late Proto-Albanian I stage form : *#kərnˈɛklːu#
+Late Proto-Albanian II stage form : *#kərnˈɛklːu#
+Late Proto-Albanian III stage form : *#kərnˈɛklːu#
+*#kərnˈɛklː# | 98 : [-stres,-lo] > ∅ / __ #
+Proto-Tosk-SGheg stage form : *#kərnˈɛklː#
+*#kərːˈɛklː# | 123 : r n > rː / @ __ @
+*#kərːˈɛklˠ# | 124 : lː > lˠ 
+*#kərˈɛklˠ# | 127 : rː > r 
+Proto-Tosk stage form : *#kərˈɛklˠ#
+Old North Tosk stage form : *#kərˈɛklˠ#
+Standard Albanian stage form : *#kərˈɛklˠ#
+Final form : *#kərˈɛklˠ#

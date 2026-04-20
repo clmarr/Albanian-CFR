@@ -1,25 +1,18 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :187:
-#fˌɑwˈɑliɑm# >>> *#fˈɛlə# ( GOLD : #fˈɛlə#) :
-f ˌɑ w ˈɑ l i ɑ m 
-*#fˌɑwˈɑliɑ# | 4 : [+nas,+cons] > ∅ / [-stres] __ #
-*#fˌɑwˈɑljɑ# | 9 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-*#fˌɑwˈɑʎɑ# | 10 : {l l j;l j;lː j} > {ʎ;ʎ;ʎ} 
-*#fˈɑwɑʎɑ# | 15 : [+syl] [+lab,+voi,-syl,-nas] [+prim,+lo] > [+prim,+stres,+syl,+son] [+lab] [-stres,-prim,+syl,+son]
-Middle Proto-Albanian I stage form : *#fˈɑwɑʎɑ#
-Middle Proto-Albanian II stage form : *#fˈɑwɑʎɑ#
-*#fˈɑβɑʎɑ# | 107 : w > β 
-*#fˈɑwɑʎɑ# | 110 : β > w / [-cons] __
-*#fˈawaʎa# | 154 : [+lo,-round,-nas] > [+front,-back] 
-Late Proto-Albanian I stage form : *#fˈawaʎa#
-*#fˈaːaʎa# | 166 : [+stres,+lo] w > [+long] ∅/ @ __ [-stres,+lo] [-syl]
-*#fˈaːɐʎa# | 248 : [+lo,-stres,-long,-round] > ɐ / __ ( @ )* [+syl]
-Late Proto-Albanian II stage form : *#fˈaːɐʎa#
-*#fˈaːɐʎə# | 332 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-*#fˈaːʎə# | 340 : [+prim] [-prim] > [+long] ∅
-*#fˈɛːlːə# | 344 : [+lo,-round] ʎ > [+front,-back,-lo,-tense,-cons,-lat,+cont,0delrel] lː/ [+lab,+cont] __ [-front]
-Late Proto-Albanian III stage form : *#fˈɛːlːə#
-Proto-Tosk-SGheg stage form : *#fˈɛːlːə#
-Proto-Tosk stage form : *#fˈɛːlːə#
-*#fˈɛlə# | 500 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#fˈɛlə#
-Final form : *#fˈɛlə#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :187:
+#fˈiːkum# >>> *#fˈik# ( GOLD : #fˈik#) :
+f ˈiː k u m 
+*#fˈiːku# | 4 : [+nas,+cons] > ∅ / [-stres] __ #
+*#fˈiːkʊ# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+*#fˈikʊ# | 27 : [+syl,+front,+hi] > [-long,-splng] 
+Middle Proto-Albanian I stage form : *#fˈikʊ#
+*#fˈiku# | 84 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#fˈiku#
+Late Proto-Albanian I stage form : *#fˈiku#
+Late Proto-Albanian II stage form : *#fˈiku#
+*#fˈikə# | 319 : [-stres,+round,-lo] > ə / __ #
+*#fˈik# | 325 : [-back,-front,-stres] > ∅ / __ #
+Late Proto-Albanian III stage form : *#fˈik#
+Proto-Tosk-SGheg stage form : *#fˈik#
+Proto-Tosk stage form : *#fˈik#
+Old North Tosk stage form : *#fˈik#
+Final form : *#fˈik#

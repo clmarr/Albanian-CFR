@@ -1,26 +1,19 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :868:
-... >>> *#ɾəʃˈɛjə# ( GOLD : #rəʃˈajə#) :
-... 
-Middle Proto-Albanian I stage form : ...
-*#rˌøːsˈɑːʎɑ# | 41 : [+back,+long,+syl,-lo] > [+front,-back] 
-*#rˌøsˈɑʎɑ# | 45 : [+syl] > [-long,-splng] 
-Middle Proto-Albanian II stage form : *#rˌøsˈɑʎɑ#
-*#rˌøsˈeʎɑ# | 50 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* ʎ
-*#rˌesˈeʎɑ# | 64 : [+front,-cons,-hi] > [-round,-lab] 
-*#rˌɛsˈɛʎɑ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-*#rəsˈɛʎɑ# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
-Late Proto-Albanian I stage form : *#rəsˈɛʎɑ#
-*#rəʃˈɛʎɑ# | 81 : s > ʃ 
-Late Proto-Albanian II stage form : *#rəʃˈɛʎɑ#
-Late Proto-Albanian III stage form : *#rəʃˈɛʎɑ#
-*#rəʃˈɛʎa# | 89 : [+lo] > [+front,-back] 
-*#rəʃˈɛʎə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-*#rəʃˈɛːʎə# | 107 : [+prim] > [+long] / __ [+cons,+son]
-Proto-Tosk-SGheg stage form : *#rəʃˈɛːʎə#
-*#ɾəʃˈɛːʎə# | 126 : r > ɾ 
-Proto-Tosk stage form : *#ɾəʃˈɛːʎə#
-*#ɾəʃˈɛːjə# | 132 : ʎ > j 
-*#ɾəʃˈɛjə# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#ɾəʃˈɛjə#
-Standard Albanian stage form : *#ɾəʃˈɛjə#
-Final form : *#ɾəʃˈɛjə#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :868:
+#sˈɑɡum# >>> *#ʃˈaɡ# ( GOLD : #ʃˈaɡ#) :
+s ˈɑ ɡ u m 
+*#sˈɑɡu# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#sˈɑɡu#
+*#sˈɑɡʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#sˈɑɡu# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#sˈɑɡu#
+Late Proto-Albanian I stage form : *#sˈɑɡu#
+*#ʃˈɑɡu# | 81 : s > ʃ 
+Late Proto-Albanian II stage form : *#ʃˈɑɡu#
+Late Proto-Albanian III stage form : *#ʃˈɑɡu#
+*#ʃˈaɡu# | 89 : [+lo] > [+front,-back] 
+*#ʃˈaɡ# | 98 : [-stres,-lo] > ∅ / __ #
+Proto-Tosk-SGheg stage form : *#ʃˈaɡ#
+Proto-Tosk stage form : *#ʃˈaɡ#
+Old North Tosk stage form : *#ʃˈaɡ#
+Standard Albanian stage form : *#ʃˈaɡ#
+Final form : *#ʃˈaɡ#

@@ -1,15 +1,27 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :240:
-#ɡˈɑttɑ# >>> *#ɡˈattə# ( GOLD : #ɡˈatə#) :
-ɡ ˈɑ t t ɑ 
-Middle Proto-Albanian I stage form : *#ɡˈɑttɑ#
-Middle Proto-Albanian II stage form : *#ɡˈɑttɑ#
-Late Proto-Albanian I stage form : *#ɡˈɑttɑ#
-Late Proto-Albanian II stage form : *#ɡˈɑttɑ#
-Late Proto-Albanian III stage form : *#ɡˈɑttɑ#
-*#ɡˈatta# | 89 : [+lo] > [+front,-back] 
-*#ɡˈattə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-Proto-Tosk-SGheg stage form : *#ɡˈattə#
-Proto-Tosk stage form : *#ɡˈattə#
-Old North Tosk stage form : *#ɡˈattə#
-Standard Albanian stage form : *#ɡˈattə#
-Final form : *#ɡˈattə#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :240:
+... >>> *#ɟˈɛɾɟɛ# ( GOLD : #ɟˈɛɾɟ#) :
+... 
+Middle Proto-Albanian I stage form : ...
+*#ɡeˈœːrɡiu# | 41 : [+back,+long,+syl,-lo] > [+front,-back] 
+*#ɡɛˈœːrɡɪʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#ɡɛˈœrɡɪʊ# | 45 : [+syl] > [-long,-splng] 
+*#ɡɛˈœrɡɪu# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+*#ɡɛˈœrɡeu# | 48 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#ɡɛˈœrɡeu#
+*#ɡɛˈɛrɡeu# | 64 : [+front,-cons,-hi] > [-round,-lab] 
+*#ɡɛˈɛrɡɛu# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+*#ɡəˈɛrɡɛu# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
+Late Proto-Albanian I stage form : *#ɡəˈɛrɡɛu#
+*#ɡəˈɛrɟɛu# | 80 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
+Late Proto-Albanian II stage form : *#ɡəˈɛrɟɛu#
+Late Proto-Albanian III stage form : *#ɡəˈɛrɟɛu#
+*#ɡəˈɛrɟɛ# | 98 : [-stres,-lo] > ∅ / __ #
+*#ɡˈɛːrɟɛ# | 103 : [-prim] [+prim] > ∅ [+long]/ @ __ @
+Proto-Tosk-SGheg stage form : *#ɡˈɛːrɟɛ#
+*#ɡˈɛːɾɟɛ# | 126 : r > ɾ 
+Proto-Tosk stage form : *#ɡˈɛːɾɟɛ#
+*#ɡˈɛɾɟɛ# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#ɡˈɛɾɟɛ#
+*#ɟˈɛɾɟɛ# | 140 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
+Standard Albanian stage form : *#ɟˈɛɾɟɛ#
+Final form : *#ɟˈɛɾɟɛ#

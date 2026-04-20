@@ -1,18 +1,22 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :363:
-#kˈɑnnɑ# >>> *#kˈanə# ( GOLD : #kˈanə#) :
-k ˈɑ n n ɑ 
-Middle Proto-Albanian I stage form : *#kˈɑnnɑ#
-*#kˈɑnːɑ# | 55 : [+cor,nnas,!nlat] [+cor,+son] > [+long] ∅
-Middle Proto-Albanian II stage form : *#kˈɑnːɑ#
-*#kˈanːa# | 154 : [+lo,-round,-nas] > [+front,-back] 
-Late Proto-Albanian I stage form : *#kˈanːa#
-*#kˈãnːa# | 247 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian II stage form : *#kˈãnːa#
-*#kˈãnːə# | 332 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-Late Proto-Albanian III stage form : *#kˈãnːə#
-*#kˈanːə# | 395 : ˈã > ˈa / [-cor,-son] ( [+cor,+son] ) __ [+nas,+cont,+cons] [+syl]
-Proto-Tosk-SGheg stage form : *#kˈanːə#
-*#kˈanə# | 475 : [+nas,+cons] > [-long,-splng] 
-Proto-Tosk stage form : *#kˈanə#
-Old North Tosk stage form : *#kˈanə#
-Final form : *#kˈanə#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :363:
+#kˌɑpissˈɑːtɑm# >>> *#kafʃˈatə# ( GOLD : #kafʃˈatə#) :
+k ˌɑ p i s s ˈɑː t ɑ m 
+*#kˌɑpissˈɑːtɑ# | 4 : [+nas,+cons] > ∅ / [-stres] __ #
+*#kˌɑpɪssˈɑːtɑ# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian I stage form : *#kˌɑpɪssˈɑːtɑ#
+*#kˌɑpssˈɑːtɑ# | 63 : [-stres] > ∅ / [+stres] ( ( @ )* [+voi] ) [-voi,+cons] __ [-voi]
+*#kˌɑpssˈɑtɑ# | 80 : [+syl] > [-long,-splng] 
+Middle Proto-Albanian II stage form : *#kˌɑpssˈɑtɑ#
+*#kˌɑpsˈɑtɑ# | 92 : [+cons] > ∅ / [+cons] __ [-son]
+*#kˌapsˈata# | 154 : [+lo,-round,-nas] > [+front,-back] 
+Late Proto-Albanian I stage form : *#kˌapsˈata#
+*#kˌapʃˈata# | 182 : s > ʃ 
+Late Proto-Albanian II stage form : *#kˌapʃˈata#
+*#kˌafʃˈata# | 308 : [-voi,-cor] > f / [-cons] __ [-voi,+cor]
+*#kˌafʃˈatə# | 337 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
+Late Proto-Albanian III stage form : *#kˌafʃˈatə#
+Proto-Tosk-SGheg stage form : *#kˌafʃˈatə#
+Proto-Tosk stage form : *#kˌafʃˈatə#
+*#kafʃˈatə# | 488 : [-prim] > [-stres,-prim,+syl,+son] 
+Old North Tosk stage form : *#kafʃˈatə#
+Final form : *#kafʃˈatə#

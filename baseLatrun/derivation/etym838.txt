@@ -1,26 +1,19 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :838:
-#rˌɑːdˈiːkulɑ# >>> *#rˈiklˠə# ( GOLD : #rˈilkə#) :
-r ˌɑː d ˈiː k u l ɑ 
-*#rːˌɑːdˈiːkulɑ# | 6 : {w r;r} > {rː;rː} / # __
-*#rːˌɑːdˈiːkulːɑ# | 12 : {s l;l} > {lː;lː} / [+syl] __ [+syl]
-*#rːˌɑːdˈiːkəlːɑ# | 29 : [-stres] > ə / [+prim] ( @ )* __ @
-Middle Proto-Albanian I stage form : *#rːˌɑːdˈiːkəlːɑ#
-*#rːˌɑːdˈiːklːɑ# | 32 : ə > ∅ 
-*#rːˌɑːˈiːklːɑ# | 33 : d > ∅ / [+syl] __ [+syl]
-*#rːˌɑˈiklːɑ# | 45 : [+syl] > [-long,-splng] 
-Middle Proto-Albanian II stage form : *#rːˌɑˈiklːɑ#
-*#rːəˈiklːɑ# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
-Late Proto-Albanian I stage form : *#rːəˈiklːɑ#
-Late Proto-Albanian II stage form : *#rːəˈiklːɑ#
-Late Proto-Albanian III stage form : *#rːəˈiklːɑ#
-*#rːəˈiklːa# | 89 : [+lo] > [+front,-back] 
-*#rːəˈiklːə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-*#rːˈiːklːə# | 103 : [-prim] [+prim] > ∅ [+long]/ @ __ @
-Proto-Tosk-SGheg stage form : *#rːˈiːklːə#
-*#rːˈiːklˠə# | 124 : lː > lˠ 
-*#rˈiːklˠə# | 127 : rː > r 
-Proto-Tosk stage form : *#rˈiːklˠə#
-*#rˈiklˠə# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#rˈiklˠə#
-Standard Albanian stage form : *#rˈiklˠə#
-Final form : *#rˈiklˠə#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :838:
+#rˈeːte# >>> *#rˈit# ( GOLD : #rjˈɛt#) :
+r ˈeː t e 
+*#rːˈeːte# | 6 : {w r;r} > {rː;rː} / # __
+Middle Proto-Albanian I stage form : *#rːˈeːte#
+*#rːˈeːtɛ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#rːˈetɛ# | 45 : [+syl] > [-long,-splng] 
+Middle Proto-Albanian II stage form : *#rːˈetɛ#
+*#rːˈitɛ# | 49 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round,-cons]
+Late Proto-Albanian I stage form : *#rːˈitɛ#
+Late Proto-Albanian II stage form : *#rːˈitɛ#
+Late Proto-Albanian III stage form : *#rːˈitɛ#
+*#rːˈit# | 98 : [-stres,-lo] > ∅ / __ #
+Proto-Tosk-SGheg stage form : *#rːˈit#
+*#rˈit# | 127 : rː > r 
+Proto-Tosk stage form : *#rˈit#
+Old North Tosk stage form : *#rˈit#
+Standard Albanian stage form : *#rˈit#
+Final form : *#rˈit#

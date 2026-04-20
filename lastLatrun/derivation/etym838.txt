@@ -1,23 +1,22 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :838:
-#rˌɑːdˈiːkɑ# >>> *#rˈikə# ( GOLD : #rˈikə#) :
-r ˌɑː d ˈiː k ɑ 
-*#rˌɑːdˈikɑ# | 27 : [+syl,+front,+hi] > [-long,-splng] 
-Middle Proto-Albanian I stage form : *#rˌɑːdˈikɑ#
-*#rːˌɑːdˈikɑ# | 56 : {w r;r} > {rː;rː} / # __
-*#rːˌɑdˈikɑ# | 79 : [+syl] > [-long,-splng] 
-Middle Proto-Albanian II stage form : *#rːˌɑdˈikɑ#
-*#rːˌɑðˈikɑ# | 102 : d > ð / [-cons] ( [+son,-nas,+cons] ) __ [βlat,βcons]
-*#rːˌaðˈika# | 154 : [+lo,-round,-nas] > [+front,-back] 
-Late Proto-Albanian I stage form : *#rːˌaðˈika#
-*#rːˌaˈika# | 206 : ð > ∅ / [-prim] __ [+prim]
-*#rːəˈiːka# | 209 : [+stres,-prim,-long] [+syl] > ə [+long,+stres,+syl,+son]
-Late Proto-Albanian II stage form : *#rːəˈiːka#
-*#rːəˈiːkə# | 332 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-*#rːˈiːkə# | 338 : [-stres] [+syl,aprim] > ∅ [along]
-Late Proto-Albanian III stage form : *#rːˈiːkə#
-*#rˈiːkə# | 423 : rː > r 
-Proto-Tosk-SGheg stage form : *#rˈiːkə#
-Proto-Tosk stage form : *#rˈiːkə#
-*#rˈikə# | 500 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#rˈikə#
-Final form : *#rˈikə#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :838:
+#rˈeːte# >>> *#rˈɛt# ( GOLD : #rjˈɛt#) :
+r ˈeː t e 
+*#rˈeːtɛ# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian I stage form : *#rˈeːtɛ#
+*#rːˈeːtɛ# | 56 : {w r;r} > {rː;rː} / # __
+*#rːˈetɛ# | 80 : [+syl] > [-long,-splng] 
+Middle Proto-Albanian II stage form : *#rːˈetɛ#
+*#rːˈetɪ# | 97 : [-stres,+front,-lo] > [+hi,-tense,-cons,-lat,+cont,0delrel] / [+cons] __
+*#rːɪ̯ˈetɪ# | 115 : ∅ > ɪ̯ / @ __ [-round,-hi,+prim] [+cons,-lab] ( [-syl] )* [+front,-round,-cons]
+*#rːˈetɪ# | 130 : [+front,-syl,-cons] > ∅ / [+son,+cons,-front] __ [+prim] [-front,-voi]
+Late Proto-Albanian I stage form : *#rːˈetɪ#
+Late Proto-Albanian II stage form : *#rːˈetɪ#
+*#rːˈetə# | 282 : {ɪ;ɪ̃} > {ə;ə̃} 
+*#rːˈɛtə# | 284 : [+front,+syl,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
+*#rːˈɛt# | 325 : [-back,-front,-stres] > ∅ / __ #
+Late Proto-Albanian III stage form : *#rːˈɛt#
+*#rˈɛt# | 425 : rː > r 
+Proto-Tosk-SGheg stage form : *#rˈɛt#
+Proto-Tosk stage form : *#rˈɛt#
+Old North Tosk stage form : *#rˈɛt#
+Final form : *#rˈɛt#

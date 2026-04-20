@@ -1,22 +1,23 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :1069:
-#trˈumbɑ# >>> *#tɾˈumbə# ( GOLD : #tɾˈumbə#) :
-t r ˈu m b ɑ 
-Middle Proto-Albanian I stage form : *#trˈumbɑ#
-*#trˈʊmbɑ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-*#trˈumbɑ# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#trˈumbɑ#
-Late Proto-Albanian I stage form : *#trˈumbɑ#
-Late Proto-Albanian II stage form : *#trˈumbɑ#
-Late Proto-Albanian III stage form : *#trˈumbɑ#
-*#trˈumba# | 89 : [+lo] > [+front,-back] 
-*#trˈumbə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-*#trˈuːmbə# | 107 : [+prim] > [+long] / __ [+cons,+son]
-*#trˈũːmbə# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
-Proto-Tosk-SGheg stage form : *#trˈũːmbə#
-*#tɾˈũːmbə# | 126 : r > ɾ 
-Proto-Tosk stage form : *#tɾˈũːmbə#
-*#tɾˈuːmbə# | 130 : [-cons,+nas] > [-nas] 
-*#tɾˈumbə# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#tɾˈumbə#
-Standard Albanian stage form : *#tɾˈumbə#
-Final form : *#tɾˈumbə#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :1069:
+#wˈɑllem# >>> *#vˈɛl# ( GOLD : #vˈal#) :
+w ˈɑ l l e m 
+*#wˈɑlem# | 13 : {l;n} > {∅;∅} / l __
+*#βˈɑlem# | 23 : w > β / # __
+*#βˈɑle# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#βˈɑle#
+*#βˈɑlɛ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#βˈɑlɛ#
+*#βˈelɛ# | 49 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round,-cons]
+*#βˈɛlɛ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+Late Proto-Albanian I stage form : *#βˈɛlɛ#
+Late Proto-Albanian II stage form : *#βˈɛlɛ#
+Late Proto-Albanian III stage form : *#βˈɛlɛ#
+*#vˈɛlɛ# | 90 : {β;ʝ} > {v;ɟ} 
+*#vˈɛl# | 98 : [-stres,-lo] > ∅ / __ #
+*#vˈɛːl# | 107 : [+prim] > [+long] / __ [+cons,+son]
+Proto-Tosk-SGheg stage form : *#vˈɛːl#
+Proto-Tosk stage form : *#vˈɛːl#
+*#vˈɛl# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#vˈɛl#
+Standard Albanian stage form : *#vˈɛl#
+Final form : *#vˈɛl#

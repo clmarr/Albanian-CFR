@@ -1,21 +1,23 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :481:
-#kʰˈorum# >>> *#kˈua̯ɾ# ( GOLD : #kˈua̯ɾ#) :
-kʰ ˈo r u m 
-*#kʰˈoru# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
-Middle Proto-Albanian I stage form : *#kʰˈoru#
-*#kˈoru# | 30 : [+sg,-cont] > [-sg] 
-*#kˈɔrʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-*#kˈoru# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#kˈoru#
-*#kˈuo̯ru# | 56 : {ˈo;j ˈø;ˈø} > {ˈu o̯;j ˈy e̯;ˈy e̯} / __ r ( [-lo,-stres] ( m ) ) #
-Late Proto-Albanian I stage form : *#kˈuo̯ru#
-Late Proto-Albanian II stage form : *#kˈuo̯ru#
-Late Proto-Albanian III stage form : *#kˈuo̯ru#
-*#kˈuo̯r# | 98 : [-stres,-lo] > ∅ / __ #
-Proto-Tosk-SGheg stage form : *#kˈuo̯r#
-*#kˈuo̯ɾ# | 126 : r > ɾ 
-*#kˈua̯ɾ# | 129 : [+back,-cons,-hi] > [-back,+front,+lo,-round,-lab,+tense,-cons,-lat,+cont,0delrel] / [-cons,+round,+hi,+back] __
-Proto-Tosk stage form : *#kˈua̯ɾ#
-Old North Tosk stage form : *#kˈua̯ɾ#
-Standard Albanian stage form : *#kˈua̯ɾ#
-Final form : *#kˈua̯ɾ#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :481:
+... >>> *#kɾˈɛʒmbə# ( GOLD : #kɾˈɛzəm#) :
+... 
+Middle Proto-Albanian I stage form : ...
+*#krˈesmɑ# | 48 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#krˈesmɑ#
+*#krˈɛsmɑ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+Late Proto-Albanian I stage form : *#krˈɛsmɑ#
+*#krˈɛʃmɑ# | 81 : s > ʃ 
+Late Proto-Albanian II stage form : *#krˈɛʃmɑ#
+Late Proto-Albanian III stage form : *#krˈɛʃmɑ#
+*#krˈɛʃma# | 89 : [+lo] > [+front,-back] 
+*#krˈɛʃmə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
+*#krˈɛːʃmə# | 108 : [+prim] > [+long] / __ [+strid]
+*#krˈɛːʒmə# | 117 : ʃ > ʒ / __ [+cons,+voi]
+Proto-Tosk-SGheg stage form : *#krˈɛːʒmə#
+*#krˈɛːʒmbə# | 121 : ∅ > b / m __ [-stres]
+*#kɾˈɛːʒmbə# | 126 : r > ɾ 
+Proto-Tosk stage form : *#kɾˈɛːʒmbə#
+*#kɾˈɛʒmbə# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#kɾˈɛʒmbə#
+Standard Albanian stage form : *#kɾˈɛʒmbə#
+Final form : *#kɾˈɛʒmbə#

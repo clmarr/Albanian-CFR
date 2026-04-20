@@ -1,20 +1,21 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :562:
-... >>> *#lˈibəɾ# ( GOLD : #lˈibəɾ#) :
-... 
-Middle Proto-Albanian I stage form : ...
-Middle Proto-Albanian II stage form : ...
-Late Proto-Albanian I stage form : ...
-*#lˈibɛɾu# | 201 : r > ɾ 
-Late Proto-Albanian II stage form : *#lˈibɛɾu#
-*#lˈibəɾu# | 254 : [+front,-stres,-lo,-hi] > ə / [+cons] __
-*#lˈibəɾə# | 316 : [-stres,+round,-lo] > ə / __ #
-*#lˈibəɾ# | 320 : [-back,-front,-stres] > ∅ / __ #
-Late Proto-Albanian III stage form : *#lˈibəɾ#
-*#lˈibɾ# | 430 : [-hi,-stres] > ∅ / [-syl] __ [+son,+cons,-nas] #
-*#lˈibɾ̩# | 439 : [+cons,+son,-nas] > [+syl,-stres,-prim,+son] / [-son] __ #
-Proto-Tosk-SGheg stage form : *#lˈibɾ̩#
-Proto-Tosk stage form : *#lˈibɾ̩#
-Old North Tosk stage form : *#lˈibɾ̩#
-*#lˈibəɾ̩# | 508 : ∅ > ə / __ [+cons,+syl]
-*#lˈibəɾ# | 509 : [+syl,-cons] [+cons,+syl,aprim,bstres] > [aprim,bstres] [-syl,0stres,0prim]
-Final form : *#lˈibəɾ#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :562:
+#lˈukrum# >>> *#lˈukəɾ# ( GOLD : #lˈukəɾ#) :
+l ˈu k r u m 
+*#lˈukru# | 4 : [+nas,+cons] > ∅ / [-stres] __ #
+*#lˈʊkrʊ# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian I stage form : *#lˈʊkrʊ#
+*#lˈukru# | 84 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#lˈukru#
+Late Proto-Albanian I stage form : *#lˈukru#
+*#lˈukɾu# | 202 : r > ɾ 
+Late Proto-Albanian II stage form : *#lˈukɾu#
+*#lˈukɾə# | 319 : [-stres,+round,-lo] > ə / __ #
+*#lˈukɾ# | 325 : [-back,-front,-stres] > ∅ / __ #
+Late Proto-Albanian III stage form : *#lˈukɾ#
+*#lˈukɾ̩# | 441 : [+cons,+son,-nas] > [+syl,-stres,-prim,+son] / [-son] __ #
+Proto-Tosk-SGheg stage form : *#lˈukɾ̩#
+Proto-Tosk stage form : *#lˈukɾ̩#
+Old North Tosk stage form : *#lˈukɾ̩#
+*#lˈukəɾ̩# | 510 : ∅ > ə / __ [+cons,+syl]
+*#lˈukəɾ# | 511 : [+syl,-cons] [+cons,+syl,aprim,bstres] > [aprim,bstres] [-syl,0stres,0prim]
+Final form : *#lˈukəɾ#

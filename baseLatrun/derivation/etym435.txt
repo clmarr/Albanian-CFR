@@ -1,27 +1,19 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :435:
-#kˌoˈiːnioː# >>> *#t͡ʃˈiɲ# ( GOLD : #cˈij#) :
-k ˌo ˈiː n i oː 
-*#kwˈiːnjoː# | 9 : [-lo,+syl,-prim] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-*#kwˈiːɲoː# | 16 : {ŋ n j;ŋ n;ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ;ɲ;ɲ} 
-Middle Proto-Albanian I stage form : *#kwˈiːɲoː#
-*#kwˈiːɲøː# | 41 : [+back,+long,+syl,-lo] > [+front,-back] 
-*#kwˈiɲø# | 45 : [+syl] > [-long,-splng] 
-Middle Proto-Albanian II stage form : *#kwˈiɲø#
-*#kˈiɲø# | 51 : w > ∅ / [-cont,+back] __
-*#kˈiɲe# | 64 : [+front,-cons,-hi] > [-round,-lab] 
-*#kˈiɲɛ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-Late Proto-Albanian I stage form : *#kˈiɲɛ#
-*#cˈiɲɛ# | 80 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
-Late Proto-Albanian II stage form : *#cˈiɲɛ#
-Late Proto-Albanian III stage form : *#cˈiɲɛ#
-*#cˈiɲ# | 98 : [-stres,-lo] > ∅ / __ #
-*#cˈiːɲ# | 107 : [+prim] > [+long] / __ [+cons,+son]
-*#cˈĩːɲ# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
-Proto-Tosk-SGheg stage form : *#cˈĩːɲ#
-Proto-Tosk stage form : *#cˈĩːɲ#
-*#cˈiːɲ# | 130 : [-cons,+nas] > [-nas] 
-*#cˈiɲ# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#cˈiɲ#
-Standard Albanian stage form : *#cˈiɲ#
-*#t͡ʃˈiɲ# | 145 : c > t͡ʃ 
-Final form : *#t͡ʃˈiɲ#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :435:
+#kˈokkɑm# >>> *#kˈɔkkə# ( GOLD : #kˈɔkə#) :
+k ˈo k k ɑ m 
+*#kˈokkɑ# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#kˈokkɑ#
+*#kˈɔkkɑ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#kˈokkɑ# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#kˈokkɑ#
+*#kˈɔkkɑ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+Late Proto-Albanian I stage form : *#kˈɔkkɑ#
+Late Proto-Albanian II stage form : *#kˈɔkkɑ#
+Late Proto-Albanian III stage form : *#kˈɔkkɑ#
+*#kˈɔkka# | 89 : [+lo] > [+front,-back] 
+*#kˈɔkkə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
+Proto-Tosk-SGheg stage form : *#kˈɔkkə#
+Proto-Tosk stage form : *#kˈɔkkə#
+Old North Tosk stage form : *#kˈɔkkə#
+Standard Albanian stage form : *#kˈɔkkə#
+Final form : *#kˈɔkkə#

@@ -1,36 +1,35 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :143:
-#ˌekspˌediːtˈɑːnioː# >>> *#ʃpətˈɔj# ( GOLD : #ʃpətˈɔj#) :
-ˌe k s p ˌe d iː t ˈɑː n i oː 
-*#ˌespˌediːtˈɑːnioː# | 1 : k > ∅ / [-prim] __ s
-*#ˌespˌediːtˈɑːnjoː# | 9 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-*#ˌespˌediːtˈɒːnjoː# | 12 : [-hi,+long,+prim] > [+round,+lab] / __ [+son,+cons] j [+round]
-*#ˌɛspˌɛdiːtˈɒːnjoː# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-*#ˌɛspˌɛditˈɒːnjoː# | 27 : [+syl,+front,+hi] > [-long,-splng] 
-*#ˌɛspˌɛditˈɒːnju# | 33 : [+round,-lo,-prim,-hi] > [+hi,-long,-splng] 
-Middle Proto-Albanian I stage form : *#ˌɛspˌɛditˈɒːnju#
-*#ˌɛspˌɛditˈɒːɲu# | 48 : {n j;nː j} > {ɲ;ɲ} 
-*#ˌɛspˌɛditˈɔːɲu# | 75 : [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
-*#ˌɛspˌɛditˈɔɲu# | 79 : [+syl] > [-long,-splng] 
-*#ˌɛspˌɛditˈoɲu# | 83 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#ˌɛspˌɛditˈoɲu#
-*#ˌɛspˌɛdɪtˈoɲu# | 97 : [-stres,+front,-lo] > [+hi,-tense,-cons,-lat,+cont,0delrel] / [+cons] __
-*#ˌɛspˌɛðɪtˈoɲu# | 102 : d > ð / [-cons] ( [+son,-nas,+cons] ) __ [βlat,βcons]
-*#ˌɛspɪðɪtˈoɲu# | 109 : [+front,-prim] > ɪ / [+lab,+cons] __ ( [+cor,-son,+cont] ) [+cor,-son] ( [+syl] ( @ )* ) [+prim]
-*#spɪðɪtˈoɲu# | 144 : [-prim,-long,-cons] > ∅ / # __
-Late Proto-Albanian I stage form : *#spɪðɪtˈoɲu#
-*#ʃpɪðɪtˈoɲu# | 181 : s > ʃ 
-*#ʃpɪðɪtˈɔɲu# | 188 : [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
-*#ʃpɪðɪtˈɔ̃ɲu# | 247 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian II stage form : *#ʃpɪðɪtˈɔ̃ɲu#
-*#ʃpɪðtˈɔ̃ɲu# | 273 : [-prim,-lo,-long] > ∅ / [-son,+cons,+cont,-front] __ [-voi] [-cons]
-*#ʃpəðtˈɔ̃ɲu# | 279 : {ɪ;ɪ̃} > {ə;ə̃} 
-*#ʃpətˈɔ̃ɲu# | 287 : ð > ∅ / __ [+cons]
-*#ʃpətˈɔ̃ɲə# | 316 : [-stres,+round,-lo] > ə / __ #
-*#ʃpətˈɔ̃ɲ# | 320 : [-back,-front,-stres] > ∅ / __ #
-Late Proto-Albanian III stage form : *#ʃpətˈɔ̃ɲ#
-Proto-Tosk-SGheg stage form : *#ʃpətˈɔ̃ɲ#
-Proto-Tosk stage form : *#ʃpətˈɔ̃ɲ#
-*#ʃpətˈɔɲ# | 481 : [-cons,+nas] > [-nas] 
-Old North Tosk stage form : *#ʃpətˈɔɲ#
-*#ʃpətˈɔj# | 514 : ɲ > j / [-hi] __ #
-Final form : *#ʃpətˈɔj#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :143:
+#ˌekstˌenuˈɑːnioː# >>> *#ʃtəɾˈɔj# ( GOLD : #ʃtəɾˈɔj#) :
+ˌe k s t ˌe n u ˈɑː n i oː 
+*#ˌestˌenuˈɑːnioː# | 1 : k > ∅ / [-prim] __ s
+*#ˌestˌenwˈɑːnjoː# | 9 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+*#ˌestˌenwˈɒːnjoː# | 12 : [-hi,+long,+prim] > [+round,+lab] / __ [+cont,+cor] j [+round]
+*#ˌɛstˌɛnwˈɒːnjoː# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+*#ˌɛstˌɛnwˈɒːnju# | 33 : [+round,-lo,-prim,-hi] > [+hi,-long,-splng] 
+Middle Proto-Albanian I stage form : *#ˌɛstˌɛnwˈɒːnju#
+*#ˌɛstˌɛnwˈɒːɲu# | 48 : {n j;nː j} > {ɲ;ɲ} 
+*#ˌɛstˌɛnwˈɔːɲu# | 76 : [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
+*#ˌɛstˌɛnwˈɔɲu# | 80 : [+syl] > [-long,-splng] 
+*#ˌɛstˌɛnwˈoɲu# | 84 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#ˌɛstˌɛnwˈoɲu#
+*#ˌɛstˌɛnˈoɲu# | 98 : w > ∅ / n __
+*#stˌɛnˈoɲu# | 144 : [-prim,-long,-cons] > ∅ / # __
+Late Proto-Albanian I stage form : *#stˌɛnˈoɲu#
+*#ʃtˌɛnˈoɲu# | 182 : s > ʃ 
+*#ʃtˌɛnˈɔɲu# | 189 : [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
+*#ʃtˌɛɾ̃ˈɔɲu# | 226 : n > ɾ̃ / [+syl,-hi] __ [+syl]
+*#ʃtɪɾ̃ˈɔɲu# | 237 : [-prim,+front,-lo,-long] > ɪ / [-son,-hi] __ [+nas,+cons] ( [+cont] ( @ )* ) [+prim]
+*#ʃtɪ̃ɾ̃ˈɔ̃ɲu# | 248 : [-cons] > [+nas] / __ [+nas,+cons]
+Late Proto-Albanian II stage form : *#ʃtɪ̃ɾ̃ˈɔ̃ɲu#
+*#ʃtə̃ɾ̃ˈɔ̃ɲu# | 282 : {ɪ;ɪ̃} > {ə;ə̃} 
+*#ʃtə̃ɾ̃ˈɔ̃ɲə# | 319 : [-stres,+round,-lo] > ə / __ #
+*#ʃtə̃ɾ̃ˈɔ̃ɲ# | 325 : [-back,-front,-stres] > ∅ / __ #
+Late Proto-Albanian III stage form : *#ʃtə̃ɾ̃ˈɔ̃ɲ#
+Proto-Tosk-SGheg stage form : *#ʃtə̃ɾ̃ˈɔ̃ɲ#
+Proto-Tosk stage form : *#ʃtə̃ɾ̃ˈɔ̃ɲ#
+*#ʃtəɾ̃ˈɔ̃ɲ# | 479 : [-prim,-cons] > [-nas] 
+*#ʃtəɾ̃ˈɔɲ# | 482 : [-cons,+nas] > [-nas] 
+*#ʃtəɾˈɔɲ# | 485 : ɾ̃ > ɾ 
+Old North Tosk stage form : *#ʃtəɾˈɔɲ#
+*#ʃtəɾˈɔj# | 516 : ɲ > j / [-hi] __ #
+Final form : *#ʃtəɾˈɔj#

@@ -1,19 +1,26 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :855:
-#rˈeːte# >>> *#rˈit# ( GOLD : #rjˈɛt#) :
-r ˈeː t e 
-*#rːˈeːte# | 6 : {w r;r} > {rː;rː} / # __
-Middle Proto-Albanian I stage form : *#rːˈeːte#
-*#rːˈeːtɛ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-*#rːˈetɛ# | 45 : [+syl] > [-long,-splng] 
-Middle Proto-Albanian II stage form : *#rːˈetɛ#
-*#rːˈitɛ# | 49 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round,-cons]
-Late Proto-Albanian I stage form : *#rːˈitɛ#
-Late Proto-Albanian II stage form : *#rːˈitɛ#
-Late Proto-Albanian III stage form : *#rːˈitɛ#
-*#rːˈit# | 98 : [-stres,-lo] > ∅ / __ #
-Proto-Tosk-SGheg stage form : *#rːˈit#
-*#rˈit# | 127 : rː > r 
-Proto-Tosk stage form : *#rˈit#
-Old North Tosk stage form : *#rˈit#
-Standard Albanian stage form : *#rˈit#
-Final form : *#rˈit#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :855:
+#rˌotˈundɑ# >>> *#rətˈunə# ( GOLD : #uɾtˈundə#) :
+r ˌo t ˈu n d ɑ 
+*#rːˌotˈundɑ# | 6 : {w r;r} > {rː;rː} / # __
+Middle Proto-Albanian I stage form : *#rːˌotˈundɑ#
+*#rːˌɔtˈʊndɑ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#rːˌotˈundɑ# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#rːˌotˈundɑ#
+*#rːˌɔtˈundɑ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+*#rːətˈundɑ# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
+Late Proto-Albanian I stage form : *#rːətˈundɑ#
+Late Proto-Albanian II stage form : *#rːətˈundɑ#
+Late Proto-Albanian III stage form : *#rːətˈundɑ#
+*#rːətˈunda# | 89 : [+lo] > [+front,-back] 
+*#rːətˈundə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
+*#rːətˈuːndə# | 107 : [+prim] > [+long] / __ [+cons,+son]
+*#rːətˈũːndə# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
+Proto-Tosk-SGheg stage form : *#rːətˈũːndə#
+*#rətˈũːndə# | 127 : rː > r 
+Proto-Tosk stage form : *#rətˈũːndə#
+*#rətˈuːndə# | 130 : [-cons,+nas] > [-nas] 
+*#rətˈundə# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#rətˈundə#
+Standard Albanian stage form : *#rətˈundə#
+*#rətˈunə# | 146 : d > ∅ / n __
+Final form : *#rətˈunə#

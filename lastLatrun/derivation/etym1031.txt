@@ -1,14 +1,25 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :1031:
-... >>> *#təmplˈa# ( GOLD : #təmplˈa#) :
-... 
-Middle Proto-Albanian I stage form : ...
-Middle Proto-Albanian II stage form : ...
-Late Proto-Albanian I stage form : ...
-Late Proto-Albanian II stage form : ...
-Late Proto-Albanian III stage form : ...
-Proto-Tosk-SGheg stage form : ...
-Proto-Tosk stage form : *#tm̩plˈa#
-Old North Tosk stage form : *#tm̩plˈa#
-*#təm̩plˈa# | 508 : ∅ > ə / __ [+cons,+syl]
-*#təmplˈa# | 509 : [+syl,-cons] [+cons,+syl,aprim,bstres] > [aprim,bstres] [-syl,0stres,0prim]
-Final form : *#təmplˈa#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :1031:
+#trˈiːbulum# >>> *#tɾˈua̯lˠ# ( GOLD : #tɾˈua̯lˠ#) :
+t r ˈiː b u l u m 
+*#trˈiːbulu# | 4 : [+nas,+cons] > ∅ / [-stres] __ #
+*#trˈiːbʊlʊ# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+*#trˈibʊlʊ# | 27 : [+syl,+front,+hi] > [-long,-splng] 
+*#trˈiβʊlʊ# | 40 : b > β / [-cons] __ ( [+son,+cons] ) [+syl]
+Middle Proto-Albanian I stage form : *#trˈiβʊlʊ#
+*#trˈiβulu# | 84 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#trˈiβulu#
+*#trˈiwulu# | 110 : β > w / [-cons] __
+Late Proto-Albanian I stage form : *#trˈiwulu#
+*#trˈuə̯lu# | 163 : [+stres,βround,!βhi] w [-stres] > [+round,+lab,+back,-front,!βtense,-lo] ə̯ ∅
+*#tɾˈuə̯lu# | 202 : r > ɾ 
+Late Proto-Albanian II stage form : *#tɾˈuə̯lu#
+*#tɾˈuə̯lˠu# | 250 : l > lˠ / [-cons] __ ( m ) [-front,+syl]
+*#tɾˈuo̯lˠu# | 283 : [ihi,itense,+syl,afront,bback,uround] [-back,-front,-cons] > [+hi,+tense,-cons,-lat,+cont,0delrel] [-syl,+tense,afront,bback,uround,ulab,0stres,0prim,-cons,-lat,+cont,0delrel]
+*#tɾˈuo̯lˠə# | 319 : [-stres,+round,-lo] > ə / __ #
+*#tɾˈuo̯lˠ# | 325 : [-back,-front,-stres] > ∅ / __ #
+Late Proto-Albanian III stage form : *#tɾˈuo̯lˠ#
+Proto-Tosk-SGheg stage form : *#tɾˈuo̯lˠ#
+*#tɾˈua̯lˠ# | 466 : [+back,-cons,-hi] > [-back,+front,+lo,-round,-lab,+tense,-cons,-lat,+cont,0delrel] / [+round] __
+Proto-Tosk stage form : *#tɾˈua̯lˠ#
+Old North Tosk stage form : *#tɾˈua̯lˠ#
+Final form : *#tɾˈua̯lˠ#

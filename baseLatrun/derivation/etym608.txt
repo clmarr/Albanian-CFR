@@ -1,21 +1,27 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :608:
-... >>> *#mbəɾˈi# ( GOLD : #məɾˈi#) :
-... 
-Middle Proto-Albanian I stage form : ...
-*#mˌɑrˈiɑ# | 45 : [+syl] > [-long,-splng] 
-Middle Proto-Albanian II stage form : *#mˌɑrˈiɑ#
-*#mərˈiɑ# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
-Late Proto-Albanian I stage form : *#mərˈiɑ#
-Late Proto-Albanian II stage form : *#mərˈiɑ#
-Late Proto-Albanian III stage form : *#mərˈiɑ#
-*#mərˈia# | 89 : [+lo] > [+front,-back] 
-*#mərˈiə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-*#mərˈiː# | 109 : [+syl] [-prim,-round,-lo] > [+long] ∅/ __ #
-Proto-Tosk-SGheg stage form : *#mərˈiː#
-*#mbərˈiː# | 121 : ∅ > b / m __ [-stres]
-*#mbəɾˈiː# | 126 : r > ɾ 
-Proto-Tosk stage form : *#mbəɾˈiː#
-*#mbəɾˈi# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#mbəɾˈi#
-Standard Albanian stage form : *#mbəɾˈi#
-Final form : *#mbəɾˈi#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :608:
+#mˌɑrˈuːnum# >>> *#mbəɾˈy# ( GOLD : #məɾˈu#) :
+m ˌɑ r ˈuː n u m 
+*#mˌɑrˈuːnu# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#mˌɑrˈuːnu#
+*#mˌɑrˈyːnu# | 41 : [+back,+long,+syl,-lo] > [+front,-back] 
+*#mˌɑrˈyːnʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#mˌɑrˈynʊ# | 45 : [+syl] > [-long,-splng] 
+*#mˌɑrˈynu# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#mˌɑrˈynu#
+*#mərˈynu# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
+Late Proto-Albanian I stage form : *#mərˈynu#
+Late Proto-Albanian II stage form : *#mərˈynu#
+Late Proto-Albanian III stage form : *#mərˈynu#
+*#mərˈyn# | 98 : [-stres,-lo] > ∅ / __ #
+*#mərˈyːn# | 107 : [+prim] > [+long] / __ [+cons,+son]
+*#mərˈỹːn# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
+*#mərˈỹː# | 113 : n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ #
+Proto-Tosk-SGheg stage form : *#mərˈỹː#
+*#mbərˈỹː# | 121 : ∅ > b / m __ [-stres]
+*#mbəɾˈỹː# | 126 : r > ɾ 
+Proto-Tosk stage form : *#mbəɾˈỹː#
+*#mbəɾˈyː# | 130 : [-cons,+nas] > [-nas] 
+*#mbəɾˈy# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#mbəɾˈy#
+Standard Albanian stage form : *#mbəɾˈy#
+Final form : *#mbəɾˈy#

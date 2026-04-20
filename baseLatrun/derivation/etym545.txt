@@ -1,25 +1,23 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :545:
-#lˈɑːridum# >>> *#lˈaɾð# ( GOLD : #lˈaɾð#) :
-l ˈɑː r i d u m 
-*#lˈɑːridu# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
-*#lˈɑːrədu# | 29 : [-stres] > ə / [+prim] ( @ )* __ @
-Middle Proto-Albanian I stage form : *#lˈɑːrədu#
-*#lˈɑːrdu# | 32 : ə > ∅ 
-*#lˈɑːrðu# | 34 : d > ð / r __
-*#lˈɑːrðʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-*#lˈɑrðʊ# | 45 : [+syl] > [-long,-splng] 
-*#lˈɑrðu# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#lˈɑrðu#
-Late Proto-Albanian I stage form : *#lˈɑrðu#
-Late Proto-Albanian II stage form : *#lˈɑrðu#
-Late Proto-Albanian III stage form : *#lˈɑrðu#
-*#lˈarðu# | 89 : [+lo] > [+front,-back] 
-*#lˈarð# | 98 : [-stres,-lo] > ∅ / __ #
-*#lˈaːrð# | 107 : [+prim] > [+long] / __ [+cons,+son]
-Proto-Tosk-SGheg stage form : *#lˈaːrð#
-*#lˈaːɾð# | 126 : r > ɾ 
-Proto-Tosk stage form : *#lˈaːɾð#
-*#lˈaɾð# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#lˈaɾð#
-Standard Albanian stage form : *#lˈaɾð#
-Final form : *#lˈaɾð#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :545:
+#lˈeporjeːs# >>> *#lˈipj# ( GOLD : #lˈɛpuj#) :
+l ˈe p o r j eː s 
+*#lˈeporjeː# | 4 : [+strid,+cor,+cont] > ∅ / __ #
+*#lˈepoʎeː# | 8 : r j > ʎ / @ __ @
+*#lˈepəʎeː# | 29 : [-stres] > ə / [+prim] ( @ )* __ @
+Middle Proto-Albanian I stage form : *#lˈepəʎeː#
+*#lˈepʎeː# | 32 : ə > ∅ 
+*#lˈɛpʎeː# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#lˈɛpʎe# | 45 : [+syl] > [-long,-splng] 
+Middle Proto-Albanian II stage form : *#lˈɛpʎe#
+*#lˈipʎe# | 49 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round,-cons]
+*#lˈipʎɛ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+Late Proto-Albanian I stage form : *#lˈipʎɛ#
+Late Proto-Albanian II stage form : *#lˈipʎɛ#
+Late Proto-Albanian III stage form : *#lˈipʎɛ#
+*#lˈipʎ# | 98 : [-stres,-lo] > ∅ / __ #
+Proto-Tosk-SGheg stage form : *#lˈipʎ#
+Proto-Tosk stage form : *#lˈipʎ#
+*#lˈipj# | 132 : ʎ > j 
+Old North Tosk stage form : *#lˈipj#
+Standard Albanian stage form : *#lˈipj#
+Final form : *#lˈipj#

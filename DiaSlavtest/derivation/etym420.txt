@@ -1,5 +1,5 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/DiaSlavtest'; etymon number :420:
-... >>> *#batˈit# ( GOLD : #batˈit#) :
+Derivation file for run '../Albanian-CFR/DiaSlavTest'; etymon number :420:
+... >>> *#bəɾzˈəɾə# ( GOLD : #bəɾzˈəɾə#) :
 ... 
 Proto-Balkan-Indo-European stage form : ...
 Archaic Proto-Albanian stage form : ...
@@ -7,12 +7,25 @@ Classical Proto-Albanian stage form : ...
 Middle Proto-Albanian I stage form : ...
 Middle Proto-Albanian II stage form : ...
 Late Proto-Albanian I stage form : ...
-Late Proto-Albanian II stage form : ...
-Late Proto-Albanian III stage form : ...
-*#bˌɑtˈit# | 473 : [+hi,-tense,-stres,-cons] > ∅ 
-*#bˌatˈit# | 532 : [+lo,-round] > [+front,-back] 
-Proto-Tosk-SGheg stage form : *#bˌatˈit#
-Proto-Tosk stage form : *#bˌatˈit#
-*#batˈit# | 557 : [-prim] > [-stres,-prim,+syl,+son] 
-Old North Tosk stage form : *#batˈit#
-Final form : *#batˈit#
+*#bˌɑrd͡zˈɑnɑ# | 255 : [+lo,+syl,-long,-tense] > [+tense,-front,+back,-cons,-lat,+cont,0delrel] 
+*#bərd͡zˈɑnɑ# | 259 : [-prim,+stres,-round,-long] > ə / # [-nas,+cons] __ [+cor,+son,-nas] [-son,sstrid,scor]
+*#bəɾd͡zˈɑnɑ# | 273 : r > ɾ 
+*#bəɾd͡zˈɑɾ̃ɑ# | 297 : n > ɾ̃ / [+syl,-hi] __ [+syl]
+*#bəɾd͡ʒˈɑɾ̃ɑ# | 314 : [+strid,+cor,+voi] > d͡ʒ 
+*#bəɾzˈɑɾ̃ɑ# | 316 : [-ant,+distr,+delrel] > [+ant,-distr,+cont,-front,+cor,0delrel] 
+*#bəɾzˈɑ̃ɾ̃ɑ# | 319 : [-cons] > [+nas] / __ [+nas,+cons]
+Late Proto-Albanian II stage form : *#bəɾzˈɑ̃ɾ̃ɑ#
+Late Proto-Albanian III stage form : *#bəɾzˈɑ̃ɾ̃ɑ#
+*#bɾzˈɑ̃ɾ̃ɑ# | 504 : [-hi,-stres] > ∅ / [-syl] __ [+son,+cons,-nas] [+cons]
+*#bɾ̩zˈɑ̃ɾ̃ɑ# | 513 : [+cons,+son,-nas] > [+syl,-stres,-prim,+son] / [-son] __ [+cons]
+*#bɾ̩zˈãɾ̃a# | 535 : [+lo,-round] > [+front,-back] 
+Proto-Tosk-SGheg stage form : *#bɾ̩zˈãɾ̃a#
+*#bɾ̩zˈãɾ̃ə# | 543 : {o;ɔ;a} > {ə;ə;ə} / __ #
+Proto-Tosk stage form : *#bɾ̩zˈãɾ̃ə#
+*#bɾ̩zˈə̃ɾ̃ə# | 549 : [+lo,+nas,+syl,-long] > [-lo,-back,-front,0tense,-lab,-round] 
+*#bɾ̩zˈəɾ̃ə# | 553 : [-cons,+nas] > [-nas] 
+*#bɾ̩zˈəɾə# | 556 : ɾ̃ > ɾ 
+Old North Tosk stage form : *#bɾ̩zˈəɾə#
+*#bəɾ̩zˈəɾə# | 581 : ∅ > ə / __ [+cons,+syl]
+*#bəɾzˈəɾə# | 582 : [+syl,-cons] [+cons,+syl,aprim,bstres] > [aprim,bstres] [-syl,0stres,0prim]
+Final form : *#bəɾzˈəɾə#

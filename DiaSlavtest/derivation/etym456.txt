@@ -1,5 +1,5 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/DiaSlavtest'; etymon number :456:
-... >>> *#blˈudə# ( GOLD : #blˈudə#) :
+Derivation file for run '../Albanian-CFR/DiaSlavTest'; etymon number :456:
+... >>> *#vəʃnˈik# ( GOLD : #vəʃnˈik#) :
 ... 
 Proto-Balkan-Indo-European stage form : ...
 Archaic Proto-Albanian stage form : ...
@@ -7,14 +7,22 @@ Classical Proto-Albanian stage form : ...
 Middle Proto-Albanian I stage form : ...
 Middle Proto-Albanian II stage form : ...
 Late Proto-Albanian I stage form : ...
-Late Proto-Albanian II stage form : ...
-Late Proto-Albanian III stage form : ...
-*#bʎˈudɔ# | 444 : [+lo,+round] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
-*#bʎˈudɑ# | 490 : [+back,-hi,+round,-prim] > [+lo,+tense,-round,-lab,-cons,-lat,+cont,0delrel] / __ #
-*#blˈudɑ# | 530 : ʎ > l / # ( ʃ ) ( [+lab,uhi,ucont] )* __ [-cons]
-*#blˈuda# | 532 : [+lo,-round] > [+front,-back] 
-Proto-Tosk-SGheg stage form : *#blˈuda#
-*#blˈudə# | 540 : {o;ɔ;a} > {ə;ə;ə} / __ #
-Proto-Tosk stage form : *#blˈudə#
-Old North Tosk stage form : *#blˈudə#
-Final form : *#blˈudə#
+*#sʊwˌɪrstɪnˈikə# | 242 : ʊ > ə / __ #
+*#swˌɪrstɪnˈikə# | 243 : ʊ > ∅ 
+*#ʃwˌɪrʃtɪnˈikə# | 253 : s > ʃ 
+*#ʃwˌɪɾʃtɪnˈikə# | 273 : r > ɾ 
+*#ʃwˌɪɾʃtnˈikə# | 275 : [-stres,-cons,-nas,-lo] > ∅ / [+syl] ( @ )* __ [+nas,+cont,+cons] [-cons]
+Late Proto-Albanian II stage form : *#ʃwˌɪɾʃtnˈikə#
+*#ʃwˌɪɾʃtnˈik# | 396 : [-back,-front,-stres] > ∅ / __ #
+Late Proto-Albanian III stage form : *#ʃwˌɪɾʃtnˈik#
+*#ʃvˌɪɾʃtnˈik# | 439 : w > v / [+cons] __
+*#vˌɪɾʃtnˈik# | 442 : {s;ʃ} > {∅;∅} / __ ( [-prim] ) [+lab,+cont,-son] ( [+son] )* [+cor,+strid]
+*#vˌɛɾʃtnˈik# | 461 : [+hi,-round,-tense] > [-hi,+stres,+syl,+son] / __ ɾ
+*#vˌɛɾʃnˈik# | 480 : [-cont,-son] > ∅ / [-lo] __ [+nas,+cons]
+*#vˌɾ̩ʃnˈik# | 519 : [+stres,-prim,-lo,-hi,-round] ɾ > ˌɾ̩/ __ [-syl]
+*#vˌəʃnˈik# | 525 : {ˌɾ̩;ɾ̩} > {ˌə;ə} / # [+cons,ʋvoi,ʋcont] __ [+strid,afront,!alab] [+cons] [-cons,+tense]
+Proto-Tosk-SGheg stage form : *#vˌəʃnˈik#
+Proto-Tosk stage form : *#vˌəʃnˈik#
+*#vəʃnˈik# | 554 : ˌə > ə 
+Old North Tosk stage form : *#vəʃnˈik#
+Final form : *#vəʃnˈik#

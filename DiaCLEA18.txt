@@ -277,11 +277,16 @@ $ð > j / [+syl] __ [+syl]
 $DIACLEA CORRECTION A2.CXXXXVII.e APA reduction of non-primary {non-low} non-final front vowels in C __ C . Bleeds i-mutation -- diˈaːmeron > zëmër not zimër, skˈaripʰa > shkarp- not zgjerp-,stˈeripʰa > shterp- not shtirp- , mastíkhino > meshteker etc; also feeds m> b in meletta > bletə. Only happens to initials if separated from word onset by sonorant {bletë, lëken vs. qershi, përrua}. Doesnt happen to finals : dranin > dre. Doesn't happen in strong syllables. 
 [-prim,+front] > ə / {@ [-syl];# [+son,-syl]} __ [+cons] [+syl]
 
-$DIACLEA CORRECTION A2.CXXXXVII.o pretonic short APA round vowels reduce to ə if after a voiceless element. Not long: gershet. 
-[-prim,+round,-long] > ə / [-voi] __ (@)* [+prim]
+$DIACLEA CORRECTION A1.XXXVI h deleted after consonants in APA. Not quite for CPA: perhōra > pərherə. Superfluous.
+$h > ∅ / [+cons] __
+$DIACLEA CORRECTION A1.XXXVI.ɦ Greek spirit, currently coded as ɦ, deleted everywhere. 
+ɦ > ∅
 
-$DIACLEA CORRECTION A2.IX countertonic em to um rule. Does not feed A2.CXXXXVII.o, pretonic short round vowel reductions. Shkumbin, thunder < ḱemtrom, perhaps se̍mateia > gjymësë -- last one seems to justify full raising.
-[-prim,+stres] > [+round,+lab,-front,+back,-lo,+hi] / __ m
+$DIACLEA CORRECTION A2.IX countertonic em to um rule. Does not feed A2.CXXXXVII.o, pretonic short round vowel reductions. Shkumbin, thunder < ḱemtrom, perhaps se̍mateia > gjymësë -- last one seems to justify full raising. Triggers lengthening, it seems. 
+[-prim,+stres] > [+round,+lab,-front,+back,-lo,+hi,+long] / __ m
+
+$DIACLEA CORRECTION A2.CXXXXVII.o pretonic short APA back vowels reduce to ə if after a voiceless element. Not long: gershet. Non-round back reductions to ɐ seen in aphaeresis at a point later than main MPA wave: anātja > rosë (not nosë nor arosë), harenton > rend (not rrend nor arend), llërë ~ llânë "forearm" (not lërë nor alërë -- needs to have fallen late enough to not counterbleed l-darkening in LPA II.)   
+[-prim,+back,-long] > ɐ / # ((@)* [-voi]) __ (@)* [+prim]
 
 $DV4.1B2 -- m to b before l -- DV'18 lists bluan "to grind" < mleh1-, bletë "bee" < *m[e]lit? (question mark in the original) -- given the second example, there may have been some vowel effacement before this point? But DV'18 does not attribute this outcome for Latin loans into Proto-Albanian, and indeed they don't seem to show it exactly (e.g. simulatūra > shëmbëlltyrë etc.)
 $DIACLEA CORRECTION C3A.XIII D4.1B2 can see through an unstressed vowel 
@@ -336,10 +341,6 @@ $note that this is NOT a proposed sound change, but a temporary solution to the 
 $ DIACLEA CORRECTION C3B.XXIV late APA i lengthening doesn't happen to tonic vowels in hiatus with following : manía  > məri. Also, bled by A2.CXXXXIV.
 [+hi,+front,+syl] > [+long] / __ [-syl]
 
-$DIACLEA CORRECTION A1.XXXVI h deleted after consonants in APA. Not quite for CPA: perhōra > pərherə. Superfluous.
-$h > ∅ / [+cons] __
-$DIACLEA CORRECTION A1.XXXVI.ɦ Greek spirit, currently coded as ɦ, deleted everywhere. 
-ɦ > ∅
 
 $DIACLEA CORRECTION A2.CXXXXII APA r > rr across a primary or secondary stressed vowel to a labial that is not postconsonantal
 r > r r / {#;[+syl]} [+lab,-syl] [+stres] __ [+syl]
@@ -483,9 +484,9 @@ $ˈɪ > ˈi / __ {[+front,+hi,-syl,-nas];[+lab]}
 $DIACLEA CORRECTION A2.XXXXIV: s > h in A-prim (W) __ V̯ -- tatoj < tasit-o-, before -st- cluster would be formed by early syncope. Also before o-phenomena (partly for convenience)
 s > h / [+lo,-prim] ([-cons,-syl]) __ [-stres] [-son]
 
-$DIACLEA CORRECTION A2.XXXI.o stress retraction away from final syllables, attraction to syllable favored by Latin stress rules: penultimate if long, else antepenult. Albanian has a special rule that favors pre-lateral penults for stress even if short and open. However, stress from short penults does not retract -- over 20 cases show this.
-[+syl] > [+prim] / __ ([-syl])* [-prim,-long] [-syl,-lat] [+syl] ([-syl])* #
-[+syl] > [+prim] / __ ([-syl])* [+prim] ([-syl])* #
+$DIACLEA CORRECTION A2.XXXI.o stress retraction away from final syllables, attraction to syllable favored by Latin stress rules: penultimate if long, else antepenult. Albanian has a special rule that favors pre-lateral penults for stress even if short and open. However, stress from short penults does not retract -- over 20 cases show this. Tenses ɐ. 
+[-prim] > [+prim,+tense] / __ ([-syl])* [-prim,-long] [-syl,-lat] [+syl] ([-syl])* #
+[-prim] > [+prim,+tense] / __ ([-syl])* [+prim] ([-syl])* #
 
 $ DIACLEA CORRECTION A2.XXXX.o -- non-primary oː loses length rather than regular passage to ø. Bled by A2.XXXX.em. Bled by stress retraction in A2.XXXI.o {gërshet}, but not stress retraction in A2.XXXI.ð ̪{detorës}. RULE CROSSINGǃ 
 $TODO working here March 29 -- suppressed, absorbed into weak u formation 
@@ -677,13 +678,6 @@ $ DIACLEA CORRECTION B1.VIII.n -- ll > lː aspect and some ln > lː (vulnerata >
 $ DIACLEA CORRECTION C1A.XX Middle Proto-Albanian I ll, ln > L: expanded to nn > n: [-cor] [-prim,+back] [+cons,+son][-cor] [-prim,+back] [+cons,+son]
 [+cor,nnas,-nlat] [+cor,+son] > [+long] ∅
 
-$DV1740I1 -- initial PPAlb and Lat. r- becomes "*r:"; merges with the reflex of PPAlb initial *wr- (DV1740I2)
-$form prior to 8/5/23 was: (w) r > rː / # __ 
-$format changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
-$DIACLEA FIX B1.VI -- initial (w) r trilling moved into MPA I.
-{w r;r} > {rː;rː} / # __
-
-
 $ DIACLEA CORRECTION A2.XXXXVII -- PROGRESSIVE IOTATION mini-i-mutation-esque MPA insertion of j after tonic low vowel, essentially metathetic though it's hard to write it that way. Makes tonic vowel get followed by j See MPA progressive iotation file. Does not feed A2.XVI k > g/ __ ɪ̯ . Triggering vowel reduces to schwa in all these cases. 
 $og janky version ∅ > j / {# m [+front,-cons] r (k);[+lab,-cons] ([+cor,+cont,-nas] (k)) [+front,-cons] (s) [+back,+cons]} __ [+prim,+lo]
 $ .sk -- yotation materializes  s, sk, or k, if preeded by a labial continuant, possbly mediated by a voiceless stop or l . Triggering vowel reduces to schwa. Or, in case of trus-a-, the labial continuant and the front vowel triggering it are both gestures of the same segment. Using voiceless i̥ y̥ as dummies here for because stress seems to vaguely be preserved
@@ -834,7 +828,7 @@ $DIACLEA CORRECTION A1.XV-- reduction in # ([-son])* [-delrel,-voi] __ r ([-syl]
 [-prim,-hi] > ə / # ([-son])* [-delrel,-voi,-round] __ r ([+syl]) [+prim]
 
 $DIACLEA CORRECTION A2.CXXXXVI mini-a-mutation : Vback R É > ʊ̯? R ˈæ? / __ N C* a : arena > Standard Tosk rërë, Lab rërë, Gheg ranë, North Tosk renë; . Blocks r-rounding by making prior a round on basis of arena. Also polenta to pullëndë, olena to llërë. templa > tëmpla may be related but unclear. Restriction to sonorant consonants not clearly necessary as no exceptions except ɟuvenka > gjuvengə, so just doing +cor for now.  æ makes sense givne the N Tosk form for sand rerë, but it triggers errors, so going with 'a for now. The "ʊ̯" remains u unless word initially, where it deletes at hte same time as Slavic wave I hard yer.
-[+back,-prim] [+cor] [+front,-hi,+prim] > ˌʊ [+cor] ˈa / __ [+nas] ([-syl])* [+lo]
+[+back,+syl] [+cor] [+front,-hi,+prim] > ˌʊ [+cor] ˈa / __ [+nas] ([-syl])* [+lo]
 ˌʊ > ʊ / # __
 
 $DIACLEA CORRECTION E1.V.a kw, gw > kʷ, gʷ; later to be derounded. SUPPRESSED -- now in inputl. 
@@ -880,10 +874,13 @@ $ evidence for two separate d > ð phenomena aside from it happening clearly to 
 d > ð / [-cons] ([+son,-nas,+cons]) __ [βlat,βcons]
 
 $ DIACLEA CORRECTION A2.XXXXII --  d > r / [-prim] __ r  (retained after stress: scodra, chersydra, quadrum)
-d r > rː / [-prim] __
+d > r / [-prim] __ r
+$d r > rː / [-prim] __
 
 $DIACLEA CORRECTION A2.LII in middle proto-Albanian, around the time of i-mutation (may be reinterpretable as related, but probs not), prevocalic r > rː after an initial non-round vowels, with (w,e̯,j?) possibly coming between
-{r r;r} > {rː;rː} / # [-prim,-round] ([-cons,-syl]) __ [-cons]
+$ pre Apr 2026 vsn {r r;r} > {rː;rː} / # [-prim,-round,-lo] ([-cons,-syl]) __ [-cons]
+	$ ABROGATED as of Apr 2026 , the aspects of this that lengthen single r are just initial lengthening. 
+$r r > rː 
 
 $DV1740H2 -- rC, Cr > r. 
 $ This one is likely very bugged and needs either suppression or massive fixes-- suppressed, in conference with De Vaan 8/9/23; prior version: r [+cons] > r $ [+cons] r > r  
@@ -1083,17 +1080,23 @@ $ DIACLEA CORRECTION C1.B.XVI -- aphaeresis blocked by lengthening for round vow
 $DIACLEA CORRECTION A2.LV lengthening to block aphaeresis for low vowels in... # __ [+cor,anas,-acont,-lat] , EXCEPT if it is also __ C C ˈV
 	$A-anlaut lentgthening
 	$ pre apr 2026 vsn: [+lo] > [+long] / # __ [+cor,anas,-acont,-lat] (([-syl])* [-prim] ([-syl])*)* [+prim]
- [+lo] > [+long] / # __ [+cor,anas,-acont,-lat] (([-syl])* [-prim] ([-syl])*)* [+prim]
-	$ as of apr 2026 -- best explnaation is -- must head pretonic foot, and precede a coronal cluster wherein nasality mismatches continuancy - not yet implemented: [+lo] > [+long] / # __ [+cor,+voi,anas,-acont] 
+	$ as of apr 2026 -- best explnaation is -- must head pretonic foot, and precede a coronal cluster wherein nasality mismatches continuancy - not yet implemented: 
+[+lo] > [+long] / # __ [+cor,+voi,anas,-acont] ([-syl,bnas,-bcont])* ([-prim] ([-syl])*) [+prim]
 
 
-$ DV2.2.2a -- APHAERESIS -- in absolute initial position, all vowels reduce to schwa, on their way to zero (except in __ RC in Buzuku) 
+$ DV2.2.2a -- APHAERESIS -- in absolute initial position, all vowels reduce to schwa, on their way to zero (all go to zero except in __ RC in Buzuku). Treating as single rule. 
 $ DIACLEA CORRECTION C1.B.XIII -- long vowels are not reduced.
 $ DIACLEA CORRECTION C3A.8 -- aphaeresis now happens regardless of whether a consonant or nonconsonantal comes afterward. Nonconsonantlals before consonantals are absorbed. 
 $ tempting to have this only happen if there is a later stressed vowel, but tradeoff between two somewhat dubious etyma: eccum > kë vs. et > e.
 [-prim,-long,-cons] > ∅ / # __
 [-cons,-syl] > ∅ / # __ [+cons]
 ∅ > ə / # __ [+son,+cons] [+cons,nnas,nson]
+
+$DV1740I1 -- initial PPAlb and Lat. r- becomes "*r:"; merges with the reflex of PPAlb initial *wr- (DV1740I2)
+$form prior to 8/5/23 was: (w) r > rː / # __ 
+$format changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when these are resolved. 
+$DIACLEA FIX B1.VI -- initial (w) r trilling moved into late MPA II, fed by aphaeresis.
+{w r;r} > {rː;rː} / # __
 
 $DV1735.A diphthong coalescence part 1 
 $ DIACLEA CORRECTION D3.XII -- INCORPORATING aw > a: here too now. per DIACLEA FIX C1.B.XVII -- no more for non-low back vowels here.
@@ -1104,7 +1107,6 @@ $RESOLUTION OF DIACCLEA CORRECTION E1.VII after diphthong coalescence. Although,
 
 $diphthong coalescence part II -- DV1735.A.... -- but cf D3.XII. For mid vowels, fed by ç > j
 [+syl,αround,αtense,-back] [-syl,-cons,+front,+hi,+tense] > [+hi,-lo,+tense] ∅
-
 
 $TODO REGRESSIVE BETA COLORING! - + LOSS -- WORK HERE! TODO REMOVE WHEN ACCOUNTED FOR, OR DEEMED UNNECESSARY.  -- bprobably accounted for now tho.
 
@@ -1458,6 +1460,9 @@ $DIACLEA CORRECTION A2.CX.ɐ LPA I reduction of unstressed non-final a across th
 $ resolving D3.XIII. counterfed by A1.XXII.1.ɪ, also counterfed by formation of ðL clusters A2.LXXXV. Also counterfed by A2.CXXXVI
 	$ C3A.XIV LPA l-darkening, specifically when triggered by following back vowel, can now see through following m: shkallëm, kallm, kullm. 
 l > lˠ / [-cons] __ (m) {[-front,+syl];[+lo]}
+
+$ resolution of A2.CXXXXVII.o -- deletion of ɐ late enough to counterbleed l-darkneing (llërë) and counterfeed initial r  > rr. 
+{ɐ;ˌɐ} > {∅;∅} / # __
 
 $DIACLEA CORRECTION A2.CXXXVI ã > ( ãj >) ɛ̃ between coronals and ɲ, tentativelyː mëllenjë, shenjt, këlshenjt, gështenjë. Only for short a -- not laj which is from #lˈãːɲu at this time etc. Also not ɒ̃.  Bleeds A2.CXXV -> placement early in LPA II or v late in LPA I -- doesn't affect sanja tho, maybe vowel quality diff. Out comes in -ënjë are Lab, etc. (mëllënjë, kështënj, shënjt, etc.).
 ˈã > ˈɛ̃ / [+cor] __ ɲ

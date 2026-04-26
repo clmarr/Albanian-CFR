@@ -433,7 +433,7 @@ $[+round,-lo,-hi] > [+hi,-long] / @ __ [+son,+cons,-lab,-front] ([-syl])* [+syl]
 / A2.IX -- Latin pʰ > f inserted into Latin input handling, contrasting with handling of kʰ and tʰ
 		suppressed -- lexicalized. 
 
-new A2.IX countertonic em to um rule. Does not feed A2.CXXXXVII.o, pretonic short round vowel reductions. Shkumbin, thunder < ḱemtrom
+new A2.IX countertonic em to um rule. Does not feed A2.CXXXXVII.o, pretonic short round vowel reductions. Shkumbin, thunder < ḱemtrom. Triggers lengthening it seems. 
 
 A2.X -- Middle Proto-Albanian /i/ becomes /iː/ instead of /ɪ/ > /e/ when immediately before ʎ or labials (five cases at present for ˈɪʎ; and 4 for ˈɪp and ˈɪf together; ˈɪ followed by other labials unattested). As of June 20, 2025, also for before /j/ (3 cases) but not ɲ (2 cases). As of March 2026, this is general pre-peripheral : before non-coronals. 
 
@@ -715,11 +715,12 @@ A2.LI : first wave Slavic nasal vowels are unpacted to Vn, with a for ɒ̃. Exce
 	.IIIon -- ɒ̃ > oN elsehwere; likewise for e; followed by place assimilation. 
 	{ cases of ɡlˌɒ̃bɒt͡ʃˈɑrɪ > Gjëmboçar rather han Gjomboçar {doublet} and tˈɒ̃ɡɑ > tangë may be insertions into LPA II not LPA I.  Case of sʊtɛ̃gɑ > stegë may indiicate later Slavic loan -- grounds for exclusion. Ditto for sˌɒ̃dˈitɪ : sodit.}
 
-A2.LII ː in middle proto-Albanian, around the time of i-mutation (may be reinterpretable as related, but probs not), prevocalic r > rː after an initial non-round and non-primary vowels, with (w,e̯,j?) possibly coming between
+ABROGATED A2.LII ː in middle proto-Albanian, around the time of i-mutation (may be reinterpretable as related, but probs not), prevocalic r > rː after an initial non-round and non-primary vowels, with (w,e̯,j?) possibly coming between
+	 .as of Apr 2026 , the aspects of this that lengthen single r are just initial lengthening. 
 
-	clear cases
-		ērādic-a- >rrëgjoj
-		aeramen > rrem
+	ABROGATED
+	clear cases -- these are all just affected by aphaeresis. 
+			ērādic-a- >rrëgjoj	aeramen > rrem
 		eremītum > rrëmit
 		auriōlu > rryel
 		erviliu > rrylë, rryel etc. 
@@ -1744,10 +1745,12 @@ A2.CXXXXVI mini-a-mutation : Vback R É > ʊ̯? R ˈæ? / __ N C* a : arena > S
 
 A2.CXXXXVII.e  APA reduction of non-primary {non-low} front vowels in R __ C . Bleeds i-mutation -- diˈaːmeron > zëmër not zimër, skˈaripʰa > shkarp- not zgjerp-,stˈeripʰa > shterp- not shtirp- ; also feeds m> b in meletta > bletə. Doesnt happen to finals : dranin > dre. 
 
-A2.CXXXXVII.o pretonic APA round vowels reduce to ə if after a voiceless element. 
+A2.CXXXXVII.o pretonic APA back vowels reduce to ə if after a voiceless element. 
 	294,  | ...                | #kˌokkˈumalon#     | *#kukˈuməlˠ#       | #kˈumbulˠ#
 	347,  | ...                | #kˌorsɔːtˈon#      | *#kuɾʃˈɛt#         | #ɡəɾʃˈɛt#
-	598,  | ...                | #sˌyrˈitioː#       | *#ʃiɾˈɛs#          | #ʃəɾˈis#
+	598,  | ...                | #sˌurˈitioː#       | >      | #ʃəɾˈis#
+
+	becomes ɐ -- outcomes in ɐr > ɾ- (rend), ɐl- (llërë)
 
 not if voiced -- tho both these cases will see stress retraction 
 	369,  | ...                | #ɡˌɔːleˈon#        | *#ɡˈɔj#            | #ɡˈɔlˠ#
@@ -1832,7 +1835,7 @@ B1.IV -- DV1744.C1 and C4 moved to beginning of Middle Proto-Albanian II. Obsole
 
 B1.V -- post-velar stop w moved to MPA II. 
 
-B1.VI -- initial (w) r trilling moved into MPA I.
+B1.VI -- initial (w) r trilling moved into  late MPA II, fed by aphaeresis.
 
 B1.VII -- jV > ɛ moved past last early Slavic loan wave, after secondary n j > ɲ (A1.XVII)
 

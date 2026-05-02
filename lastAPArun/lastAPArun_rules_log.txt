@@ -121,8 +121,8 @@ b > β / [-cons] __ ( [+son,+cons] ) [+syl]
 ʎ > lː / [-lo,-cons] __ [+hi]
 {n j;nː j} > {ɲ;ɲ} 
 [+back,+cons] > ʎ / [-cons,-front] __ [-stres,+front] t
-[+back,+cons] > ç / [+lab] ( [+lat] ) [+syl] __ [+cor,-voi,-cont]
-[+back,+cons] > ç / [+cor] ( [-prim] ) [+cor,+cont] [+syl] __ [+cor,-voi,-cont]
+[+back,+cons] > ç / [-cont,+lab] ( l ) [+syl] __ [+cor,-voi,-cont]
+[+back,+cons] > ç / [-syl,-lat,+cont,-front] [+syl] __ [+cor,-voi,-cont]
 n [+back,+cons] > ɲ/ [-round,aprim] __ t [+syl,!aprim]
 r > l / r [+syl] __ [+back]
 [+cor,nnas,!nlat] [+cor,+son] > [+long] ∅
@@ -283,7 +283,7 @@ r > ɾ
 [+hi,+front,-prim,+stres] > [+long] / [+cor,+front] ( [+cons] ) __ ( [+cor] )* [+syl]
 [-prim,-lo,+front,-round] > ˌiː / # ( [-syl] )* [+lab,-son] __ [+front,-syl] ( t ) [+syl,alo,afront] [-nas]
 [+front,+hi,-long,-prim] > ∅ / [-son] __ j [+syl]
-[+front,+hi,+cont,-syl] [+front,+cons,+delrel] > ∅ [-cor,-delrel,+hi,-strid,0distr,-cont,+cons,0tense]
+[+hi,-syl] [+front,+cons,+delrel] > ∅ [-cor,-delrel,+hi,-strid,0distr,-cont,+cons,0tense]
 d > ð / [-cons] ( [+son,-nas,+cons] ) __ [βlat,βcons]
 ɐ > ˌæ / [+syl,+front,-lo] ( [-syl] )* __
 [-prim,+back,-long,-nas,-hi] > ɐ / @ [+front,-lo,-prim] ( [-syl] )* [-syl] __ [-syl] ( @ )* [+prim]

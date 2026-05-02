@@ -663,8 +663,9 @@ $ second part -- prior conditioning
 $ DIACLEA CORRECTION C3B.IV* -- nasal conditioning removed here. Instead nkt > ɲt after stressed nonround (ma(n)jtë, shenjtë, strenjtë). As of Dec 1o 2o25, needs to be adjacent on one side or the other to the primary stressed vowel -- not in countertonic __ atonic as seen in the sanctu- compound words. 
 $ DIACLEA CORRECTION C3B.IV.r, b-- in hte immediate contact position (i.e. not the above, rather than merely after front vowels, iotation happens after  (C3B.IV.r) voiced coronals preceded by other coronals (perhaps across a nonprimary vowel) and (C3B.IV.b) labials on the other side of the vowel perhaps with l intervening. (formerly: [+back,+cons] > j / [+front] __ t) 
 
-$DIACLEA CORRECTION E1.VII -- moved to CPA -- Middle Proto-Albanian k > j DV1744.J3 is no longer a single process, but rather passes first to ç in MPA I, because it does not feed aj coalescence to eː in MPA II. This [ç] seems to have become ʎ at some point as attested in OALb kuʎtonj > kujtoj < cogitare, in at least that case, but unclear how much this generalizes. It doesn't seem likely to have become ʎ immediately, for both phonetic and diachronic reasons {doing so errantly feeds a ʎ deletion rule near hte end of MPA I for collucti-a- > gulçoj, other problems for ndërtoj, pliq, vetyrë, etc.}
-[+back,+cons] > ç / {[+lab] ([+lat]);[+cor] ([-prim]) [+cor,+cont]} [+syl] __ [+cor,-voi,-cont]
+$DIACLEA CORRECTION E1.VII -- moved to CPA -- Middle Proto-Albanian k > j DV1744.J3 is no longer a single process, but rather passes first to ç in MPA I, because it does not feed aj coalescence to eː in MPA II. This [ç] seems to have become ʎ at some point as attested in OALb kuʎtonj > kujtoj < cogitare, in at least that case, but unclear how much this generalizes. It doesn't seem likely to have become ʎ immediately, for both phonetic and diachronic reasons {doing so errantly feeds a ʎ deletion rule near hte end of MPA I for collucti-a- > gulçoj, other problems for ndërtoj, pliq, vetyrë, etc.}. 
+	$ Apr '26 -- coronal contexts for ç reformed: now it's just after coronal continuant, or labial stop. Case of troftë is a likely later loan also on the basis of its vocalic outcome. As such must come before deltacism. Separate rule for labial continuants. Prior version:	[+back,+cons] > ç / {[+lab] ([+lat]);[+cor] ([-prim]) [+cor,+cont]} [+syl] __ [+cor,-voi,-cont]
+[+back,+cons] > ç / {[-cont,+lab] (l);[-syl,-lat,+cont,-front]} [+syl] __ [+cor,-voi,-cont]
 n [+back,+cons] > ɲ / [-round,aprim] __ t [+syl,-aprim]
 
 
@@ -759,7 +760,7 @@ $ DIACLEA CORRECTION A2.XXXI.b MPA stress retraction V B-strid ˈV-hi C/W Vocoid
 $DIACLEA CORRECTION A2.CXXXXIII early MPA ao > ɒ. Does not feed length loss. Does not happen to stressed round vowels. 
 [+lo] [-stres,+round] > [+round,+lab,+long,+back,-front,-tense,-lo] ∅
 
-$ DIACLEA CORRECTION A2.XXIII.α  [-son] s T2 > sT2 ː brōtascu > breshk, potest-ā- > pushtoj, potestātem > pushtet; trumpisc-ā- > trushkyej [this is an error. tho.] -- feeds pre-fricative nasal loss [this happens later so it can be fed later.]ǃ Causes compensatory lengthening for nonrounds, as seen in non-reduction for farkoj, mashtroj, , and ultimate diphthohngization for mjeshtër. Counterfeeds loss of primary length. Doesn't feed round vowel lengtheningː breshkë not bryeshkë. 
+$ DIACLEA CORRECTION A2.XXIII.α  [-son] s T2 > sT2 ː brōtascu > breshk, potest-ā- > pushtoj, potestātem > pushtet; trumpisc-ā- > trushkyej [this is an error. tho.] -- feeds pre-fricative nasal loss [this happens later so it can be fed later.]ǃ Causes compensatory lengthening for nonrounds, as seen in non-reduction for farkoj, mashtroj, , and ultimate diphthohngization for mjeshtër. Counterfeeds loss of primary length. Doesn't feed round vowel lengtheningː breshkë not bryeshkë. TODO consider merger with aw > ā phenomenon. 
 [+syl,-round] > [+long] / __ [-son] [+cont,-syl] [-cont,-son]
 [-son] > ∅ / __ [+cont,-syl] [-cont,-son]
 
@@ -1105,7 +1106,7 @@ $DV1735.A diphthong coalescence part 1
 $ DIACLEA CORRECTION D3.XII -- INCORPORATING aw > a: here too now. per DIACLEA FIX C1.B.XVII -- no more for non-low back vowels here.
 [+lo,+syl] [efront,aback,-cons,-syl] > [alo,aback,efront,+long] ∅ / __ [+cons]
 
-$RESOLUTION OF DIACCLEA CORRECTION E1.VII after diphthong coalescence. Although, this ç likely goes to ʎ for some words, as it is attested for cogitare > kuʎtonj. It opens in time to feed coalescence of hte mid vowels {collect-a- > kulit-ɔ- > gultoj} but not hte low vowels {trajtoj, pajt not tretoj pet etc.}. Counterfeeds LPA II coda aj > ɛ 
+$RESOLUTION OF DIACLEA CORRECTION E1.VII after diphthong coalescence. Although, this ç likely goes to ʎ for some words, as it is attested for cogitare > kuʎtonj. It opens in time to feed coalescence of hte mid vowels {collect-a- > kulit-ɔ- > gultoj} but not the low vowels {trajtoj, pajt not tretoj pet etc.}. Counterfeeds LPA II coda aj > ɛ 
 ç > j
 
 $diphthong coalescence part II -- DV1735.A.... -- but cf D3.XII. For mid vowels, fed by ç > j
@@ -1344,9 +1345,8 @@ $ old pre Apr 18 vsn:  Clab,-nas __ p,palatal,ɾ  (V ( @ )*) ˈV ?  --  [+hi,-pr
 $DIACLEA CORRECTION A2.LXXXXVIII.i -- reduction of i/ɪ like segments in obs __ j V,Also: Gjergj, djall. 
 [+front,+hi,-long,-prim] > ∅ / [-son] __ j [+syl]
 
-$DIACLEA CORRECTION A2.C -- limited progressive palatalizationǃ--  j/ç/ʎ t͡ʃ > k j -- around time of (?) (or feeding?) palatalization in LPA II 
-[+front,+hi,+cont,-syl] [+front,+cons,+delrel] > ∅ [-cor,-delrel,+hi,-strid]
-
+$DIACLEA CORRECTION A2.C -- limited progressive palatalizationǃ--  j/ç/ʎ t͡ʃ > k j -- around time of (?) (or feeding?) palatalization in LPA II ; ndreq, gulçoj. 
+[+hi,-syl] [+front,+cons,+delrel] > ∅ [-cor,-delrel,+hi,-strid]
 
 $ DV1744.E4 -- Latin d becomes edh after r (as with PPAlb d -- DV1744.E2) , RECURRENT here as part of Slavic handling. 
 $DIACLEA CORRECTION D3.VIII -- reinterpreted as lenition outcomes , more broadly post vocalic (reinstated here to cover Slavic items Nov 18, 2025). 
@@ -1602,7 +1602,7 @@ $TODO, EPSILON NOTE: from this point onward, De Vaan uses *e, but the difference
 $bandaid here thus inserted
 [+front,+syl,-hi,-lo] > [-tense] 
 
-$DIACLEA CORRECTION A2.CXVI Late Proto-Albanian II l-darkening in {v;labial vowel}__ V-back, and in {b,p,ʃ} __ V-back. Note UNNATURAL CLASS, ʃ with labials -- β is EXCLUDED in both cases (vlerë, vlesë etc.; avlëmend -- and yet avlli). Fed by D3.X.d in terms of uə̯ > uo̯ (buollicë). 
+$DIACLEA CORRECTION A2.CXVI Late Proto-Albanian II l-darkening in {v;labial vowel}__ V-back, and in {b,p,ʃ} __ V-back. Note UNNATURAL CLASS, ʃ with labials -- β is EXCLUDED in both cases (vlerë, vlesë etc.; avlëmend -- and yet avlli). Fed by D3.X.d in terms of uə̯ > uo̯ (buollicë).
 l > lˠ / {[+lab,+cont,vstrid,-vson];[blab,!bcor,ǃbcont] [-front,+syl]} __ [-back,-lo,-cons]
 
 $ resolving D3.X.d as per D4.III for now, exc in # C __ 

@@ -681,12 +681,12 @@ $ DIACLEA CORRECTION C1A.XX Middle Proto-Albanian I ll, ln > L: expanded to nn >
 
 $ DIACLEA CORRECTION A2.XXXXVII -- PROGRESSIVE IOTATION mini-i-mutation-esque MPA insertion of j after tonic low vowel, essentially metathetic though it's hard to write it that way. Makes tonic vowel get followed by j See MPA progressive iotation file. Does not feed A2.XVI k > g/ __ ɪ̯ . Triggering vowel reduces to schwa in all these cases. 
 $og janky version ∅ > j / {# m [+front,-cons] r (k);[+lab,-cons] ([+cor,+cont,-nas] (k)) [+front,-cons] (s) [+back,+cons]} __ [+prim,+lo]
-$ .sk -- yotation materializes  s, sk, or k, if preeded by a labial continuant, possbly mediated by a voiceless stop or l . Triggering vowel reduces to schwa. Or, in case of trus-a-, the labial continuant and the front vowel triggering it are both gestures of the same segment. Using voiceless i̥ y̥ as dummies here for because stress seems to vaguely be preserved
+$ .sk -- yotation materializes  s, sk, or k, if preeded by a labial continuant, possbly mediated by a voiceless stop or l . Triggering vowel reduces to schwa. Or, in case of trus-a-, the labial continuant and the front vowel triggering it are both gestures of the same segment. Using voiceless i̥ y̥ as dummies here for because stress seems to vaguely be preserved. The couple cases that aren't immediately post labial are pollicarius and pollicare. 
 $trusare case-- however this is a dubious etymon, commented out. [-prim,+round,+front] > [-voi] / __ (s) (k) [+back,-hi,+prim]
 [-prim,-lo,+front] > [-voi] / [+lab,+cont] ( [elat,econt,evoi] ) __ (s) (k) [+lo,+prim]
 
-$DIACLEA CORRECTION A2.XXXXVII.pR -- progressive i-mutation.  triggered by non-primary pretonic vowel in between a non-post-vocalic labial and a coronal sonorant. S counts as a "labial" -- TODO note UNNATURAL CLASS. Revise somewhat convoluted rule {TODO} -- not priority at moment though, role of labiality is clear. 
-[-prim,-lo,+front] > [-voi] / {#;[-syl]} (s [-prim,+front,-lo]) [+cons,mlab,!mstrid,!mcor,-round] __ [+cor,+son,-long] [+lo,+prim]
+$DIACLEA CORRECTION A2.XXXXVII.pR -- progressive iotation.  triggered by non-primary pretonic vowel in between a non-post-vocalic labial and a coronal sonorant. S counts as a "labial" -- TODO note UNNATURAL CLASS. Revise somewhat convoluted rule {TODO} -- not priority at moment though, role of labiality is clear. The one case this doesn't come immediately after a labial is incausinare > ngashërej , and that has w before the s. 
+[-prim,-lo,+front] > [-voi] / # ((@)* [-syl]) (s [-prim,+front,-lo]) [+cons,mlab,!mstrid,!mcor,-round] __ [+cor,+son,-long] [+lo,+prim]
 
 $ realization of iotation for DIACLEA CORRECTION A2.XXXXVII
 ∅ > j / [+syl,+front,-voi] (@)* [+lo,+prim] __ 
@@ -918,6 +918,9 @@ $β > w / [+round] __
 $now continuing with E1.IV
 w > ∅ / [+syl,+round] __ [+son]
 
+$A2.LXXXIII.eu intersonorant e rounding--  VRˈɛw(V)r/l(/z)> ˈœː . Not necessary to apply to aw in case of trabeza -- it's now handled in A1.VI. Fed by D3.XI. 
+[-hi,-lo,+front,+prim] w > [+round,+lab,-lo,-tense,+long] ∅ / [+son,+cons] __ ([-stres]) [+voi,+cor]
+
 $DIACLEA CORRECTION A1.VI.esj limited i-mutation of e by specifically yod across s {strid} , hitting cases after labial consonantals and one lateral. Counterfed by w > β
 ˈe > ˈi / [+cons,blab,-blat] __ s ([+strid]) j
 
@@ -1114,9 +1117,6 @@ $diphthong coalescence part II -- DV1735.A.... -- but cf D3.XII. For mid vowels,
 
 $TODO REGRESSIVE BETA COLORING! - + LOSS -- WORK HERE! TODO REMOVE WHEN ACCOUNTED FOR, OR DEEMED UNNECESSARY.  -- bprobably accounted for now tho.
 
-$DIACLEA CORRECTION A2.CVI pretonic intervocalic gr metathesis. May bleed postmimetic nasalization. Not simply postvocalic: agrion > egër. 
-ɡ r > r ɡ / [-cons] __ [+prim]
-
 $DIACLEA CORRECTION A2.LIX -- POSTMIMETIC NASALIZATION: initial m nasalizes a following pretonic vowel before a stop (NOT fricative, excluding ð, not affricate). The result is treated like a Slavic ṼT cluster, but actual Slavic etyma are not included. As of Dec 21, 2o25 it is nonstrident obstruents more broadly, and needs to be immediately pretonic.
 	$ metaxum > mëndafsh, matricula > (më-?)ndrikull
 	$ in -st- , doesn't survive due to perspirant n-deletion, but causes length: m
@@ -1128,7 +1128,7 @@ $DIACLEA CORRECTION A2.LIX -- POSTMIMETIC NASALIZATION: initial m nasalizes a fo
 	$ happens if after the stop there is a high or low VOCOID - -case of mënjollë
 	$ case of mënjollë -- fed by A2.I.dj, counterbled by d to ð
 $[-prim] > [+nas] / # m __ [-delrel] ([-syl])* [-cons,uhi,-ulo]
-[-prim] > [+nas,-lo,-back,+front] / # m __ [-son,-strid] ([-syl])* [+prim]
+[-prim] > [+nas,-lo,-back,+front] / # m __ [-son,-strid,-back] ([-syl])* [+prim]
 
 $DIACLEA CORRECTION A2.CXXII.RVS.r -- late MPA II, tentatively, reduction of nonback countertonics in {r,l,m} __ S to ɪ. For, r, counterfed by ɑ > a { A1.V } . Not after n, rː -- UNNATURAL CLASS! Not if strident followed by a sonorant cons. R must be initial or after a voiceless segment {i.e. not arësye} -- not hte case for l, m -- RULE CROSSING! 
 [+stres,-prim,-back,-long] > ɪ / {#;[-voi]} [+son,+cor,-nas,-lab] __ [+strid] [vsyl,vson]
@@ -1157,6 +1157,10 @@ t͡ʃ > t͡s / # __
 $DIACLEA CORRECTION A2.CLIII -- ɒ-aphaeresis early in LPA I, initial ɒ̀ deleted in # __ lab yer Cson, before yer loss. Going broadly with -stres,-lo for now. Bleeds and is counterbled by A2.LXXX.ɔʊ
 ˌɒ > ∅ / # __ [+lab] [-stres,-lo] [-syl,+son]  
 
+
+$DIACLEA CORRECTION A2.CVI pretonic intervocalic gr metathesis. May bleed postmimetic nasalization, if it is not before -back. Not simply postvocalic: agrion > egër. Ndërgoj, mërgoj, Slavic përkavë. Not near s -- shëkroj, shkretë
+∅ [-cont,+back] [+cor,+son,-lat,-nas] > ɾ [+back] ∅ / [-strid] [-cons] __ [+prim]
+
 $DIACLEA CORRECTION A2.LXXXIII -- early Late Proto-Albanian I Vw(V) coalescences . 
 $DIACLEA CORRECTION A2.LXXXIII.ariwo, bleeding .iu by feeding A2.LXXXIII.iwi, iwV > ii / V R __ 
 [-stres] > ɪ / [+voi] [+son,+cor] ˈi [+lab] __ @
@@ -1164,19 +1168,20 @@ $DIACLEA CORRECTION A2.LXXXIII.ariwo, bleeding .iu by feeding A2.LXXXIII.iwi, iw
 $DIACLEA CORRECTION A2.LXXXIII.iwi, bleeding .iu, feed by .ariwo iwɪ > iW   -- lˈiwɪru > līr-ë, dˌelˌiwɪrˈoɲo > dëliroj, lˌiwɪrˈoɲo > liroj, prˈiwɪtɪr (?) > priftër	, plus cases fed by .ariwo 
 ɪ > ∅ / [+hi,+front] w __
 
-$DIACLEA CORRECTION A2.LXXXIII.awa, bleeding .ɒ, w between low vowels > v, in Slavic loans. Tentatively based on rawuka > ravge can see through posterior back sequences, but this is tentative; the word could also be afffected by analogy, esp as ravë and ravgë both mean "mountain path"
-w > v / [+lo] __ ([+back])* [+lo] #
+$DIACLEA CORRECTION A2.LXXXIII.Vwa, bleeding .ɒ, w between V and a final low vowel> v, in Slavic loans. Tentatively based on rawuka > ravge can see through posterior back sequences, but this is tentative; the word could also be afffected by analogy, esp as ravë and ravgë both mean "mountain path". As of May 2026, for all Vwa, bleedin Vw > Vː phenomena in A2.LXXXIII more broadly, bleeding A2.LXXXIII.ee. 
+w > v / [+syl] __ ([+back])* [+lo] #
 
 $A2.LXXXIII.uo ː combination of former .iu and .ɒ to broader rule forming uə̯ > uo.  high vowel initial sequences go straight to uə̯ ; ohterwise it passes through the ˈɔːə̯ scenario. 
 		$conditioning now taken care of with prior rules. 
 $[+stres,βround,-βhi] w [-stres] > [+round,+lab,+back,-front,-βtense,-βlong,-lo] ə̯ ∅
 [+stres,βround,-βhi] w [-stres] > [+round,+lab,+back,-front,-βtense,-lo] ə̯ ∅
 
-$A2.LXXXIII .eu intersonorant e rounding--  VRˈɛw(V)r/l(/z)> ˈœː . Not necessary to apply to aw in case of trabeza -- it's now handled in A1.VI. 
-[-hi,-lo,+front,+prim] > [+round,+lab,-lo,-tense] / [+son,+cons] __ w ([-stres]) [+voi,+cor]
-$deletion of w across the board except if V2 is low and V1 is not, lengthening phenomena proceed. For AVA, happens if preconsonantal.  Happens to countertonics too. 
-[+stres] w > [+long] ∅ / @ __ [-lo]
-[+stres,+lo] w > [+long] ∅ / @  __ [-stres,+lo] [-syl]
+
+$A2.LXXXIII.ee deletion of w across the board. Vwa cases are bled for this by A2.LXXXIII.Vwa.  Happens to countertonics too. As of May 2026, clear the real blocking factor is word finality of the posterior vowel -- so the former two rules are combined, bled by A2.LXXXIII.Vwa.  Furthermore, vowels after the Vw are absorbed. Formerly had:
+	$[+stres] w > [+long] ∅ / @ __ [-lo]
+	$[+stres,+lo] w > [+long] ∅ / @  __ [-stres,+lo] [-syl]
+[-stres] > ∅ / [+stres] w __ 
+[+stres] w > [+long] ∅
 
 $DIACLEA CORRECTION A2.CIII -- i/e/ɪ becomes j between Cback __ V and Vback=round __ Cson -- in mny places but not after œ (for tryezë, krye etc it instead feeds dipthhongizatoin by going to schwa). Feed by Vw coalescence: liber-a- > li:roj. 
 [+front,-lo,-prim,-round] > j / [-cor,uhi,-ulo,asyl] __ [+son,-asyl]
@@ -1184,9 +1189,11 @@ $DIACLEA CORRECTION A2.CIII -- i/e/ɪ becomes j between Cback __ V and Vback=rou
 $DIACLEA CORRECTION A2.LXXX.aT ˌɒ, ɒ > ˌɑ, ˌɑ in __ T V-front. Tentatively broader [-son] for now. Tentatively non-initial per opëngë {North Gheg apangë}. Can see through sonorant. 
 [+lo,-nas,-prim] > [-round,-lab] / @ __ [-son] ([-son]) [+syl,-front]
 
+$DIACLEA CORRECTION A2.L.a.ii -- æ raises to iː between same sonorance consonants. 
+[-tense,+lo] > [+hi,-lo,+tense,+long] / [ason,+cons] __ [ason,+cons]
+
 $DIACLEA CORRECTION A.1 & A2.L : æ(ː?) > eː / C-strid __ C Vfront, elsewhere to a (also A1.I). Even if not long, [æ] tends to be longest vowel and this does not seem to merge with /e/ or /ɛ/ immediately assuming the raising to /i/ (/ɪ/?) phenomenon is a bit later. 
 [+lo,-tense,+syl] > [-lo,+tense,+long] / [+cons,-strid] ([-cons]) __ [-syl] [+front]
-
 
 $DIACLEA CORRECTION A2.LXXX.ɔʊ -- first Slav layer ɒ > ɔ  /  @ __ [+voi,+cons,-nas] yer, before loss of Slav layer I yers, .
 [+lo,+round,-nas] > [-lo,-tense] / __ [+voi,+cons,-nas] [-tense,+hi,-stres] 
@@ -1242,9 +1249,6 @@ $ incorporates DIACLEA CORRECTION A2.XXXXI - ø > œ (and o > ɔ) before it is u
 $D3.X.b1 For ɛ œ, lengthening occurs initially when each is stressed (after ø > œ, for convenience) and before a sonorant (or hiatus, but that counts as sonorant). DIACLEA CORRECTION -- BROADENIGN: - As of Nov 11, 2025, sonorance restriction relaxed too as only exception is eshkë. NARROWING - As of Nov 11, 2025, this also now happens to æ, before it becomes ɑ.
 $ this part suppressed: no effect -- [-tense,+lo] > [-long]
 [+prim,-tense] > [+long] / # __ 
-
-$DIACLEA CORRECTION A2.L.a.ii -- eː reflecting æ(ː) raises to ɪ between same sonorance consonants. 
-[+syl,+tense,-lo,+long] > [+hi] / [ason,+cons] __ [ason,+cons]
 
 $DIACLEA FIX  A2.XXXIX.c -- initial lax mid vowel  lengthening phenomena. (D3.X.b1 the tonic ones). 
 

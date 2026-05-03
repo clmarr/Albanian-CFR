@@ -127,8 +127,7 @@ n [+back,+cons] > ɲ/ [-round,aprim] __ t [+syl,!aprim]
 r > l / r [+syl] __ [+back]
 [+cor,nnas,!nlat] [+cor,+son] > [+long] ∅
 [-prim,-lo,+front] > [-voi] / [+lab,+cont] ( [elat,econt,evoi] ) __ ( s ) ( k ) [+lo,+prim]
-[-prim,-lo,+front] > [-voi] / # ( s [-prim,+front,-lo] ) [+cons,mlab,!mstrid,!mcor,-round] __ [+cor,+son,-long] [+lo,+prim]
-[-prim,-lo,+front] > [-voi] / [-syl] ( s [-prim,+front,-lo] ) [+cons,mlab,!mstrid,!mcor,-round] __ [+cor,+son,-long] [+lo,+prim]
+[-prim,-lo,+front] > [-voi] / # ( ( @ )* [-syl] ) ( s [-prim,+front,-lo] ) [+cons,mlab,!mstrid,!mcor,-round] __ [+cor,+son,-long] [+lo,+prim]
 ∅ > j / [+syl,+front,-voi] ( @ )* [+lo,+prim] __
 [+round,+lo,+prim] > ˈɔ / [+cons,-hi] __ j
 ˈɒː j > ˈo e̯ 
@@ -178,6 +177,7 @@ h > ∅ / # __ [-prim,+stres]
 [+front,-prim] > ɪ / [+lab,+cons] __ ( [+cor,-son,+cont] ) [+cor,-son] ( [+syl] ( @ )* ) [+prim]
 β > w / [-cons] __
 w > ∅ / [+syl,+round] __ [+son]
+[-hi,-lo,+front,+prim] w > [+round,+lab,-lo,-tense,+long,-cons,-lat,+cont,0delrel] ∅/ [+son,+cons] __ ( [-stres] ) [+voi,+cor]
 ˈe > ˈi / [+cons,blab,!blat] __ s ( [+strid] ) j
 {j;k j} > {∅;c} / s __
 ∅ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] j > ɪ̯ [+prim,+stres,+syl,+son] [+cont,0delrel] ∅
@@ -217,8 +217,7 @@ s > z / __ [-syl,+voi,-lab,-lat]
 [+lo,+syl] [efront,aback,-cons,-syl] > [alo,aback,efront,+long] ∅/ __ [+cons]
 ç > j 
 [+syl,αround,αtense,-back] [-syl,-cons,+front,+hi,+tense] > [+hi,-lo,+tense,-cons,-lat,+cont,0delrel] ∅
-ɡ r > r ɡ / [-cons] __ [+prim]
-[-prim] > [+nas,-lo,-back,+front] / # m __ [-son,-strid] ( [-syl] )* [+prim]
+[-prim] > [+nas,-lo,-back,+front] / # m __ [-son,-strid,-back] ( [-syl] )* [+prim]
 [+stres,-prim,-back,-long] > ɪ / # [+son,+cor,-nas,-lab] __ [+strid] [vsyl,vson]
 [+stres,-prim,-back,-long] > ɪ / [-voi] [+son,+cor,-nas,-lab] __ [+strid] [vsyl,vson]
 [+lo,-round,-nas,+tense] > [+front,-back] 
@@ -227,15 +226,16 @@ s > z / __ [-syl,+voi,-lab,-lat]
 [-prim,+stres,-round] > ə / [-cont] [+lat] __ [mnas,mson,+cons]
 t͡ʃ > t͡s / # __
 ˌɒ > ∅ / # __ [+lab] [-stres,-lo] [-syl,+son]
+∅ [-cont,+back] [+cor,+son,-lat,-nas] > ɾ [+back] ∅/ [-strid] [-cons] __ [+prim]
 [-stres] > ɪ / [+voi] [+son,+cor] ˈi [+lab] __ @
 ɪ > ∅ / [+hi,+front] w __
-w > v / [+lo] __ ( [+back] )* [+lo] #
+w > v / [+syl] __ ( [+back] )* [+lo] #
 [+stres,βround,!βhi] w [-stres] > [+round,+lab,+back,-front,!βtense,-lo] ə̯ ∅
-[-hi,-lo,+front,+prim] > [+round,+lab,-lo,-tense,-cons,-lat,+cont,0delrel] / [+son,+cons] __ w ( [-stres] ) [+voi,+cor]
-[+stres] w > [+long] ∅/ @ __ [-lo]
-[+stres,+lo] w > [+long] ∅/ @ __ [-stres,+lo] [-syl]
+[-stres] > ∅ / [+stres] w __
+[+stres] w > [+long] ∅
 [+front,-lo,-prim,-round] > j / [-cor,uhi,!ulo,asyl] __ [+son,!asyl]
 [+lo,-nas,-prim] > [-round,-lab] / @ __ [-son] ( [-son] ) [+syl,-front]
+[-tense,+lo] > [+hi,-lo,+tense,+long,-cons,-lat,+cont,0delrel] / [ason,+cons] __ [ason,+cons]
 [+lo,-tense,+syl] > [-lo,+tense,+long,-cons,-lat,+cont,0delrel] / [+cons,-strid] ( [-cons] ) __ [-syl] [+front]
 [+lo,+round,-nas] > [-lo,-tense,-cons,-lat,+cont,0delrel] / __ [+voi,+cons,-nas] [-tense,+hi,-stres]
 ʊ > ə / __ #
@@ -258,7 +258,6 @@ s > ʃ
 [-prim,+stres,-round,-long] > ə / # [-nas,+cons] __ [+cor,+son,-nas] [-son,sstrid,scor]
 [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
 [+prim,-tense] > [+long] / # __
-[+syl,+tense,-lo,+long] > [+hi] / [ason,+cons] __ [ason,+cons]
 ˈɛ > ˈɛː / [+strid] t __ [+lat]
 ˈɛ > ˈɛː / [rson,rnas] __ [+cor,-lat,-nas] [+strid,+cont] [+son]
 ˈɛ > ˈɛː / [rson,rnas] __ ( [+cor,-lat,-nas] ) [-delrel,-hi,-voi] [+son]

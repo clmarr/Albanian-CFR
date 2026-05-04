@@ -148,7 +148,8 @@ $this also accomplishes the last aspect DV2.3G3
 
 $DV2.3F1 eu (really ew as handled here) to ē 
 $ for mechanical reasons must come before DV4.3Q2 which effaces w potentially, not to mention DV4.3L1 which fricates it.
-[+front,-hi,+syl] w > [+long] ∅
+$ May 2026 -- subsumed into A2.LXXXIII.ee
+$ [+front,-hi,+syl] w > [+long] ∅
 
 $DV2.3E2 ei (really with -j now due to handling of hiatus high vowels above; from various sources) to ī. 
 $for mechanical reasons should come before DV4.3Q1 which effaces j
@@ -750,7 +751,8 @@ $ TODO examining deletion March 2o26
 [+round,+lo] > [-lo,-tense]
 
 $DIACLEA FIX A2.XXXVIII Middle Proto-Albanian I --bleeding regressive coloring w ~ b/β > v between non-mid vowels and ˈE; j can be before the j. If it sees through (n), as proposed on June 20, then it also feeds n-loss and bleeds nw > m phenomenon. 
-[+lab,wround,wson,+voi] > v / [+syl,alo,-ahi] ([+nas]) __ [+front,-hi,+stres]
+$[+lab,wround,wson,+voi] > v / [+syl,alo,-ahi] ([+nas]) __ [+front,-hi,+stres]
+[+lab,wround,wson,+voi] > v / [+syl,alo,-ahi,atense] ([+nas]) __ [+front,-hi,+syl]
 
 $ DIACLEA CORRECTION A2.XXXI.b MPA stress retraction V B-strid ˈV-hi C/W Vocoid; bled by w > v taverrë phenom. 
 [+syl] [+lab,-strid,+voi,-nas] [+prim,-hi] > [+prim] [+lab] [-stres] / __ [-syl] [-cons]
@@ -1180,13 +1182,10 @@ $A2.LXXXIII.uo ː combination of former .iu and .ɒ to broader rule forming uə�
 $[+stres,βround,-βhi] w [-stres] > [+round,+lab,+back,-front,-βtense,-βlong,-lo] ə̯ ∅
 [+stres,βround,-βhi] w [-stres] > [+round,+lab,+back,-front,-βtense,-lo] ə̯ ∅
 
-$A2.LXXXIII.ee deletion of w across the board. Vwa cases are bled for this by A2.LXXXIII.Vwa.  Happens to countertonics too. As of May 2026, clear the real blocking factor is word finality of the posterior vowel -- so the former two rules are combined, bled by A2.LXXXIII.Vwa.  Furthermore, vowels after the Vw are absorbed. Formerly had:
+$A2.LXXXIII.ee deletion of w across the board. Vwa cases are bled for this by A2.LXXXIII.Vwa.  Happens to countertonics too. As of May 2026, clear the real blocking factor is word finality of the posterior vowel -- so the former two rules are combined, bled by A2.LXXXIII.Vwa.  Hiatus vowel deletion now handled later. Furthermore, vowels after the Vw are absorbed. Formerly had:
 	$[+stres] w > [+long] ∅ / @ __ [-lo]
 	$[+stres,+lo] w > [+long] ∅ / @  __ [-stres,+lo] [-syl]
-$[-stres] > ∅ / [+stres] w __ 
 [+stres] w > [+long] ∅
-$[+stres] w > [+stres] ∅
-
 
 $DIACLEA CORRECTION A2.CIII -- i/e/ɪ becomes j between Cback __ V and Vback=round __ Cson -- in mny places but not after œ (for tryezë, krye etc it instead feeds dipthhongizatoin by going to schwa). Feed by Vw coalescence: liber-a- > li:roj. 
 [+front,-lo,-prim,-round] > j / [-cor,uhi,-ulo,asyl] __ [+son,-asyl]
@@ -1314,8 +1313,8 @@ $DIACLEA CORRECTION A1.XXVII -- before A1.XIV, i/ɪ ejects a j in hiatus with a 
 ∅ > j / [+hi,+front,-round,-prim] __ [-hi,+syl] (@)* [+syl]
 
 $DIACLEA CORRECTION A1.XXXXIII Deletion of non-low vowels after other vowels, which lengthen if countertonic or tonic stressed.  Bled by A1.XXVII
-[+syl,astres] [-stres,-lo] > [along] ∅ 
-
+$[+syl,astres] [-stres,-lo] > [along] ∅ 
+[+syl] [-stres,-lo] > [+syl] ∅ 
 
 $DIACLEA CORRECTION A1.XIV -- seeding of secondary length starts to emerge -- A1.XIV just before i-mutation and loss of post-labial-continuant j, hiatus vowels with the first element countertonic has the second element attain length and countertonic stress (primary remains primary though), and the first element to schwa for now; length useful here for feeding later phenomena. Doesn't happen if first element is long and non-low, though. 
 [+stres,-prim,+lo] > [-long] / __ [+syl]

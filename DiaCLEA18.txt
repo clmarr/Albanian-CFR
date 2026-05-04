@@ -570,6 +570,7 @@ b > β / [-cons] __ ([+son,+cons]) [+syl]
 $DIACLEA FIX A2.XXXXVIII -- early MPA shortening of long round vowels before continuant consonantal labials 
 [+round] > [-long] / __ [+lab,+cont] [-lo]
 
+
 $--------------------Middle Proto-Albanian-------------------
 =Middle Proto-Albanian I
 
@@ -757,8 +758,8 @@ $ DIACLEA CORRECTION A2.XXXI.b MPA stress retraction V B-strid ˈV-hi C/W Vocoid
 	$ DIACLEA CORRECTION A2.XXXIII.y VwI > y: coalescences #ˌeːwɪˈɒːjɲu > yej, clausitūra > klewɩtȳra > klytyrë, civitātem > kiwɩtātɩ > qytet, pavīcvla > pawícula > pykël, er/revilia > ... >> rryllë; not slāwi > shqe, swawiʎa > shijë. Moved later than A2.XXXIII.k --  seems to counterfeed MPA length loss. 
 [-prim] w [+syl,+hi,+front] > [-stres] ∅ [+tense,+round,+lab,+stres,+long] /  __ [acont,-acons]
 
-$DIACLEA CORRECTION A2.CXXXXIII early MPA ao > ɒ. Does not feed length loss. Does not happen to stressed round vowels. 
-[+lo] [-stres,+round] > [+round,+lab,+long,+back,-front,-tense,-lo] ∅
+$A2.LXXXIII.eu intersonorant e rounding, coalescence with w/β--  VRˈɛW(V)r/l(/z)> ˈœː . Not necessary to apply to aw in case of trabeza -- it's now handled in A1.VI. Fed by D3.XI. 
+[-hi,-lo,+front,+prim] [+cont,+lab,βcons,-βson] > [+round,+lab,-lo,-tense,+long] ∅ / [+son,+cons] __ ([-stres]) [+voi,+cons,-back,-lab]
 
 $ DIACLEA CORRECTION A2.XXIII.α  [-son] s T2 > sT2 ː brōtascu > breshk, potest-ā- > pushtoj, potestātem > pushtet; trumpisc-ā- > trushkyej [this is an error. tho.] -- feeds pre-fricative nasal loss [this happens later so it can be fed later.]ǃ Causes compensatory lengthening for nonrounds, as seen in non-reduction for farkoj, mashtroj, , and ultimate diphthohngization for mjeshtër. Counterfeeds loss of primary length. Doesn't feed round vowel lengtheningː breshkë not bryeshkë. TODO consider merger with aw > ā phenomenon. 
 [+syl,-round] > [+long] / __ [-son] [+cont,-syl] [-cont,-son]
@@ -810,8 +811,6 @@ $DIACLEA RELOCDATION B1.I: moved nasal-fricative phenomenon to after the pre-pen
 $ DIACLEA CORRECTION C3A.4: broadened to all nasals plus ʎ - - but excluding r, l {UNNATURAL CLASS!} 
 $[+syl] n > [+long] ∅ / __ [-son,+cont]
 [mnas,-mlat,-mfront] > ∅ / __ [+strid]
-
-
 
 $-----------------------Middle Proto-Albanian II---------------------
 =Middle Proto-Albanian II
@@ -911,15 +910,13 @@ h > ∅ / # __ [-prim,+stres]
 $DIACLEA CORRECTION A2.CXXI early MPA II reduction of unround vowels between labials and coronal sonorants. Prevelar handled later, not so much prelabial. Counterfed by prespirant nasal deletion.
 [+front,-prim] > ɪ / [+lab,+cons] __ ([+cor,-son,+cont]) [+cor,-son] ([+syl] ( @ )*) [+prim]
 
+
 $DIACLEA CORRECTION D3.XI -- beta sent to w after  vowels, joining fate of w for round vowels intervocalically (deletion)
 $β > w / [+round] __
 β > w / [-cons] __
 
 $now continuing with E1.IV
 w > ∅ / [+syl,+round] __ [+son]
-
-$A2.LXXXIII.eu intersonorant e rounding--  VRˈɛw(V)r/l(/z)> ˈœː . Not necessary to apply to aw in case of trabeza -- it's now handled in A1.VI. Fed by D3.XI. 
-[-hi,-lo,+front,+prim] w > [+round,+lab,-lo,-tense,+long] ∅ / [+son,+cons] __ ([-stres]) [+voi,+cor]
 
 $DIACLEA CORRECTION A1.VI.esj limited i-mutation of e by specifically yod across s {strid} , hitting cases after labial consonantals and one lateral. Counterfed by w > β
 ˈe > ˈi / [+cons,blab,-blat] __ s ([+strid]) j
@@ -1117,7 +1114,6 @@ $RESOLUTION OF DIACLEA CORRECTION E1.VII after diphthong coalescence. Although, 
 $diphthong coalescence part II -- DV1735.A.... -- but cf D3.XII. For mid vowels, fed by ç > j
 [+syl,αround,αtense,-back] [-syl,-cons,+front,+hi,+tense] > [+hi,-lo,+tense] ∅
 
-$TODO REGRESSIVE BETA COLORING! - + LOSS -- WORK HERE! TODO REMOVE WHEN ACCOUNTED FOR, OR DEEMED UNNECESSARY.  -- bprobably accounted for now tho.
 
 $DIACLEA CORRECTION A2.LIX -- POSTMIMETIC NASALIZATION: initial m nasalizes a following pretonic vowel before a stop (NOT fricative, excluding ð, not affricate). The result is treated like a Slavic ṼT cluster, but actual Slavic etyma are not included. As of Dec 21, 2o25 it is nonstrident obstruents more broadly, and needs to be immediately pretonic.
 	$ metaxum > mëndafsh, matricula > (më-?)ndrikull
@@ -1187,8 +1183,10 @@ $[+stres,βround,-βhi] w [-stres] > [+round,+lab,+back,-front,-βtense,-βlong,
 $A2.LXXXIII.ee deletion of w across the board. Vwa cases are bled for this by A2.LXXXIII.Vwa.  Happens to countertonics too. As of May 2026, clear the real blocking factor is word finality of the posterior vowel -- so the former two rules are combined, bled by A2.LXXXIII.Vwa.  Furthermore, vowels after the Vw are absorbed. Formerly had:
 	$[+stres] w > [+long] ∅ / @ __ [-lo]
 	$[+stres,+lo] w > [+long] ∅ / @  __ [-stres,+lo] [-syl]
-[-stres] > ∅ / [+stres] w __ 
+$[-stres] > ∅ / [+stres] w __ 
 [+stres] w > [+long] ∅
+$[+stres] w > [+stres] ∅
+
 
 $DIACLEA CORRECTION A2.CIII -- i/e/ɪ becomes j between Cback __ V and Vback=round __ Cson -- in mny places but not after œ (for tryezë, krye etc it instead feeds dipthhongizatoin by going to schwa). Feed by Vw coalescence: liber-a- > li:roj. 
 [+front,-lo,-prim,-round] > j / [-cor,uhi,-ulo,asyl] __ [+son,-asyl]
@@ -1314,6 +1312,10 @@ $DIACLEA CORRECTION A2.LXXXVI -- (ˌ)V¹ðV² > V²ː  -- done by feeding establ
 
 $DIACLEA CORRECTION A1.XXVII -- before A1.XIV, i/ɪ ejects a j in hiatus with a non-final non-hi vowel;
 ∅ > j / [+hi,+front,-round,-prim] __ [-hi,+syl] (@)* [+syl]
+
+$DIACLEA CORRECTION A1.XXXXIII Deletion of non-low vowels after other vowels, which lengthen if countertonic or tonic stressed.  Bled by A1.XXVII
+[+syl,astres] [-stres,-lo] > [along] ∅ 
+
 
 $DIACLEA CORRECTION A1.XIV -- seeding of secondary length starts to emerge -- A1.XIV just before i-mutation and loss of post-labial-continuant j, hiatus vowels with the first element countertonic has the second element attain length and countertonic stress (primary remains primary though), and the first element to schwa for now; length useful here for feeding later phenomena. Doesn't happen if first element is long and non-low, though. 
 [+stres,-prim,+lo] > [-long] / __ [+syl]
@@ -2308,6 +2310,9 @@ $TODO (ǃǃ) with revisions, up to this point was Tosk + SGheg developments. Dif
 $DV2.1D2 -- Tosk uo > ua ; written agnostically as to the syllabic status of the a. 
 $DIACLEA FIX B2.IX -- Tosk uo > ua reinterpreted as including wo > wa [D3.X.f] (but not etymological vo-), now occurs at beginning of Proto-Tosk. 
 [+back,-cons,-hi] > [-back,+front,+lo,-round,-lab,+tense] / [+round] __
+
+$ DIACLEA CORRECTION A1.XXXXII. wɛ (< ye̯)  + e̯/ə̯ > wɛ̄ -- Arbereshë vēsë, (vē but that could be because finality/monosyllable) 
+w ˈɛ [-syl,-cons] > w ˈɛː 
 
 $resolving D3.X.f
 w > v

@@ -1107,7 +1107,9 @@ $DIACLEA FIX B1.VI -- initial (w) r trilling moved into late MPA II, fed by apha
 
 $DV1735.A diphthong coalescence part 1 
 $ DIACLEA CORRECTION D3.XII -- INCORPORATING aw > a: here too now. per DIACLEA FIX C1.B.XVII -- no more for non-low back vowels here.
-[+lo,+syl] [efront,aback,-cons,-syl] > [alo,aback,efront,+long] ∅ / __ [+cons]
+	$ abrogated D3.XII -- just doing aj > e now. aw > aː is handled later in LPA I. 
+[+lo,+syl] j > [-lo,-back,+front,+long] ∅ / __ [+cons]
+$[+lo,+syl] [efront,aback,-cons,-syl] > [alo,aback,efront,+long] ∅ / __ [+cons]
 
 $RESOLUTION OF DIACLEA CORRECTION E1.VII after diphthong coalescence. Although, this ç likely goes to ʎ for some words, as it is attested for cogitare > kuʎtonj. It opens in time to feed coalescence of hte mid vowels {collect-a- > kulit-ɔ- > gultoj} but not the low vowels {trajtoj, pajt not tretoj pet etc.}. Counterfeeds LPA II coda aj > ɛ 
 ç > j
@@ -1139,11 +1141,12 @@ $DIACLEA CORRECTION A1.V -- ɑ > a; at end of MPA II for pre-Slavic vocab, in th
 $DIACLEA CORRECTION A2.CXXII.RVS.lm -- .RVS for LM. For l and m, fed by ɑ > a {A1.V} -- RULE CROSSING!. Hitting l, m -- UNNATURAL CLASS. For these, only seems to operate initially.  
 [+stres,-prim,-back,-long] > ɪ / # [+cons,mnas,mlab,-mlat] __ [+strid] [vsyl,vson]
 
-
 $DIACLEA CORRECTION A2.LXXXXIII early tapping of n to avoid prenasal deletion in -son -stres __ V-hi,+prim -- arbëreshë, ngashërej, urdhëroj, urdhëratë, ngjëroj  , sˌerkɪnˈoru > sher/lqeruar, kullumb{ë}ri -- but not bræstɪnˈiku > bërshnik , no sʊwɪrstɪniku , fˌarɪnˈoɲo... overall needs to be after an obstruent, and happens to native, not Slavic, vocab --> placed at end of MPA II. 
 $n > ɾ̃ / [-son] [-stres] __ [+prim] 
 [-stres] n > ɑ̃ ɾ̃ / [-long] __ [+prim]
 
+$DIACLEA CORRECTION A2.LXXXVIII.awSa -- reduction of countertonic aw to unstressed schwa, bleeding any lengthening of the a, in (countertonic a:) à w strident V́ -- këshyrë, Këlçyrë, gëzof. Not if the C is sonorant: larushkë, palloj. Needs to be immediately before stress: gazmend, ngashërej. Doesn't seem to work for shurukoj so strident. 
+[+lo,+stres,-prim] w > ə / __ [+strid] [+prim]
 
 $DIACLEA CORRECTION A2.LXXVI.Tl  just before Slavic loans enter, reduction of unround countertonics, even long ones in T L __ C, where C != r. 
 [-prim,+stres,-round] > ə / [-cont] [+lat] __ [mnas,mson,+cons]
@@ -1156,7 +1159,6 @@ t͡ʃ > t͡s / # __
 
 $DIACLEA CORRECTION A2.CLIII -- ɒ-aphaeresis early in LPA I, initial ɒ̀ deleted in # __ lab yer Cson, before yer loss. Going broadly with -stres,-lo for now. Bleeds and is counterbled by A2.LXXX.ɔʊ
 ˌɒ > ∅ / # __ [+lab] [-stres,-lo] [-syl,+son]  
-
 
 $DIACLEA CORRECTION A2.CVI pretonic intervocalic gr metathesis. May bleed postmimetic nasalization, if it is not before -back. Not simply postvocalic: agrion > egër. Ndërgoj, mërgoj, Slavic përkavë. Not near s -- shëkroj, shkretë
 ∅ [-cont,+back] [+cor,+son,-lat,-nas] > ɾ [+back] ∅ / [-strid] [-cons] __ [+prim]
@@ -1171,11 +1173,16 @@ $DIACLEA CORRECTION A2.LXXXIII.iwi, bleeding .iu, feed by .ariwo iwɪ > iW   -- 
 $DIACLEA CORRECTION A2.LXXXIII.Vwa, bleeding .ɒ, w between V and a final low vowel> v, in Slavic loans. Tentatively based on rawuka > ravge can see through posterior back sequences, but this is tentative; the word could also be afffected by analogy, esp as ravë and ravgë both mean "mountain path". As of May 2026, for all Vwa, bleedin Vw > Vː phenomena in A2.LXXXIII more broadly, bleeding A2.LXXXIII.ee. 
 w > v / [+syl] __ ([+back])* [+lo] #
 
+$DIACLEA CORRECTION A2.L.a.ii -- æ raises to iː between same sonorance consonants. 
+[-tense,+lo] > [+hi,-lo,+tense,+long] / [ason,+cons] __ [ason,+cons]
+
+$DIACLEA CORRECTION A.1 & A2.L : æ(ː?) > eː / C-strid __ C Vfront, elsewhere to a (also A1.I). Even if not long, [æ] tends to be longest vowel and this does not seem to merge with /e/ or /ɛ/ immediately assuming the raising to /i/ (/ɪ/?) phenomenon is a bit later. 
+[+lo,-tense,+syl] > [-lo,+tense,+long] / [+cons,-strid] ([-cons]) __ [-syl] [+front]
+
 $A2.LXXXIII.uo ː combination of former .iu and .ɒ to broader rule forming uə̯ > uo.  high vowel initial sequences go straight to uə̯ ; ohterwise it passes through the ˈɔːə̯ scenario. 
 		$conditioning now taken care of with prior rules. 
 $[+stres,βround,-βhi] w [-stres] > [+round,+lab,+back,-front,-βtense,-βlong,-lo] ə̯ ∅
 [+stres,βround,-βhi] w [-stres] > [+round,+lab,+back,-front,-βtense,-lo] ə̯ ∅
-
 
 $A2.LXXXIII.ee deletion of w across the board. Vwa cases are bled for this by A2.LXXXIII.Vwa.  Happens to countertonics too. As of May 2026, clear the real blocking factor is word finality of the posterior vowel -- so the former two rules are combined, bled by A2.LXXXIII.Vwa.  Furthermore, vowels after the Vw are absorbed. Formerly had:
 	$[+stres] w > [+long] ∅ / @ __ [-lo]
@@ -1188,12 +1195,6 @@ $DIACLEA CORRECTION A2.CIII -- i/e/ɪ becomes j between Cback __ V and Vback=rou
 
 $DIACLEA CORRECTION A2.LXXX.aT ˌɒ, ɒ > ˌɑ, ˌɑ in __ T V-front. Tentatively broader [-son] for now. Tentatively non-initial per opëngë {North Gheg apangë}. Can see through sonorant. 
 [+lo,-nas,-prim] > [-round,-lab] / @ __ [-son] ([-son]) [+syl,-front]
-
-$DIACLEA CORRECTION A2.L.a.ii -- æ raises to iː between same sonorance consonants. 
-[-tense,+lo] > [+hi,-lo,+tense,+long] / [ason,+cons] __ [ason,+cons]
-
-$DIACLEA CORRECTION A.1 & A2.L : æ(ː?) > eː / C-strid __ C Vfront, elsewhere to a (also A1.I). Even if not long, [æ] tends to be longest vowel and this does not seem to merge with /e/ or /ɛ/ immediately assuming the raising to /i/ (/ɪ/?) phenomenon is a bit later. 
-[+lo,-tense,+syl] > [-lo,+tense,+long] / [+cons,-strid] ([-cons]) __ [-syl] [+front]
 
 $DIACLEA CORRECTION A2.LXXX.ɔʊ -- first Slav layer ɒ > ɔ  /  @ __ [+voi,+cons,-nas] yer, before loss of Slav layer I yers, .
 [+lo,+round,-nas] > [-lo,-tense] / __ [+voi,+cons,-nas] [-tense,+hi,-stres] 

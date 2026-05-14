@@ -577,7 +577,7 @@ $ resolution of DV1744.D & DV1744.E1 -- see notes on further above, this is moti
 $DIACLEA CORRECTION B2.XIX -- ts dz to θ ð moved to late CPA; MPA I greek words don't feed it, while MPA I Greek θ treated like inherited ts > θ. 
 {t͡s;d͡z} > {θ;ð}
 
-$DIACLEA CORRECTION A1.XI.b b > beta. 
+$DIACLEA CORRECTION A1.XI.b b > beta. As of March 2026, (more efficiently sending this straight to w). 
 b > β / [-cons] __ ([+son,+cons]) [+syl]
 
 $DIACLEA FIX A2.XXXXVIII -- early MPA shortening of long round vowels before continuant consonantal labials 
@@ -637,7 +637,6 @@ $l > lˠ / [+syl] __ [+syl,-front]
 $DIACLEA CORRECTION A2.CLVIII -- countertonic stress lost on non-initial syllable before g, early. Consider expanding this. Bleeds A2.CLVII.k
 [-prim] > [-stres] / [+syl] (@)* __ ɡ
 
-
 $DIACLEA CORRECTION D3.XIII -- Middle Proto-Albanian l-split to l and lˠ no longer. Handled in Late Proto-Albanian I, in tandem with early Slavic.
 
 $ DIACLEA CORRECTION A2.I -ʎ to jl in Middle Proto-Albanian I
@@ -646,8 +645,6 @@ $ DIACLEA CORRECTION A2.I -ʎ to jl in Middle Proto-Albanian I
 
 	$DIACLEA CORRECTION A2.I.ll : lj, llj > ʎ >  ll in remaining V-lo __ hi sequences not hit by A2.I.jl
 ʎ > lː / [-lo,-cons] __ [+hi]
-
-
 
 $ see "kt outcomes" file, and the more recent (Nov 17 2025) "MPA f obstruent cluster formation redux" 
 $ k becoming yod before /t/ if next to front vowel -- De Vaan 2018(:1744)  -- DV1744.J3
@@ -664,7 +661,7 @@ $ DIACLEA CORRECTION C3B.IV : in the V-stres [t] condition, the unstressed vowel
 $ DIACLEA CORRECTION B2.V -- moved. this aspect to before MPA I vowel drops of C3B.VIII
 $ DIACLEA CORRECTION C2.V cogitare rule instead goes to ʎ, evidence from OAlb. 
 [+back,+cons] > ʎ / [-cons,-front] __ [-stres,+front] t
-$ second part -- prior conditioning
+$ second part -- prior conditioning --- seems to be moved, though. 
 
 $ DIACLEA CORRECTION C3B.IV* -- nasal conditioning removed here. Instead nkt > ɲt after stressed nonround (ma(n)jtë, shenjtë, strenjtë). As of Dec 1o 2o25, needs to be adjacent on one side or the other to the primary stressed vowel -- not in countertonic __ atonic as seen in the sanctu- compound words. 
 $ DIACLEA CORRECTION C3B.IV.r, b-- in hte immediate contact position (i.e. not the above, rather than merely after front vowels, iotation happens after  (C3B.IV.r) voiced coronals preceded by other coronals (perhaps across a nonprimary vowel) and (C3B.IV.b) labials on the other side of the vowel perhaps with l intervening. (formerly: [+back,+cons] > j / [+front] __ t) 
@@ -740,7 +737,7 @@ $DIACLEA CORRECTION A1.VI.w : TRANSLABIAL I-MUTATION. limited early i-mutation-l
 $DIACLEA CORRECTION A2.CLV -- Middle Proto-Albanian II pretonic ɒ unrounded after k; for now applying more broadly to all velar consonants. Effectedː quadresima, quadriga, quasillum; possibly katër. Attempt to relate development nodunculum not worth it. 
 [+lo,-prim] > [-round,-lab] / [+back,+cons] __
 
-$DIACLEA CORRECTION A2.XXXV -- hiatus j insertion between front vowel __ low vowel in Middle Proto-Albanian I, just before pre-palatal ɪ-raising (which it seems to feed)̠.  As of 11/13/25, this now only happens after stressed {incl. secondary stressed} i/e. Counterbled by ɒ̄ rounding
+$DIACLEA CORRECTION A2.XXXV -- hiatus j insertion between front vowel __ low vowel in Middle Proto-Albanian I, just before pre-palatal ɪ-raising (which it seems to feed)̠.  As of 11/13/25, this now only happens after stressed {incl. secondary stressed} i/e. Counterbled by ɒ̄ raising
 ∅ > j / [+front,+syl] __ [+lo] 
 
 $DIACLEA CORRECTION A2.LXXXI -- deletion of intercountertonic n in a somewhat idiosyncratic context with weird classes at play -- see file "intercountertonic denasalization.doc" # ({k,w}) [-prim,-lo] __ {k,p,t,w} [-prim] (n) {d,t,lˠ} [+prim] . Effects: convent-ā > kuvendoj, invit-ā- > ftoj, ventil-ā- > ftilloj, content-ā- > kutëndoj , comput-ā- > kupëtoj. Took way too long on this one. Bleeds A1.IV.
@@ -750,14 +747,13 @@ $DIACLEA CORRECTION A2.LXXXXVII..ara -- very early instance of this n-rhotacism,
 [+stres,+back,alo] n > [-atense,-astres] ɾ / __ [+prim,+lo]
 
 $ De Vaan p1736 "3." + DV1735C1 (PPAlb *ā)+ DV1739.A4 (on Gk mākhānā > mokër, but via PPAlb *ā) -- completion of ā > o phenomenon, via raising of ɒː to ɔː -- thus completing "ɑː > ɔː" as in his enumerated "3." at the bottom of 1736. DIACLEA CORRECTION C1A.VIII: to handle the current implementation of A2.VIII, broadened to include short ɒ too. 
-$ TODO examining deletion March 2o26
 [+round,+lo] > [-lo,-tense]
 
-$DIACLEA FIX A2.XXXVIII Middle Proto-Albanian I --bleeding regressive coloring w ~ b/β > v between non-mid vowels and ˈE; j can be before the j. If it sees through (n), as proposed on June 20, then it also feeds n-loss and bleeds nw > m phenomenon. 
+$DIACLEA FIX A2.XXXVIII Middle Proto-Albanian I VETACISM --bleeding regressive coloring w ~ b/β > v between non-mid vowels and ˈE; j can be before the j. If it sees through (n), as proposed on June 20, then it also feeds n-loss and bleeds nw > m phenomenon. 
 $[+lab,wround,wson,+voi] > v / [+syl,alo,-ahi] ([+nas]) __ [+front,-hi,+stres]
 [+lab,wround,wson,+voi] > v / [+syl,alo,-ahi,atense] ([+nas]) __ [+front,-hi,+syl]
 
-$ DIACLEA CORRECTION A2.XXXI.b MPA stress retraction V B-strid ˈV-hi C/W Vocoid; bled by w > v taverrë phenom. 
+$ DIACLEA CORRECTION A2.XXXI.b MPA stress retraction V B-strid ˈV-hi C/W Vocoid; bled by w > v taverrë "vetacism" phenom. 
 [+syl] [+lab,-strid,+voi,-nas] [+prim,-hi] > [+prim] [+lab] [-stres] / __ [-syl] [-cons]
 
 	$ DIACLEA CORRECTION A2.XXXIII.y VwI > y: coalescences #ˌeːwɪˈɒːjɲu > yej, clausitūra > klewɩtȳra > klytyrë, civitātem > kiwɩtātɩ > qytet, pavīcvla > pawícula > pykël, er/revilia > ... >> rryllë; not slāwi > shqe, swawiʎa > shijë. Moved later than A2.XXXIII.k --  seems to counterfeed MPA length loss. 
@@ -781,7 +777,7 @@ $ TODO March 26 examine whether we really want ɔ > o here.
 $ DIACLEA FIX C3A.5 -- round vowel now effects /ʏ/ too
 [+round,+syl] > [+tense]
 
-$DIACLEA CORRECTION A1.XVIII at least before A2.XXXV, secondary Latin layer unstressed  i in hiatus > j (christiānu > kërshter-ë , diabolus > djall , elegia > ligje for bleeding A2.XXXV; also relevant for iosephus > jozef, sanctu-iakobo > Shijak) 
+$DIACLEA CORRECTION A1.XVIII at least before A2.XXXV, secondary Latin layer unstressed  i in hiatus > j (christiānu > kërshter-ë , diabolus > djall , elegia > ligje for bleeding A2.XXXV; also relevant for iosephus > jozef, sanctu-iakobo > Shijak). Currently only affecting qytet and faqollë tho...
 i > j / __ [+stres] 
 
 $DIACLEA CORRECTION A2.CLVII -- Middle Proto-Albanian ɪ > i tensing before back elements. See Middle ProtoAlb i-tensing file. Large coverage here. Tentatively not happening to /e/ in which case it would be fed by merger of e < ē and ǐ -- vēlum > vel -- but the later may be an Angevin loan, and comes out wrong anyways as *vell. Clearly must happen to bleed ˈɛ / cor cont __ L {390}, and before ɑ becomes front {228}.
@@ -870,15 +866,16 @@ $ DIACLEA CORRECTION D3.IX -- w and original b > β, to b after l,r. ( incorping
 $C3B.VII fix: β > b / @ [+syl] ([-syl])* [+son,-nas,+cor] __
 $ DIACLEA CORRECTION C3B.VII -- DV1743.B4, β > b, now only operates after non-initial vowels then oral coronal continuants (previously: any context with an oral resonant immediately beforehand.). 
 $single case of Belwica > belbice isn't worht having this later where it would cause issues wiht other Slavic etyma e.g. galwa > gallve, galwiniku> gllanik. 
-{β;w} > {b;b} / @ [+syl] ([-syl])* [+cont,-nas,+cor] __
+${β;w} > {b;b} / @ [+syl] ([-syl])* [+cont,-nas,+cor] __
+{β;w} > {b;b} / [-cons] [+cont,-nas,+cor] __
 
-$DIACLEA CORECTION A2.CXXXXVIII Middle Proto-Albanian labiovelarization of countertonic ˌe between CONSONANTAL labial and lateral , fed by D3.IX postcoronal w fortition. Doesn't happen before ʎ. Seems to lengthen l too -- lˠ is not outcome, but rather l. 
+$DIACLEA CORECTION A2.CXXXXVIII Middle Proto-Albanian labiovelarization of countertonic ˌe between CONSONANTAL labial and lateral , fed by D3.IX postcoronal w fortition. Doesn't happen before ʎ. Seems to lengthen l too -- lˠ is not outcome, but rather l. Possibly superfluous rule. 
 ˌe l > ˌu lː / [+lab,+cons] __
 
 $ DV1744.E4 -- Latin d becomes edh after r (as with PPAlb d -- DV1744.E2) , will later be recurrent as phonotactic rule in Slavic 
 $DIACLEA CORRECTION C3A.9 -- on the basis of later outcomes with Slavic etyma inserted, expanded to more typical leniting contexts ː post-oral-sonorant, before lateral or non-consonant (j ː ogradja > ograjë). First, pre-Slavic, phenomenon does not have this happen after vocoids (clearly not w ː lawdem > lavd); no reason to assume Slavic layer is different -- however on 11/29 this is usurped as lavd is assumed to be a later loan. 
 $ DIACLEA CORRECTION A1.XI.d -- this is placed in  MIDDLE PROTO-ALBANIAN LENITION of d  to delta, post oral sonorant and pre vocoid, settinɡ staɡe for their later loss. As of 6/27/25, decoupled from b to beta -- appears to be blocked by betacism of w. 
-$ evidence for two separate d > ð phenomena aside from it happening clearly to first wave Slavic etymaː (1) different vowel outcomes, this will ultimatley contribute to lengthening and diphthong or tripthong formation not seen for Slavic etyma; 2 (weaker) feeds preservation in ādōr-a- > adhëroj etc bc a lengthens (and thus is preserved) before coronal continuants not stops here, and aphaeresis preceeds differently for first Slavic layer than that which is inherited into Middle Proto-Albanian (3) it counterfeeds (A2.LIX:) vowel nasalization in #m- that precedes Slavic input (metaxa >mëndafsh but Mɒgɯla >Mëgullë etc). 
+$ evidence for two separate d > ð phenomena aside from it happening clearly to first wave Slavic etymaː (1) different vowel outcomes, this will ultimatley contribute to lengthening and diphthong or tripthong formation not seen for Slavic etyma; 2 (weaker) feeds preservation in ādōr-a- > adhëroj etc bc a lengthens (and thus is preserved) before coronal continuants not stops here, and aphaeresis preceeds differently for first Slavic layer than that which is inherited into Middle Proto-Albanian (3) aphaeresis counterfeeds (A2.LIX:) vowel nasalization in #m- that precedes Slavic input (metaxa >mëndafsh but Mɒgɯla >Mëgullë etc). 
 d > ð / [-cons] ([+son,-nas,+cons]) __ [βlat,βcons]
 
 $ DIACLEA CORRECTION A2.XXXXII --  d > r / [-prim] __ r  (retained after stress: scodra, chersydra, quadrum)
@@ -916,15 +913,19 @@ $DIACLEA CORRECTION A2.CXXI early MPA II reduction of unround vowels between lab
 [+front,-prim] > ɪ / [+lab,+cons] __ ([+cor,-son,+cont]) [+cor,-son] ([+syl] ( @ )*) [+prim]
 
 
-$DIACLEA CORRECTION D3.XI -- beta sent to w after  vowels, joining fate of w for round vowels intervocalically (deletion)
+$DIACLEA CORRECTION D3.XI -- beta sent to w after vowels, joining fate of w for round vowels intervocalically (deletion)
 $β > w / [+round] __
 β > w / [-cons] __
 
 $now continuing with E1.IV
 w > ∅ / [+syl,+round] __ [+son]
 
-$DIACLEA CORRECTION A1.VI.esj limited i-mutation/iotation-like effect upon e by specifically yod across s {strid} , hitting cases after labial consonantals and one lateral. 
-ˈe > ˈi / [+cons,blab,-blat] __ s ([+strid]) j
+
+$ THOUGHTS ON (NOT) HAVING TWO RULES BELOW CONSOLIDATED -- early yod-to-iota displacement, transsigmatorhotic. bˈest͡ʃjɑ βˈɛst͡ʃju but not kˌummˈɛrkju ---- këmishë klishë   -not kumerq < kˌummˈɛrkju. Needs to displace to after vowel so i'ts not blocked by labials in bishë, vish etc, but beore it in zgjyrë -- not ideal
+$∅ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] j
+
+$DIACLEA CORRECTION A1.VI.esj limited i-mutation/iotation-like effect upon e by specifically yod across s {strid} , hitting cases after labial consonantals and one lateral. 2026 broadened to any ˈesC*j, no need for limitation to post-labial/lateral. Formerly : ˈe > ˈi / [+cons,blab,-blat] __ s ([+strid]) j
+ˈe > ˈi / __ s ([-syl])* j
 
 $DIACLEA CORRECTION A2.XXXXV.a right before MPA II, j > ∅ / s __ V́ 
 {j;k j} > {∅;c} / s __ 
@@ -934,14 +935,13 @@ $ i-mutation here, since it can feed ietation/diphthongizations (in case of PPAl
 $DIACLEA CORRECTION C8.I: I-mutation now realized via evanescent ɪ̯ which coalesces with the target vowels.
 $ FORMER I-MUT {ˈɑ;ˈu;ˈo;ˈe;ˈɛ} > {ˈe;ˈy;ˈø;ˈi;ˈi} / [-lab] __ ([-syl])* [+front,-round,-cons]
 
-$DIACLEA CORRECTION A1.VIII: mid front vowels e œ ɛ before r or s then j become i-mutanda, via the ɪ̯. In these cases, the j is then deleted. Must come before proper iota metathesis below, implementing DV2.2.1A3,  DV2.2.1B4, DV2.2.1F2, etc. 
-∅ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] j > ɪ̯ [+prim] [+cont] ∅
-
 $IOTA-METATHESIS that feeds i-mut. 
 $ this implements DV2.2.1A3,  DV2.2.1B4, DV2.2.1F2, his is also part of the implementation of DV2.2.1A5,DV2.2.1B6, DV2.2.1L1, and DV1737's 5b.II 
 $the contextual trigger for this is left somewhat vague, but examples given include __ n t ī, __ C j, __ C ɛ, __ C {ɪ/e}, and one case that will probably concern __ ʎ (DV2.2.1A5) .. so the context can be what is C j, ʎ, i e ɛ ɪ here. 
 $it can be assumed this is intended as a law targeting stressed vowels, because it is placed in 2.2.1 "The stressed vowels of PAlb". No direct statement of ɲ being implicated.
 
+$DIACLEA CORRECTION A1.VIII: mid front vowels e œ ɛ before r or s then j become i-mutanda, via the ɪ̯. In these cases, the j is then deleted. Must come before proper iota metathesis below, implementing DV2.2.1A3,  DV2.2.1B4, DV2.2.1F2, etc. 
+∅ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] j > ɪ̯ [+prim] [+cont] ∅
 
 $DIACLEA CORRECTION C1B.VII: ɔ > œ phenomena no longer a regular part of i-mutation, simply participating in the later coalescence (E1.I) with yod (georgius > Gjergj; ratiōnem > arësye -- these are caused by *prior* yod! Cases like 2/3SG sheh for shoh are analogical). 
 $ implementing i-mutation ignition for a ɛ e, separated from that of /u/ per E1.II. 
@@ -954,10 +954,10 @@ $∅ > ɪ̯ / [-lab] __ [-round,-hi,+prim] {[+cons,-lab] ([-syl])* [+front,-roun
 
 $^ DIACLEA CORRECTION C3B.III: I-mutation is BLOCKED by preceding labials [seeing through lateral], and also no evidence it occurs word-initially, plenty of evidence it doesn't. This can be captured by specifying [-lab] for a prior for the i-mutation trigger because requiring a specification excludes the word boundary being there.  TODO CONSIDER MERGING THIS INTO A2.II  -- Jan 15 , consoldiating with A2.II 
 
-$DIACLEA CORRECTION C1A.XIX: i-mutation now hits initial vowels if trigger is non-final {aer > ajër, asper > ashpër}. DOES happen to at least one round vowel -- opɩra > vepər . {hingël, egër, engjëll, emtë, iriq, vepër}. 
+$DIACLEA CORRECTION C1A.XIX: i-mutation now hits initial vowels if trigger is non-final {aer > ajër, asper > ashpër}. DOES happen to at least one round vowel -- opɩra > vepər -- however, this is now handled by translabial i-mut, earlier. {hingël, egër, engjëll, emtë, iriq, vepër}. Probably now superfluous as a rule, can merge into main i-mut rule. 
 ∅ > ɪ̯ / # __ [+prim,-hi] ([-syl])* [+front,-round,-cons] (@)* [+syl]
 
-$DIACLEA CORRECTION A1.VI.s: lmited countertonic i-mutation also occurs for countertonic a in S __ liquid
+$DIACLEA CORRECTION A1.VI.s: limited countertonic i-mutation also occurs for countertonic a in S __ liquid
 $ ultimately ˌɑ > ˌe / s __ [+cor,+son] ([+cons])* [+front,-cons,-lo,-round]
 ∅ > ɪ̯ / s __ ˌɑ [+cor,+son,-nas] ([+cons]) [+front,-cons,-lo,-round]
 
@@ -977,7 +977,7 @@ $DIACLEA FIX A2.XVIII.* -- however, j is preserved before a tonic vowel after t�
 $DIACLEA CORRECTION A2.CLI -- i-mutatory iota absorbed before it can trigger i-mutation, in V C-lat,-front __ V́-round Cfront. For conditioning, cf fixes log. UNNATURAL CLASS, RECURRENT -- laterals and palatals patterning together 
 ɪ̯ > ∅ / [-cons] [-syl,-lat,-front] __ [+syl] [+front]
 
-$ DIACLEA CORRECTION D3.VII --  j before final unstressed a becomes iota before loss of yod after labials (A2.II), allowing this, too, to join with i-mutation. (Exception ːrubia > rrojbë; may require separate explanation; this may however be a loan. ). 
+$ DIACLEA CORRECTION D3.VII --  j before final unstressed a becomes iota before loss of yod after labials (A2.II), allowing this, too, to join with i-mutation. (Exception ːrubia > rrojbë; may require separate explanation; this may however be a loan. ). May be superfluous. 
 j > ɪ̯ / __ ɑ
 
 $ DIACLEA CORRECTION A2.II -- disappearance of j/iota after labials before round vowels, (-ahandled above in D3.VII). As of June 26, it's now labial *obstruents*, can see through (V) r. As of Jan 15 '26, this is the SAME phenomenon as the blocking of i-mutation C3B.III. 
@@ -994,7 +994,7 @@ $ DIACLEA CORRECTION A2.II -- disappearance of j/iota after labials before round
 				$ version prior to March 24 2026 - -[+front,-syl,-cons] > ∅ / [+cons,+lab] __ [eprim,-eround]
 					$ reform reasons -- see file "i-mut blockin reform Mar 24 2026"
 
-			$A2.II.a.i -- deletions before unstressed round vowels -- these bleed A2.LXVI.1 (janar, fëner, merqer) -- later ones don't. Using alpha features to capture the UNNATURAL CLASS -- remark! -- with the +lab,+son cases hadnled in A2.II.a.ii -- but this is a matter of convenience not theory. 
+			$A2.II.a.i -- deletions before unstressed round vowels -- these bleed A2.LXVI.1 (janar, fëner, merqer) -- later ones don't. Using alpha features to capture the UNNATURAL CLASS -- remark! -- with the +lab,+son cases hadnled in A2.II.a.ii -- but this is a matter of convenience not theory. TODO May be better as currently written in thesis (May '26) -- Deletion of yod after liquids and before round vowels, bleeding trilling of \protoform{r} in \protoform{rj} (below)\footnote{E.g: \latinform{caprevm} > MPA II \protoform{k\MPAweakI\tonic{a}prj\MPAweakU} > \textit{qep\"er} `roof-beam' (not **\textit{qepërr}), \latinform{cyprevm} > \protoform{k\MPAweakI\tonic{e}prj\MPAweakU} > \modernAlbGloss{qip\"er}{bronze, copper} (**\textit{qipërr}), \protoform{k\countertonic{\MPAlaxO}kt\tonic{\MPAlaxO}rj\MPAweakU} > \modernAlbGloss{koftor}{oven}, \protoform{m\countertonic{\MPAlaxE}rk\MPAweakI\tonic{a}rj\MPAweakU} > \modernAlbGloss{mërqer}{bride price}. \latinform{capr(e)\'olvs} (\S\ref{latinInputHandling}) > \protoform{k\countertonic{a}prj\tonic{\MPAlaxO}l\MPAweakU} > \modernAlbGloss{kapruall}{roe deer}.}: \protoform{j > ∅ / R \locus\ V$_round$}\label{rule:rjutoRu}
 [+front,-syl,-cons] > ∅ / [+cons,wlab,-wson] __ [-prim,+round]
 
 $DIACLEA CORRECTION A2.LXVI.1 -- Middle Proto-Albanian II foreshadowing of r/ɾj > rː, bleeding i-mutation, but bled by ja > ɪ̯a D3.VII, counterbled by post labial j loss A2.II.b -- inboreanus > murrâ > murrə. RULE crossing -- bled by j deletion in A2.II.a.i -- TODO REMARK IN DISS.   
@@ -1011,7 +1011,7 @@ r > rː / [-cons] __ j [-cons]
 	$	A2.II.c deletions of ɪ̯ and j in [-syl,-cor] Vback R __ V -- this time w is in the triggers. Not [j] which is son-- must be consonantal. Not n it seems : fener (vs. janar? ) 
 [+front,-syl,-cons] > ∅ / [-cor] [-prim,+back] [+cons,+son,-nas] __ [+syl]
 
-$DIACLEA CORRECTION A1.XXXIX late MPA II instance of palatalization as per DV4.2E/F3, bleeding early tapping A2.LIV (which in turn has to be before aphaeresis), and bleeding postliquid aspect of i-mutation blocking yod-deletion (RULE CROSSING) -- A2.II.r. Doesn't seem to happen for labiovelars yet (EVIDENCE OF SEPARATE STATUS), though, and does not yet happen initially. 
+$DIACLEA CORRECTION A1.XXXIX late MPA II instance of palatalization as per DV4.2E/F3, bleeding early tapping A2.LIV (which in turn has to be before aphaeresis), and bleeding postliquid aspect of i-mutation blocking yod-deletion (RULE CROSSING) -- A2.II.r. Doesn't seem to happen for labiovelars yet because it is blocked by post-labial yod deletion though, and does not yet happen initially.  fed by iota displacement, bled by post-labial iota deletion, but not by the reduction of trigger iota, and not by late MPA tapping-cum-lowering(\S\ref{preNasalTapLowering}
 [+back,-lab,-cont] > [-back,+front] / @ __ [+front,-lo,-cons]
 
 	$ A2.II.r deletions of ɪ̯ and j in [+son,+cons,-front] __ V́ C-son,-front -- see i-mut blocking reform.
@@ -1431,12 +1431,12 @@ $ Dec 26 vsn : [-prim,+front,-lo,-long] > ɪ / [+cons,-son,-hi] __ {[ason,avoi,+
 $DIACLEA CORRECTION A2.XVII: the new ʃ absorbs following t͡ʃ. Feeds A2.LXI
 [+strid,+cor] > ∅ / ʃ __
 
-$ DIACLEA CORRECTION A2.LXI LPA ˈi and ˈɪ (later from Slavic) > ˈɛ phenomena , before ʃ or t͡ʃ , after s > ʃ  (DV1744.H) but before t͡ʃ > s..
+$ DIACLEA CORRECTION A2.LXI LPA ˈi and ˈɪ (later from Slavic) > ˈɛ phenomena , with posterior ʃ or t͡ʃ , after s > ʃ  (DV1744.H) but before t͡ʃ > s..
 	$ABROGATED -- A2.LXI.a  if before an affricate, needs the anteriority to mismatch lowness of final vowel, can see through one medial unstressed-- perhaps should have yers lost by now? As of Nov 28, 2025, however, this is explained via hte soft yer dissimilation rule instead. 
 $[+prim,+hi,-round] > [-hi,-tense] / __ [+delrel,!aant] ([-syl])* [alo]
 	$A2.LXI.s -- for ʃ, just has to come before a vowel (this is before final vowel losses)
 		$as of Nov 28, 2025 -- this only the latter, A2.LXI.s is active, only for t͡ʃ joining with ʃ (formerly ʃ where we have [-ant,+strid,-voi] ) 
-	$ as of March 12, 2026, active for after coronal stops and before postalveolars then low vowels. MIsses missa > meshë and monachissa  > murgeshë (latter likely analogy or derivation anyways), but avoids causing errors for */ʃəɾˈit͡ʃɔ/ > */ʃəɾˈɛt͡ʃɔ/;           (et.560; #sˌyrˈittioː# > ... > #ʃəɾˈis#), */ʃˈit͡ʃa/ > */ʃˈɛt͡ʃa/;   (et.609; #sˈentiɑ# > ... > #ʃˈisə#), */bˈiʃa/ > */bˈɛʃa/; Also simplfied rule somewhat since other things won't be hit anyways. 
+	$ as of March 12, 2026, active for after coronal stops and before postalveolars then low vowels. MIsses missa > meshë (now accounted for otherwise) and monachissa  > murgeshë (latter likely analogy or derivation anyways), but avoids causing errors for */ʃəɾˈit͡ʃɔ/ > */ʃəɾˈɛt͡ʃɔ/;           (et.560; #sˌyrˈittioː# > ... > #ʃəɾˈis#), */ʃˈit͡ʃa/ > */ʃˈɛt͡ʃa/;   (et.609; #sˈentiɑ# > ... > #ʃˈisə#), */bˈiʃa/ > */bˈɛʃa/; Also simplfied rule somewhat since other things won't be hit anyways. 
 $[+prim,+hi,+front,-round,+tense] > [-hi,-tense] / __ [-ant,+strid,-voi] [+syl] #
 [+prim,+hi] > [-hi,-tense] / [-cont,+cor] __ [-ant,+strid] [+lo]
 
@@ -1476,16 +1476,45 @@ m [+nas,+cons,+cont] > mː / __ [+syl,-round]
 
 =Late Proto-Albanian II
 
+$ DIACLEA CORRECTION A1.XXIII.ɯ  in # __ [Vback but not u (or ũ)] Cvoi=son 
+		$ not u ː luftoj, luqerrë, lundër ; not voiced obstruents  lɒza > lozë, lɒgʊ > log etc; after Slav layer 2 -- lloskë, llaskonjë; not before u ː luftoj, luqerrë, lundër , (slavic) luzhi, lu(p)qerbull, luspë
+		$ yes before ã ː llengë, llërë -- but these seem outnumberd by cases that went the other way, suppressing as of Jan 25. 
+		$ counterfed by DV1740F2/C4.I: dlato > latë
+l > lˠ / # __ [+syl,+back,ɯhi,-ɯround] [+cons,mvoi,mson]
+${[+hi,+back,-round,+syl];[+syl,-hi,+back]} [+cons,mvoi,mson]
+
+$DIACLEA CORRECTION A2.CXXVI in LPA II before rr > rː { see B1.XIII, it's now happening here}, and before ɯ > u, lowering of yer-like unstressed vowels after p ˈVunround r sonorant and t ˈVround r sonorantː purrë, pirrë, shpirrë, turrë, torrë, shturrë. 
+[+hi,-stres] > ɐ / [-delrel,-hi,plab] [+prim,-plab] [+son,+cor,-nas,-lat] [+son] __
+
+$DIACLEA CORRECTION A1.XVI ː ɯ/ɨ handling
+[+syl,ɯback,+hi,-lat,-front] > [ɯround,ɯlab,-ɯfront]
+
 $ resolving D3.XIII. counterfed by A1.XXII.1.ɪ, also counterfed by formation of ðL clusters A2.LXXXV. Also counterfed by A2.CXXXVI
-	$ C3A.XIV LPA l-darkening, specifically when triggered by following back vowel, can now see through following m: shkallëm, kallm, kullm. 
-l > lˠ / [-cons] ([+cor,+cont,-lat]) __ (m) {[-front,+syl];[+lo]}
+	$ C3A.XIV LPA (II) l-darkening, specifically when triggered by following back vowel, can now see through following m: shkallëm, kallm, kullm. 
+	$ May 2026 -- doing this before back vowels first
+l > lˠ / [-cons] ([+cor,+cont,-lat]) __ (m) [-front,+syl]
+
+$ DV1737's 5b.2 & 5b.3 : ø > ye and o > uo before word final -ɫ, -n, -r
+$ these are also part II of DV2.2.1L1, L2 and 2.2.1M ... but the conditioning appears slightly different for those? 2.2.1M, generating PAlb *ye, is attriubted for "PPAlb. ō + i-mutation, Lat. jō" whereas the table earlier on 1737 treats all Lat & PPAlb ō as becoming ø̄ $ the blocking of fronting of PPAlb and Lat ō is currently implemented in "part I" of DV2.2.1L1 & DV2.2.1M, above, via merger into ɒː (which before long raises)$ per DV2.2.1M, glided j gets absorbed into ø here. $ regarding the word-finality, same factors apply as above in DV1737~5b.1
+$ DIACLEA CONSOLIDATION D3.X.b: now roped into lengthening as diphthongization, formulated appropriately, with e included. Heck actually just make it all non-low tonic vowels. (former version: ${ˈo;j ˈœ;ˈœ} > {ˈu o̯;j ˈy e̯;ˈy e̯} / __ {lˠ;n;r} ([-lo,-stres] (m)) # ) $ DIACLEA FIX: now using lˠ not lː {just formalism, not noted in fixes log}
+	$D3.X.b4 :rather than immediate posterior {lˠ;n;ɾ;ɾ̃} -- all non-long coronal sonorants w. lat = back-- seems to work.
+$ DIACLEA CORRECTION B1.XI -- pre lateral lengthening moved to after emergence of lˠ later in LPA II . 
+[+prim,-lo] > [+long] / __ [+cor,+son,-long,ɣlat,ɣback] ([-lo,-cons]) #
+
+$DIACLEA CORRECTION E1.VI.3  Lengthening of ɾ̃ ~ n, blocking its deletion in final position, in at least two curious contexts  -- (β) after Vlabial + Vhi, (-β) after Cpalatal + V-hi; C is either stop or lateral, V has at least secondary if not primary stress. See files "April 18 non-tapping reform" for more. Bleeds mid vowel lengthening DV1737 5b.2/3 , but counterbled by diphthongization of newly long vowels-- must be here. Counterbled by initial ʎ > l. 
+[+nas,+cor] > nː / [βlab,-βfront,ʟson,ʟcont,-nas] [+syl,+stres,βhi] __ ([+syl] (@)*) #
+
+$A2.LXVII post-last-early-wave Slavic ʎ > l if all separating it from the beginning of the word is labial segments that are either stops or hi (w, u), or ʃ . Fed by ɯ > u A1.XVI. Feeds l > lˠ, in D3.XII/C3A.XVI. Does not feed initial l-darkening A1.XXIII.ɯ
+ʎ > l / # (ʃ) ([+lab,uhi,ucont])* __ [-cons]
+
+$ resolving resolution D3.XIII for low vowels as per May 2026 policy. See D3.XIII/C3A.XIV above. Lowering before low vowels fed by A2.LXVII
+l > lˠ / [-cons] ([+cor,+cont,-lat]) __ (m) [+lo]
 
 $ resolution of A2.CXXXXVII.o -- deletion of ɐ late enough to counterbleed l-darkneing (llërë) and counterfeed initial r  > rr. 
 {ɐ;ˌɐ} > {∅;∅} / # __
 
 $DIACLEA CORRECTION A2.CXXXVI ã > ( ãj >) ɛ̃ between coronals and ɲ, tentativelyː mëllenjë, shenjt, këlshenjt, gështenjë. Only for short a -- not laj which is from #lˈãːɲu at this time etc. Also not ɒ̃.  Bleeds A2.CXXV -> placement early in LPA II or v late in LPA I -- doesn't affect sanja tho, maybe vowel quality diff. Out comes in -ënjë are Lab, etc. (mëllënjë, kështënj, shënjt, etc.).
 ˈã > ˈɛ̃ / [+cor] __ ɲ
-
 
 $DIACLEA CORRECTION A2.CXXV LPA II non-final ãɲ > ãːj if unaffected by A2.CXXXVI, bleeding secondary ɲ formation, thus distinguishing LPA anj from earlier anj, which goes to əɲ. 
 [+lo,-round,-long,+prim] ɲ > [+long] j / __ @
@@ -1508,9 +1537,6 @@ $DIACLEA CORRECTION A2.LXXXI.g -- other ɣ > g, and (.x) after obstruents x > k,
 
 $DIACLEA CORRECTION A2.CIV: feeding rn > rr phenomena, loss of non-initial pretonic ə̃ in r/r:/ɾ -- n. Init vowels don't count {arnoj}.
 {ə̃;ˌə̃} > {∅;∅} / @ [+syl] (@)* [+cor,+son,-lat,-nas] __ [+nas,+cor] (@)* [+prim] 
-
-$DIACLEA CORRECTION A2.CXXVI in LPA II before rr > rː { see B1.XIII, it's now happening here}, and before ɯ > u, lowering of yer-like unstressed vowels after p ˈVunround r sonorant and t ˈVround r sonorantː purrë, pirrë, shpirrë, turrë, torrë, shturrë. 
-[+hi,-stres] > ɐ / [-delrel,-hi,plab] [+prim,-plab] [+son,+cor,-nas,-lat] [+son] __
 
 $DIACLEA CORRECTION A2.CXXVII excrescence of ə to bleed rn coalescence in LPA II -- ə inserted in +cont -cont __ N if the nasal comes before at least one obstruent then a stressed vowel
 ∅ > ə / [+cont] [-cont] __ [+nas,+cons] ([-son])+ [+stres]
@@ -1563,16 +1589,6 @@ $DIACLEA CORRECTION A2.LXXXV.eð -- ˈV¹ðV̯² > ˈV¹ː before an obstruent o
 		$countertonic:  ʝyðkˈata > gjykatë; ʝˌyðkˈɔɲu > gjykoj; porit; maybel molit; maybe hetoj; shuttrijë etc. -- not rrëgjoj, ? not tërkullij / trakullij
 [+stres] > [+long] / [ɱnas,ɱson] __ ð [+cons]
 
-
-$ DV1737's 5b.2 & 5b.3 : ø > ye and o > uo before word final -ɫ, -n, -r
-$ these are also part II of DV2.2.1L1, L2 and 2.2.1M ... but the conditioning appears slightly different for those? 2.2.1M, generating PAlb *ye, is attriubted for "PPAlb. ō + i-mutation, Lat. jō" whereas the table earlier on 1737 treats all Lat & PPAlb ō as becoming ø̄ $ the blocking of fronting of PPAlb and Lat ō is currently implemented in "part I" of DV2.2.1L1 & DV2.2.1M, above, via merger into ɒː (which before long raises)$ per DV2.2.1M, glided j gets absorbed into ø here. $ regarding the word-finality, same factors apply as above in DV1737~5b.1
-$ DIACLEA CONSOLIDATION D3.X.b: now roped into lengthening as diphthongization, formulated appropriately, with e included. Heck actually just make it all non-low tonic vowels. (former version: ${ˈo;j ˈœ;ˈœ} > {ˈu o̯;j ˈy e̯;ˈy e̯} / __ {lˠ;n;r} ([-lo,-stres] (m)) # ) $ DIACLEA FIX: now using lˠ not lː {just formalism, not noted in fixes log}
-	$D3.X.b4 :rather than immediate posterior {lˠ;n;ɾ;ɾ̃} -- all non-long coronal sonorants w. lat = back-- seems to work.
-$ DIACLEA CORRECTION B1.XI -- pre lateral lengthening moved to after emergence of lˠ later in LPA II . 
-[+prim,-lo] > [+long] / __ [+cor,+son,-long,ɣlat,ɣback] ([-lo,-cons]) #
-
-$DIACLEA CORRECTION E1.VI.3  Lengthening of ɾ̃ ~ n, blocking its deletion in final position, in at least two curious contexts  -- (β) after Vlabial + Vhi, (-β) after Cpalatal + V-hi; C is either stop or lateral, V has at least secondary if not primary stress. See files "April 18 non-tapping reform" for more. Bleeds mid vowel lengthening DV1737 5b.2/3 , but counterbled by diphthongization of newly long vowels-- must be here.
-[+nas,+cor] > nː / [βlab,-βfront,ʟson,ʟcont,-nas] [+syl,+stres,βhi] __ ([+syl] (@)*) #
 
 $DV1737's 5b.iv: *o > *uo/# __ {r,lj},
 $this is also DV2.2.1L2 as concerns Latin o
@@ -2046,14 +2062,7 @@ $DIACLEA CORRECTION A2.LXXIX -- last early slav layer ɒ > a only in two (counte
 	$DIACLEA CORRECTION A2.LXXIX.ɔ in all other cases of ɒ goes to ɔ, including the nasal variant. 
 [+lo,+round] > [-lo,-tense]
 
-$ DIACLEA CORRECTION A1.XXIII.ɯ  in # __ [Vback but not u (or ũ)] Cvoi=son 
-		$ not u ː luftoj, luqerrë, lundër ; not voiced obstruents  lɒza > lozë, lɒgʊ > log etc; after Slav layer 2 -- lloskë, llaskonjë; not before u ː luftoj, luqerrë, lundër , (slavic) luzhi, lu(p)qerbull, luspë
-		$ yes before ã ː llengë, llërë -- but these seem outnumberd by cases that went the other way, suppressing as of Jan 25. 
-		$ counterfed by DV1740F2/C4.I: dlato > latë
-l > lˠ / # __ [+syl,+back,ɯhi,-ɯround] [+cons,mvoi,mson]
-${[+hi,+back,-round,+syl];[+syl,-hi,+back]} [+cons,mvoi,mson]
-
-$DIACLEA CORRECTION A1.XVI ː ɯ/ɨ handling 
+$DIACLEA CORRECTION A1.XVI.ɨ ː ɯ/ɨ handling recurrence. 
 [+syl,ɯback,+hi,-lat,-front] > [ɯround,ɯlab,-ɯfront]
 
 $DIACLEA CORRECTION A1.XXIII.Cː in V+back,-hi __ C V/#. UNNATURAL CLASS of posterior consonant -- exclusion of b. 
@@ -2286,9 +2295,6 @@ l > ʎ / [-cont,+hi] __
 
 $Resolution of DIACLEA CORRECTION A2.CX.ɐ
 {ɐ;ˌɐ} > {ə;ˌə} 
-
-$A2.LXVII post-last-early-wave Slavic ʎ > l if all separating it from the beginning of the word is labial segments that are either stops or hi (w, u), or ʃ 
-ʎ > l / # (ʃ) ([+lab,uhi,ucont])* __ [-cons]
 
 $DIACLEA CORRECTION A1.I -- Slavic wave 2 æː handling
 [+syl,-tense] > [-lo] 

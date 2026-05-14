@@ -1206,24 +1206,26 @@ $DIACLEA CORRECTION A1.XXII.ʊ > ∅. Not apocope in first LPA wave though -- do
 $DIACLEA CORRECTION A2.LXXX.ɒʊ : medial ɒ > ʊ before sonorant cons. Does not feed first hard yer deletion wave (A1.XXII.ʊ) though.
 ɒ > ʊ / @ __ [+cons,+son] 
 
-$DIACLEA CORRECTION A2.CLII -- before LPA Alb-internal metathesis, lw > lˠ after a back vowel: gllanik , gallve
-l > lˠ / [+back] __ w
+$DIACLEA CORRECTION A2.CLII -- before LPA Alb-internal metathesis, l > lˠ in ɒ __ lab: gllanik , gallve, gllavinë, kllapë, kllapit. Going with broader [+back] [+lo] __ [+lab] here -- also includes shkalloj, shkallëm, kllogjër 
+l > lˠ / [+back] [+lo] __ [+lab]
 
 $DIACLEA CORRECTION A2.LXIV s in C __ C-cor goes to t͡s, blocking retraction to ʃ. Counterbled by  DV1744.H s > ʃ. Counterbled by Alb-internal metathesis. 
 s > t͡s / [+cons] __ [+cons,-cor]
 
-
 $DIACLEA FIX A2.LI : first wave Slavic nasal vowels are unpacked to Vn, with ɑ for ɒ̃ and e for ɛ. Except if before a nasal. Weak of evidence of word final case. Bleeds d > ð. Recurs in LPA III with more specific outcomes. Counterbleeds Alb-internal metathesis A2.CLII. Feeds A2.LIII r > r: / #  ̠__ . Counterbled by A2.LXXI syncope.  Bleeds A2.CXI.
 [+syl,+nas] ∅ > [-round,-lab,-nas,+tense] n / __ {[-nas];#}
 
-$DIACLEA CORRECTION A2.CLIII -- Alb-internal metathesis! r, l metathesize across ɒ from Slavic if it is followed by two consonants; can see through unstressed vowels. Although this is a development resembling contemporary events in Slavic and happening to Slavic loans, the patterning seems Albanian specific. It is seeing through vowels not on the basis of if they are yers but solely per their stress -- e.g. ɒrwɛsu > Rrafsh, ɒ́lkɒmʊ > lakəm. Nasal vowels are counted as Ṽ, not VN. ɒ unrounds in the process {exception Pllockə }. Lengthening if initial and countertonic. Counterfeeds d > ð. 
-{# ˌɒ l;ˌɒ l;# ˌɒ lˠ;ˌɒ lˠ;# ˌɒ r;ˌɒ r;# ˌɒ ɾ;ˌɒ ɾ;ˈɒ l;ˈɒ lˠ;ˈɒ r;ˈɒ ɾ} > {# l ˌaː;l ˌa;# lˠ ˌaː;lˠ ˌa;# r ˌaː;r ˌa;# ɾ ˌaː;ɾ ˌa;l ˈa;lˠ ˈa;r ˈa;ɾ ˈa} / __ [-syl] {( [-stres] ) [-syl];([-stres,-lo]) #}
+$DIACLA CORRECTION A2.LXXVI.ARA ˌɒr([-stres]) > ara in velar __ labial (counterbled by x >h ), and ɔrɔ in labial/t͡ʃ __ labial/t͡ʃ (t͡ʃ unclear tho -- only two cases Çorovodë and porosit are both ambiguous) ; quality of ɒ reflex assumed to not change. Counterbled by A2.LXVII. For now realized as the insertion of an ˌa -- later it will be assimilated in rule that spreads countertonic back round vowel qualities (also apply to trubulloj, shurukoj not *shurakoj, shuguroj, ngushulloj, Rogoveckë, etc) . Stress will spread via .ARA2.  
+∅ > ɑ / [-cor,+cons] [+back,-hi,-prim] r __ [+lab,-syl]
+
+$DIACLEA CORRECTION A2.LXXVI.ARA3 -- in same contexts as ARA except no requirement that the presyllablic non-coronal be consonantal (e.g. includes w), ɒL and ɒr metathesis for COUNTERTONIC a even if there is vowel after labial. Of course due to A2.CLII the only labial here will be lˠ. Lengthening involved.
+{ˌɒ lˠ;ɒ r;ˌɑ lˠ;ˌɑ r} > {lˠ ˌɑː;r ˌɑː;lˠ ˌɑː;r ˌɑː} / [-cor,-syl] __ [+lab,-syl]
+
+$DIACLEA CORRECTION A2.CLIII -- Alb-internal metathesis! r, l metathesize across ɒ from Slavic if it is followed by two consonants; can see through unstressed vowels. Although this is a development resembling contemporary events in Slavic and happening to Slavic loans, the patterning seems Albanian specific. It is seeing through vowels not on the basis of if they are yers but solely per their stress -- e.g. ɒrwɛsu > Rrafsh, ɒ́lkɒmʊ > lakəm. Nasal vowels are counted as Ṽ, not VN. ɒ unrounds in the process {exception Pllockə }. Lengthening involved if netx to l, or next to r and at word onset. Counterfeeds d > ð. As of May 2026, operates with only one consonant following if that consonant is labial-- must be consonantal for this though -- not w 
+{# ˌɒ l;ˌɒ l;# ˌɒ lˠ;ˌɒ lˠ;# ˌɒ r;ˌɒ r;# ˌɒ ɾ;ˌɒ ɾ;ˈɒ l;ˈɒ lˠ;ˈɒ r;ˈɒ ɾ} > {# l ˌɑː;l ˌɑː;# lˠ ˌɑː;lˠ ˌɑː;# r ˌɑː;r ˌɑ;# ɾ ˌɑː;ɾ ˌɑ;l ˈɑː;lˠ ˈɑː;r ˈɑ;ɾ ˈɑ} / __ [-syl] ([+lab,-syl] (@)*) (([-stres]) [-syl] (@)*) ([-stres,-lo]) #
 
 $DIACLEA CORRECTION A2.LXXX.ka ː ˌɒ,ˈɒ unrounded / velar __ c-nas,-lab -nas. Bled by A2.LXXX.ɔu.
 [+lo,+round,-nas,+stres] > [-round,-lab] / [+back,+cons] __ [+cons,-nas,-lab] [-nas]
-
-$DIACLA CORRECTION A2.LXXVI.ARA ˌɒr([-stres]) > ara in velar __ labial (counterbled by x >h ), and ɔrɔ in labial/t͡ʃ __ labial/t͡ʃ (t͡ʃ unclear tho -- only two cases Çorovodë and porosit are both ambiguous) ; quality of ɒ reflex assumed to not change. Counterbled by A2.LXVII. For now realized as the insertion of an ˌa -- later it will be assimilated in rule that spreads countertonic back round vowel qualities (also apply to trubulloj, shurukoj not *shurakoj, shuguroj, ngushulloj, Rogoveckë, etc) . Stress will spread via .ARA2. As of May 
-∅ > ɑ / # [-cor,+cons] [+back,-hi,-prim] r __ [+lab,-syl]
 
 $ DV1744.H ~ s becomes ʃ -- for s in reflexes of Old Greek (presh < prason), Latin, and the earliest Slavic loans (grusht, shkrap) becomes ʃ (1744.H) -- but this is not fed by tʃ becoming s (DV1744.F and 1744.G) 
 $DIACLEA CORRECTION B2.XV -- s > ʃ moved back to LPA I > what is after 11/26, LPA II, before insertion of Greek etyma. Placed before LPA diphthongization (simmaxōro > simahuar), and before vowel losses. A2.CIL vowel lengthening phenomenon appears to treat s as labial or palatal, further supporting this placement. 

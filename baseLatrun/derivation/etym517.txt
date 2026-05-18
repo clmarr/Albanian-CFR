@@ -1,18 +1,26 @@
-Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :517:
-#kwˈiːs# >>> *#t͡ʃˈi# ( GOLD : #cˈyʃ#) :
-k w ˈiː s 
-*#kwˈiː# | 4 : [+strid,+cor,+cont] > ∅ / __ #
-Middle Proto-Albanian I stage form : *#kwˈiː#
-*#kwˈi# | 45 : [+syl] > [-long,-splng] 
-Middle Proto-Albanian II stage form : *#kwˈi#
-*#kˈi# | 51 : w > ∅ / [-cont,+back] __
-Late Proto-Albanian I stage form : *#kˈi#
-*#cˈi# | 80 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
-Late Proto-Albanian II stage form : *#cˈi#
-Late Proto-Albanian III stage form : *#cˈi#
-Proto-Tosk-SGheg stage form : *#cˈi#
-Proto-Tosk stage form : *#cˈi#
-Old North Tosk stage form : *#cˈi#
-Standard Albanian stage form : *#cˈi#
-*#t͡ʃˈi# | 145 : c > t͡ʃ 
-Final form : *#t͡ʃˈi#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :517:
+#kʷˌɑsˈillum# >>> *#kʷəʃˈal# ( GOLD : #kaʃˈil#) :
+kʷ ˌɑ s ˈi l l u m 
+*#kʷˌɑsˈilum# | 13 : {l;n} > {∅;∅} / l __
+*#kʷˌɑsˈilu# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#kʷˌɑsˈilu#
+*#kʷˌɑsˈɪlʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#kʷˌɑsˈɪlu# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+*#kʷˌɑsˈelu# | 48 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#kʷˌɑsˈelu#
+*#kʷˌɑsˈɛlu# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+*#kʷəsˈɛlu# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
+Late Proto-Albanian I stage form : *#kʷəsˈɛlu#
+*#kʷəʃˈɛlu# | 81 : s > ʃ 
+*#kʷəʃˈɑlu# | 84 : ˈɛ > ˈɑ / [+cor,-lab,+cont] __ l
+Late Proto-Albanian II stage form : *#kʷəʃˈɑlu#
+Late Proto-Albanian III stage form : *#kʷəʃˈɑlu#
+*#kʷəʃˈalu# | 89 : [+lo] > [+front,-back] 
+*#kʷəʃˈal# | 98 : [-stres,-lo] > ∅ / __ #
+*#kʷəʃˈaːl# | 107 : [+prim] > [+long] / __ [+cons,+son]
+Proto-Tosk-SGheg stage form : *#kʷəʃˈaːl#
+Proto-Tosk stage form : *#kʷəʃˈaːl#
+*#kʷəʃˈal# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#kʷəʃˈal#
+Standard Albanian stage form : *#kʷəʃˈal#
+Final form : *#kʷəʃˈal#

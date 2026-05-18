@@ -1,21 +1,24 @@
-Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :607:
-#mˈɑrum# >>> *#mˈaɾ# ( GOLD : #mˈaɾ#) :
-m ˈɑ r u m 
-*#mˈɑru# | 4 : [+nas,+cons] > ∅ / [-stres] __ #
-*#mˈɑrʊ# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian I stage form : *#mˈɑrʊ#
-*#mˈɑru# | 84 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#mˈɑru#
-*#mˈaru# | 154 : [+lo,-round,-nas] > [+front,-back] 
-Late Proto-Albanian I stage form : *#mˈaru#
-*#mˈaɾu# | 202 : r > ɾ 
-Late Proto-Albanian II stage form : *#mˈaɾu#
-*#mˈaːɾu# | 316 : [+prim] > [+long] / __ [+cons,+son,-nas]
-*#mˈaːɾə# | 319 : [-stres,+round,-lo] > ə / __ #
-*#mˈaːɾ# | 325 : [-back,-front,-stres] > ∅ / __ #
-Late Proto-Albanian III stage form : *#mˈaːɾ#
-Proto-Tosk-SGheg stage form : *#mˈaːɾ#
-Proto-Tosk stage form : *#mˈaːɾ#
-*#mˈaɾ# | 502 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#mˈaɾ#
-Final form : *#mˈaɾ#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :607:
+#mˈɑːrtem# >>> *#mˈaɾt# ( GOLD : #mˈaɾt#) :
+m ˈɑː r t e m 
+*#mˈɑːrte# | 6 : [+nas,+cons] > ∅ / [-stres] __ #
+*#mˈɑːrtɛ# | 32 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian I stage form : *#mˈɑːrtɛ#
+*#mˈɑrtɛ# | 63 : [+syl] > [-long,-splng] 
+Middle Proto-Albanian II stage form : *#mˈɑrtɛ#
+*#mˈɑrtɪ# | 95 : [-stres,+front,-lo] > [+hi,-tense,-cons,-lat,+cont,0delrel] / [+cons] __
+*#mɪ̯ˈɑrtɪ# | 112 : ∅ > ɪ̯ / @ __ [-round,-hi,+prim] [+cons,-lab] ( [-syl] )* [+front,-round,-cons]
+*#mˈɑrtɪ# | 123 : [+front,-syl,-cons] > ∅ / [+cons,+lab] __ [eprim,!eround]
+*#mˈartɪ# | 151 : [+lo,-round,-nas,+tense] > [+front,-back] 
+Late Proto-Albanian I stage form : *#mˈartɪ#
+*#mˈaɾtɪ# | 199 : r > ɾ 
+Late Proto-Albanian II stage form : *#mˈaɾtɪ#
+*#mˈaɾtə# | 289 : {ɪ;ɪ̃} > {ə;ə̃} 
+*#mˈaːɾtə# | 321 : [+prim] > [+long] / __ [+cons,+son,-nas]
+Late Proto-Albanian III stage form : *#mˈaːɾtə#
+*#mˈaːɾt# | 335 : [-back,-front,-stres] > ∅ / __ #
+Proto-Tosk-SGheg stage form : *#mˈaːɾt#
+Proto-Tosk stage form : *#mˈaːɾt#
+*#mˈaɾt# | 506 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#mˈaɾt#
+Final form : *#mˈaɾt#

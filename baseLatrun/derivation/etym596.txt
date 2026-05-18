@@ -1,21 +1,25 @@
-Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :596:
-... >>> *#mbəɾkˈɔʃ# ( GOLD : #məɾkˈɔʃ#) :
-... 
-Middle Proto-Albanian I stage form : ...
-Middle Proto-Albanian II stage form : ...
-*#mərəkˈɔsu# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
-Late Proto-Albanian I stage form : *#mərəkˈɔsu#
-*#mərəkˈɔʃu# | 81 : s > ʃ 
-Late Proto-Albanian II stage form : *#mərəkˈɔʃu#
-Late Proto-Albanian III stage form : *#mərəkˈɔʃu#
-*#mərəkˈɔʃ# | 98 : [-stres,-lo] > ∅ / __ #
-*#mərkˈɔʃ# | 106 : ə > ∅ / [+cons,+son,-long,-back] __ [-cont]
-*#mərkˈɔːʃ# | 108 : [+prim] > [+long] / __ [+strid]
-Proto-Tosk-SGheg stage form : *#mərkˈɔːʃ#
-*#mbərkˈɔːʃ# | 121 : ∅ > b / m __ [-stres]
-*#mbəɾkˈɔːʃ# | 126 : r > ɾ 
-Proto-Tosk stage form : *#mbəɾkˈɔːʃ#
-*#mbəɾkˈɔʃ# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#mbəɾkˈɔʃ#
-Standard Albanian stage form : *#mbəɾkˈɔʃ#
-Final form : *#mbəɾkˈɔʃ#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :596:
+#mˈɑnktum# >>> *#mˈəft# ( GOLD : #mˈajt#) :
+m ˈɑ n k t u m 
+*#mˈɑnktu# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#mˈɑnktu#
+*#mˈɑnktʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#mˈɑnktu# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#mˈɑnktu#
+Late Proto-Albanian I stage form : *#mˈɑnktu#
+*#mˈɑnftu# | 73 : {k ə;k} > {f;f} / __ t
+Late Proto-Albanian II stage form : *#mˈɑnftu#
+Late Proto-Albanian III stage form : *#mˈɑnftu#
+*#mˈanftu# | 89 : [+lo] > [+front,-back] 
+*#mˈanft# | 98 : [-stres,-lo] > ∅ / __ #
+*#mˈaːnft# | 107 : [+prim] > [+long] / __ [+cons,+son]
+*#mˈãːnft# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
+*#mˈãːft# | 112 : n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ [+strid,+cons]
+Proto-Tosk-SGheg stage form : *#mˈãːft#
+*#mˈəːft# | 128 : [+lo,+nas,+syl] > [-lo,-back,-front,0tense] 
+Proto-Tosk stage form : *#mˈəːft#
+*#mˈəːft# | 130 : [-cons,+nas] > [-nas] 
+*#mˈəft# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#mˈəft#
+Standard Albanian stage form : *#mˈəft#
+Final form : *#mˈəft#

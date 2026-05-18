@@ -1,21 +1,22 @@
-Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :618:
-#mˈedikum# >>> *#mjˈɛtk# ( GOLD : #mjˈɛk#) :
-m ˈe d i k u m 
-*#mˈediku# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
-*#mˈedəku# | 29 : [-stres] > ə / [+prim] ( @ )* __ @
-Middle Proto-Albanian I stage form : *#mˈedəku#
-*#mˈedku# | 32 : ə > ∅ 
-*#mˈɛdkʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-*#mˈɛdku# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#mˈɛdku#
-*#mjˈɛdku# | 57 : ∅ > j / __ ˈɛ
-Late Proto-Albanian I stage form : *#mjˈɛdku#
-*#mjˈɛtku# | 71 : [-son] > [-voi] / __ [-voi]
-Late Proto-Albanian II stage form : *#mjˈɛtku#
-Late Proto-Albanian III stage form : *#mjˈɛtku#
-*#mjˈɛtk# | 98 : [-stres,-lo] > ∅ / __ #
-Proto-Tosk-SGheg stage form : *#mjˈɛtk#
-Proto-Tosk stage form : *#mjˈɛtk#
-Old North Tosk stage form : *#mjˈɛtk#
-Standard Albanian stage form : *#mjˈɛtk#
-Final form : *#mjˈɛtk#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :618:
+#mˌɑtteˈukkum# >>> *#mt?1ˈukk# ( GOLD : #məsˈuk#) :
+m ˌɑ t t e ˈu k k u m 
+*#mˌɑttjˈukkum# | 9 : [-lo,+syl,-prim] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+*#mˌɑttjˈukku# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#mˌɑttjˈukku#
+*#mˌɑttjˈʊkkʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#mˌɑttjˈukku# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#mˌɑttjˈukku#
+*#məttjˈukku# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
+Late Proto-Albanian I stage form : *#məttjˈukku#
+*#mət?0ˈukku# | 86 : [+ant,+cor,-cont] j > [-ant,+distr,+delrel,+cor,-cont,+cons,0tense] ∅
+*#mət?1ˈukku# | 87 : [-ant,+distr,+delrel] > [+ant,-distr,-cont,+cor,+cons,0tense] 
+Late Proto-Albanian II stage form : *#mət?1ˈukku#
+Late Proto-Albanian III stage form : *#mət?1ˈukku#
+*#mət?1ˈukk# | 98 : [-stres,-lo] > ∅ / __ #
+*#mt?1ˈukk# | 106 : ə > ∅ / [+cons,+son,-long,-back] __ [-cont]
+Proto-Tosk-SGheg stage form : *#mt?1ˈukk#
+Proto-Tosk stage form : *#mt?1ˈukk#
+Old North Tosk stage form : *#mt?1ˈukk#
+Standard Albanian stage form : *#mt?1ˈukk#
+Final form : *#mt?1ˈukk#

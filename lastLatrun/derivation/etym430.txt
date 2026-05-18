@@ -1,39 +1,27 @@
-Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :430:
-#kˌollˌiːmitˈɑːnioː# >>> *#ɡulmtˈɔj# ( GOLD : #ɟəmtˈɔj#) :
-k ˌo l l ˌiː m i t ˈɑː n i oː 
-*#kˌollˌiːmitˈɑːnjoː# | 9 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-*#kˌollˌiːmitˈɒːnjoː# | 12 : [-hi,+long,+prim] > [+round,+lab] / __ [+cont,+cor] j [+round]
-*#kˌɔllˌiːmɪtˈɒːnjoː# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-*#kˌɔllˌimɪtˈɒːnjoː# | 27 : [+syl,+front,+hi] > [-long,-splng] 
-*#kˌʊllˌimɪtˈɒːnju# | 33 : [+round,-lo,-prim,-hi] > [+hi,-long,-splng] 
-Middle Proto-Albanian I stage form : *#kˌʊllˌimɪtˈɒːnju#
-*#kˌʊllˌimɪtˈɒːɲu# | 48 : {n j;nː j} > {ɲ;ɲ} 
-*#kˌʊlːˌimɪtˈɒːɲu# | 55 : [+cor,nnas,!nlat] [+cor,+son] > [+long] ∅
-*#kˌʊlːˌimɪtˈɔːɲu# | 76 : [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
-*#kˌʊlːˌimɪtˈɔɲu# | 80 : [+syl] > [-long,-splng] 
-*#kˌulːˌimɪtˈoɲu# | 84 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-*#kˌulːˌimetˈoɲu# | 88 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#kˌulːˌimetˈoɲu#
-*#kˌulːˌimɪtˈoɲu# | 97 : [-stres,+front,-lo] > [+hi,-tense,-cons,-lat,+cont,0delrel] / [+cons] __
-Late Proto-Albanian I stage form : *#kˌulːˌimɪtˈoɲu#
-*#kˌulːˌimɪtˈɔɲu# | 189 : [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
-*#kˌulːɪmɪtˈɔɲu# | 227 : [-prim,+front,-long,-lo] > ɪ / [+syl] ( @ )* __ ( @ )* [+prim]
-*#kˌulːəmɪtˈɔɲu# | 232 : [-prim,+front,-long] > ə / [+cons,+son,mnas,mlab] __ [+cons,+son,-front] ( @ )* [+prim]
-*#kˌulːə̃mɪtˈɔ̃ɲu# | 248 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian II stage form : *#kˌulːə̃mɪtˈɔ̃ɲu#
-*#kˌulːə̃mətˈɔ̃ɲu# | 282 : {ɪ;ɪ̃} > {ə;ə̃} 
-*#kˌulːə̃mtˈɔ̃ɲu# | 302 : {ə;ɪ} > {∅;∅} / @ m __ [-cont,-son]
-*#kˌulːə̃mtˈɔ̃ɲə# | 319 : [-stres,+round,-lo] > ə / __ #
-*#kˌulːə̃mtˈɔ̃ɲ# | 325 : [-back,-front,-stres] > ∅ / __ #
-Late Proto-Albanian III stage form : *#kˌulːə̃mtˈɔ̃ɲ#
-Proto-Tosk-SGheg stage form : *#kˌulːə̃mtˈɔ̃ɲ#
-*#ɡˌulːə̃mtˈɔ̃ɲ# | 471 : k > ɡ / # __ ( [-prim,-lo] ) [+lat,-hi] ( [-prim,-lo] ) ( [+son,-syl] ) [-son,-cont] [+prim]
-Proto-Tosk stage form : *#ɡˌulːə̃mtˈɔ̃ɲ#
-*#ɡˌulːəmtˈɔ̃ɲ# | 479 : [-prim,-cons] > [-nas] 
-*#ɡˌulːəmtˈɔɲ# | 482 : [-cons,+nas] > [-nas] 
-*#ɡulːəmtˈɔɲ# | 488 : [-prim] > [-stres,-prim,+syl,+son] 
-*#ɡulːmtˈɔɲ# | 491 : [-prim,-round,-cons] > ∅ / [-cons] [+lat] __ [+nas,-front]
-*#ɡulmtˈɔɲ# | 502 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#ɡulmtˈɔɲ#
-*#ɡulmtˈɔj# | 516 : ɲ > j / [-hi] __ #
-Final form : *#ɡulmtˈɔj#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :430:
+#kˌollˈɑːre# >>> *#kulˈaɾ# ( GOLD : #kulˈaɾ#) :
+k ˌo l l ˈɑː r e 
+*#kˌɔllˈɑːrɛ# | 32 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+*#kˌʊllˈɑːrɛ# | 37 : [+round,-lo,-prim,-hi] > [+hi,-long,-splng] 
+Middle Proto-Albanian I stage form : *#kˌʊllˈɑːrɛ#
+*#kˌʊlːˈɑːrɛ# | 57 : [+cor,nnas,!nlat] [+cor,+son] > [+long] ∅
+*#kˌʊlːˈɑrɛ# | 63 : [+syl] > [-long,-splng] 
+*#kˌulːˈɑrɛ# | 83 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#kˌulːˈɑrɛ#
+*#kˌulːˈɑrɪ# | 95 : [-stres,+front,-lo] > [+hi,-tense,-cons,-lat,+cont,0delrel] / [+cons] __
+*#kˌulːɪ̯ˈɑrɪ# | 112 : ∅ > ɪ̯ / @ __ [-round,-hi,+prim] [+cons,-lab] ( [-syl] )* [+front,-round,-cons]
+*#kˌulːˈɑrɪ# | 125 : [+front,-syl,-cons] > ∅ / [-cor] [-prim,+back] [+cons,+son,-nas] __ [+syl]
+*#kˌulːˈarɪ# | 151 : [+lo,-round,-nas,+tense] > [+front,-back] 
+Late Proto-Albanian I stage form : *#kˌulːˈarɪ#
+*#kˌulːˈaɾɪ# | 199 : r > ɾ 
+Late Proto-Albanian II stage form : *#kˌulːˈaɾɪ#
+*#kˌulːˈaɾə# | 289 : {ɪ;ɪ̃} > {ə;ə̃} 
+*#kˌulːˈaːɾə# | 321 : [+prim] > [+long] / __ [+cons,+son,-nas]
+Late Proto-Albanian III stage form : *#kˌulːˈaːɾə#
+*#kˌulːˈaːɾ# | 335 : [-back,-front,-stres] > ∅ / __ #
+Proto-Tosk-SGheg stage form : *#kˌulːˈaːɾ#
+Proto-Tosk stage form : *#kˌulːˈaːɾ#
+*#kulːˈaːɾ# | 492 : [-prim] > [-stres,-prim,+syl,+son] 
+*#kulˈaɾ# | 506 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#kulˈaɾ#
+Final form : *#kulˈaɾ#

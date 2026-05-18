@@ -1,20 +1,23 @@
-Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :772:
-#plˈiktum# >>> *#plˈijt# ( GOLD : #plˈic#) :
-p l ˈi k t u m 
-*#plˈiktu# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
-Middle Proto-Albanian I stage form : *#plˈiktu#
-*#plˈijtu# | 36 : [+back,+cons] > j / [+front] ( [+nas] ) __ t
-*#plˈɪjtʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-*#plˈɪjtu# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-*#plˈejtu# | 48 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#plˈejtu#
-*#plˈijtu# | 49 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round,-cons]
-Late Proto-Albanian I stage form : *#plˈijtu#
-Late Proto-Albanian II stage form : *#plˈijtu#
-Late Proto-Albanian III stage form : *#plˈijtu#
-*#plˈijt# | 98 : [-stres,-lo] > ∅ / __ #
-Proto-Tosk-SGheg stage form : *#plˈijt#
-Proto-Tosk stage form : *#plˈijt#
-Old North Tosk stage form : *#plˈijt#
-Standard Albanian stage form : *#plˈijt#
-Final form : *#plˈijt#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :772:
+#plˈiktium# >>> *#plˈij?1# ( GOLD : #plˈic#) :
+p l ˈi k t i u m 
+*#plˈiktjum# | 9 : [-lo,+syl,-prim] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+*#plˈiktju# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#plˈiktju#
+*#plˈijtju# | 36 : [+back,+cons] > j / [+front] ( [+nas] ) __ t
+*#plˈɪjtjʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#plˈɪjtju# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+*#plˈejtju# | 48 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#plˈejtju#
+*#plˈijtju# | 49 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round,-cons]
+Late Proto-Albanian I stage form : *#plˈijtju#
+*#plˈij?0u# | 86 : [+ant,+cor,-cont] j > [-ant,+distr,+delrel,+cor,-cont,+cons,0tense] ∅
+*#plˈij?1u# | 87 : [-ant,+distr,+delrel] > [+ant,-distr,-cont,+cor,+cons,0tense] 
+Late Proto-Albanian II stage form : *#plˈij?1u#
+Late Proto-Albanian III stage form : *#plˈij?1u#
+*#plˈij?1# | 98 : [-stres,-lo] > ∅ / __ #
+Proto-Tosk-SGheg stage form : *#plˈij?1#
+Proto-Tosk stage form : *#plˈij?1#
+Old North Tosk stage form : *#plˈij?1#
+Standard Albanian stage form : *#plˈij?1#
+Final form : *#plˈij?1#

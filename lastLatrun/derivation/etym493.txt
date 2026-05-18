@@ -1,25 +1,17 @@
-Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :493:
-#kˌukˈurbitɑ# >>> *#kˈuɾtə# ( GOLD : #kˈultə#) :
-k ˌu k ˈu r b i t ɑ 
-*#kˌʊkˈʊrbɪtɑ# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-*#kˌʊkˈʊrbʊtɑ# | 38 : [-stres] > ʊ / b __ [-cont]
-Middle Proto-Albanian I stage form : *#kˌʊkˈʊrbʊtɑ#
-*#kkˈʊrbʊtɑ# | 65 : [-prim,-lo] > ∅ / [+back,-cont] __ [-cont,-lab] [+syl]
-*#kkˈurbutɑ# | 84 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#kkˈurbutɑ#
-*#kkˈurbuta# | 154 : [+lo,-round,-nas] > [+front,-back] 
-Late Proto-Albanian I stage form : *#kkˈurbuta#
-*#kˈurbuta# | 199 : [-son,acont,blab,chi] > ∅ / __ [-son,acont,blab,chi]
-*#kˈuɾbuta# | 202 : r > ɾ 
-Late Proto-Albanian II stage form : *#kˈuɾbuta#
-*#kˈuɾbəta# | 297 : [+back,+round,-prim,-long] > [-back,-hi,0tense,-round,-lab] / [+stres] ( [-syl] ( [-stres] ) )* __ ( [-syl] )* [-voi,-strid]
-*#kˈuːɾbəta# | 316 : [+prim] > [+long] / __ [+cons,+son,-nas]
-*#kˈuːɾbətə# | 337 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-Late Proto-Albanian III stage form : *#kˈuːɾbətə#
-*#kˈuːɾbtə# | 395 : [-stres] > ∅ / __ [-cont,-son] [-stres] #
-*#kˈuːɾtə# | 400 : [-delrel,-nas] > ∅ / [+cons] __ [-son]
-Proto-Tosk-SGheg stage form : *#kˈuːɾtə#
-Proto-Tosk stage form : *#kˈuːɾtə#
-*#kˈuɾtə# | 502 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#kˈuɾtə#
-Final form : *#kˈuɾtə#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :493:
+... >>> *#kɾˈuc# ( GOLD : #kɾˈyc#) :
+... 
+Middle Proto-Albanian I stage form : ...
+Middle Proto-Albanian II stage form : *#krˈuke#
+*#krˈukɪ# | 95 : [-stres,+front,-lo] > [+hi,-tense,-cons,-lat,+cont,0delrel] / [+cons] __
+*#krˈucɪ# | 126 : [+back,-lab,-cont] > [-back,+front] / @ __ [+front,-lo,-cons]
+Late Proto-Albanian I stage form : *#krˈucɪ#
+*#kɾˈucɪ# | 199 : r > ɾ 
+Late Proto-Albanian II stage form : *#kɾˈucɪ#
+*#kɾˈucə# | 289 : {ɪ;ɪ̃} > {ə;ə̃} 
+Late Proto-Albanian III stage form : *#kɾˈucə#
+*#kɾˈuc# | 335 : [-back,-front,-stres] > ∅ / __ #
+Proto-Tosk-SGheg stage form : *#kɾˈuc#
+Proto-Tosk stage form : *#kɾˈuc#
+Old North Tosk stage form : *#kɾˈuc#
+Final form : *#kɾˈuc#

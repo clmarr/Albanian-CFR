@@ -1,24 +1,20 @@
-Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :497:
-#kˈulmen# >>> *#t͡ʃˈylˠ# ( GOLD : #kˈulm#) :
-k ˈu l m e n 
-*#kˈulːen# | 15 : l [+cons,+son] > lː
-*#kˈulːe# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
-Middle Proto-Albanian I stage form : *#kˈulːe#
-*#kˈʊlːɛ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-*#kˈulːɛ# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#kˈulːɛ#
-*#kˈylːɛ# | 49 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round,-cons]
-Late Proto-Albanian I stage form : *#kˈylːɛ#
-*#cˈylːɛ# | 80 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
-Late Proto-Albanian II stage form : *#cˈylːɛ#
-Late Proto-Albanian III stage form : *#cˈylːɛ#
-*#cˈylː# | 98 : [-stres,-lo] > ∅ / __ #
-*#cˈyːlː# | 107 : [+prim] > [+long] / __ [+cons,+son]
-Proto-Tosk-SGheg stage form : *#cˈyːlː#
-*#cˈyːlˠ# | 124 : lː > lˠ 
-Proto-Tosk stage form : *#cˈyːlˠ#
-*#cˈylˠ# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#cˈylˠ#
-Standard Albanian stage form : *#cˈylˠ#
-*#t͡ʃˈylˠ# | 145 : c > t͡ʃ 
-Final form : *#t͡ʃˈylˠ#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :497:
+#kˈukurum# >>> *#kˈukɾ# ( GOLD : #kˈukuɾ#) :
+k ˈu k u r u m 
+*#kˈukuru# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+*#kˈukəru# | 29 : [-stres] > ə / [+prim] ( @ )* __ @
+Middle Proto-Albanian I stage form : *#kˈukəru#
+*#kˈukru# | 32 : ə > ∅ 
+*#kˈʊkrʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#kˈukru# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#kˈukru#
+Late Proto-Albanian I stage form : *#kˈukru#
+Late Proto-Albanian II stage form : *#kˈukru#
+Late Proto-Albanian III stage form : *#kˈukru#
+*#kˈukr# | 98 : [-stres,-lo] > ∅ / __ #
+Proto-Tosk-SGheg stage form : *#kˈukr#
+*#kˈukɾ# | 126 : r > ɾ 
+Proto-Tosk stage form : *#kˈukɾ#
+Old North Tosk stage form : *#kˈukɾ#
+Standard Albanian stage form : *#kˈukɾ#
+Final form : *#kˈukɾ#

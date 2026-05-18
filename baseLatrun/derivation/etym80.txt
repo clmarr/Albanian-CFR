@@ -1,27 +1,18 @@
-Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :80:
-#dˌɑmnˈɑːnioː# >>> *#dəmnˈəɲ# ( GOLD : #dənˈɔj#) :
-d ˌɑ m n ˈɑː n i oː 
-*#dˌɑmnˈɑːnjoː# | 9 : [-lo,+syl,-prim] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-*#dˌɑmnˈɑːɲoː# | 16 : {ŋ n j;ŋ n;ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ;ɲ;ɲ} 
-Middle Proto-Albanian I stage form : *#dˌɑmnˈɑːɲoː#
-*#dˌɑmnˈɑːɲøː# | 41 : [+back,+long,+syl,-lo] > [+front,-back] 
-*#dˌɑmnˈɑɲø# | 45 : [+syl] > [-long,-splng] 
-Middle Proto-Albanian II stage form : *#dˌɑmnˈɑɲø#
-*#dˌɑmnˈɑɲe# | 64 : [+front,-cons,-hi] > [-round,-lab] 
-*#dˌɑmnˈɑɲɛ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-*#dəmnˈɑɲɛ# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
-Late Proto-Albanian I stage form : *#dəmnˈɑɲɛ#
-Late Proto-Albanian II stage form : *#dəmnˈɑɲɛ#
-Late Proto-Albanian III stage form : *#dəmnˈɑɲɛ#
-*#dəmnˈaɲɛ# | 89 : [+lo] > [+front,-back] 
-*#dəmnˈaɲ# | 98 : [-stres,-lo] > ∅ / __ #
-*#dəmnˈaːɲ# | 107 : [+prim] > [+long] / __ [+cons,+son]
-*#də̃mnˈãːɲ# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
-Proto-Tosk-SGheg stage form : *#də̃mnˈãːɲ#
-*#də̃mnˈəːɲ# | 128 : [+lo,+nas,+syl] > [-lo,-back,-front,0tense] 
-Proto-Tosk stage form : *#də̃mnˈəːɲ#
-*#dəmnˈəːɲ# | 130 : [-cons,+nas] > [-nas] 
-*#dəmnˈəɲ# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#dəmnˈəɲ#
-Standard Albanian stage form : *#dəmnˈəɲ#
-Final form : *#dəmnˈəɲ#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :80:
+#bˈuttem# >>> *#bˈytt# ( GOLD : #bˈut#) :
+b ˈu t t e m 
+*#bˈutte# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#bˈutte#
+*#bˈʊttɛ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#bˈuttɛ# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#bˈuttɛ#
+*#bˈyttɛ# | 49 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round,-cons]
+Late Proto-Albanian I stage form : *#bˈyttɛ#
+Late Proto-Albanian II stage form : *#bˈyttɛ#
+Late Proto-Albanian III stage form : *#bˈyttɛ#
+*#bˈytt# | 98 : [-stres,-lo] > ∅ / __ #
+Proto-Tosk-SGheg stage form : *#bˈytt#
+Proto-Tosk stage form : *#bˈytt#
+Old North Tosk stage form : *#bˈytt#
+Standard Albanian stage form : *#bˈytt#
+Final form : *#bˈytt#

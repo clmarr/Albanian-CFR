@@ -1,22 +1,28 @@
-Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :270:
-... >>> *#kˈɔɾə# ( GOLD : #kˈɔɾə#) :
-... 
-Middle Proto-Albanian I stage form : ...
-Middle Proto-Albanian II stage form : ...
-*#kˈɔnɑ# | 66 : [-prim] > ∅ / # __
-Late Proto-Albanian I stage form : *#kˈɔnɑ#
-Late Proto-Albanian II stage form : *#kˈɔnɑ#
-Late Proto-Albanian III stage form : *#kˈɔnɑ#
-*#kˈɔna# | 89 : [+lo] > [+front,-back] 
-*#kˈɔnə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-*#kˈɔːnə# | 107 : [+prim] > [+long] / __ [+cons,+son]
-*#kˈɔ̃ːnə# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
-Proto-Tosk-SGheg stage form : *#kˈɔ̃ːnə#
-*#kˈɔ̃ːrə# | 122 : n > r / [+syl] __ [+syl]
-*#kˈɔ̃ːɾə# | 126 : r > ɾ 
-Proto-Tosk stage form : *#kˈɔ̃ːɾə#
-*#kˈɔːɾə# | 130 : [-cons,+nas] > [-nas] 
-*#kˈɔɾə# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#kˈɔɾə#
-Standard Albanian stage form : *#kˈɔɾə#
-Final form : *#kˈɔɾə#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :270:
+#iˈɑːnuum# >>> *#ɟˈəv# ( GOLD : #ɟˈua̯#) :
+i ˈɑː n u u m 
+*#jˈɑːnwum# | 9 : [-lo,+syl,-prim] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+*#ɟˈɑːnwum# | 24 : j > ɟ / # __
+*#ɟˈɑːnwu# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#ɟˈɑːnwu#
+*#ɟˈɑːnwʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#ɟˈɑnwʊ# | 45 : [+syl] > [-long,-splng] 
+*#ɟˈɑnwu# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#ɟˈɑnwu#
+Late Proto-Albanian I stage form : *#ɟˈɑnwu#
+Late Proto-Albanian II stage form : *#ɟˈɑnwu#
+Late Proto-Albanian III stage form : *#ɟˈɑnwu#
+*#ɟˈanwu# | 89 : [+lo] > [+front,-back] 
+*#ɟˈanvu# | 91 : w > v / [+cons] __
+*#ɟˈanv# | 98 : [-stres,-lo] > ∅ / __ #
+*#ɟˈaːnv# | 107 : [+prim] > [+long] / __ [+cons,+son]
+*#ɟˈãːnv# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
+*#ɟˈãːv# | 112 : n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ [+strid,+cons]
+Proto-Tosk-SGheg stage form : *#ɟˈãːv#
+*#ɟˈəːv# | 128 : [+lo,+nas,+syl] > [-lo,-back,-front,0tense] 
+Proto-Tosk stage form : *#ɟˈəːv#
+*#ɟˈəːv# | 130 : [-cons,+nas] > [-nas] 
+*#ɟˈəv# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#ɟˈəv#
+Standard Albanian stage form : *#ɟˈəv#
+Final form : *#ɟˈəv#

@@ -1,17 +1,28 @@
-Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :538:
-... >>> *#lˈavd# ( GOLD : #lˈavd#) :
-... 
-Middle Proto-Albanian I stage form : ...
-Middle Proto-Albanian II stage form : ...
-Late Proto-Albanian I stage form : ...
-Late Proto-Albanian II stage form : *#lˈaβdɛ#
-Late Proto-Albanian III stage form : *#lˈaβdɛ#
-*#lˈavdɛ# | 90 : {β;ʝ} > {v;ɟ} 
-*#lˈavd# | 98 : [-stres,-lo] > ∅ / __ #
-*#lˈaːvd# | 108 : [+prim] > [+long] / __ [+strid]
-Proto-Tosk-SGheg stage form : *#lˈaːvd#
-Proto-Tosk stage form : *#lˈaːvd#
-*#lˈavd# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#lˈavd#
-Standard Albanian stage form : *#lˈavd#
-Final form : *#lˈavd#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :538:
+#lˌɑwˈɑːnioː# >>> *#lˈəɲ# ( GOLD : #lˈaj#) :
+l ˌɑ w ˈɑː n i oː 
+*#lˌɑwˈɑːnjoː# | 9 : [-lo,+syl,-prim] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+*#lˌɑwˈɑːɲoː# | 16 : {ŋ n j;ŋ n;ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ;ɲ;ɲ} 
+*#lˌɑˈɑːɲoː# | 20 : w > ∅ / [+syl] __ [+syl]
+Middle Proto-Albanian I stage form : *#lˌɑˈɑːɲoː#
+*#lˌɑˈɑːɲøː# | 41 : [+back,+long,+syl,-lo] > [+front,-back] 
+*#lˌɑˈɑɲø# | 45 : [+syl] > [-long,-splng] 
+Middle Proto-Albanian II stage form : *#lˌɑˈɑɲø#
+*#lˌɑˈɑɲe# | 64 : [+front,-cons,-hi] > [-round,-lab] 
+*#lˌɑˈɑɲɛ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+*#ləˈɑɲɛ# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
+Late Proto-Albanian I stage form : *#ləˈɑɲɛ#
+Late Proto-Albanian II stage form : *#ləˈɑɲɛ#
+Late Proto-Albanian III stage form : *#ləˈɑɲɛ#
+*#ləˈaɲɛ# | 89 : [+lo] > [+front,-back] 
+*#ləˈaɲ# | 98 : [-stres,-lo] > ∅ / __ #
+*#lˈaːɲ# | 103 : [-prim] [+prim] > ∅ [+long]/ @ __ @
+*#lˈãːɲ# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
+Proto-Tosk-SGheg stage form : *#lˈãːɲ#
+*#lˈəːɲ# | 128 : [+lo,+nas,+syl] > [-lo,-back,-front,0tense] 
+Proto-Tosk stage form : *#lˈəːɲ#
+*#lˈəːɲ# | 130 : [-cons,+nas] > [-nas] 
+*#lˈəɲ# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#lˈəɲ#
+Standard Albanian stage form : *#lˈəɲ#
+Final form : *#lˈəɲ#

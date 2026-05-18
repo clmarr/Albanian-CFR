@@ -1,23 +1,19 @@
-Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :593:
-#mˈɑnktum# >>> *#mˈajt# ( GOLD : #mˈajt#) :
-m ˈɑ n k t u m 
-*#mˈɑnktu# | 4 : [+nas,+cons] > ∅ / [-stres] __ #
-*#mˈɑnktʊ# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian I stage form : *#mˈɑnktʊ#
-*#mˈɑɲtʊ# | 52 : n [+back,+cons] > ɲ/ [-round,aprim] __ t [+syl,!aprim]
-*#mˈɑɲtu# | 84 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#mˈɑɲtu#
-*#mˈaɲtu# | 154 : [+lo,-round,-nas] > [+front,-back] 
-Late Proto-Albanian I stage form : *#mˈaɲtu#
-*#mˈãɲtu# | 248 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian II stage form : *#mˈãɲtu#
-*#mˈãːjtu# | 253 : [+lo,-round,-long,+prim] ɲ > [+long] j/ __ @
-*#mˈãːjtə# | 319 : [-stres,+round,-lo] > ə / __ #
-*#mˈãːjt# | 325 : [-back,-front,-stres] > ∅ / __ #
-Late Proto-Albanian III stage form : *#mˈãːjt#
-Proto-Tosk-SGheg stage form : *#mˈãːjt#
-Proto-Tosk stage form : *#mˈãːjt#
-*#mˈaːjt# | 482 : [-cons,+nas] > [-nas] 
-*#mˈajt# | 502 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#mˈajt#
-Final form : *#mˈajt#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :593:
+#mˈɑnkɑ# >>> *#mˈəŋɡə# ( GOLD : ...) :
+m ˈɑ n k ɑ 
+Middle Proto-Albanian I stage form : *#mˈɑnkɑ#
+Middle Proto-Albanian II stage form : *#mˈɑnkɑ#
+*#mˈanka# | 151 : [+lo,-round,-nas,+tense] > [+front,-back] 
+Late Proto-Albanian I stage form : *#mˈanka#
+*#mˈãnka# | 246 : [-cons] > [+nas] / __ [+nas,+cons]
+Late Proto-Albanian II stage form : *#mˈãnka#
+*#mˈãnɡa# | 333 : [-cont,mlab,jfront] > [+voi] / [mlab,jfront,+nas,+cons] __
+Late Proto-Albanian III stage form : *#mˈãnɡa#
+*#mˈãŋɡa# | 403 : {ɾ̃ b;ɾ̃ p;ɾ̃ d;ɾ̃ t;ɾ̃ ɟ;ɾ̃ c;ɾ̃ ɡ;n b;n p;n d;n t;n ɟ;n c;n ɡ;nː b;nː p;nː d;nː t;nː ɟ;nː c;nː ɡ;m b;m p;ɲ ɟ;ɲ c;ŋ ɡ;ŋ k;ŋ ɟ;ŋ c} > {m b;m b;n d;n d;ɲ ɟ;ɲ ɟ;ŋ ɡ;m b;m b;n d;n d;ɲ ɟ;ɲ ɟ;ŋ ɡ;m b;m b;n d;n d;ɲ ɟ;ɲ ɟ;ŋ ɡ;m b;m b;ɲ ɟ;ɲ ɟ;ŋ ɡ;ŋ ɡ;ɲ ɟ;ɲ ɟ} 
+*#mˈãŋɡə# | 468 : [-stres,-cons,-hi,afront,alo] > ə / __ #
+Proto-Tosk-SGheg stage form : *#mˈãŋɡə#
+Proto-Tosk stage form : *#mˈãŋɡə#
+*#mˈə̃ŋɡə# | 482 : [+lo,+nas,+syl,-long] > [-lo,-back,-front,0tense,-lab,-round] 
+*#mˈəŋɡə# | 486 : [-cons,+nas] > [-nas] 
+Old North Tosk stage form : *#mˈəŋɡə#
+Final form : *#mˈəŋɡə#

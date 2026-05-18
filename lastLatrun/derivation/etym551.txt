@@ -1,23 +1,20 @@
-Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :551:
-#lˈiːlium# >>> *#lˈil# ( GOLD : #lˈil#) :
-l ˈiː l i u m 
-*#lˈiːliu# | 4 : [+nas,+cons] > ∅ / [-stres] __ #
-*#lˈiːlju# | 9 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-*#lˈiːʎu# | 10 : {l l j;l j;lː j} > {ʎ;ʎ;ʎ} 
-*#lˈiːʎʊ# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-*#lˈiʎʊ# | 27 : [+syl,+front,+hi] > [-long,-splng] 
-Middle Proto-Albanian I stage form : *#lˈiʎʊ#
-*#lˈilːʊ# | 47 : ʎ > lː / [-lo,-cons] __ [+hi]
-*#lˈilːu# | 84 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#lˈilːu#
-Late Proto-Albanian I stage form : *#lˈilːu#
-Late Proto-Albanian II stage form : *#lˈilːu#
-*#lˈiːlːu# | 316 : [+prim] > [+long] / __ [+cons,+son,-nas]
-*#lˈiːlːə# | 319 : [-stres,+round,-lo] > ə / __ #
-*#lˈiːlː# | 325 : [-back,-front,-stres] > ∅ / __ #
-Late Proto-Albanian III stage form : *#lˈiːlː#
-Proto-Tosk-SGheg stage form : *#lˈiːlː#
-Proto-Tosk stage form : *#lˈiːlː#
-*#lˈil# | 502 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#lˈil#
-Final form : *#lˈil#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :551:
+... >>> *#lˈibəɾ# ( GOLD : #lˈibəɾ#) :
+... 
+Middle Proto-Albanian I stage form : ...
+Middle Proto-Albanian II stage form : ...
+Late Proto-Albanian I stage form : ...
+*#lˈibɛɾu# | 199 : r > ɾ 
+Late Proto-Albanian II stage form : *#lˈibɛɾu#
+*#lˈibəɾu# | 266 : [+front,-stres,-lo,-hi] > ə / [+cons] __
+*#lˈibəɾə# | 324 : [-stres,+round,-lo] > ə / __ #
+Late Proto-Albanian III stage form : *#lˈibəɾə#
+*#lˈibəɾ# | 335 : [-back,-front,-stres] > ∅ / __ #
+*#lˈibɾ# | 436 : [-hi,-stres] > ∅ / [-syl] __ [+son,+cons,-nas] #
+*#lˈibɾ̩# | 445 : [+cons,+son,-nas] > [+syl,-stres,-prim,+son] / [-son] __ #
+Proto-Tosk-SGheg stage form : *#lˈibɾ̩#
+Proto-Tosk stage form : *#lˈibɾ̩#
+Old North Tosk stage form : *#lˈibɾ̩#
+*#lˈibəɾ̩# | 514 : ∅ > ə / __ [+cons,+syl]
+*#lˈibəɾ# | 515 : [+syl,-cons] [+cons,+syl,aprim,bstres] > [aprim,bstres] [-syl,0stres,0prim]
+Final form : *#lˈibəɾ#

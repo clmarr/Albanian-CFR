@@ -1,21 +1,23 @@
-Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :702:
-... >>> *#paɡˈua̯j# ( GOLD : #paɡˈua̯j#) :
-... 
-Middle Proto-Albanian I stage form : ...
-Middle Proto-Albanian II stage form : ...
-Late Proto-Albanian I stage form : ...
-*#pˌaɡˈɔə̯ɲɔ# | 163 : [+stres,βround,!βhi] w [-stres] > [+round,+lab,+back,-front,!βtense,-lo] ə̯ ∅
-*#pˌaɡˈɔə̯̃ɲɔ# | 248 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian II stage form : *#pˌaɡˈɔə̯̃ɲɔ#
-*#pˌaɡˈuõ̯ɲɔ# | 283 : [ihi,itense,+syl,afront,bback,uround] [-back,-front,-cons] > [+hi,+tense,-cons,-lat,+cont,0delrel] [-syl,+tense,afront,bback,uround,ulab,0stres,0prim,-cons,-lat,+cont,0delrel]
-*#pˌaɡˈuõ̯ɲə# | 319 : [-stres,+round,-lo] > ə / __ #
-*#pˌaɡˈuõ̯ɲ# | 325 : [-back,-front,-stres] > ∅ / __ #
-Late Proto-Albanian III stage form : *#pˌaɡˈuõ̯ɲ#
-Proto-Tosk-SGheg stage form : *#pˌaɡˈuõ̯ɲ#
-*#pˌaɡˈuã̯ɲ# | 466 : [+back,-cons,-hi] > [-back,+front,+lo,-round,-lab,+tense,-cons,-lat,+cont,0delrel] / [+round] __
-Proto-Tosk stage form : *#pˌaɡˈuã̯ɲ#
-*#pˌaɡˈua̯ɲ# | 482 : [-cons,+nas] > [-nas] 
-*#paɡˈua̯ɲ# | 488 : [-prim] > [-stres,-prim,+syl,+son] 
-Old North Tosk stage form : *#paɡˈua̯ɲ#
-*#paɡˈua̯j# | 516 : ɲ > j / [-hi] __ #
-Final form : *#paɡˈua̯j#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :702:
+#pˌɑɡˈɑːnɑ# >>> *#pəɡˈəɾə# ( GOLD : #pəɡˈəɾə#) :
+p ˌɑ ɡ ˈɑː n ɑ 
+Middle Proto-Albanian I stage form : *#pˌɑɡˈɑːnɑ#
+*#pˌɑɡˈɑnɑ# | 63 : [+syl] > [-long,-splng] 
+Middle Proto-Albanian II stage form : *#pˌɑɡˈɑnɑ#
+*#pˌaɡˈana# | 151 : [+lo,-round,-nas,+tense] > [+front,-back] 
+Late Proto-Albanian I stage form : *#pˌaɡˈana#
+*#pˌɐɡˈana# | 183 : [+lo,-prim,-round,+stres,-long] > [-tense,+back,-front,-cons,-lat,+cont,0delrel] / [!wfront,wlab] __ ( ( [Llat,!Lcg] ) ( [!Lback,çstrid,çcor,-cont] ( r ) ) ) [+tense,+prim]
+*#pˌɐɡˈaɾ̃a# | 223 : n > ɾ̃ / [+syl,-hi] __ [+syl]
+*#pˌɐɡˈãɾ̃a# | 246 : [-cons] > [+nas] / __ [+nas,+cons]
+Late Proto-Albanian II stage form : *#pˌɐɡˈãɾ̃a#
+Late Proto-Albanian III stage form : *#pˌɐɡˈãɾ̃a#
+*#pˌəɡˈãɾ̃a# | 464 : {ɐ;ˌɐ} > {ə;ˌə} 
+*#pˌəɡˈãɾ̃ə# | 468 : [-stres,-cons,-hi,afront,alo] > ə / __ #
+Proto-Tosk-SGheg stage form : *#pˌəɡˈãɾ̃ə#
+Proto-Tosk stage form : *#pˌəɡˈãɾ̃ə#
+*#pˌəɡˈə̃ɾ̃ə# | 482 : [+lo,+nas,+syl,-long] > [-lo,-back,-front,0tense,-lab,-round] 
+*#pˌəɡˈəɾ̃ə# | 486 : [-cons,+nas] > [-nas] 
+*#pəɡˈəɾ̃ə# | 487 : ˌə > ə 
+*#pəɡˈəɾə# | 489 : ɾ̃ > ɾ 
+Old North Tosk stage form : *#pəɡˈəɾə#
+Final form : *#pəɡˈəɾə#

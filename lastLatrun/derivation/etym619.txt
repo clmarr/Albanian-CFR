@@ -1,34 +1,33 @@
-Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :619:
-#mˌeditˈɑːnioː# >>> *#mtˈɔj# ( GOLD : #mɛjtˈɔj#) :
-m ˌe d i t ˈɑː n i oː 
-*#mˌeditˈɑːnjoː# | 9 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-*#mˌeditˈɒːnjoː# | 12 : [-hi,+long,+prim] > [+round,+lab] / __ [+cont,+cor] j [+round]
-*#mˌɛdɪtˈɒːnjoː# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-*#mˌɛdɪtˈɒːnju# | 33 : [+round,-lo,-prim,-hi] > [+hi,-long,-splng] 
-Middle Proto-Albanian I stage form : *#mˌɛdɪtˈɒːnju#
-*#mˌɛdɪtˈɒːɲu# | 48 : {n j;nː j} > {ɲ;ɲ} 
-*#mˌɛdɪtˈɔːɲu# | 76 : [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
-*#mˌɛdɪtˈɔɲu# | 80 : [+syl] > [-long,-splng] 
-*#mˌɛdɪtˈoɲu# | 84 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-*#mˌɛdetˈoɲu# | 88 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#mˌɛdetˈoɲu#
-*#mˌɛdɪtˈoɲu# | 97 : [-stres,+front,-lo] > [+hi,-tense,-cons,-lat,+cont,0delrel] / [+cons] __
-*#mˌɛðɪtˈoɲu# | 102 : d > ð / [-cons] ( [+son,-nas,+cons] ) __ [βlat,βcons]
-*#mɪðɪtˈoɲu# | 109 : [+front,-prim] > ɪ / [+lab,+cons] __ ( [+cor,-son,+cont] ) [+cor,-son] ( [+syl] ( @ )* ) [+prim]
-Late Proto-Albanian I stage form : *#mɪðɪtˈoɲu#
-*#mɪðɪtˈɔɲu# | 189 : [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
-*#mɪðɪtˈɔ̃ɲu# | 248 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian II stage form : *#mɪðɪtˈɔ̃ɲu#
-*#mɪðtˈɔ̃ɲu# | 275 : [-prim,-lo,-long] > ∅ / [-son,+cons,+cont,-front] __ [-voi] [-cons]
-*#məðtˈɔ̃ɲu# | 282 : {ɪ;ɪ̃} > {ə;ə̃} 
-*#mətˈɔ̃ɲu# | 290 : ð > ∅ / __ [+cons]
-*#mətˈɔ̃ɲə# | 319 : [-stres,+round,-lo] > ə / __ #
-*#mətˈɔ̃ɲ# | 325 : [-back,-front,-stres] > ∅ / __ #
-Late Proto-Albanian III stage form : *#mətˈɔ̃ɲ#
-Proto-Tosk-SGheg stage form : *#mətˈɔ̃ɲ#
-Proto-Tosk stage form : *#mətˈɔ̃ɲ#
-*#mətˈɔɲ# | 482 : [-cons,+nas] > [-nas] 
-*#mtˈɔɲ# | 495 : ə > ∅ / # [+lab,+cons,+cont] __ [-distr,llat,lson,zcont,zvoi,-hi] [-cons]
-Old North Tosk stage form : *#mtˈɔɲ#
-*#mtˈɔj# | 516 : ɲ > j / [-hi] __ #
-Final form : *#mtˈɔj#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :619:
+#mˌedikˈɑːnioː# >>> *#məkˈɔj# ( GOLD : #məkˈɔj#) :
+m ˌe d i k ˈɑː n i oː 
+*#mˌedikˈɑːnjoː# | 11 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+*#mˌedikˈɒːnjoː# | 15 : [-hi,+long,+prim] > [+round,+lab] / __ [+cont,+cor] j [+round]
+*#mˌedikˈɒːɲoː# | 20 : [+nas,-lab] j > ɲ
+*#mˌɛdɪkˈɒːɲoː# | 32 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+*#mˌɛdɪkˈɒːɲu# | 37 : [+round,-lo,-prim,-hi] > [+hi,-long,-splng] 
+Middle Proto-Albanian I stage form : *#mˌɛdɪkˈɒːɲu#
+*#mˌɛdɪkˈɒɲu# | 63 : [+syl] > [-long,-splng] 
+*#mˌɛdɪkˈɔɲu# | 76 : [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
+*#mˌɛdɪkˈoɲu# | 83 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+*#mˌɛdekˈoɲu# | 87 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#mˌɛdekˈoɲu#
+*#mˌɛdɪkˈoɲu# | 95 : [-stres,+front,-lo] > [+hi,-tense,-cons,-lat,+cont,0delrel] / [+cons] __
+*#mˌɛðɪkˈoɲu# | 100 : d > ð / [-cons] ( [+son,-nas,+cons] ) __ [βlat,βcons]
+*#mɪðɪkˈoɲu# | 106 : [+front,-prim] > ɪ / [+lab,+cons] __ ( [+cor,-son,+cont] ) [+cor,-son] ( [+syl] ( @ )* ) [+prim]
+Late Proto-Albanian I stage form : *#mɪðɪkˈoɲu#
+*#mɪðɪkˈɔɲu# | 187 : [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
+*#mɪðɪkˈɔ̃ɲu# | 246 : [-cons] > [+nas] / __ [+nas,+cons]
+Late Proto-Albanian II stage form : *#mɪðɪkˈɔ̃ɲu#
+*#mɪðkˈɔ̃ɲu# | 281 : [-prim,-lo,-long] > ∅ / [-son,+cons,+cont,-front] __ [-voi] [-cons]
+*#məðkˈɔ̃ɲu# | 289 : {ɪ;ɪ̃} > {ə;ə̃} 
+*#məkˈɔ̃ɲu# | 294 : ð > ∅ / __ [+cons]
+*#məkˈɔ̃ɲə# | 324 : [-stres,+round,-lo] > ə / __ #
+Late Proto-Albanian III stage form : *#məkˈɔ̃ɲə#
+*#məkˈɔ̃ɲ# | 335 : [-back,-front,-stres] > ∅ / __ #
+Proto-Tosk-SGheg stage form : *#məkˈɔ̃ɲ#
+Proto-Tosk stage form : *#məkˈɔ̃ɲ#
+*#məkˈɔɲ# | 486 : [-cons,+nas] > [-nas] 
+Old North Tosk stage form : *#məkˈɔɲ#
+*#məkˈɔj# | 521 : ɲ > j / [-hi] __ #
+Final form : *#məkˈɔj#

@@ -1,19 +1,27 @@
-Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :336:
-#kˈae̯kɑ# >>> *#t͡ʃjˈɛkə# ( GOLD : #cˈɛkə#) :
-k ˈa e̯ k ɑ 
-*#kˈɛkɑ# | 3 : [+lo,βstres,ɣprim] e̯ > ∅ [-tense,βstres,ɣprim,-cons,-lat,+cont,0delrel]
-Middle Proto-Albanian I stage form : *#kˈɛkɑ#
-Middle Proto-Albanian II stage form : *#kˈɛkɑ#
-*#kjˈɛkɑ# | 57 : ∅ > j / __ ˈɛ
-Late Proto-Albanian I stage form : *#kjˈɛkɑ#
-*#cjˈɛkɑ# | 80 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
-Late Proto-Albanian II stage form : *#cjˈɛkɑ#
-Late Proto-Albanian III stage form : *#cjˈɛkɑ#
-*#cjˈɛka# | 89 : [+lo] > [+front,-back] 
-*#cjˈɛkə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-Proto-Tosk-SGheg stage form : *#cjˈɛkə#
-Proto-Tosk stage form : *#cjˈɛkə#
-Old North Tosk stage form : *#cjˈɛkə#
-Standard Albanian stage form : *#cjˈɛkə#
-*#t͡ʃjˈɛkə# | 145 : c > t͡ʃ 
-Final form : *#t͡ʃjˈɛkə#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :336:
+#iˈuːnktum# >>> *#ɟˈyft# ( GOLD : #ɟˈymt#) :
+i ˈuː n k t u m 
+*#jˈuːnktum# | 9 : [-lo,+syl,-prim] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+*#ɟˈuːnktum# | 24 : j > ɟ / # __
+*#ɟˈuːnktu# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#ɟˈuːnktu#
+*#ɟˈyːnktu# | 41 : [+back,+long,+syl,-lo] > [+front,-back] 
+*#ɟˈyːnktʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#ɟˈynktʊ# | 45 : [+syl] > [-long,-splng] 
+*#ɟˈynktu# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#ɟˈynktu#
+Late Proto-Albanian I stage form : *#ɟˈynktu#
+*#ɟˈynftu# | 73 : {k ə;k} > {f;f} / __ t
+Late Proto-Albanian II stage form : *#ɟˈynftu#
+Late Proto-Albanian III stage form : *#ɟˈynftu#
+*#ɟˈynft# | 98 : [-stres,-lo] > ∅ / __ #
+*#ɟˈyːnft# | 107 : [+prim] > [+long] / __ [+cons,+son]
+*#ɟˈỹːnft# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
+*#ɟˈỹːft# | 112 : n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ [+strid,+cons]
+Proto-Tosk-SGheg stage form : *#ɟˈỹːft#
+Proto-Tosk stage form : *#ɟˈỹːft#
+*#ɟˈyːft# | 130 : [-cons,+nas] > [-nas] 
+*#ɟˈyft# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#ɟˈyft#
+Standard Albanian stage form : *#ɟˈyft#
+Final form : *#ɟˈyft#

@@ -1,26 +1,17 @@
-Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :1060:
-#ˌuːnktˈuːrɑ# >>> *#yndˈyɾə# ( GOLD : #yndˈyɾə#) :
-ˌuː n k t ˈuː r ɑ 
-Middle Proto-Albanian I stage form : *#ˌuːnktˈuːrɑ#
-*#ˌyːnktˈyːrɑ# | 42 : [+back,+long,+syl,-lo] > [+front,-back] 
-*#ˌynktˈyrɑ# | 80 : [+syl] > [-long,-splng] 
-Middle Proto-Albanian II stage form : *#ˌynktˈyrɑ#
-*#ˌyntˈyrɑ# | 92 : [+cons] > ∅ / [+cons] __ [-son]
-*#ˌyːntˈyrɑ# | 142 : [-prim,+round] > [+long] / # __ [-lab]
-*#ˌyːntˈyra# | 154 : [+lo,-round,-nas] > [+front,-back] 
-Late Proto-Albanian I stage form : *#ˌyːntˈyra#
-*#ˌyntˈyra# | 196 : [-prim,-nas] > [-long,-splng] / # __
-*#ˌyntˈyɾa# | 202 : r > ɾ 
-*#ˌỹntˈyɾa# | 248 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian II stage form : *#ˌỹntˈyɾa#
-*#ˌỹntˈyːɾa# | 316 : [+prim] > [+long] / __ [+cons,+son,-nas]
-*#ˌỹntˈyːɾə# | 337 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-*#ˌỹndˈyːɾə# | 351 : [-cont,mlab,jfront] > [+voi] / [mlab,jfront,+nas,+cons] __
-Late Proto-Albanian III stage form : *#ˌỹndˈyːɾə#
-Proto-Tosk-SGheg stage form : *#ˌỹndˈyːɾə#
-Proto-Tosk stage form : *#ˌỹndˈyːɾə#
-*#ˌyndˈyːɾə# | 479 : [-prim,-cons] > [-nas] 
-*#yndˈyːɾə# | 488 : [-prim] > [-stres,-prim,+syl,+son] 
-*#yndˈyɾə# | 502 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#yndˈyɾə#
-Final form : *#yndˈyɾə#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :1060:
+#upˈupɑ# >>> *#pˈupə# ( GOLD : #pˈupə#) :
+u p ˈu p ɑ 
+*#ʊpˈʊpɑ# | 32 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian I stage form : *#ʊpˈʊpɑ#
+*#upˈupɑ# | 83 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#upˈupɑ#
+*#pˈupɑ# | 141 : [-prim,-long,-cons] > ∅ / # __
+*#pˈupa# | 151 : [+lo,-round,-nas,+tense] > [+front,-back] 
+Late Proto-Albanian I stage form : *#pˈupa#
+Late Proto-Albanian II stage form : *#pˈupa#
+Late Proto-Albanian III stage form : *#pˈupa#
+*#pˈupə# | 468 : [-stres,-cons,-hi,afront,alo] > ə / __ #
+Proto-Tosk-SGheg stage form : *#pˈupə#
+Proto-Tosk stage form : *#pˈupə#
+Old North Tosk stage form : *#pˈupə#
+Final form : *#pˈupə#

@@ -1,24 +1,21 @@
-Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :311:
-#ˌinnˈokuum# >>> *#nˈɔk# ( GOLD : #nˈɔk#) :
-ˌi n n ˈo k u u m 
-*#ˌinnˈokwum# | 9 : [-lo,+syl,-prim] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-*#ˌinːˈokwum# | 26 : {s n;t n;d n;n n;k n} > {nː;nː;nː;nː;nː} 
-*#ˌinːˈokwu# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
-Middle Proto-Albanian I stage form : *#ˌinːˈokwu#
-*#ˌɪnːˈɔkwʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-*#ˌɪnːˈokwu# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-*#ˌenːˈokwu# | 48 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#ˌenːˈokwu#
-*#ˌenːˈoku# | 51 : w > ∅ / [-cont,+back] __
-*#ˌɛnːˈɔku# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-*#nːˈɔku# | 66 : [-prim] > ∅ / # __
-Late Proto-Albanian I stage form : *#nːˈɔku#
-Late Proto-Albanian II stage form : *#nːˈɔku#
-Late Proto-Albanian III stage form : *#nːˈɔku#
-*#nːˈɔk# | 98 : [-stres,-lo] > ∅ / __ #
-Proto-Tosk-SGheg stage form : *#nːˈɔk#
-*#nˈɔk# | 125 : nː > n 
-Proto-Tosk stage form : *#nˈɔk#
-Old North Tosk stage form : *#nˈɔk#
-Standard Albanian stage form : *#nˈɔk#
-Final form : *#nˈɔk#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :311:
+#kˈudem# >>> *#t͡ʃˈy# ( GOLD : #kˈuð#) :
+k ˈu d e m 
+*#kˈude# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#kˈude#
+*#kˈue# | 33 : d > ∅ / [+syl] __ [+syl]
+*#kˈʊɛ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#kˈuɛ# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#kˈuɛ#
+*#kˈyɛ# | 49 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round,-cons]
+Late Proto-Albanian I stage form : *#kˈyɛ#
+*#cˈyɛ# | 80 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
+Late Proto-Albanian II stage form : *#cˈyɛ#
+Late Proto-Albanian III stage form : *#cˈyɛ#
+*#cˈy# | 98 : [-stres,-lo] > ∅ / __ #
+Proto-Tosk-SGheg stage form : *#cˈy#
+Proto-Tosk stage form : *#cˈy#
+Old North Tosk stage form : *#cˈy#
+Standard Albanian stage form : *#cˈy#
+*#t͡ʃˈy# | 145 : c > t͡ʃ 
+Final form : *#t͡ʃˈy#

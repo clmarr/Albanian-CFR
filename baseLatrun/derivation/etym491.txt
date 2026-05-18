@@ -1,22 +1,23 @@
-Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :491:
-... >>> *#kɾˈuftə# ( GOLD : #ɡɾˈɔftə#) :
-... 
-Middle Proto-Albanian I stage form : ...
-*#krˈʊptɑ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-*#krˈuptɑ# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#krˈuptɑ#
-Late Proto-Albanian I stage form : *#krˈuptɑ#
-*#krˈuktɑ# | 72 : p > k / __ t
-*#krˈuftɑ# | 73 : {k ə;k} > {f;f} / __ t
-Late Proto-Albanian II stage form : *#krˈuftɑ#
-Late Proto-Albanian III stage form : *#krˈuftɑ#
-*#krˈufta# | 89 : [+lo] > [+front,-back] 
-*#krˈuftə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-*#krˈuːftə# | 108 : [+prim] > [+long] / __ [+strid]
-Proto-Tosk-SGheg stage form : *#krˈuːftə#
-*#kɾˈuːftə# | 126 : r > ɾ 
-Proto-Tosk stage form : *#kɾˈuːftə#
-*#kɾˈuftə# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#kɾˈuftə#
-Standard Albanian stage form : *#kɾˈuftə#
-Final form : *#kɾˈuftə#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :491:
+#krˈokulum# >>> *#kɾˈɔklˠ# ( GOLD : #kɾˈɔkulˠ#) :
+k r ˈo k u l u m 
+*#krˈokulːum# | 12 : {s l;l} > {lː;lː} / [+syl] __ [+syl]
+*#krˈokulːu# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+*#krˈokəlːu# | 29 : [-stres] > ə / [+prim] ( @ )* __ @
+Middle Proto-Albanian I stage form : *#krˈokəlːu#
+*#krˈoklːu# | 32 : ə > ∅ 
+*#krˈɔklːʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#krˈoklːu# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#krˈoklːu#
+*#krˈɔklːu# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+Late Proto-Albanian I stage form : *#krˈɔklːu#
+Late Proto-Albanian II stage form : *#krˈɔklːu#
+Late Proto-Albanian III stage form : *#krˈɔklːu#
+*#krˈɔklː# | 98 : [-stres,-lo] > ∅ / __ #
+Proto-Tosk-SGheg stage form : *#krˈɔklː#
+*#krˈɔklˠ# | 124 : lː > lˠ 
+*#kɾˈɔklˠ# | 126 : r > ɾ 
+Proto-Tosk stage form : *#kɾˈɔklˠ#
+Old North Tosk stage form : *#kɾˈɔklˠ#
+Standard Albanian stage form : *#kɾˈɔklˠ#
+Final form : *#kɾˈɔklˠ#

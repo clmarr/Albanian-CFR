@@ -1,20 +1,22 @@
-Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :369:
-#kˈɑptiː# >>> *#kˈaft# ( GOLD : #cˈɛft#) :
-k ˈɑ p t iː 
-*#kˈɑpti# | 27 : [+syl,+front,+hi] > [-long,-splng] 
-Middle Proto-Albanian I stage form : *#kˈɑpti#
-Middle Proto-Albanian II stage form : *#kˈɑpti#
-*#kˈɑptɪ# | 97 : [-stres,+front,-lo] > [+hi,-tense,-cons,-lat,+cont,0delrel] / [+cons] __
-*#kˈaptɪ# | 154 : [+lo,-round,-nas] > [+front,-back] 
-Late Proto-Albanian I stage form : *#kˈaptɪ#
-Late Proto-Albanian II stage form : *#kˈaptɪ#
-*#kˈaptə# | 282 : {ɪ;ɪ̃} > {ə;ə̃} 
-*#kˈaftə# | 308 : [-voi,-cor] > f / [-cons] __ [-voi,+cor]
-*#kˈaːftə# | 317 : [+prim] > [+long] / __ [+strid]
-*#kˈaːft# | 325 : [-back,-front,-stres] > ∅ / __ #
-Late Proto-Albanian III stage form : *#kˈaːft#
-Proto-Tosk-SGheg stage form : *#kˈaːft#
-Proto-Tosk stage form : *#kˈaːft#
-*#kˈaft# | 502 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#kˈaft#
-Final form : *#kˈaft#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :369:
+#kˌɑpitˈiːnɑ# >>> *#kəftˈinə# ( GOLD : #kaptˈinə#) :
+k ˌɑ p i t ˈiː n ɑ 
+*#kˌɑpɪtˈiːnɑ# | 32 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+*#kˌɑpɪtˈinɑ# | 33 : [+syl,+front,+hi] > [-long,-splng] 
+Middle Proto-Albanian I stage form : *#kˌɑpɪtˈinɑ#
+*#kˌɑptˈinɑ# | 65 : [-stres] > ∅ / [+stres] ( ( @ )* [+voi] ) [-voi,+cons] __ [-voi]
+Middle Proto-Albanian II stage form : *#kˌɑptˈinɑ#
+*#kˌaptˈina# | 151 : [+lo,-round,-nas,+tense] > [+front,-back] 
+Late Proto-Albanian I stage form : *#kˌaptˈina#
+*#kˌaptˈĩna# | 246 : [-cons] > [+nas] / __ [+nas,+cons]
+Late Proto-Albanian II stage form : *#kˌaptˈĩna#
+*#kˌaftˈĩna# | 313 : [-voi,-cor] > f / [-cons] __ [-voi,+cor]
+*#kɐftˈĩna# | 314 : [+lo,-long,-round,-prim,+stres,-nas] > ɐ / [-long] __ [+cont,-son] [-cont] ( [+nas] ) [+prim]
+Late Proto-Albanian III stage form : *#kɐftˈĩna#
+*#kəftˈĩna# | 464 : {ɐ;ˌɐ} > {ə;ˌə} 
+*#kəftˈĩnə# | 468 : [-stres,-cons,-hi,afront,alo] > ə / __ #
+Proto-Tosk-SGheg stage form : *#kəftˈĩnə#
+Proto-Tosk stage form : *#kəftˈĩnə#
+*#kəftˈinə# | 486 : [-cons,+nas] > [-nas] 
+Old North Tosk stage form : *#kəftˈinə#
+Final form : *#kəftˈinə#

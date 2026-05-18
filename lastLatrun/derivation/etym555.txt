@@ -1,23 +1,21 @@
-Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :555:
-#lˈiːnum# >>> *#lˈi# ( GOLD : #lˈi#) :
-l ˈiː n u m 
-*#lˈiːnu# | 4 : [+nas,+cons] > ∅ / [-stres] __ #
-*#lˈiːnʊ# | 26 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-*#lˈinʊ# | 27 : [+syl,+front,+hi] > [-long,-splng] 
-Middle Proto-Albanian I stage form : *#lˈinʊ#
-*#lˈinu# | 84 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#lˈinu#
-Late Proto-Albanian I stage form : *#lˈinu#
-*#lˈĩnu# | 248 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian II stage form : *#lˈĩnu#
-*#lˈĩːnu# | 277 : [+prim,-lo] > [+long] / __ [+cor,+son,-long,ɣlat,ɣback] ( [-lo,-cons] ) #
-*#lˈĩːnə# | 319 : [-stres,+round,-lo] > ə / __ #
-*#lˈĩːn# | 325 : [-back,-front,-stres] > ∅ / __ #
-*#lˈĩː# | 328 : [+nas,+cor,-long] > ∅ / [-lab,-nas] [-cons,-lo,+nas] ( [-cons] ) __ #
-Late Proto-Albanian III stage form : *#lˈĩː#
-Proto-Tosk-SGheg stage form : *#lˈĩː#
-Proto-Tosk stage form : *#lˈĩː#
-*#lˈiː# | 482 : [-cons,+nas] > [-nas] 
-*#lˈi# | 502 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#lˈi#
-Final form : *#lˈi#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :555:
+#lˈiːkium# >>> *#lˈic# ( GOLD : #lˈic#) :
+l ˈiː k i u m 
+*#lˈiːkiu# | 6 : [+nas,+cons] > ∅ / [-stres] __ #
+*#lˈiːkju# | 11 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+*#lˈiːkjʊ# | 32 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+*#lˈikjʊ# | 33 : [+syl,+front,+hi] > [-long,-splng] 
+Middle Proto-Albanian I stage form : *#lˈikjʊ#
+*#lˈikju# | 83 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#lˈikju#
+*#lˈicju# | 126 : [+back,-lab,-cont] > [-back,+front] / @ __ [+front,-lo,-cons]
+Late Proto-Albanian I stage form : *#lˈicju#
+Late Proto-Albanian II stage form : *#lˈicju#
+*#lˈicjə# | 324 : [-stres,+round,-lo] > ə / __ #
+Late Proto-Albanian III stage form : *#lˈicjə#
+*#lˈicj# | 335 : [-back,-front,-stres] > ∅ / __ #
+*#lˈic# | 388 : j > ∅ / [+front,+cons] __
+Proto-Tosk-SGheg stage form : *#lˈic#
+Proto-Tosk stage form : *#lˈic#
+Old North Tosk stage form : *#lˈic#
+Final form : *#lˈic#

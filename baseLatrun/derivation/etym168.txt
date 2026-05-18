@@ -1,21 +1,25 @@
-Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :168:
-#fˈɑkieːs# >>> *#fˈɛt͡ʃj# ( GOLD : #fˈacɛ#) :
-f ˈɑ k i eː s 
-*#fˈɑkieː# | 4 : [+strid,+cor,+cont] > ∅ / __ #
-*#fˈɑkjeː# | 9 : [-lo,+syl,-prim] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-Middle Proto-Albanian I stage form : *#fˈɑkjeː#
-*#fˈɑkje# | 45 : [+syl] > [-long,-splng] 
-Middle Proto-Albanian II stage form : *#fˈɑkje#
-*#fˈekje# | 49 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round,-cons]
-*#fˈɛkjɛ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-Late Proto-Albanian I stage form : *#fˈɛkjɛ#
-*#fˈɛcjɛ# | 80 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
-Late Proto-Albanian II stage form : *#fˈɛcjɛ#
-Late Proto-Albanian III stage form : *#fˈɛcjɛ#
-*#fˈɛcj# | 98 : [-stres,-lo] > ∅ / __ #
-Proto-Tosk-SGheg stage form : *#fˈɛcj#
-Proto-Tosk stage form : *#fˈɛcj#
-Old North Tosk stage form : *#fˈɛcj#
-Standard Albanian stage form : *#fˈɛcj#
-*#fˈɛt͡ʃj# | 145 : c > t͡ʃ 
-Final form : *#fˈɛt͡ʃj#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :168:
+#fˌɑlkˈiːneɑ# >>> *#fəlt͡ʃˈiɲə# ( GOLD : #fəlcˈiɲə#) :
+f ˌɑ l k ˈiː n e ɑ 
+*#fˌɑlkˈiːnjɑ# | 9 : [-lo,+syl,-prim] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+*#fˌɑlkˈiːɲɑ# | 16 : {ŋ n j;ŋ n;ɡ n j;ɡ n;n j} > {ɲ;ɲ;ɲ;ɲ;ɲ} 
+Middle Proto-Albanian I stage form : *#fˌɑlkˈiːɲɑ#
+*#fˌɑlkˈiɲɑ# | 45 : [+syl] > [-long,-splng] 
+Middle Proto-Albanian II stage form : *#fˌɑlkˈiɲɑ#
+*#fəlkˈiɲɑ# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
+Late Proto-Albanian I stage form : *#fəlkˈiɲɑ#
+*#fəlcˈiɲɑ# | 80 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
+Late Proto-Albanian II stage form : *#fəlcˈiɲɑ#
+Late Proto-Albanian III stage form : *#fəlcˈiɲɑ#
+*#fəlcˈiɲa# | 89 : [+lo] > [+front,-back] 
+*#fəlcˈiɲə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
+*#fəlcˈiːɲə# | 107 : [+prim] > [+long] / __ [+cons,+son]
+*#fəlcˈĩːɲə# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
+Proto-Tosk-SGheg stage form : *#fəlcˈĩːɲə#
+Proto-Tosk stage form : *#fəlcˈĩːɲə#
+*#fəlcˈiːɲə# | 130 : [-cons,+nas] > [-nas] 
+*#fəlcˈiɲə# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#fəlcˈiɲə#
+Standard Albanian stage form : *#fəlcˈiɲə#
+*#fəlt͡ʃˈiɲə# | 145 : c > t͡ʃ 
+Final form : *#fəlt͡ʃˈiɲə#

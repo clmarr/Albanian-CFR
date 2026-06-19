@@ -28,7 +28,14 @@ def cmt_stage_marking(line, header_in_use, src):
                 + header_in_use[iter] + STAGE_CIRCUMFIX
             break
     cmt_loc = line.find(UTILS.CMT_FLAG)
-    return line + (UTILS.CMT_FLAG if cmt_loc == -1 else "") + infix
+
+    morphclause_start = line.find('ɸ')
+    if morphclause_start == -1: 
+        return line + (UTILS.CMT_FLAG if cmt_loc == -1 else "") + infix
+
+    else: 
+        return line + (UTILS.CMT_FLAG if cmt_loc == -1 else "") + infix + line[morphclause_start:]
+
 
 # makes sure all lines are going to work with the same output header.
 # input_stages : hte ones that are in the input!

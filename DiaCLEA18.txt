@@ -595,8 +595,8 @@ $ De Vaan 1736 "1." + DV1736~A1&A3 (on Lat & PPAlb ū) + DV1735~A7&A8 (on Lat &
 
 $DIACLEA CORRECTION A2.XXXIII -- coalescence of w with following ɪ i or short a in two contexts: T-voi (V-prim) __ and # (V)* liquid __. Long round vowels seem to be the result (inasmuch as y doesn't fall, at least). Feeds ɒ > ɔ tho. If not for the matter of length, merger of the w A aspect with A1.XXV.a much later may be worth considering. 
 
-	$ DIACLEA CORRECTION A2.XXXIII.k i, a > y, ɒ after kw gw-- Conditioned on vocalic length, so must precede its loss. 
-[+syl,αhi,αfront,-long] > [+round,+lab] / [-cont,+round] __ 
+	$ DIACLEA CORRECTION A2.XXXIII.k i, a > y, ɒ after kw gw-- Conditioned on vocalic length, so must precede its loss. As of mid 2026 -- happens to any stress vowel if NOT BEFORE a stressed vowel.  
+[+syl,αhi,αfront,-long] > [+round,+lab] / [-cont,+round] __ ([-syl])* ([-stres] (@)*) #
 
 $DIACLEA CORRECTION A2.XXXXVII.wʎɒj -- MPA jˈɒː ʎɒː > ... > LPA ˈɛː ˈœː after labial (unround vowel) , before ɲ, or more broadly nasals. Not implementing ɲɒː > ɲœː aspect as only relevant word is ngjyej -- too lexical. Going via aj and ɒːj for now for consistency with rest of this block, and also to not cause unintended feeding effects.
 [-syl,+son,-nas,+front] ˈɒː > ˈɒː j / [+lab] ([-prim,-round]) __ [+nas]
@@ -740,8 +740,8 @@ $[+lo,+syl] [+front,-cons,-syl] > [-lo,-back,+front,+long] ∅ / __ {[-syl];#}
 $DIACLEA CORRECTION A1.VI.w : TRANSLABIAL I-MUTATION. limited early i-mutation-like phenomenon across labials, for tonic and (!!) countertonic. Counterfed by stress retraction. Special role for dissertation.
 [-hi,+stres,afront] > [-back,+front,ahi,-lo] / [-lat,-lab] ([+lat]) __ (r) ([+lab,-syl])+ ([+son,+cons]) [+front,-stres]
 
-$DIACLEA CORRECTION A2.CLV -- Middle Proto-Albanian II pretonic ɒ unrounded after k; for now applying more broadly to all velar consonants. Effectedː quadresima, quadriga, quasillum; possibly katër. Attempt to relate development nodunculum not worth it. 
-[+lo,-prim] > [-round,-lab] / [+back,+cons] __
+$DIACLEA CORRECTION A2.CLV -- Middle Proto-Albanian II pretonic ɒ unrounded after k; for now applying more broadly to all velar consonants. Effectedː quadresima, quadriga, quasillum; possibly katër. Attempt to relate development nodunculum not worth it. SUPPRESSED -- no effect.
+$ [+lo,-prim] > [-round,-lab] / [+back,+cons] __
 
 $DIACLEA CORRECTION A2.XXXV -- hiatus j insertion between front vowel __ low vowel in Middle Proto-Albanian I, just before pre-palatal ɪ-raising (which it seems to feed)̠.  As of 11/13/25, this now only happens after stressed {incl. secondary stressed} i/e. Counterbled by ɒ̄ raising
 ∅ > j / [+front,+syl] __ [+lo] 

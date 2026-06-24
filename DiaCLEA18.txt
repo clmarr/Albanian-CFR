@@ -547,7 +547,7 @@ $SUPPRESSED -- no domain. [+syl] [+cor,-nas,-lat] [+prim,-long] > [+prim] [+cor]
 $DIACLEA CORRECTION A2.XXXI.nn stress retraction across nn from antepenultimates. TODO reexamine, only two cases {tingël, hingël}, one especially prone to analogy {tingëlloj derived from tingël, or the reverse? Tinnunculus also meant kestrel, not 'ring' -- somewhat reach-y semantics...}
 [-prim] n n [+prim] > [+prim] n n [-prim,-stres] / __ ([-syl])* [+syl] ([-syl])* [+syl] 
 
-$DIACLEA CORRECTION A2.VIII.ou now the actual internal non-primary o > u rule . Originally thought to not happen word initially. As of Mar 24, applies to all non-primary-stressed non-low non-initial round vowels. 
+$DIACLEA CORRECTION A2.VIII.ou now the actual internal non-primary o > u rule i.e. weak U rule . Originally thought to not happen word initially. As of Mar 24, applies to all non-primary-stressed non-low non-initial round vowels. 
 $[+round,-lo,-prim,-hi] > [+hi,-long] / @ __
 [+round,-lo,-prim,-hi] > [+hi,-long] 
 $ DIACLEA CORRECTION A2.VIII.ou.ɒ March 31 -- working in ó > ɒ́ too. 
@@ -2382,7 +2382,7 @@ $DIACLEA CORRECTION A2.LXXV.u -- k > g / # __ ˌu Ccor ə -son,-cont  --  kˌuː
 k > ɡ / # __  [-prim,+back,+hi] [+cor] [-prim,-back,-front] [-son,-cont]
 $ .ə # __ ə Ccor Cc'ons V ( [-prim,-lo] ) [+lat,-hi] ( [-prim,-lo] ) ( [+son,-syl] ) [-son,-cont] [+prim] $ CURRENTLY SUPPRESSED -- overpredictive
 
-$DIACLEA CORRECTION A2.CII.2 Proto-Tosk deletion of internal unstressed nonconsontal vowel between homorganic consonants, plus deletion of first homorganic cons. Does not bleed k > g phenomena. 
+$DIACLEA CORRECTION A2.CII.2 MIDHOMORGANIC SYNCOPE -- Proto-Tosk deletion of internal unstressed nonconsontal vowel between homorganic consonants, plus deletion of first homorganic cons. Does not bleed k > g phenomena. 
 [-stres,-cons] > ∅ / [+cons,dcor,blab,tson,nnas,llat,scont] __ [+cons,dcor,blab,tson,nnas,llat,scont]
 	$DIACLEA CORRECTION A2.CII.cc -- possibly later (?) later deletion of first element of homorganic clusters. Does not bleed k > g phenomena.
  [+cons,dcor,llat,blab,scont,nnas,rson] > ∅ / __ [+cons,dcor,llat,blab,scont,nnas,rson]
@@ -2513,7 +2513,6 @@ $DV1734.3 -- loss of length in Northern Tosk (and much elsewhere except much of 
 
 ~Old North Tosk
 $ circa 1250-- layers added after this point incl. Old Italian II, Old Venetian, Old Angevin, Byzantine II, Ottoman I, Old Serbian. 
-
 
 $DIACLEA CORRECTION A2.CXVIII Old North Tosk ae {from oe̯} goes to modern Tosk ˈɛ  
 [+lo] e̯ > [-lo,-tense] ∅

@@ -671,7 +671,7 @@ $ DIACLEA CORRECTION C3B.IV.r, b-- in hte immediate contact position (i.e. not t
 
 $DIACLEA CORRECTION E1.VII -- moved to CPA -- Middle Proto-Albanian k > j DV1744.J3 is no longer a single process, but rather passes first to ç in MPA I, because it does not feed aj coalescence to eː in MPA II. This [ç] seems to have become ʎ at some point as attested in OALb kuʎtonj > kujtoj < cogitare, in at least that case, but unclear how much this generalizes. It doesn't seem likely to have become ʎ immediately, for both phonetic and diachronic reasons {doing so errantly feeds a ʎ deletion rule near hte end of MPA I for collucti-a- > gulçoj, other problems for ndërtoj, pliq, vetyrë, etc.}. 
 	$ Apr '26 -- coronal contexts for ç reformed: now it's just after coronal continuant, or labial stop. Case of troftë is a likely later loan also on the basis of its vocalic outcome. As such must come before deltacism. Separate rule for labial continuants. Prior version:	[+back,+cons] > ç / {[+lab] ([+lat]);[+cor] ([-prim]) [+cor,+cont]} [+syl] __ [+cor,-voi,-cont]
-[+back,+cons] > ç / {[-cont,+lab] (l);[-syl,-lat,+cont,-front]} [+syl] (n) __ [+cor,-voi,-cont]
+[+back,+cons] > ç / {[-cont,+lab] (l);[-lat,+cont,-front]} [+syl] (n) __ [+cor,-voi,-cont]
 
 
 $DIACLEA CORRECTION A2.XXXXIX -- rVr > rVlˠ dissimilation. Counterbled by initial r trilling. Before back element -- contrarjʊ > kundruall and rarʊ > rrall-ë, but not miserari > mishërier. As of Dec 16, to simple /l/.
@@ -1166,6 +1166,11 @@ t͡ʃ > t͡s / # __
 $DIACLEA CORRECTION A2.CLIII -- ɒ-aphaeresis early in LPA I, initial ɒ̀ deleted in # __ lab yer Cson, before yer loss. Going broadly with -stres,-lo for now. Bleeds and is counterbled by A2.LXXX.ɔʊ
 ˌɒ > ∅ / # __ [+lab] [-stres,-lo] [-syl,+son]  
 
+$DIACLEA CORRECTION A1.XXII.ʊ > ∅. Not apocope in first LPA wave though -- doesn't feed p > f -- langʊsʊka >Lënckë not *Lëfckë, zambʊʃa > Zëmçë not Zëfckë . Word finally instead goes to ə (potkua etc.) 
+ʊ > ə / __ #
+ʊ > ∅
+
+
 $DIACLEA CORRECTION A2.CVI pretonic intervocalic gr metathesis. May bleed postmimetic nasalization, if it is not before -back. Not simply postvocalic: agrion > egër. Ndërgoj, mërgoj, Slavic përkavë. Not near s -- shëkroj, shkretë
 ∅ [-cont,+back] [+cor,+son,-lat,-nas] > ɾ [+back] ∅ / [-strid] [-cons] __ [+prim]
 
@@ -1204,9 +1209,6 @@ $DIACLEA CORRECTION A2.LXXX.aT ˌɒ, ɒ > ˌɑ, ˌɑ in __ T V-front. Tentativel
 $DIACLEA CORRECTION A2.LXXX.ɔʊ -- first Slav layer ɒ > ɔ  /  @ __ [+voi,+cons,-nas] yer, before loss of Slav layer I yers, .
 [+lo,+round,-nas] > [-lo,-tense] / __ [+voi,+cons,-nas] [-tense,+hi,-stres] 
 
-$DIACLEA CORRECTION A1.XXII.ʊ > ∅. Not apocope in first LPA wave though -- doesn't feed p > f -- langʊsʊka >Lënckë not *Lëfckë, zambʊʃa > Zëmçë not Zëfckë . Word finally instead goes to ə (potkua etc.) 
-ʊ > ə / __ #
-ʊ > ∅
 
 $DIACLEA CORRECTION A2.LXXX.ɒʊ : medial ɒ > ʊ before sonorant cons. Does not feed first hard yer deletion wave (A1.XXII.ʊ) though.
 ɒ > ʊ / @ __ [+cons,+son] 
@@ -1457,7 +1459,7 @@ $ dʒ and tʃ pass to z and s -- whether from PPAlb dʒ/tʃ or from reflexes of 
 $ This effects also the earliest Slavic loanwords : e.g. poroçit > porosit "to request", sul "small boat" , etc. 
 [-ant,+distr,+delrel] > [+ant,-distr,+cont,-front]
 
-$DIACLEA CORRECTION A2.CXXXIX LPA I onset t͡s dissimilates to t͡ʃ beore coronal cluster not followed by palatal. Fed by yer deletion. Fed by onset slavic wave I t͡ʃ > t͡s. But it counterfeeds t͡ʃ > s. çerdhë, çerr, Çërravë. 
+$DIACLEA CORRECTION A2.CXXXIX LPA I onset t͡s dissimilates to t͡ʃ before coronal cluster not followed by palatal. Fed by yer deletion. Fed by onset slavic wave I t͡ʃ > t͡s DV1744.F1. But it counterfeeds t͡ʃ > s. çerdhë, çerr, Çërravë. 
 t͡s > t͡ʃ / # __ ([-cons])* [+cor] [+cor] [-front]
 
 $DIACLEA CORRECTION A2.CII.1 LPA I deletion of initial unstressed nonconsontal vowel between homorganic consonants, plus deletion of first homorganic cons. .cc now being handled in tandem with A2.VII.
@@ -2025,8 +2027,8 @@ $DIACLEA CORRECTION A2.CLVI -- final ŋ > ŋg
 ŋ > ŋ ɡ / __ #
 
 $DIACLEA CORRECTION A2.LI.III last early wave Slavic nasal unpacking, with different special conditioned outcomes. 
-	$A2.LI.IIIdub -- ɒ̃/ɔ̃ > um / cor obs. __ lab
-[+round,+back,+nas,+syl] ∅ > [+hi,-lo,+tense] m / [+cor,-son] __ [-cont,+lab]
+	$A2.LI.IIIdub -- ɒ̃/ɔ̃ > um / cor obs. __ lab.
+[+round,+back,+nas,+syl] ∅ > [+hi,-lo,+tense] m / [+cor,-son] __ [+lab,+cons]
 	$A2.IIIon > oN elsewhere before stops -- can just treat as denasalization; likewise for e; followed by place assimilation. 
 [+nas,+syl] ∅ > [-nas] n / __ [-cont,-son]
 n > m / __ [+lab,-cont] 

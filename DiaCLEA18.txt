@@ -1167,12 +1167,31 @@ $DIACLEA CORRECTION A2.CLIII -- ɒ-aphaeresis early in LPA I, initial ɒ̀ delet
 ˌɒ > ∅ / # __ [+lab] [-stres,-lo] [-syl,+son]  
 
 $DIACLEA CORRECTION A1.XXII.ʊ > ∅. Not apocope in first LPA wave though -- doesn't feed p > f -- langʊsʊka >Lënckë not *Lëfckë, zambʊʃa > Zëmçë not Zëfckë . Word finally instead goes to ə (potkua etc.) 
-ʊ > ə / __ #
-ʊ > ∅
+ʊ > ∅ / __ @
 
+$DIACLEA CORRECTION A2.LXXX.ɒʊ : medial ɒ > ʊ before sonorant cons. Does not feed first hard yer deletion wave (A1.XXII.ʊ) though. 
+ɒ > ʊ / @ __ [+cons,+son]
+
+$DIACLEA CORRECTION A2.LXXX.ɔ.0 -- early passage of ˈɒ > ɔ in Cason __ C-ason,+back a -- Kushove, Shitove, Lashove, Labove, rroge
+ˈɒ > ˈɔ / [ason,-back] __ ([+cor]) [-ason,+back] [+lo]
+
+$DIACLEA CORRECTION A2.CLII -- before LPA Alb-internal metathesis, l > lˠ in ɒ __ lab: gllanik , gallve, gllavinë, kllapë, kllapit. Going with broader [+back] [+lo] __ [+lab] here -- also includes shkalloj, shkallëm, kllogjër 
+l > lˠ / [+back] [+lo] __ [+lab]
+
+$DIACLEA CORRECTION A2.LI : first wave Slavic nasal vowels are unpacked to Vn, with ɑ for ɒ̃ and e for ɛ. Except if before a nasal. Weak of evidence of word final case. Bleeds d > ð. Recurs in LPA III with more specific outcomes. Counterbleeds Alb-internal metathesis A2.CLII. Feeds A2.LIII r > r: / #  ̠__ . Counterbled by A2.LXXI syncope.  Bleeds A2.CXI.
+[+syl,+nas] ∅ > [-round,-lab,-nas,+tense] n / __ {[-nas];#}
+
+$DIACLEA CORRECTION A2.LXXX.aRG -- ˈɒ and ˌɒ unround before ([+cor]) [+hi] [-round]. Counterfed by A2.XXII.ʊ.2 ʊ# > ə#. Fed by A2.LI, bled by A2.LXXX.ɔ.0, fed by A2.LXXX.ɔʊ and A2.XXII.ʊ. Counterbled by A2.CVI (përkavë) 
+[+lo,+stres,-nas] > [-round,-lab] / @ __ ([+cor]) [+hi] [-round]
 
 $DIACLEA CORRECTION A2.CVI pretonic intervocalic gr metathesis. May bleed postmimetic nasalization, if it is not before -back. Not simply postvocalic: agrion > egër. Ndërgoj, mërgoj, Slavic përkavë. Not near s -- shëkroj, shkretë
 ∅ [-cont,+back] [+cor,+son,-lat,-nas] > ɾ [+back] ∅ / [-strid] [-cons] __ [+prim]
+
+$DIACLEA CORRECTION A1.XXII.ʊ.2 auslaut ʊ reduction 
+ʊ > ə / __ #
+
+$DIACLEA CORRECTION A2.LXXX.ɔʊ -- first Slav layer ɒ > ɔ  /  @ __ [+voi,+cons,-nas] yer, before loss of Slav layer I soft yers. 
+[+lo,+round,-nas] > [-lo,-tense] / __ [+voi,+cons,-nas] [-tense,+hi,-stres] 
 
 $DIACLEA CORRECTION A2.LXXXIII -- early Late Proto-Albanian I Vw(V) coalescences . 
 $DIACLEA CORRECTION A2.LXXXIII.ariwo, bleeding .iu by feeding A2.LXXXIII.iwi, iwV > ii / V R __ 
@@ -1181,7 +1200,7 @@ $DIACLEA CORRECTION A2.LXXXIII.ariwo, bleeding .iu by feeding A2.LXXXIII.iwi, iw
 $DIACLEA CORRECTION A2.LXXXIII.iwi, bleeding .iu, feed by .ariwo iwɪ > iW   -- lˈiwɪru > līr-ë, dˌelˌiwɪrˈoɲo > dëliroj, lˌiwɪrˈoɲo > liroj, prˈiwɪtɪr (?) > priftër	, plus cases fed by .ariwo 
 ɪ > ∅ / [+hi,+front] w __
 
-$DIACLEA CORRECTION A2.LXXXIII.Vwa, bleeding .ɒ, w between V and a final low vowel> v, in Slavic loans. Tentatively based on rawuka > ravge can see through posterior back sequences, but this is tentative; the word could also be afffected by analogy, esp as ravë and ravgë both mean "mountain path". As of May 2026, for all Vwa, bleedin Vw > Vː phenomena in A2.LXXXIII more broadly, bleeding A2.LXXXIII.ee. 
+$DIACLEA CORRECTION A2.LXXXIII.Vwa, bleeding .ɒ, w between V and a final low vowel> v, in Slavic loans. Tentatively based on rawuka > ravge can see through posterior back sequences, but this is tentative; the word could also be afffected by analogy, esp as ravë and ravgë both mean "mountain path". As of May 2026, for all Vwa, bleeding Vw > Vː phenomena in A2.LXXXIII more broadly, bleeding A2.LXXXIII.ee. 
 w > v / [+syl] __ ([+back])* [+lo] #
 
 $DIACLEA CORRECTION A2.L.a.ii -- æ raises to iː between same sonorance consonants. 
@@ -1206,21 +1225,9 @@ $DIACLEA CORRECTION A2.CIII -- i/e/ɪ becomes j between Cback __ V and Vback=rou
 $DIACLEA CORRECTION A2.LXXX.aT ˌɒ, ɒ > ˌɑ, ˌɑ in __ T V-front. Tentatively broader [-son] for now. Tentatively non-initial per opëngë {North Gheg apangë}. Can see through sonorant. 
 [+lo,-nas,-prim] > [-round,-lab] / @ __ [-son] ([-son]) [+syl,-front]
 
-$DIACLEA CORRECTION A2.LXXX.ɔʊ -- first Slav layer ɒ > ɔ  /  @ __ [+voi,+cons,-nas] yer, before loss of Slav layer I yers, .
-[+lo,+round,-nas] > [-lo,-tense] / __ [+voi,+cons,-nas] [-tense,+hi,-stres] 
-
-
-$DIACLEA CORRECTION A2.LXXX.ɒʊ : medial ɒ > ʊ before sonorant cons. Does not feed first hard yer deletion wave (A1.XXII.ʊ) though.
-ɒ > ʊ / @ __ [+cons,+son] 
-
-$DIACLEA CORRECTION A2.CLII -- before LPA Alb-internal metathesis, l > lˠ in ɒ __ lab: gllanik , gallve, gllavinë, kllapë, kllapit. Going with broader [+back] [+lo] __ [+lab] here -- also includes shkalloj, shkallëm, kllogjër 
-l > lˠ / [+back] [+lo] __ [+lab]
 
 $DIACLEA CORRECTION A2.LXIV s in C __ C-cor goes to t͡s, blocking retraction to ʃ. Counterbled by  DV1744.H s > ʃ. Counterbled by Alb-internal metathesis. 
 s > t͡s / [+cons] __ [+cons,-cor]
-
-$DIACLEA FIX A2.LI : first wave Slavic nasal vowels are unpacked to Vn, with ɑ for ɒ̃ and e for ɛ. Except if before a nasal. Weak of evidence of word final case. Bleeds d > ð. Recurs in LPA III with more specific outcomes. Counterbleeds Alb-internal metathesis A2.CLII. Feeds A2.LIII r > r: / #  ̠__ . Counterbled by A2.LXXI syncope.  Bleeds A2.CXI.
-[+syl,+nas] ∅ > [-round,-lab,-nas,+tense] n / __ {[-nas];#}
 
 $DIACLA CORRECTION A2.LXXVI.ARA ˌɒr([-stres]) > ara in velar __ labial (counterbled by x >h ), and ɔrɔ in labial/t͡ʃ __ labial/t͡ʃ (t͡ʃ unclear tho -- only two cases Çorovodë and porosit are both ambiguous) ; quality of ɒ reflex assumed to not change. Counterbled by A2.LXVII. For now realized as the insertion of an ˌa -- later it will be assimilated in rule that spreads countertonic back round vowel qualities (also apply to trubulloj, shurukoj not *shurakoj, shuguroj, ngushulloj, Rogoveckë, etc) . Stress will spread via .ARA2.  
 ∅ > ɑ / [-cor,+cons] [+back,-hi,-prim] r __ [+lab,-syl]

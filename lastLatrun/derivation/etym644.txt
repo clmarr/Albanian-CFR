@@ -1,21 +1,24 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :644:
-#mˈodum# >>> *#mˈɔð# ( GOLD : #mˈɔð#) :
-m ˈo d u m 
-*#mˈodu# | 6 : [+nas,+cons] > ∅ / [-stres] __ #
-*#mˈɔdʊ# | 32 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-*#mˈɒdʊ# | 38 : {ˈo;ˈɔ} > {ˈɒ;ˈɒ} 
-Middle Proto-Albanian I stage form : *#mˈɒdʊ#
-*#mˈɔdʊ# | 76 : [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
-*#mˈodu# | 83 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#mˈodu#
-*#mˈoðu# | 100 : d > ð / [-cons] ( [+son,-nas,+cons] ) __ [βlat,βcons]
-Late Proto-Albanian I stage form : *#mˈoðu#
-*#mˈɔðu# | 187 : [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
-Late Proto-Albanian II stage form : *#mˈɔðu#
-*#mˈɔðə# | 324 : [-stres,+round,-lo] > ə / __ #
-Late Proto-Albanian III stage form : *#mˈɔðə#
-*#mˈɔð# | 335 : [-back,-front,-stres] > ∅ / __ #
-Proto-Tosk-SGheg stage form : *#mˈɔð#
-Proto-Tosk stage form : *#mˈɔð#
-Old North Tosk stage form : *#mˈɔð#
-Final form : *#mˈɔð#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :644:
+#mˈodium# >>> *#mˈuz# ( GOLD : #mˈuz#) :
+m ˈo d i u m 
+*#mˈodiu# | 6 : [+nas,+cons] > ∅ / [-stres] __ #
+*#mˈodju# | 11 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+*#mˈod͡ʒju# | 13 : {d;t} > {d͡ʒ;t͡ʃ} / __ j
+*#mˈud͡ʒju# | 30 : [+round,-front,-lo] > [+hi,+tense,-cons,-lat,+cont,0delrel] / [plab,!pstrid] __ [-lab,+strid]
+*#mˈʊd͡ʒjʊ# | 31 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian I stage form : *#mˈʊd͡ʒjʊ#
+*#mˈud͡ʒju# | 82 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#mˈud͡ʒju#
+*#mˈud͡ʒu# | 116 : j > ∅ / [+cons,+front] __
+Late Proto-Albanian I stage form : *#mˈud͡ʒu#
+*#mˈuzu# | 244 : [-ant,+distr,+delrel] > [+ant,-distr,+cont,-front,+cor,0delrel] 
+Late Proto-Albanian II stage form : *#mˈuzu#
+*#mˈuːzu# | 322 : [+prim] > [+long] / __ [+strid]
+*#mˈuːzə# | 324 : [-stres,+round,-lo] > ə / __ #
+Late Proto-Albanian III stage form : *#mˈuːzə#
+*#mˈuːz# | 335 : [-back,-front,-stres] > ∅ / __ #
+Proto-Tosk-SGheg stage form : *#mˈuːz#
+Proto-Tosk stage form : *#mˈuːz#
+*#mˈuz# | 506 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#mˈuz#
+Final form : *#mˈuz#

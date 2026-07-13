@@ -1,21 +1,27 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :785:
-#pˈortɑ# >>> *#pˈɔɾtə# ( GOLD : #pˈɔɾtə#) :
-p ˈo r t ɑ 
-Middle Proto-Albanian I stage form : *#pˈortɑ#
-*#pˈɔrtɑ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-*#pˈortɑ# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#pˈortɑ#
-*#pˈɔrtɑ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-Late Proto-Albanian I stage form : *#pˈɔrtɑ#
-Late Proto-Albanian II stage form : *#pˈɔrtɑ#
-Late Proto-Albanian III stage form : *#pˈɔrtɑ#
-*#pˈɔrta# | 89 : [+lo] > [+front,-back] 
-*#pˈɔrtə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-*#pˈɔːrtə# | 107 : [+prim] > [+long] / __ [+cons,+son]
-Proto-Tosk-SGheg stage form : *#pˈɔːrtə#
-*#pˈɔːɾtə# | 126 : r > ɾ 
-Proto-Tosk stage form : *#pˈɔːɾtə#
-*#pˈɔɾtə# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#pˈɔɾtə#
-Standard Albanian stage form : *#pˈɔɾtə#
-Final form : *#pˈɔɾtə#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :785:
+#pˌorrˈiːnum# >>> *#pərˈi# ( GOLD : #purˈi#) :
+p ˌo r r ˈiː n u m 
+*#pˌorːˈiːnum# | 7 : r r > rː 
+*#pˌorːˈiːnu# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#pˌorːˈiːnu#
+*#pˌɔrːˈiːnʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#pˌɔrːˈinʊ# | 45 : [+syl] > [-long,-splng] 
+*#pˌorːˈinu# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#pˌorːˈinu#
+*#pˌɔrːˈinu# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+*#pərːˈinu# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
+Late Proto-Albanian I stage form : *#pərːˈinu#
+Late Proto-Albanian II stage form : *#pərːˈinu#
+Late Proto-Albanian III stage form : *#pərːˈinu#
+*#pərːˈin# | 98 : [-stres,-lo] > ∅ / __ #
+*#pərːˈiːn# | 107 : [+prim] > [+long] / __ [+cons,+son]
+*#pərːˈĩːn# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
+*#pərːˈĩː# | 113 : n > ∅ / [-cons,+nas] ( [-cons,+nas] ) __ #
+Proto-Tosk-SGheg stage form : *#pərːˈĩː#
+*#pərˈĩː# | 127 : rː > r 
+Proto-Tosk stage form : *#pərˈĩː#
+*#pərˈiː# | 130 : [-cons,+nas] > [-nas] 
+*#pərˈi# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#pərˈi#
+Standard Albanian stage form : *#pərˈi#
+Final form : *#pərˈi#

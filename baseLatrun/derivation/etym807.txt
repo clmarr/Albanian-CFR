@@ -1,21 +1,23 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :807:
-#pˈullɑm# >>> *#pˈulə# ( GOLD : #pˈulə#) :
-p ˈu l l ɑ m 
-*#pˈulɑm# | 13 : {l;n} > {∅;∅} / l __
-*#pˈulɑ# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
-Middle Proto-Albanian I stage form : *#pˈulɑ#
-*#pˈʊlɑ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-*#pˈulɑ# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#pˈulɑ#
-Late Proto-Albanian I stage form : *#pˈulɑ#
-Late Proto-Albanian II stage form : *#pˈulɑ#
-Late Proto-Albanian III stage form : *#pˈulɑ#
-*#pˈula# | 89 : [+lo] > [+front,-back] 
-*#pˈulə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-*#pˈuːlə# | 107 : [+prim] > [+long] / __ [+cons,+son]
-Proto-Tosk-SGheg stage form : *#pˈuːlə#
-Proto-Tosk stage form : *#pˈuːlə#
-*#pˈulə# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#pˈulə#
-Standard Albanian stage form : *#pˈulə#
-Final form : *#pˈulə#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :807:
+#pˈuːblikum# >>> *#pˈybjk# ( GOLD : #pˈuk#) :
+p ˈuː b l i k u m 
+*#pˈuːbliku# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+*#pˈuːbləku# | 29 : [-stres] > ə / [+prim] ( @ )* __ @
+Middle Proto-Albanian I stage form : *#pˈuːbləku#
+*#pˈuːblku# | 32 : ə > ∅ 
+*#pˈyːblku# | 41 : [+back,+long,+syl,-lo] > [+front,-back] 
+*#pˈyːblkʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#pˈyblkʊ# | 45 : [+syl] > [-long,-splng] 
+*#pˈyblku# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#pˈyblku#
+Late Proto-Albanian I stage form : *#pˈyblku#
+Late Proto-Albanian II stage form : *#pˈyblku#
+Late Proto-Albanian III stage form : *#pˈyblku#
+*#pˈyblk# | 98 : [-stres,-lo] > ∅ / __ #
+*#pˈybʎk# | 118 : l > ʎ / __ k
+Proto-Tosk-SGheg stage form : *#pˈybʎk#
+Proto-Tosk stage form : *#pˈybʎk#
+*#pˈybjk# | 132 : ʎ > j 
+Old North Tosk stage form : *#pˈybjk#
+Standard Albanian stage form : *#pˈybjk#
+Final form : *#pˈybjk#

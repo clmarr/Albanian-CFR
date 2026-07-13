@@ -1,20 +1,24 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :1045:
-#tˈufɑm# >>> *#tˈufə# ( GOLD : #tˈufə#) :
-t ˈu f ɑ m 
-*#tˈufɑ# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
-Middle Proto-Albanian I stage form : *#tˈufɑ#
-*#tˈʊfɑ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-*#tˈufɑ# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#tˈufɑ#
-Late Proto-Albanian I stage form : *#tˈufɑ#
-Late Proto-Albanian II stage form : *#tˈufɑ#
-Late Proto-Albanian III stage form : *#tˈufɑ#
-*#tˈufa# | 89 : [+lo] > [+front,-back] 
-*#tˈufə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-*#tˈuːfə# | 108 : [+prim] > [+long] / __ [+strid]
-Proto-Tosk-SGheg stage form : *#tˈuːfə#
-Proto-Tosk stage form : *#tˈuːfə#
-*#tˈufə# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#tˈufə#
-Standard Albanian stage form : *#tˈufə#
-Final form : *#tˈufə#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :1045:
+#tˈubulɑ# >>> *#tˈulˠə# ( GOLD : #tˈulˠə#) :
+t ˈu b u l ɑ 
+*#tˈubulːɑ# | 12 : {s l;l} > {lː;lː} / [+syl] __ [+syl]
+*#tˈuulːɑ# | 19 : b > ∅ / [+syl] __ ( r ) [+syl]
+*#tˈuəlːɑ# | 29 : [-stres] > ə / [+prim] ( @ )* __ @
+Middle Proto-Albanian I stage form : *#tˈuəlːɑ#
+*#tˈulːɑ# | 32 : ə > ∅ 
+*#tˈʊlːɑ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#tˈulːɑ# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#tˈulːɑ#
+Late Proto-Albanian I stage form : *#tˈulːɑ#
+Late Proto-Albanian II stage form : *#tˈulːɑ#
+Late Proto-Albanian III stage form : *#tˈulːɑ#
+*#tˈulːa# | 89 : [+lo] > [+front,-back] 
+*#tˈulːə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
+*#tˈuːlːə# | 107 : [+prim] > [+long] / __ [+cons,+son]
+Proto-Tosk-SGheg stage form : *#tˈuːlːə#
+*#tˈuːlˠə# | 124 : lː > lˠ 
+Proto-Tosk stage form : *#tˈuːlˠə#
+*#tˈulˠə# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#tˈulˠə#
+Standard Albanian stage form : *#tˈulˠə#
+Final form : *#tˈulˠə#

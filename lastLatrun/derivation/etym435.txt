@@ -1,36 +1,30 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :435:
-#kˌolumbˈiːnɑ# >>> *#kulˠumbɾˈi# ( GOLD : #kulˠumbɾˈi#) :
-k ˌo l u m b ˈiː n ɑ 
-*#kˌolumbinˈiːɑ# | 10 : {i n;ˌiː n;ˈiː n} > {i n i;ˌiː n i;i n ˈiː} / # ( [-front] )* [+lab,+voi] ( [+cor,+cont] )* ( [+back] ) __ [+lo]
-*#kˌɔlʊmbɪnˈiːɑ# | 32 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-*#kˌɔlʊmbɪnˈiɑ# | 33 : [+syl,+front,+hi] > [-long,-splng] 
-*#kˌʊlʊmbɪnˈiɑ# | 37 : [+round,-lo,-prim,-hi] > [+hi,-long,-splng] 
-Middle Proto-Albanian I stage form : *#kˌʊlʊmbɪnˈiɑ#
-*#kˌʊlʊmbɪnˈijɑ# | 73 : ∅ > j / [+front,+syl] __ [+lo]
-*#kˌulumbɪnˈijɑ# | 83 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-*#kˌulumbenˈijɑ# | 87 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#kˌulumbenˈijɑ#
-*#kˌulumbɪnˈijɑ# | 95 : [-stres,+front,-lo] > [+hi,-tense,-cons,-lat,+cont,0delrel] / [+cons] __
-*#kˌulumbɪnˈiɪ̯ɑ# | 120 : j > ɪ̯ / __ ɑ
-*#kˌulumbɪnˈijɑ# | 132 : ɪ̯ > j 
-*#kˌulumbɪnˈija# | 151 : [+lo,-round,-nas,+tense] > [+front,-back] 
-*#kˌulumbɑ̃ɾ̃ˈija# | 153 : [-stres] n > ɑ̃ ɾ̃/ [-long] __ [+prim]
-Late Proto-Albanian I stage form : *#kˌulumbɑ̃ɾ̃ˈija#
-*#kˌuləmbɑ̃ɾ̃ˈija# | 227 : [-prim,+round,+hi,-long] > ə / [+syl] ( @ )* [+cor,rson,!rstrid] __ ( @ )* [+prim]
-*#kˌuləmbəɾ̃ˈija# | 229 : [-stres,+lo,-long] > ə / @ __ ( @ )* [+prim]
-*#kˌulə̃mbə̃ɾ̃ˈija# | 246 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian II stage form : *#kˌulə̃mbə̃ɾ̃ˈija#
-*#kˌulˠə̃mbə̃ɾ̃ˈija# | 254 : l > lˠ / [-cons] ( [+cor,+cont,-lat] ) __ ( m ) [-front,+syl]
-*#kˌulˠũmbə̃ɾ̃ˈija# | 299 : [-prim] > [uhi,utense,+back,+round,+lab,-lo,-front] / [+cons] [-prim,uhi,+round] [+lat,-long] __
-Late Proto-Albanian III stage form : *#kˌulˠũmbə̃ɾ̃ˈija#
-*#kˌulˠũmbə̃ɾ̃ˈiɛ# | 343 : j [-stres,-back] > ɛ/ [+syl] ( [-syl] )* [-lo] __ #
-*#kˌulˠũmbə̃ɾ̃ˈiː# | 349 : [+prim] [-prim] > [+long] ∅
-Proto-Tosk-SGheg stage form : *#kˌulˠũmbə̃ɾ̃ˈiː#
-Proto-Tosk stage form : *#kˌulˠũmbə̃ɾ̃ˈiː#
-*#kˌulˠumbəɾ̃ˈiː# | 483 : [-prim,-cons] > [-nas] 
-*#kˌulˠumbəɾˈiː# | 489 : ɾ̃ > ɾ 
-*#kˌulˠumbɾˈiː# | 490 : [-stres] > ∅ / [+cont,+son,-lat] [-cont,-front] ( [-cont,-front] )* __ ɾ [+stres]
-*#kulˠumbɾˈiː# | 492 : [-prim] > [-stres,-prim,+syl,+son] 
-*#kulˠumbɾˈi# | 506 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#kulˠumbɾˈi#
-Final form : *#kulˠumbɾˈi#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :435:
+#kˌolˈostrum# >>> *#kulˠˈɔʃtəɾ# ( GOLD : #kulˠˈɔʃtəɾ#) :
+k ˌo l ˈo s t r u m 
+*#kˌolˈostru# | 6 : [+nas,+cons] > ∅ / [-stres] __ #
+*#kˌɔlˈɔstrʊ# | 31 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+*#kˌʊlˈɔstrʊ# | 36 : [+round,-lo,-prim,-hi] > [+hi,-long,-splng] 
+*#kˌʊlˈɒstrʊ# | 37 : {ˈo;ˈɔ} > {ˈɒ;ˈɒ} 
+Middle Proto-Albanian I stage form : *#kˌʊlˈɒstrʊ#
+*#kˌʊlˈɔstrʊ# | 75 : [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
+*#kˌulˈostru# | 82 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#kˌulˈostru#
+Late Proto-Albanian I stage form : *#kˌulˈostru#
+*#kˌulˈoʃtru# | 181 : s > ʃ 
+*#kˌulˈɔʃtru# | 188 : [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
+*#kˌulˈɔʃtɾu# | 200 : r > ɾ 
+Late Proto-Albanian II stage form : *#kˌulˈɔʃtɾu#
+*#kˌulˠˈɔʃtɾu# | 255 : l > lˠ / [-cons] ( [+cor,+cont,-lat] ) __ ( m ) [-front,+syl]
+*#kˌulˠˈɔːʃtɾu# | 322 : [+prim] > [+long] / __ [+strid]
+*#kˌulˠˈɔːʃtɾə# | 324 : [-stres,+round,-lo] > ə / __ #
+Late Proto-Albanian III stage form : *#kˌulˠˈɔːʃtɾə#
+*#kˌulˠˈɔːʃtɾ# | 335 : [-back,-front,-stres] > ∅ / __ #
+*#kˌulˠˈɔːʃtɾ̩# | 445 : [+cons,+son,-nas] > [+syl,-stres,-prim,+son] / [-son] __ #
+Proto-Tosk-SGheg stage form : *#kˌulˠˈɔːʃtɾ̩#
+Proto-Tosk stage form : *#kˌulˠˈɔːʃtɾ̩#
+*#kulˠˈɔːʃtɾ̩# | 492 : [-prim] > [-stres,-prim,+syl,+son] 
+*#kulˠˈɔʃtɾ̩# | 506 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#kulˠˈɔʃtɾ̩#
+*#kulˠˈɔʃtəɾ̩# | 514 : ∅ > ə / __ [+cons,+syl]
+*#kulˠˈɔʃtəɾ# | 515 : [+syl,-cons] [+cons,+syl,aprim,bstres] > [aprim,bstres] [-syl,0stres,0prim]
+Final form : *#kulˠˈɔʃtəɾ#

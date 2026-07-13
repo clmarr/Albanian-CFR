@@ -1,17 +1,25 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :831:
-... >>> *#ɾˈɛɟ# ( GOLD : #ɾˈɛɟ#) :
-... 
-Middle Proto-Albanian I stage form : ...
-Middle Proto-Albanian II stage form : ...
-Late Proto-Albanian I stage form : ...
-*#ɾˈeɡɛ# | 199 : r > ɾ 
-*#ɾˈeɟɛ# | 202 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
-Late Proto-Albanian II stage form : *#ɾˈeɟɛ#
-*#ɾˈeɟə# | 266 : [+front,-stres,-lo,-hi] > ə / [+cons] __
-*#ɾˈɛɟə# | 290 : [+front,+syl,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
-Late Proto-Albanian III stage form : *#ɾˈɛɟə#
-*#ɾˈɛɟ# | 335 : [-back,-front,-stres] > ∅ / __ #
-Proto-Tosk-SGheg stage form : *#ɾˈɛɟ#
-Proto-Tosk stage form : *#ɾˈɛɟ#
-Old North Tosk stage form : *#ɾˈɛɟ#
-Final form : *#ɾˈɛɟ#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :831:
+#rˌefˈernioː# >>> *#rəfˈɛj# ( GOLD : #rəfˈɛj#) :
+r ˌe f ˈe r n i oː 
+*#rˌefˈernjoː# | 11 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+*#rˌɛfˈɛrnjoː# | 31 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+*#rˌɛfˈɛrnju# | 36 : [+round,-lo,-prim,-hi] > [+hi,-long,-splng] 
+Middle Proto-Albanian I stage form : *#rˌɛfˈɛrnju#
+*#rˌɛfˈɛrɲu# | 56 : [+nas,-lab] [+hi,+front,+cont,-syl] > ɲ
+Middle Proto-Albanian II stage form : *#rˌɛfˈɛrɲu#
+*#rːˌɛfˈɛrɲu# | 144 : {w r;r} > {rː;rː} / # __
+*#rːɪfˈɛrɲu# | 149 : [+stres,-prim,-back,-long] > ɪ / # [+son,+cor,-nas,-lab] __ [+strid] [vsyl,vson]
+Late Proto-Albanian I stage form : *#rːɪfˈɛrɲu#
+*#rːɪfˈɛɾɲu# | 200 : r > ɾ 
+Late Proto-Albanian II stage form : *#rːɪfˈɛɾɲu#
+*#rːɪfˈɛɲu# | 264 : [+son,+cor,-nas] > ∅ / __ ɲ
+*#rːəfˈɛɲu# | 290 : {ɪ;ɪ̃} > {ə;ə̃} 
+*#rːəfˈɛɲə# | 324 : [-stres,+round,-lo] > ə / __ #
+Late Proto-Albanian III stage form : *#rːəfˈɛɲə#
+*#rːəfˈɛɲ# | 335 : [-back,-front,-stres] > ∅ / __ #
+*#rəfˈɛɲ# | 429 : rː > r 
+Proto-Tosk-SGheg stage form : *#rəfˈɛɲ#
+Proto-Tosk stage form : *#rəfˈɛɲ#
+Old North Tosk stage form : *#rəfˈɛɲ#
+*#rəfˈɛj# | 521 : ɲ > j / [-hi] __ #
+Final form : *#rəfˈɛj#

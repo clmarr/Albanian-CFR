@@ -1,5 +1,5 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/DiaSlavtest'; etymon number :121:
-... >>> *#ɡɔstˈit# ( GOLD : #ɡɔstˈit#) :
+Derivation file for run '../Albanian-CFR/diaSlavTest'; etymon number :121:
+... >>> *#ɡarˈit͡sə# ( GOLD : #ɡɔrˈit͡sə#) :
 ... 
 Proto-Balkan-Indo-European stage form : ...
 Archaic Proto-Albanian stage form : ...
@@ -7,12 +7,23 @@ Classical Proto-Albanian stage form : ...
 Middle Proto-Albanian I stage form : ...
 Middle Proto-Albanian II stage form : ...
 Late Proto-Albanian I stage form : ...
-Late Proto-Albanian II stage form : ...
-Late Proto-Albanian III stage form : ...
-*#ɡˌɔstˈitɪ# | 453 : [+lo,+round] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
-*#ɡˌɔstˈit# | 477 : [+hi,-tense,-stres,-cons] > ∅ 
-Proto-Tosk-SGheg stage form : *#ɡˌɔstˈit#
-Proto-Tosk stage form : *#ɡˌɔstˈit#
-*#ɡɔstˈit# | 563 : [-prim] > [-stres,-prim,+syl,+son] 
-Old North Tosk stage form : *#ɡɔstˈit#
-Final form : *#ɡɔstˈit#
+*#ɡˌɑrɪnˈit͡sɑ# | 234 : [+lo,+stres,-nas] > [-round,-lab] / @ __ ( [+cor] ) [+hi] [-round]
+*#ɡˌɑɾɪnˈit͡sɑ# | 271 : r > ɾ 
+*#ɡˌɑɾˌɪnˈit͡sɑ# | 272 : [+syl] > [+stres,+syl,+son] / [+lo,+back,+stres,-prim] [+son,-cont] __
+*#ɡˌɑɾɪnˈit͡sɑ# | 297 : [-prim,+front,-long,-lo] > ɪ / [+syl] ( @ )* __ ( @ )* [+prim]
+*#ɡˌɑɾənˈit͡sɑ# | 302 : [-prim,+front,-long] > ə / [+cons,+son,mnas,mlab] __ [+cons,+son,-front] ( @ )* [+prim]
+*#ɡˌɑɾə̃nˈit͡sɑ# | 318 : [-cons] > [+nas] / __ [+nas,+cons]
+Late Proto-Albanian II stage form : *#ɡˌɑɾə̃nˈit͡sɑ#
+*#ɡˌɑɾnˈit͡sɑ# | 341 : {ə̃;ˌə̃} > {∅;∅} / @ [+syl] ( @ )* [+cor,+son,-lat,-nas] __ [+nas,+cor] ( @ )* [+prim]
+*#ɡˌɑrːˈit͡sɑ# | 343 : [+cor,+son,-lat,-nas] [+nas,+cor] > rː
+*#ɡˌɑrːˈiːt͡sɑ# | 393 : [+prim] > [+long] / __ [+strid]
+Late Proto-Albanian III stage form : *#ɡˌɑrːˈiːt͡sɑ#
+*#ɡˌɑrˈiːt͡sɑ# | 500 : rː > r 
+*#ɡˌarˈiːt͡sa# | 537 : [+lo,-round] > [+front,-back] 
+*#ɡˌarˈiːt͡sə# | 539 : [-stres,-cons,-hi,afront,alo] > ə / __ #
+Proto-Tosk-SGheg stage form : *#ɡˌarˈiːt͡sə#
+Proto-Tosk stage form : *#ɡˌarˈiːt͡sə#
+*#ɡarˈiːt͡sə# | 563 : [-prim] > [-stres,-prim,+syl,+son] 
+*#ɡarˈit͡sə# | 577 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#ɡarˈit͡sə#
+Final form : *#ɡarˈit͡sə#

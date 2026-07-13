@@ -1,19 +1,28 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :512:
-#kʷˈɑdrum# >>> *#kʷˈadɾ# ( GOLD : #kˈɔdəɾ#) :
-kʷ ˈɑ d r u m 
-*#kʷˈɑdru# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
-Middle Proto-Albanian I stage form : *#kʷˈɑdru#
-*#kʷˈɑdrʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-*#kʷˈɑdru# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#kʷˈɑdru#
-Late Proto-Albanian I stage form : *#kʷˈɑdru#
-Late Proto-Albanian II stage form : *#kʷˈɑdru#
-Late Proto-Albanian III stage form : *#kʷˈɑdru#
-*#kʷˈadru# | 89 : [+lo] > [+front,-back] 
-*#kʷˈadr# | 98 : [-stres,-lo] > ∅ / __ #
-Proto-Tosk-SGheg stage form : *#kʷˈadr#
-*#kʷˈadɾ# | 126 : r > ɾ 
-Proto-Tosk stage form : *#kʷˈadɾ#
-Old North Tosk stage form : *#kʷˈadɾ#
-Standard Albanian stage form : *#kʷˈadɾ#
-Final form : *#kʷˈadɾ#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :512:
+... >>> *#kʷədɾˈiʃɛmbə# ( GOLD : #kɾˈɛʒəm#) :
+... 
+Middle Proto-Albanian I stage form : ...
+*#kʷˌɑdrˈeːsɪmɑ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#kʷˌɑdrˈesɪmɑ# | 45 : [+syl] > [-long,-splng] 
+*#kʷˌɑdrˈisɪmɑ# | 46 : [+stres,+tense,+front,-lab] > [+hi] / __ [+cont,-lab,+strid]
+*#kʷˌɑdrˈisemɑ# | 48 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#kʷˌɑdrˈisemɑ#
+*#kʷˌɑdrˈisɛmɑ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+*#kʷədrˈisɛmɑ# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
+Late Proto-Albanian I stage form : *#kʷədrˈisɛmɑ#
+*#kʷədrˈiʃɛmɑ# | 81 : s > ʃ 
+Late Proto-Albanian II stage form : *#kʷədrˈiʃɛmɑ#
+Late Proto-Albanian III stage form : *#kʷədrˈiʃɛmɑ#
+*#kʷədrˈiʃɛma# | 89 : [+lo] > [+front,-back] 
+*#kʷədrˈiʃɛmə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
+*#kʷədrˈiːʃɛmə# | 108 : [+prim] > [+long] / __ [+strid]
+*#kʷədrˈiːʃɛ̃mə# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
+Proto-Tosk-SGheg stage form : *#kʷədrˈiːʃɛ̃mə#
+*#kʷədrˈiːʃɛ̃mbə# | 121 : ∅ > b / m __ [-stres]
+*#kʷədɾˈiːʃɛ̃mbə# | 126 : r > ɾ 
+Proto-Tosk stage form : *#kʷədɾˈiːʃɛ̃mbə#
+*#kʷədɾˈiːʃɛmbə# | 130 : [-cons,+nas] > [-nas] 
+*#kʷədɾˈiʃɛmbə# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#kʷədɾˈiʃɛmbə#
+Standard Albanian stage form : *#kʷədɾˈiʃɛmbə#
+Final form : *#kʷədɾˈiʃɛmbə#

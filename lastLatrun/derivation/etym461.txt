@@ -1,35 +1,31 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :461:
-#kˌonwˌentˈɑːnioː# >>> *#kuvəndˈɔj# ( GOLD : #kuvɛndˈɔj#) :
-k ˌo n w ˌe n t ˈɑː n i oː 
-*#kˌonwˌentˈɑːnjoː# | 11 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-*#kˌonwˌentˈɒːnjoː# | 15 : [-hi,+long,+prim] > [+round,+lab] / __ [+cont,+cor] j [+round]
-*#kˌonwˌentˈɒːɲoː# | 20 : [+nas,-lab] j > ɲ
-*#kˌɔnwˌɛntˈɒːɲoː# | 32 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-*#kˌʊnwˌɛntˈɒːɲu# | 37 : [+round,-lo,-prim,-hi] > [+hi,-long,-splng] 
-Middle Proto-Albanian I stage form : *#kˌʊnwˌɛntˈɒːɲu#
-*#kˌʊnwˌɛntˈɒɲu# | 63 : [+syl] > [-long,-splng] 
-*#kˌʊwˌɛntˈɒɲu# | 74 : [+nas] > ∅ / # ( [+back,-syl] ) [-prim,-lo] __ [-syl,tcons,!tcont,!tvoi] [-prim] ( [-syl] ) [+cor,llat,lcont] [+prim]
-*#kˌʊwˌɛntˈɔɲu# | 76 : [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
-*#kˌʊvˌɛntˈɔɲu# | 77 : [+lab,wround,wson,+voi] > v / [+syl,alo,!ahi,atense] ( [+nas] ) __ [+front,-hi,+syl]
-*#kˌuvˌɛntˈoɲu# | 83 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#kˌuvˌɛntˈoɲu#
-Late Proto-Albanian I stage form : *#kˌuvˌɛntˈoɲu#
-*#kˌuvˌɛntˈɔɲu# | 187 : [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
-*#kˌuːvˌɛntˈɔɲu# | 224 : [+round,-front,-prim] > [+long] / [+hi,-son] __ [-lat] ( @ )* [+prim]
-*#kˌuːvɪntˈɔɲu# | 225 : [-prim,+front,-long,-lo] > ɪ / [+syl] ( @ )* __ ( @ )* [+prim]
-*#kˌuːvɪ̃ntˈɔ̃ɲu# | 246 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian II stage form : *#kˌuːvɪ̃ntˈɔ̃ɲu#
-*#kˌuːvə̃ntˈɔ̃ɲu# | 289 : {ɪ;ɪ̃} > {ə;ə̃} 
-*#kˌuːvə̃ntˈɔ̃ɲə# | 324 : [-stres,+round,-lo] > ə / __ #
-*#kˌuːvə̃ndˈɔ̃ɲə# | 333 : [-cont,mlab,jfront] > [+voi] / [mlab,jfront,+nas,+cons] __
-Late Proto-Albanian III stage form : *#kˌuːvə̃ndˈɔ̃ɲə#
-*#kˌuːvə̃ndˈɔ̃ɲ# | 335 : [-back,-front,-stres] > ∅ / __ #
-Proto-Tosk-SGheg stage form : *#kˌuːvə̃ndˈɔ̃ɲ#
-Proto-Tosk stage form : *#kˌuːvə̃ndˈɔ̃ɲ#
-*#kˌuːvəndˈɔ̃ɲ# | 483 : [-prim,-cons] > [-nas] 
-*#kˌuːvəndˈɔɲ# | 486 : [-cons,+nas] > [-nas] 
-*#kuːvəndˈɔɲ# | 492 : [-prim] > [-stres,-prim,+syl,+son] 
-*#kuvəndˈɔɲ# | 506 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#kuvəndˈɔɲ#
-*#kuvəndˈɔj# | 521 : ɲ > j / [-hi] __ #
-Final form : *#kuvəndˈɔj#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :461:
+#kˌonˈukulɑm# >>> *#kunˈujkə# ( GOLD : #kɔnˈuɾkə#) :
+k ˌo n ˈu k u l ɑ m 
+*#kˌonˈukulɑ# | 6 : [+nas,+cons] > ∅ / [-stres] __ #
+*#kˌɔnˈʊkʊlɑ# | 31 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+*#kˌʊnˈʊkʊlɑ# | 36 : [+round,-lo,-prim,-hi] > [+hi,-long,-splng] 
+Middle Proto-Albanian I stage form : *#kˌʊnˈʊkʊlɑ#
+*#kˌunˈukulɑ# | 82 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#kˌunˈukulɑ#
+*#kˌunˈukula# | 151 : [+lo,-round,-nas,+tense] > [+front,-back] 
+Late Proto-Albanian I stage form : *#kˌunˈukula#
+*#kˌuːnˈukula# | 225 : [+round,-front,-prim] > [+long] / [+hi,-son] __ [-lat] ( @ )* [+prim]
+*#kˌũːnˈukula# | 247 : [-cons] > [+nas] / __ [+nas,+cons]
+Late Proto-Albanian II stage form : *#kˌũːnˈukula#
+*#kˌũːnˈukulˠa# | 259 : l > lˠ / [-cons] __ [+lo]
+*#kˌũːnˈukləa# | 298 : [-stres] [+lat] > l ə/ [+syl] ( [-syl,+voi] ) [+hi,+syl] [-voi,-cont] __ [-stres]
+*#kˌũːnˈuləkəa# | 299 : ∅ ∅ [-voi,-cont] l > l ə [-voi] ∅/ [+hi,+syl] __ ə
+*#kˌũːnˈuːləkəa# | 319 : [+prim] > [+long] / __ [+cons,+son,-long,-back] ə [-cont,-son]
+*#kˌũːnˈuːlkəa# | 320 : ə > ∅ / [+syl] [+cons,+son,-long,-back] __ [-cont,-son]
+Late Proto-Albanian III stage form : *#kˌũːnˈuːlkəa#
+*#kˌũːnˈuːlka# | 347 : [-stres,-hi] [+syl,aprim] > ∅ [along]
+*#kˌũːnˈuːʎka# | 461 : l > ʎ / __ k
+*#kˌũːnˈuːʎkə# | 468 : [-stres,-cons,-hi,afront,alo] > ə / __ #
+Proto-Tosk-SGheg stage form : *#kˌũːnˈuːʎkə#
+Proto-Tosk stage form : *#kˌũːnˈuːʎkə#
+*#kˌuːnˈuːʎkə# | 483 : [-prim,-cons] > [-nas] 
+*#kuːnˈuːʎkə# | 492 : [-prim] > [-stres,-prim,+syl,+son] 
+*#kuːnˈuːjkə# | 498 : ʎ > j 
+*#kunˈujkə# | 506 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#kunˈujkə#
+Final form : *#kunˈujkə#

@@ -1,19 +1,25 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :343:
-... >>> *#klˠˈandə# ( GOLD : #klˠˈandə#) :
-... 
-Middle Proto-Albanian I stage form : ...
-Middle Proto-Albanian II stage form : *#kˌɑlˈɑndɑ#
-*#kˌalˈanda# | 151 : [+lo,-round,-nas,+tense] > [+front,-back] 
-Late Proto-Albanian I stage form : *#kˌalˈanda#
-*#kəlˈanda# | 238 : [-prim,+front,-long] > ə / # [-son,+hi] __ [+son,+cons] ( [+cor] ) [+prim]
-*#kəlˈãnda# | 246 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian II stage form : *#kəlˈãnda#
-*#kəlˠˈãnda# | 258 : l > lˠ / [-cons] __ [+lo]
-*#kəlˠˈanda# | 329 : ˈã > ˈa / # ( [-voi] ) ( [-stres] ) [βlab,!βhi] ( l ) __ ( [+nas] ) [βlab,!βcor,nson,ncont] [-cons]
-Late Proto-Albanian III stage form : *#kəlˠˈanda#
-*#kəlˠˈandə# | 468 : [-stres,-cons,-hi,afront,alo] > ə / __ #
-Proto-Tosk-SGheg stage form : *#kəlˠˈandə#
-Proto-Tosk stage form : *#kəlˠˈandə#
-Old North Tosk stage form : *#kəlˠˈandə#
-*#klˠˈandə# | 510 : ə > ∅ / # [+back,-cont] __ [+lat] [-cons]
-Final form : *#klˠˈandə#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :343:
+#kˈɑlɑmum# >>> *#kˈalˠm# ( GOLD : #kˈalˠm#) :
+k ˈɑ l ɑ m u m 
+*#kˈɑlɑmu# | 6 : [+nas,+cons] > ∅ / [-stres] __ #
+*#kˈɑlɑmʊ# | 31 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian I stage form : *#kˈɑlɑmʊ#
+*#kˈɑlɑmu# | 82 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#kˈɑlɑmu#
+*#kˈalamu# | 151 : [+lo,-round,-nas,+tense] > [+front,-back] 
+Late Proto-Albanian I stage form : *#kˈalamu#
+*#kˈalãmu# | 247 : [-cons] > [+nas] / __ [+nas,+cons]
+*#kˈalɐmu# | 248 : [+lo,-stres,-long,-round] > ɐ / __ ( @ )* [+syl]
+Late Proto-Albanian II stage form : *#kˈalɐmu#
+*#kˈalˠɐmu# | 255 : l > lˠ / [-cons] ( [+cor,+cont,-lat] ) __ ( m ) [-front,+syl]
+*#kˈaːlˠɐmu# | 321 : [+prim] > [+long] / __ [+cons,+son,-nas]
+*#kˈaːlˠɐmə# | 324 : [-stres,+round,-lo] > ə / __ #
+Late Proto-Albanian III stage form : *#kˈaːlˠɐmə#
+*#kˈaːlˠɐm# | 335 : [-back,-front,-stres] > ∅ / __ #
+*#kˈaːlˠəm# | 464 : {ɐ;ˌɐ} > {ə;ˌə} 
+Proto-Tosk-SGheg stage form : *#kˈaːlˠəm#
+Proto-Tosk stage form : *#kˈaːlˠəm#
+*#kˈaːlˠm# | 495 : [-prim,-round,-cons] > ∅ / [-cons] [+lat] __ [+nas,-front]
+*#kˈalˠm# | 506 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#kˈalˠm#
+Final form : *#kˈalˠm#

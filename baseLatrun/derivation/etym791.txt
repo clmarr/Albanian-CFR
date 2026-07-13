@@ -1,18 +1,23 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :791:
-#pˈottum# >>> *#pˈɔtt# ( GOLD : #pˈɔt#) :
-p ˈo t t u m 
-*#pˈottu# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
-Middle Proto-Albanian I stage form : *#pˈottu#
-*#pˈɔttʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-*#pˈottu# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#pˈottu#
-*#pˈɔttu# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-Late Proto-Albanian I stage form : *#pˈɔttu#
-Late Proto-Albanian II stage form : *#pˈɔttu#
-Late Proto-Albanian III stage form : *#pˈɔttu#
-*#pˈɔtt# | 98 : [-stres,-lo] > ∅ / __ #
-Proto-Tosk-SGheg stage form : *#pˈɔtt#
-Proto-Tosk stage form : *#pˈɔtt#
-Old North Tosk stage form : *#pˈɔtt#
-Standard Albanian stage form : *#pˈɔtt#
-Final form : *#pˈɔtt#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :791:
+#pˌotestˈɑːtem# >>> *#pətət͡ʃtˈɛt# ( GOLD : #puʃtˈɛt#) :
+p ˌo t e s t ˈɑː t e m 
+*#pˌotestˈɑːte# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#pˌotestˈɑːte#
+*#pˌɔtɛstˈɑːtɛ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#pˌɔtɛstˈɑtɛ# | 45 : [+syl] > [-long,-splng] 
+*#pˌotɛstˈɑtɛ# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#pˌotɛstˈɑtɛ#
+*#pˌotɛstˈetɛ# | 49 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round,-cons]
+*#pˌɔtɛstˈɛtɛ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+*#pətəstˈɛtɛ# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
+Late Proto-Albanian I stage form : *#pətəstˈɛtɛ#
+*#pətəʃtˈɛtɛ# | 81 : s > ʃ 
+Late Proto-Albanian II stage form : *#pətəʃtˈɛtɛ#
+Late Proto-Albanian III stage form : *#pətəʃtˈɛtɛ#
+*#pətəʃtˈɛt# | 98 : [-stres,-lo] > ∅ / __ #
+Proto-Tosk-SGheg stage form : *#pətəʃtˈɛt#
+Proto-Tosk stage form : *#pətəʃtˈɛt#
+Old North Tosk stage form : *#pətəʃtˈɛt#
+*#pətət͡ʃtˈɛt# | 142 : ʃ > t͡ʃ / __ [+cons]
+Standard Albanian stage form : *#pətət͡ʃtˈɛt#
+Final form : *#pətət͡ʃtˈɛt#

@@ -1,24 +1,17 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :921:
-#skˈɑbiem# >>> *#zɟˈɛbɛ# ( GOLD : #zɟˈɛbɛ#) :
-s k ˈɑ b i e m 
-*#skˈɑbie# | 6 : [+nas,+cons] > ∅ / [-stres] __ #
-*#skˈɑbje# | 11 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-*#skˈɑbjɛ# | 32 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian I stage form : *#skˈɑbjɛ#
-Middle Proto-Albanian II stage form : *#skˈɑbjɛ#
-*#skɪ̯ˈɑbjɛ# | 113 : ∅ > ɪ̯ / @ __ [-round,-hi,+prim] [+cons,+lab] ( [-syl] )* j
-*#sɡɪ̯ˈɑbjɛ# | 116 : k > ɡ / [+strid] __ ɪ̯
-*#sɟɪ̯ˈɑbjɛ# | 126 : [+back,-lab,-cont] > [-back,+front] / @ __ [+front,-lo,-cons]
-*#sɟˈebjɛ# | 131 : ɪ̯ [-hi,+stres] > ∅ [-lo,-back,+front,+tense,-cons,-lat,+cont,0delrel]
-*#zɟˈebjɛ# | 134 : s > z / __ [-syl,+voi,-lab,-lat]
-Late Proto-Albanian I stage form : *#zɟˈebjɛ#
-*#d͡ʒɟˈebjɛ# | 241 : [+strid,+cor,+voi] > d͡ʒ 
-*#zɟˈebjɛ# | 243 : [-ant,+distr,+delrel] > [+ant,-distr,+cont,-front,+cor,0delrel] 
-Late Proto-Albanian II stage form : *#zɟˈebjɛ#
-*#zɟˈɛbjɛ# | 290 : [+front,+syl,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
-Late Proto-Albanian III stage form : *#zɟˈɛbjɛ#
-*#zɟˈɛbɛ# | 343 : j [-stres,-back] > ɛ/ [+syl] ( [-syl] )* [-lo] __ #
-Proto-Tosk-SGheg stage form : *#zɟˈɛbɛ#
-Proto-Tosk stage form : *#zɟˈɛbɛ#
-Old North Tosk stage form : *#zɟˈɛbɛ#
-Final form : *#zɟˈɛbɛ#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :921:
+#sˈitɑ# >>> *#ʃˈitə# ( GOLD : #ʃˈitə#) :
+s ˈi t ɑ 
+*#sˈɪtɑ# | 31 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian I stage form : *#sˈɪtɑ#
+*#sˈitɑ# | 85 : [+hi,+front,+stres] > [+tense,-cons,-lat,+cont,0delrel] / [+cor] __ [+cor] [+back]
+Middle Proto-Albanian II stage form : *#sˈitɑ#
+*#sˈita# | 151 : [+lo,-round,-nas,+tense] > [+front,-back] 
+Late Proto-Albanian I stage form : *#sˈita#
+*#ʃˈita# | 181 : s > ʃ 
+Late Proto-Albanian II stage form : *#ʃˈita#
+Late Proto-Albanian III stage form : *#ʃˈita#
+*#ʃˈitə# | 468 : [-stres,-cons,-hi,afront,alo] > ə / __ #
+Proto-Tosk-SGheg stage form : *#ʃˈitə#
+Proto-Tosk stage form : *#ʃˈitə#
+Old North Tosk stage form : *#ʃˈitə#
+Final form : *#ʃˈitə#

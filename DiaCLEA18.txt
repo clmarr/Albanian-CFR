@@ -1082,8 +1082,14 @@ $ {ˈi;[+prim,-round]}> {/ # (([-son]) [-son] (([-cons] ) r )) __ [+lab,-son,+vo
 
 $TODO NOTE FOR DIA: although phonemic nasalization is assigned a later point in the relative chronology (DV1737, number 8), it may be necessary here at least for /e/ and/or /ɛ/, to block ietation and allow the merger of DV2.2.1K with DV2.2.1L1 & DV2.2.1M (aka the merger of 5b.1 with 5b.2 and 5b.3) -- TODO, almost certainly outdated here.
 
+	$THESIS NOTE: A2.LIV and A2.LXXXIII combine to form a rule that is basically tapping when there is an unstressed vowel on EITHER side (// V-stress in Pardess-esque notation), with accompanying lowering, as formulated in First *n-tapping (n-TL1) in the thesis as section 3.9.25.2. 
 $DIACLEA CORRECTION A2.LIV LPA I early flapping and nasalization in V-prim n V-stres (> ãɾ̃V; in most cases later to ə̃ɾ̃V). Happens also after high vowels (?). Explains anëmik < inimicus {bleeds aphaeresis via feeding lengthening}, ministrare > marshtroj; also why we end up with -ër/n for demone > djemër etc where elsewhere unstresseds ɔ and u survive as u. As of Dec 9. Counterbleeds palatalization. TODO unify with tapping.
 [-prim] n > [+lo,-hi,+nas,-front,+back,+tense,-round,-lab] ɾ̃ / __ [-stres] 
+
+$DIACLEA CORRECTION A2.LXXXXIII early tapping of n to avoid prenasal deletion in -son -stres __ V-hi,+prim -- arbëreshë, ngashërej, urdhëroj, urdhëratë, ngjëroj  , sˌerkɪnˈoru > sher/lqeruar, kullumb{ë}ri -- but not bræstɪnˈiku > bërshnik , no sʊwɪrstɪniku , fˌarɪnˈoɲo... overall needs to be after an obstruent, and happens to native, not Slavic, vocab --> placed at end of MPA II. 
+$n > ɾ̃ / [-son] [-stres] __ [+prim] 
+[-stres] n > ɑ̃ ɾ̃ / [-long] __ [+prim]
+
 
 $ DV2.2.2a -- APHAERESIS BLOCK
 $ DIACLEA CORRECTION B2.XII -- aphaeresis block relocdated back from Late Proto-Albanian I into Middle Proto-Albanian I to precede β/w merger (ablev-ā- > blej, but awlona > vlorë); the relevant words indicate there is a difference between the first Slavic layer and some relevant phenomena.
@@ -1147,9 +1153,6 @@ $DIACLEA CORRECTION A1.V -- ɑ > a; at end of MPA II for pre-Slavic vocab, in th
 $DIACLEA CORRECTION A2.CXXII.RVS.lm -- .RVS for LM. For l and m, fed by ɑ > a {A1.V} -- RULE CROSSING!. Hitting l, m -- UNNATURAL CLASS. For these, only seems to operate initially.  
 [+stres,-prim,-back,-long] > ɪ / # [+cons,mnas,mlab,-mlat] __ [+strid] [vsyl,vson]
 
-$DIACLEA CORRECTION A2.LXXXXIII early tapping of n to avoid prenasal deletion in -son -stres __ V-hi,+prim -- arbëreshë, ngashërej, urdhëroj, urdhëratë, ngjëroj  , sˌerkɪnˈoru > sher/lqeruar, kullumb{ë}ri -- but not bræstɪnˈiku > bërshnik , no sʊwɪrstɪniku , fˌarɪnˈoɲo... overall needs to be after an obstruent, and happens to native, not Slavic, vocab --> placed at end of MPA II. 
-$n > ɾ̃ / [-son] [-stres] __ [+prim] 
-[-stres] n > ɑ̃ ɾ̃ / [-long] __ [+prim]
 
 $DIACLEA CORRECTION A2.LXXXVIII.awSa -- reduction of countertonic aw to unstressed schwa, bleeding any lengthening of the a, in (countertonic a:) à w strident V́ -- këshyrë, Këlçyrë, gëzof. Not if the C is sonorant: larushkë, palloj. Needs to be immediately before stress: gazmend, ngashërej. Doesn't seem to work for shurukoj so strident. 
 [+lo,+stres,-prim] w > ə / __ [+strid] [+prim]

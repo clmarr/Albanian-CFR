@@ -1,31 +1,23 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :835:
-#rˌeniːdˈeːnioː# >>> *#rəndˈɛj# ( GOLD : #rəɲɟˈɛj#) :
-r ˌe n iː d ˈeː n i oː 
-*#rˌeniːdˈeːnjoː# | 11 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-*#rˌeniːdˈøːnjoː# | 15 : [-hi,+long,+prim] > [+round,+lab] / __ [+cont,+cor] j [+round]
-*#rˌeniːdˈøːɲoː# | 20 : [+nas,-lab] j > ɲ
-*#rˌɛniːdˈøːɲoː# | 32 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-*#rˌɛnidˈøːɲoː# | 33 : [+syl,+front,+hi] > [-long,-splng] 
-*#rˌɛnidˈøːɲu# | 37 : [+round,-lo,-prim,-hi] > [+hi,-long,-splng] 
-*#rˌɛnidˈeːɲu# | 39 : [+syl,+front] > [-round,-lab] 
-Middle Proto-Albanian I stage form : *#rˌɛnidˈeːɲu#
-*#rˌɛnidˈeɲu# | 63 : [+syl] > [-long,-splng] 
-*#rˌɛndˈeɲu# | 69 : [-prim] > ∅ / [+syl] n __ [+cor,-cont] [-cons]
-Middle Proto-Albanian II stage form : *#rˌɛndˈeɲu#
-*#rːˌɛndˈeɲu# | 144 : {w r;r} > {rː;rː} / # __
-Late Proto-Albanian I stage form : *#rːˌɛndˈeɲu#
-*#rːəndˈeɲu# | 230 : [-prim,+front,-long] > ə / [+cons,+son,mnas,mlab] __ [+cons,+son,-front] ( @ )* [+prim]
-*#rːə̃ndˈẽɲu# | 246 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian II stage form : *#rːə̃ndˈẽɲu#
-*#rːə̃ndˈɛ̃ɲu# | 290 : [+front,+syl,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
-*#rːə̃ndˈɛ̃ɲə# | 324 : [-stres,+round,-lo] > ə / __ #
-Late Proto-Albanian III stage form : *#rːə̃ndˈɛ̃ɲə#
-*#rːə̃ndˈɛ̃ɲ# | 335 : [-back,-front,-stres] > ∅ / __ #
-*#rə̃ndˈɛ̃ɲ# | 429 : rː > r 
-Proto-Tosk-SGheg stage form : *#rə̃ndˈɛ̃ɲ#
-Proto-Tosk stage form : *#rə̃ndˈɛ̃ɲ#
-*#rəndˈɛ̃ɲ# | 483 : [-prim,-cons] > [-nas] 
-*#rəndˈɛɲ# | 486 : [-cons,+nas] > [-nas] 
-Old North Tosk stage form : *#rəndˈɛɲ#
-*#rəndˈɛj# | 521 : ɲ > j / [-hi] __ #
-Final form : *#rəndˈɛj#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :835:
+#rˈeːmum# >>> *#rˈɛm# ( GOLD : #rˈɛm#) :
+r ˈeː m u m 
+*#rˈeːmu# | 6 : [+nas,+cons] > ∅ / [-stres] __ #
+*#rˈeːmʊ# | 31 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian I stage form : *#rˈeːmʊ#
+*#rˈemʊ# | 63 : [+syl] > [-long,-splng] 
+*#rˈemu# | 82 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#rˈemu#
+*#rːˈemu# | 144 : {w r;r} > {rː;rː} / # __
+Late Proto-Albanian I stage form : *#rːˈemu#
+*#rːˈẽmu# | 247 : [-cons] > [+nas] / __ [+nas,+cons]
+Late Proto-Albanian II stage form : *#rːˈẽmu#
+*#rːˈɛ̃mu# | 291 : [+front,+syl,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
+*#rːˈɛ̃mə# | 324 : [-stres,+round,-lo] > ə / __ #
+Late Proto-Albanian III stage form : *#rːˈɛ̃mə#
+*#rːˈɛ̃m# | 335 : [-back,-front,-stres] > ∅ / __ #
+*#rˈɛ̃m# | 429 : rː > r 
+Proto-Tosk-SGheg stage form : *#rˈɛ̃m#
+Proto-Tosk stage form : *#rˈɛ̃m#
+*#rˈɛm# | 486 : [-cons,+nas] > [-nas] 
+Old North Tosk stage form : *#rˈɛm#
+Final form : *#rˈɛm#

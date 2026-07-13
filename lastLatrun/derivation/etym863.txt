@@ -1,29 +1,18 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :863:
-#sˌɑbˈurrum# >>> *#ʃˈur# ( GOLD : #ʒˈuɾ#) :
-s ˌɑ b ˈu r r u m 
-*#sˌɑbˈurru# | 6 : [+nas,+cons] > ∅ / [-stres] __ #
-*#sˌɑbˈʊrrʊ# | 32 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-*#sˌɑβˈʊrrʊ# | 44 : b > β / [-cons] __ ( [+son,+cons] ) [+syl]
-Middle Proto-Albanian I stage form : *#sˌɑβˈʊrrʊ#
-*#sˌɑβˈurru# | 83 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#sˌɑβˈurru#
-*#sˌɑwˈurru# | 107 : β > w / [-cons] __
-*#sˌawˈurru# | 151 : [+lo,-round,-nas,+tense] > [+front,-back] 
-Late Proto-Albanian I stage form : *#sˌawˈurru#
-*#sˌaːˈurru# | 165 : [+stres] w > [+long] ∅
-*#ʃˌaːˈurru# | 180 : s > ʃ 
-*#ʃˌaːˈuɾɾu# | 199 : r > ɾ 
-*#ʃˌaˈuɾɾu# | 207 : [+stres,-prim,+lo] > [-long,-splng] / __ [+syl]
-*#ʃəˈuːɾɾu# | 208 : [+stres,-prim,-long] [+syl] > ə [+long,+stres,+syl,+son]
-Late Proto-Albanian II stage form : *#ʃəˈuːɾɾu#
-*#ʃəˈuːrːu# | 272 : ɾ [+cor,-lat,+son] > rː
-*#ʃəˈuːrːə# | 324 : [-stres,+round,-lo] > ə / __ #
-Late Proto-Albanian III stage form : *#ʃəˈuːrːə#
-*#ʃəˈuːrː# | 335 : [-back,-front,-stres] > ∅ / __ #
-*#ʃˈuːrː# | 347 : [-stres,-hi] [+syl,aprim] > ∅ [along]
-*#ʃˈuːr# | 429 : rː > r 
-Proto-Tosk-SGheg stage form : *#ʃˈuːr#
-Proto-Tosk stage form : *#ʃˈuːr#
-*#ʃˈur# | 506 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#ʃˈur#
-Final form : *#ʃˈur#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :863:
+#rˈuːtɑ# >>> *#rˈytə# ( GOLD : #ɾˈytə#) :
+r ˈuː t ɑ 
+Middle Proto-Albanian I stage form : *#rˈuːtɑ#
+*#rˈyːtɑ# | 45 : [+back,+long,+syl,-lo] > [+front,-back] 
+*#rˈytɑ# | 63 : [+syl] > [-long,-splng] 
+Middle Proto-Albanian II stage form : *#rˈytɑ#
+*#rːˈytɑ# | 144 : {w r;r} > {rː;rː} / # __
+*#rːˈyta# | 151 : [+lo,-round,-nas,+tense] > [+front,-back] 
+Late Proto-Albanian I stage form : *#rːˈyta#
+Late Proto-Albanian II stage form : *#rːˈyta#
+Late Proto-Albanian III stage form : *#rːˈyta#
+*#rˈyta# | 429 : rː > r 
+*#rˈytə# | 468 : [-stres,-cons,-hi,afront,alo] > ə / __ #
+Proto-Tosk-SGheg stage form : *#rˈytə#
+Proto-Tosk stage form : *#rˈytə#
+Old North Tosk stage form : *#rˈytə#
+Final form : *#rˈytə#

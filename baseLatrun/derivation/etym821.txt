@@ -1,24 +1,26 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :821:
-#rˈɑːmiː# >>> *#rˈɛmb# ( GOLD : #rˈɛmb#) :
-r ˈɑː m iː 
-*#rːˈɑːmiː# | 6 : {w r;r} > {rː;rː} / # __
-Middle Proto-Albanian I stage form : *#rːˈɑːmiː#
-*#rːˈɑmi# | 45 : [+syl] > [-long,-splng] 
-Middle Proto-Albanian II stage form : *#rːˈɑmi#
-*#rːˈemi# | 49 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round,-cons]
-*#rːˈɛmi# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-Late Proto-Albanian I stage form : *#rːˈɛmi#
-Late Proto-Albanian II stage form : *#rːˈɛmi#
-Late Proto-Albanian III stage form : *#rːˈɛmi#
-*#rːˈɛm# | 98 : [-stres,-lo] > ∅ / __ #
-*#rːˈɛːm# | 107 : [+prim] > [+long] / __ [+cons,+son]
-*#rːˈɛːmb# | 110 : ∅ > b / m __ #
-*#rːˈɛ̃ːmb# | 111 : [+syl] > [+nas] / __ [+nas,+cons]
-Proto-Tosk-SGheg stage form : *#rːˈɛ̃ːmb#
-*#rˈɛ̃ːmb# | 127 : rː > r 
-Proto-Tosk stage form : *#rˈɛ̃ːmb#
-*#rˈɛːmb# | 130 : [-cons,+nas] > [-nas] 
-*#rˈɛmb# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#rˈɛmb#
-Standard Albanian stage form : *#rˈɛmb#
-Final form : *#rˈɛmb#
+Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :821:
+#rˌɑːdˈiːkulɑ# >>> *#rˈiklˠə# ( GOLD : #rˈikə#) :
+r ˌɑː d ˈiː k u l ɑ 
+*#rːˌɑːdˈiːkulɑ# | 6 : {w r;r} > {rː;rː} / # __
+*#rːˌɑːdˈiːkulːɑ# | 12 : {s l;l} > {lː;lː} / [+syl] __ [+syl]
+*#rːˌɑːdˈiːkəlːɑ# | 29 : [-stres] > ə / [+prim] ( @ )* __ @
+Middle Proto-Albanian I stage form : *#rːˌɑːdˈiːkəlːɑ#
+*#rːˌɑːdˈiːklːɑ# | 32 : ə > ∅ 
+*#rːˌɑːˈiːklːɑ# | 33 : d > ∅ / [+syl] __ [+syl]
+*#rːˌɑˈiklːɑ# | 45 : [+syl] > [-long,-splng] 
+Middle Proto-Albanian II stage form : *#rːˌɑˈiklːɑ#
+*#rːəˈiklːɑ# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
+Late Proto-Albanian I stage form : *#rːəˈiklːɑ#
+Late Proto-Albanian II stage form : *#rːəˈiklːɑ#
+Late Proto-Albanian III stage form : *#rːəˈiklːɑ#
+*#rːəˈiklːa# | 89 : [+lo] > [+front,-back] 
+*#rːəˈiklːə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
+*#rːˈiːklːə# | 103 : [-prim] [+prim] > ∅ [+long]/ @ __ @
+Proto-Tosk-SGheg stage form : *#rːˈiːklːə#
+*#rːˈiːklˠə# | 124 : lː > lˠ 
+*#rˈiːklˠə# | 127 : rː > r 
+Proto-Tosk stage form : *#rˈiːklˠə#
+*#rˈiklˠə# | 139 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#rˈiklˠə#
+Standard Albanian stage form : *#rˈiklˠə#
+Final form : *#rˈiklˠə#

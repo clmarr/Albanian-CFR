@@ -1,5 +1,5 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/DiaSlavtest'; etymon number :460:
-... >>> *#vəɾvˈit# ( GOLD : #vəɾvˈit#) :
+Derivation file for run '../Albanian-CFR/diaSlavTest'; etymon number :460:
+... >>> *#vəɾmˈik# ( GOLD : #vəɾmˈik#) :
 ... 
 Proto-Balkan-Indo-European stage form : ...
 Archaic Proto-Albanian stage form : ...
@@ -7,19 +7,21 @@ Classical Proto-Albanian stage form : ...
 Middle Proto-Albanian I stage form : ...
 Middle Proto-Albanian II stage form : ...
 Late Proto-Albanian I stage form : ...
-*#wˌɪɾwˈitɪ# | 270 : r > ɾ 
-Late Proto-Albanian II stage form : *#wˌɪɾwˈitɪ#
-*#wˌɪɾwˈitə# | 360 : {ɪ;ɪ̃} > {ə;ə̃} 
-Late Proto-Albanian III stage form : *#wˌɪɾwˈitə#
-*#wˌɪɾwˈit# | 406 : [-back,-front,-stres] > ∅ / __ #
-*#wˌɪɾvˈit# | 442 : w > v / [+cons] __
-*#wˌɛɾvˈit# | 463 : [+hi,-round,-tense] > [-hi,+stres,+syl,+son] / __ ɾ
-*#wˌɾ̩vˈit# | 522 : [+stres,-prim,-lo,-hi,-round] ɾ > ˌɾ̩/ __ [-syl]
-*#wɾ̩vˈit# | 529 : {ˈɾ̩;ˌɾ̩} > {ˈə ɾ;ɾ̩} 
-Proto-Tosk-SGheg stage form : *#wɾ̩vˈit#
-*#vɾ̩vˈit# | 542 : w > v 
-Proto-Tosk stage form : *#vɾ̩vˈit#
-Old North Tosk stage form : *#vɾ̩vˈit#
-*#vəɾ̩vˈit# | 585 : ∅ > ə / __ [+cons,+syl]
-*#vəɾvˈit# | 586 : [+syl,-cons] [+cons,+syl,aprim,bstres] > [aprim,bstres] [-syl,0stres,0prim]
-Final form : *#vəɾvˈit#
+*#wˌɪrbɪnˈikə# | 236 : ʊ > ə / __ #
+*#wˌɪɾbɪnˈikə# | 271 : r > ɾ 
+*#wˌɪɾbnˈikə# | 273 : [-stres,-cons,-lo] > ∅ / [+syl] ( @ )* __ [+nas,+cont,+cons] [-cons]
+Late Proto-Albanian II stage form : *#wˌɪɾbnˈikə#
+Late Proto-Albanian III stage form : *#wˌɪɾbnˈikə#
+*#wˌɪɾbnˈik# | 406 : [-back,-front,-stres] > ∅ / __ #
+*#wˌɛɾbnˈik# | 463 : [+hi,-round,-tense] > [-hi,+stres,+syl,+son] / __ ɾ
+*#wˌɛɾmːˈik# | 470 : [+lab,-son] [+nas,+cons] > mː
+*#wˌɾ̩mːˈik# | 522 : [+stres,-prim,-lo,-hi,-round] ɾ > ˌɾ̩/ __ [-syl]
+*#wɾ̩mːˈik# | 529 : {ˈɾ̩;ˌɾ̩} > {ˈə ɾ;ɾ̩} 
+Proto-Tosk-SGheg stage form : *#wɾ̩mːˈik#
+*#vɾ̩mːˈik# | 542 : w > v 
+*#vɾ̩mˈik# | 552 : [+nas,+cons] > [-long,-splng] 
+Proto-Tosk stage form : *#vɾ̩mˈik#
+Old North Tosk stage form : *#vɾ̩mˈik#
+*#vəɾ̩mˈik# | 585 : ∅ > ə / __ [+cons,+syl]
+*#vəɾmˈik# | 586 : [+syl,-cons] [+cons,+syl,aprim,bstres] > [aprim,bstres] [-syl,0stres,0prim]
+Final form : *#vəɾmˈik#

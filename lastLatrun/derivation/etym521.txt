@@ -1,19 +1,21 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :521:
-#kˈyːmɑ# >>> *#cˈimə# ( GOLD : #cˈimə#) :
-k ˈyː m ɑ 
-*#kˈymɑ# | 33 : [+syl,+front,+hi] > [-long,-splng] 
-*#kˈimɑ# | 39 : [+syl,+front] > [-round,-lab] 
-Middle Proto-Albanian I stage form : *#kˈimɑ#
-Middle Proto-Albanian II stage form : *#kˈimɑ#
-*#kˈima# | 151 : [+lo,-round,-nas,+tense] > [+front,-back] 
-Late Proto-Albanian I stage form : *#kˈima#
-*#cˈima# | 202 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
-*#cˈĩma# | 246 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian II stage form : *#cˈĩma#
-Late Proto-Albanian III stage form : *#cˈĩma#
-*#cˈĩmə# | 468 : [-stres,-cons,-hi,afront,alo] > ə / __ #
-Proto-Tosk-SGheg stage form : *#cˈĩmə#
-Proto-Tosk stage form : *#cˈĩmə#
-*#cˈimə# | 486 : [-cons,+nas] > [-nas] 
-Old North Tosk stage form : *#cˈimə#
-Final form : *#cˈimə#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :521:
+#kʷˈiːs# >>> *#cˈyʃ# ( GOLD : #cˈyʃ#) :
+kʷ ˈiː s 
+*#kʷˈis# | 32 : [+syl,+front,+hi] > [-long,-splng] 
+Middle Proto-Albanian I stage form : *#kʷˈis#
+*#kʷˈys# | 46 : [+syl,αhi,αfront,-long] > [+round,+lab] / [-cont,+round] __ ( [-syl] )* ( [-stres] ( @ )* ) #
+Middle Proto-Albanian II stage form : *#kʷˈys#
+*#kˈys# | 127 : [-son,+back] > [-lab,-round] 
+Late Proto-Albanian I stage form : *#kˈys#
+*#kˈyʃ# | 181 : s > ʃ 
+*#cˈyʃ# | 203 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
+Late Proto-Albanian II stage form : *#cˈyʃ#
+*#cˈyːʃ# | 322 : [+prim] > [+long] / __ [+strid]
+Late Proto-Albanian III stage form : *#cˈyːʃ#
+Proto-Tosk-SGheg stage form : *#cˈyːʃ#
+Proto-Tosk stage form : *#cˈyːʃ#
+*#kˈyːʃ# | 502 : c > k / __ [+syl] ʃ
+*#kˈyʃ# | 506 : [+long] > [-long,-splng] 
+Old North Tosk stage form : *#kˈyʃ#
+*#cˈyʃ# | 511 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
+Final form : *#cˈyʃ#

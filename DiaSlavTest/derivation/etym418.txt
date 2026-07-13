@@ -1,5 +1,5 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/DiaSlavtest'; etymon number :418:
-... >>> *#bəɾt͡ʃˈik# ( GOLD : #bəɾt͡ʃˈik#) :
+Derivation file for run '../Albanian-CFR/diaSlavTest'; etymon number :418:
+... >>> *#bəɾʃnˈik# ( GOLD : #bəɾʃnˈik#) :
 ... 
 Proto-Balkan-Indo-European stage form : ...
 Archaic Proto-Albanian stage form : ...
@@ -7,15 +7,22 @@ Classical Proto-Albanian stage form : ...
 Middle Proto-Albanian I stage form : ...
 Middle Proto-Albanian II stage form : ...
 Late Proto-Albanian I stage form : ...
-Late Proto-Albanian II stage form : ...
-Late Proto-Albanian III stage form : ...
-*#bˌəɾt͡ʃˈikʊ# | 432 : r > ɾ 
-*#bˌəɾt͡ʃˈik# | 477 : [+hi,-tense,-stres,-cons] > ∅ 
-*#bˌɾ̩t͡ʃˈik# | 522 : [+stres,-prim,-lo,-hi,-round] ɾ > ˌɾ̩/ __ [-syl]
-*#bɾ̩t͡ʃˈik# | 529 : {ˈɾ̩;ˌɾ̩} > {ˈə ɾ;ɾ̩} 
-Proto-Tosk-SGheg stage form : *#bɾ̩t͡ʃˈik#
-Proto-Tosk stage form : *#bɾ̩t͡ʃˈik#
-Old North Tosk stage form : *#bɾ̩t͡ʃˈik#
-*#bəɾ̩t͡ʃˈik# | 585 : ∅ > ə / __ [+cons,+syl]
-*#bəɾt͡ʃˈik# | 586 : [+syl,-cons] [+cons,+syl,aprim,bstres] > [aprim,bstres] [-syl,0stres,0prim]
-Final form : *#bəɾt͡ʃˈik#
+*#brˌæstɪnˈikə# | 236 : ʊ > ə / __ #
+*#brˌæʃtɪnˈikə# | 252 : s > ʃ 
+*#brˌɑʃtɪnˈikə# | 254 : [+lo,+syl,-long,-tense] > [+tense,-front,+back,-cons,-lat,+cont,0delrel] 
+*#bɾˌɑʃtɪnˈikə# | 271 : r > ɾ 
+*#bɾˌɑʃtnˈikə# | 273 : [-stres,-cons,-lo] > ∅ / [+syl] ( @ )* __ [+nas,+cont,+cons] [-cons]
+Late Proto-Albanian II stage form : *#bɾˌɑʃtnˈikə#
+*#bɾɐʃtnˈikə# | 385 : [+lo,-long,-round,-prim,+stres,-nas] > ɐ / [-long] __ [+cont,-son] [-cont] ( [+nas] ) [+prim]
+Late Proto-Albanian III stage form : *#bɾɐʃtnˈikə#
+*#bɾɐʃtnˈik# | 406 : [-back,-front,-stres] > ∅ / __ #
+*#bɾɐʃnˈik# | 483 : [-cont,-son] > ∅ / [-lo] __ [+nas,+cons]
+*#bɾəʃnˈik# | 502 : ɐ > ə / [+cons] [+cons] __
+*#bɾʃnˈik# | 504 : [-lo,-stres,-nas] > ∅ / [+cons] [+son,+cons,-nas] __ [+cons]
+*#bɾ̩ʃnˈik# | 517 : [+cons,+son,-nas] > [+syl,-stres,-prim,+son] / [-son] __ [+cons]
+Proto-Tosk-SGheg stage form : *#bɾ̩ʃnˈik#
+Proto-Tosk stage form : *#bɾ̩ʃnˈik#
+Old North Tosk stage form : *#bɾ̩ʃnˈik#
+*#bəɾ̩ʃnˈik# | 585 : ∅ > ə / __ [+cons,+syl]
+*#bəɾʃnˈik# | 586 : [+syl,-cons] [+cons,+syl,aprim,bstres] > [aprim,bstres] [-syl,0stres,0prim]
+Final form : *#bəɾʃnˈik#

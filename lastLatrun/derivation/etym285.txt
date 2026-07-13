@@ -1,34 +1,33 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/lastLatrun'; etymon number :285:
-#ˌimplˌɑntˈɑːnioː# >>> *#mbləndˈɔj# ( GOLD : #mbəltˈɔj#) :
-ˌi m p l ˌɑ n t ˈɑː n i oː 
-*#ˌimplˌɑntˈɑːnjoː# | 11 : [-lo,+syl,-stres] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-*#ˌimplˌɑntˈɒːnjoː# | 15 : [-hi,+long,+prim] > [+round,+lab] / __ [+cont,+cor] j [+round]
-*#ˌimplˌɑntˈɒːɲoː# | 20 : [+nas,-lab] j > ɲ
-*#ˌɪmplˌɑntˈɒːɲoː# | 32 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-*#ˌɪmplˌɑntˈɒːɲu# | 37 : [+round,-lo,-prim,-hi] > [+hi,-long,-splng] 
-Middle Proto-Albanian I stage form : *#ˌɪmplˌɑntˈɒːɲu#
-*#ˌɪmplˌɑntˈɒɲu# | 63 : [+syl] > [-long,-splng] 
-*#ˌɪmplˌɑntˈɔɲu# | 76 : [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
-*#ˌɪmplˌɑntˈoɲu# | 83 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-*#ˌemplˌɑntˈoɲu# | 87 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#ˌemplˌɑntˈoɲu#
-*#mplˌɑntˈoɲu# | 141 : [-prim,-long,-cons] > ∅ / # __
-*#əmplˌɑntˈoɲu# | 143 : ∅ > ə / # __ [+son,+cons] [+cons,nnas,nson]
-*#əmplˌantˈoɲu# | 151 : [+lo,-round,-nas,+tense] > [+front,-back] 
-*#əmpləntˈoɲu# | 155 : [-prim,+stres,-round] > ə / [-cont] [+lat] __ [mnas,mson,+cons]
-Late Proto-Albanian I stage form : *#əmpləntˈoɲu#
-*#əmpləntˈɔɲu# | 187 : [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
-*#ə̃mplə̃ntˈɔ̃ɲu# | 246 : [-cons] > [+nas] / __ [+nas,+cons]
-Late Proto-Albanian II stage form : *#ə̃mplə̃ntˈɔ̃ɲu#
-*#ə̃mplə̃ntˈɔ̃ɲə# | 324 : [-stres,+round,-lo] > ə / __ #
-*#ə̃mblə̃ndˈɔ̃ɲə# | 333 : [-cont,mlab,jfront] > [+voi] / [mlab,jfront,+nas,+cons] __
-Late Proto-Albanian III stage form : *#ə̃mblə̃ndˈɔ̃ɲə#
-*#ə̃mblə̃ndˈɔ̃ɲ# | 335 : [-back,-front,-stres] > ∅ / __ #
-Proto-Tosk-SGheg stage form : *#ə̃mblə̃ndˈɔ̃ɲ#
-Proto-Tosk stage form : *#ə̃mblə̃ndˈɔ̃ɲ#
-*#əmbləndˈɔ̃ɲ# | 483 : [-prim,-cons] > [-nas] 
-*#əmbləndˈɔɲ# | 486 : [-cons,+nas] > [-nas] 
-*#mbləndˈɔɲ# | 494 : [-prim,-round,-cons] > ∅ / # __ [+nas]
-Old North Tosk stage form : *#mbləndˈɔɲ#
-*#mbləndˈɔj# | 521 : ɲ > j / [-hi] __ #
-Final form : *#mbləndˈɔj#
+Derivation file for run '../Albanian-CFR/lastLatrun'; etymon number :285:
+... >>> *#mbɾˈɛtəɾ# ( GOLD : #mbɾˈɛtəɾ#) :
+... 
+Middle Proto-Albanian I stage form : ...
+*#ˌimpe̊rˈɑːtor# | 59 : [-prim,-lo,+front] > [-voi] / # ( ( @ )* [-syl] ) ( s [-prim,+front,-lo] ) [+cons,mlab,!mstrid,!mcor,-round] __ [+cor,+son,-long] [+lo,+prim]
+*#ˌimpe̊rˈɑːjtor# | 60 : ∅ > j / [+syl,+front,-voi] ( @ )* [+lo,+prim] __
+*#ˌimpe̊rˈɑjtor# | 63 : [+syl] > [-long,-splng] 
+*#ˌimperˈɑjtor# | 64 : [+syl] > [+voi] 
+Middle Proto-Albanian II stage form : *#ˌimperˈɑjtor#
+*#ˌimpɪrˈɑjtor# | 94 : [-stres,+front,-lo] > [+hi,-tense,-cons,-lat,+cont,0delrel] / [+cons] __
+*#mpɪrˈɑjtor# | 141 : [-prim,-long,-cons] > ∅ / # __
+*#əmpɪrˈɑjtor# | 143 : ∅ > ə / # __ [+son,+cons] [+cons,nnas,nson]
+*#əmpɪrˈetor# | 145 : [+lo,+syl] j > [-lo,-back,+front] ∅/ __ [+cons]
+Late Proto-Albanian I stage form : *#əmpɪrˈetor#
+*#əmpɪrˈetɔr# | 188 : [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
+*#əmpɪɾˈetɔɾ# | 200 : r > ɾ 
+*#ə̃mpɪɾˈetɔɾ# | 247 : [-cons] > [+nas] / __ [+nas,+cons]
+Late Proto-Albanian II stage form : *#ə̃mpɪɾˈetɔɾ#
+*#ə̃mpəɾˈetɔɾ# | 290 : {ɪ;ɪ̃} > {ə;ə̃} 
+*#ə̃mpəɾˈɛtɔɾ# | 291 : [+front,+syl,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
+*#ə̃mbəɾˈɛtɔɾ# | 333 : [-cont,mlab,jfront] > [+voi] / [mlab,jfront,+nas,+cons] __
+Late Proto-Albanian III stage form : *#ə̃mbəɾˈɛtɔɾ#
+*#ə̃mbəɾˈɛtɾ# | 436 : [-hi,-stres] > ∅ / [-syl] __ [+son,+cons,-nas] #
+*#ə̃mbəɾˈɛtɾ̩# | 445 : [+cons,+son,-nas] > [+syl,-stres,-prim,+son] / [-son] __ #
+Proto-Tosk-SGheg stage form : *#ə̃mbəɾˈɛtɾ̩#
+Proto-Tosk stage form : *#ə̃mbəɾˈɛtɾ̩#
+*#əmbəɾˈɛtɾ̩# | 483 : [-prim,-cons] > [-nas] 
+*#əmbɾˈɛtɾ̩# | 488 : ə > ∅ / [-cont,-front] __ ɾ [+stres]
+*#mbɾˈɛtɾ̩# | 494 : [-prim,-round,-cons] > ∅ / # __ [+nas]
+Old North Tosk stage form : *#mbɾˈɛtɾ̩#
+*#mbɾˈɛtəɾ̩# | 514 : ∅ > ə / __ [+cons,+syl]
+*#mbɾˈɛtəɾ# | 515 : [+syl,-cons] [+cons,+syl,aprim,bstres] > [aprim,bstres] [-syl,0stres,0prim]
+Final form : *#mbɾˈɛtəɾ#

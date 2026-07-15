@@ -1861,8 +1861,8 @@ $DIACLEA CORRECTION B1.XII aj > ɛ moved toward Late Proto-Albanian II, as resul
 
 $DIACLEA CORRECTION A2.LXXXXVII -- early denasalization of ã to block raising in certain conditions. Counterfed by A2.CXIV. As of Apr 16, currently have this happening much earlier -- LPA II, blocking raising via denasalization. - formulatd into single rule. See file :"a denasalization or non-raising evidence". COUNTERBLED by LPA II apocope ǃǃ DV1738 apocope --  -- evidence of tap at that timeː non-occurence for kërëp, vargër, pëgërë
 $ˈã > ˈa / [βlab,rson,rcor] (ə [+lat]) __ ([+nas]) [βlab,rhi,nson,ncont] [-cons] -- actual version of the rule but there's a bug in diasim, so what follows is just a bandaid. 
-ˈã > ˈa / [+cor,+son] __ ([+nas]) [+hi,nson,ncont] [-cons]
-ˈã > ˈa / # ([-voi]) ([-stres]) [βlab,-βhi] (l) __ ([+nas]) [βlab,-βcor,nson,ncont] [-cons]
+ˈã > ˈa / # ((@)* [-voi] [+cor,+son]) __ ([+nas]) [+hi,nson,ncont] 
+ˈã > ˈa / # ([-voi]) ([-stres]) [βlab,-βhi] (l) __ ([+nas]) [βlab,-βcor,nson,ncont] [-cor,+son]
 
 $ Nasal vowel + nasal consonants become simple nasal vowels at some point. This does not seem to be explicated by De Vaan 2018, but it is implicit in some examples -- gju / Gheg gjû < glun-; Gheg lĩ < līnum, fqĩ < vicīnum, frẽ < frenum. Native vocab also show a pre-sibilant coalescence (mëz/mãz, pesë/pẽsë -- unclear if that z is still an affricate or not, so just do this in terms of stridents?). So we insert that here for now. These all concern only n, so only n is used in the formulation of this rule. Given the case of ftua < cotoneum one can generously allow this to happen not just for syllabics but also after nasalized glides, or glides after a nasal vowel (however uo's nasalized incarnation ends up being realized here, it is intended to be captured with this following rule formulation) 
 $ DIACLEA TODO NOTE: after uo and perhpas a, this does not happen word finally in monosyllabic words... but there are only two examples luan and plënd. IF intend to implement it this way, use: 
@@ -2362,6 +2362,10 @@ $ ∅ > h / # __ [+syl]
 
 $TODO (ǃǃ) with revisions, up to this point was Tosk + SGheg developments. Different NT developments for north Gheg, plus different outcomes of å and ä, should be handled differently
 
+$ ã raises to ə in Tosk (ultimately denasalizing to ë outside of some Lab subdialects which may (or may not) have preserved nasality, maybe for this item -- Breu 2021 also notes retained nasality in Arb\"eresh\"e). Placed before uo̯ > ua̯ for simplicity -- e.g. -uaɲ endings as in shkruaj. 
+$ DIACLEA CORRECTION C3B.XII -- in Proto-Tosk, it is only short ã that becomes ə̃; long ãː actually reflects as -a- (shpërlaj, etc.). However it effects labials too per DIACLEA CORRECTION C2.III (as of April 2026, no effect of this though). Counterbleeds A2.CXXXVI ã > ɛ̃ rule, so must come after that, unless A2.CXXXVI ã > ɛ̃ / cor __ ɲ is reformatted to be in terms of ə̃ > ɛ̃. Operates on word final elements regardless of length -- perhaps handle as shortening them. 
+[+lo,+nas,-long] > [-lo,-back,-front,0tense,-lab,-round]
+
 $DV2.1D2 -- Tosk uo > ua ; written agnostically as to the syllabic status of the a. 
 $DIACLEA FIX B2.IX -- Tosk uo > ua reinterpreted as including wo > wa [D3.X.f] (but not etymological vo-), now occurs at beginning of Proto-Tosk. 
 [+back,-cons,-hi] > [-back,+front,+lo,-round,-lab,+tense] / [+round] __
@@ -2420,10 +2424,6 @@ $nː > n
 
 $TODO FOR LAB,CHAM,ARB-,ARV- : y > i here -- DV2.1A3 
 
-
-$ ã raises to ə in Tosk (ultimately denasalizing to ë outside of some Lab subdialects which may (or may not) have preserved nasality, maybe for this item -- Breu 2021 also notes retained nasality in Arb\"eresh\"e). 
-$ DIACLEA CORRECTION C3B.XII -- in Proto-Tosk, it is only short ã that becomes ə̃; long ãː actually reflects as -a- (shpërlaj, etc.). However it effects labials too per DIACLEA CORRECTION C2.III (as of April 2026, no effect of this though). Counterbleeds A2.CXXXVI ã > ɛ̃ rule, so must come after that, unless A2.CXXXVI ã > ɛ̃ / cor __ ɲ is reformatted to be in terms of ə̃ > ɛ̃. Operates on word final elements regardless of length -- perhaps handle as shortening them. 
-[+lo,+nas,+syl,-long] > [-lo,-back,-front,0tense,-lab,-round]
 
 $DIACLEA CORRECTION E1.VIII -- Tosk denasalization broken into two rules. Denasalization of non-stressed vowels happens first, before post-sonorant affrication of *s and *ʃ. Denasalization of stressed nasal vowels happens later. Must come after Tosk ã > ə/ə̃, which it counterbleeds. 
 [-prim,-cons] > [-nas]

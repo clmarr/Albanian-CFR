@@ -1357,7 +1357,8 @@ $ DIACLEA CONSOLIDATION D3.X.b: now roped into initial lengthening.
 $ [+front,-hi,-lo,-round,+prim] > ˈi e̯ / __ {lˠ;ɾ} ([-lo,-stres] (m)) #
 
 $DIACLEA CORRECTION D3.X.ao.11/29/25 rather than diphthongization of ɔː > wɔ > u as part of və > u phenomenon, initial countertonic ɔː > uː, and it happens earlier in what is now LPA II, before diphthongization. 
-ˌɔː > ˌuː / # __ [-syl]
+$ SUPPRESSED -- no domain 
+$ˌɔː > ˌuː / # __ [-syl]
 
 $DIACLEA CORRECTION A2.LXXXIX -- lengthening to bleed reduction to schwa via DV2.2.2b in LPA II for high front vowels in certain conditions
 	$A2.LXXXIX.k POSTDORSAL CASES {some mediated by rhotic content} and {immediately}. Posterior context is n,m,j,k?  
@@ -1565,15 +1566,17 @@ $DIACLEA CORRECTION A2.CIV: feeding rn > rr phenomena, loss of non-initial preto
 $DIACLEA CORRECTION A2.CXXVII excrescence of ə to bleed rn coalescence in LPA II -- ə inserted in +cont -cont __ N if the nasal comes before at least one obstruent then a stressed vowel
 ∅ > ə / [+cont] [-cont] __ [+nas,+cons] ([-son])+ [+stres]
 
-$DV3.1H2 : -rn- > -rr- / V __ V . This happens in Gheg and Tosk, but De Vaan 2018, citing Janson 1986(:97f), argues it is post-Slavic. Inasmuch as it happens in Gheg, it is also independent of Tosk rhotacism, and should thus be handled separately.
+$DV3.1H2 : -rn- > -rr- / V __ V . Inasmuch as it happens in Gheg, it is also independent of Tosk rhotacism, and should thus be handled separately.
 $DIACLEA CORRECTION B2.X -- moved r n > r: into much earlier proto-Albanian, because it bleeds ietation. 
 $DIACLEA CORRECTION C1A.IV -- now unconditioned (formerly  r n > rː / @ __ @), and also operates regardless of length of r. Further expansion on Dec nine 2o25; prior version ː {ɾ n;r n;rː n} > {rː;rː;rː}. 
 [+cor,+son,-lat,-nas] [+nas,+cor] > rː
 $DV1740I3 -- internal Lat. -rr- becomes PAlb *r: as well. TODO need to relocdate tihs.
 $DIACLEA CORRECTION B1.XIII -- rr > rː moved from CPA to LPA II. Still feeds DV2.2.1C5 and A2.LXIX. Consider just merging this with DV3.1H2 which is now above. 
 ɾ [+cor,-lat,+son] > rː
-$DIACLEA CORRECTION D3.XIV -- DV3.1H2 -rn- > -rr- and DV1740I3 Lat internal -rr- > rː consolidated. aborted tho, not worth it. 
+$$DIACLEA CORRECTION D3.XIV -- DV3.1H2 -rn- > -rr- and DV1740I3 Lat internal -rr- > rː consolidated. aborted tho, not worth it. 
 ${ɾ n;ɾ ɾ̃;r n;r ɾ̃;r r;ɾ r;ɾ ɾ;r ɾ;r rː;ɾ rː;rː ɾ̃}> {rː;rː;rː;rː;rː;rː;rː;rː;rː;rː;rː}
+$MERGED FORM 
+
 
 $DIACLEA CORRECTION A2.LXIX -- LPA I ɪ > i / rː/r/ɾ __ c before ɪ to schwa. Fed by DV3.1H2. Purriq, furriq, iriq. 
 ɪ > i / [+cor,+son,-nas,-lat] __ c
@@ -1597,7 +1600,7 @@ $DIACLEA CORRECTION A2.CXXXI deletion of initial stop in pretonic obstruent clus
 [-cont,-son] > ∅ / @ [-prim] [-syl] ( [-syl] )* [-prim] __ ([-syl])* [-son] [+stres]
 
 
-$DIACLEA CORRECTION A2.LXXXV.CðəC -- unstressed vowels after ð delete pre-obstruent/lateral regardless what's before, effectively feeding ohter parts of A2.LXXXV
+$DIACLEA CORRECTION A2.LXXXV.CðəC -- unstressed vowels after ð delete pre-obstruent/lateral regardless what's before, effectively feeding other parts of A2.LXXXV
 $[-stres] > ∅ / ð __ {[-son];[+lat]}
 $ as of Dec 2o, '25, this is broadened to all post-spirant contexts.
 	$A2.LXXXV.CðəC.ʎ for before laterals -- moved to before LPA II
@@ -1730,8 +1733,8 @@ $ DIACLEA CORRECTION C3A.2: also, pretonic NəN to NN if there is a consonant so
 $DIACLEA CORRECTION A2.LXXVI.ŋu -- special case for u after NK/SK if in word where only non-vocoid articulation is high (or h) . TODO may need to modify if prenasal stops have formed before this pointǃ TODO revise possibly. May 2026 adjusted, no time to discuss -- ulˠa > əl phenom. tho. -- ungël/ungj, ashkël, hingël, qingël etc.
 u lˠ > ə lː / # (h) ([+hi]) [+syl] [nnas,-nstrid] [+back,-cont] __  
 
-$DIACLEA CORRECTION A2.LVI : schwa deleted in R/N m ə N (qerm, kungoj, kernjoj, kulm -- not elsewhere, see the flapping in femër, numëroj < nomin-ā-, djemër, timër). Dec nine 2o25 -- extended to hit ə̃ as well. TODO currently no domain though-- address. 
-[-back,-front,-stres] > ∅ / [+son,+cons] m __ [+nas,+cons]
+$DIACLEA CORRECTION A2.LVI : schwa deleted in R/N m ə N (qerm, kungoj, kernjoj, kulm -- not elsewhere, see the flapping in femër, numëroj < nomin-ā-, djemër, timër). Dec nine 2o25 -- extended to hit ə̃ as well. SUPPRESSED -- no domain 
+$[-back,-front,-stres] > ∅ / [+son,+cons] m __ [+nas,+cons]
 
 $ end of this wave of vowel drops _- VOWEL DROP WAVE -_
 
@@ -2551,8 +2554,8 @@ $merge also DV4.1K2 : OAlb d + sh > ç
 $ version before 8/5/23 was : d [+cont,+cor,βant] > ∅ [+delrel,-βdistr,+strid]
 $ had to change because negative alpha values are not currently supported. 
 $ TODO consider restoring old version when possible. 
-	$ TODO DIA ANALYSIS : at present... no words are effected. Consider removal.
-{d ʃ;d s;d θ} > {t͡ʃ;t͡s;t͡s}
+	$ SUPPRESSED : at present... no words are effected.
+${d ʃ;d s;d θ} > {t͡ʃ;t͡s;t͡s}
 
 $DIACLEA CORRECTION A2.LXXVII dissolution of syllabic sonorant consonants R̩ > əR. Comes after ʃ > ʒ / __ Cvoi (counterbleeds for prozhëm, krezhëm), also after ʃ > t͡ʃ. Different outcomes in Arbëreshë than std. Tosk. 
 ∅ > ə / __ [+cons,+syl]

@@ -1210,7 +1210,7 @@ $DIACLEA CORRECTION A2.L.a.ii -- æ raises to iː between same sonorance consona
 [-tense,+lo] > [+hi,-lo,+tense,+long] / [ason,+cons] __ [ason,+cons]
 
 $DIACLEA CORRECTION A.1 & A2.L : æ(ː?) > eː / C-strid __ C Vfront, elsewhere to a (also A1.I). Even if not long, [æ] tends to be longest vowel and this does not seem to merge with /e/ or /ɛ/ immediately assuming the raising to /i/ (/ɪ/?) phenomenon is a bit later. 
-[+lo,-tense,+syl] > [-lo,+tense,+long] / [+cons,-strid] ([-cons]) __ [-syl] [+front]
+[+lo,-tense,+syl,+front] > [-lo,+tense,+long] / [+cons,-strid] ([-cons]) __ [-syl] [+front]
 
 $A2.LXXXIII.uo ː combination of former .iu and .ɒ to broader rule forming uə̯ > uo.  high vowel initial sequences go straight to uə̯ ; ohterwise it passes through the ˈɔːə̯ scenario. 
 		$conditioning now taken care of with prior rules. 
@@ -1495,6 +1495,10 @@ $m [+nas,+cons,+cont] > mː / __ [+syl,-round]
 [-stres,-lo] > ∅ / [-son,+cons,+cont,-strid] __ [+lat,-long] [+syl]
 
 =Late Proto-Albanian II
+
+$DIACLEA CORRECTION A2.CLXX -- tentative LPA II tapping rules 
+	$.rn -- tapping before V voiced_peripheral k/Ṽ ː rëmenj, rëmër, rigoj, ravgë 
+[+cor,+son,-nas,-lat] > ɾ / # __ [+syl] [+cons,-cor,+voi] [khi,-kcont,-knas]
 
 $ DIACLEA CORRECTION A1.XXIII.ɯ  in # __ [Vback but not u (or ũ)] Cvoi=son 
 		$ not u ː luftoj, luqerrë, lundër ; not voiced obstruents  lɒza > lozë, lɒgʊ > log etc; after Slav layer 2 -- lloskë, llaskonjë; not before u ː luftoj, luqerrë, lundër , (slavic) luzhi, lu(p)qerbull, luspë
@@ -2041,6 +2045,9 @@ w > ∅ / # __ [+hi,+back,+syl] [+cons,-lat]
 
 $DIACLEA CORRECTION A1.XXIV.r  r > ɾ immediately as it informs other rules; rː > r later (as that is how the lexicon is coded). In terms of relative chronology beyond just how it is formalized, this must be before syllabification of resonants. 
 r > ɾ
+
+$DIACLEA CORRECTION A2.CLXX.lr -- tapping of l under influence of following r, if surrounded by non-coronals with polarity of labial on one side but not the other. May need to revise conditioning here but once again its the curious behavior of # (ʃ) ([-front])* prior. Unclear why this isn't hitting Berat, perhaps its some error. get
+[+lat,-hi] > ɾ / # (ʃ) ([+voi,-cor,-front])* [blab,-cor,-strid] ([-prim,-lab]) __ ([-stres]) ([+back,-cont]) [-blab,-cor] ([+syl]) [+son,llat,lcont]
 
 $DIACLEA CORRECTION A2.CXXIX deletion of initial vowels in # -syl,-lab __ [coronal continuant] C+ V-prim 
 [-prim,-lo,-back,-long] > ∅ / # [-syl,-lab] __ [+cor,+cont] [-syl] ( [-syl] )* [-prim]

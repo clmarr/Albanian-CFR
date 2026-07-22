@@ -1,34 +1,38 @@
-Derivation file for run '../Albanian-CFR/diaGrkTest'; etymon number :23:
-... >>> *#ɡəzˈɔf# ( GOLD : #ɡəzˈɔf#) :
+Derivation file for run '../Albanian-CFR/DiaGrkTest'; etymon number :23:
+... >>> *#ɡəɾʃˈɛt# ( GOLD : #ɡəɾʃˈɛt#) :
 ... 
 Proto-Balkan-Indo-European stage form : ...
 Archaic Proto-Albanian stage form : ...
-*#ɡˌɑwzˈɑːfon# | 50 : [+lo,+syl] > [+back,-front] 
-*#ɡˌɑwzˈɒːfon# | 65 : [+long,+lo] > [+round,+lab] / __ ( [-syl] )* [+syl]
-Classical Proto-Albanian stage form : *#ɡˌɑwzˈɒːfon#
-*#ɡˌɑwzˈɒːfo# | 77 : [+nas,+cons] > ∅ / [-stres] __ #
-*#ɡˌɑwzˈɒːfɔ# | 102 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-*#ɡˌɑwzˈɒːfʊ# | 107 : [+round,-lo,-prim,-hi] > [+hi,-long,-splng] 
-*#ɡˌɑwzˈɒfʊ# | 115 : [+round] > [-long,-splng] / __ [+lab,+cont] [-lo]
-Middle Proto-Albanian I stage form : *#ɡˌɑwzˈɒfʊ#
-*#ɡˌɑwzˈɔfʊ# | 146 : [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
-*#ɡˌɑwzˈofu# | 153 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#ɡˌɑwzˈofu#
-*#ɡˌɑβzˈofu# | 174 : w > β 
-*#ɡˌɑwzˈofu# | 177 : β > w / [-cons] __
-*#ɡˌawzˈofu# | 222 : [+lo,-round,-nas,+tense] > [+front,-back] 
-*#ɡəzˈofu# | 224 : [+lo,+stres,-prim] w > ə/ __ [+strid] [+prim]
-Late Proto-Albanian I stage form : *#ɡəzˈofu#
-*#ɡəzˈɔfu# | 259 : [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
-*#ɡəd͡ʒˈɔfu# | 313 : [+strid,+cor,+voi] > d͡ʒ 
-*#ɡəzˈɔfu# | 315 : [-ant,+distr,+delrel] > [+ant,-distr,+cont,-front,+cor,0delrel] 
-Late Proto-Albanian II stage form : *#ɡəzˈɔfu#
-*#ɡəzˈɔːfu# | 393 : [+prim] > [+long] / __ [+strid]
-*#ɡəzˈɔːfə# | 395 : [-stres,+round,-lo] > ə / __ #
-Late Proto-Albanian III stage form : *#ɡəzˈɔːfə#
-*#ɡəzˈɔːf# | 406 : [-back,-front,-stres] > ∅ / __ #
-Proto-Tosk-SGheg stage form : *#ɡəzˈɔːf#
-Proto-Tosk stage form : *#ɡəzˈɔːf#
-*#ɡəzˈɔf# | 577 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#ɡəzˈɔf#
-Final form : *#ɡəzˈɔf#
+*#kɐrsɔːtˈon# | 54 : [-prim,+back,-long] > ɐ / # ( ( @ )* [-voi] ) __ ( @ )* [+prim]
+Classical Proto-Albanian stage form : *#kɐrsɔːtˈon#
+*#kɐrsˈoːtˈon# | 93 : [-prim] > [+prim,+tense,+stres,+syl,-cons,+son,-lat,+cont,0delrel] / __ ( [-syl] )* [+prim] ( [-syl] )* #
+*#kɐrsˈoːtˈɒn# | 94 : [+round,+prim,-hi,+back] > [+lo,+tense,-front,-cons,-lat,+cont,0delrel] / __ [nnas,!nlat]
+*#kɐrsˈoːtɒn# | 102 : [+prim] > [-stres,-prim,+syl,+son] / [+prim] ( @ )* __
+Middle Proto-Albanian I stage form : *#kɐrsˈoːtɒn#
+*#kɐrsˈøːtɒn# | 112 : [+back,+long,+syl,-lo] > [+front,-back] 
+*#kɐrsˈøtɒn# | 129 : [+syl] > [-long,-splng] 
+*#kɐrsˈøtɔn# | 141 : [+round,+lo] > [-lo,-tense,-cons,-lat,+cont,0delrel] 
+*#kɐrsˈøton# | 148 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#kɐrsˈøton#
+Late Proto-Albanian I stage form : *#kɐrsˈøton#
+*#kɐrʃˈøton# | 246 : s > ʃ 
+*#kɑrʃˈøton# | 248 : [+lo,+syl,-long,-tense] > [+tense,-front,+back,-cons,-lat,+cont,0delrel] 
+*#kɑrʃˈœtɔn# | 253 : [+syl,+round,-hi,-lo] > [-tense,-cons,-lat,+cont,0delrel] 
+*#kɑɾʃˈœtɔn# | 265 : r > ɾ 
+*#kəɾʃˈœtɔn# | 292 : [-stres,+lo,-long] > ə / @ __ ( @ )* [+prim]
+*#kəɾʃˈœtɔ̃n# | 309 : [-cons] > [+nas] / __ [+nas,+cons]
+Late Proto-Albanian II stage form : *#kəɾʃˈœtɔ̃n#
+*#kəɾʃˈɛtɔ̃n# | 360 : [+front,-cons,-hi] > [-round,-lab] 
+*#kəɾʃˈɛtɔ̃# | 386 : {m;n;s} > {∅;∅;∅} / __ #
+*#kəɾʃˈɛtə# | 387 : [-stres,+round,-lo] > ə / __ #
+Late Proto-Albanian III stage form : *#kəɾʃˈɛtə#
+*#kəɾʃˈɛt# | 399 : [-back,-front,-stres] > ∅ / __ #
+*#kɾʃˈɛt# | 495 : [-hi,-stres] > ∅ / [-syl] __ [+son,+cons,-nas] ( [+cons] ( @ )* ) #
+*#kɾ̩ʃˈɛt# | 503 : [+cons,+son,-nas] > [+syl,-stres,-prim,+son] / [mson,mlab,mnas] __ ( [+cons] ( @ )* ) #
+Proto-Tosk-SGheg stage form : *#kɾ̩ʃˈɛt#
+*#ɡɾ̩ʃˈɛt# | 534 : k > ɡ / # __ ( [-prim,-back,-front] ) [+cor] [-voi,ʃcons,ʃcor,ʃfront] [-hi,-round,+prim]
+Proto-Tosk stage form : *#ɡɾ̩ʃˈɛt#
+Old North Tosk stage form : *#ɡɾ̩ʃˈɛt#
+*#ɡəɾ̩ʃˈɛt# | 569 : ∅ > ə / __ [+cons,+syl]
+*#ɡəɾʃˈɛt# | 570 : [+syl,-cons] [+cons,+syl,aprim,bstres] > [aprim,bstres] [-syl,0stres,0prim]
+Final form : *#ɡəɾʃˈɛt#

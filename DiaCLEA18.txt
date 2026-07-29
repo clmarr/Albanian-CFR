@@ -229,11 +229,16 @@ $ $ 1) we have a PPAlb *ɸ at this stage not *f as a small cost -- especially co
 $ $ 2) there are no sg or sgʰ clusters at this point... which I don't think there are. 
 $ TODO DIA NOTE -- for own uses, explore using instead a stage of sw>ɣʷ (requires outcome of ∅ [+cons,+cont]) or even w (just ∅ [+cont]), which does not require redundant loss of labiality.
 $if shpel is indeed a loan from a Doric aspellón (my proposal) then this must come before the loaning thereof.
-s [-son,-cor,-front] > ∅ [+cont]
+s [-cont,-cor,pant] > ∅ [+cont,-front,-pback,-phi,-lo]
 $ originally "> ∅ [+cons,+cons]" 
 
+$DIACLEA CORRECTION A2.CLXXIII  s > h in vocoid __ # and vocoid __ vocoid. Bleeds DV4.3G2. 
+s > h / [-cons] __ ([-cons] (@)*) #
+
 $DV4.3G2 (and Kortlandt 1987 p219 s2) -- s "dissimilates" before Vs; in Kortlandt 1987 p219 this goes straight to θ but Kortlandt'87 generally works in terms of ultimate reflexes without excluding intermediate forms; De Vaan'18 has it go to the intermediate *tɕ (which for reasons discussed above is cç in this cascade). Inasmuch as this has to happen before that following s is about to be mutated, we're working with what De Vaan asserts the ancestor of θ to be at this time -- namely, the aforementioned affricate. Phonetically of course this compromise is suspect (the segment asserted by De Vaan, unlike the one being used as a proxy here, actually is a sibilant and a strident...) but that the details here can be worked on later. 
-s > c͡ç / __ [+syl] s
+$DIACLEA CORRECTION C1B.XII -- DV4.3G2 only applies across tonic. 
+s > c͡ç / __ [+prim] s
+
 
 $handling of DV4.3M & N -- De Vaan 2018 has *s developing into *ʒ before a stressed vowel (N), and developing into *ʃ in a wide variety of places (M)
 	$ M1 (before unstressed vowel, 
@@ -250,8 +255,10 @@ $ -- that is Kortlandt, Frederik. 1987. PIE *s in Albanian. Studies in Slavic an
 $ perhaps check also Schumacher 2013 = Schumacher, Stefan. 2013. Historische Phonologie. In Stefan Schumacher and Joachim Matzinger (eds.). Die Verben des Altabanischen. Belegwörterbuch, Vorgeschichte und Etymologie. Unter Mitarbeit von Anna-Maria Adaktylos. Wiesbaden: Harassowitz, 205-276. 
 $ first part was originally (before 8/5/23): (k) s > ʃ 
 $ this had to be changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when this is resolved. 
-{k s;s} > {ʃ;ʃ}
+s > ʃ
 ʃ > ʒ / __ [+stres]
+
+
 
 $DV4.3K2 *tp- > ft- (perhaps after some schwa losses?) 
 $using φ  for reasons explained in formalization for DV4.3K1 

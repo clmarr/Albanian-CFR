@@ -40,9 +40,10 @@ n > m / [+lab,+cons] __
 s w > d / __ [+stres]
 w [+prim,-hi,+round] > ˈu/ # __
 w > ʊ̯ / [+lo,+syl] __ [-syl]
-s [-son,-cor,-front] > ∅ [+cont,0delrel]
-s > c͡ç / __ [+syl] s
-{k s;s} > {ʃ;ʃ} 
+s [-cont,-cor,pant] > ∅ [+cont,-front,!pback,!phi,-lo,0delrel]
+s > h / [-cons] __ ( [-cons] ( @ )* ) #
+s > c͡ç / __ [+prim] s
+s > ʃ 
 ʃ > ʒ / __ [+stres]
 t p > ɸ t 
 ∅ > j / # __ [-hi,-lo,+front,+syl]

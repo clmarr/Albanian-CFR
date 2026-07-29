@@ -39,8 +39,8 @@ $for now, (somewhat arbitrarily) coding laryngeals as specific sounds
 	$ since we can't handle h1 h2 h3 etc. -- or otherwise we'd have to define these in SymbolDefs
 $choose features closest to their coloring vowel . 
 $ h for h1 -- no coloring effect negative for all feats (except cont.)	(or use ʔ ?) 
-$ ħ for h2 -- -front +back -round -hi +lo --like a  
-$ χʷ for h3 -- -front +back +round -hi -lo -- like o 
+$ χ for h2  ; ħ for h4 -front +back -round -hi +lo --like a
+$ xʷ for h3 -- -front +back +round -hi -lo -- like o 
 $ h2 and h3 can be minimally captured as +back,+cont
 $ the three together can be captured for now as -cor,-son,+cont (unless we make h1 ʔ -- this is an argument not to) -- until any *f is developed. 
 $ (x for Hamp's h4 if we need it? ) (or use h and make h1 ʔ ?) 	(or could use ? or h4) 
@@ -49,30 +49,30 @@ $ for the palatovelars : c ɟ ɟʰ
 $ *a as it emerges is [ɑ], as this is ħ is closest to.
 
 $DV1738~2.3C1 part 1, *e > *a ( really ɑ ) after *h2. Nothing listed for *h3 here. 
-$ so most faithful formulation would be : [-hi,-round] > [+lo] / ħ __
+$ so most faithful formulation would be : [-hi,-round] > [+lo] / ħ/χ __
 $ but inasmuch as laryngeal vowel coloring is a widely accepted broad phenomenon of laryngeal-coloring within PIE, it is formulated explicitly in the way it is thought to work across branches; likewise it is expanded to include coloring by posterior laryngeals as well 
 $ ultimately this is part of the implementation of the following: 
 $   in the progressive coloring aspect: DV2.3C2, 2.3E2, 2.3F1, 2.3J2, 2.3K2
 $   in the regressive coloring aspect: DV2.3E2, 2.3F1, 2.3G2, 2.3H1, 2.3J2, 2.3K2
-[-hi,-lo,-round] > [βlo,ɣround,ðback,ɛfront] / [-cor,-son,+cont,βlo,ɣround,ðback,ɛfront] __
-[-hi,-lo,-round] > [βlo,ɣround,ðback,ɛfront] / __ [-cor,-son,+cont,βlo,ɣround,ðback,ɛfront]
+[+syl,-hi,+front] > [-βlo,βround,βlab,+back,-front] / [-cor,-son,+cont,βhi,βround] __
+[+syl,-hi,+front] > [-βlo,βround,βlab,+back,-front] / __ [-cor,-son,+cont,βhi,βround]
 
 $DV1738~2.3C3 -- "*a < RHV" -- not sure I interpreted this right, he gives pare "first" as example; given the etymology in pr̩-h2-e/o I think he rather is intending for the R to pass to aR (...?), rather than it all to be absorbed into an *a which would be the literal interpretation of "RHV > a" by the system. 
 $ this needs to be before 2.3A2 in order to get this effect for parë "first", so that is implemented. (also likely necessary to come before  the H-loss aspect of 2.3B1, 2.3C1, 2.3C2, 2.3E2 and 2.3F1, but this aspect of each will probably instead be handled by 1746.K4) 
 $ Formulated so as to preserve maximal stress
 $ 8/9/23 -- De Vaan confirms his 
 ∅ > ɑ / __ [+cons,+syl] [-cor,-son,+cont] [+syl] 
-ɑ [+cons,βstres,ɣprim] > [βstres,ɣprim] [-syl] 
+ɑ [+cons,+syl,βstres,ɣprim] > [βstres,ɣprim] [-syl] 
 
 $Per general understanding of laryngeal behavior, laryngeals efface and lengthen prior vowels (after coloring them) when before consonants or the word boundary. This is touched upon in various DV'18 rules as an aspect, with each rule effectively handling the effacement of hte laryngeal and the ensuing prior vowel lengthening separately in parallel: 2.3E, 2.3G1, 2.3G2, 2.3H1, 2.3I1 -- but inspection of all the examples given show that while this is not explicated, all these VH cases are VHC or VH#, which is in line with the broad understanding of how this phenomenon occured across most core IE branches. 
 $rules that are essentially accomplished here: the *iH > *i: aspect of 2.3E, 2.3F2 (fed by laryngeal vowel coloring), 2.3G1's eh1 > ē aspecet, 2.3H1's oH and eh3 aspects (the latter fed by laryngeal vowel coloring)
-[+syl] [-cor,-son,+cont] > [+long] ∅ / __ {[+cons];#}
+[+syl,-cons] [-cor,-son,+cont] > [+long] ∅ / __ {[+cons];#}
 
 $DV1738~2.3C4 -- *h2 and *h3 become *a before syllabic resonants. Reformulated here so that stress is preserved and the resonants lose resonance in a single rule. 
 $this may actually be multiple phenomena, with a later *o created by this rule or other phenommena involving h3 later merging to *a, but it's handled as one phenomenon by De Vaan 2018 it seems. It is actually simpler to let h3 pass to *o here and then become *a via 2.3C1 here though, so that's what this cascade does. 
 $maximally faithful form without doing this would be: [+back,+cont] [+syl,+cons,βstres,ɣprim] > [+lo,-hi,-round,+tense,+voi,-strid,βstres,ɣprim] [-syl]
 $based on the case of arë "field" given as an example, it seems this is not intended to be bled by DV2.3A1, so it is placed before it. 
-[+back,+cont,+cons] [+syl,+cons,βstres,ɣprim] > [βstres,ɣprim,+tense,+voi,-strid] [-syl]
+[+back,+cont,+cons,ʊhi,ʊround] [+syl,+cons,βstres,ɣprim] > [βstres,ɣprim,+tense,+voi,-strid,-hi,-ʊlo] [-syl]
 
 $PREVOCALIC LARYNGEAL EFFACEMENT: per general understanding of laryngeal behavior in late PIE as it differentiated (but which is generally understood to be all IE except Anatolian?), prevocalic laryngeals are now effaced.
 $This is implicit in (and thus implements aspects of) the rules DV2.3B1 (actually in this case it's the whole rule), DV2.3C1, DV2.3C2 (the other aspect being the abovehandled laryngeal vowel-coloring), 2.3E2, 2.3F1, 2.3J2 (the rest handled by laryngeal vowel-coloring), 2.3K2 (as above) 
@@ -80,9 +80,9 @@ $This is implicit in (and thus implements aspects of) the rules DV2.3B1 (actuall
 
 =Proto-Balkan-Indo-European
 
-$DV1738~2.3A1 
+$DV1738~2.3A1 r̩ > ri 
 $seems intended to counterbleed DV1738~2.3C4 as formulated above (?)
-r̩ > r i 
+{r̩;ˌr̩;ˈr̩} > {r i;r ˌi;r ˈi}
 
 $DV1738~2.3D2 -- wL̥T > uLT
 $the rule formalism is expressed somewhat verbosely here to preserve any stress. 

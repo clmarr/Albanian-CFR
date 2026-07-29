@@ -105,7 +105,7 @@ $DV1738~2.3C1 : PIE *(H)o > *a	(really ɑ)
 $ unspecified for any differene in the stress of the *o, but clearly it's the short one. 
 $ the H deletion aspect is already handled above (cf. PREVOCALIC LARYNGEAL EFFACEMENT) 
 $ this effectively also implements DV2.3J1 and DV2.3K1, and effectively the merged behavior of h2 and h3 in DV2.3J2 and DV2.3K2 (these now go from *oi and *ou to *ai and *au)
-[+back,-hi,αstres,βprim] > [+front,-round,αstres,βprim]
+[+back,-hi,+syl] > [+front,-round]
 
 $Bandaid: loss of syllabicity for remaining syllabic resonants after adjacent to syllabic elements
 $This also forms the diphthongs from V {i,u} sequences that might have arisen, thus implementing the final parts of 2.3J2 and 2.3K2 and medial parts of 2.3E2 and 2.3F1
@@ -259,6 +259,8 @@ $DV2.2.1C2: PPAlb *e (but not Latin short E?) undergoes a-mutation, cf. De Vaan 
 $ per De Vaan 2004(:78-83), this is actually going to ja, not simply ɑ, so that is reflected in this rule (this also supports the apparent limitation of this development to the pre-Latin stratum) 
 {j ˈe;ˈe} > {j ˈɑ;j ˈɑ} / __ ([-syl])* [+lo,+syl]
 
+$Bandaid: velarization of uvulars. This is in APA in DiaCLEA as A1.XXXXV 
+[-cont,+back] > [+hi,-lo]
 
 $ ----------- Archaic Proto-Albanian = Just at entry point of Greek etyma --------------
 =Archaic Proto-Albanian

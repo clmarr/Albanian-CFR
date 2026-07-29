@@ -39,6 +39,15 @@ $rules that are essentially accomplished here: the *iH > *i: aspect of 2.3E, 2.3
 [+syl,-cons] [-cor,-son,+cont] > [+long] ∅ / __ ([+cons] (@)*) #
 
 
+
+=Proto-Balkan-Indo-European
+
+$DIACLEA CORRECTION A2.CLXXI.Ra RH > ra before syllabic R goes to ri, ru etc., syllabic R + laryngeal goes to ra before coronal or palatal obstruents.  Thus, bleeds, and counterbled by, DV1738~2.3A1. Evidence: rrënjë, rrëzë; bredh, breshtë, dredhë, dredhëz; shtrat; krah, grerë; rrush (indirectly); krat; grah; rrah; plas
+[+cor,+syl,-nas,βstres,ɣprim] [+cont,-son,-cor] > [-syl] [βstres,ɣprim,+back,+lo,-round,-lab,-front,-hi,-strid,+son,+tense,+voi] / __ [-son,-lab]
+
+$DIACLEA CORRECTION A2.CLXXI.run rH > ru before n (grurë, grynjë, rrunjë). Not with h3 (angurrë). Bleeds .uR, but not for mlh2nieh2 > myjë, so only for rH. 
+{r̩ x;ˌr̩ x;ˈr̩ x;r̩ χ;ˌr̩ χ;ˈr̩ χ} > {r u;r ˌu;r ˈu;r u;r ˌu;r ˈu} / __ n
+
 $DV1738~2.3C3 -- "*a < RHV" -- not sure I interpreted this right, he gives pare "first" as example; given the etymology in pr̩-h2-e/o I think he rather is intending for the R to pass to aR (...?), rather than it all to be absorbed into an *a which would be the literal interpretation of "RHV > a" by the system. 
 $ this needs to be before 2.3A2 in order to get this effect for parë "first", so that is implemented. (also likely necessary to come before  the H-loss aspect of 2.3B1, 2.3C1, 2.3C2, 2.3E2 and 2.3F1, but this aspect of each will probably instead be handled by 1746.K4) 
 $ Formulated so as to preserve maximal stress
@@ -56,14 +65,15 @@ $PREVOCALIC LARYNGEAL EFFACEMENT: per general understanding of laryngeal behavio
 $This is implicit in (and thus implements aspects of) the rules DV2.3B1 (actually in this case it's the whole rule), DV2.3C1, DV2.3C2 (the other aspect being the abovehandled laryngeal vowel-coloring), 2.3E2, 2.3F1, 2.3J2 (the rest handled by laryngeal vowel-coloring), 2.3K2 (as above) 
 [-cor,-son,+cont] > ∅ / __ [+syl]
 
-=Proto-Balkan-Indo-European
-
-$DIACLEA CORRECTION A2.CLXXI before syllabic R goes to ri, ru etc., syllabic R + laryngeal goes to ra before coronal or palatal obstruents.  Thus, bleeds, and counterbled by, DV1738~2.3A1. 
-${r̩;ˌr̩;ˈr̩} > {r ɑ;r ˌɑ;r ˈɑ} / __ [-son,-back,-lab]
-
 $DV1738~2.3A1 r̩ > ri 
 $seems intended to counterbleed DV1738~2.3C4 as formulated above (?)
-{r̩;ˌr̩;ˈr̩} > {r i;r ˌi;r ˈi}
+${r̩;ˌr̩;ˈr̩} > {r i;r ˌi;r ˈi}
+$DIACLEA CORRECTION.Ri R̩ > ri after stops, if before coronal or palatal obstruent or nasal, with mismatched voicing. Bleeds .uR 
+{r̩;ˌr̩;ˈr̩;l̩;ˌl̩;ˈl̩} > {r i;r ˌi;r ˈi;l i;l ˌi;l ˈi} / [-cont,avoi] __ [mnas,mson,+cons,-back,-avoi]
+
+$DIACLEA CORRECTION A2.CLXXI.uR R > uR after labials, if not bled by .Ra.  31 cases, bleeding by .Ra in at least 7. 8 cases where this bleeds DV1738~2.3C3 -- RHV > aRHV. 
+{r̩;ˌr̩;ˈr̩;l̩;ˌl̩;ˈl̩} > {u r;ˌu r;ˈu r;u l;ˌu l;ˈu l} / [-syl,+lab] __
+	
 
 $DV1738~2.3D2 -- wL̥T > uLT
 $the rule formalism is expressed somewhat verbosely here to preserve any stress. 
@@ -83,10 +93,10 @@ $currently sequenced and formulated as if it counterbleeds DV2.3C4 as formulated
 $DV1738~2.3C9 calls for insertion of PPAlb a (really ɑ) in between two consonants, but if interpreted to be deterministic this would cause massive errors. The given example is madh "big" < *m̥ĝ, but De Vaan 2018 hedges here, noting that Schumacher 2013(: 238) instead explains this item via analogy. Thus this is not implemented for now. 
 
 $DV1738~2.3C1 : PIE *(H)o > *a	(really ɑ) 
-$ unspecified for any differene in the stress of the *o, but clearly it's the short one. 
+$ unspecified for any difference in the stress of the *o, but clearly it's the short one. 
 $ the H deletion aspect is already handled above (cf. PREVOCALIC LARYNGEAL EFFACEMENT) 
 $ this effectively also implements DV2.3J1 and DV2.3K1, and effectively the merged behavior of h2 and h3 in DV2.3J2 and DV2.3K2 (these now go from *oi and *ou to *ai and *au)
-[+back,-hi,αstres,βprim] > [+front,-round,αstres,βprim]
+[+back,-hi,+syl] > [+front,-round]
 
 $Bandaid: loss of syllabicity for remaining syllabic resonants after adjacent to syllabic elements
 $This also forms the diphthongs from V {i,u} sequences that might have arisen, thus implementing the final parts of 2.3J2 and 2.3K2 and medial parts of 2.3E2 and 2.3F1
@@ -353,6 +363,10 @@ r > r r / # ((@)* [+syl]) [+lab,-syl] [+stres] __ [+syl]
 
 $DIACLEA CORRECTION A2.CLX -- mn > mb in APA. Shkëmb, shtëmbë
 n > b / m __
+
+$DIACLEA CORRECTION A1.XXXXV uvulars to velars in late APA. 
+[-cont,+back] > [+hi,-lo]
+
 
 $--------------------Classical Proto-Albanian----------------------
 =Classical Proto-Albanian

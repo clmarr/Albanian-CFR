@@ -89,7 +89,7 @@ $the rule formalism is expressed somewhat verbosely here to preserve any stress.
 w [+cons,+syl,βstres,ɣprim] > [+syl,βstres,ɣprim] [-syl] / __ [-son]
 
 $DV1738~2.3.C7&C8 -- resonant nasals become a (really ɑ). Formulated more verbosely with feature matrices here so as to preserve existing stress. TODO check formulation for errors.
-[+nas,+syl] > [+back,+lo,-cons,-nas,-ant,-lab,-cor,+lo]
+[+nas,+syl] > [+back,+lo,-cons,-nas,-ant,-lab,-cor,+tense]
 
 $DV1738~2.3C5 -- any H becomes *a (ɑ) in C__C (C5). Incorporate part of C6, that which acts on *non-*syllabic resonants
 [-cor,-son,+cont] > ɑ / [+cons,-syl] __ [+cons,-syl] 

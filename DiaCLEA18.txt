@@ -94,8 +94,22 @@ $DIACLEA CORRECTION A2.CLXXI.uR R > uR after labials, if not bled by .Ra.  31 ca
 	
 
 $DV1738~2.3.C7&C8 -- resonant nasals become a (really ɑ). Formulated more verbosely with feature matrices here so as to preserve existing stress. TODO check formulation for errors.
-[+nas,+syl] > [+back,+lo,-cons,-nas,-ant,-lab,-cor,+lo]
+[+nas,+syl] > [+back,+lo,-cons,-nas,-ant,-lab,-cor,+tense]
 
+$Bandaid: loss of syllabicity for remaining syllabic resonants after adjacent to syllabic elements
+$This also forms the diphthongs from V {i,u} sequences that might have arisen, thus implementing the final parts of 2.3J2 and 2.3K2 and medial parts of 2.3E2 and 2.3F1
+$ formation prior to 8/5/2023 was: {[+cons];[+hi]} > {[-syl];[-syl]} / [+syl] __
+$ however this had to be changed to sidestep then-current issue in DiaSim. TODO consider restoring when this is resolved. First part SUPPRESSED. Unnecessary 
+$[+cons] > [-syl] / [+syl] __
+[+hi] > [-syl] / [+syl] __
+[+hi] > [-syl] / __ [+syl] 
+
+$DIACLEA CORRECTION A2.CLXXII retraction off of final syllable o if followed by obstruent. Conditioned by CPIE hiatus gliding. Feeds final syll o > u. 
+[+syl] > [+prim] / __ ([-syl])* ˈo [-son] ([-syl])* #
+[+syl] > [-stres] / [+prim] (@)* __ 
+
+$DIACLEA CORRECTION A1.XXXXVI non-monosyllabic final syllable unstressed o > u , bleeding DV1738~2.3C1 
+o > u / [+syl] (@)* __ ([-syl])* #
 
 $DV1738~2.3C9 calls for insertion of PPAlb a (really ɑ) in between two consonants, but if interpreted to be deterministic this would cause massive errors. The given example is madh "big" < *m̥ĝ, but De Vaan 2018 hedges here, noting that Schumacher 2013(: 238) instead explains this item via analogy. Thus this is not implemented for now. 
 
@@ -104,13 +118,6 @@ $ unspecified for any difference in the stress of the *o, but clearly it's the s
 $ the H deletion aspect is already handled above (cf. PREVOCALIC LARYNGEAL EFFACEMENT) 
 $ this effectively also implements DV2.3J1 and DV2.3K1, and effectively the merged behavior of h2 and h3 in DV2.3J2 and DV2.3K2 (these now go from *oi and *ou to *ai and *au)
 [+round,-hi,+syl,-long] > [+lo,-round,-lab]
-
-$Bandaid: loss of syllabicity for remaining syllabic resonants after adjacent to syllabic elements
-$This also forms the diphthongs from V {i,u} sequences that might have arisen, thus implementing the final parts of 2.3J2 and 2.3K2 and medial parts of 2.3E2 and 2.3F1
-$ formation prior to 8/5/2023 was: {[+cons];[+hi]} > {[-syl];[-syl]} / [+syl] __
-$ however this had to be changed to sidestep then-current issue in DiaSim. TODO consider restoring when this is resolved. First part SUPPRESSED. Unnecessary 
-$[+cons] > [-syl] / [+syl] __
-[+hi] > [-syl] / [+syl] __
 
 $DV4.3I3 -- *Tt > *tʃ too. The single example pot-to is a dental stop; to resolve conflict between this rule and DV4.3Q3, I refer to the examples given by De Vaan 2018 in the latter, and these include -pt-, -ct-, and -kʷt- but on dentals. Given the past literature on the "thorn cluster", it makes sense to assume that this one targets a dental cluster, and effacement rule in DV4.3Q3 which would naturally compete with this, is place-independent and comes later -- in effect targeting non-dental stop
 $ conference with De Vaan - -yes this is dentals, yes it comes before 4.3Q3

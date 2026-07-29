@@ -71,13 +71,19 @@ ${r̩;ˌr̩;ˈr̩} > {r i;r ˌi;r ˈi}
 $DIACLEA CORRECTION.Ri R̩ > ri after stops, if before coronal or palatal obstruent or nasal, with mismatched voicing. Bleeds .uR 
 {r̩;ˌr̩;ˈr̩;l̩;ˌl̩;ˈl̩} > {r i;r ˌi;r ˈi;l i;l ˌi;l ˈi} / [-cont,avoi] __ [mnas,mson,+cons,-back,-avoi]
 
-$DIACLEA CORRECTION A2.CLXXI.uR R > uR after labials, if not bled by .Ra.  31 cases, bleeding by .Ra in at least 7. 8 cases where this bleeds DV1738~2.3C3 -- RHV > aRHV. 
-{r̩;ˌr̩;ˈr̩;l̩;ˌl̩;ˈl̩} > {u r;ˌu r;ˈu r;u l;ˌu l;ˈu l} / [-syl,+lab] __
-	
+
+$DIACLEA CORRECTION D3.XV.VWNC desyllabification of N in VW __ C 
+[+nas] > [-syl] / [+syl] [-syl,-cons] __ [+cons]
 
 $DV1738~2.3D2 -- wL̥T > uLT
 $the rule formalism is expressed somewhat verbosely here to preserve any stress. 
-w [+cons,+syl,βstres,ɣprim] > [+syl,βstres,ɣprim] [-syl] / __ [-son]
+$FORMERLY : w [+cons,+syl,βstres,ɣprim] > [+syl,βstres,ɣprim] [-syl] / __ [-son]
+$DIACLEA CORRECTION D3.XV $DV1738~2.3D2 -- wL̥T > uLT consolidated with loss of w, also broadened to occur before any consonant. 
+w [+cons,+syl,βstres,ɣprim] > [+syl,βstres,ɣprim] [-syl] / __ [+cons]
+
+$DIACLEA CORRECTION A2.CLXXI.uR R > uR after labials, if not bled by .Ra.  31 cases (tho some are #w-, so covered by D3.XV), bleeding by .Ra in at least 7. 8 cases where this bleeds DV1738~2.3C3 -- RHV > aRHV. 
+{r̩;ˌr̩;ˈr̩;l̩;ˌl̩;ˈl̩} > {u r;ˌu r;ˈu r;u l;ˌu l;ˈu l} / [-syl,+lab] __
+	
 
 $DV1738~2.3.C7&C8 -- resonant nasals become a (really ɑ). Formulated more verbosely with feature matrices here so as to preserve existing stress. TODO check formulation for errors.
 [+nas,+syl] > [+back,+lo,-cons,-nas,-ant,-lab,-cor,+lo]
@@ -301,8 +307,9 @@ $DIACLEA CORRECTION A1.XXXVI.ɦ Greek spirit, currently coded as ɦ, deleted eve
 $DIACLEA CORRECTION A2.IX countertonic em to um rule. Does not feed A2.CXXXXVII.o, pretonic short round vowel reductions. Shkumbin, thunder < ḱemtrom, perhaps se̍mateia > gjymësë -- last one seems to justify full raising. Triggers lengthening, it seems. 
 [-prim,+stres] > [+round,+lab,-front,+back,-lo,+hi,+long] / __ m
 
-$DIACLEA CORRECTION A2.CXXXXVII.o pretonic short APA back vowels reduce to ə if after a voiceless element. Not long: gershet. Non-round back reductions to ɐ seen in aphaeresis at a point later than main MPA wave: anātja > rosë (not nosë nor arosë), harenton > rend (not rrend nor arend), llërë ~ llânë "forearm" (not lërë nor alërë -- needs to have fallen late enough to not counterbleed l-darkening in LPA II.)   
-[-prim,+back,-long] > ɐ / # ((@)* [-voi]) __ (@)* [+prim]
+$DIACLEA CORRECTION A2.CXXXXVII.o pretonic short APA back vowels reduce to ə if after a voiceless element. Not long: gershet. Non-round back reductions to ɐ seen in aphaeresis at a point later than main MPA wave: anātja > rosë (not nosë nor arosë), harenton > rend (not rrend nor arend), llërë ~ llânë "forearm" (not lërë nor alërë -- needs to have fallen late enough to not counterbleed l-darkening in LPA II.). But this only happens at anlaut to V-hi in R Vprim
+[-prim,+back,-long] > ɐ / [-voi] __ (@)* [+prim]
+[-prim,+back,-long,-hi] > ɐ / # __ [+son,+cons] [+prim]
 
 $DV4.1B2 -- m to b before l -- DV'18 lists bluan "to grind" < mleh1-, bletë "bee" < *m[e]lit? (question mark in the original) -- given the second example, there may have been some vowel effacement before this point? But DV'18 does not attribute this outcome for Latin loans into Proto-Albanian, and indeed they don't seem to show it exactly (e.g. simulatūra > shëmbëlltyrë etc.)
 $DIACLEA CORRECTION C3A.XIII D4.1B2 can see through an unstressed vowel 

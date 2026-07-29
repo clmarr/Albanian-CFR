@@ -253,6 +253,8 @@ A1.XXXXIII Deletion of non-low vowels after other vowels, which lengthen if coun
 
 A1.XXXXIV after yer deletion, deletion of labials before n in LPA III -- Gjanicë, gllanik. 
 
+A1.XXXXV uvulars to velars in late APA. 
+
 ## A2 Insertion of phenomena that are something new under the sun from the perspective of the baseline. 
 
 A2.I - lj and llj phenomena bleeding ʎ in Middle Proto-Albanian I
@@ -1852,8 +1854,11 @@ A2.CLXX -- tentative LPA II tapping rules
 = PRE-APA RULES = 
 
 A2.CLXXI oral syllabic resonant outcomes
-	.Ra before syllabic R goes to ri, ru etc., syllabic R + laryngeal goes to ra before coronal or palatal obstruents. 
+	.Ra RH > ra before coronal or palatal obstruents. Bleeds R > ri, ru etc.
+	.run rH > ru before n (grurë, grynjë, rrunjë). Not with h3 (angurrë). Bleeds .uR, but not for mlh2nieh2 > myjë, so only for rH. 
+	.Ri R̩ > ri after stops, if before coronal or palatal obstruent or nasal, with mismatched voicing. Bleeds uR 
 	.uR R > uR after labials, if not bled by .Ra.  31 cases, bleeding by .Ra in at least 7. 8 cases where this bleeds DV1738~2.3C3 -- RHV > aRHV. 
+
 
 # B Rule relocdations
 
@@ -2260,6 +2265,7 @@ C3B.XXIII syncope aspect of DV1734.4/1.III needs to happen after a V C __
 
 C3B.XXV CPA laxing doesn't happen to ə from APA reductions. 
 
+
 ## C4 -- changes in both input and output
 
  C4.I: reanalyzed -- output of DV1740F2, now moved into LPA II (per B1.VIII.r), is just l, whether it becomes lˠ to be hanlded elsewhere; APPLIES TO VOICED CORONALS THEN L. 
@@ -2395,6 +2401,9 @@ D3.XII -- ɑw > ɑː incorp'd to ɑj > eː.
 D3.XIII -- Middle Proto-Albanian l-split to l and lˠ no longer. Handled in Late Proto-Albanian I, in tandem with early Slavic. 
 
 D3.XIV -- DV3.1H2 -rn- > -rr- and DV1740I3 Lat internal -rr- > rː consolidated. aborted tho, not worth it. 
+
+== PRE-APA ==
+D3.XV $DV1738~2.3D2 -- wL̥T > uLT consolidated with loss of w, also broadened to occur before any consonant. 
 
 D4 -- other reinterpretations. 
 

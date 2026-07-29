@@ -1,37 +1,35 @@
-Derivation file for run '../Albanian-diachrony/Albanian-CFR/diaSecurePIErun'; etymon number :100:
-#xwidʰxˈeweχ# >>> *#hvizˈa# ( GOLD : #vˈɛ#) :
-x w i dʰ x ˈe w e χ 
-*#xwidʰxˈewɑχ# | 1 : [+syl,-hi,+front] > [!βlo,βround,βlab,+back,-front] / __ [-cor,-son,+cont,βhi,βround]
-*#xwidʰxˈewɑː# | 4 : [+syl,-cons] [-cor,-son,+cont] > [+long] ∅/ __ ( [+cons] ( @ )* ) #
-*#xwidʰˈewɑː# | 6 : [-cor,-son,+cont] > ∅ / __ [+syl]
-Proto-Balkan-Indo-European stage form : *#xwidʰˈewɑː#
-*#xwidʰˈewaːˤ# | 12 : [+back,-hi,αstres,βprim] > [+front,-round,αstres,βprim] 
-*#xwidʰˈewɑː# | 27 : [+long,+front,-hi] > [-front,+back,+lo] 
-*#xwidʰˈeɑː# | 33 : [-cons,-syl] > ∅ / [+syl] __ [+syl]
-*#xwidʰjˈɑɑː# | 44 : {j ˈe;ˈe} > {j ˈɑ;j ˈɑ} / __ ( [-syl] )* [+lo,+syl]
-Archaic Proto-Albanian stage form : *#xwidʰjˈɑɑː#
-*#xwiɟˈɑɑː# | 57 : [-cont,khi,kback,-lab,tvoi] j > ∅ [-son,-delrel,tvoi,-cont,+cons,0tense]
-*#xwid͡ʒˈɑɑː# | 58 : {c;ɟ} > {t͡ʃ;d͡ʒ} 
-*#xwid͡ʒˈɑɑ# | 63 : ɑː > ɑ 
-*#xwiːd͡ʒˈɑɑ# | 66 : [+hi,+front,+syl] > [+long] / __ [-syl]
-Classical Proto-Albanian stage form : *#xwiːd͡ʒˈɑɑ#
-*#xwid͡ʒˈɑɑ# | 100 : [+syl,+front,+hi] > [-long,-splng] 
-Middle Proto-Albanian I stage form : *#xwid͡ʒˈɑɑ#
-Middle Proto-Albanian II stage form : *#xwid͡ʒˈɑɑ#
-*#xβid͡ʒˈɑɑ# | 169 : w > β 
-*#xβɪd͡ʒˈɑɑ# | 171 : [+front,-prim] > ɪ / [+lab,+cons] __ ( [+cor,-son,+cont] ) [+cor,-son] ( [+syl] ( @ )* ) [+prim]
-*#xβɪd͡ʒˈaa# | 217 : [+lo,-round,-nas,+tense] > [+front,-back] 
-Late Proto-Albanian I stage form : *#xβɪd͡ʒˈaa#
-*#xβˌiːd͡ʒˈaa# | 277 : [-prim,-lo,+front,-round] > ˌiː / # ( [-syl] )* [+lab,-son] __ [+front,-syl] ( t ) [+syl,alo,afront] [-nas]
-*#xβˌiːzˈaa# | 306 : [-ant,+distr,+delrel] > [+ant,-distr,+cont,-front,+cor,0delrel] 
-Late Proto-Albanian II stage form : *#xβˌiːzˈaa#
-*#xvˌiːzˈaa# | 394 : [+lab,-son,+cont] > [+strid] 
-Late Proto-Albanian III stage form : *#xvˌiːzˈaa#
-*#xvˌiːzˈaː# | 414 : [+prim] [-prim] > [+long] ∅
-Proto-Tosk-SGheg stage form : *#xvˌiːzˈaː#
-*#hvˌiːzˈaː# | 530 : x > h 
-Proto-Tosk stage form : *#hvˌiːzˈaː#
-*#hviːzˈaː# | 549 : [-prim] > [-stres,-prim,+syl,+son] 
-*#hvizˈa# | 563 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#hvizˈa#
-Final form : *#hvizˈa#
+Derivation file for run '../Albanian-CFR/diaSecurePIErun'; etymon number :100:
+#χˌeɡʷniˈex# >>> *#ˈumɛ# ( GOLD : #ˈɛɲə#) :
+χ ˌe ɡʷ n i ˈe x 
+*#χˌɑɡʷniˈex# | 0 : [+syl,-hi,+front] > [!βlo,βround,βlab,+back,-front] / [-cor,-son,+cont,βhi,βround] __
+*#χˌɑɡʷniˈeː# | 2 : [+syl,-cons] [-cor,-son,+cont] > [+long] ∅/ __ ( [+cons] ( @ )* ) #
+*#ˌɑɡʷniˈeː# | 6 : [-cor,-son,+cont] > ∅ / __ [+syl]
+Proto-Balkan-Indo-European stage form : *#ˌɑɡʷniˈeː#
+*#ˌeˤɡʷniˈeː# | 12 : [+back,-hi,αstres,βprim] > [+front,-round,αstres,βprim] 
+*#ˌeˤɡʷniˈɑː# | 27 : [+long,+front,-hi] > [-front,+back,+lo] 
+*#ˌeˤɡʷmiˈɑː# | 30 : n > m / [+lab,+cons] __
+*#ˌeˤmiˈɑː# | 31 : [-cont] > ∅ / __ m
+Archaic Proto-Albanian stage form : *#ˌeˤmiˈɑː#
+*#ˌɑmiˈɑː# | 49 : [+lo,+syl] > [+back,-front] 
+*#ˌuːmiˈɑː# | 53 : [-prim,+stres] > [+round,+lab,-front,+back,-lo,+hi,+long] / __ m
+*#ˌuːmjˈɑː# | 56 : [+front,-prim] > j / __ [+syl]
+Classical Proto-Albanian stage form : *#ˌuːmjˈɑː#
+*#ˈuːmjˈɑː# | 93 : [-prim] > [+prim,+tense,+stres,+syl,-cons,+son,-lat,+cont,0delrel] / __ ( [-syl] )* [+prim] ( [-syl] )* #
+*#ˈuːmjɑː# | 102 : [+prim] > [-stres,-prim,+syl,+son] / [+prim] ( @ )* __
+*#ˈumjɑː# | 111 : [+round] > [-long,-splng] / __ [+lab,+cont] [-lo]
+Middle Proto-Albanian I stage form : *#ˈumjɑː#
+*#ˈumjɑ# | 129 : [+syl] > [-long,-splng] 
+Middle Proto-Albanian II stage form : *#ˈumjɑ#
+*#ˈumɪ̯ɑ# | 185 : j > ɪ̯ / __ ɑ
+*#ˈumjɑ# | 197 : ɪ̯ > j 
+*#ˈumja# | 217 : [+lo,-round,-nas,+tense] > [+front,-back] 
+Late Proto-Albanian I stage form : *#ˈumja#
+*#ˈũmja# | 309 : [-cons] > [+nas] / __ [+nas,+cons]
+Late Proto-Albanian II stage form : *#ˈũmja#
+Late Proto-Albanian III stage form : *#ˈũmja#
+*#ˈũmɛ# | 408 : j [-stres,-back] > ɛ/ [+syl] ( [-syl] )* [-lo] __ #
+Proto-Tosk-SGheg stage form : *#ˈũmɛ#
+Proto-Tosk stage form : *#ˈũmɛ#
+*#ˈumɛ# | 543 : [-cons,+nas] > [-nas] 
+Old North Tosk stage form : *#ˈumɛ#
+Final form : *#ˈumɛ#

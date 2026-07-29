@@ -13,7 +13,7 @@ w [+cons,+syl,βstres,ɣprim] > [+syl,βstres,ɣprim,+son] [-syl,0stres,0prim]/ 
 [+nas,+syl] > [+back,+lo,-cons,-nas,-ant,-lab,-cor,+lo,-lat,+cont,0distr,0delrel] 
 [-cor,-son,+cont] > ɑ / [+cons,-syl] __ [-son]
 [+cons,+syl,βstres,ɣprim] [-cor,-son,+cont] > [-syl,0stres,0prim] [+syl,+lo,-hi,-round,+back,βstres,ɣprim,+son]/ [-son] __ [-son]
-[+back,-hi,+syl] > [+front,-round] 
+[+round,-hi,+syl] > [+front,-round,-lab,-back] 
 [+cons] > [-syl,0stres,0prim] / [+syl] __
 [+hi] > [-syl,0stres,0prim] / [+syl] __
 [+ant,-cont] t > t͡ʃ
@@ -30,7 +30,7 @@ s > ∅ / __ dʰ
 dʰ ɟʰ > ɟʰ ɟ͡ʝʰ 
 [+long,+front,-hi] > [-front,+back,+lo] 
 [+front,-hi,+syl] j > [+hi,+long] ∅
-[-cont,+round] > [+delrel,+strid,+distr,-hi,-back,+front,-round,-cont,+cor,+cons,0tense] / __ [-cons,+front]
+[-cont,+round] > [+delrel,+strid,+distr,-hi,-back,+front,-round,-cont,+cor,+cons,0tense] / __ [-cons,+front,-lo]
 n > m / [+lab,+cons] __
 [-cont] > ∅ / __ m
 [-cont] > ∅ / __ t

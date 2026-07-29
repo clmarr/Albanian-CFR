@@ -105,7 +105,7 @@ $DV1738~2.3C1 : PIE *(H)o > *a	(really ɑ)
 $ unspecified for any differene in the stress of the *o, but clearly it's the short one. 
 $ the H deletion aspect is already handled above (cf. PREVOCALIC LARYNGEAL EFFACEMENT) 
 $ this effectively also implements DV2.3J1 and DV2.3K1, and effectively the merged behavior of h2 and h3 in DV2.3J2 and DV2.3K2 (these now go from *oi and *ou to *ai and *au)
-[+back,-hi,+syl] > [+front,-round]
+[+round,-hi,+syl] > [+front,-round,-lab,-back]
 
 $Bandaid: loss of syllabicity for remaining syllabic resonants after adjacent to syllabic elements
 $This also forms the diphthongs from V {i,u} sequences that might have arisen, thus implementing the final parts of 2.3J2 and 2.3K2 and medial parts of 2.3E2 and 2.3F1
@@ -184,7 +184,7 @@ $DV4.3I2 & J2 -- fronting of pre-palatal-vowel labiovelars into what are (ultima
 $TODO -- point to consider for view that PPAlb reflexes of PIE plain velars were further back than the labiovelars?... and distinction between ɟʰ and ɟ  ?
 $TODO note -- this has to be before any changes that make the reflexes of PIE *j,i,ī,e,ē something other than front and non-low. 
 $TODO considerations here on roundness annotation/specification for postalveolar fricatives? 
-[-cont,+round] > [+delrel,+strid,+distr,-hi,-back,+front,-round] / __ [-cons,+front]
+[-cont,+round] > [+delrel,+strid,+distr,-hi,-back,+front,-round] / __ [-cons,+front,-lo]
 
 $DV3.3A4 = DV1741A4: n > m / P __ 
 n > m / [+lab,+cons] __

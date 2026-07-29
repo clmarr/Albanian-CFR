@@ -1,7 +1,7 @@
 [+syl,-hi,+front] > [!βlo,βround,βlab,+back,-front] / [-cor,-son,+cont,βhi,βround] __
 [+syl,-hi,+front] > [!βlo,βround,βlab,+back,-front] / __ [-cor,-son,+cont,βhi,βround]
 [+syl,-cons] [-cor,-son,+cont] > [+long] ∅/ __ ( [+cons] ( @ )* ) #
-[-cor,-son,+cont] > ɑ / [+cons,-syl] __ [-son]
+[-cor,-son,+cont] > ɑ / [+cons,-syl] __ [+cons,-syl]
 [+cor,+syl,-nas,βstres,ɣprim] [+cont,-son,-cor] > [-syl,0stres,0prim] [βstres,ɣprim,+back,+lo,-round,-lab,-front,-hi,-strid,+son,+tense,+voi,-cons,-lat,+cont,0delrel]/ __ [-son,-lab]
 {r̩ x;ˌr̩ x;ˈr̩ x;r̩ χ;ˌr̩ χ;ˈr̩ χ} > {r u;r ˌu;r ˈu;r u;r ˌu;r ˈu} / __ n
 ∅ > ɑ / __ [+cons,+syl] [-cor,-son,+cont] [+syl]
@@ -13,8 +13,7 @@
 w [+cons,+syl,βstres,ɣprim] > [+syl,βstres,ɣprim,+son] [-syl,0stres,0prim]/ __ [+cons]
 {r̩;ˌr̩;ˈr̩;l̩;ˌl̩;ˈl̩} > {u r;ˌu r;ˈu r;u l;ˌu l;ˈu l} / [-syl,+lab] __
 [+nas,+syl] > [+back,+lo,-cons,-nas,-ant,-lab,-cor,+lo,-lat,+cont,0distr,0delrel] 
-[+round,-hi,+syl] > [+front,-round,-lab,-back] 
-[+cons] > [-syl,0stres,0prim] / [+syl] __
+[+round,-hi,+syl,-long] > [+front,-round,-lab,-back] 
 [+hi] > [-syl,0stres,0prim] / [+syl] __
 [+ant,-cont] t > t͡ʃ
 [+syl,-cons] s > [+long] ∅/ __ [+cor,+son]

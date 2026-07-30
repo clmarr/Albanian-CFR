@@ -110,10 +110,15 @@ $[+cons] > [-syl] / [+syl] __
 [+hi] > [-syl] / [+syl] __
 [+hi] > [-syl] / __ [+syl] 
 
+$DV4.3G2 (and Kortlandt 1987 p219 s2) -- s "dissimilates" before Vs; in Kortlandt 1987 p219 this goes straight to θ but Kortlandt'87 generally works in terms of ultimate reflexes without excluding intermediate forms; De Vaan'18 has it go to the intermediate *tɕ (which for reasons discussed above is cç in this cascade). Inasmuch as this has to happen before that following s is about to be mutated, we're working with what De Vaan asserts the ancestor of θ to be at this time -- namely, the aforementioned affricate. Phonetically of course this compromise is suspect (the segment asserted by De Vaan, unlike the one being used as a proxy here, actually is a sibilant and a strident...) but that the details here can be worked on later. 
+$DIACLEA CORRECTION C1B.XII -- DV4.3G2 only applies across tonic.
+$DIACLEA CORRECTION B2.XXIV -- DV4.3G2 moved to before TsC > ssC, which bleeds it. {Along with many other pre-APA relocdations I haven't explicated, see summer '26 logs.}. Also moved to before DV4.3Q5 which also counterbleeds it. Also moved to before stress retraction off of o, which counterfeeds it for gjysh.
+$DIACLEA CORRECTION C3B.XXVII -- Kortland's s > θ dissimilation rule restricted to cases of initial s separated from the next only by back continuants including a stressed vowel. -- sˈɑwsnjoː > thaj , sˈuːs  >thi 
+s > c͡ç / __ ( [+back,+cont] )* [+prim,+back] ( [+back,+cont] )* s
+
 $DIACLEA CORRECTION A2.CLXXII retraction off of final syllable o if followed by obstruent. Conditioned by CPIE hiatus gliding. Feeds final syll o > u. 
 [+syl] > [+prim] / __ ([-syl])* ˈo [-son] ([-syl])* #
 [+syl] > [-stres] / [+prim] (@)* __ 
-
 
 $DIACLEA CORRECTION A1.XXXXVII vocalization of remaining laryngeals. 
 [+cont,-son,-cor] > ɑ
@@ -137,37 +142,40 @@ $DV2.3G3.I -as- and -es- ultimately to -ā- (really ɑː) before l, n, or r.
 $This can be handled as s-effacement with compensatory vowel lengthening here, as there is a later ē > ā shift (DV2.3G3.II) 
 $merged in: 2.3I2 ~ PIE *-us- > ū / __ {l,r} 
 $going to boldly assume this happened to all vowels since there are no counterexamples for -is- and -os- 
-$TODO modify this if it doesn't work so as not to misrepresent. 
-[+syl,-cons] s > [+long] ∅ / __ [+cor,+son]
+$DIACLEA CORRECTION C2.VII lengthening via DV2.3G3.I limited to if the s was before a sonornat consonant. Unrounding of ɒ̄ before n comes later. 
+$DIACLEA CORRECTION D3.XVII -- DV3.3A3 suppressed as it is handled by A1.IL; DV4.3Q5 merged into DV2.3G3.I/C2.VII, with no lengthening for consonants. 
+[+syl,-cons] > [+long] / __ s [+cor,+son]
+s > ∅ / __ [+cons,+son]
 
-$DV4.3Q5 -- s effaced before l,m,n,r -- so, sonorant consonants. 
+$DV4.3Q5 -- s effaced before l,m,n,r -- so, sonorant consonants. Not if syllabic -- e.g. shtërpij.
 $this also handles DV3.3A3 = DV1741A3 
 $but this must come after DV2.3G3 and DV2.3I3 so as not to bleed their vowel-lengthening aspects. (if this is all more broadly conceived as vowel lengthening this could be of interest as it is also attested for Doric, Ionic and Attic)
 $grouping this also with effective loss before "medial" d and dʰ implicated in Kortlandt 1987 -- 
 $per Kortlandt 1987 p220 s5iii -- medial PIE *-sd(h)- (he seems to mean intervocalic for "medial") yielded the same reflex of *-d(h)- in -dh- (=/ð/) -- but the *s needs to be gone to feed this! 
-s > ∅ / __ {[+son,+cons];d;dʰ}
+$DIACLEA CORRECTION D3.XVII -- DV3.3A3 suppressed as it is handled by A1.IL; DV4.3Q5 merged into DV2.3G3.I/C2.VII, with no lengthening for consonants. 
+$s > ∅ / __ {[+son,+cons,-syl];d;dʰ}
 
 $$ consonantal stuff from PIE to (PG) PPAlb follow -- De Vaan 4.3, pp1745-6
 $ treatment : palatovelars are handled as c, ɟ, ɟʰ respectively 
 
-$DV1745~4.3E1 & ~4.3F1 -- depalatalization of *k̂ and *ĝ before resonants (examples are the liquids l and r). He does not list this occurring for *ĝʰ it seems 
-[-cont,+hi,-sg] > [-front,+back] / __ [+cons,+son]
+$DV1745~4.3E1 & ~4.3F1 -- depalatalization of *k̂ and *ĝ before resonants (examples are the liquids l and r). He does not list this occurring for *ĝʰ it seems -- and it likely doesn't -- meg₁ʰrik₁i > mjerth. 
+[-cont,+hi,-sg] > [-front,+back,-hi,+lo] / __ [+cons,+son]
 
-$DV1745~4.3F2 -- depalatalization of *ĝ after n (case of ankth)
-ɟʰ > [-front,+back] / n __
+$DV1745~4.3F2 -- depalatalization of *ĝ after n (case of ankth, ngjerë, angull, ang, ëngër -- ndoh is likely from a later prefixation event.}
+ɟʰ > [-front,+back,-hi,+lo] / n __
 
-$DV1745~4.3D2: the dimer/dore/derr rule
-$ TODO consider making this go to dʰ instead? Or just reformulating this/explaining otherwise
-ɟʰ > d / # __
-
-$DV4.3J3 reflex of  ɟʰw- merges into the outcomes of labiovelars before front vowels, even when not before front vowels
+$DV4.3J3 reflex of  ɟʰw- merges into the outcomes of labiovelars before front vowels, even when not before front vowels. Bleeds 4.3D2. 
 $merge with DV4.3J1 -- this happening to dj and dʰj- 
 $and merge w. DV4.3I1 -- this happening to tj 
 $but note that DV4.3J1 and DV4.3I1, if they don't happen here, will be covered later when the same change impacts Latin loans -- TODO consider using the MINIMAL VERSION below instead (which implements only DV4.3J3) to test if this is a better way to do things... 
-$ ɟʰ [-cons,+round,-syl] > d͡ʒ $-- MINIMAL VERSION
-$ formation prior to 8/5/2023 was: {ɟʰ w; [+cor,-cont] j} > [+delrel,+strid,-ant,+distr,-hi,+front] ∅
-$ however this had to be changed to sidestep then-current issue in DiaSim. TODO consider restoring when this is resolved. 
-{ɟʰ w;t j;d j;dʰ j} > {d͡ʒ;t͡ʃ;d͡ʒ;d͡ʒ}
+$DIACLEA CORRECTION E1.XI -- decouple ɟʰ  w > z phenom from gʷ j stuff and tj dj dʰj stuff, the latter happening in CPA, the former may be dubious. Sounding output straight to dʒ for now, tentative. 
+$DIACLEA CORRECTION C1A.XXI DV4.3J3 ɟʰw rule expanded to general palatal + w> labiodorsal + j phenom. 
+[+front,-cont] w > [-front,+back,+lab,+round] j
+
+$DV1745~4.3D2: the dimer/dore/derr rule. OG: ɟʰ > d / # __
+$DIACLEA CORRECTION D4.VIII DV1745~4.3D2: the #ɟʰ > #d rule inverted, since we also seem to see ɟʰs > ds. Instead it is ɟʰ > ɟ medially before a vocoid, and otherwise to dʰ. 
+ɟʰ > ɟ / @ __ [-cons]
+ɟʰ > dʰ
 
 $DV4.3G1 & H1 -- unless in aforementioned bleeding conditions, the (non-aspirated) c and ɟ affricate to what De Vaan 2018 notates as *t͡ɕ and *d͡ʑ; *c͡ɕ and ɟ͡ʑ are more conventional from a phonetic perspective; this cascade uses *c͡ç and *ɟ͡ʝ as this assumes a change in one less feature (strid)
 $ De Vaan 2018 treats *c and *ɟ differently here from *ɟʰ, which is handled below. 
@@ -229,24 +237,40 @@ $w > β
 $w > β here SUPPRESSED -- DIACLEA CORRECTION D3.IX -- DV1743.B4 (Lw > Lb) now considered to be part of general MPA II betacism; betacism of Pre-Proto-Alb and Latin w-  {e.g. DV1744.CI} now treated as same single phenomenon as the general MPA II betacism, in MPA II -- see E1.IV
 
 
+$DIACLEA CORRECTION A2.CLXXIV cluster simplifications where by TsC > ssC. Bleeds s + stop > {af}frication phenomena and A1.IL: e.g. xeɟʰstˈm̩ > jashtë not something in -th-t- and likewise for sek₁st-m̩ > gjashtë, plus general outcome of consonant initial roots prefixed in h₁eg₁ʰs- in sh- . Happens before glides too : pitsieh₂ > pˈitsjā > pissjā > pishë.  If this is changed to a deletion rule it would have to be conditioned so that it only occurs post internally, not at anlaut, hence no bleeding in the cases of sk₁h₂ir- > hir , sk₁h₂ieh₂s > hije. Doesn't delete s -- dis-sqelm > çalë not dëhalë to dalë etc. Unfavorable to have it as a deletoin rule bc then it could actually feed s + stop coalescence. 
+[-cont] > s / __ s [-syl]
+
+$DIACLEA CORRECTION A1.XXXXVIII.cs -- before rest of A1.XXXXVIII, which would counterfeed it, intervocalic c/ɟ s > c/ɟ after unround consonants [djath, dredh, etc.], > ss after round consonants [push] 
+[+front,-cont] > s / [+round] __ s
+s  >∅ / [+syl] [+front,-cont] __ [+syl]
+
+$DIACLEA CORRECTION A1.XXXXVIII C-cor + s also results in fricatives x ɸ, e.g. Schumacher '13: 233 {in which the trajectory is actually s + C-cor > C-cor s [cf aks/ ask in English] , then both primary and secondary C-cor s > C-cor, aspirated > affricated > fricative. No specific need yet here for the intermediate steps except the metathesis. Must come after ɟʰ > d {h₁eɟʰs > ith not ih, , and after some cluster simplifications involving deletion of hte first element {h₁eɟʰst- > jasht-ə}. 
+$DIACLEA CORRECTION C3B.XXVI A1IL sT > Ts metathesis only applies at anlaut and after vocoids. Therefore, fed by laryngeal vocalization A1.XXXXVII. 
+s [-cont,-cor] ∅ > ∅ [-cont,-cor] s / # ((@)* [-cons]) __
+
+
+$DIACLEA CORRECTION A1.XXXXVIII.ds -- limited effect of T + s affricate formation upon ds and dhs, finally apparently, feeding A1.IL: h₁eɟʰs > edʰs > ith , maybe k₁Hnids > theri. Not medial - lh₁dsm̩ > lashë, pedsi to posh, pedsiteros  to pështjerë  ; xlowdhsmtm to lashtë . Not initial -- ds > ç.
+∅ [+cor,-cont] s > s [+cor] ∅ / @ __ #
+
+$DIACLEA CORRECTION A1.IL  -- as Schumacher {i think} remarked {p227?}, sd, sdʰ {dz >? } > dh , pisdos > pidh, mχsdos > madh "porridge";  . Not before n -- mχsdneoχ > maj "fatten". Not after C h₁eɟʰs-duk₂oh₂ > zhduk "disappear". Fed by A1.XXXXVII.ds so it does seem to operate word finally. Needs to be postvocalic though. 
+$DIACLEA CORRECTION C2.VI for A1.IL, > ts not dz if post tonic, and furthermore lengthening of the prior vowel if it is i. wisɟʰiˈeχ > wisdʰjˈā > vithe, h₁eɟʰs > ith , h₂wosdʰeh₂ > wˈasdʰā > vathë; gath; gjeth. But not pisd'o pidh or mxsd'o madh "porridge". 
+[+syl,alo] s [+cor,-cont,+voi] > [-along,-ahi] [+delrel] ∅
+
 $DV4.3K1 *sp > *f,-- cf also Kortlandt 1987 p220 s5i
 $merge with DV4.3L2 *sw (now *sβ per my sequencing here, since DV4.3L1 is placed beforehand) > *β -- cf. also Kortlandt 1987 p220 s3.
 $merge also with DV4.3O1 *sk > x-- cf also Kortlandt 1987 p220 s5iii 
 $ these can be unified in a single rule so I am doing so, with the cost of two assumptions
 $ $ 1) we have a PPAlb *ɸ at this stage not *f as a small cost -- especially considering that the labiodentalization of ɸ can be easily handled in tandem with the later moving of β to v (and this also better matches the general timing for the emergence of labiodentals in the area too, e.g. Greek) 
 $ $ 2) there are no sg or sgʰ clusters at this point... which I don't think there are. 
-$ TODO DIA NOTE -- for own uses, explore using instead a stage of sw>ɣʷ (requires outcome of ∅ [+cons,+cont]) or even w (just ∅ [+cont]), which does not require redundant loss of labiality.
+$NOTE -- for own uses, explore using instead a stage of sw>ɣʷ (requires outcome of ∅ [+cons,+cont]) or even w (just ∅ [+cont]), which does not require redundant loss of labiality.
+	$ working in s + front here too 
 $if shpel is indeed a loan from a Doric aspellón (my proposal) then this must come before the loaning thereof.
-s [-cont,-cor,pant] > ∅ [+cont,-front,-pback,-phi,-lo]
-$ originally "> ∅ [+cons,+cons]" 
+$FORMERLY: s [-cont,-cor,pant] > ∅ [+cont,-front,-pback,-phi,-lo]
+$DIACLEA CORRECTION A1.XXXXVIII -- this is now applying to C-cor s instead
+[-cont,-cor,pant] s > [+cont,-front,-pback,-phi,-lo] ∅
 
 $DIACLEA CORRECTION A2.CLXXIII  s > h in vocoid __ # and vocoid __ vocoid. Bleeds DV4.3G2. 
 s > h / [-cons] __ ([-cons] (@)*) #
-
-$DV4.3G2 (and Kortlandt 1987 p219 s2) -- s "dissimilates" before Vs; in Kortlandt 1987 p219 this goes straight to θ but Kortlandt'87 generally works in terms of ultimate reflexes without excluding intermediate forms; De Vaan'18 has it go to the intermediate *tɕ (which for reasons discussed above is cç in this cascade). Inasmuch as this has to happen before that following s is about to be mutated, we're working with what De Vaan asserts the ancestor of θ to be at this time -- namely, the aforementioned affricate. Phonetically of course this compromise is suspect (the segment asserted by De Vaan, unlike the one being used as a proxy here, actually is a sibilant and a strident...) but that the details here can be worked on later. 
-$DIACLEA CORRECTION C1B.XII -- DV4.3G2 only applies across tonic. 
-s > c͡ç / __ [+prim] s
-
 
 $handling of DV4.3M & N -- De Vaan 2018 has *s developing into *ʒ before a stressed vowel (N), and developing into *ʃ in a wide variety of places (M)
 	$ M1 (before unstressed vowel, 
@@ -266,8 +290,6 @@ $ this had to be changed to sidestep then-current input-side issues in DiaSim. T
 s > ʃ
 ʃ > ʒ / __ [+stres]
 
-
-
 $DV4.3K2 *tp- > ft- (perhaps after some schwa losses?) 
 $using φ  for reasons explained in formalization for DV4.3K1 
 $TODO ɸ -- need to incorporate ɸ > f into any β > v shift. Can remove this note only when that is done. 
@@ -286,8 +308,9 @@ $ -- actually post-tonic means anything after the primary stress (meeting @Aug 9
 $likewise DV1740C4 = DV3.2C4 : PPAlb -nd- > -nn- 
 $ not intended to affect Latin loans. nn > n: later. 
 $DIACLEA CORRECTION B2.XXI -- nt and nd > nn moved to before Archaic-Proto-Albanian -- don't seem to actually effect AGk loans.
-t > n / [+prim] (@)* n __
-d > n / n __
+$d > n / n __ $DIACLEA CORRECTION C1B.XIII -- nd > nn in pre-APA suppressed, and nt > nn limited to before final syllable low vowels though prior context conditioning removed. Former prior context : [+prim] (@)* n
+t > n / n __ [+lo] ([-syl])* #
+
 
 $DV1744.D & DV1744.E1  --*tɕ *dʝ > *θ *ð -- for De Vaan, these happen in one step, without intermediate stages in alveolar or dental affricates. 
 $ symbol defs and the IPA don't (most typically) use *tɕ *dʝ, these are expressed with c͡ç and ɟ͡ʝ for reasons discussed above in the formulation for DV4.3G1 & H1 

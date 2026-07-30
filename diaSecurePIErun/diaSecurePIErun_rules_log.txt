@@ -16,20 +16,20 @@ w [+cons,+syl,βstres,ɣprim] > [+syl,βstres,ɣprim,+son] [-syl,0stres,0prim]/ 
 [-cons,-syl] > ∅ / [+syl] __ [+syl]
 [+hi] > [-syl,0stres,0prim] / [+syl] __
 [+hi] > [-syl,0stres,0prim] / __ [+syl]
+s > c͡ç / __ ( [+back,+cont] )* [+prim,+back] ( [+back,+cont] )* s
 [+syl] > [+prim,+stres,+syl,+son] / __ ( [-syl] )* ˈo [-son] ( [-syl] )* #
 [+syl] > [-stres,-prim,+syl,+son] / [+prim] ( @ )* __
 [+cont,-son,-cor] > ɑ 
 o > u / [+syl] ( @ )* __ ( [-syl] )* #
 [+round,-hi,+syl,-long] > [+lo,-round,-lab] 
 [+ant,-cont] t > t͡ʃ
-[+syl,-cons] s > [+long] ∅/ __ [+cor,+son]
-s > ∅ / __ [+son,+cons]
-s > ∅ / __ d
-s > ∅ / __ dʰ
-[-cont,+hi,-sg] > [-front,+back] / __ [+cons,+son]
-ɟʰ > ɡʰ / n __
-ɟʰ > d / # __
-{ɟʰ w;t j;d j;dʰ j} > {d͡ʒ;t͡ʃ;d͡ʒ;d͡ʒ} 
+[+syl,-cons] > [+long] / __ s [+cor,+son]
+s > ∅ / __ [+cons,+son]
+[-cont,+hi,-sg] > [-front,+back,-hi,+lo] / __ [+cons,+son]
+ɟʰ > ɢʰˤ / n __
+[+front,-cont] w > [-front,+back,+lab,+round] j
+ɟʰ > ɟ / @ __ [-cons]
+ɟʰ > dʰ 
 [-cont,+front] > [+delrel,-sg,-cont,+cons,0tense] 
 [+long,+front,-hi] > [-front,+back,+lo] 
 [+front,-hi,+syl] j > [+hi,+long] ∅
@@ -41,16 +41,20 @@ n > m / [+lab,+cons] __
 s w > d / __ [+stres]
 w [+prim,-hi,+round] > ˈu/ # __
 w > ʊ̯ / [+lo,+syl] __ [-syl]
-s [-cont,-cor,pant] > ∅ [+cont,-front,!pback,!phi,-lo,0delrel]
+[-cont] > s / __ s [-syl]
+[+front,-cont] > s / [+round] __ s
+s > ∅ / [+syl] [+front,-cont] __ [+syl]
+s [-cont,-cor] ∅ > ∅ [-cont,-cor,+cons,0distr,0tense] s/ # ( ( @ )* [-cons] ) __
+∅ [+cor,-cont] s > s [+cor] ∅/ @ __ #
+[+syl,alo] s [+cor,-cont,+voi] > [!along,!ahi] [+delrel,-cont,+cons,0tense] ∅
+[-cont,-cor,pant] s > [+cont,-front,!pback,!phi,-lo,0delrel] ∅
 s > h / [-cons] __ ( [-cons] ( @ )* ) #
-s > c͡ç / __ [+prim] s
 s > ʃ 
 ʃ > ʒ / __ [+stres]
 t p > ɸ t 
 ∅ > j / # __ [-hi,-lo,+front,+syl]
 {j ˈe;ˈe} > {j ˈɑ;j ˈɑ} / __ ( [-syl] )* [+lo,+syl]
-t > n / [+prim] ( @ )* n __
-d > n / n __
+t > n / n __ [+lo] ( [-syl] )* #
 {c͡ç;ɟ͡ʝ} > {t͡s;d͡z} 
 [-son,-lab] > n / __ n
 [+lo,+syl] > [+back,-front] 

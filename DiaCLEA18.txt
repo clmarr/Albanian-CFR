@@ -302,6 +302,7 @@ $∅ > j / # __ [-hi,-lo,+front,+syl]
 
 $DV2.2.1C2: PPAlb *e (but not Latin short E?) undergoes a-mutation, cf. De Vaan 2004: 78-83. Placed here as it apparently doesn't happen to Latin. As no Greek words effected and it only causes problems, placed before APA as well. 
 $ per De Vaan 2004(:78-83), this is actually going to ja, not simply ɑ, so that is reflected in this rule (this also supports the apparent limitation of this development to the pre-Latin stratum) 
+$SUPPRESSED per D3.XVIII 
 {j ˈe;ˈe} > {j ˈɑ;j ˈɑ} / __ ([-syl])* [+lo,+syl]
 
 $DV1740.C5 = DV3.2C5 : PPAlb *-nt- > PAlb -n:- (ultimately) in apparently uncertain conditions: "-nt- (3pl., acc.sg.) in post-tonic syllable (?) or retention of the cluster (Janson 1986: 96,154)" -- implementing the post-tonic part here since it was listed, 
@@ -633,8 +634,8 @@ $ March 31 bandaid -- including o > ɒ ruleǃ
 
 $ DV4.2F4: Lat. i- merges with PPAlb *ʒ as PAlb *ɟ; PPAlb *ʒ as PAlb *ɟ as implementing DV4.2F1. 
 	$Seems some Christian items have this though: iohannem > Gjon. Perhaps entered with ʝ or ɟ. 
-$DIACLEA CORRECTION E1.IX -- j/ʒ > ɟ, De Vaan's DV4.2.F4, is broken into a ʝ stage and a ɟ stage, with j/ʒ > ʝ in late CPA or MPA, but ʝ > ɟ not until LPA II, since it patterns as ʝ in teh n-gemination rule (alas, this is very very tentative. 
-{# j;ʒ} > {# ʝ;ʝ}
+$DIACLEA CORRECTION E1.IX -- j/ʒ > ɟ, De Vaan's DV4.2.F4, is broken into a ʝ stage and a ɟ stage, with j/ʒ > ʝ in late CPA or MPA, but ʝ > ɟ not until LPA II, since it patterns as ʝ in teh n-gemination rule (alas, this is very very tentative. Here, though, no need for this. 
+{# j;ʒ} > {# ɟ;ɟ}
 
 $----- early aspects of vowel reduction and falls ----- 
 
@@ -744,6 +745,14 @@ $DIACLEA CORRECTION E1.VII -- moved to CPA -- Middle Proto-Albanian k > j DV1744
 
 $ DIACLEA CORRECTION E1.X decoupled nj and other Cn > n simplifications. Handling gn phenomena elsewhere, on the basis of cognatus > kunat, fuskina > fuzhnjë, etc. Furthermore in Romanian words in original -ŋn- reflect in mn or even m- (agnellus > miel) . kn and gn phenomena are now to be handled either in tandem with k/g(V-stres)t phenomena, or before APA. BLEEDS DV1740E3/C1A.XX for ln > l: and nn > n:. 
 [+nas,-lab] [+hi,+front,+cont,-syl] > ɲ
+
+$DV2.2.1C5: Latin short e > a in "q, sh" __ "rr, l". No explicit word on the dating of this except that it is between post-Latin PPAlb, and PAlb; the forms used (q, sh,... rr, l) suggest a later date but at first inspection it seems to precede the merger of ae to short e (caelum > qiell) which certainly must have been before k > q (=[c]). So it is placed right after "rr, l" emerged (with what would become dark l now being long l, and rr being long r)
+$Per its current placement after ietation, a j is imposed, and ˈɛ is used. 
+$no clear way to block this for PPAlb *e, so this will need to be fixed if errors arise (TODO) 
+$ DIACLEA CORRECTION C3B.XX.i-- DV2.2.1C5 e > a now only before long coronals, short l hits too many wrong items, no evidence of this before lˠ either. (prev:  __ { rː;[+lat] }) 
+$ DIACLEA CORRECTION C3B.XX.ii-- D4.VIII -- cer: > car: reinterpreted as cɛ{r,ɾ} > caR only before back element -- u or k relevant -- cark, carr, carkull. The original version causes too many false positives -- luqerre not luqarre etc. 
+$DIACLEA CORRECTION D3.XV a--mutation consolidated with DV2.2.1C5 e > a in q, sh __ r, l phenom. It is an e > ja rule, perhaps via æ (cf. Slav æzu > jaz). SHOULD HIT: qark qarkull qarr, shalë, sharrë; (via post-labial j deletion) kwetwōr[-es,-eh₂] > kʷˈetra ? ugh -- but also kelna > qalë; perhaps zjarr (but not zjarm), perhaps gjashtë and shatë (not shtatë), if initial perhpas jashtë, jashtëm, kʷerika > sarkë.  
+[+prim,-round,-tense] > j ˈɑ / # [+cons,sant,sstrid] __ [+cor,-nas] [-syl,nson,nvoi,ncont,rcor,!rback] [+back]
 
 $DV1740E3 -- Lat ll > PAlb l. As [l] is a resonant, this will be totally bled by DV1740F2 if not placed before it.
 $merge with DV1740E1: PPAlb ln > PAlb l; placement for the same counterbleeding reasons.  
@@ -860,6 +869,7 @@ $DIACLEA CORRECTION A2.CLVII -- Middle Proto-Albanian ɪ > i tensing before back
 
 $DIACLEA CORRECTION A2.CLVII -- Middle Proto-Albanian ɪ > i between a nasal-less cluster and a lateral followed by back vowel. Effectedː vilë, pillë, pil, tërfil, kashil, këshill, kojrilë. Not if nasal in cluster: mel, njgelë; not if followed by front vowel: filica > fejkë etc.  Fed by prespirant loss of n: consilium > këshill. Tentatively not happening to /e/ in which case it would be fed by merger of e < ē and ǐ -- vēlum > vel -- but the later may be an Angevin loan, and comes out wrong anyways as *vell. Clearly must happen to bleed ˈɛ / cor cont __ L {390}, and before ɑ becomes front {228}.
 $[+front,+hi] > [+tense] / # ((@)* [+syl]) ([-syl,-nas])* __ [+lat] [+back]
+
 
 $ It seems there is a difference between native and Latin *i outcomes --  DV1734~2.2A1: the former all end up as PAlb *i, but in DV1735~2.2A5 Latin /i/ only becomes PAlb *i with i-mutation, otherwise becoming *e (DV1735~2.2B11) 
 $ TODO FOR DIA -- note that the data suggests it might be more complicated here... 
@@ -997,8 +1007,8 @@ $∅ [+prim,+front,-hi,-lo] [+cont,+cor,-lat,-nas] j
 $DIACLEA CORRECTION A1.VI.esj limited i-mutation/iotation-like effect upon e by specifically yod across s {strid} , hitting cases after labial consonantals and one lateral. 2026 broadened to any ˈesC*j, no need for limitation to post-labial/lateral. Formerly : ˈe > ˈi / [+cons,blab,-blat] __ s ([+strid]) j
 ˈe > ˈi / __ s ([-syl])* j
 
-$DIACLEA CORRECTION A2.XXXXV.a right before MPA II, j > ∅ / s __ V́ 
-{j;k j} > {∅;c} / s __ 
+$DIACLEA CORRECTION A2.XXXXV.a right before MPA II i-mut, j > ∅ / s __ V́ , kj > c / #,s 
+{s j;s k j;# k j} > {s;s c;# c}
 
 $ --- I-MUTATION -- 
 $ i-mutation here, since it can feed ietation/diphthongizations (in case of PPAlb a: > ɒː > ... > ye) and also bleed them. 
@@ -1217,7 +1227,7 @@ $[-prim] > [+nas] / # m __ [-delrel] ([-syl])* [-cons,uhi,-ulo]
 $DIACLEA CORRECTION A2.CXXII.RVS.r -- late MPA II, tentatively, reduction of nonback countertonics in {r,l,m} __ S to ɪ. For, r, counterfed by ɑ > a { A1.V } . Not after n, rː -- UNNATURAL CLASS! Not if strident followed by a sonorant cons. R must be initial or after a voiceless segment {i.e. not arësye} -- not hte case for l, m -- RULE CROSSING! 
 [+stres,-prim,-back,-long] > ɪ / # ((@)* [-voi]) [+son,+cor,-nas,-lab] __ [+strid] [vsyl,vson]
 
-$DIACLEA CORRECTION A1.V -- ɑ > a; at end of MPA II for pre-Slavic vocab, in the middle of LPA II for Slavic vocab, for which it comes after l-darkening, which it counterbleeds (mɒgɯlɑ > Mëgullë, Second layer pɒsɯlɑ > pusullë). Originally "bandaid", but moved. Not for nasal vowels yet though, as in early LPA I they pattern with ɑ/ɒ but not a from the oral vowel cases-- see A2.LXXVI.ARA2. 
+$DIACLEA CORRECTION A1.V -- non-final ɑ > a; at end of MPA II for pre-Slavic vocab, in the middle of LPA II for Slavic vocab, for which it comes after l-darkening, which it counterbleeds (mɒgɯlɑ > Mëgullë, Second layer pɒsɯlɑ > pusullë). Originally "bandaid", but moved. Not for nasal vowels yet though, as in early LPA I they pattern with ɑ/ɒ but not a from the oral vowel cases-- see A2.LXXVI.ARA2. 
 [+lo,-round,-nas,+tense] > [+front,-back]
 
 $DIACLEA CORRECTION A2.CXXII.RVS.lm -- .RVS for LM. For l and m, fed by ɑ > a {A1.V} -- RULE CROSSING!. Hitting l, m -- UNNATURAL CLASS. For these, only seems to operate initially.  
@@ -1250,6 +1260,9 @@ $DIACLEA CORRECTION A2.LXXX.ɔ.0 -- early passage of ˈɒ > ɔ in Cason __ C-aso
 
 $DIACLEA CORRECTION A2.CLII -- before LPA Alb-internal metathesis, l > lˠ in ɒ __ lab: gllanik , gallve, gllavinë, kllapë, kllapit. Going with broader [+back] [+lo] __ [+lab] here -- also includes shkalloj, shkallëm, kllogjër 
 l > lˠ / [+back] [+lo] __ [+lab]
+
+$DIACLEA CORRECTION D3.XVIII.2 recurrence of a-mutation with new contexts
+[+prim,+front,-tense,-round,-hi] > j ˈɑ / # ([mnas,mcont])* __ {[+cor,+cont,-son];[+cor,+cont,-nas] ([mnas,mcont,mvoi])+} [alo,-aback,+syl]
 
 $DIACLEA CORRECTION A2.LI : first wave Slavic nasal vowels are unpacked to Vn, with ɑ for ɒ̃ and e for ɛ. Except if before a nasal. Weak of evidence of word final case. Bleeds d > ð. Recurs in LPA III with more specific outcomes. Counterbleeds Alb-internal metathesis A2.CLII. Feeds A2.LIII r > r: / #  ̠__ . Counterbled by A2.LXXI syncope.  Bleeds A2.CXI.
 [+syl,+nas] ∅ > [-round,-lab,-nas,+tense] n / __ ([-nas] (@)*) #
@@ -1374,6 +1387,7 @@ $DIACLEA CORRECTION A2.CXI -- lengthening of countertonics in N __ cor,-delrel. 
 
 $DIACLEA CORRECTION A2.CX.ɐT -- reduction of unround countertonic a to ɐ before stops if not after dorsals. natyrë, matukë cases bled by A2.CXI. tentatively counterfed by degemination ː sappare > shapoj 
 [+stres,-prim,+lo,-round,-nas,-long] > ɐ / [-back] __ [-cont,-voi] [+cont]
+
 
 $DIACLEA CORRECTION A2.XXX Middle Proto-Albanian II -- degemination of obstruents. They count as geminates if they share place of articulation and continuancy (so homorganic plosive - affricate is a geminate). Broad place of articulation considered -- labials as one category, coronals as one category, dorsals as one category. Second element is the one kept. TODO may need to move this around
 [-son,acont,blab,chi] > ∅ / __ [-son,acont,blab,chi]
@@ -1842,16 +1856,6 @@ $DIACLEA CORRECTION A2.CX.ðD countertonic a > ɐ  after anything not long {not 
 $DV4.1N (=DV1742I) OAlb f < PAlb θ / C __, including OAlb ënfle -- cf Matzinger 2006: 71 -- Matzinger, Joachim. 2006.  Altalbanische Text Mbsuame e Kreshterë (Dottrina cristiana) des Lekë Matrënga von 1592. Eine Einführing in die albanische Sprachwissenschaft. Seems to be in all dialects? 
 θ > f / [+cons] __
 
-$DV2.2.1C5: Latin short e > a in "q, sh" __ "rr, l". No explicit word on the dating of this except that it is between post-Latin PPAlb, and PAlb; the forms used (q, sh,... rr, l) suggest a later date but at first inspection it seems to precede the merger of ae to short e (caelum > qiell) which certainly must have been before k > q (=[c]). So it is placed right after "rr, l" emerged (with what would become dark l now being long l, and rr being long r)
-$Per its current placement after ietation, a j is imposed, and ˈɛ is used. 
-$no clear way to block this for PPAlb *e, so this will need to be fixed if errors arise (TODO) 
-$ DIACLEA CORRECTION C3B.XX.i-- DV2.2.1C5 e > a now only before long coronals, short l hits too many wrong items, no evidence of this before lˠ either. (prev:  __ { rː;[+lat] }) 
-$ DIACLEA CORRECTION C3B.XX.ii-- D4.VIII -- cer: > car: reinterpreted as cɛ{r,ɾ} > caR only before back element -- u or k relevant -- cark, carr, carkull. The original version causes too many false positives -- luqerre not luqarre etc. 
-$DIACLEA CORRECTION D3.XV a--mutation consolidated with DV2.2.1C5 e > a in q, sh __ r, l phenom. It is an e > ja rule, perhaps via æ (cf. Slav æzu > jaz). 
-ˈɛ > j ˈɑ / [+cor,-lab,+cont] __ [+cor,+long,-nas,+son]
-
-$implementing C3B.XX.ii 
-ˈɛ > j ˈɑ / c __ [+cor,+son,-nas,-lat] [+back] 
 
 $DIACLEA CORRECTION A2.LXIII LPA I loss of labial obstruents after other labial consonants, perhaps separated from them by RV. Possibly involved in lengthening? TBD.
 [+lab,-son] > ∅ / [+lab,+cons] (([+son,+cons]) [+syl]) __ [-son,-lab]

@@ -303,7 +303,7 @@ $∅ > j / # __ [-hi,-lo,+front,+syl]
 $DV2.2.1C2: PPAlb *e (but not Latin short E?) undergoes a-mutation, cf. De Vaan 2004: 78-83. Placed here as it apparently doesn't happen to Latin. As no Greek words effected and it only causes problems, placed before APA as well. 
 $ per De Vaan 2004(:78-83), this is actually going to ja, not simply ɑ, so that is reflected in this rule (this also supports the apparent limitation of this development to the pre-Latin stratum) 
 $SUPPRESSED per D3.XVIII 
-{j ˈe;ˈe} > {j ˈɑ;j ˈɑ} / __ ([-syl])* [+lo,+syl]
+${j ˈe;ˈe} > {j ˈɑ;j ˈɑ} / __ ([-syl])* [+lo,+syl]
 
 $DV1740.C5 = DV3.2C5 : PPAlb *-nt- > PAlb -n:- (ultimately) in apparently uncertain conditions: "-nt- (3pl., acc.sg.) in post-tonic syllable (?) or retention of the cluster (Janson 1986: 96,154)" -- implementing the post-tonic part here since it was listed, 
 $ -- actually post-tonic means anything after the primary stress (meeting @Aug 9, and is okay with having this as baseline)
@@ -1227,7 +1227,7 @@ $[-prim] > [+nas] / # m __ [-delrel] ([-syl])* [-cons,uhi,-ulo]
 $DIACLEA CORRECTION A2.CXXII.RVS.r -- late MPA II, tentatively, reduction of nonback countertonics in {r,l,m} __ S to ɪ. For, r, counterfed by ɑ > a { A1.V } . Not after n, rː -- UNNATURAL CLASS! Not if strident followed by a sonorant cons. R must be initial or after a voiceless segment {i.e. not arësye} -- not hte case for l, m -- RULE CROSSING! 
 [+stres,-prim,-back,-long] > ɪ / # ((@)* [-voi]) [+son,+cor,-nas,-lab] __ [+strid] [vsyl,vson]
 
-$DIACLEA CORRECTION A1.V -- non-final ɑ > a; at end of MPA II for pre-Slavic vocab, in the middle of LPA II for Slavic vocab, for which it comes after l-darkening, which it counterbleeds (mɒgɯlɑ > Mëgullë, Second layer pɒsɯlɑ > pusullë). Originally "bandaid", but moved. Not for nasal vowels yet though, as in early LPA I they pattern with ɑ/ɒ but not a from the oral vowel cases-- see A2.LXXVI.ARA2. 
+$DIACLEA CORRECTION A1.V -- ɑ > a; at end of MPA II for pre-Slavic vocab, in the middle of LPA II for Slavic vocab, for which it comes after l-darkening, which it counterbleeds (mɒgɯlɑ > Mëgullë, Second layer pɒsɯlɑ > pusullë). Originally "bandaid", but moved. Not for nasal vowels yet though, as in early LPA I they pattern with ɑ/ɒ but not a from the oral vowel cases-- see A2.LXXVI.ARA2. 
 [+lo,-round,-nas,+tense] > [+front,-back]
 
 $DIACLEA CORRECTION A2.CXXII.RVS.lm -- .RVS for LM. For l and m, fed by ɑ > a {A1.V} -- RULE CROSSING!. Hitting l, m -- UNNATURAL CLASS. For these, only seems to operate initially.  
@@ -1262,7 +1262,7 @@ $DIACLEA CORRECTION A2.CLII -- before LPA Alb-internal metathesis, l > lˠ in ɒ
 l > lˠ / [+back] [+lo] __ [+lab]
 
 $DIACLEA CORRECTION D3.XVIII.2 recurrence of a-mutation with new contexts
-[+prim,+front,-tense,-round,-hi] > j ˈɑ / # ([mnas,mcont])* __ {[+cor,+cont,-son];[+cor,+cont,-nas] ([mnas,mcont,mvoi])+} [alo,-aback,+syl]
+[+prim,+front,-tense,-round,-hi] > j ˈa / # ([mnas,mcont])* __ {[+cor,+cont,-son];[+cor,+cont,-nas] ([mnas,mcont,mvoi])+} [alo,-around,+syl]
 
 $DIACLEA CORRECTION A2.LI : first wave Slavic nasal vowels are unpacked to Vn, with ɑ for ɒ̃ and e for ɛ. Except if before a nasal. Weak of evidence of word final case. Bleeds d > ð. Recurs in LPA III with more specific outcomes. Counterbleeds Alb-internal metathesis A2.CLII. Feeds A2.LIII r > r: / #  ̠__ . Counterbled by A2.LXXI syncope.  Bleeds A2.CXI.
 [+syl,+nas] ∅ > [-round,-lab,-nas,+tense] n / __ ([-nas] (@)*) #
@@ -1319,7 +1319,7 @@ $DIACLA CORRECTION A2.LXXVI.ARA ˌɒr([-stres]) > ara in velar __ labial (counte
 ∅ > ɑ / [-cor,+cons] [+back,-hi,-prim] r __ [+lab,-syl]
 
 $DIACLEA CORRECTION A2.LXXVI.ARA3 -- in same contexts as ARA except no requirement that the presyllablic non-coronal be consonantal (e.g. includes w), ɒL and ɒr metathesis for COUNTERTONIC a even if there is vowel after labial. Of course due to A2.CLII the only labial here will be lˠ. Lengthening involved.
-{ˌɒ lˠ;ɒ r;ˌɑ lˠ;ˌɑ r} > {lˠ ˌɑː;r ˌɑː;lˠ ˌɑː;r ˌɑː} / [-cor,-syl] __ [+lab,-syl]
+{ˌɒ lˠ;ɒ r;ˌɑ lˠ;ˌɑ r} > {lˠ ˌɑː;r ˌɑː;lˠ ˌɑː;r ˌɑː} / [-cor,-syl,+cons] __ [+lab,-syl]
 
 $DIACLEA CORRECTION A2.CLIII -- Alb-internal metathesis! r, l metathesize across ɒ from Slavic if it is followed by two consonants; can see through unstressed vowels. Although this is a development resembling contemporary events in Slavic and happening to Slavic loans, the patterning seems Albanian specific. It is seeing through vowels not on the basis of if they are yers but solely per their stress -- e.g. ɒrwɛsu > Rrafsh, ɒ́lkɒmʊ > lakəm. Nasal vowels are counted as Ṽ, not VN. ɒ unrounds in the process {exception Pllockə }. Lengthening involved if netx to l, or next to r and at word onset. Counterfeeds d > ð. As of May 2026, operates with only one consonant following if that consonant is labial-- must be consonantal for this though -- not w 
 {# ˌɒ l;ˌɒ l;# ˌɒ lˠ;ˌɒ lˠ;# ˌɒ r;ˌɒ r;# ˌɒ ɾ;ˌɒ ɾ;ˈɒ l;ˈɒ lˠ;ˈɒ r;ˈɒ ɾ} > {# l ˌɑː;l ˌɑː;# lˠ ˌɑː;lˠ ˌɑː;# r ˌɑː;r ˌɑ;# ɾ ˌɑː;ɾ ˌɑ;l ˈɑː;lˠ ˈɑː;r ˈɑ;ɾ ˈɑ} / __ [-syl] ([+lab,-syl] (@)*) (([-stres]) [-syl] (@)*) ([-stres,-lo]) #

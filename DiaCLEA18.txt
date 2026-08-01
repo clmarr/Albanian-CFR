@@ -208,13 +208,13 @@ $[+front,-hi,+syl] j > [+hi,+long] ∅
 $DV1745~4.3E3 & DV(1746)~4.3F4, the delabialization of labiovelars before what amounts to an elsewhere condition (a, back/round vowels, and the word boundary), will be similarly handled after the primary palatalization of them before front (tense/non-low) vowels -- i.e. DV4.3I2 & DV4.3J2
 
 $DV4.3I2 & J2 -- fronting of pre-palatal-vowel labiovelars into what are (ultimately) affricates, done (for each voicing status) in one step in DV'2018 (this is merged into a single step here). In this one, the aspiration of the voiced stop in PIE makes no difference. Furthermore, he puts the superscript "w" in parentheses but the meaning of this is unclear is it does not seem that he intends for the PIE plain velar series to be impacted by this. TODO disambiguate this point in email -- confer with De Vaan, that is. 
-$TODO -- point to consider for view that PPAlb reflexes of PIE plain velars were further back than the labiovelars?... and distinction between ɟʰ and ɟ  ?
-$TODO note -- this has to be before any changes that make the reflexes of PIE *j,i,ī,e,ē something other than front and non-low. 
-$TODO considerations here on roundness annotation/specification for postalveolar fricatives? 
-[-cont,+round] > [+delrel,+strid,+distr,-hi,-back,+front,-round] / __ [-cons,+front,-lo]
+$DIACLEA CORRECTION C2.VIII labiodorsal fronting in pre-APA no longer involves loss of labiality. 
+[-cont,+back,+hi] > [+delrel,+strid,+distr,-hi,-back,+front,-round] / __ [-cons,+front,-lo]
 
 $DV3.3A4 = DV1741A4: n > m / P __ 
-n > m / [+lab,+cons] __
+$DIACLEA CORRECTION C3.XXIX -- pre-APA Bn > Bm phenomeon now limited to after a labial vowel. Og. -- n > m / [+lab,+cons] __
+n > m / [+lab,+cont] [+lab,+cons] __
+
 $DV3.3A2 = DV1741A2: effacement of stops before *m
 [-cont] > ∅ / __ m
 
@@ -228,7 +228,7 @@ $DIACLEA CORRECTION D2.VII unrounding of stops in pre-APA removed; it's handled 
 $[-cont] > [-round]
 
 $DV1745~4.3~D3 -- *d from *sw- before a stressed vowel...  DV'18 asserts this for diell (< su̯él ) , dergjem "I am ill" (< su̯órgh); dirsë "sweat" -- as also in Kortlandt 1987 p219 s3. 
-s w > d / __ [+stres]
+s w > d / # ((@)* [-syl])__ [+stres]
 
 $DIACLEA CORRECTION D2.VIII  -- DV4.3L1 and DV2.2.1E3 w > ʊ suppressed
 $DV2.2.1E3 stressed vo- > u, but based on the example this seems to be vō- too. 
@@ -324,8 +324,8 @@ $ However, in light of the fact that Proto-Albanian loans reflecting PIE palatov
 
 $ DV1740.C1 & C3 (merged) -- -Tn- and -sn- > n:. Listed only for PPAlb not Latin; since no Latin etyma loaned to Albanian have these clusters before the vowel falls start, it is placed before them. The -nn- clusters from loans and also earlier assimilations are also swept up in this on purpose. 
 $ DV1740.C2 merged in too -- -Kn- affected as well. But this should be interpreted as just targeting -kn- and not -gn-, because in DV1740D2 De Vaan notes that PPAlb and Lat gn- and -gn- clusters instead go to ɲ. Latinate loans into PPAlb have no -kn- clusters before the vowel drops, so it makes sense to implement this here. 
-$ 4/8/26 -- changed to feed DV1740E3, no -gn- left due to handling in prior layer.  form prior to 8/5/23 was: {[+cor,+ant,-son];n;k} n > nː
-[-son,-lab] > n / __ n
+$ 4/8/26 -- changed to feed DV1740E3, no -gn- left due to handling in prior layer.  form prior to 8/5/23 was: {[+cor,+ant,-son];n;k} n > nː; summer '26 -- now only word internal
+[-son,-lab] > n / @ __ n
 
 $ ----------- Pre-Proto-Albanian = pre-Greek proto-Albanian. --------------
 =Archaic Proto-Albanian

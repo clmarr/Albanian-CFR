@@ -32,11 +32,11 @@ o > u / [+syl] ( @ )* __ ( [-syl] )* #
 ɟʰ > dʰ 
 [-cont,+front] > [+delrel,-sg,-cont,+cons,0tense] 
 [+long,+front,-hi] > [-front,+back,+lo] 
-[-cont,+round] > [+delrel,+strid,+distr,-hi,-back,+front,-round,-cont,+cor,+cons,0tense] / __ [-cons,+front,-lo]
-n > m / [+lab,+cons] __
+[-cont,+back,+hi] > [+delrel,+strid,+distr,-hi,-back,+front,-round,-cont,+cor,+cons,0tense] / __ [-cons,+front,-lo]
+n > m / [+lab,+cont] [+lab,+cons] __
 [-cont] > ∅ / __ m
 [-cont] > t / __ t
-s w > d / __ [+stres]
+s w > d / # ( ( @ )* [-syl] ) __ [+stres]
 [-cont] > s / __ s [-syl]
 [+front,-cont] > s / [+round] __ s
 s > ∅ / [+syl] [+front,-cont] __ [+syl]
@@ -50,7 +50,7 @@ s > ʃ
 t p > ɸ t 
 t > n / n __ [+lo] ( [-syl] )* #
 {c͡ç;ɟ͡ʝ} > {t͡s;d͡z} 
-[-son,-lab] > n / __ n
+[-son,-lab] > n / @ __ n
 [+lo,+syl] > [+back,-front] 
 [-prim,+front] > ə / @ [-syl] __ [+cons] [+syl]
 [-prim,+front] > ə / # [+son,-syl] __ [+cons] [+syl]

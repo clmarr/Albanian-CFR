@@ -107,11 +107,32 @@ $[+cons] > [-syl] / [+syl] __
 [+hi] > [-syl] / [+syl] __
 [+hi] > [-syl] / __ [+syl] 
 
+$DIACLEA CORRECTION A1.L deletion of s after coronal sonorants in pre-APA, before Kortlandt's s.s  > th.s dissimilation law. 
+s > ∅ / [+cor,+son] __
+
 $DV4.3G2 (and Kortlandt 1987 p219 s2) -- s "dissimilates" before Vs; in Kortlandt 1987 p219 this goes straight to θ but Kortlandt'87 generally works in terms of ultimate reflexes without excluding intermediate forms; De Vaan'18 has it go to the intermediate *tɕ (which for reasons discussed above is cç in this cascade). Inasmuch as this has to happen before that following s is about to be mutated, we're working with what De Vaan asserts the ancestor of θ to be at this time -- namely, the aforementioned affricate. Phonetically of course this compromise is suspect (the segment asserted by De Vaan, unlike the one being used as a proxy here, actually is a sibilant and a strident...) but that the details here can be worked on later. 
 $DIACLEA CORRECTION C1B.XII -- DV4.3G2 only applies across tonic.
 $DIACLEA CORRECTION B2.XXIV -- DV4.3G2 moved to before TsC > ssC, which bleeds it. {Along with many other pre-APA relocdations I haven't explicated, see summer '26 logs.}. Also moved to before DV4.3Q5 which also counterbleeds it. Also moved to before stress retraction off of o, which counterfeeds it for gjysh.
 $DIACLEA CORRECTION C3B.XXVII -- Kortland's s > θ dissimilation rule restricted to cases of initial s separated from the next only by back continuants including a stressed vowel. -- sˈɑwsnjoː > thaj , sˈuːs  >thi 
 s > c͡ç / __ ( [+back,+cont] )* [+prim,+back] ( [+back,+cont] )* s
+
+$DV2.3G3.I -as- and -es- ultimately to -ā- (really ɑː) before l, n, or r. 
+$This can be handled as s-effacement with compensatory vowel lengthening here, as there is a later ē > ā shift (DV2.3G3.II) 
+$merged in: 2.3I2 ~ PIE *-us- > ū / __ {l,r} 
+$going to boldly assume this happened to all vowels since there are no counterexamples for -is- and -os- 
+$DIACLEA CORRECTION C2.VII lengthening via DV2.3G3.I limited to if the s was before a sonornat consonant. Unrounding of ɒ̄ before n comes later. 
+$DIACLEA CORRECTION D3.XVII -- DV3.3A3 suppressed as it is handled by A1.IL; DV4.3Q5 merged into DV2.3G3.I/C2.VII, with no lengthening for consonants. 
+[+syl,-cons] > [+long] / __ s [+cor,+son]
+s > ∅ / __ [+cons,+son]
+
+$DV4.3Q5 -- s effaced before l,m,n,r -- so, sonorant consonants. Not if syllabic -- e.g. shtërpij.
+$this also handles DV3.3A3 = DV1741A3 
+$but this must come after DV2.3G3 and DV2.3I3 so as not to bleed their vowel-lengthening aspects. (if this is all more broadly conceived as vowel lengthening this could be of interest as it is also attested for Doric, Ionic and Attic)
+$grouping this also with effective loss before "medial" d and dʰ implicated in Kortlandt 1987 -- 
+$per Kortlandt 1987 p220 s5iii -- medial PIE *-sd(h)- (he seems to mean intervocalic for "medial") yielded the same reflex of *-d(h)- in -dh- (=/ð/) -- but the *s needs to be gone to feed this! 
+$DIACLEA CORRECTION D3.XVII -- DV3.3A3 suppressed as it is handled by A1.IL; DV4.3Q5 merged into DV2.3G3.I/C2.VII, with no lengthening for consonants. 
+$s > ∅ / __ {[+son,+cons,-syl];d;dʰ}
+
 
 $DIACLEA CORRECTION A2.CLXXII retraction off of final syllable o if followed by obstruent. Conditioned by CPIE hiatus gliding. Feeds final syll o > u. 
 [+syl] > [+prim] / __ ([-syl])* ˈo [-son] ([-syl])* #
@@ -135,23 +156,6 @@ $DV4.3I3 -- *Tt > *tʃ too. The single example pot-to is a dental stop; to resol
 $ conference with De Vaan - -yes this is dentals, yes it comes before 4.3Q3
 $DIACLEA CORRECTION D1.X -- thorn rule Tt > tʃ suppressed. Completely counterproductive.
 $[+ant,-cont] t > t͡ʃ
-
-$DV2.3G3.I -as- and -es- ultimately to -ā- (really ɑː) before l, n, or r. 
-$This can be handled as s-effacement with compensatory vowel lengthening here, as there is a later ē > ā shift (DV2.3G3.II) 
-$merged in: 2.3I2 ~ PIE *-us- > ū / __ {l,r} 
-$going to boldly assume this happened to all vowels since there are no counterexamples for -is- and -os- 
-$DIACLEA CORRECTION C2.VII lengthening via DV2.3G3.I limited to if the s was before a sonornat consonant. Unrounding of ɒ̄ before n comes later. 
-$DIACLEA CORRECTION D3.XVII -- DV3.3A3 suppressed as it is handled by A1.IL; DV4.3Q5 merged into DV2.3G3.I/C2.VII, with no lengthening for consonants. 
-[+syl,-cons] > [+long] / __ s [+cor,+son]
-s > ∅ / __ [+cons,+son]
-
-$DV4.3Q5 -- s effaced before l,m,n,r -- so, sonorant consonants. Not if syllabic -- e.g. shtërpij.
-$this also handles DV3.3A3 = DV1741A3 
-$but this must come after DV2.3G3 and DV2.3I3 so as not to bleed their vowel-lengthening aspects. (if this is all more broadly conceived as vowel lengthening this could be of interest as it is also attested for Doric, Ionic and Attic)
-$grouping this also with effective loss before "medial" d and dʰ implicated in Kortlandt 1987 -- 
-$per Kortlandt 1987 p220 s5iii -- medial PIE *-sd(h)- (he seems to mean intervocalic for "medial") yielded the same reflex of *-d(h)- in -dh- (=/ð/) -- but the *s needs to be gone to feed this! 
-$DIACLEA CORRECTION D3.XVII -- DV3.3A3 suppressed as it is handled by A1.IL; DV4.3Q5 merged into DV2.3G3.I/C2.VII, with no lengthening for consonants. 
-$s > ∅ / __ {[+son,+cons,-syl];d;dʰ}
 
 $$ consonantal stuff from PIE to (PG) PPAlb follow -- De Vaan 4.3, pp1745-6
 $ treatment : palatovelars are handled as c, ɟ, ɟʰ respectively 
@@ -214,7 +218,6 @@ $DV3.3A2 = DV1741A2: effacement of stops before *m
 $DV4.3Q3 (=DV1746K3) -- effacement of stops before t, which I infer should be bled by DV4.3I3 (see notes for that rule) 
 $DIACLEA CORRECTION C2.VII rather than Tt > t effacement, now we have assimilation to form geminate tt [in pre-apa]
 [-cont] > t / __ t
-
 
 $ DV4.3E3 & DV4.3F4 after labiovelars palatalized before front vowels (further above, DV4.3I2 & J2),  what's left of the labiovelars lose their labiality -- 
 $ Thus may suppress this rule here with no consequences... and it may not be necessary to assume it either. 

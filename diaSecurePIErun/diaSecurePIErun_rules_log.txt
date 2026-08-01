@@ -16,14 +16,15 @@ w [+cons,+syl,βstres,ɣprim] > [+syl,βstres,ɣprim,+son] [-syl,0stres,0prim]/ 
 [-cons,-syl] > ∅ / [+syl] __ [+syl]
 [+hi] > [-syl,0stres,0prim] / [+syl] __
 [+hi] > [-syl,0stres,0prim] / __ [+syl]
+s > ∅ / [+cor,+son] __
 s > c͡ç / __ ( [+back,+cont] )* [+prim,+back] ( [+back,+cont] )* s
+[+syl,-cons] > [+long] / __ s [+cor,+son]
+s > ∅ / __ [+cons,+son]
 [+syl] > [+prim,+stres,+syl,+son] / __ ( [-syl] )* ˈo [-son] ( [-syl] )* #
 [+syl] > [-stres,-prim,+syl,+son] / [+prim] ( @ )* __
 [+cont,-son,-cor] > ɑ 
 o > u / [+syl] ( @ )* __ ( [-syl] )* #
 [+round,-hi,+syl,-long] > [+lo,-round,-lab] 
-[+syl,-cons] > [+long] / __ s [+cor,+son]
-s > ∅ / __ [+cons,+son]
 [-cont,+hi,-sg] > [-front,+back,-hi,+lo] / __ [+cons,+son]
 ɟʰ > ɢʰˤ / n __
 [+front,-cont] w > [-front,+back,+lab,+round] j

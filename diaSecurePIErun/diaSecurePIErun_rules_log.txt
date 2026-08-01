@@ -25,14 +25,13 @@ s > ∅ / __ [+cons,+son]
 [+cont,-son,-cor] > ∅ 
 o > u / [+syl] ( @ )* __ ( [-syl] )* #
 [+round,-hi,+syl,-long] > [+lo,-round,-lab] 
-[-cont,+hi,-sg] > [-front,+back,-hi,+lo] / __ [+cons,+son]
-ɟʰ > ɢʰˤ / n __
+[-cont,+hi,-sg] > [-front,+back,-hi,-round,-lab] / __ [+cons,+son]
+ɟʰ > ɢʰ / n __
 [+front,-cont] w > [-front,+back,+lab,+round] j
 ɟʰ > ɟ / @ __ [-cons]
 ɟʰ > dʰ 
 [-cont,+front] > [+delrel,-sg,-cont,+cons,0tense] 
 [+long,+front,-hi] > [-front,+back,+lo] 
-[+front,-hi,+syl] j > [+hi,+long] ∅
 [-cont,+round] > [+delrel,+strid,+distr,-hi,-back,+front,-round,-cont,+cor,+cons,0tense] / __ [-cons,+front,-lo]
 n > m / [+lab,+cons] __
 [-cont] > ∅ / __ m

@@ -282,8 +282,9 @@ $ -- that is Kortlandt, Frederik. 1987. PIE *s in Albanian. Studies in Slavic an
 $ perhaps check also Schumacher 2013 = Schumacher, Stefan. 2013. Historische Phonologie. In Stefan Schumacher and Joachim Matzinger (eds.). Die Verben des Altabanischen. Belegwörterbuch, Vorgeschichte und Etymologie. Unter Mitarbeit von Anna-Maria Adaktylos. Wiesbaden: Harassowitz, 205-276. 
 $ first part was originally (before 8/5/23): (k) s > ʃ 
 $ this had to be changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when this is resolved. 
+$DIACLEA CORRECTION
 s > ʃ
-ʃ > ʒ / __ [+stres]
+ʃ > ʒ / __ [+stres] (@)* [+syl]
 
 $DV4.3K2 *tp- > ft- (perhaps after some schwa losses?) 
 $using φ  for reasons explained in formalization for DV4.3K1 

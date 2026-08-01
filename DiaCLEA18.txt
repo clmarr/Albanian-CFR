@@ -107,6 +107,10 @@ $[+cons] > [-syl] / [+syl] __
 [+hi] > [-syl] / [+syl] __
 [+hi] > [-syl] / __ [+syl] 
 
+
+$DIACLEA CORRECTION C2.VII lengthening via DV2.3G3.I limited to if the s was before a sonornat consonant. Unrounding of ɒ̄ before n comes later, and moved to before rs rule, and doesn't happen before n [dhënë, parë] 
+[+syl,-cons] > [+long] / __ s [+cor,+son,-nas]
+
 $DIACLEA CORRECTION A1.L deletion of s after coronal sonorants in pre-APA, before Kortlandt's s.s  > th.s dissimilation law. 
 s > ∅ / [+cor,+son] __
 
@@ -120,9 +124,8 @@ $DV2.3G3.I -as- and -es- ultimately to -ā- (really ɑː) before l, n, or r.
 $This can be handled as s-effacement with compensatory vowel lengthening here, as there is a later ē > ā shift (DV2.3G3.II) 
 $merged in: 2.3I2 ~ PIE *-us- > ū / __ {l,r} 
 $going to boldly assume this happened to all vowels since there are no counterexamples for -is- and -os- 
-$DIACLEA CORRECTION C2.VII lengthening via DV2.3G3.I limited to if the s was before a sonornat consonant. Unrounding of ɒ̄ before n comes later. 
-$DIACLEA CORRECTION D3.XVII -- DV3.3A3 suppressed as it is handled by A1.IL; DV4.3Q5 merged into DV2.3G3.I/C2.VII, with no lengthening for consonants. 
-[+syl,-cons] > [+long] / __ s [+cor,+son]
+
+$DIACLEA CORRECTION D3.XVII -- DV3.3A3 suppressed as it is handled by A1.IL; DV4.3Q5 merged into DV2.3G3.I/C2.VII, with no lengthening for consonants. Lengthening now occurs across coronasl too 
 s > ∅ / __ [+cons,+son]
 
 $DV4.3Q5 -- s effaced before l,m,n,r -- so, sonorant consonants. Not if syllabic -- e.g. shtërpij.
@@ -139,7 +142,7 @@ $DIACLEA CORRECTION A2.CLXXII retraction off of final syllable o if followed by 
 [+syl] > [-stres] / [+prim] (@)* __ 
 
 $DIACLEA CORRECTION A1.XXXXVII vocalization of remaining laryngeals. 
-[+cont,-son,-cor] > ɑ
+[+cont,-son,-cor] > ∅
 
 $DIACLEA CORRRECTION A1.XXXXVI non-monosyllabic final syllable unstressed o > u , bleeding DV1738~2.3C1 
 o > u / [+syl] (@)* __ ([-syl])* #

@@ -3,20 +3,21 @@ Derivation file for run '../Albanian-CFR/diaSecurePIErun'; etymon number :4:
 c xʷ ˈe r x bʰ o s 
 *#cxʷˈorxbʰos# | 0 : [+syl,-hi,+front] > [!βlo,βround,βlab,+back,-front] / [-cor,-son,+cont,βhi,βround] __
 Proto-Balkan-Indo-European stage form : *#cxʷˈorxbʰos#
-*#cxʷˈorɑbʰos# | 3 : [-cor,-son,+cont] > ɑ / [+cons,-syl] __ [+cons,-syl]
-*#cˈorɑbʰos# | 9 : [-cor,-son,+cont] > ∅ / __ [-cons]
-*#cˈorɑbʰus# | 25 : o > u / [+syl] ( @ )* __ ( [-syl] )* #
-*#cˈɑrɑbʰus# | 26 : [+round,-hi,+syl,-long] > [+lo,-round,-lab] 
-*#c͡çˈɑrɑbʰus# | 33 : [-cont,+front] > [+delrel,-sg,-cont,+cons,0tense] 
-*#c͡çˈɑrɑbʰuh# | 48 : s > h / [-cons] __ ( [-cons] ( @ )* ) #
-*#t͡sˈɑrɑbʰuh# | 52 : {c͡ç;ɟ͡ʝ} > {t͡s;d͡z} 
-Archaic Proto-Albanian stage form : *#t͡sˈɑrɑbʰuh#
+*#cxʷˈorabʰos# | 3 : [-cor,-son,+cont] > a / [+cons,-syl] __ [+cons,-syl]
+*#cˈorabʰos# | 9 : [-cor,-son,+cont] > ∅ / __ [-cons]
+*#c͡çˈorabʰos# | 31 : [-cont,+front] > [+delrel,-sg,-cont,+cons,0tense] 
+*#c͡çˈorabʰus# | 35 : o > u / [+syl] ( @ )* __ ( [-syl] )* #
+*#c͡çˈɑrabʰus# | 36 : [+round,-hi,+syl,-long] > [+lo,-round,-lab] 
+*#c͡çˈɑrabʰuh# | 48 : s > h / [-cons] __ ( [-cons] ( @ )* ) #
+*#t͡sˈɑrabʰuh# | 52 : {c͡ç;ɟ͡ʝ} > {t͡s;d͡z} 
+Archaic Proto-Albanian stage form : *#t͡sˈɑrabʰuh#
+*#t͡sˈɑrɑbʰuh# | 54 : [+lo,+syl] > [+back,-front] 
 Classical Proto-Albanian stage form : *#t͡sˈɑrɑbʰuh#
-*#t͡sˈɑrɑbʰu# | 97 : h > ∅ / @ __
-*#t͡sˈɑrɑbʰʊ# | 107 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
-*#θˈɑrɑbʰʊ# | 117 : {t͡s;d͡z} > {θ;ð} 
-Middle Proto-Albanian I stage form : *#θˈɑrɑbʰʊ#
-*#θˈɑrɑbʊ# | 123 : [+cons] > [-sg] 
+*#t͡sˈɑrɑbʰʊh# | 107 : [-lo,+syl,-long,-cons,bback,!bfront] > [-tense,-cons,-lat,+cont,0delrel] 
+*#θˈɑrɑbʰʊh# | 117 : {t͡s;d͡z} > {θ;ð} 
+Middle Proto-Albanian I stage form : *#θˈɑrɑbʰʊh#
+*#θˈɑrɑbʊh# | 123 : [+cons] > [-sg] 
+*#θˈɑrɑbʊ# | 156 : [-son,tcons,!tcont] > ∅ / __ ( [+cont,-syl] [-cont,-son] ( @ )* ) #
 *#θˈɑrɑbu# | 157 : [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
 Middle Proto-Albanian II stage form : *#θˈɑrɑbu#
 *#θˈarabu# | 226 : [+lo,-round,-nas,+tense] > [+front,-back] 

@@ -41,7 +41,7 @@ $rules that are essentially accomplished here: the *iH > *i: aspect of 2.3E, 2.3
 =Proto-Balkan-Indo-European
 
 $DV1738~2.3C5 -- any H becomes *a (ɑ) in C__C (C5). Incorporate part of C6, that which acts on *non-*syllabic resonants
-[-cor,-son,+cont] > ɑ / [+cons,-syl] __ [+cons,-syl] 
+[-cor,-son,+cont] > a / [+cons,-syl] __ [+cons,-syl] 
 
 $DV1738~2.3C6: H becomes *a (really ɑ) in CR__C 
 $formulated here so as to preserve any stress that was on the R, for the subset of cases where the resonant is syllabic (other part of this rule is handled above with 2.3C5)
@@ -144,16 +144,8 @@ $DIACLEA CORRECTION A2.CLXXII retraction off of final syllable o if followed by 
 $DIACLEA CORRECTION A1.XXXXVII vocalization of remaining laryngeals. 
 [+cont,-son,-cor] > ∅
 
-$DIACLEA CORRRECTION A1.XXXXVI non-monosyllabic final syllable unstressed o > u , bleeding DV1738~2.3C1 
-o > u / [+syl] (@)* __ ([-syl])* #
-
 $DV1738~2.3C9 calls for insertion of PPAlb a (really ɑ) in between two consonants, but if interpreted to be deterministic this would cause massive errors. The given example is madh "big" < *m̥ĝ, but De Vaan 2018 hedges here, noting that Schumacher 2013(: 238) instead explains this item via analogy. Thus this is not implemented for now. 
 
-$DV1738~2.3C1 : PIE *(H)o > *a	(really ɑ) 
-$ unspecified for any difference in the stress of the *o, but clearly it's the short one. 
-$ the H deletion aspect is already handled above (cf. PREVOCALIC LARYNGEAL EFFACEMENT) 
-$ this effectively also implements DV2.3J1 and DV2.3K1, and effectively the merged behavior of h2 and h3 in DV2.3J2 and DV2.3K2 (these now go from *oi and *ou to *ai and *au)
-[+round,-hi,+syl,-long] > [+lo,-round,-lab]
 
 $DV4.3I3 -- *Tt > *tʃ too. The single example pot-to is a dental stop; to resolve conflict between this rule and DV4.3Q3, I refer to the examples given by De Vaan 2018 in the latter, and these include -pt-, -ct-, and -kʷt- but on dentals. Given the past literature on the "thorn cluster", it makes sense to assume that this one targets a dental cluster, and effacement rule in DV4.3Q3 which would naturally compete with this, is place-independent and comes later -- in effect targeting non-dental stop
 $ conference with De Vaan - -yes this is dentals, yes it comes before 4.3Q3
@@ -214,8 +206,18 @@ $DV4.3I2 & J2 -- fronting of pre-palatal-vowel labiovelars into what are (ultima
 $DIACLEA CORRECTION C2.VIII labiodorsal fronting in pre-APA no longer involves loss of labiality. 
 [-cont,+back,+hi] > [+delrel,+strid,+distr,-hi,-back,+front,-round] / __ [-cons,+front,-lo]
 
-$DIACLEA CORRECTION A2.CLXXV pre-APA deletion of auslaut high vowels after intervocalic obstruents. Tentatively placed to not bleed labiodorsal palatalization. 
-[+hi,-stres,-long] > ∅ / [-cons] [-son] __ #
+$DIACLEA CORRECTION A2.CLXXV pre-APA deletion of auslaut high vowels after intervocalic obstruents. Tentatively placed to not bleed labiodorsal palatalization. Not fed by A1.XXXXVI
+[+hi,-stres,-long] > ∅ / [+syl] (@)* [-cons] [-son] __ #
+
+$DIACLEA CORRRECTION A1.XXXXVI non-monosyllabic final syllable unstressed o > u , bleeding DV1738~2.3C1 
+o > u / [+syl] (@)* __ ([-syl])* #
+
+
+$DV1738~2.3C1 : PIE *(H)o > *a	(really ɑ) 
+$ unspecified for any difference in the stress of the *o, but clearly it's the short one. 
+$ the H deletion aspect is already handled above (cf. PREVOCALIC LARYNGEAL EFFACEMENT) 
+$ this effectively also implements DV2.3J1 and DV2.3K1, and effectively the merged behavior of h2 and h3 in DV2.3J2 and DV2.3K2 (these now go from *oi and *ou to *ai and *au)
+[+round,-hi,+syl,-long] > [+lo,-round,-lab]
 
 $DV3.3A4 = DV1741A4: n > m / P __ 
 $DIACLEA CORRECTION C3.XXIX -- pre-APA Bn > Bm phenomeon now limited to after a labial vowel. Og. -- n > m / [+lab,+cons] __
@@ -575,7 +577,7 @@ s > h / [+lo,-prim] ([-cons,-syl]) __ [-stres] [-son]
 
 $DIACLEA CORRECTION A2.XII: h is deleted after vowels and before non-stressed vowels except before stressed vowels (later insertions hard to characterize; some role of r?) 
 $[-cons,-son] > ∅ / __ [-stres]
-h > ∅ / @ __
+h > ∅ / @ __ @
 
 $DIACLEA CORRECTION A2.X -- ɪ goes back up to i {as of 3/27} before non-coronal non-vowels.  ʎ (5 known cases for ˈɪʎ, e.g. familia > fëmijë, scantilia > shkëndijë), j/ç (picta > pɪjtɑ > pitë, plictum > ... > plic, arguably via > ... > vijë), labials (4 cases for ˈɪp and ˈɪf, ex. gripsa > grifshë). This is better not handled as part of i-mutation as some of the pre-labial cases don't work that way (gripsa > grifshë) and it appears that ʎ only triggers what looks like i-mutation for /ɪ/. Not ɲ ː tinea > tenjë, strinctum > shtrenjt-ë. As of March 27
 	$Not fed by dj/tj assibilation (servitium > shërbes) -- currently handled by -cor
@@ -804,11 +806,11 @@ $DIACLEA CORRECTION C3B.VIII: largely suppressed. Effects of this currently hand
 $ ... 
 	$ {ɛ} as of Jan 29, 2025, another one added coming first, on the basis of cluster behavior: 
 		$ non-initial (i.e. secondary stressed vowel somewhere before) unstressed vowels (including low vowelsǃ) in [+voi] [-voi] __ [+cor,-voi]. This completely usurps [α]. 
-[-stres] > ∅ / [+stres] ((@)* [+voi]) [-voi,+cons] __ [-voi]
+[-stres] > ∅ / [+stres] ((@)* [+voi]) [-voi,+cons] __ [-voi,+cons]
 	$ [-stres,-lo] > ∅ / [+son] t __ k  --- now obselete! 
 [-stres,-lo] > ∅ / r __ [-son,-lab] [+syl]
 [-prim,-lo] > ∅ / [+back,-cont] __ [-cont,-lab] [+syl]
-[-stres,-lo] > ∅ / [+syl] [-cor,-cont] __ [-voi,-lab]
+[-stres,-lo] > ∅ / [+syl] [-cor,-cont] __ [-voi,-lab,+cons]
 
 $DIACLEA CORRECTION A1.XII -- in earlier Middle Proto-Albanian, early loss of vowels in n __ [+cor,-cont] [-cons] (A1.XII.a -- benedic-o- > bënkoj, christīnatalem > kërshëndelë, paenit-ē/-entia > pendoj and pendesë, reni(d/g)enio > rrëngjej (?); sanit-ātem,-osum > shëndet, shëndosh. ... 
 [-prim] > ∅ / [+syl] n __ [+cor,-cont] [-cons]
@@ -853,8 +855,12 @@ $A2.LXXXIII.eu intersonorant e rounding, coalescence with w/β--  VRˈɛW(V)r/l(
 [-hi,-lo,+front,+prim] [+cont,+lab,βcons,-βson] > [+round,+lab,-lo,-tense,+long] ∅ / [+son,+cons] __ ([-stres]) [+voi,+cons,-back,-lab]
 
 $ DIACLEA CORRECTION A2.XXIII.α  [-son] s T2 > sT2 ː brōtascu > breshk, potest-ā- > pushtoj, potestātem > pushtet; trumpisc-ā- > trushkyej [this is an error. tho.] -- feeds pre-fricative nasal loss [this happens later so it can be fed later.]ǃ Causes compensatory lengthening for nonrounds, as seen in non-reduction for farkoj, mashtroj, , and ultimate diphthohngization for mjeshtër. Counterfeeds loss of primary length. Doesn't feed round vowel lengtheningː breshkë not bryeshkë. TODO consider merger with aw > ā phenomenon. 
-[+syl,-round] > [+long] / __ [-son] [+cont,-syl] [-cont,-son]
-[-son] > ∅ / __ [+cont,-syl] [-cont,-son]
+	$DIACLEA CORRECTION A2.XXIII.h - merging with .αː deletion of final PIE s > h with lengthening of prior V>. 
+		$however, *s from Latin doesn't delete finally at least after stressed vowels (quis > qysh) -- unlike *k (sīc > shi), or *h < PIE *s. 
+			$non-of the Latin cases here seem to show deletion of *s either so it can be merged in easily. 
+[+syl,-round] > [+long] / __ [-son] ([+cont,-syl] [-cont,-son] (@)*) #
+[-son,tcons,-tcont] > ∅ / __ ([+cont,-syl] [-cont,-son] (@)*) #
+
 
 $DV2.2.1A4.II -- resolving raising before "sh" (which might still be [s] in this cascade) for Latin ē and PPAlb *e in this position (earlier lengthened to feed this, now both to [e] as the short variants are now [ɛ]) 
 $TODO FOR DIA: note above that this may be more accurately captured as __ ʃj than simply __ ʃ , given eshkë, kreshmë, rrjesht and veshk. 

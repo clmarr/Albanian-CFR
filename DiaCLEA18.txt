@@ -166,6 +166,9 @@ $ treatment : palatovelars are handled as c, ɟ, ɟʰ respectively
 $DV1745~4.3E1 & ~4.3F1 -- depalatalization of *k̂ and *ĝ before resonants (examples are the liquids l and r). He does not list this occurring for *ĝʰ it seems -- and it likely doesn't -- meg₁ʰrik₁i > mjerth. 
 [-cont,+hi,-sg] > [-front,+back,-hi,-round,-lab] / __ [+cons,+son]
 
+$DIACLEA CORRECTION A1.LI forgot who said this, but -str- > dr. Proposing this is happening by way of ɟʰ in pre-APA. bʰostrom > badër, k₁h₃estrom > thadër. Does not happen to initial cases like shtrydh, or preconsonantal cases. In practice, seems to be between penults and finals. 
+s t > ɟʰ / [-cons] __ r [+syl] ([-syl])* #
+
 $DV1745~4.3F2 -- depalatalization of *ĝ after n (case of ankth, ngjerë, angull, ang, ëngër -- ndoh is likely from a later prefixation event.}
 ɟʰ > [-front,+back,-hi] / n __
 
@@ -211,6 +214,9 @@ $DV4.3I2 & J2 -- fronting of pre-palatal-vowel labiovelars into what are (ultima
 $DIACLEA CORRECTION C2.VIII labiodorsal fronting in pre-APA no longer involves loss of labiality. 
 [-cont,+back,+hi] > [+delrel,+strid,+distr,-hi,-back,+front,-round] / __ [-cons,+front,-lo]
 
+$DIACLEA CORRECTION A2.CLXXV pre-APA deletion of auslaut high vowels after intervocalic obstruents. Tentatively placed to not bleed labiodorsal palatalization. 
+$[+hi,-stres,-long] > ∅ / [-cons] [-son] __ #
+
 $DV3.3A4 = DV1741A4: n > m / P __ 
 $DIACLEA CORRECTION C3.XXIX -- pre-APA Bn > Bm phenomeon now limited to after a labial vowel. Og. -- n > m / [+lab,+cons] __
 n > m / [+lab,+cont] [+lab,+cons] __
@@ -243,7 +249,7 @@ $DIACLEA CORRECTION A2.CLXXIV cluster simplifications where by TsC > ssC. Bleeds
 
 $DIACLEA CORRECTION A1.XXXXVIII.cs -- before rest of A1.XXXXVIII, which would counterfeed it, intervocalic c/ɟ s > c/ɟ after unround consonants [djath, dredh, etc.], > ss after round consonants [push] 
 [+front,-cont] > s / [+round] __ s
-s  >∅ / [+syl] [+front,-cont] __ [+syl]
+s > ∅ / [+syl] [+front,-cont] __ [+syl]
 
 $DIACLEA CORRECTION A1.XXXXVIII C-cor + s also results in fricatives x ɸ, e.g. Schumacher '13: 233 {in which the trajectory is actually s + C-cor > C-cor s [cf aks/ ask in English] , then both primary and secondary C-cor s > C-cor, aspirated > affricated > fricative. No specific need yet here for the intermediate steps except the metathesis. Must come after ɟʰ > d {h₁eɟʰs > ith not ih, , and after some cluster simplifications involving deletion of hte first element {h₁eɟʰst- > jasht-ə}. 
 $DIACLEA CORRECTION C3B.XXVI A1IL sT > Ts metathesis only applies at anlaut and after vocoids. Therefore, fed by laryngeal vocalization A1.XXXXVII. 
@@ -288,9 +294,8 @@ $ -- that is Kortlandt, Frederik. 1987. PIE *s in Albanian. Studies in Slavic an
 $ perhaps check also Schumacher 2013 = Schumacher, Stefan. 2013. Historische Phonologie. In Stefan Schumacher and Joachim Matzinger (eds.). Die Verben des Altabanischen. Belegwörterbuch, Vorgeschichte und Etymologie. Unter Mitarbeit von Anna-Maria Adaktylos. Wiesbaden: Harassowitz, 205-276. 
 $ first part was originally (before 8/5/23): (k) s > ʃ 
 $ this had to be changed to sidestep then-current input-side issues in DiaSim. TODO consider restoring when this is resolved. 
-$DIACLEA CORRECTION
-s > ʃ
-ʃ > ʒ / __ [+stres] (@)* [+syl]
+$s > ʃ
+s > ʒ / __ [+stres] (@)* [+syl]
 
 $DV4.3K2 *tp- > ft- (perhaps after some schwa losses?) 
 $using φ  for reasons explained in formalization for DV4.3K1 
@@ -594,7 +599,8 @@ $ DIACLEA CORRECTION: now using lˠ not lː  { not listed in fixes file bc this 
 	$ j suppressed in disjunction after locus -- currently not involved. 
 $ DIACLEA CORRECTION B2.XXIII -- presonorant lowering of o and o: moved back to before l-palatalization (using rule ordering to explain what would otherwise be a rule complication)
 $ DIACLEA CORRECTION C5.II : massive simplification of  DV1736.G1 / DV2.2.1L1 specifically early part, the lowering. Rather than occurring before hyperspecific set of posterior  consonants (n, j, ɫ, r), moved back into CPA where it occurs before all laterals and nalals for a broadened input domain of all non-high tonic round vowels. For cases before r, only case where ō is effected is in t __ r -- which now is handled in C3B.XVIII 
-[+round,+prim,-hi,+back] > [+lo,+tense,-front] / __ [nnas,-nlat]
+$ DIACLEA CORRECTION C3B.XXX : lowering of o and oː now only happens before SHORT resonants (not - nonnum > nun , *pōlna > pelë)
+[+round,+prim,-hi,+back] > [+lo,+tense,-front] / __ [nnas,-nlat,-long] [-cons]
 
 $DIACLEA CORRECTION C5.II.ao  --  o-lowering also occurs after liquids, if the liquid is after labial-obstruent (florīnum > flori, proximare > prozhëm, prodāre > prodhoj, maybe prōmitt-o > premtoj) or onset sonorant (rosalia > rrëshajë -- albeit dialectal rrushajë, rōmānus > remër/rëmër, notoj, rozhponjë...).
 [+round,-prim,-hi] > [+lo,+tense] / # ((@)* [+lab,-son]) [+son,+cor] __

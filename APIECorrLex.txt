@@ -3,6 +3,7 @@ $This is for inherited etyma from PIE to Albanian that are relatively secure in 
 $ Decide if few cases of ancient attestation are to be included. 
 $ Inclusion only if stem before gender/number endings is secure. Only gender/number endings allowed as affixes! 
 	$"Semi-secure" marks possible exclusion. 
+	$working with aorists in -w- + BE (or -it/d for 3sg)
 
 $ FIRST DORSAL ROW - front dorsals. Current policy k1 g1 gh1 h1 = c ɟ ɟʰ x but this could change
 
@@ -43,7 +44,7 @@ c ˈu p o s , s ˈu p , s ˈu p $shoulder. Orel 1998: 404; Demiraj 1997: 355.  C
 t o c ˈu p o s , t͡s ˈu p , t͡s ˈu p $shoulder, locative NeP Prefix. Demiraj 1997: 355. 
 
 $k1-l-w call
-c l e w ˈe x n e o χ , k ʎ ˈu o̯ ɲ , c ˈu a̯ j $call.1sg.pres.act.ind. Lopuhaa 2015: 10 as MPA klewɒnj, Demiraj 1997: 342 as clu(H)-ex- apparently from the cl̩w-ex stative: cf. Lat cluēō "to be known, Latv sluvêt, Mess klaohi. Proto-Alb *kluo̯ɲ : Old Gheg 3pl cluognene kluoɲənə. Cham/Arb/Arv kluanj; Buz kluoj; Gheg quej/quj. Going with that stative for now.
+c l ˌe w ˈe x n e o χ , k ʎ ˈu o̯ ɲ , c ˈu a̯ j $call.1sg.pres.act.ind. Lopuhaa 2015: 10 as MPA klewɒnj, Demiraj 1997: 342 as clu(H)-ex- apparently from the cl̩w-ex stative: cf. Lat cluēō "to be known, Latv sluvêt, Mess klaohi. Proto-Alb *kluo̯ɲ : Old Gheg 3pl cluognene kluoɲənə. Cham/Arb/Arv kluanj; Buz kluoj; Gheg quej/quj. Going with that stative for now.
 c l ˈo w s n e j o χ , k ʎ ˈãː ɲ , c ˈa j $cry.1sg.pres.act.indic. Cf. Greek klai-w "weep, sob," with -w- variants dialectally. Beekes EDG 709 invokes Pre-Greek too hastily here -- easily an anlaut causative "to make listen". 
 
 $g1- 
@@ -61,8 +62,8 @@ $g1-n
 
 	$g1-n-h3 "recognize, know", + inchoative -sc-, cf Latin gnōscō Gk gi-gnɔ᷄sco  . Demiraj 1997: 305; Orel 1998: also 305. Per Schumacher 2013, present stem as zero grade; TODO PERHAPS revise this.
 	$ Schumacher '13 has these with a root ɟn̩xʷ -- why not ɟnexʷ perhaps because that would give ō ? But why not ɟnxʷex-? Cf. h₁en-ɡʷʰreh₁scoh₂ > ngroh " heat up", likewise ftoh   
-ɟ n̩ xʷ s c ˈe t i , ɲ ˈæ x , ɲ ˈɛ h $verb, know.3sg.pres.act.ind. Regular, w i-mutation, per Schumacher 2013: 222. Central Gheg has some njef; Arbereshe has some njegh. 
-ɟ n̩ xʷ s c ˈe s i , ɲ ˈæ x , ɲ ˈɛ h $verb, know.2sg.pres.act.ind. Regular, w i-mutation, per Schumacher 2013: 222. Central Gheg has some njef; Arbereshe has some njegh. 
+ɟ n xʷ s c ˈe t i , ɲ ˈæ x , ɲ ˈɛ h $verb, know.3sg.pres.act.ind. Regular, w i-mutation, per Schumacher 2013: 222. Central Gheg has some njef; Arbereshe has some njegh. 
+ɟ n xʷ s c ˈe s i , ɲ ˈæ x , ɲ ˈɛ h $verb, know.2sg.pres.act.ind. Regular, w i-mutation, per Schumacher 2013: 222. Central Gheg has some njef; Arbereshe has some njegh. 
 ɟ n e xʷ s c ˈo χ , ɲ ˈɔ x , ɲ ˈɔ h $know.1sg.pres.act.ind. Schumacher 2013: 231-2 -- crossed paradigm remarksș full grade drawn from aorist -- as further noted by Orel 1998: 305. Central (Budi) Gheg njof (NW njoh -- Buzuku at least); Northeast (Bogdani) has both.
 
 	$g1-n-w knee? 
@@ -120,13 +121,13 @@ s ˈu χ , >* , ʃ ˈi $rain. Greek hy-w "to rain", Toc A suw-am$ "it rains", Hi
 x u d r i ˈo m , ˈu j ə , ˈu j ə $water. Masculine < neuter? Orel 1998: 483. Hamp 1965: 138. Derivation in -ios. Cf Greek hydro-; Hittite wadar, Eng water and etc, Phryg bedu, Umbrian utur, etc. NIL 717. 
 
 $h1-w put
-x w ˈo s e j o χ , v ˈɛ ʃ , v ˈɛ ʃ $wear.1sg.pres.act.indic. Skt vas-te, Toch A wässäte 'dress', Doric wɛ̄ma, Attic ennymi, Hittite wes- etc. Orel 1998: 501-2. Causative per Neri 2020 @DPEWA: vesh2. Tentative laryngeal per Hamp 1965: 138. 
-x w ˈo s e j e t i , v ˈɛ ʃ , v ˈɛ ʃ $wear.3sg.pres.act.indic. Schumacher '13: 253. 
+x w ˈe s e j o χ , v ˈɛ ʃ , v ˈɛ ʃ $wear.1sg.pres.act.indic. Skt vas-te, Toch A wässäte 'dress', Doric wɛ̄ma, Attic ennymi, Hittite wes- etc. Orel 1998: 501-2. Causative per Neri 2020 @DPEWA: vesh2. Tentative laryngeal per Hamp 1965: 138. 
+x w ˈe s e j e t i , v ˈɛ ʃ , v ˈɛ ʃ $wear.3sg.pres.act.indic. Schumacher '13: 253. 
 
 
 $1sg pronouns -- see literature within. 
 x ˈe m e , j ˈĩ m , ˈi m $1sg.poss.msg. Gheg jem. Orel 1998: 155 as from is me; Demiraj 1997: 206 as em- cf. Gk emós, Arm im. Hamp 1965: 135 comparison to these plus Gaulish im-. 
-x m e , m ə , m ə $1sg.acc. Neri '24 @DPEWA: une/ne. 
+x m ˌe , m ə , m ə $1sg.acc. Neri '24 @DPEWA: une/ne. 
 x m ˈeː m , m ˈu o̯ , m ˈu a̯ $1sg.acc/dat. Demiraj 1997: 279. Schumacher '13ː 251. 
 
 x w ˈe n o χ , v ˈæ̃ː ɾ̃ , v ˈə $put.1sg.pres.act.indic. Gheg vẽː , Arb vəː. Schumacher '13: 218
@@ -138,8 +139,8 @@ x ˈe t e s i , j ˈɛ t , j ˈɛ t $stay.2sg.pres.act.indic. Schumacher '13: 25
 x ˈe t e t i , j ˈɛ t , j ˈɛ t $stay.3sg.pres.act.indic. Schumacher '13: 253. 
 
 x ˈe s i , j ˈɛ , j ˈɛ $verb, BE.2sg.pres.act.indic. Originally a proposal, but turns out Brian Joseph 2016 supports it. PPALb eσ(ɩ). 
-x ˈe s t i , ˈi ʃ t , ˈi ʃ t $be.3sg.aor.act.indic. Schumacher '13: 260.
-x ˈe s s e n t e χ s , ˈi ʃ ə n , ˈi ʃ ə n $be.3pl.aor.act.indic. Schumacher '13: 263 as x ˈe s e n t o, modified PROPOSAL to -s- -eχs {-oi i also plausible}. 
+x ˈe s t i d , ˈi ʃ t , ˈi ʃ t $be.3sg.aor.act.indic. Schumacher '13: 260.
+x ˈe s w ˈe n t e χ s , ˈi ʃ ə n , ˈi ʃ ə n $be.3pl.aor.act.indic. Schumacher '13: 263 as x ˈe s e n t o, modified PROPOSAL to -s- -eχs {-oi i also plausible}. 
 
 x ˌe d ˈu n e χ , ð ˈũ ɾ̃ ə , ð ˈu n ə $injury, blemish, violence. Cf. Gk hodýnɛ̄ "pain". Demiraj 1997ː 163. NIL 209, 214; Hyllested and Joseph '22: 238. dhurë also occurs in some Tosk; treating dhunə as regular though. Orel '00: 155 as from an edunti {augment?}
 
@@ -147,9 +148,9 @@ x ˌe d ˈu n e χ , ð ˈũ ɾ̃ ə , ð ˈu n ə $injury, blemish, violence. 
 x ˈo r ɟʰ o χ , ˈa ɾ ð , ˈa ɾ ð $come.1sg.aor.act.indic. Replaced with erdh- in many cases under i-mutation, 1sg later leveled. Schumacher & Matzinger 2013: 266. Orel 2000: 259. Hamp 1965: 136. Cognate with Ancient Greek ἔρχομαι (érkhomai), Old Irish eirg. Originally present likely. 
 x ˈo r ɟʰ e t i , ˈæ ɾ ð , ˈɛ ɾ ð $come.3sg.aor.act.indic. I-mutated. De Vaan 2018: 1746.  
 
-x r ˈe ɡʷ n o s , ɾ ˈɛ̃ː ɾ̃ , ɾ ˈɛ $cloud. Demiraj AE 344. Greek érebos, eremnos 'dark' 
+x e r ˈe ɡʷ n o s , ɾ ˈɛ̃ː ɾ̃ , ɾ ˈɛ $cloud. Demiraj AE 344. Greek érebos, eremnos 'dark' 
 
-x r ˈe p o χ , ɾ ˈi e̯ p , ɾ j ˈɛ p $flay/pluck.1sg.pres.act.indic. Cf. Lith ap-re̋pti, Lat r-a-pio, Gk erépto-mai; tentative root per Beekes EDG 453. Demiraj AE 36. 
+x e r ˈe p o χ , ɾ ˈi e̯ p , ɾ j ˈɛ p $flay/pluck.1sg.pres.act.indic. Cf. Lith ap-re̋pti, Lat r-a-pio, Gk erépto-mai; tentative root per Beekes EDG 453. Demiraj AE 36. 
 
 $h1-r-g1h vine? 
 x ˌo r ɟʰ ˈi e χ , ɦ a ɾ ð ˈi , a ɾ ð ˈi $vine. Orel 1998: 7 as with ɟʰ. Instead favoring Demiraj 1997: 195's connection to PIE HorT- cf Arm. ort 'grape-vine'. Variants: hardhi, erdhi, rdhi, dhri, urdhi, orli.  
@@ -223,7 +224,7 @@ $χ(e)c- "sharp" , etc.
 $χ(e)iɟ-i- "goat", cf Arm. ayc ‘(she-)goat’ from h₂(e)iǵ-ih₂, Gr. αἴξ ‘(she-)goat’; Lith ožỹs... Per Demiraj 1997: 160 "probably an ancient wanderwart",TODO move into APIEBalkLex? But it's in Lithuanian it seems
 χ ˈe j ɟ o s , ɦ ˈɛ ð , ˈɛ ð $goat kid. Some dialects have hedh. Schumacher '13: 227. Demiraj 1997: 160 as "Balkan". Gk aix, aigos, Armenian ays. For Latin etymology now set aside: Vatasescu 1997: 201, Meyer 1891: 98. Pellegrini 1980(: 68) raises possibility of a slightly later Latin loan on this; Cabej 1960: 105-6 is skeptical as is Huld 1984: 61. Cf. Romanian ied "buck", and also Aromanian ed, Sardinian edu, Latin haedus, even if rare in Romance, is a regularly corresponding IE cognate to Germanic *gaits (Old English gāt, Old Saxon gēt, Old High German geiz, Old Norse geit, Gothic gaits). Hamp 1965: 140.
 χ ˌe j ɟ ˈi j e χ , ð ˈiː , ð ˈi $she-goat. Demiraj 1997: 160. Cognate to Armenian ayci. Dzidza in Hesychius.
-χ ˌe ɡʷ n i ˈe x , ˈã ɲ ə , ˈɛ ɲ ə $dairy goat, sheep, cattle. Gheg enjë, some Tosk enjə too, decide output. Orel 1998: 88. Derivation in -i- of cognate to Latin agnus, Agk amnos, OIr uan, PSlav agnʊ etc.
+χ ˈe ɡʷ n i e x , ˈã ɲ ə , ˈɛ ɲ ə $dairy goat, sheep, cattle. Gheg enjë, some Tosk enjə too, decide output. Orel 1998: 88. Derivation in -i- of cognate to Latin agnus, Agk amnos, OIr uan, PSlav agnʊ etc.
 
 $h2-i-dh heat, fire
 χ ˈe j dʰ i c e χ i , ɦ ˈɛ θ ɛ , ˈɛ θ ɛ $fever. Greek aíthos 'fire', Skt édhas 'firewood'. Demiraj AE 168
@@ -239,7 +240,7 @@ x w i dʰ x ˈe w e χ , >* , v ˈɛ $widow. De vaan '18: 1746. Very secure thou
 χ w e l k ˈe j o χ , x ˈɛ ʎ c , h ˈɛ c $throw.1sg.pres.act.indic. Greek helkéɔ̄ , Lith velku, Slav vleko, Arm helg. Vaccarizzo Arbereshe ɣélc, Sophiko heʎc, Old Gheg hjek for 2sg, 3sg, modern Gheg hek, hjek. Hamp 1965: 132 over Orel 1998: 145's skalk- hypothesis. Neri and Demiraj '21 @DPEWA argue for suppletion between the two. 
 
 χ w ˈe r i o χ , v ˈi e̯ r , v j ˈɛ r $hang.1sg.act.pres.indic. Demiraj AE 423. Beekes 2010: 24.; Orel 1998: 511. Very close to AGk ἀείρω (aeírō, “to heave, hoist up”), perhaps also Arm ger 'above, hyper-', PBS wer-tei "thrust",Skt vrn̩-oti 'ward off'. PROPOSAL that it's -ioχ explaining the rr.
-χ w ˈeː r ˈe s m̩ , v ˈɔ ɾ ˌa , v ˈɔ ɾ a $hang.1sg.aor.pres.indic. Demiraj AE 423.
+χ w ˈeː r w ˈe s m̩ , v ˈɔ ɾ ˌa , v ˈɔ ɾ a $hang.1sg.aor.pres.indic. Demiraj AE 423.
 χ w ˈe r n m̩ , v ˈi e̯ r ə , v j ˈɛ r ə $hang.pastparticiple. Demiraj AE 423.
 x w ˈo r e j o χ , v ˈa ɾ , v ˈa ɾ $hangup.1sg.pres.act.indic. Demiraj AE 423.
 
@@ -260,10 +261,10 @@ $h2-m nurse, milk
 χ ˈe n t e χ , >* , ˈa n ə $side, edge, verge, brink, facet. Gheg ãnë, ãndë. Demiraj 1997: 77. Go. und ‘up to’; Skt. antá- ‘edge, border, end’.
 
 $χenx- 'breathe'. 
-χ e n x i ˈo χ , ˈɑ̃ ɲ , ˈə j $swell.1sg.pres.act.indic. Gheg ãj , Vaccarizzo Arb æ-, Erizzo ɔ̃j; cf. Skt ániti , Avestan ãniiia "breathing" ,etc. Hamp '65: 131. 
-χ e n x t ˈe χ , ˈɑ̃ n d ə , ˈə n d ə $desire, pleasure. Gr. (Hes.) hantás ἀντάς . πνοάς; ON andi ‘spirit, soul’. Demiraj 1997: 170. Orel 1998: 91. NIL 308: ON o̩nn < Gmc *anθo {?}, Old Norse and, Old ENg anda, OHG anto...? 
+χ ˈe n x i o χ , ˈɑ̃ ɲ , ˈə j $swell.1sg.pres.act.indic. Gheg ãj , Vaccarizzo Arb æ-, Erizzo ɔ̃j; cf. Skt ániti , Avestan ãniiia "breathing" ,etc. Hamp '65: 131. 
+χ ˈe n x e t e χ , ˈɑ̃ n d ə , ˈə n d ə $desire, pleasure. Gr. (Hes.) hantás ἀντάς . πνοάς; ON andi ‘spirit, soul’. Demiraj 1997: 170. Orel 1998: 91. NIL 308: ON o̩nn < Gmc *anθo {?}, Old Norse and, Old ENg anda, OHG anto...? 
 
-χ n ˈe χ t i e χ , ɾ̃ ˈɒː t͡ʃ ɑ , ɾ ˈɔ s ə $duck. Romanian rață. Derived from same root as Latin anas/anatem, Skt āti , AGk nessa, Lith antis, etc. Orel 1998: 374. 
+χ e n ˈe χ t i e χ , ɾ̃ ˈɒː t͡ʃ ɑ , ɾ ˈɔ s ə $duck. Romanian rață. Derived from same root as Latin anas/anatem, Skt āti , AGk nessa, Lith antis, etc. Orel 1998: 374. 
 
 χ ˈn̩ dʰ o s , ˈã n d , ˈə n d $bloom, pollen, flower. Demiraj 1997: 166. Gk Anthos, Arm and 'field'. As feminine in Orel 1998: 92 and Hamp 1965: 141. Beekes 2010ː 104. 
 χ ˈn̩ dʰ i x , ˈæ̃ n d , ˈɛ n d $bloom, pollen. Demiraj 1997: 166. I-mutated form from plural -- that seems to actually be from dual? 
@@ -274,7 +275,7 @@ $χenx- 'breathe'.
 
 χ l ˈo i d o s , l ˈɛ ð , l ˈɛ ð $loam. Cf. Old Prussian laydis id. Demiraj AE 235. OREL AED 216. 
 
-χ r ˈo t i c o s , r ˈæ θ , r ˈɛ θ $hoop, circle, wheel. In some Gheg rrath. Orel 1998: 381, Demiraj 1997: 136 is not sure about the -th though. -ico derivation of Hrot-o- wheel. 
+x r ˈo t i c o s , r ˈæ θ , r ˈɛ θ $hoop, circle, wheel. In some Gheg rrath. Orel 1998: 381, Demiraj 1997: 136 is not sure about the -th though. -ico derivation of Hrot-o- wheel. 
 
 χ ˈr̩ t c o s , ˈa ɾ θ , ˈa ɾ θ $bear. More recently backformed to ar-, -th reinterpreted as the suffix -th; > Bogdani ar-a, Tosk/Gheg ar-i. Demiraj 1997: 81. Orel 1998: 8-9. Arm. arǰ ‘bear’, Skt. ŕ̥kṣa- ‘bear’. Schumacher '13: 231. 
 
@@ -297,7 +298,7 @@ $h4-w distal particle and related pronouns. PROPOSAL this is same ħew- as "away
 m e ħ ˈe r n o χ , m ˈa r , m ˈa r $take.1sg.pres.act.indic. Schumacher '13: 231. Hamp '65. Avestan ərənuuwainti, Arm arnowm, Greek arnymai. 
 m e ħ ˈe r n e s i , m ˈæ r , m ˈɛ r $take.2sg.pres.act.indic. Schumacher '13: 218, brought into consistency with Hamp. Avestan ərənuuwainti, Arm arnowm, Greek arnymai. 
 m e ħ ˈe r n e t i , m ˈæ r , m ˈɛ r $take.3sg.pres.act.indic. Schumacher '13: 218, brought into consistency with Hamp. Avestan ərənuuwainti, Arm arnowm, Greek arnymai. 
-m ħ ˈe χ r i d , m ˈu o̯ ɾ , m ˈu a̯ ɾ $take.3sg.aor.act.indic. Old form. Schumacher '13:@21. Avestan ərənuuwainti, Arm arnowm, Greek arnymai. 
+m ħ ˈe χ r w i d , m ˈu o̯ ɾ , m ˈu a̯ ɾ $take.3sg.aor.act.indic. Old form. Schumacher '13:@21. Avestan ərənuuwainti, Arm arnowm, Greek arnymai. 
 
 $k3-
 
@@ -325,8 +326,8 @@ kʷ ˈu r , k ˈuː ɾ , k ˈu ɾ $when. Demiraj 1997: 227; Demiraj & Neri 2024 
 
 $kʷelx BRING conjugations follow 
 kʷ ˈe l x o χ , s ˈɛː lˠ , s j ˈɛ lˠ $bring.1SG.PRES.ACT.INDIC. Arb siell, Old Gheg proper, and OT sjell. Demiraj 1997: 354. Endorsed by Beekes EDG 1169. 
-kʷ ˈe l x e t , s ˈɛː lˠ , s j ˈɛ lˠ $bring.3G.PRES.ACT.INDIC. Arb siell, Buzuku siell, and OT siell and sjell. Demiraj 1997: 354. Neri '21. 
-kʷ ˈo l x ˈe j e t i , c ˈɛː lˠ , c ˈɛ lˠ $bring.3SG.PRES.ACT.INDIC. Old Gheg form, actually. Schumacher 2013: 213. Gheg may be secondarily lengthened though. 
+kʷ ˈe l x e t , s ˈɛː lˠ , s j ˈɛ lˠ $bring.3SG.PRES.ACT.INDIC. Arb siell, Buzuku siell, and OT siell and sjell. Demiraj 1997: 354. Neri '21. 
+kʷ ˈo l x e t i , c ˈɛː lˠ , c ˈɛ lˠ $bring.3SG.PRES.ACT.INDIC. Old Gheg form, actually. Schumacher 2013: 213. Gheg may be secondarily lengthened though. 
 kʷ e l x s c ˈo χ m m̩ , s ˈu l ˈɛ m ə , s ˈu l ɛ m $throwself.1sg.pres.medpass.indic. From sjell's zero grade. Cabej 1986: 116; Orel 1998: 404. PROPOSAL -- nope does not work as zero grade though. 
 
 
@@ -339,9 +340,9 @@ $g3
 ɡʷ ˈr̩ x o s , ɡ ˈu ɾ , ɡ ˈu ɾ $stone. Skt giri 'mountain' with a locative -i, Lith gùras 'promontory, Slovic gòra, Gk deiros. Demiraj 1997: 181, 2021 @DPEWA,Orel 1998: 127. Schumacher '13: 230.
 
 $gʷr̩x- 'swallow', cf Skt gir-á-ti 'to swallow'. Also past tense and participle of "eat". 
-χ ˈe n ɡʷ r x ˈe s m̩ , h ˈɑ̃ n ɡ ɾ ˈa , h ˈə ŋ ɡ ɾ a $eat.1sg.aor.act.indic. Demiraj 1997: 297. xen-gwrH- esm̩.
-χ e n ɡʷ r xʷ t , h ˈɑ̃ n ɡ ɾ̩ , h ˈə ŋ ɡ ə ɾ $eat.3sg.aor.act.indic. -t unclear. Buzuku angrë, Old Tosk via Variboba hëngër. Schumacher 2013: 209. 
-χ e n ɡʷ r xʷ ˈe s i t , h ˈɑ̃ n ɡ ɾ ˈi , h ˈə ŋ ɡ ɾ i $eat.3sg.aor.act.indic. Bogdani hangri, modern hëngri.  Schumacher 2013: 209.
+χ ˈe n ɡʷ r x w ˈe s m̩ , h ˈɑ̃ n ɡ ɾ ˈa , h ˈə ŋ ɡ ɾ a $eat.1sg.aor.act.indic. Demiraj 1997: 297. xen-gwrH- esm̩.
+χ ˈe n ɡʷ r xʷ t i , h ˈɑ̃ n ɡ ɾ̩ , h ˈə ŋ ɡ ə ɾ $eat.3sg.aor.act.indic. -t unclear, pROPOSAL as equal to the -ti in isht ; esti.. Buzuku angrë, Old Tosk via Variboba hëngër. Schumacher 2013: 209. 
+χ ˈe n ɡʷ r x w ˈe s i t , h ˈɑ̃ n ɡ ɾ ˈi , h ˈə ŋ ɡ ɾ i $eat.3sg.aor.act.indic. Bogdani hangri, modern hëngri.  Schumacher 2013: 209.
 χ ˈe n ɡʷ r xʷ m o s , h ˈɑ̃ n ɡ ɾ ə m ə , h ˈə ŋ ɡ ɾ ə m $eat.1pl.aor.ac.indic. Schumacher '13: 231, with change to stem. 
 χ ˌe n ɡʷ ˈr̩ x n e χ , h ˌɑ̃ n ɡ ˈu r ə , a ŋ ɡ ˈu r ə $entrails. Gheg. Demiraj 1997: 297. 
 χ ˌe n ɡʷ r x n n m̩ , n ɡ r ˈɑ̃ nː ə , ŋ ɡ ɾ ˈə n ə $eat.participle. Demiraj 1997: 297
@@ -358,13 +359,13 @@ $gh3
 $h3- 
 xʷ e c t ˈe xʷ t m̩ , t ˈɛ t ə , t ˈɛ t ə $eight, eighth. Demiraj AE 384. Gk oktɔ̄, Latin octō, Gaulish oxtū etc. 
 
-xʷ kʷ ˈi x w e s , s ˈyː , s ˈy $eye. Originally from dual. Demiraj 1997: 356. Orel 1998: 405 wants a later suffix in -wi influenced by duwō "two". NIL 376 seems to endorese that the -y comes from "two". Cf. Armenian ac'ik -- PROPOSAL of extension in -wes. 
+xʷ kʷ ˈi x w i x , s ˈyː , s ˈy $eye. Originally from dual. Demiraj 1997: 356. Orel 1998: 405 wants a later suffix in -wi influenced by duwō "two". NIL 376 seems to endorese that the -y comes from "two". Cf. Armenian ac'ik -- PROPOSAL of extension in -wes. 
 
 xʷ i ˈo xʷ s o χ , ɟ ˈɛ ʃ , ɟ ˈɛ ʃ $gird.1sg.pres.act.indic. AGk dzɔ̄st-ós, Lithuanian ju᷇ostas "gird". ngjesh and zgjesh "ungird" derivations are likely secondary. Dushmani dʒɛʃ, Sophiko ɟɛʃ-.  Hamp 1965: 134. Demiraj 1997: 299.
 xʷ i ˈe xʷ s o χ , ɟ ˈɛ ʃ , ɟ ˈɛ ʃ $knead.1sg.pres.act.indic. AGk zdé-ɔ 'seethe.1sg'', Alemannic jes-an 'ferment', Englihs yeast, Tocharian A yäs- 'boil', Slavic yásyati "boil". Hamp 1965: 134. Orel 1998: 133. Demiraj 1997: 300, wiht secondary n-, as he notes. 
 
 xʷ ˈo d m e χ , ˈã m ə , ... $odor. Doesn't actually exist in Tosk. Instead in Gheg as ãmë. Demiraj 1997: 76. Derived amëz. Orel 1998: 4. May also/instead be metaphorically from mother (French mere de vinaigre) -- Cabej 1982 II: 40-1. Inherited lemma. Beekes EDG 1051. 
-xʷ e d r ˈe χ , ˈɛ ɾ ə , ˈɛ ɾ ə $wind, smell. Native per Hamp apud Brian Joseph personal communication, also Hyllested and Joseph 2022, via Winters' lawː odro. Bonnet 1998: 135 as from an {accusative?} {Attic?} Greek aera. Or a later borrowing from Romance -- cf Orel 1998: 89. Matasovic 2024: 61. 
+xʷ ˈe d r e χ , ˈɛ ɾ ə , ˈɛ ɾ ə $wind, smell. Native per Hamp apud Brian Joseph personal communication, also Hyllested and Joseph 2022, via Winters' lawː odro. Bonnet 1998: 135 as from an {accusative?} {Attic?} Greek aera. Or a later borrowing from Romance -- cf Orel 1998: 89. Matasovic 2024: 61. 
 
 
 xʷ ˈe s q o s , ɦ ˈa x , ˈa h $beech. Cognate to "ash" (Eng.). Orel 1998: 2. Demiraj 1997: 73. Gheg variant hah; Arvantika ah. Huld 1986(:249) - [likely Archaic Proto-Albanian] approximated in gloss hˈaxos. Possibly attested in Hesychius. Hamp '65: 132. Old Norse askr, OEng æesc, Armenian haçi "ash", maybe Greek ɦoksýɛ̄ "beech". Beekes EDG 1088.
@@ -384,7 +385,7 @@ w ˈe ɟʰ o χ , w ˈi e̯ ð , v j ˈɛ ð $rob.1sg.act.pres.indic. Orel 1998:
 w ˈe ɟʰ e s i , w ˈi e̯ ð , v j ˈɛ ð $rob.2sg.act.pres.indic. Schumacher 2013: 214. 
 w ˈe ɟʰ e t i , w ˈi e̯ ð , v j ˈɛ ð $rob.3sg.act.pres.indic. Schumacher 2013: 214. 
 x w ˈe ɟʰ o n t o i , w ˈi e̯ ð ə̃ n ə , v j ˈɛ ð ə n $rob.3pl.act.pres.indic. Schumacher '13: 215 has it from an -ontoi. 
-w ˈeː ɟʰ ˌe s m̩ , v ˈɔ ð ˌa , v ˈɔ ð a $rob.1sg.act.aor.indic.
+w ˈeː ɟʰ w ˈe s m̩ , v ˈɔ ð ˌa , v ˈɔ ð a $rob.1sg.act.aor.indic.
 
 w ˈo x i n e χ , v ˈɛ̃ ɾ̃ ə , v ˈɛ ɾ ə $wine. Demiraj AE 414. Schumacher '13: 227. West Greek woinos, Greek oinis, ARm gini, Lat vīnum all cognates. Beekes EDG 1059
 
@@ -403,7 +404,7 @@ w ˈeː l x e χ , w ˈɔ l ɑ , v ˈa lˠ ə $adverbial-- maybe {wondering, wis
 $welH- turn
 w ˈe l x e t i , w ˈi e̯ lˠ , v j ˈɛ lˠ $puke.3sg.pres.act.indic. Schumacher '13:218. Cf Skt válati 'turn,twist.3sg', German wallen, wälzen
 w ˈe l x o χ , w ˈi e̯ lˠ , v j ˈɛ lˠ $puke.1sg.pres.act.indic. Demiraj AE 422. Cf Skt válati 'turn,twist.3sg', German wallen, wälzen
-w eː l x ˈe s m̩ , w ˌɔ lˠ ˈa , v ˈɔ lˠ a $puke.1sg.aor.act.indic. Demiraj AE 422.
+w ˈeː l x w ˈe s m̩ , w ˌɔ lˠ ˈa , v ˈɔ lˠ a $puke.1sg.aor.act.indic. Demiraj AE 422.
 d i s w ˈe l x m̩ t m̩ , >* , z v j ˈɛ lˠ ə t $nimble. Demiraj AE 422.
 d i s x e n t e r w ˈe l x o χ , >* , ʒ d ə ɾ v j ˈɛ lˠ $unravel.1sg.pres.act.indic. Demiraj AE 422.
 
@@ -437,9 +438,9 @@ p ˈi t s i e χ , p ˈi ʃ ə , p ˈi ʃ ə $pine. Cf Gk pissa "resin". Sihler 
 
 $p-h2 watch over
 p χ t ˈm̩ , p ˈa t ə , p ˈa t ə $see.ptcp. Demiraj AE 314; Orel 1998: 425-6. Skt pāti "herd, watch over" Avestan pāt
-p χ s s ˈm̩ , p ˈa ʃ ə , p ˈa ʃ ə $see.1sg.aor.act.indic. Demiraj AE 314. Orel 1998: 425-6. Ultimately from s present of peh2 -- cf. Lat pār-eō, Hittite pah̬h̬aš/-nu-zi || -ari, Slavic pasti "to herd"
-p χ s ˈe s , p ˈa e̯ , p ˈɛ $see.2sg.aor.act.indic. Demiraj AE 314. Orel 1998: 425-6. Ultimately from s present of peh2 -- cf. Lat pār-eō, Hittite pah̬h̬aš/-nu-zi || -ari, Slavic pasti "to herd"
-p χ ˈe s , p ˈaː , p ˈa $see.3sg.aor.act.indic.Demiraj AE 314. Orel 1998: 425-6. Ultimately from s present of peh2 -- cf. Lat pār-eō, Hittite pah̬h̬aš/-nu-zi || -ari, Slavic pasti "to herd"
+p χ s w ˈe s m̩ , p ˈa ʃ ə , p ˈa ʃ ə $see.1sg.aor.act.indic. Demiraj AE 314. Orel 1998: 425-6. Ultimately from s present of peh2 -- cf. Lat pār-eō, Hittite pah̬h̬aš/-nu-zi || -ari, Slavic pasti "to herd"
+p χ s w ˈe s , p ˈa e̯ , p ˈɛ $see.2sg.aor.act.indic. Demiraj AE 314. Orel 1998: 425-6. Ultimately from s present of peh2 -- cf. Lat pār-eō, Hittite pah̬h̬aš/-nu-zi || -ari, Slavic pasti "to herd"
+p χ ˈe s i d , p ˈaː , p ˈa $see.3sg.aor.act.indic.Demiraj AE 314. Orel 1998: 425-6. Ultimately from s present of peh2 -- cf. Lat pār-eō, Hittite pah̬h̬aš/-nu-zi || -ari, Slavic pasti "to herd"
 p χ ˈe s n m̩ , p ˈãː ɾ ə , p ˈa ɾ ə $see.ptcp. Demiraj AE 314. Orel 1998: 425-6. Ultimately from s present of peh2 -- cf. Lat pār-eō, Hittite pah̬h̬aš/-nu-zi || -ari, Slavic pasti "to herd"
 
 $pekʷ- 'cook, ripen' 
@@ -453,7 +454,7 @@ $p-w-d
 p ˈu d n e χ , p ˈu n ə , p ˈu n ə $work. Gk s-peudw "hurry", Lith spausti " press". But this could be issue for Winters' ? Beekes EDG 1282. 
 
 
-p ˈo t ˈe s m̩ , p ˈa t ˈa , p ˈa t a $have.1sg.aor.act.indic. Demiraj AE 313. From IE potis 'owner' -- Latin potis (“able, capable”), Ancient Greek πόσις (pósis), Sanskrit पति (páti)
+p ˈo t w ˈe s m̩ , p ˈa t ˈa , p ˈa t a $have.1sg.aor.act.indic. Demiraj AE 313. From IE potis 'owner' -- Latin potis (“able, capable”), Ancient Greek πόσις (pósis), Sanskrit पति (páti)
 
 $ped-s "foot"
 p ˈe d s i , p ˈɔ ʃ , p ˈɔ ʃ $below -- bound root in përposh "downwards, underneath" and rëposh "below". NIL 527: cognate to Old Irish ís "below", Old Welsh is "below", Umbrian abl.sg persi "from the foot". Lengthening via Winter's law per NIL 532. Hamp 1991: 74 instead proposes an adverb pēd-si under a pēd-tjo which is rejected for its claims of underlying the Baltic by the NIL 532. Demiraj 1997 and Orel 1998 both discuss influence from Latin pos poste "behind", if not borrowing, which leaves some semantic questions. Schumacher '13ː 221 prefer -su. 
@@ -491,7 +492,7 @@ s p ˈe r o s , f ˈi e̯ ɾ , f ˈi e̯ ɾ $fern. OCS pero "feather", and esp. 
 $perd- fart. 
 p ˈe r d o χ , p ˈi e̯ ɾ ð , p j ˈɛ ɾ ð $fart.1sg.pres.act.indic. Demiraj AE 323, Beekes EDG 1176. Russian perdét', Lith persti, OHG ferzan, Skt pardate, Greek perdo-mai, Greek perdw poop. Very secure. 
 p ˈe r d e t i , p ˈi e̯ ɾ ð , p j ˈɛ ɾ ð $fart.3sg.pres.act.indic. Schumacher '13: 233. 
-p ˈeː r d ˈe s m̩ , p ˈɔ ɾ ð ˌa , p ˈɔ ɾ ð a $fart.1sg.aor.act.indic. Demiraj AE 323 on aorist source.
+p ˈeː r d w ˈe s m̩ , p ˈɔ ɾ ð ˌa , p ˈɔ ɾ ð a $fart.1sg.aor.act.indic. Demiraj AE 323 on aorist source.
 p ˈeː r d e χ , p ˈɔ ɾ ð ə , p ˈɔ ɾ ð ə $a fart. Demiraj AE 323. 
 
 $p-r
@@ -566,8 +567,8 @@ $m-
 m ˈe x , m ˈɔ , m ˈɔ $not. Gk mɛ́ː. Beekes EDG 941
 m ˈe x kʷ e , m ˈɔ s , m ˈɔ s $not that. Beekes EDG 941. Schumacher '13ː 221. 
 
-$mex{-ti} "time, measurement"; cf Old English mǣþ (“measure”), Lithuanian mẽtas (“time”), Ancient Greek μῆτις (mêtis, “plan”
-m x t ˈe s m̩ , m ˈa t ˌa , m ˈa t a $measure.1sg.act.aor.indic. Demiraj 1997: 258. Orel 1998ː 246.
+$mex{-ti} "time, measurement"; cf Old English mǣþ (“measure”), Lithuanian mẽtas (“time”), Ancient Greek μῆτις mêtis “plan”
+m x t w ˈe s m̩ , m ˈa t ˌa , m ˈa t a $measure.1sg.act.aor.indic. Demiraj 1997: 258. Orel 1998ː 246.
 m x t i ˈo χ , m ˈa s , m ˈa s $measure.1sg.act.pres.indic. Demiraj 1997: 258. Orel 1998ː 246.
 m x t ˈi t i , m ˈa t , m ˈa t $measure.3sg.act.pres.indic. Demiraj 1997: 258. 
 m x t t ˈm̩ , m ˈa t ə , m ˈa t ə $measure.participle. Demiraj 1997: 258. TODO maybe remove this one.
@@ -606,9 +607,9 @@ $t-h2-g1 touch, grasp
 
 $t-kw run 
 x e n t ˈe kʷ o χ , n d ˈi e̯ k , n d j ˈɛ k $pursue.1sg.pres.act.indic. Demiraj AE 288. Lith tekéti 'run, flow', Skt tákti 'hasten'. Schumacher '13ː 251 si t with xenu- 
-x e n t ˈe kʷ w e d , n d ˈi c , n d ˈi c $pursue.3sg.pastimpf.act.indic. Originally from subjunctive, per Schumacher '13: 219. Attested in both Buzuku and Bogdani.  Arbitrary -w- to block early palatalization TODO remove.
-x e n t eː kʷ w i ˈe s m̩ , n d ˌɔ c ˈa , n d ˈɔ c a $pursue.1sg.aor.act.indic. Demiraj AE 288. Arbitrary -w- to block early palatalization TODO remove.
-x e n t eː kʷ w ˈi t , n d ˈɔ c , n d ˈɔ c $pursue.3sg.aor.act.indic. Buzuku ëndoq, Bogdani ndoq; later usurped by ndoq-i. Neri @DPEWA ndjek.  Arbitrary -w- to block early palatalization TODO remove.
+x e n t ˈe kʷ w i d , n d ˈi c , n d ˈi c $pursue.3sg.pastimpf.act.indic. Originally from subjunctive, per Schumacher '13: 219. Attested in both Buzuku and Bogdani.  Arbitrary -w- to block early palatalization TODO remove.
+x e n t ˈeː kʷ w ˈe s m̩ , n d ˌɔ c ˈa , n d ˈɔ c a $pursue.1sg.aor.act.indic. Demiraj AE 288. Arbitrary -w- to block early palatalization TODO remove.
+x e n t ˈeː kʷ w ˈi d , n d ˈɔ c , n d ˈɔ c $pursue.3sg.aor.act.indic. Buzuku ëndoq, Bogdani ndoq; later usurped by ndoq-i. Neri @DPEWA ndjek.  Arbitrary -w- to block early palatalization TODO remove.
 
 
 $t-w ~ 2sg pronoun
@@ -652,7 +653,7 @@ t ˈo r s e j o χ , t ˈæ ɾ , t ˈɛ ɾ $dry.1sg.pres.act.indic. Demiraj AE 3
 	$t-r-n 
 t ˈe r n o χ , t ˈi e̯ r , t j ˈɛ r $spin.1sg.pres.act.indic. Lat terō 'rub', tor-queo 'twist, turn'. Demiraj AE 387, explaining the -rr- as "hardening of stem auslaut". PROPOSAL instead this is a nasal present, seeing as it is absent in the aorist below. 
 t ˈe r n m̩ , t ˈi e̯ r ə , t j ˈɛ r ə $spin.pastptcp. 
-t ˈeː r ˈe s m̩ , t ˈɔ ɾ ˈa , t ˈɔ ɾ a $spin.1sg.aor.act.indic. Demiraj AE 387
+t ˈeː r w ˈe s m̩ , t ˈɔ ɾ ˈa , t ˈɔ ɾ a $spin.1sg.aor.act.indic. Demiraj AE 387
 
 $d- 
 m̩ d ˈe c m̩ t m̩ , ð j ˈɛ t ə , ð j ˈɛ t ə $ten, tenth. Demiraj 1997: 162. Orel 1998: 84 -- initial dh due to sandhi from m̩ from xnewm̩ "nine", I assume he means before -tm̩ adj is added onto both. Schumacher '13ː 217 instead has it from a feminine. 
@@ -661,8 +662,8 @@ d χ ˈe w n m̩ , d ˈãː ɾ̃ ə , d ˈa ɾ ə $divide.pastparticiple. Demir
 
 
 $dexʷ "give"
-x e d xʷ e s n ˈm̩ , ð ˈã n ə , ð ˈə n ə $given, past participle. NIL 68. Demiraj 1997:154. 
-x e d xʷ e s ˈm̩ , ð ˈa ʃ ə , ð ˈa ʃ ə $give.aor.act.indic.1sg. Demiraj 1997:154. 
+x e d xʷ ˈe s n ˈm̩ , ð ˈã n ə , ð ˈə n ə $given, past participle. NIL 68. Demiraj 1997:154. 
+x e d xʷ s w ˈe s m̩ , ð ˈa ʃ ə , ð ˈa ʃ ə $give.aor.act.indic.1sg. Demiraj 1997:154. 
 x e d xʷ t ˈeː , ð ˈa t ə , ð ˈa t ə $give.2pl.aor.act.indic. Schumacher '13: 265. 
 
 
@@ -676,7 +677,7 @@ d r̩ c t ˈe χ , d ɾ ˈi t ə , d ɾ ˈi t ə $light, beam, ray. Cf. Skt. dr�
 	$d-r-h1-gh2 sicken
 d ˈo r x ɢʰ e j o χ , d ˈæ ɾ ɟ , d ˈɛ ɾ ɟ $sicken.1sg.pres.act.indic. Demiraj AE 131. Cf. Middle Low german targen, Old High GErman zergen, etc. Lithuanian dìrgti from zero grade. 
 d ˈe r x ɢʰ o χ , d ˈi e̯ ɾ ɡ , d j ˈɛ ɾ ɡ $lie-ill.1sg.pres.act.indic. Demiraj AE 131. Lith dìrgti in zero grade.
-d ˈeː r x ɢʰ i ˈe s m̩ , d ˈɔ ɾ ɟ ˈa , d ˈɔ ɾ ɟ a $lie-ill.1sg.aor.act.indic. Demiraj AE 131. 
+d ˈeː r x ɢʰ w ˈe s m̩ , d ˈɔ ɾ ɟ ˈa , d ˈɔ ɾ ɟ a $lie-ill.1sg.aor.act.indic. Demiraj AE 131. 
 
 d r ˈu n o s , d ɾ ˈũː ɾ̃ , d ɾ ˈu $wood, tree, trunk. Schumacher '13: 217. Demiraj 1997: 146. Orel 1998: 76. Cf Agk drūs, Gothic triu, Skt dru- "wood", etc. Beekes EDG 357
 d r ˈu χ n i , d ɾ ˈỹː ɾ , d ɾ ˈy $lock. Cf. Skt drun̩a 'bow'. Orel 1998ː 77 with -os, or from -i- -- Demiraj AE 146. 
@@ -704,7 +705,7 @@ dʰ ˈe x t i e χ , d ˈɔ s ə , d ˈɔ s ə $sow. Imberciadori 2024 @DPEWA: d
 
 
 dʰ ˌi χ i ˈo χ , d ˈi , d ˈi $know.1sg.pres.act.indic. Demiraj @DPEWA: di. 
-dʰ ˌi χ t ˈe s m̩ , d ˌi t ˈa , d ˈi t a $know.1sg.aor.act.indic. NIL 120.
+dʰ ˈi χ t w ˈe s m̩ , d ˌi t ˈa , d ˈi t a $know.1sg.aor.act.indic. NIL 120.
 
 dʰ ˈe ɡʷʰ o χ , d ˈi e̯ ɡ , d j ˈɛ ɡ $burn.1sg.pres.act.indic. Schumacher '13: 217. Sanskrit dahati.
 dʰ ˌe ɡʷʰ o j n t ˈe χ s , d ˌi ɟ ˈɛ n ə , d ˈi ɟ ɛ n $burn.3pl.pres.medpass.indic. From -ontoi per Schumacher '13: 219.
@@ -774,8 +775,8 @@ s t ˈo j ɢʰ o s , ʃ t ˈɛ ɡ , ʃ t ˈɛ ɡ $footpath. Schumacher '13: 227.
 	$s-t-χ
 s t e χ , ʃ t ə , ʃ t ə $-shtë suffix. NIL 651. 
 
-	$s-t-h2-w 
-s t e χ w ˈe s m̩ , ʃ t ˌɔ w ˈa , ʃ t ˈɔ v a $add.1sg.aor.act.indic. Cf Lith stóviu "stand, stay", Latvian stãvet 'stand, stay'; Sanskrit sthūn̩ā
+	$s-t-h2 -w  aor
+s t ˈe χ w ˈe s m̩ , ʃ t ˌɔ w ˈa , ʃ t ˈɔ v a $add.1sg.aor.act.indic. Cf Lith stóviu "stand, stay", Latvian stãvet 'stand, stay'; Sanskrit sthūn̩ā
 $s t ˈe χ w e s m o s , ʃ t ˈu o̯ m , ʃ t ˈu a̯ m $add.1pl.aor.act.indic.
 s t ˈu χ l e χ , ʃ t ˈy lˠ ə , ʃ t ˈy lˠ ə $support column. Cf. Gk stȳ́la, Vedic sthū́n̩a  
 s t e χ u n ˈm̩ , ʃ t ˈu o̯ ɾ̃ ə , ʃ t ˈu a̯ ɾ ə $standing, support. NIL 641, 656. AGk stear "dough". But NIL's shtorasë, shtorazi etc forms dont seem to exist.
@@ -790,7 +791,7 @@ s t ˈo l o χ , ʃ t ˈa lˠ , ʃ t ˈa lˠ $coil.1sg.pres.act.indic. Greek sto
 k m̩ s t ˈo l e χ , >* , ɡ ə ʃ t ˈa lˠ ə $stalk. Unsure on prefix. Demiraj says gə-. Demiraj AE 376. 
 s t ˈo l bʰ o s , ʃ t ˈa l b , ʃ t ˈa l b $post, stud. Cf. MLG stalpen "stagnate". Demiraj AE 376. 
 s t ˈe l o χ , ʃ t ˈi e̯ lˠ , ʃ t ˈi e̯ lˠ $wind-up.1sg.pres.act.indic. Cognate to Armenian steɬ-c-anem, OCs po-stɪl-ati, OPr stallt, Greek stellw, the later from -l-n unlike Alb {Beekes mistakenly attributes alb to this n extension}. Beekes EEDG 1397-8. 
-p e r i s t ˈeː l o t , p ɾ̩ ʃ t ˈu o̯ lˠ , p ə ɾ ʃ t ˈu a̯ lˠ $wrap.1sg.aor.act.indic. Old form. Schumacher '13: 222. 
+p e r i s t ˈeː l o χ , p ɾ̩ ʃ t ˈu o̯ lˠ , p ə ɾ ʃ t ˈu a̯ lˠ $wrap.1sg.aor.act.indic. Old form. Schumacher '13: 222. 
 
 
 $ster- spread, scatter, bring down -- Pokorny 1029 apud Demiraj 1997: 374
@@ -877,7 +878,7 @@ l u ɢ ˈe χ , l ˈu ɡ ə , l ˈu ɡ ə $spoon. OCS lǔž-ɪca "spoon". Demi
 l e w ɢ o t ˈe χ , l ə ɡ ˈa t ə , l ə ɡ ˈa t ə $morass, bog. Orel 1998: 221.  Cf. Lith liugas, PSl luʒa, Illyrian onom. lougeon. 
 
 	$ l-w-h3 wash, verb-- Cf. Lat Lavare,  esp Greek louw̄ 'wash, bathe
-l ˈe w xʷ o χ , l ˈaː , l ˈa $wash.1sg.pres.subj.indic. Schumacher '13: 214.
+l ˈo w xʷ o χ , l ˈaː , l ˈa $wash.1sg.pres.subj.indic. Schumacher '13: 214. Cf. Greek louō "wash" -- changed e > o. 
 l ˈo w xʷ n e o χ , l ˈãː ɲ , l ˈa j $wash.1sg.pres.act.indic. Cf. Greek louō "wash". Demiraj AE 230.
 l ˈo w xʷ n m̩ , l ˈãː ɾ̃ ə , l ˈa ɾ ə $rinse water. From participle of laj. Orel AED 214. 
 
@@ -890,3 +891,5 @@ l u d ˈi t i o χ , l ˈu s , l ˈu s $beg. Demiraj AE 248. Lat. laudo̅ ‘to 
 $rs
 r u ɟ ˈe χ , r ˈu ð ə , r ˈu ð ə $wrinkle. Schumacher '13: 246. Lat ruga. 
 
+$TODO INTEGRATE
+c ˌe m t t r ˈo m , >* , θ ˈu n d ə ɾ $hoof. Hyllested & Joseph 2022: 230 as ḱemt-trom 

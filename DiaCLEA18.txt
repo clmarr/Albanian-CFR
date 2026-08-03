@@ -87,11 +87,12 @@ $This is implicit in (and thus implements aspects of) the rules DV2.3B1 (actuall
 $DV1738~2.3A1 r̩ > ri 
 $seems intended to counterbleed DV1738~2.3C4 as formulated above (?)
 ${r̩;ˌr̩;ˈr̩} > {r i;r ˌi;r ˈi}
-$DIACLEA CORRECTION.Ri R̩ > ri after stops, if before coronal or palatal obstruent or nasal, with mismatched voicing. Bleeds .uR 
+$DIACLEA CORRECTION.CLXXI.Ri R̩ > ri after stops, if before coronal or palatal obstruent or nasal, with mismatched voicing. Bleeds .uR 
 {r̩;ˌr̩;ˈr̩;l̩;ˌl̩;ˈl̩} > {r i;r ˌi;r ˈi;l i;l ˌi;l ˈi} / [-cont,avoi] __ [mnas,mson,+cons,-back,-avoi]
 
 $DIACLEA CORRECTION A2.CLXXI.uR R > uR after labials, if not bled by .Ra.  31 cases (tho some are #w-, so covered by D3.XV), bleeding by .Ra in at least 7. 8 cases where this bleeds DV1738~2.3C3 -- RHV > aRHV. 
 {r̩;ˌr̩;ˈr̩;l̩;ˌl̩;ˈl̩} > {u r;ˌu r;ˈu r;u l;ˌu l;ˈu l} / [-syl,+lab] __
+
 
 $DV4.3Q1 & Q2 : intervocalic glides effaced. As pertains to /w/, I infer that this naturally competes with its frication rule (DV4.3L1), and that this one is intended if anything to have priority ,based on the example provided in ve "widow" < *h¹u̯idhʰ1eu̯eh²
 $DIACLEA CORRECTION C1B.XXIV -- pre-APA intervocalic glide deletion doesn't occur after a low vowel, or after a long vowel. 
@@ -126,6 +127,7 @@ $going to boldly assume this happened to all vowels since there are no counterex
 $DIACLEA CORRECTION D3.XVII -- DV3.3A3 suppressed as it is handled by A1.IL; DV4.3Q5 merged into DV2.3G3.I/C2.VII, with no lengthening for consonants. Lengthening now occurs across coronasl too 
 s > ∅ / __ [+cons,+son,-syl]
 
+
 $DV4.3Q5 -- s effaced before l,m,n,r -- so, sonorant consonants. Not if syllabic -- e.g. shtërpij.
 $this also handles DV3.3A3 = DV1741A3 
 $but this must come after DV2.3G3 and DV2.3I3 so as not to bleed their vowel-lengthening aspects. (if this is all more broadly conceived as vowel lengthening this could be of interest as it is also attested for Doric, Ionic and Attic)
@@ -134,14 +136,17 @@ $per Kortlandt 1987 p220 s5iii -- medial PIE *-sd(h)- (he seems to mean intervoc
 $DIACLEA CORRECTION D3.XVII -- DV3.3A3 suppressed as it is handled by A1.IL; DV4.3Q5 merged into DV2.3G3.I/C2.VII, with no lengthening for consonants. 
 $s > ∅ / __ {[+son,+cons,-syl];d;dʰ}
 
+$DIACLEA CORRECTION A2.CLXXI.Ri2 remaining r > ir if tonic else ri. Counterfeeds sr > r rule
+{r̩;ˌr̩;ˈr̩} > {r i;r ˌi;ˈi r}
 
 $DIACLEA CORRECTION A2.CLXXII retraction off of final syllable o if followed by obstruent. Conditioned by CPIE hiatus gliding. Feeds final syll o > u. 
 [+syl] > [+prim] / __ ([-syl])* ˈo [-son] ([-syl])* #
 [+syl] > [-stres] / [+prim] (@)* __ ([-syl])* #
 
 $DIACLEA CORRECTION A1.XXXXVII vocalization of remaining laryngeals, except for medial x which is deleted, and all initial laryngeals, which are all deleted.
+$DIACLEA CORRECTION A1.LIII pre-APA #wr- > #r-. Merged into initial laryngeal losses.
 x > ∅ / [+syl] (@)* __
-[+cont,-son,-cor] > ∅ / # __
+[+cont,-ant,-syl] > ∅ / # __ [+cons]
 [+cont,-son,-cor] > ɑ
 
 $DV1738~2.3C9 calls for insertion of PPAlb a (really ɑ) in between two consonants, but if interpreted to be deterministic this would cause massive errors. The given example is madh "big" < *m̥ĝ, but De Vaan 2018 hedges here, noting that Schumacher 2013(: 238) instead explains this item via analogy. Thus this is not implemented for now. 

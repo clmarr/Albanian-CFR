@@ -19,10 +19,11 @@ w [+cons,+syl,βstres,ɣprim] > [+syl,βstres,ɣprim,+son] [-syl,0stres,0prim]/ 
 s > ∅ / [+cor,+son] __
 s > c͡ç / __ ( [+back,+cont] )* [+prim,+back] ( [+back,+cont] )* s
 s > ∅ / __ [+cons,+son,-syl]
+{r̩;ˌr̩;ˈr̩} > {r i;r ˌi;ˈi r} 
 [+syl] > [+prim,+stres,+syl,+son] / __ ( [-syl] )* ˈo [-son] ( [-syl] )* #
 [+syl] > [-stres,-prim,+syl,+son] / [+prim] ( @ )* __ ( [-syl] )* #
 x > ∅ / [+syl] ( @ )* __
-[+cont,-son,-cor] > ∅ / # __
+[+cont,-ant,-syl] > ∅ / # __ [+cons]
 [+cont,-son,-cor] > ɑ 
 [-cont,+hi,-sg] > [-front,+back,-hi,-round,-lab] / __ [+cons,+son]
 s t > ɟʰ / [-cons] __ r [+syl] ( [-syl] )* #

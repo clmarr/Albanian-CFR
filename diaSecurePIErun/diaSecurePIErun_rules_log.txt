@@ -34,6 +34,7 @@ s t > ɟʰ / [-cons] __ r [+syl] ( [-syl] )* #
 [-cont,+front] > [+delrel,-sg,-cont,+cons,0tense] 
 [+long,+front,-hi] > [-front,+back,+lo] 
 [-cont,+back,+hi] > [+delrel,+strid,+distr,-hi,-back,+front,-round,-cont,+cor,+cons,0tense] / __ [-cons,+front,-lo]
+[+hi,-stres,-long] > ∅ / [-cons] [-son] __ #
 n > m / [+lab,+cont] [+lab,+cons] __
 [-cont] > ∅ / __ m
 [-cont] > t / __ t

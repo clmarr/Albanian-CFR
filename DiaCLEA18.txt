@@ -657,9 +657,6 @@ $[-stres,-lo] > ə / [+prim] (@)* __ @
 $DIACLEA CORRECTION A2.IC - unstressed vowels to ʊ between b and a stop. Doesn't happen to Christian vocab (i.e. priftër vs kut, det-oj etc.). TODO RECONSIDER THIS-
 [-stres] > ʊ / b __ [-cont]
 
-$ resolution of DV1744.D & DV1744.E1 -- see notes on further above, this is motivated by the outcomes in Aromanian and Romanian of PPAlb ɟ͡ʝ vs. PPAlb d in cases where they both ended up as ð in Alb. 
-$DIACLEA CORRECTION B2.XIX -- ts dz to θ ð moved to late CPA; MPA I greek words don't feed it, while MPA I Greek θ treated like inherited ts > θ. 
-{t͡s;d͡z} > {θ;ð}
 
 $DIACLEA CORRECTION A1.XI.b b > beta. As of March 2026, (more efficiently sending this straight to w). 
 b > β / [-cons] __ ([+son,+cons]) [+syl]
@@ -848,18 +845,26 @@ $[+lab,wround,wson,+voi] > v / [+syl,alo,-ahi] ([+nas]) __ [+front,-hi,+stres]
 $ DIACLEA CORRECTION A2.XXXI.b MPA stress retraction V B-strid ˈV-hi C/W Vocoid; bled by w > v taverrë "vetacism" phenom. 
 [+syl] [+lab,-strid,+voi,-nas] [+prim,-hi] > [+prim] [+lab] [-stres] / __ [-syl] [-cons]
 
+$ DIACLEA CORRECTION A2.XXIII.α  [-son] s T2 > sT2 ː brōtascu > breshk, potest-ā- > pushtoj, potestātem > pushtet; trumpisc-ā- > trushkyej [this is an error. tho.] -- feeds pre-fricative nasal loss [this happens later so it can be fed later.]ǃ Causes compensatory lengthening for nonrounds, as seen in non-reduction for farkoj, mashtroj, , and ultimate diphthohngization for mjeshtër. Counterfeeds loss of primary length. Doesn't feed round vowel lengtheningː breshkë not bryeshkë. TODO consider merger with aw > ā phenomenon. 
+	$DIACLEA CORRECTION A2.XXIII.h - merging with .αː deletion of final PIE s > h with lengthening of prior V>. 
+		$however, *s from Latin doesn't delete finally at least after stressed vowels (quis > qysh) -- unlike *k (sīc > shi), or *h < PIE *s. 
+			$non-of the Latin cases here seem to show deletion of *s either so it can be merged in easily. 
+[+syl,-round] > [+long] / __ [-son] ([+cont,-syl] [-cont,-son] (@)*) #
+[-son,-strid] > ∅ / __ ([+cont,-syl] [-cont,-son] (@)*) #
+
+$DIACLEA CORRECTION A2.CLXXVI final y > i in MPA II after specifically obstruents (suh₂ > sˈyː > shi "rain"; tuh₂ > tˈyː > ti "you.2sg", suh₂s > t͡sˈyːh > thi "boar") and nasals (muh₁s > mˈyːh > mˈyː > mi "mouse", nuh₁ > nyː > ni "now"), not liquids (druh₂ni > dry "lock"), in some other cases may be blocked by -j (ty 2sg.acc, ) or -w (h₃k₃ih₁-wes > sy "eye", cf. Armenian ac'ik; dy < duwih₁, etc.). Fed by loss of final -h, COUNTERFED by -iwi > y (dy "two", sy "eye"). Currently not having the liquids exception or any exception as not enough data.
+ˈy > ˈi / __ #
+
 	$ DIACLEA CORRECTION A2.XXXIII.y VwI > y: coalescences #ˌeːwɪˈɒːjɲu > yej, clausitūra > klewɩtȳra > klytyrë, civitātem > kiwɩtātɩ > qytet, pavīcvla > pawícula > pykël, er/revilia > ... >> rryllë; not slāwi > shqe, swawiʎa > shijë. Moved later than A2.XXXIII.k --  seems to counterfeed MPA length loss. 
 [-prim] w [+syl,+hi,+front] > [-stres] ∅ [+tense,+round,+lab,+stres,+long] /  __ [acont,-acons]
 
 $A2.LXXXIII.eu intersonorant e rounding, coalescence with w/β--  VRˈɛW(V)r/l(/z)> ˈœː . Not necessary to apply to aw in case of trabeza -- it's now handled in A1.VI. Fed by D3.XI. 
 [-hi,-lo,+front,+prim] [+cont,+lab,βcons,-βson] > [+round,+lab,-lo,-tense,+long] ∅ / [+son,+cons] __ ([-stres]) [+voi,+cons,-back,-lab]
 
-$ DIACLEA CORRECTION A2.XXIII.α  [-son] s T2 > sT2 ː brōtascu > breshk, potest-ā- > pushtoj, potestātem > pushtet; trumpisc-ā- > trushkyej [this is an error. tho.] -- feeds pre-fricative nasal loss [this happens later so it can be fed later.]ǃ Causes compensatory lengthening for nonrounds, as seen in non-reduction for farkoj, mashtroj, , and ultimate diphthohngization for mjeshtër. Counterfeeds loss of primary length. Doesn't feed round vowel lengtheningː breshkë not bryeshkë. TODO consider merger with aw > ā phenomenon. 
-	$DIACLEA CORRECTION A2.XXIII.h - merging with .αː deletion of final PIE s > h with lengthening of prior V>. 
-		$however, *s from Latin doesn't delete finally at least after stressed vowels (quis > qysh) -- unlike *k (sīc > shi), or *h < PIE *s. 
-			$non-of the Latin cases here seem to show deletion of *s either so it can be merged in easily. 
-[+syl,-round] > [+long] / __ [-son] ([+cont,-syl] [-cont,-son] (@)*) #
-[-son,tcons,-tcont] > ∅ / __ ([+cont,-syl] [-cont,-son] (@)*) #
+
+$ resolution of DV1744.D & DV1744.E1 -- see notes on further above, this is motivated by the outcomes in Aromanian and Romanian of PPAlb ɟ͡ʝ vs. PPAlb d in cases where they both ended up as ð in Alb. 
+$DIACLEA CORRECTION B2.XIX -- ts dz to θ ð moved to early MPA, just late enough to not feed final nonstrident obstruent deletion. Note though that MPA I Greek θ treated like inherited ts > θ. 
+{t͡s;d͡z} > {θ;ð}
 
 
 $DV2.2.1A4.II -- resolving raising before "sh" (which might still be [s] in this cascade) for Latin ē and PPAlb *e in this position (earlier lengthened to feed this, now both to [e] as the short variants are now [ɛ]) 
@@ -1306,7 +1311,7 @@ $DIACLEA CORRECTION A2.LXXXIII.Vwa, bleeding .ɒ, w between V and a final low vo
 w > v / [+syl] __ ([+back])* [+lo] #
 
 $DIACLEA CORRECTION A2.L.a.ii -- æ raises to iː between same sonorance consonants. 
-[-tense,+lo] > [+hi,-lo,+tense,+long] / [ason,+cons] __ [ason,+cons]
+[-tense,+lo,+front] > [+hi,-lo,+tense,+long] / [ason,+cons] __ [ason,+cons]
 
 $DIACLEA CORRECTION A.1 & A2.L : æ(ː?) > eː / C-strid __ C Vfront, elsewhere to a (also A1.I). Even if not long, [æ] tends to be longest vowel and this does not seem to merge with /e/ or /ɛ/ immediately assuming the raising to /i/ (/ɪ/?) phenomenon is a bit later. 
 [+lo,-tense,+syl,+front] > [-lo,+tense,+long] / [+cons,-strid] ([-cons]) __ [-syl] [+front]

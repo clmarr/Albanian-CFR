@@ -471,6 +471,12 @@ $DIACLEA CORRECTION C1B.XI -- DV1740.D4 Lat -ng(u-)>ɲ  now only occurs either a
 $merger of three rules: DV1740.D1 -- PPAlb nj > ɲ; DV1740.D2 PPalb and Lat *gn- backd -gn- > ɲ; DV1740.D3 -- (glided) Latin nj > n (i,e) V) ; expanded to cover ŋ n too. 
 ŋ [+cons] > ɲ / # ((@)* [ʊhi,ʊprim]) __ [+hi,+front]
 
+$DIACLEA CORRECTION A1.LIX.ɲ before nasal obstruent assimilations of material from before CPA , onset #Gn/ɲn > #ɲ- (njomë, njeh, etc.)
+[+cons,+hi] n > ɲ / # __
+
+$DIACLEA CORRECTION A1.LIX regressive coronalization of pre-obstruent peripheral nasal in pre-CPA NT sequences. Does not occur for Latin m-t items at least by the time the come into contact (amita > emtë, collimit-a- > gjëmtoj, etc.). 
+[+nas,-cor] > n / __ [+cor,-nas]
+
 $ Latin(-internal?) NASAL FRICATIVE PHENOMENON : Latin nasals lost before fricatives, making a prior vowel long if there was a prior V. 
 	$ an input assumption for DV1735.D4. wrt krushk "in-law" < CONSOCER 
 	$ some assert these long V-s would have gone through a stage of nasality for the vowels, but De Vaan does not consider this 
@@ -522,7 +528,7 @@ $ DIACLEA CORRECTION A2.XXXX.em o fronts and unrounds before m then unround vowe
 	$ BLEEDS pre-sonorant o-lowering {C5.II}: pōma > pemë not pomë 
 	$ No longer need V after the N bc A2.VIII.nc bleeds it. 
 	$ as of Jul '26 also involves lengthening of the m 
-[-hi,+round] m > [-round,-lab,-back,+front] [+long] / [-back] __
+[-hi,+round] m > [-round,-lab,-back,+front] [+long] / [-back,-hi] __
 
 $DV1740G3 -- PPAlb *-rj- to ʎ. E.g. marathrion > maraj (Rom. marariu). Does not seem (?) intended to be fed by gliding of Latin i,e in hiatus to j, which is below (GLIDING) -- Latin to PAlb etyma listed by De Vaan are clearly unaffected (altarivm p1737; febrvārivs p1745...). Cited to Bonnet 1998: 208ff; Matzinger 2006: 74. 
 $ can be put here before the gliding of Latin i and e.  
@@ -942,8 +948,8 @@ $		$R T1 T2 > R T2 ː excarpt-ā- > shkartoj , canticellum > këngjel,
 	$ handles sanctu words as well. 
 [+cons] > ∅ / [+cons] __ [-son]
 
-$DIACLEA CORRECTION A2.CLXXVIII bleeding MPA II vowel reductions, retraction off of V́V-# finals, with countertonic stress preserved on this if the syllable stress is being retracted onto is not a low vowel before a nasal, with at least two segmemts i nbetween. This retraction will tense ɐ > ɑ 
-[+syl] > [+prim,+tense] / __ ([-syl])* [+prim] ([-cons,-syl]) [+syl] ([-syl])* # 
+$DIACLEA CORRECTION A2.CLXXVIII bleeding MPA II vowel reductions, retraction off of V́V-# finals, with countertonic stress preserved on this if the syllable stress is being retracted onto is not a low vowel before a nasal. This retraction will tense ɐ > ɑ. Retractions does not happen away from ˈi though -- as seen in Latin etyma (kˌulumbenˈijɑ > kullumbëri; Shutrrí, etc...), Greek etyma (ɡˌenˈijɑ > gjëri/gjini; kˌɛrɑsˈijɑ > qershi; magji, etc.), with plausible native examples too (thëri). This and or it doesn't happen across j (Sanctu Andreas > Shënëndre; rrufe ...). 
+[+syl] > [+prim,+tense] / __ ([-syl])* [+prim] ([-cons,-syl,-front]) [+syl] ([-syl])* # 
 [+prim] > [-stres] / [+lo,+prim] [-nas] ([-syl])+ __ ([-cons,-syl]) [+syl] ([-syl])* #
 
 $DIACLEA CORRECTION A1.XV-- reduction in # ([-son])* [-delrel,-voi] __ r ([-syl]) [+prim]... 

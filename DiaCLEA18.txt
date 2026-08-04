@@ -358,7 +358,7 @@ $DIACLEA CORRECTION D2.III -- APA d > ð and ð > j rules deleted. No reason for
 $ð > j / [+syl] __ [+syl] 
 
 $DIACLEA CORRECTION D3.XVIII.0 -- maybe to be later combined with D3.XVIII.1 -- ˈe > ˈa phenomena after w (perhaps also other round elements), separated from a back vowel by a sequence of elements that are not front, not liquid, and contain at least one continuant. Not fed by APA medial reduction (wereneh₂ > verena > verrë). Counterbled by post-consonantal w deletion. Goes to FRONT ˈa, feeding vetacism. Goes to ja instead after s > h . 
-{h w ˈe;w ˈe} > {h j ˈa;w ˈa} / __ ([nnas,nson,-front])* [+cont,-lat,-front] ([nnas,nson,-front])* [+back,+syl]
+{h w ˈe;w ˈe;# ˈe} > {h j ˈæ;w ˈæ;# ˈæ}  / __ ([nnas,nson,-front])* [+cont,-lat,-front] ([nnas,nson,-front])* [+back,+syl]
 
 $DIACLEA CORRECTION A2.CXXXXVII.e APA reduction of non-primary {non-low} non-final front vowels in C __ C . Bleeds i-mutation -- diˈaːmeron > zëmër not zimër, skˈaripʰa > shkarp- not zgjerp-,stˈeripʰa > shterp- not shtirp- , mastíkhino > meshteker etc; also feeds m> b in meletta > bletə. Only happens to initials if separated from word onset by sonorant {bletë, lëken vs. qershi, përrua}. Doesnt happen to finals : dranin > dre. Doesn't happen in strong syllables. 
 [-prim,+front] > ə / {@ [-syl];# [+son,-syl]} __ [+cons] [+syl]
@@ -781,7 +781,8 @@ $no clear way to block this for PPAlb *e, so this will need to be fixed if error
 $ DIACLEA CORRECTION C3B.XX.i-- DV2.2.1C5 e > a now only before long coronals, short l hits too many wrong items, no evidence of this before lˠ either. (prev:  __ { rː;[+lat] }) 
 $ DIACLEA CORRECTION C3B.XX.ii-- D4.VIII -- cer: > car: reinterpreted as cɛ{r,ɾ} > caR only before back element -- u or k relevant -- cark, carr, carkull. The original version causes too many false positives -- luqerre not luqarre etc. 
 $DIACLEA CORRECTION D3.XVIII.1 a--mutation consolidated with DV2.2.1C5 e > a in q, sh __ r, l phenom. It is an e > ja rule, perhaps via æ (cf. Slav æzu > jaz). SHOULD HIT: qark qarkull qarr, shalë, sharrë; (via post-labial j deletion) kwetwōr[-es,-eh₂] > kʷˈetra ? ugh -- but also kelna > qalë; perhaps zjarr (but not zjarm), perhaps gjashtë and shatë (not shtatë), if initial perhaps jashtë, jashtëm, kʷerika > sarkë.  
-[+prim,-round,-tense] > j ˈa / # [+cons,sant,sstrid] __ [+cor,-nas] [-syl,nson,nvoi,ncont,rcor,!rback] [+back]
+[+prim,-round,-tense] > j ˈæ / # [+cons,sant,sstrid] __ [+cor,-nas] [-syl,nson,nvoi,ncont,rcor,!rback] [+back]
+{# ˈæ;# ˌæ;ˈæ;ˌæ} > {# j ˈa;# j ˌa;ˈa;ˌa}
 
 $DV1740E3 -- Lat ll > PAlb l. As [l] is a resonant, this will be totally bled by DV1740F2 if not placed before it.
 $merge with DV1740E1: PPAlb ln > PAlb l; placement for the same counterbleeding reasons.  

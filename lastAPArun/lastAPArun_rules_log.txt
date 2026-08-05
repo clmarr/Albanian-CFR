@@ -164,8 +164,9 @@ b > β / [-cons] __ ( [+son,+cons] ) [+syl]
 [+syl,-round] > [+long] / __ [-son] ( [+cont,-syl] [-cont,-son] ( @ )* ) #
 [-son,-strid] > ∅ / __ ( [+cont,-syl] [-cont,-son] ( @ )* ) #
 ˈy > ˈi / __ #
-[+syl,bprim] w [+syl,+hi,+front,!bprim] > [-stres,-prim,+syl,+son] ∅ ˈyː/ __ ( [acont,!acons] ( @ )* ) #
-[+syl] w [+syl,+hi,+front] > ˌyː/ __ ( [ccons,!ccont] ( @ )* ) #
+[+syl,bprim] w [+syl,+hi,+front,!bprim] > [-stres,-prim,+syl,+son] ∅ ˈyː/ __ [acont,!acons]
+[+syl,-lo,bprim] w [+syl,+hi,+front,!bprim] > [-stres,-prim,+syl,+son] ∅ ˈyː/ __ #
+[+syl] w [+syl,+hi,+front] > ˌyː/ __ [ccons,!ccont]
 [-hi,-lo,+front,+prim] [+cont,+lab,βcons,!βson] > [+round,+lab,-lo,-tense,+long,-cons,-lat,+cont,0delrel] ∅/ [+son,+cons] __ ( [-stres] ) [+voi,+cons,-back,-lab]
 {t͡s;d͡z} > {θ;ð} 
 [+round,+syl] > [+tense,-cons,-lat,+cont,0delrel] 

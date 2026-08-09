@@ -35,9 +35,9 @@ s t > ɟʰ / [-cons] __ r [+syl] ( [-syl] )* #
 [-cont,+front] > [+delrel,-sg,-cont,+cons,0tense] 
 [-prim,+stres,+front] > [+round,+lab,-front,+back,-lo,+hi,nlong] / __ [+son,+lab,-syl,nnas] [-nas]
 [-cont,+back,+hi] > [+delrel,+strid,+distr,-hi,-back,+front,-round,-cont,+cor,+cons,0tense] / __ [-cons,+front,-lo]
-[+long,+front,-hi] > [-front,+back,+lo] 
 [+syl] > [+prim,+stres,+syl,+son] / __ ( [-syl] )* [-hi,+prim] ( [-syl] )* #
 [-hi,+prim] > [-stres,-prim,+syl,+son] / [+prim] ( @ )* __ ( [-syl] )* #
+[+long,+front,-hi] > [-front,+back,+lo] 
 [+hi,-stres,-long] > ∅ / [+syl] ( @ )* [-cons] [-son] __ #
 o > u / [+syl] ( @ )* __ ( [-syl] )* #
 [+round,-hi,+syl,-long] > [+lo,-round,-lab] 

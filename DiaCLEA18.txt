@@ -112,7 +112,7 @@ $DIACLEA CORRECTION C1B.XXIV -- pre-APA intervocalic glide deletion doesn't occu
 [-cons,-syl] > ∅ / [+syl,-lo,-long] __ [-prim]
 
 
-$DIACLEA CORRECTION C2.VII lengthening via DV2.3G3.I limited to if the s was before a sonornat consonant. Unrounding of ɒ̄ before n comes later, and moved to before rs rule, and doesn't happen before n [dhënë, parë] 
+$DIACLEA CORRECTION C2.VII lengthening via DV2.3G3.I limited to if the s was before a sonorant consonant. Unrounding of ɒ̄ before n comes later, and moved to before rs rule, and doesn't happen before n [dhënë, parë]. Dyllë, yll, duar, dorë, kuar... 
 [+syl,-cons] > [+long] / __ s [+cor,+son,-nas]
 
 $DIACLEA CORRECTION A1.L deletion of s after coronal sonorants in pre-APA, before Kortlandt's s.s  > th.s dissimilation law. 
@@ -132,7 +132,6 @@ $going to boldly assume this happened to all vowels since there are no counterex
 $DIACLEA CORRECTION D3.XVII -- DV3.3A3 suppressed as it is handled by A1.IL; DV4.3Q5 merged into DV2.3G3.I/C2.VII, with no lengthening for consonants. Lengthening now occurs across coronasl too 
 s > ∅ / __ [+cons,+son,-syl]
 
-
 $DV4.3Q5 -- s effaced before l,m,n,r -- so, sonorant consonants. Not if syllabic -- e.g. shtërpij.
 $this also handles DV3.3A3 = DV1741A3 
 $but this must come after DV2.3G3 and DV2.3I3 so as not to bleed their vowel-lengthening aspects. (if this is all more broadly conceived as vowel lengthening this could be of interest as it is also attested for Doric, Ionic and Attic)
@@ -143,7 +142,6 @@ $s > ∅ / __ {[+son,+cons,-syl];d;dʰ}
 
 $DIACLEA CORRECTION A2.CLXXI.Ri2 remaining r > ir if tonic else ri. Counterfeeds sr > r rule
 {r̩;ˌr̩;ˈr̩} > {r i;r ˌi;ˈi r}
-
 
 
 $DIACLEA CORRECTION A1.XXXXVII vocalization of remaining laryngeals, except for medial x which is deleted, and all initial laryngeals, which are all deleted.
@@ -202,6 +200,20 @@ $DV4.3I2 & J2 -- fronting of pre-palatal-vowel labiovelars into what are (ultima
 $DIACLEA CORRECTION C2.VIII labiodorsal fronting in pre-APA no longer involves loss of labiality. 
 [-cont,+back,+hi] > [+delrel,+strid,+distr,-hi,-back,+front,-round] / __ [-cons,+front,-lo]
 
+$ DIACLEA CORRECTION  A2.CLXXIIretraction of stress off of final non-high vowels in pre-APA. Conditioned by CPIE hiatus gliding. Feeds final syll o > u.  --  combining former DIACLEA CORRECTION C1.B.XV -- ɑː > ɒː in Archaic Proto-Albanian now doesn't occur in final syllables of non-monosyllables. Handled by feeding A2.CXXXXV, via general stress retraction off of final low vowels in non-monosyllables. Doesn't retract onto anlaut (χepˈo > pa not apë etc.). This does not bleed countertonic em > um (cemttrˈom > t͡sˌemttrˈa > thundër; sˌeːmχtiˈeχ > #ʒˌuːmɑt͡ʃˈɑː). Also resposnible for cases like lëgatë rather than ljegtë via CPA retraction. May feed s > ɟ rather than ʃ in some cases, unclear though. Broadening this to retraction of stress off of final non-high vowels in pre-APA, onto syllable immediately before.
+[+syl] > [+prim] / __ ([-syl])* [-hi,+prim] ([-syl])* #
+[-hi,+prim] > [-stres] / [+prim] (@)* __ ([-syl])* #
+
+$DIACLEA CORRECTION AUG '26: TODO NAME: lengthening of stressed consonants before voiced elements, separate from rule 2o's lengthening before sR e.g. dyllë, yll, kuar, dorë, duar -- or is it? 
+	$ -ds : c͡çɑnˈids -} theri , pˈedsi -} posh, p'edsiteros :} poshtër 
+	$ -ls : t͡ʃᵝelsc͡çˈoːmɑ -} sul-em 
+	$ -rs : ? : kʷˈeːrsneχ -} sorrë 
+	$ -dc͡ç: bythë from bʰ ˈu dʰ c e χ? , ɟʰ ˈe d s c o χ -} doh 
+	$ -ɢnj unclear r ˈe ɢ n e o χ , >* , r ˈɔ ɲ vs. erˈeɢnos > re 
+	$ -dr -- erë? vs. thadër however from c͡çˈodʰrɑ
+	$ -dnj -- shtyj?  but vs dn punë 
+	$ -dtj -- zhys? vs ɢʰlˈɑdʰtjoː to gjas however
+
 $DV2.3G1 ē > ā (really ɑː)
 $note that Orel has a different view, wherein the merger of ē and ā is only completed much later, but De Vaan 2018 reasonably notes AGrk spēlaion > shpellë which could imply it at least must precede the Ancient Greek later. 
 $this also accomplishes the last aspect DV2.3G3
@@ -216,15 +228,6 @@ $DV2.3E2 ei (really with -j now due to handling of hiatus high vowels above; fro
 $for mechanical reasons should come before DV4.3Q1 which effaces j
 $ DIACLEA CORRECTION D2.IX pre-APA ej> i suppressed. Happens later.
 $[+front,-hi,+syl] j > [+hi,+long] ∅
-
-$ DIACLEA CORRECTION  A2.CLXXIIretraction of stress off of final non-high vowels in pre-APA. Conditioned by CPIE hiatus gliding. Feeds final syll o > u.  --  combining former DIACLEA CORRECTION C1.B.XV -- ɑː > ɒː in Archaic Proto-Albanian now doesn't occur in final syllables of non-monosyllables. Handled by feeding A2.CXXXXV, via general stress retraction off of final low vowels in non-monosyllables. Doesn't retract onto anlaut (χepˈo > pa not apë etc.). This does not bleed countertonic em > um (cemttrˈom > t͡sˌemttrˈa > thundër; sˌeːmχtiˈeχ > #ʒˌuːmɑt͡ʃˈɑː). Also resposnible for cases like lëgatë rather than ljegtë via CPA retraction. May feed s > ɟ rather than ʃ in some cases, unclear though. Broadening this to retraction of stress off of final non-high vowels in pre-APA, onto syllable immediately before.
-[+syl] > [+prim] / __ ([-syl])* [-hi,+prim] ([-syl])* #
-[-hi,+prim] > [-stres] / [+prim] (@)* __ ([-syl])* #
-
-
-
-
-
 
 $DIACLEA CORRECTION A2.CLXXV pre-APA deletion of auslaut high vowels after intervocalic obstruents. Tentatively placed to not bleed labiodorsal palatalization. Not fed by A1.XXXXVI
 [+hi,-stres,-long] > ∅ / [+syl] (@)* [-cons] [-son] __ #

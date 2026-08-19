@@ -1,21 +1,19 @@
-Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :1002:
-#tˈeːɡulɑ# >>> *#tˈɛɡlˠə# ( GOLD : #tjˈɛɡulˠ#) :
-t ˈeː ɡ u l ɑ 
-*#tˈeːɡulːɑ# | 12 : {s l;l} > {lː;lː} / [+syl] __ [+syl]
-*#tˈeːɡəlːɑ# | 29 : [-stres] > ə / [+prim] ( @ )* __ @
-Middle Proto-Albanian I stage form : *#tˈeːɡəlːɑ#
-*#tˈeːɡlːɑ# | 32 : ə > ∅ 
-*#tˈeɡlːɑ# | 45 : [+syl] > [-long,-splng] 
-Middle Proto-Albanian II stage form : *#tˈeɡlːɑ#
-*#tˈɛɡlːɑ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-Late Proto-Albanian I stage form : *#tˈɛɡlːɑ#
-Late Proto-Albanian II stage form : *#tˈɛɡlːɑ#
-Late Proto-Albanian III stage form : *#tˈɛɡlːɑ#
-*#tˈɛɡlːa# | 89 : [+lo] > [+front,-back] 
-*#tˈɛɡlːə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-Proto-Tosk-SGheg stage form : *#tˈɛɡlːə#
-*#tˈɛɡlˠə# | 124 : lː > lˠ 
-Proto-Tosk stage form : *#tˈɛɡlˠə#
-Old North Tosk stage form : *#tˈɛɡlˠə#
-Standard Albanian stage form : *#tˈɛɡlˠə#
-Final form : *#tˈɛɡlˠə#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :1002:
+#tˈeɡminem# >>> *#tˈiɡmn# ( GOLD : #tˈiməɾ#) :
+t ˈe ɡ m i n e m 
+*#tˈeɡmine# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+*#tˈeɡməne# | 29 : [-stres] > ə / [+prim] ( @ )* __ @
+Middle Proto-Albanian I stage form : *#tˈeɡməne#
+*#tˈeɡmne# | 32 : ə > ∅ 
+*#tˈɛɡmnɛ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#tˈɛɡmnɛ#
+*#tˈiɡmnɛ# | 49 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round,-cons]
+Late Proto-Albanian I stage form : *#tˈiɡmnɛ#
+Late Proto-Albanian II stage form : *#tˈiɡmnɛ#
+Late Proto-Albanian III stage form : *#tˈiɡmnɛ#
+*#tˈiɡmn# | 98 : [-stres,-lo] > ∅ / __ #
+Proto-Tosk-SGheg stage form : *#tˈiɡmn#
+Proto-Tosk stage form : *#tˈiɡmn#
+Old North Tosk stage form : *#tˈiɡmn#
+Standard Albanian stage form : *#tˈiɡmn#
+Final form : *#tˈiɡmn#

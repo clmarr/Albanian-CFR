@@ -1,21 +1,23 @@
-Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :941:
-#skʷˈɑːtum# >>> *#t͡ʃkʷˈat# ( GOLD : #ʃkˈat#) :
-s kʷ ˈɑː t u m 
-*#skʷˈɑːtu# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
-Middle Proto-Albanian I stage form : *#skʷˈɑːtu#
-*#skʷˈɑːtʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
-*#skʷˈɑtʊ# | 45 : [+syl] > [-long,-splng] 
-*#skʷˈɑtu# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
-Middle Proto-Albanian II stage form : *#skʷˈɑtu#
-Late Proto-Albanian I stage form : *#skʷˈɑtu#
-*#ʃkʷˈɑtu# | 81 : s > ʃ 
-Late Proto-Albanian II stage form : *#ʃkʷˈɑtu#
-Late Proto-Albanian III stage form : *#ʃkʷˈɑtu#
-*#ʃkʷˈatu# | 89 : [+lo] > [+front,-back] 
-*#ʃkʷˈat# | 98 : [-stres,-lo] > ∅ / __ #
-Proto-Tosk-SGheg stage form : *#ʃkʷˈat#
-Proto-Tosk stage form : *#ʃkʷˈat#
-Old North Tosk stage form : *#ʃkʷˈat#
-*#t͡ʃkʷˈat# | 142 : ʃ > t͡ʃ / __ [+cons]
-Standard Albanian stage form : *#t͡ʃkʷˈat#
-Final form : *#t͡ʃkʷˈat#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :941:
+#skˈuːtum# >>> *#t͡ʃt͡ʃˈyt# ( GOLD : #scˈyt#) :
+s k ˈuː t u m 
+*#skˈuːtu# | 28 : [+nas,+cons] > ∅ / [-stres] __ #
+Middle Proto-Albanian I stage form : *#skˈuːtu#
+*#skˈyːtu# | 41 : [+back,+long,+syl,-lo] > [+front,-back] 
+*#skˈyːtʊ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#skˈytʊ# | 45 : [+syl] > [-long,-splng] 
+*#skˈytu# | 47 : [+back,+syl] > [+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#skˈytu#
+Late Proto-Albanian I stage form : *#skˈytu#
+*#scˈytu# | 80 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
+*#ʃcˈytu# | 81 : s > ʃ 
+Late Proto-Albanian II stage form : *#ʃcˈytu#
+Late Proto-Albanian III stage form : *#ʃcˈytu#
+*#ʃcˈyt# | 98 : [-stres,-lo] > ∅ / __ #
+Proto-Tosk-SGheg stage form : *#ʃcˈyt#
+Proto-Tosk stage form : *#ʃcˈyt#
+Old North Tosk stage form : *#ʃcˈyt#
+*#t͡ʃcˈyt# | 142 : ʃ > t͡ʃ / __ [+cons]
+Standard Albanian stage form : *#t͡ʃcˈyt#
+*#t͡ʃt͡ʃˈyt# | 145 : c > t͡ʃ 
+Final form : *#t͡ʃt͡ʃˈyt#

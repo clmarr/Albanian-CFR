@@ -1,13 +1,21 @@
-Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :1003:
-... >>> *#tˈɛmpl̩ˠ# ( GOLD : #tˈɛmpulˠ#) :
-... 
-Middle Proto-Albanian I stage form : ...
-Middle Proto-Albanian II stage form : ...
-Late Proto-Albanian I stage form : ...
-Late Proto-Albanian II stage form : ...
-Late Proto-Albanian III stage form : ...
-Proto-Tosk-SGheg stage form : ...
-Proto-Tosk stage form : *#tˈɛmpl̩ˠ#
-Old North Tosk stage form : *#tˈɛmpl̩ˠ#
-Standard Albanian stage form : *#tˈɛmpl̩ˠ#
-Final form : *#tˈɛmpl̩ˠ#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :1003:
+#tˈeːɡulɑ# >>> *#tˈɛɡlˠə# ( GOLD : #tjˈɛɡulˠ#) :
+t ˈeː ɡ u l ɑ 
+*#tˈeːɡulːɑ# | 12 : {s l;l} > {lː;lː} / [+syl] __ [+syl]
+*#tˈeːɡəlːɑ# | 29 : [-stres] > ə / [+prim] ( @ )* __ @
+Middle Proto-Albanian I stage form : *#tˈeːɡəlːɑ#
+*#tˈeːɡlːɑ# | 32 : ə > ∅ 
+*#tˈeɡlːɑ# | 45 : [+syl] > [-long,-splng] 
+Middle Proto-Albanian II stage form : *#tˈeɡlːɑ#
+*#tˈɛɡlːɑ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+Late Proto-Albanian I stage form : *#tˈɛɡlːɑ#
+Late Proto-Albanian II stage form : *#tˈɛɡlːɑ#
+Late Proto-Albanian III stage form : *#tˈɛɡlːɑ#
+*#tˈɛɡlːa# | 89 : [+lo] > [+front,-back] 
+*#tˈɛɡlːə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
+Proto-Tosk-SGheg stage form : *#tˈɛɡlːə#
+*#tˈɛɡlˠə# | 124 : lː > lˠ 
+Proto-Tosk stage form : *#tˈɛɡlˠə#
+Old North Tosk stage form : *#tˈɛɡlˠə#
+Standard Albanian stage form : *#tˈɛɡlˠə#
+Final form : *#tˈɛɡlˠə#

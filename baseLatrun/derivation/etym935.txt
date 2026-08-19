@@ -1,27 +1,18 @@
-Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :935:
-#skˈoːriɑ# >>> *#t͡ʃt͡ʃˈɛɾɛ# ( GOLD : #zɟˈyɾə#) :
-s k ˈoː r i ɑ 
-*#skˈoːrjɑ# | 9 : [-lo,+syl,-prim] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
-Middle Proto-Albanian I stage form : *#skˈoːrjɑ#
-*#skˈøːrjɑ# | 41 : [+back,+long,+syl,-lo] > [+front,-back] 
-*#skˈørjɑ# | 45 : [+syl] > [-long,-splng] 
-Middle Proto-Albanian II stage form : *#skˈørjɑ#
-*#skˈerjɑ# | 64 : [+front,-cons,-hi] > [-round,-lab] 
-*#skˈɛrjɑ# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
-Late Proto-Albanian I stage form : *#skˈɛrjɑ#
-*#scˈɛrjɑ# | 80 : [+back,-cont] > [-back,+front] / __ [+front,-lo,-cons]
-*#ʃcˈɛrjɑ# | 81 : s > ʃ 
-Late Proto-Albanian II stage form : *#ʃcˈɛrjɑ#
-Late Proto-Albanian III stage form : *#ʃcˈɛrjɑ#
-*#ʃcˈɛrja# | 89 : [+lo] > [+front,-back] 
-*#ʃcˈɛrɛ# | 99 : {j a s;j a} > {ɛ;ɛ} / __ #
-*#ʃcˈɛːrɛ# | 107 : [+prim] > [+long] / __ [+cons,+son]
-Proto-Tosk-SGheg stage form : *#ʃcˈɛːrɛ#
-*#ʃcˈɛːɾɛ# | 126 : r > ɾ 
-Proto-Tosk stage form : *#ʃcˈɛːɾɛ#
-*#ʃcˈɛɾɛ# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#ʃcˈɛɾɛ#
-*#t͡ʃcˈɛɾɛ# | 142 : ʃ > t͡ʃ / __ [+cons]
-Standard Albanian stage form : *#t͡ʃcˈɛɾɛ#
-*#t͡ʃt͡ʃˈɛɾɛ# | 145 : c > t͡ʃ 
-Final form : *#t͡ʃt͡ʃˈɛɾɛ#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :935:
+... >>> *#t͡ʃkəpˈɛt# ( GOLD : #ʃkɔpˈɛt#) :
+... 
+Middle Proto-Albanian I stage form : ...
+Middle Proto-Albanian II stage form : ...
+*#skˌɔpˈɛtu# | 65 : [+syl,-lo,-hi] > [-tense,-cons,-lat,+cont,0delrel] 
+*#skəpˈɛtu# | 68 : [-prim] > ə / @ __ ( @ )* [+prim]
+Late Proto-Albanian I stage form : *#skəpˈɛtu#
+*#ʃkəpˈɛtu# | 81 : s > ʃ 
+Late Proto-Albanian II stage form : *#ʃkəpˈɛtu#
+Late Proto-Albanian III stage form : *#ʃkəpˈɛtu#
+*#ʃkəpˈɛt# | 98 : [-stres,-lo] > ∅ / __ #
+Proto-Tosk-SGheg stage form : *#ʃkəpˈɛt#
+Proto-Tosk stage form : *#ʃkəpˈɛt#
+Old North Tosk stage form : *#ʃkəpˈɛt#
+*#t͡ʃkəpˈɛt# | 142 : ʃ > t͡ʃ / __ [+cons]
+Standard Albanian stage form : *#t͡ʃkəpˈɛt#
+Final form : *#t͡ʃkəpˈɛt#

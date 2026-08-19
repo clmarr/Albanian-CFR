@@ -1,21 +1,27 @@
-Derivation file for run '../Albanian-CFR/baseLatrun'; etymon number :1097:
-#wˈiːllɑ# >>> *#vˈilə# ( GOLD : #vˈilə#) :
-w ˈiː l l ɑ 
-*#wˈiːlɑ# | 13 : {l;n} > {∅;∅} / l __
-*#βˈiːlɑ# | 23 : w > β / # __
-Middle Proto-Albanian I stage form : *#βˈiːlɑ#
-*#βˈilɑ# | 45 : [+syl] > [-long,-splng] 
-Middle Proto-Albanian II stage form : *#βˈilɑ#
-Late Proto-Albanian I stage form : *#βˈilɑ#
-Late Proto-Albanian II stage form : *#βˈilɑ#
-Late Proto-Albanian III stage form : *#βˈilɑ#
-*#βˈila# | 89 : [+lo] > [+front,-back] 
-*#vˈila# | 90 : {β;ʝ} > {v;ɟ} 
-*#vˈilə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
-*#vˈiːlə# | 107 : [+prim] > [+long] / __ [+cons,+son]
-Proto-Tosk-SGheg stage form : *#vˈiːlə#
-Proto-Tosk stage form : *#vˈiːlə#
-*#vˈilə# | 139 : [+long] > [-long,-splng] 
-Old North Tosk stage form : *#vˈilə#
-Standard Albanian stage form : *#vˈilə#
-Final form : *#vˈilə#
+Derivation file for run '../Albanian-diachrony/Albanian-CFR/baseLatrun'; etymon number :1097:
+#wˈiktuɑːliɑ# >>> *#vˈijtvjə# ( GOLD : #viɟˈɛ#) :
+w ˈi k t u ɑː l i ɑ 
+*#wˈiktwɑːljɑ# | 9 : [-lo,+syl,-prim] > [-syl,+hi,-long,0stres,0prim,-splng] / __ [+syl]
+*#wˈiktwɑːʎɑ# | 11 : l j > ʎ 
+*#βˈiktwɑːʎɑ# | 23 : w > β / # __
+*#βˈiktwəʎɑ# | 29 : [-stres] > ə / [+prim] ( @ )* __ @
+Middle Proto-Albanian I stage form : *#βˈiktwəʎɑ#
+*#βˈiktwʎɑ# | 32 : ə > ∅ 
+*#βˈijtwʎɑ# | 36 : [+back,+cons] > j / [+front] ( [+nas] ) __ t
+*#βˈɪjtwʎɑ# | 44 : [-lo,+syl,-long] > [-tense,-cons,-lat,+cont,0delrel] 
+*#βˈejtwʎɑ# | 48 : [+syl,+hi,-tense] > [-hi,+tense,-cons,-lat,+cont,0delrel] 
+Middle Proto-Albanian II stage form : *#βˈejtwʎɑ#
+*#βˈijtwʎɑ# | 49 : {ˈɑ;ˈo;ˈu;ˈe;ˈɛ} > {ˈe;ˈø;ˈy;ˈi;ˈi} / __ ( [-syl] )* [+front,-round,-cons]
+Late Proto-Albanian I stage form : *#βˈijtwʎɑ#
+Late Proto-Albanian II stage form : *#βˈijtwʎɑ#
+Late Proto-Albanian III stage form : *#βˈijtwʎɑ#
+*#βˈijtwʎa# | 89 : [+lo] > [+front,-back] 
+*#vˈijtwʎa# | 90 : {β;ʝ} > {v;ɟ} 
+*#vˈijtvʎa# | 91 : w > v / [+cons] __
+*#vˈijtvʎə# | 100 : {a m s;a n s;a s;a} > {ə;ə;ə;ə} / __ #
+Proto-Tosk-SGheg stage form : *#vˈijtvʎə#
+Proto-Tosk stage form : *#vˈijtvʎə#
+*#vˈijtvjə# | 132 : ʎ > j 
+Old North Tosk stage form : *#vˈijtvjə#
+Standard Albanian stage form : *#vˈijtvjə#
+Final form : *#vˈijtvjə#

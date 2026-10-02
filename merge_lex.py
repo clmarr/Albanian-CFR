@@ -11,7 +11,6 @@ STAGE_CIRCUMFIX = "_"
 NATIVE_NAMES = UTILS.STAGES + ["Albanian"]
 OUTPUT_HEADER = UTILS.STAGES
 
-# TODO note error -- this always marks things as the OUTPUT stage.
 def cmt_stage_marking(line, header_in_use, src):
     content = UTILS.get_lex_line_content(line)
     if content.strip() == "":
@@ -29,12 +28,12 @@ def cmt_stage_marking(line, header_in_use, src):
             break
     cmt_loc = line.find(UTILS.CMT_FLAG)
 
-    morphclause_start = line.find('ɸ')
-    if morphclause_start == -1: 
+    IDclause_start = line.find('ɸ')
+    if IDclause_start == -1:
         return line + (UTILS.CMT_FLAG if cmt_loc == -1 else "") + infix
 
     else: 
-        return line + (UTILS.CMT_FLAG if cmt_loc == -1 else "") + infix + line[morphclause_start:]
+        return line + (UTILS.CMT_FLAG if cmt_loc == -1 else "") + infix + line[IDclause_start:]
 
 
 # makes sure all lines are going to work with the same output header.
